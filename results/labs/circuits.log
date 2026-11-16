@@ -1,0 +1,10 @@
+{'N': 8, 'two_body_terms': 12, 'four_body_terms': 22, 'heavy_hex_cz_per_layer': 297, 'all_to_all_rzz_per_layer': 96}
+{'N': 10, 'two_body_terms': 20, 'four_body_terms': 50, 'heavy_hex_cz_per_layer': 682, 'all_to_all_rzz_per_layer': 202}
+{'N': 12, 'two_body_terms': 30, 'four_body_terms': 95, 'heavy_hex_cz_per_layer': 1195, 'all_to_all_rzz_per_layer': 365}
+{'N': 14, 'two_body_terms': 42, 'four_body_terms': 161, 'heavy_hex_cz_per_layer': 2194, 'all_to_all_rzz_per_layer': 597}
+{'N': 16, 'two_body_terms': 56, 'four_body_terms': 252, 'heavy_hex_cz_per_layer': 3602, 'all_to_all_rzz_per_layer': 910}
+{'N': 18, 'two_body_terms': 72, 'four_body_terms': 372, 'heavy_hex_cz_per_layer': 5759, 'all_to_all_rzz_per_layer': 1316}
+{'N': 20, 'two_body_terms': 90, 'four_body_terms': 525, 'heavy_hex_cz_per_layer': 8376, 'all_to_all_rzz_per_layer': 1827}
+{'N': 24, 'two_body_terms': 132, 'four_body_terms': 946, 'heavy_hex_cz_per_layer': 16758, 'all_to_all_rzz_per_layer': 3212}
+{'N': 28, 'two_body_terms': 182, 'four_body_terms': 1547, 'heavy_hex_cz_per_layer': 29433, 'all_to_all_rzz_per_layer': 5161}
+{'N': 32, 'two_body_terms': 240, 'four_body_terms': 2360, 'heavy_hex_cz_per_layer': 42421, 'all_to_all_rzz_per_layer': 7770}

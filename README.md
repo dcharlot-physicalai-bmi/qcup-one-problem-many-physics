@@ -383,7 +383,7 @@ value (quantum_gate) and reports no joules.
    one-qubit error 5.3e-4, readout 9e-4 and 1.8e-3) are models.py's "quantinuum-h2-2-2024" (memory 4.6e-4 = 5.3e-4 less
    the legacy one-qubit error, the two-qubit line scaled by 1.4/1.93, as the 2023 model was built). Under them the
    carried-over rule crosses 30% near 495 gates on the programs alone and 554 over all Quantinuum circuits (643 and 758
-   on the 2023 figures, against the simulated 756; the 2024 figures were costed, not simulated), the Quantinuum
+   on the 2023 figures, against the simulated 756; the 2024 figures were costed, not simulated, here; finding 28 runs them on Selene), the Quantinuum
    core keeps the same 72 rows and the extension 20 of 82 (37 on the 2023 figures). Quantinuum's later figures (2025 and
    October 2026) were found afterwards on its documentation page and are finding 25, which supersedes the 2024 admission
    here. Models of IBM's calibrations of 2026-11-13 (ibm_kingston, ibm_fez, ibm_marrakesh) put the 30% point at 224
@@ -464,7 +464,7 @@ value (quantum_gate) and reports no joules.
    circuits need at most 103 CZ.
 28. Selene with Quantinuum's published emulator parameters (vendor/selene-params/; README there). All 84 Quantinuum core
    circuits and the 44 extension programs ran on Selene 0.3.8 (state vector, soft-RZ runtime) under Quantinuum's
-   published emulator parameters for H2-1 (2024-05-20) and H2-2 (2024-12-06), the newest it has published, at 200 shots
+   published emulator parameters for H2-1 (2024-05-20) and H2-2 (2024-12-06), the newest in its emulator parameter table, at 200 shots
    (the 4 actinide circuits at 100 to 200). Selene runs one error model at a time: its depolarizing model holds the gate terms and
    the mean readout figure, and our error-model plugin (vendor/selene-params/plugin/, loaded through Selene's documented
    plugin interface) replaces it and holds every term, adding emission and leakage, asymmetric readout, measurement

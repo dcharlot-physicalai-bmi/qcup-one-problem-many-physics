@@ -9,15 +9,15 @@ Run 16 November 2026 on an M3 Ultra (finding 28 of the package README). Emulator
   fit only. The gate lists are the package builder's (builder.tar.xz), SHA-256 equal to
   vendor/results/circuits/manifest_sha256.json. A rebuild with build_circuits.py in the package's pinned environment gives
   the same two-qubit gate pairs in the same order on all 84 and identical gate lists on 47; elsewhere one-qubit counts
-  by gate kind differ by up to 30, and on the chemistry circuits the RZZ angles differ (by up to 0.46 rad), so the
+  differ by up to 20 for one gate kind (30 summed over rx, ry and rz; 13 net), and on the chemistry circuits the RZZ angles differ (by up to 0.46 rad), so the
   chemistry circuits do not rebuild exactly (rebuild/; its max_angle_diff is null wherever the lists differ).
 - **Emulator.** A local copy of Selene 0.3.8 and guppylang 1.2.1 from the corpus lock (env/), state vector, soft-RZ
-  runtime (RZ is a frame change, as on the device). The clock counts two-qubit layers only, and each RZZ is its own
-  layer.
+  runtime (RZ is a frame change, as on the device). The clock counts two-qubit layers only: RZZ gates on separate pairs share a
+  layer, and each gate of a run on one pair takes its own.
 - **Parameter sets.** Quantinuum's published emulator parameters for H2-1 (2024-05-20) and H2-2 (2024-12-06), the newest
   in its emulator parameter table (notebooks/Emulator parameters.csv in its quantinuum-hardware-specifications
-  repository at commit 59e68bb) (params/Emulator_parameters.csv as plain data, params/H2-1_2024-05-20.json and
-  params/H2-2_2024-12-06.json as made by make_params.py). params/mapping.json maps each column of the table to Selene.
+  repository at commit 59e68bb). Here: params/Emulator_parameters.csv (that table as plain data), and
+  params/H2-1_2024-05-20.json and params/H2-2_2024-12-06.json as made by make_params.py. params/mapping.json maps each column of the table to Selene.
   The meanings come from Quantinuum's Emulator Noise Model documentation page (SHA-256 of the page as fetched in
   sources/docs-quantinuum.sha256).
 - **Error models.** Selene runs one error model at a time. Two were run: Selene's own depolarizing model (all but the
@@ -71,7 +71,7 @@ chemistry circuits), while the HQC request still counts them.
 
 Error-free fractions for chemistry sit below the model's e^-b mainly from memory error. The model counts a run of
 gates on one pair as one layer (19 to 35 layers on the transition-metal circuits), while Selene's runtime gives each
-gate its own layer, so the plugin charges memory on 1.6 to 2.2 times the model's qubit-layers: under H2-2's set the
+gate of such a run its own layer (34 to 52 layers), so the plugin charges memory on 1.6 to 2.2 times the model's qubit-layers: under H2-2's set the
 runs show 0.22 to 0.67 memory events per shot, against the model's 0.12 to 0.39. The shares, which are what Q8
 measures, agree with the model.
 

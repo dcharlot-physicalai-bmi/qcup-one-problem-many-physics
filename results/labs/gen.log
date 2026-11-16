@@ -1,0 +1,9 @@
+construction checked at N = 5: 15 spins, minimum 2.0
+{'N': 8, 'spins_quadratised': 36, 'couplings': 288, 'lambda': 80, 'ising_scale': 80, 'ising_offset': 2012.0, 'labs_optimum': 8, 'ising_energy_of_optimum': -25.05}
+{'N': 10, 'spins_quadratised': 55, 'couplings': 575, 'lambda': 96, 'ising_scale': 96, 'ising_offset': 3835.0, 'labs_optimum': 13, 'ising_energy_of_optimum': -39.8125}
+{'N': 12, 'spins_quadratised': 78, 'couplings': 1008, 'lambda': 112, 'ising_scale': 112, 'ising_offset': 6506.0, 'labs_optimum': 10, 'ising_energy_of_optimum': -58.0}
+{'N': 14, 'spins_quadratised': 105, 'couplings': 1617, 'lambda': 128, 'ising_scale': 128, 'ising_offset': 10185.0, 'labs_optimum': 19, 'ising_energy_of_optimum': -79.421875}
+{'N': 16, 'spins_quadratised': 136, 'couplings': 2432, 'lambda': 144, 'ising_scale': 144, 'ising_offset': 15032.0, 'labs_optimum': 24, 'ising_energy_of_optimum': -104.22222222222223}
+{'N': 18, 'spins_quadratised': 171, 'couplings': 3483, 'lambda': 160, 'ising_scale': 160, 'ising_offset': 21207.0, 'labs_optimum': 25, 'ising_energy_of_optimum': -132.3875}
+{'N': 20, 'spins_quadratised': 210, 'couplings': 4800, 'lambda': 176, 'ising_scale': 176, 'ising_offset': 28870.0, 'labs_optimum': 26, 'ising_energy_of_optimum': -163.88636363636363}
+{'N': 22, 'spins_quadratised': 253, 'couplings': 6413, 'lambda': 192, 'ising_scale': 192, 'ising_offset': 38181.0, 'labs_optimum': 39, 'ising_energy_of_optimum': -198.65625}
