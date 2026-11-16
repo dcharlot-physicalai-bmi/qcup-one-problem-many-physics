@@ -1,0 +1,1494 @@
+{
+ "qcup-a2-door-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 78,
+   "rz": 165,
+   "rzz": 89,
+   "rx": 37,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "rx": 38,
+   "ry": 79,
+   "rz": 165,
+   "rzz": 89,
+   "measure": 2
+  }
+ },
+ "qcup-a2-door-r-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 236,
+   "rz": 487,
+   "rzz": 263,
+   "rx": 106,
+   "reset": 4,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "rx": 118,
+   "ry": 237,
+   "rz": 487,
+   "rzz": 263,
+   "reset": 4,
+   "measure": 6
+  }
+ },
+ "qcup-a2-counter-flag-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "rx": 21,
+   "rz": 56,
+   "rzz": 30,
+   "ry": 27,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 21,
+   "rz": 56,
+   "rzz": 30,
+   "ry": 27,
+   "measure": 3
+  }
+ },
+ "qcup-a2-counter-flag-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "rx": 61,
+   "rz": 168,
+   "rzz": 90,
+   "ry": 85,
+   "reset": 6,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "rx": 61,
+   "rz": 168,
+   "rzz": 90,
+   "ry": 85,
+   "reset": 6,
+   "measure": 9
+  }
+ },
+ "qcup-a2-counter-flag-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "rx": 101,
+   "rz": 280,
+   "rzz": 150,
+   "ry": 143,
+   "reset": 12,
+   "measure": 15
+  },
+  "counts_rebuild": {
+   "rx": 101,
+   "rz": 280,
+   "rzz": 150,
+   "ry": 143,
+   "reset": 12,
+   "measure": 15
+  }
+ },
+ "qcup-a2-phase-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 20,
+   "rz": 40,
+   "rzz": 23,
+   "ry": 24,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 17,
+   "rz": 40,
+   "rzz": 23,
+   "ry": 25,
+   "measure": 3
+  }
+ },
+ "qcup-a2-phase-p-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 16,
+   "rz": 27,
+   "rx": 12,
+   "rzz": 16,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "ry": 17,
+   "rz": 27,
+   "rx": 11,
+   "rzz": 16,
+   "measure": 3
+  }
+ },
+ "qcup-a2-phase-r-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 60,
+   "rz": 120,
+   "rzz": 69,
+   "ry": 72,
+   "reset": 6,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "rx": 51,
+   "rz": 120,
+   "rzz": 69,
+   "ry": 75,
+   "reset": 6,
+   "measure": 9
+  }
+ },
+ "qcup-a2-phase-p-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 48,
+   "rz": 81,
+   "rx": 36,
+   "rzz": 48,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "ry": 51,
+   "rz": 81,
+   "rx": 33,
+   "rzz": 48,
+   "measure": 9
+  }
+ },
+ "qcup-a2-phase-r-t5": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 100,
+   "rz": 200,
+   "rzz": 115,
+   "ry": 120,
+   "reset": 12,
+   "measure": 15
+  },
+  "counts_rebuild": {
+   "rx": 85,
+   "rz": 200,
+   "rzz": 115,
+   "ry": 125,
+   "reset": 12,
+   "measure": 15
+  }
+ },
+ "qcup-a2-phase-p-t5": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 80,
+   "rz": 135,
+   "rx": 60,
+   "rzz": 80,
+   "measure": 15
+  },
+  "counts_rebuild": {
+   "ry": 85,
+   "rz": 135,
+   "rx": 55,
+   "rzz": 80,
+   "measure": 15
+  }
+ },
+ "qcup-a2-17-traffic-light-accept-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 4,
+   "rz": 7,
+   "rzz": 3,
+   "ry": 3,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "rx": 4,
+   "rz": 7,
+   "rzz": 3,
+   "ry": 3,
+   "measure": 2
+  }
+ },
+ "qcup-a2-17-traffic-light-accept-p-t1": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 5,
+   "rx": 4,
+   "rzz": 2,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "ry": 5,
+   "rx": 4,
+   "rzz": 2,
+   "measure": 2
+  }
+ },
+ "qcup-a2-17-traffic-light-accept-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 12,
+   "rz": 21,
+   "rzz": 9,
+   "reset": 4,
+   "ry": 9,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "rx": 12,
+   "rz": 21,
+   "rzz": 9,
+   "reset": 4,
+   "ry": 9,
+   "measure": 6
+  }
+ },
+ "qcup-a2-17-traffic-light-accept-p-t3": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 15,
+   "rx": 12,
+   "rzz": 6,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "ry": 15,
+   "rx": 12,
+   "rzz": 6,
+   "measure": 6
+  }
+ },
+ "qcup-a2-17-traffic-light-accept-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 20,
+   "rz": 35,
+   "rzz": 15,
+   "reset": 8,
+   "ry": 15,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "rx": 20,
+   "rz": 35,
+   "rzz": 15,
+   "reset": 8,
+   "ry": 15,
+   "measure": 10
+  }
+ },
+ "qcup-a2-17-traffic-light-accept-p-t5": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 25,
+   "rx": 20,
+   "rzz": 10,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "ry": 25,
+   "rx": 20,
+   "rzz": 10,
+   "measure": 10
+  }
+ },
+ "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 1,
+   "measure": 1
+  },
+  "counts_rebuild": {
+   "rx": 1,
+   "measure": 1
+  }
+ },
+ "qcup-a2-ch07-form-bytes-not-rfc8785-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "reset": 2,
+   "rx": 3,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "reset": 2,
+   "rx": 3,
+   "measure": 3
+  }
+ },
+ "qcup-a2-ch07-form-bytes-not-rfc8785-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "reset": 4,
+   "rx": 5,
+   "measure": 5
+  },
+  "counts_rebuild": {
+   "reset": 4,
+   "rx": 5,
+   "measure": 5
+  }
+ },
+ "qcup-a2-ch17-callee-requires-at-run-time-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "ry": 2,
+   "rx": 3,
+   "rzz": 1,
+   "rz": 2,
+   "measure": 1
+  },
+  "counts_rebuild": {
+   "ry": 2,
+   "rx": 3,
+   "rzz": 1,
+   "rz": 2,
+   "measure": 1
+  }
+ },
+ "qcup-a2-ch17-callee-requires-at-run-time-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 2.220446049250313e-16,
+  "counts_builder": {
+   "reset": 2,
+   "ry": 7,
+   "rx": 3,
+   "rzz": 3,
+   "rz": 7,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "reset": 2,
+   "ry": 7,
+   "rx": 3,
+   "rzz": 3,
+   "rz": 7,
+   "measure": 3
+  }
+ },
+ "qcup-a2-ch17-callee-requires-at-run-time-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 2.220446049250313e-16,
+  "counts_builder": {
+   "reset": 4,
+   "ry": 13,
+   "rx": 3,
+   "rzz": 5,
+   "rz": 13,
+   "measure": 5
+  },
+  "counts_rebuild": {
+   "reset": 4,
+   "ry": 13,
+   "rx": 3,
+   "rzz": 5,
+   "rz": 13,
+   "measure": 5
+  }
+ },
+ "qcup-a2-f6-signed-zero-state-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 4.440892098500626e-16,
+  "counts_builder": {
+   "ry": 2,
+   "rz": 3,
+   "rzz": 1,
+   "measure": 1
+  },
+  "counts_rebuild": {
+   "ry": 2,
+   "rz": 3,
+   "rzz": 1,
+   "measure": 1
+  }
+ },
+ "qcup-a2-f6-signed-zero-state-p-t1": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 1,
+   "measure": 1
+  },
+  "counts_rebuild": {
+   "rx": 1,
+   "measure": 1
+  }
+ },
+ "qcup-a2-f6-signed-zero-state-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 4.440892098500626e-16,
+  "counts_builder": {
+   "ry": 6,
+   "rz": 9,
+   "rzz": 3,
+   "reset": 2,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "ry": 6,
+   "rz": 9,
+   "rzz": 3,
+   "reset": 2,
+   "measure": 3
+  }
+ },
+ "qcup-a2-f6-signed-zero-state-p-t3": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 3,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 3,
+   "measure": 3
+  }
+ },
+ "qcup-a2-f6-signed-zero-state-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 4.440892098500626e-16,
+  "counts_builder": {
+   "ry": 10,
+   "rz": 15,
+   "rzz": 5,
+   "reset": 4,
+   "measure": 5
+  },
+  "counts_rebuild": {
+   "ry": 10,
+   "rz": 15,
+   "rzz": 5,
+   "reset": 4,
+   "measure": 5
+  }
+ },
+ "qcup-a2-f6-signed-zero-state-p-t5": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 5,
+   "measure": 5
+  },
+  "counts_rebuild": {
+   "rx": 5,
+   "measure": 5
+  }
+ },
+ "qcup-a2-ch07-form-injective-f64-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "rx": 3,
+   "rz": 10,
+   "rzz": 4,
+   "ry": 4,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "rx": 3,
+   "rz": 10,
+   "rzz": 4,
+   "ry": 4,
+   "measure": 2
+  }
+ },
+ "qcup-a2-ch07-form-injective-f64-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "rx": 9,
+   "rz": 30,
+   "rzz": 12,
+   "reset": 4,
+   "ry": 12,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "rx": 9,
+   "rz": 30,
+   "rzz": 12,
+   "reset": 4,
+   "ry": 12,
+   "measure": 6
+  }
+ },
+ "qcup-a2-ch07-form-injective-f64-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "rx": 19,
+   "rz": 50,
+   "rzz": 20,
+   "reset": 8,
+   "ry": 18,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "rx": 19,
+   "rz": 50,
+   "rzz": 20,
+   "reset": 8,
+   "ry": 18,
+   "measure": 10
+  }
+ },
+ "qcup-a2-t59-distinguish-mod2-mod3-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 4.440892098500626e-16,
+  "counts_builder": {
+   "ry": 2,
+   "rz": 3,
+   "rzz": 1,
+   "measure": 1
+  },
+  "counts_rebuild": {
+   "ry": 2,
+   "rz": 3,
+   "rzz": 1,
+   "measure": 1
+  }
+ },
+ "qcup-a2-t59-distinguish-mod2-mod3-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 4.440892098500626e-16,
+  "counts_builder": {
+   "ry": 6,
+   "rz": 9,
+   "rzz": 3,
+   "reset": 2,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "ry": 6,
+   "rz": 9,
+   "rzz": 3,
+   "reset": 2,
+   "measure": 3
+  }
+ },
+ "qcup-a2-t59-distinguish-mod2-mod3-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 4.440892098500626e-16,
+  "counts_builder": {
+   "ry": 10,
+   "rz": 15,
+   "rzz": 5,
+   "reset": 4,
+   "measure": 5
+  },
+  "counts_rebuild": {
+   "ry": 10,
+   "rz": 15,
+   "rzz": 5,
+   "reset": 4,
+   "measure": 5
+  }
+ },
+ "qcup-a2-t59-distinguish-mod3-mod4-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 14,
+   "rz": 23,
+   "rzz": 13,
+   "rx": 10,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "ry": 14,
+   "rz": 23,
+   "rzz": 13,
+   "rx": 10,
+   "measure": 2
+  }
+ },
+ "qcup-a2-t59-distinguish-mod3-mod4-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 44,
+   "rz": 71,
+   "rzz": 39,
+   "rx": 28,
+   "reset": 4,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "ry": 44,
+   "rz": 71,
+   "rzz": 39,
+   "rx": 28,
+   "reset": 4,
+   "measure": 6
+  }
+ },
+ "qcup-a2-t59-distinguish-mod3-mod4-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 74,
+   "rz": 119,
+   "rzz": 65,
+   "rx": 46,
+   "reset": 8,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "ry": 74,
+   "rz": 119,
+   "rzz": 65,
+   "rx": 46,
+   "reset": 8,
+   "measure": 10
+  }
+ },
+ "qcup-a2-t59-distinguish-mod5-mod4-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 49,
+   "rz": 183,
+   "rzz": 99,
+   "ry": 85,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 52,
+   "rz": 183,
+   "rzz": 99,
+   "ry": 85,
+   "measure": 3
+  }
+ },
+ "qcup-a2-t59-distinguish-mod5-mod4-r-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 141,
+   "rz": 549,
+   "rzz": 297,
+   "ry": 257,
+   "reset": 6,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "rx": 150,
+   "rz": 549,
+   "rzz": 297,
+   "ry": 257,
+   "reset": 6,
+   "measure": 9
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k4-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 5,
+   "rz": 8,
+   "rzz": 3,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "ry": 5,
+   "rz": 8,
+   "rzz": 3,
+   "measure": 2
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k4-p-t1": {
+  "same_structure": true,
+  "max_angle_diff": 2.220446049250313e-16,
+  "counts_builder": {
+   "ry": 3,
+   "rz": 3,
+   "rzz": 1,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "ry": 3,
+   "rz": 3,
+   "rzz": 1,
+   "measure": 2
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k4-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 15,
+   "rz": 24,
+   "rzz": 9,
+   "reset": 4,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "ry": 15,
+   "rz": 24,
+   "rzz": 9,
+   "reset": 4,
+   "measure": 6
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k4-p-t3": {
+  "same_structure": true,
+  "max_angle_diff": 2.220446049250313e-16,
+  "counts_builder": {
+   "ry": 9,
+   "rz": 9,
+   "rzz": 3,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "ry": 9,
+   "rz": 9,
+   "rzz": 3,
+   "measure": 6
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k4-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 25,
+   "rz": 40,
+   "rzz": 15,
+   "reset": 8,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "ry": 25,
+   "rz": 40,
+   "rzz": 15,
+   "reset": 8,
+   "measure": 10
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k4-p-t5": {
+  "same_structure": true,
+  "max_angle_diff": 2.220446049250313e-16,
+  "counts_builder": {
+   "ry": 15,
+   "rz": 15,
+   "rzz": 5,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "ry": 15,
+   "rz": 15,
+   "rzz": 5,
+   "measure": 10
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k5-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 18,
+   "rz": 42,
+   "rzz": 24,
+   "ry": 24,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 14,
+   "ry": 25,
+   "rz": 43,
+   "rzz": 24,
+   "measure": 3
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k5-p-t1": {
+  "same_structure": true,
+  "max_angle_diff": 1.7763568394002505e-15,
+  "counts_builder": {
+   "ry": 12,
+   "rz": 23,
+   "rx": 10,
+   "rzz": 13,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "ry": 12,
+   "rz": 23,
+   "rx": 10,
+   "rzz": 13,
+   "measure": 3
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k5-r-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 54,
+   "rz": 126,
+   "rzz": 72,
+   "ry": 72,
+   "reset": 6,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "rx": 42,
+   "ry": 75,
+   "rz": 129,
+   "rzz": 72,
+   "reset": 6,
+   "measure": 9
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k5-p-t3": {
+  "same_structure": true,
+  "max_angle_diff": 1.7763568394002505e-15,
+  "counts_builder": {
+   "ry": 36,
+   "rz": 69,
+   "rx": 30,
+   "rzz": 39,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "ry": 36,
+   "rz": 69,
+   "rx": 30,
+   "rzz": 39,
+   "measure": 9
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k5-r-t5": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 90,
+   "rz": 210,
+   "rzz": 120,
+   "ry": 120,
+   "reset": 12,
+   "measure": 15
+  },
+  "counts_rebuild": {
+   "rx": 70,
+   "ry": 125,
+   "rz": 215,
+   "rzz": 120,
+   "reset": 12,
+   "measure": 15
+  }
+ },
+ "qcup-a2-t60-dim-redundant-k5-p-t5": {
+  "same_structure": true,
+  "max_angle_diff": 1.7763568394002505e-15,
+  "counts_builder": {
+   "ry": 60,
+   "rz": 115,
+   "rx": 50,
+   "rzz": 65,
+   "measure": 15
+  },
+  "counts_rebuild": {
+   "ry": 60,
+   "rz": 115,
+   "rx": 50,
+   "rzz": 65,
+   "measure": 15
+  }
+ },
+ "qcup-a2-thermostat-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "rx": 1,
+   "measure": 1
+  },
+  "counts_rebuild": {
+   "rx": 1,
+   "measure": 1
+  }
+ },
+ "qcup-a2-thermostat-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "reset": 2,
+   "rx": 3,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "reset": 2,
+   "rx": 3,
+   "measure": 3
+  }
+ },
+ "qcup-a2-thermostat-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 0.0,
+  "counts_builder": {
+   "reset": 4,
+   "rx": 5,
+   "measure": 5
+  },
+  "counts_rebuild": {
+   "reset": 4,
+   "rx": 5,
+   "measure": 5
+  }
+ },
+ "qcup-a2-session-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 104,
+   "ry": 192,
+   "rz": 408,
+   "rzz": 215,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 105,
+   "ry": 193,
+   "rz": 408,
+   "rzz": 215,
+   "measure": 3
+  }
+ },
+ "qcup-a2-washer-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 46,
+   "rz": 91,
+   "rzz": 50,
+   "rx": 24,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "rx": 25,
+   "ry": 47,
+   "rz": 91,
+   "rzz": 50,
+   "measure": 2
+  }
+ },
+ "qcup-a2-washer-r-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 140,
+   "rz": 265,
+   "rzz": 146,
+   "rx": 76,
+   "reset": 4,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "rx": 83,
+   "ry": 141,
+   "rz": 265,
+   "rzz": 146,
+   "reset": 4,
+   "measure": 6
+  }
+ },
+ "qcup-a2-washer-r-t5": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 233,
+   "rz": 439,
+   "rzz": 242,
+   "rx": 128,
+   "reset": 8,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "rx": 137,
+   "ry": 236,
+   "rz": 439,
+   "rzz": 242,
+   "reset": 8,
+   "measure": 10
+  }
+ },
+ "qcup-a2-equivalent-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 1.5543122344752192e-15,
+  "counts_builder": {
+   "rx": 9,
+   "rz": 17,
+   "rzz": 9,
+   "ry": 9,
+   "measure": 2
+  },
+  "counts_rebuild": {
+   "rx": 9,
+   "rz": 17,
+   "rzz": 9,
+   "ry": 9,
+   "measure": 2
+  }
+ },
+ "qcup-a2-equivalent-r-t3": {
+  "same_structure": true,
+  "max_angle_diff": 1.5543122344752192e-15,
+  "counts_builder": {
+   "rx": 27,
+   "rz": 53,
+   "rzz": 27,
+   "ry": 25,
+   "reset": 4,
+   "measure": 6
+  },
+  "counts_rebuild": {
+   "rx": 27,
+   "rz": 53,
+   "rzz": 27,
+   "ry": 25,
+   "reset": 4,
+   "measure": 6
+  }
+ },
+ "qcup-a2-equivalent-r-t5": {
+  "same_structure": true,
+  "max_angle_diff": 1.5543122344752192e-15,
+  "counts_builder": {
+   "rx": 45,
+   "rz": 89,
+   "rzz": 45,
+   "ry": 41,
+   "reset": 8,
+   "measure": 10
+  },
+  "counts_rebuild": {
+   "rx": 45,
+   "rz": 89,
+   "rzz": 45,
+   "ry": 41,
+   "reset": 8,
+   "measure": 10
+  }
+ },
+ "qcup-a2-counter-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 74,
+   "ry": 160,
+   "rz": 349,
+   "rzz": 182,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 73,
+   "ry": 159,
+   "rz": 349,
+   "rzz": 182,
+   "measure": 3
+  }
+ },
+ "qcup-a2-03-distributed-accept-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 69,
+   "ry": 118,
+   "rz": 266,
+   "rzz": 139,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 68,
+   "ry": 117,
+   "rz": 266,
+   "rzz": 139,
+   "measure": 3
+  }
+ },
+ "qcup-a2-s1-guard-trap-keeps-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 55,
+   "ry": 88,
+   "rz": 205,
+   "rzz": 106,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 55,
+   "ry": 86,
+   "rz": 205,
+   "rzz": 106,
+   "measure": 3
+  }
+ },
+ "qcup-a2-hc-11-fabric-caps-logged-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 23,
+   "ry": 36,
+   "rz": 84,
+   "rzz": 43,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 23,
+   "ry": 34,
+   "rz": 84,
+   "rzz": 43,
+   "measure": 3
+  }
+ },
+ "qcup-a2-hc-11-fabric-caps-logged-r-t3": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 69,
+   "ry": 108,
+   "rz": 252,
+   "rzz": 129,
+   "reset": 6,
+   "measure": 9
+  },
+  "counts_rebuild": {
+   "rx": 69,
+   "ry": 102,
+   "rz": 252,
+   "rzz": 129,
+   "reset": 6,
+   "measure": 9
+  }
+ },
+ "qcup-a2-hc-11-fabric-caps-logged-r-t5": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 115,
+   "ry": 180,
+   "rz": 420,
+   "rzz": 215,
+   "reset": 12,
+   "measure": 15
+  },
+  "counts_rebuild": {
+   "rx": 115,
+   "ry": 170,
+   "rz": 420,
+   "rzz": 215,
+   "reset": 12,
+   "measure": 15
+  }
+ },
+ "qcup-a2-hc-21-kept-step-is-input-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 62,
+   "ry": 93,
+   "rz": 206,
+   "rzz": 108,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 61,
+   "ry": 92,
+   "rz": 206,
+   "rzz": 108,
+   "measure": 3
+  }
+ },
+ "qcup-a2-t62-dependent-differ-r-t1": {
+  "same_structure": true,
+  "max_angle_diff": 1.7763568394002505e-15,
+  "counts_builder": {
+   "rx": 81,
+   "rz": 322,
+   "rzz": 173,
+   "ry": 151,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 81,
+   "rz": 322,
+   "rzz": 173,
+   "ry": 151,
+   "measure": 3
+  }
+ },
+ "qcup-a2-queue-sim-r-t1": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "rx": 74,
+   "ry": 111,
+   "rz": 241,
+   "rzz": 130,
+   "measure": 3
+  },
+  "counts_rebuild": {
+   "rx": 76,
+   "ry": 110,
+   "rz": 241,
+   "rzz": 130,
+   "measure": 3
+  }
+ },
+ "qcup-e-labs8-p1": {
+  "same_structure": true,
+  "max_angle_diff": 8.881784197001252e-16,
+  "counts_builder": {
+   "ry": 97,
+   "rx": 73,
+   "rzz": 96,
+   "rz": 146,
+   "measure": 8
+  },
+  "counts_rebuild": {
+   "ry": 97,
+   "rx": 73,
+   "rzz": 96,
+   "rz": 146,
+   "measure": 8
+  }
+ },
+ "qcup-f-tgt-feo-eq": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 254,
+   "rz": 324,
+   "rzz": 172,
+   "rx": 27,
+   "measure": 16
+  },
+  "counts_rebuild": {
+   "ry": 256,
+   "rz": 324,
+   "rzz": 172,
+   "rx": 26,
+   "measure": 16
+  }
+ },
+ "qcup-f-tgt-feo-stretched": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 384,
+   "rz": 503,
+   "rzz": 353,
+   "rx": 30,
+   "measure": 18
+  },
+  "counts_rebuild": {
+   "ry": 384,
+   "rz": 503,
+   "rzz": 353,
+   "rx": 29,
+   "measure": 18
+  }
+ },
+ "qcup-f-tgt-mno-eq": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 372,
+   "rz": 462,
+   "rzz": 349,
+   "rx": 40,
+   "measure": 18
+  },
+  "counts_rebuild": {
+   "ry": 378,
+   "rz": 462,
+   "rzz": 349,
+   "rx": 35,
+   "measure": 18
+  }
+ },
+ "qcup-f-tgt-mno-stretched": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 375,
+   "rz": 462,
+   "rzz": 349,
+   "rx": 33,
+   "measure": 18
+  },
+  "counts_rebuild": {
+   "ry": 378,
+   "rz": 462,
+   "rzz": 349,
+   "rx": 31,
+   "measure": 18
+  }
+ },
+ "qcup-f-tgt-nio-eq": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 380,
+   "rz": 462,
+   "rzz": 349,
+   "rx": 26,
+   "measure": 18
+  },
+  "counts_rebuild": {
+   "ry": 370,
+   "rz": 462,
+   "rzz": 349,
+   "rx": 35,
+   "measure": 18
+  }
+ },
+ "qcup-f-tgt-nio-stretched": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 246,
+   "rz": 292,
+   "rzz": 164,
+   "rx": 18,
+   "measure": 16
+  },
+  "counts_rebuild": {
+   "ry": 246,
+   "rz": 291,
+   "rzz": 164,
+   "rx": 20,
+   "measure": 16
+  }
+ },
+ "qcup-f-tgt-fes-eq": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 257,
+   "rz": 345,
+   "rzz": 172,
+   "rx": 24,
+   "measure": 16
+  },
+  "counts_rebuild": {
+   "ry": 259,
+   "rz": 345,
+   "rzz": 172,
+   "rx": 24,
+   "measure": 16
+  }
+ },
+ "qcup-f-tgt-fes-stretched": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 300,
+   "rz": 380,
+   "rzz": 276,
+   "rx": 27,
+   "measure": 16
+  },
+  "counts_rebuild": {
+   "ry": 302,
+   "rz": 380,
+   "rzz": 276,
+   "rx": 26,
+   "measure": 16
+  }
+ },
+ "qcup-f-tgt-uo22p-eq": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 910,
+   "rz": 1388,
+   "rzz": 805,
+   "rx": 58,
+   "measure": 26
+  },
+  "counts_rebuild": {
+   "ry": 908,
+   "rz": 1388,
+   "rzz": 805,
+   "rx": 60,
+   "measure": 26
+  }
+ },
+ "qcup-f-tgt-uo22p-stretched": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 754,
+   "rz": 1142,
+   "rzz": 680,
+   "rx": 44,
+   "measure": 24
+  },
+  "counts_rebuild": {
+   "ry": 760,
+   "rz": 1142,
+   "rzz": 680,
+   "rx": 44,
+   "measure": 24
+  }
+ },
+ "qcup-f-tgt-puo2-eq": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 861,
+   "rz": 1202,
+   "rzz": 781,
+   "rx": 53,
+   "measure": 26
+  },
+  "counts_rebuild": {
+   "ry": 860,
+   "rz": 1202,
+   "rzz": 781,
+   "rx": 50,
+   "measure": 26
+  }
+ },
+ "qcup-f-tgt-puo2-stretched": {
+  "same_structure": false,
+  "max_angle_diff": null,
+  "counts_builder": {
+   "ry": 734,
+   "rz": 999,
+   "rzz": 664,
+   "rx": 48,
+   "measure": 24
+  },
+  "counts_rebuild": {
+   "ry": 730,
+   "rz": 999,
+   "rzz": 664,
+   "rx": 53,
+   "measure": 24
+  }
+ }
+}

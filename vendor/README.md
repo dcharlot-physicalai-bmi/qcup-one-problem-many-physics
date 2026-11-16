@@ -1,6 +1,6 @@
 # vendor/: the vendor checks behind the hardware request
 
-Run 15 and 16 November 2026 (findings 19 to 27 of the package README). One folder holds a device result: ibm-check/, the
+Run 15 and 16 November 2026 (findings 19 to 28 of the package README). One folder holds a device result: ibm-check/, the
 first IBM device check (hardware, IBM's free open plan). Everything else is one of these kinds of evidence, each labelled
 where it is used:
 
@@ -8,7 +8,9 @@ where it is used:
 - **Device models**: error budgets built from the makers' figures (Quantinuum's published H2-1 data of 2023-03-10,
   IonQ's Forte characterization of 2026-11-14) and from IBM's calibrations of 2026-11-13 (ibm_kingston, ibm_fez,
   ibm_marrakesh). A model is not a device.
-- **Selene**: Quantinuum's open-source emulator with its depolarizing model set to the H2 figures.
+- **Selene**: Quantinuum's open-source emulator, with its depolarizing model set to the H2 figures (results/models/selene/),
+  and with Quantinuum's published emulator parameters for H2-1 and H2-2 plus our plugin for the terms it lacks
+  (selene-params/, finding 28).
 - **IQM mock**: IQM Resonance's mock of Emerald, priced at 0; it returns random bits, so it checks compilation and time.
 - **Fits of published raw data**: our own fits of Quantinuum's 2023 to 2025 benchmark data (quantinuum-2025/).
 
@@ -34,8 +36,9 @@ where it is used:
 | results/ibm/, results/verify/ibm_analysis_rerun.json | IBM calibration analysis; the rerun is the current one (VERIFY item 8) |
 | results/verify/ | The checker's recomputations: readmit.json, refit_ionq.json, sim_sent_aim2.json, ibm_leading_idle.json |
 | results/analysis.json | The builder's summary of every check |
-| results/circuits/ | Index of the 331 circuits, their OpenQASM 3 files and a SHA-256 manifest of the full circuit set (the IonQ JSON forms and score files listed in it are not copied; build_circuits.py and to_native.py regenerate them) |
+| results/circuits/ | Index of the 331 circuits, their OpenQASM 3 files and a SHA-256 manifest of the full circuit set (the IonQ JSON forms and score files listed in it are not copied; build_circuits.py and to_native.py regenerate them; in the pinned environment the gate pairs and their order rebuild exactly, but not every one-qubit gate, nor the chemistry circuits' RZZ angles: selene-params/rebuild/) |
 | ibm-check/ | The first IBM device check: the sealed preregistration and design, the sealed scripts, the device results, the independent re-score and the derived figures (README there). Replaces ibm-prereg/, which held only the two sealed files |
+| selene-params/ | Selene 0.3.8 runs of all 84 Quantinuum core circuits and the 44 extension programs under Quantinuum's published emulator parameters (H2-1 2024-05-20, H2-2 2024-12-06): parameters and their mapping, the error-model plugin, scripts, positive controls, results, and every shot (runs.tar.xz) (finding 28; README there) |
 | manifest_sha256.json | SHA-256 of every file in this folder except itself |
 
 ## Corrections that apply to files kept as run

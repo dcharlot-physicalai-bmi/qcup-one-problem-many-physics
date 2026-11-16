@@ -13,6 +13,7 @@ and results/manifest_sha256.json are unaffected (the manifest was rechecked and 
 | vendor/scripts/quantinuum_sets.py; vendor/results/models/quantinuum_sets.json | Per-circuit budgets under all eight published Quantinuum H2 figure sets (run on a build host) |
 | vendor/scripts/quantinuum-2025/, vendor/results/quantinuum-2025/ | The 2025 Quantinuum figure check (fits of Quantinuum's raw data, validation, model drive), copied from qcup-quantinuum-2025 |
 | vendor/scripts/iqm/, vendor/results/iqm/ | The IQM Resource Calculator estimate, price list and mock-of-Emerald records, copied from qcup-iqm without ids |
+| vendor/selene-params/ | Selene 0.3.8 runs of all 84 Quantinuum core circuits and the 44 extension programs under Quantinuum's published emulator parameters for H2-1 (2024-05-20) and H2-2 (2024-12-06), with our error-model plugin: parameters, plugin, scripts, controls, results, the circuits and every shot as .tar.xz, the original run's SHA-256 manifest (finding 28). Quantinuum's documentation page and the upstream selene-core sources are listed by SHA-256, not copied |
 
 ## Changed
 
@@ -22,7 +23,7 @@ and results/manifest_sha256.json are unaffected (the manifest was rechecked and 
 | vendor/results/final_request.json | Output of the script above |
 | vendor/scripts/iqm/estimate.py, mock_run.py | Paths made relative to the package; estimate.py's check against final_request.json's table replaced by a check of the earlier set's size (it prices the earlier set, which final_request.json now supersedes). Rerun: estimate.json identical |
 | vendor/scripts/iqm/_tok.py | Reads IQM_TOKEN from the environment in place of a local keychain item |
-| README.md | Header (one device result); findings 11, 21 and 22 marked superseded where they are; findings 23 to 27 added; Limits updated |
+| README.md | Header (one device result); findings 11, 21 and 22 marked superseded where they are; findings 23 to 28 added; the Quantinuum request paragraph points to finding 28; Selene's fit given as 0.145% per gate (0.14454 to three decimals; it read 0.144%); Limits updated |
 | vendor/README.md | Device result and new evidence listed; what is left out; how to run |
 
 ## After the final independent check (verify/VERIFY-final.md, 16 November 2026)

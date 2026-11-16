@@ -1,0 +1,82 @@
+{
+ "C1_readout": {
+  "flip_0": 0.009775,
+  "expect_0": 0.01,
+  "z_0": -0.45226701686664444,
+  "flip_1": 0.04875,
+  "expect_1": 0.05,
+  "z_1": -1.1470786693528099
+ },
+ "C2_memory": {
+  "p1": 0.18295,
+  "expect": 0.17941465196320378,
+  "units_expected": 22,
+  "z": 1.3030357752307924,
+  "clock_first_shot": 22,
+  "memory_units_values": [
+   22
+  ]
+ },
+ "C2_memory_basis_state": {
+  "p_wrong": 0.0,
+  "expect": 0.0,
+  "memory_z_total": 0
+ },
+ "C3_emission": {
+  "leaked_fraction": 0.4998,
+  "expect": 0.5,
+  "z": -0.05656854249491757,
+  "xy_fraction": 0.5002,
+  "leaked_read_as_1": true
+ },
+ "C3_emission_ratio_0": {
+  "leaks": 0,
+  "pauli_1q_per_shot": 1.0
+ },
+ "C4_crosstalk": {
+  "p1": 0.09755,
+  "expect": 0.1,
+  "z": -1.6333333333333384
+ },
+ "C5_depolarizing_vs_plugin": {
+  "program": "qcup-a2-counter-flag-r-t3",
+  "program_stats": {
+   "rzz_native": 90,
+   "rzz_dropped_zero": 0,
+   "rzz_as_frame_pi": 0,
+   "rxy_native": 146,
+   "rxy_dropped_zero": 0,
+   "rz": 168,
+   "measure_mid": 6,
+   "measure_final": 3,
+   "reset": 6,
+   "clbits_written_twice": 0
+  },
+  "selene_native_counts": {
+   "rxy_count": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
+   ],
+   "rz_count": [
+    168
+   ],
+   "rzz_count": [
+    90
+   ]
+  },
+  "expected_faults_per_shot": 2.182,
+  "depolarizing_mean_faults": 2.2145,
+  "plugin_mean_faults": 2.1965,
+  "depolarizing_trace_fidelity": 0.262,
+  "plugin_trace_fidelity": 0.254,
+  "trace_difference_z": 0.8177326321063235
+ },
+ "C6_ideal": {
+  "program": "qcup-a2-counter-flag-r-t3",
+  "trace_fidelity": 1.0
+ }
+}

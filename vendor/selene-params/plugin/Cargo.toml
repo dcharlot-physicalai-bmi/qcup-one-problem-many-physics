@@ -1,0 +1,24 @@
+[package]
+name = "qcup-published-noise"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Selene error-model plugin: the terms of a trapped-ion maker's published emulator parameter table (p1, p1_emission_ratio, p2, p2_emission_ratio, dephasing, measurement crosstalk, asymmetric readout)"
+license = "Apache-2.0"
+
+[lib]
+name = "qcup_published_noise_plugin"
+path = "rust/lib.rs"
+doctest = false
+crate-type = ["cdylib"]
+
+[dependencies]
+# selene-core 0.3.4, the core selene-sim 0.3.8 installs (the corpus lock), from the selene-sim-v0.3.8 tag (vendor/selene-core; hashes in vendor/selene-core-0.3.8-tag.sha256). The plugin ABI must match it.
+selene-core = { path = "vendor/selene-core" }
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+rand = "0.9"
+rand_pcg = "0.9"
+
+[profile.release]
+opt-level = 3

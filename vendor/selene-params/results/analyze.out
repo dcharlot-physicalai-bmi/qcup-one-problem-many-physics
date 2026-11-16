@@ -1,0 +1,364 @@
+{
+ "controls": {
+  "failures": [],
+  "ideal_runs": 124,
+  "ideal_programs_all_exact": true,
+  "ideal_chem_all_right_numbers": true,
+  "labs8_ideal_optimum_probability": {
+   "selene_200_shots": 0.105,
+   "builder_exact": 0.11160177326377975
+  }
+ },
+ "fits": {
+  "H2-1_2024-05-20": {
+   "core_71_programs": {
+    "model_rule_lsq": {
+     "points": 71,
+     "loss_per_two_qubit_gate_pct": 0.2507,
+     "r2": 0.951,
+     "gates_at_30pct": 486,
+     "fidelity_at_zero_gates": 1.0157
+    },
+    "model_rule_median_per_gate": 869.9,
+    "final_request_json_aim2_programs": 506.2,
+    "published": {
+     "lsq_at_least_20_correct": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.1614,
+      "r2": 0.94,
+      "gates_at_30pct": 739,
+      "fidelity_at_zero_gates": 0.9892
+     },
+     "lsq_all_nonzero": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.1614,
+      "r2": 0.94,
+      "gates_at_30pct": 739,
+      "fidelity_at_zero_gates": 0.9892
+     },
+     "median_per_gate": 599.1,
+     "programs": 71,
+     "median_error_ratio_selene_over_model": 0.835,
+     "programs_in_error_ratio": 35
+    },
+    "depolarizing": {
+     "lsq_at_least_20_correct": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.0855,
+      "r2": 0.904,
+      "gates_at_30pct": 1398,
+      "fidelity_at_zero_gates": 0.9916
+     },
+     "lsq_all_nonzero": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.0855,
+      "r2": 0.904,
+      "gates_at_30pct": 1398,
+      "fidelity_at_zero_gates": 0.9916
+     },
+     "median_per_gate": 1036.9,
+     "programs": 71,
+     "median_error_ratio_selene_over_model": 0.46,
+     "programs_in_error_ratio": 35
+    }
+   },
+   "all_115_quantinuum_programs": {
+    "model_rule_lsq": {
+     "points": 115,
+     "loss_per_two_qubit_gate_pct": 0.3606,
+     "r2": 0.983,
+     "gates_at_30pct": 360,
+     "fidelity_at_zero_gates": 1.1032
+    },
+    "model_rule_median_per_gate": 506.2,
+    "final_request_json_aim2_programs": 506.2,
+    "published": {
+     "lsq_at_least_20_correct": {
+      "points": 104,
+      "loss_per_two_qubit_gate_pct": 0.1649,
+      "r2": 0.967,
+      "gates_at_30pct": 715,
+      "fidelity_at_zero_gates": 0.976
+     },
+     "lsq_all_nonzero": {
+      "points": 115,
+      "loss_per_two_qubit_gate_pct": 0.1851,
+      "r2": 0.97,
+      "gates_at_30pct": 655,
+      "fidelity_at_zero_gates": 1.0091
+     },
+     "median_per_gate": 634.8,
+     "programs": 115,
+     "median_error_ratio_selene_over_model": 0.634,
+     "programs_in_error_ratio": 79
+    },
+    "depolarizing": {
+     "lsq_at_least_20_correct": {
+      "points": 115,
+      "loss_per_two_qubit_gate_pct": 0.0827,
+      "r2": 0.971,
+      "gates_at_30pct": 1442,
+      "fidelity_at_zero_gates": 0.9896
+     },
+     "lsq_all_nonzero": {
+      "points": 115,
+      "loss_per_two_qubit_gate_pct": 0.0827,
+      "r2": 0.971,
+      "gates_at_30pct": 1442,
+      "fidelity_at_zero_gates": 0.9896
+     },
+     "median_per_gate": 1264.8,
+     "programs": 115,
+     "median_error_ratio_selene_over_model": 0.288,
+     "programs_in_error_ratio": 79
+    }
+   }
+  },
+  "H2-2_2024-12-06": {
+   "core_71_programs": {
+    "model_rule_lsq": {
+     "points": 71,
+     "loss_per_two_qubit_gate_pct": 0.2556,
+     "r2": 0.953,
+     "gates_at_30pct": 477,
+     "fidelity_at_zero_gates": 1.0157
+    },
+    "model_rule_median_per_gate": 839.4,
+    "final_request_json_aim2_programs": 495.1,
+    "published": {
+     "lsq_at_least_20_correct": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.1687,
+      "r2": 0.908,
+      "gates_at_30pct": 707,
+      "fidelity_at_zero_gates": 0.9896
+     },
+     "lsq_all_nonzero": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.1687,
+      "r2": 0.908,
+      "gates_at_30pct": 707,
+      "fidelity_at_zero_gates": 0.9896
+     },
+     "median_per_gate": 573.8,
+     "programs": 71,
+     "median_error_ratio_selene_over_model": 0.871,
+     "programs_in_error_ratio": 35
+    },
+    "depolarizing": {
+     "lsq_at_least_20_correct": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.0858,
+      "r2": 0.87,
+      "gates_at_30pct": 1392,
+      "fidelity_at_zero_gates": 0.9903
+     },
+     "lsq_all_nonzero": {
+      "points": 71,
+      "loss_per_two_qubit_gate_pct": 0.0858,
+      "r2": 0.87,
+      "gates_at_30pct": 1392,
+      "fidelity_at_zero_gates": 0.9903
+     },
+     "median_per_gate": 972.9,
+     "programs": 71,
+     "median_error_ratio_selene_over_model": 0.453,
+     "programs_in_error_ratio": 35
+    }
+   },
+   "all_115_quantinuum_programs": {
+    "model_rule_lsq": {
+     "points": 115,
+     "loss_per_two_qubit_gate_pct": 0.3641,
+     "r2": 0.984,
+     "gates_at_30pct": 357,
+     "fidelity_at_zero_gates": 1.1019
+    },
+    "model_rule_median_per_gate": 495.1,
+    "final_request_json_aim2_programs": 495.1,
+    "published": {
+     "lsq_at_least_20_correct": {
+      "points": 103,
+      "loss_per_two_qubit_gate_pct": 0.1619,
+      "r2": 0.946,
+      "gates_at_30pct": 720,
+      "fidelity_at_zero_gates": 0.9627
+     },
+     "lsq_all_nonzero": {
+      "points": 115,
+      "loss_per_two_qubit_gate_pct": 0.1864,
+      "r2": 0.959,
+      "gates_at_30pct": 647,
+      "fidelity_at_zero_gates": 1.0039
+     },
+     "median_per_gate": 594.5,
+     "programs": 115,
+     "median_error_ratio_selene_over_model": 0.609,
+     "programs_in_error_ratio": 79
+    },
+    "depolarizing": {
+     "lsq_at_least_20_correct": {
+      "points": 115,
+      "loss_per_two_qubit_gate_pct": 0.0887,
+      "r2": 0.967,
+      "gates_at_30pct": 1351,
+      "fidelity_at_zero_gates": 0.9949
+     },
+     "lsq_all_nonzero": {
+      "points": 115,
+      "loss_per_two_qubit_gate_pct": 0.0887,
+      "r2": 0.967,
+      "gates_at_30pct": 1351,
+      "fidelity_at_zero_gates": 0.9949
+     },
+     "median_per_gate": 1199.5,
+     "programs": 115,
+     "median_error_ratio_selene_over_model": 0.317,
+     "programs_in_error_ratio": 79
+    }
+   }
+  }
+ },
+ "hqc": {
+  "programs_and_labs8_72_rows": 2695.4,
+  "transition_metal_8_at_200": 1208.9,
+  "actinides_4_at_100": 789.9,
+  "total": 4694.2,
+  "final_request_json": 4694.2,
+  "matches_final_request": true
+ },
+ "admission": {
+  "H2-1_2024-05-20|published": {
+   "circuits": 84,
+   "pass": 80,
+   "interval_straddles_30pct": [
+    "qcup-f-tgt-feo-stretched",
+    "qcup-f-tgt-mno-eq",
+    "qcup-f-tgt-mno-stretched"
+   ],
+   "by_group": {
+    "program": {
+     "n": 71,
+     "pass": 71,
+     "min": 0.585,
+     "max": 1.0
+    },
+    "labs": {
+     "n": 1,
+     "pass": 1,
+     "min": 0.565,
+     "max": 0.565
+    },
+    "transition_metal": {
+     "n": 8,
+     "pass": 8,
+     "min": 0.335,
+     "max": 0.575
+    },
+    "actinide": {
+     "n": 4,
+     "pass": 0,
+     "min": 0.085,
+     "max": 0.14
+    }
+   },
+   "fail": [
+    "qcup-f-tgt-uo22p-eq",
+    "qcup-f-tgt-uo22p-stretched",
+    "qcup-f-tgt-puo2-eq",
+    "qcup-f-tgt-puo2-stretched"
+   ]
+  },
+  "H2-1_2024-05-20|depolarizing": {
+   "circuits": 80,
+   "pass": 80,
+   "interval_straddles_30pct": [],
+   "by_group": {
+    "program": {
+     "n": 71,
+     "pass": 71,
+     "min": 0.75,
+     "max": 1.0
+    },
+    "labs": {
+     "n": 1,
+     "pass": 1,
+     "min": 0.855,
+     "max": 0.855
+    },
+    "transition_metal": {
+     "n": 8,
+     "pass": 8,
+     "min": 0.665,
+     "max": 0.79
+    }
+   },
+   "fail": []
+  },
+  "H2-2_2024-12-06|published": {
+   "circuits": 84,
+   "pass": 80,
+   "interval_straddles_30pct": [
+    "qcup-f-tgt-feo-stretched"
+   ],
+   "by_group": {
+    "program": {
+     "n": 71,
+     "pass": 71,
+     "min": 0.585,
+     "max": 1.0
+    },
+    "labs": {
+     "n": 1,
+     "pass": 1,
+     "min": 0.545,
+     "max": 0.545
+    },
+    "transition_metal": {
+     "n": 8,
+     "pass": 8,
+     "min": 0.34,
+     "max": 0.625
+    },
+    "actinide": {
+     "n": 4,
+     "pass": 0,
+     "min": 0.07,
+     "max": 0.15
+    }
+   },
+   "fail": [
+    "qcup-f-tgt-uo22p-eq",
+    "qcup-f-tgt-uo22p-stretched",
+    "qcup-f-tgt-puo2-eq",
+    "qcup-f-tgt-puo2-stretched"
+   ]
+  },
+  "H2-2_2024-12-06|depolarizing": {
+   "circuits": 80,
+   "pass": 80,
+   "interval_straddles_30pct": [],
+   "by_group": {
+    "program": {
+     "n": 71,
+     "pass": 71,
+     "min": 0.735,
+     "max": 1.0
+    },
+    "labs": {
+     "n": 1,
+     "pass": 1,
+     "min": 0.87,
+     "max": 0.87
+    },
+    "transition_metal": {
+     "n": 8,
+     "pass": 8,
+     "min": 0.63,
+     "max": 0.835
+    }
+   },
+   "fail": []
+  }
+ }
+}
