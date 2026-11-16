@@ -1,0 +1,651 @@
+[
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 213,
+   "two_qubit_depth": 190,
+   "depth": 629,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6595,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 99,
+   "two_qubit_depth": 96,
+   "depth": 262,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9425,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 213,
+   "two_qubit_depth": 190,
+   "depth": 630,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6595,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 99,
+   "two_qubit_depth": 96,
+   "depth": 262,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9425,
+   "shots": 2000
+  },
+  "guppy_gates": 270
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 457,
+   "two_qubit_depth": 372,
+   "depth": 1210,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.356,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 196,
+   "two_qubit_depth": 183,
+   "depth": 496,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8655,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 7,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 451,
+   "two_qubit_depth": 385,
+   "depth": 1274,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.372,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 198,
+   "two_qubit_depth": 191,
+   "depth": 520,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.864,
+   "shots": 2000
+  },
+  "guppy_gates": 541
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 645,
+   "two_qubit_depth": 532,
+   "depth": 1732
+  },
+  "ion_like": {
+   "two_qubit_gates": 293,
+   "two_qubit_depth": 270,
+   "depth": 731
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 7,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 691,
+   "two_qubit_depth": 581,
+   "depth": 1920,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2355,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 297,
+   "two_qubit_depth": 286,
+   "depth": 778,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.801,
+   "shots": 2000
+  },
+  "guppy_gates": 814
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 882,
+   "two_qubit_depth": 703,
+   "depth": 2249
+  },
+  "ion_like": {
+   "two_qubit_gates": 390,
+   "two_qubit_depth": 357,
+   "depth": 966
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 7,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 929,
+   "two_qubit_depth": 776,
+   "depth": 2565,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.128,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 396,
+   "two_qubit_depth": 381,
+   "depth": 1036,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7345,
+   "shots": 2000
+  },
+  "guppy_gates": 1085
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   4,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1100,
+   "two_qubit_depth": 876,
+   "depth": 2866
+  },
+  "ion_like": {
+   "two_qubit_gates": 487,
+   "two_qubit_depth": 444,
+   "depth": 1200
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   4,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1183,
+   "two_qubit_depth": 992,
+   "depth": 3246,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0765,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 495,
+   "two_qubit_depth": 476,
+   "depth": 1294,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.673,
+   "shots": 2000
+  },
+  "guppy_gates": 1356,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 1056,
+   "active_qubits": 7,
+   "depth": 3108,
+   "trace_fidelity": 0.034,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 1032,
+   "active_qubits": 7,
+   "depth": 2958,
+   "trace_fidelity": 0.072,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1183,
+   "two_qubit_depth": 992,
+   "depth": 3247,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.068,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 495,
+   "two_qubit_depth": 476,
+   "depth": 1293,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6875,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1183,
+   "two_qubit_depth": 992,
+   "depth": 3244,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.077,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 495,
+   "two_qubit_depth": 476,
+   "depth": 1293,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7235,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   4,
+   3,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1183,
+   "two_qubit_depth": 992,
+   "depth": 3246,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.063,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 495,
+   "two_qubit_depth": 476,
+   "depth": 1293,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7205,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod5_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "kind": "exact",
+  "states": 5,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 21,
+  "anf_literals": 38,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   0,
+   0,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   1,
+   3,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1183,
+   "two_qubit_depth": 992,
+   "depth": 3246,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.068,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 495,
+   "two_qubit_depth": 476,
+   "depth": 1293,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7095,
+   "shots": 2000
+  }
+ }
+]

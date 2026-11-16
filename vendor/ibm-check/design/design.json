@@ -1,0 +1,2027 @@
+{
+ "circuits": [
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 8,
+   "cz": 10,
+   "want": "1001001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.879,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 10,
+     "active_qubits": 2,
+     "depth": 46,
+     "trace_fidelity": 0.8795,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 10,
+     "active_qubits": 2,
+     "depth": 51,
+     "trace_fidelity": 0.9265,
+     "shots": 2000
+    }
+   },
+   "id": "a2-17-traffic-light-accept-p5",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3,
+    2,
+    0,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 40,
+   "want": "1000101101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.785,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 42,
+     "active_qubits": 5,
+     "depth": 79,
+     "trace_fidelity": 0.8025,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 40,
+     "active_qubits": 5,
+     "depth": 77,
+     "trace_fidelity": 0.866,
+     "shots": 2000
+    }
+   },
+   "id": "a2-ch07-form-injective-f64-r5",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 75,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.841,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-r1",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 150,
+   "want": "0100100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.608,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 146,
+     "active_qubits": 5,
+     "depth": 424,
+     "trace_fidelity": 0.562,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 146,
+     "active_qubits": 5,
+     "depth": 435,
+     "trace_fidelity": 0.6495,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t59-distinguish-mod3-mod4-r5",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod5_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 213,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6595,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod5-mod4-r1",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_21_kept_step_is_input",
+   "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 271,
+   "want": "000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.5805,
+   "package_snapshot": {},
+   "id": "a2-hc-21-kept-step-is-input-r1",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "trace_bits": 15,
+   "uniform_floor": 3.0517578125e-05,
+   "qubits": 6,
+   "resets": 12,
+   "mid_circuit_measurements": 12,
+   "cz": 300,
+   "want": "000100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.443,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 277,
+     "active_qubits": 6,
+     "depth": 761,
+     "trace_fidelity": 0.358,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 271,
+     "active_qubits": 6,
+     "depth": 757,
+     "trace_fidelity": 0.5355,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t60-dim-redundant-k5-r5",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "queue_sim",
+   "source": "programs/world/queue_sim.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 303,
+   "want": "000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.5355,
+   "package_snapshot": {},
+   "id": "a2-queue-sim-r1",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "counter",
+   "source": "book/listings/ch04/counter.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 422,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.502,
+   "package_snapshot": {},
+   "id": "a2-counter-r1",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_11_fabric_caps_logged",
+   "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "trace_bits": 15,
+   "uniform_floor": 3.0517578125e-05,
+   "qubits": 6,
+   "resets": 12,
+   "mid_circuit_measurements": 12,
+   "cz": 474,
+   "want": "101100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.321,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 444,
+     "active_qubits": 6,
+     "depth": 1298,
+     "trace_fidelity": 0.2425,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 454,
+     "active_qubits": 6,
+     "depth": 1328,
+     "trace_fidelity": 0.308,
+     "shots": 2000
+    }
+   },
+   "id": "a2-hc-11-fabric-caps-logged-r5",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "washer",
+   "source": "programs/multi/washer.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "reference_trace": [
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 6,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 566,
+   "want": "1010101001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.276,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 533,
+     "active_qubits": 6,
+     "depth": 1528,
+     "trace_fidelity": 0.1715,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 534,
+     "active_qubits": 6,
+     "depth": 1493,
+     "trace_fidelity": 0.281,
+     "shots": 2000
+    }
+   },
+   "id": "a2-washer-r5",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "door",
+   "source": "book/listings/ch05/door.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    3,
+    1,
+    0
+   ],
+   "reference_trace": [
+    0,
+    0,
+    1
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 6,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 610,
+   "want": "010000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.3015,
+   "package_snapshot": {},
+   "id": "a2-door-r3",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "03_distributed_accept",
+   "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 648,
+   "want": "011001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.25,
+   "package_snapshot": {},
+   "id": "a2-03-distributed-accept-g2",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "s1_guard_trap_keeps",
+   "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    1
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 7,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 764,
+   "want": "011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.168,
+   "package_snapshot": {},
+   "id": "a2-s1-guard-trap-keeps-r3",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "t62_dependent_differ",
+   "source": "conformance/tests/properties/t62-dependent-differ.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 7,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 840,
+   "want": "011001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.204,
+   "package_snapshot": {},
+   "id": "a2-t62-dependent-differ-r2",
+   "shots": 1000
+  },
+  {
+   "kind": "aim2",
+   "form": "session",
+   "source": "programs/multi/session.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 2,
+   "event_stream": [
+    2,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 8,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 1113,
+   "want": "001000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.1285,
+   "package_snapshot": {},
+   "id": "a2-session-r2",
+   "shots": 1000
+  },
+  {
+   "kind": "control_zero_cz",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 3,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 0,
+   "want": "11111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9425,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.97,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.991,
+     "shots": 2000
+    }
+   },
+   "id": "ctl-zero-cz-thermostat-r5",
+   "shots": 1000
+  },
+  {
+   "kind": "control_mirror",
+   "qubits": 6,
+   "cz": 18,
+   "want": "101101",
+   "creg": "c",
+   "uniform_floor": 0.015625,
+   "description": "3 layers of rz(k pi/4) sx and a CZ matching on the 6-qubit heavy-hex patch, then the exact inverse, then X on bits 0,2,3,5",
+   "id": "ctl-mirror-6q",
+   "shots": 1000
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 12,
+   "p": 1,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 12,
+   "cz": 130,
+   "package_heavy_hex_cz": 130,
+   "ideal_p_gs": 0.4739104860518585,
+   "ground_states": [
+    672
+   ],
+   "e_min": -6.661559654723064,
+   "e_max": 1.095696165880596,
+   "creg": "meas",
+   "uniform_floor": 0.000244140625,
+   "gw16_is_optimal": true,
+   "id": "a1-b12-p1-warm",
+   "shots": 4000
+  },
+  {
+   "kind": "aim1",
+   "family": "R",
+   "n": 12,
+   "p": 2,
+   "start": "cold",
+   "placement": "route",
+   "qubits": 12,
+   "cz": 193,
+   "package_heavy_hex_cz": 193,
+   "ideal_p_gs": 0.5264886848063002,
+   "ground_states": [
+    2068
+   ],
+   "e_min": -6.796875,
+   "e_max": 19.328125,
+   "creg": "meas",
+   "uniform_floor": 0.000244140625,
+   "gw16_is_optimal": true,
+   "id": "a1-r12-p2-cold",
+   "shots": 4000
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 20,
+   "p": 1,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 20,
+   "cz": 351,
+   "package_heavy_hex_cz": 351,
+   "ideal_p_gs": 0.514869220296107,
+   "ground_states": [
+    390471
+   ],
+   "e_min": -9.56293721437081,
+   "e_max": 1.4947151510261525,
+   "creg": "meas",
+   "uniform_floor": 9.5367431640625e-07,
+   "gw16_is_optimal": true,
+   "id": "a1-b20-p1-warm",
+   "shots": 4000
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 16,
+   "p": 2,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 16,
+   "cz": 449,
+   "package_heavy_hex_cz": 449,
+   "ideal_p_gs": 0.8731864929472171,
+   "ground_states": [
+    58069
+   ],
+   "e_min": -7.251824156557774,
+   "e_max": 1.3185425144731813,
+   "creg": "meas",
+   "uniform_floor": 1.52587890625e-05,
+   "gw16_is_optimal": true,
+   "id": "a1-b16-p2-warm",
+   "shots": 4000
+  },
+  {
+   "kind": "aim1",
+   "family": "D",
+   "n": 12,
+   "p": 2,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 12,
+   "cz": 523,
+   "package_heavy_hex_cz": 523,
+   "ideal_p_gs": 0.18152373777886488,
+   "ground_states": [
+    1279,
+    2816
+   ],
+   "e_min": -8.082903768659994,
+   "e_max": 6.928203230279996,
+   "creg": "meas",
+   "uniform_floor": 0.00048828125,
+   "gw16_is_optimal": false,
+   "id": "a1-d12-p2-warm",
+   "shots": 4000
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 16,
+   "p": 3,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 16,
+   "cz": 666,
+   "package_heavy_hex_cz": 666,
+   "ideal_p_gs": 0.9458786951038568,
+   "ground_states": [
+    58069
+   ],
+   "e_min": -7.251824156557774,
+   "e_max": 1.3185425144731813,
+   "creg": "meas",
+   "uniform_floor": 1.52587890625e-05,
+   "gw16_is_optimal": true,
+   "id": "a1-b16-p3-warm",
+   "shots": 4000
+  }
+ ],
+ "backends": {
+  "ibm_marrakesh": {
+   "calibration_last_update_date": "2026-11-13T17:22:56Z",
+   "excluded_qubits": [
+    31,
+    48,
+    64,
+    74,
+    76,
+    79,
+    82,
+    83,
+    85,
+    94,
+    113,
+    119,
+    130
+   ],
+   "layouts": {
+    "a2-17-traffic-light-accept-p5": [
+     54,
+     55
+    ],
+    "a2-ch07-form-injective-f64-r5": [
+     4,
+     5,
+     3,
+     6,
+     16
+    ],
+    "a2-counter-flag-r1": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55,
+     35
+    ],
+    "a2-t59-distinguish-mod3-mod4-r5": [
+     147,
+     146,
+     148,
+     145,
+     149
+    ],
+    "a2-t59-distinguish-mod5-mod4-r1": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145,
+     151
+    ],
+    "a2-hc-21-kept-step-is-input-r1": [
+     53,
+     39,
+     54,
+     33,
+     55,
+     34,
+     59
+    ],
+    "a2-t60-dim-redundant-k5-r5": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-queue-sim-r1": [
+     147,
+     146,
+     148,
+     145,
+     149,
+     144,
+     150
+    ],
+    "a2-counter-r1": [
+     53,
+     39,
+     54,
+     33,
+     55,
+     34,
+     59
+    ],
+    "a2-hc-11-fabric-caps-logged-r5": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ],
+    "a2-washer-r5": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ],
+    "a2-door-r3": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-03-distributed-accept-g2": [
+     108,
+     107,
+     109,
+     97,
+     110,
+     87,
+     111,
+     88,
+     86,
+     112,
+     98
+    ],
+    "a2-s1-guard-trap-keeps-r3": [
+     148,
+     149,
+     147,
+     150,
+     146,
+     151,
+     145
+    ],
+    "a2-t62-dependent-differ-r2": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145,
+     151
+    ],
+    "a2-session-r2": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55,
+     35,
+     59
+    ],
+    "ctl-zero-cz-thermostat-r5": [
+     120,
+     14,
+     55
+    ],
+    "ctl-mirror-6q": [
+     87,
+     97,
+     6,
+     54,
+     5,
+     55
+    ],
+    "a1-b12-p1-warm": [
+     34,
+     33,
+     35,
+     39,
+     19,
+     53,
+     87,
+     54,
+     52,
+     97,
+     86,
+     55
+    ],
+    "a1-r12-p2-cold": [
+     126,
+     127,
+     128,
+     129,
+     137,
+     144,
+     145,
+     146,
+     147,
+     148,
+     149,
+     150
+    ],
+    "a1-b20-p1-warm": [
+     65,
+     77,
+     66,
+     128,
+     67,
+     127,
+     57,
+     126,
+     137,
+     47,
+     117,
+     125,
+     147,
+     46,
+     124,
+     148,
+     146,
+     45,
+     123,
+     149
+    ],
+    "a1-b16-p2-warm": [
+     46,
+     47,
+     45,
+     57,
+     52,
+     67,
+     53,
+     68,
+     66,
+     54,
+     39,
+     33,
+     65,
+     55,
+     34,
+     77
+    ],
+    "a1-d12-p2-warm": [
+     150,
+     149,
+     123,
+     148,
+     136,
+     147,
+     143,
+     146,
+     137,
+     142,
+     144,
+     145
+    ],
+    "a1-b16-p3-warm": [
+     46,
+     47,
+     45,
+     57,
+     52,
+     67,
+     53,
+     68,
+     66,
+     54,
+     39,
+     33,
+     65,
+     55,
+     34,
+     77
+    ]
+   },
+   "durations_us": {
+    "a2-17-traffic-light-accept-p5": {
+     "alap_us": 14.64,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 0.18
+    },
+    "a2-ch07-form-injective-f64-r5": {
+     "alap_us": 24.096,
+     "dd_x_pulses": 48,
+     "idle_delay_us_total": 63.296
+    },
+    "a2-counter-flag-r1": {
+     "alap_us": 8.768,
+     "dd_x_pulses": 76,
+     "idle_delay_us_total": 37.544
+    },
+    "a2-t59-distinguish-mod3-mod4-r5": {
+     "alap_us": 43.524,
+     "dd_x_pulses": 172,
+     "idle_delay_us_total": 137.424
+    },
+    "a2-t59-distinguish-mod5-mod4-r1": {
+     "alap_us": 24.712,
+     "dd_x_pulses": 248,
+     "idle_delay_us_total": 119.908
+    },
+    "a2-hc-21-kept-step-is-input-r1": {
+     "alap_us": 27.812,
+     "dd_x_pulses": 292,
+     "idle_delay_us_total": 128.392
+    },
+    "a2-t60-dim-redundant-k5-r5": {
+     "alap_us": 81.908,
+     "dd_x_pulses": 310,
+     "idle_delay_us_total": 356.004
+    },
+    "a2-queue-sim-r1": {
+     "alap_us": 31.28,
+     "dd_x_pulses": 336,
+     "idle_delay_us_total": 146.552
+    },
+    "a2-counter-r1": {
+     "alap_us": 44.572,
+     "dd_x_pulses": 462,
+     "idle_delay_us_total": 213.872
+    },
+    "a2-hc-11-fabric-caps-logged-r5": {
+     "alap_us": 93.26,
+     "dd_x_pulses": 540,
+     "idle_delay_us_total": 384.756
+    },
+    "a2-washer-r5": {
+     "alap_us": 87.92,
+     "dd_x_pulses": 608,
+     "idle_delay_us_total": 358.492
+    },
+    "a2-door-r3": {
+     "alap_us": 79.528,
+     "dd_x_pulses": 676,
+     "idle_delay_us_total": 321.324
+    },
+    "a2-03-distributed-accept-g2": {
+     "alap_us": 61.716,
+     "dd_x_pulses": 702,
+     "idle_delay_us_total": 523.92
+    },
+    "a2-s1-guard-trap-keeps-r3": {
+     "alap_us": 95.608,
+     "dd_x_pulses": 810,
+     "idle_delay_us_total": 465.764
+    },
+    "a2-t62-dependent-differ-r2": {
+     "alap_us": 94.388,
+     "dd_x_pulses": 936,
+     "idle_delay_us_total": 459.032
+    },
+    "a2-session-r2": {
+     "alap_us": 114.072,
+     "dd_x_pulses": 1174,
+     "idle_delay_us_total": 651.768
+    },
+    "ctl-zero-cz-thermostat-r5": {
+     "alap_us": 13.6,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 16.32
+    },
+    "ctl-mirror-6q": {
+     "alap_us": 3.344,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 0.072
+    },
+    "a1-b12-p1-warm": {
+     "alap_us": 11.236,
+     "dd_x_pulses": 98,
+     "idle_delay_us_total": 74.432
+    },
+    "a1-r12-p2-cold": {
+     "alap_us": 13.976,
+     "dd_x_pulses": 148,
+     "idle_delay_us_total": 94.48
+    },
+    "a1-b20-p1-warm": {
+     "alap_us": 17.56,
+     "dd_x_pulses": 238,
+     "idle_delay_us_total": 223.18
+    },
+    "a1-b16-p2-warm": {
+     "alap_us": 18.332,
+     "dd_x_pulses": 326,
+     "idle_delay_us_total": 155.536
+    },
+    "a1-d12-p2-warm": {
+     "alap_us": 25.344,
+     "dd_x_pulses": 386,
+     "idle_delay_us_total": 162.416
+    },
+    "a1-b16-p3-warm": {
+     "alap_us": 27.92,
+     "dd_x_pulses": 482,
+     "idle_delay_us_total": 262.44
+    }
+   },
+   "device_cz": {
+    "a2-17-traffic-light-accept-p5": 10,
+    "a2-ch07-form-injective-f64-r5": 40,
+    "a2-counter-flag-r1": 75,
+    "a2-t59-distinguish-mod3-mod4-r5": 150,
+    "a2-t59-distinguish-mod5-mod4-r1": 213,
+    "a2-hc-21-kept-step-is-input-r1": 271,
+    "a2-t60-dim-redundant-k5-r5": 300,
+    "a2-queue-sim-r1": 303,
+    "a2-counter-r1": 422,
+    "a2-hc-11-fabric-caps-logged-r5": 474,
+    "a2-washer-r5": 566,
+    "a2-door-r3": 610,
+    "a2-03-distributed-accept-g2": 648,
+    "a2-s1-guard-trap-keeps-r3": 764,
+    "a2-t62-dependent-differ-r2": 840,
+    "a2-session-r2": 1113,
+    "ctl-zero-cz-thermostat-r5": 0,
+    "ctl-mirror-6q": 18,
+    "a1-b12-p1-warm": 130,
+    "a1-r12-p2-cold": 200,
+    "a1-b20-p1-warm": 351,
+    "a1-b16-p2-warm": 449,
+    "a1-d12-p2-warm": 523,
+    "a1-b16-p3-warm": 666
+   },
+   "route_seed": {
+    "a1-r12-p2-cold": 7
+   }
+  },
+  "ibm_kingston": {
+   "calibration_last_update_date": "2026-11-13T14:57:10Z",
+   "excluded_qubits": [
+    113,
+    121,
+    146
+   ],
+   "layouts": {
+    "a2-17-traffic-light-accept-p5": [
+     55,
+     59
+    ],
+    "a2-ch07-form-injective-f64-r5": [
+     150,
+     149,
+     151,
+     148,
+     152
+    ],
+    "a2-counter-flag-r1": [
+     107,
+     106,
+     108,
+     105,
+     109,
+     117,
+     118
+    ],
+    "a2-t59-distinguish-mod3-mod4-r5": [
+     106,
+     107,
+     105,
+     97,
+     117
+    ],
+    "a2-t59-distinguish-mod5-mod4-r1": [
+     106,
+     107,
+     105,
+     108,
+     117,
+     109,
+     125
+    ],
+    "a2-hc-21-kept-step-is-input-r1": [
+     106,
+     107,
+     105,
+     97,
+     117,
+     87,
+     125
+    ],
+    "a2-t60-dim-redundant-k5-r5": [
+     109,
+     108,
+     118,
+     107,
+     129,
+     97
+    ],
+    "a2-queue-sim-r1": [
+     109,
+     108,
+     118,
+     107,
+     129,
+     97,
+     128
+    ],
+    "a2-counter-r1": [
+     106,
+     107,
+     105,
+     108,
+     117,
+     109,
+     125
+    ],
+    "a2-hc-11-fabric-caps-logged-r5": [
+     75,
+     59,
+     74,
+     55,
+     73,
+     54
+    ],
+    "a2-washer-r5": [
+     75,
+     59,
+     74,
+     55,
+     73,
+     54
+    ],
+    "a2-door-r3": [
+     149,
+     150,
+     148,
+     151,
+     147,
+     152
+    ],
+    "a2-03-distributed-accept-g2": [
+     108,
+     109,
+     107,
+     118,
+     106,
+     129,
+     105,
+     130,
+     128,
+     104,
+     117
+    ],
+    "a2-s1-guard-trap-keeps-r3": [
+     106,
+     105,
+     107,
+     117,
+     108,
+     125,
+     109
+    ],
+    "a2-t62-dependent-differ-r2": [
+     109,
+     118,
+     108,
+     129,
+     107,
+     128,
+     97
+    ],
+    "a2-session-r2": [
+     108,
+     107,
+     109,
+     106,
+     118,
+     105,
+     129,
+     117
+    ],
+    "ctl-zero-cz-thermostat-r5": [
+     149,
+     126,
+     59
+    ],
+    "ctl-mirror-6q": [
+     59,
+     55,
+     105,
+     149,
+     117,
+     148
+    ],
+    "a1-b12-p1-warm": [
+     106,
+     107,
+     105,
+     108,
+     117,
+     109,
+     59,
+     118,
+     110,
+     55,
+     75,
+     129
+    ],
+    "a1-r12-p2-cold": [
+     87,
+     97,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     117,
+     118,
+     129
+    ],
+    "a1-b20-p1-warm": [
+     93,
+     94,
+     79,
+     97,
+     73,
+     107,
+     74,
+     108,
+     106,
+     75,
+     110,
+     109,
+     105,
+     59,
+     118,
+     117,
+     104,
+     55,
+     129,
+     125
+    ],
+    "a1-b16-p2-warm": [
+     118,
+     109,
+     129,
+     108,
+     138,
+     107,
+     151,
+     97,
+     106,
+     152,
+     150,
+     149,
+     105,
+     153,
+     148,
+     117
+    ],
+    "a1-d12-p2-warm": [
+     128,
+     129,
+     125,
+     118,
+     117,
+     109,
+     105,
+     108,
+     110,
+     104,
+     106,
+     107
+    ],
+    "a1-b16-p3-warm": [
+     118,
+     109,
+     129,
+     108,
+     138,
+     107,
+     151,
+     97,
+     106,
+     152,
+     150,
+     149,
+     105,
+     153,
+     148,
+     117
+    ]
+   },
+   "durations_us": {
+    "a2-17-traffic-light-accept-p5": {
+     "alap_us": 12.06,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 0.16
+    },
+    "a2-ch07-form-injective-f64-r5": {
+     "alap_us": 19.908,
+     "dd_x_pulses": 50,
+     "idle_delay_us_total": 51.916
+    },
+    "a2-counter-flag-r1": {
+     "alap_us": 8.0,
+     "dd_x_pulses": 78,
+     "idle_delay_us_total": 34.3
+    },
+    "a2-t59-distinguish-mod3-mod4-r5": {
+     "alap_us": 37.316,
+     "dd_x_pulses": 174,
+     "idle_delay_us_total": 116.732
+    },
+    "a2-t59-distinguish-mod5-mod4-r1": {
+     "alap_us": 23.196,
+     "dd_x_pulses": 248,
+     "idle_delay_us_total": 112.592
+    },
+    "a2-hc-21-kept-step-is-input-r1": {
+     "alap_us": 26.148,
+     "dd_x_pulses": 298,
+     "idle_delay_us_total": 120.632
+    },
+    "a2-t60-dim-redundant-k5-r5": {
+     "alap_us": 70.148,
+     "dd_x_pulses": 314,
+     "idle_delay_us_total": 301.516
+    },
+    "a2-queue-sim-r1": {
+     "alap_us": 29.484,
+     "dd_x_pulses": 346,
+     "idle_delay_us_total": 138.064
+    },
+    "a2-counter-r1": {
+     "alap_us": 42.164,
+     "dd_x_pulses": 466,
+     "idle_delay_us_total": 202.16
+    },
+    "a2-hc-11-fabric-caps-logged-r5": {
+     "alap_us": 82.384,
+     "dd_x_pulses": 542,
+     "idle_delay_us_total": 337.316
+    },
+    "a2-washer-r5": {
+     "alap_us": 78.504,
+     "dd_x_pulses": 608,
+     "idle_delay_us_total": 315.928
+    },
+    "a2-door-r3": {
+     "alap_us": 72.436,
+     "dd_x_pulses": 678,
+     "idle_delay_us_total": 288.928
+    },
+    "a2-03-distributed-accept-g2": {
+     "alap_us": 58.48,
+     "dd_x_pulses": 718,
+     "idle_delay_us_total": 496.984
+    },
+    "a2-s1-guard-trap-keeps-r3": {
+     "alap_us": 87.84,
+     "dd_x_pulses": 832,
+     "idle_delay_us_total": 425.54
+    },
+    "a2-t62-dependent-differ-r2": {
+     "alap_us": 88.168,
+     "dd_x_pulses": 940,
+     "idle_delay_us_total": 427.06
+    },
+    "a2-session-r2": {
+     "alap_us": 106.6,
+     "dd_x_pulses": 1192,
+     "idle_delay_us_total": 606.004
+    },
+    "ctl-zero-cz-thermostat-r5": {
+     "alap_us": 11.06,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 13.272
+    },
+    "ctl-mirror-6q": {
+     "alap_us": 2.812,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 0.064
+    },
+    "a1-b12-p1-warm": {
+     "alap_us": 10.356,
+     "dd_x_pulses": 98,
+     "idle_delay_us_total": 71.152
+    },
+    "a1-r12-p2-cold": {
+     "alap_us": 13.096,
+     "dd_x_pulses": 150,
+     "idle_delay_us_total": 91.888
+    },
+    "a1-b20-p1-warm": {
+     "alap_us": 16.412,
+     "dd_x_pulses": 238,
+     "idle_delay_us_total": 213.256
+    },
+    "a1-b16-p2-warm": {
+     "alap_us": 17.136,
+     "dd_x_pulses": 328,
+     "idle_delay_us_total": 147.808
+    },
+    "a1-d12-p2-warm": {
+     "alap_us": 23.856,
+     "dd_x_pulses": 386,
+     "idle_delay_us_total": 154.872
+    },
+    "a1-b16-p3-warm": {
+     "alap_us": 26.312,
+     "dd_x_pulses": 484,
+     "idle_delay_us_total": 249.768
+    }
+   },
+   "device_cz": {
+    "a2-17-traffic-light-accept-p5": 10,
+    "a2-ch07-form-injective-f64-r5": 40,
+    "a2-counter-flag-r1": 75,
+    "a2-t59-distinguish-mod3-mod4-r5": 150,
+    "a2-t59-distinguish-mod5-mod4-r1": 213,
+    "a2-hc-21-kept-step-is-input-r1": 271,
+    "a2-t60-dim-redundant-k5-r5": 300,
+    "a2-queue-sim-r1": 303,
+    "a2-counter-r1": 422,
+    "a2-hc-11-fabric-caps-logged-r5": 474,
+    "a2-washer-r5": 566,
+    "a2-door-r3": 610,
+    "a2-03-distributed-accept-g2": 648,
+    "a2-s1-guard-trap-keeps-r3": 764,
+    "a2-t62-dependent-differ-r2": 840,
+    "a2-session-r2": 1113,
+    "ctl-zero-cz-thermostat-r5": 0,
+    "ctl-mirror-6q": 18,
+    "a1-b12-p1-warm": 130,
+    "a1-r12-p2-cold": 200,
+    "a1-b20-p1-warm": 351,
+    "a1-b16-p2-warm": 449,
+    "a1-d12-p2-warm": 523,
+    "a1-b16-p3-warm": 666
+   },
+   "route_seed": {
+    "a1-r12-p2-cold": 6
+   }
+  },
+  "ibm_fez": {
+   "calibration_last_update_date": "2026-11-13T16:27:59Z",
+   "excluded_qubits": [
+    63,
+    72,
+    83,
+    113,
+    148,
+    155
+   ],
+   "layouts": {
+    "a2-17-traffic-light-accept-p5": [
+     22,
+     23
+    ],
+    "a2-ch07-form-injective-f64-r5": [
+     136,
+     123,
+     143,
+     122,
+     142
+    ],
+    "a2-counter-flag-r1": [
+     123,
+     136,
+     122,
+     143,
+     121,
+     142,
+     120
+    ],
+    "a2-t59-distinguish-mod3-mod4-r5": [
+     122,
+     123,
+     121,
+     124,
+     120
+    ],
+    "a2-t59-distinguish-mod5-mod4-r1": [
+     123,
+     136,
+     122,
+     143,
+     121,
+     142,
+     120
+    ],
+    "a2-hc-21-kept-step-is-input-r1": [
+     123,
+     136,
+     122,
+     143,
+     121,
+     142,
+     120
+    ],
+    "a2-t60-dim-redundant-k5-r5": [
+     123,
+     136,
+     122,
+     143,
+     121,
+     142
+    ],
+    "a2-queue-sim-r1": [
+     136,
+     143,
+     123,
+     144,
+     122,
+     145,
+     121
+    ],
+    "a2-counter-r1": [
+     123,
+     136,
+     122,
+     143,
+     121,
+     142,
+     120
+    ],
+    "a2-hc-11-fabric-caps-logged-r5": [
+     136,
+     123,
+     143,
+     122,
+     142,
+     121
+    ],
+    "a2-washer-r5": [
+     136,
+     123,
+     143,
+     122,
+     142,
+     121
+    ],
+    "a2-door-r3": [
+     123,
+     136,
+     122,
+     143,
+     121,
+     142
+    ],
+    "a2-03-distributed-accept-g2": [
+     108,
+     109,
+     107,
+     110,
+     106,
+     111,
+     105,
+     98,
+     112,
+     104,
+     117
+    ],
+    "a2-s1-guard-trap-keeps-r3": [
+     123,
+     122,
+     136,
+     121,
+     143,
+     120,
+     142
+    ],
+    "a2-t62-dependent-differ-r2": [
+     123,
+     122,
+     136,
+     121,
+     143,
+     120,
+     142
+    ],
+    "a2-session-r2": [
+     136,
+     123,
+     143,
+     122,
+     144,
+     121,
+     145,
+     120
+    ],
+    "ctl-zero-cz-thermostat-r5": [
+     58,
+     114,
+     23
+    ],
+    "ctl-mirror-6q": [
+     58,
+     71,
+     23,
+     121,
+     22,
+     122
+    ],
+    "a1-b12-p1-warm": [
+     144,
+     143,
+     145,
+     136,
+     146,
+     123,
+     23,
+     122,
+     124,
+     22,
+     24,
+     121
+    ],
+    "a1-r12-p2-cold": [
+     116,
+     117,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     136,
+     142,
+     143,
+     144
+    ],
+    "a1-b20-p1-warm": [
+     106,
+     105,
+     107,
+     124,
+     108,
+     123,
+     109,
+     122,
+     136,
+     110,
+     120,
+     121,
+     143,
+     111,
+     116,
+     144,
+     142,
+     112,
+     101,
+     145
+    ],
+    "a1-b16-p2-warm": [
+     144,
+     143,
+     145,
+     136,
+     118,
+     123,
+     109,
+     124,
+     122,
+     108,
+     110,
+     111,
+     121,
+     107,
+     112,
+     120
+    ],
+    "a1-d12-p2-warm": [
+     146,
+     145,
+     101,
+     144,
+     116,
+     143,
+     121,
+     136,
+     142,
+     120,
+     122,
+     123
+    ],
+    "a1-b16-p3-warm": [
+     122,
+     123,
+     121,
+     136,
+     118,
+     143,
+     109,
+     142,
+     144,
+     110,
+     108,
+     107,
+     145,
+     111,
+     106,
+     146
+    ]
+   },
+   "durations_us": {
+    "a2-17-traffic-light-accept-p5": {
+     "alap_us": 9.34,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 0.12
+    },
+    "a2-ch07-form-injective-f64-r5": {
+     "alap_us": 15.556,
+     "dd_x_pulses": 50,
+     "idle_delay_us_total": 40.252
+    },
+    "a2-counter-flag-r1": {
+     "alap_us": 6.96,
+     "dd_x_pulses": 78,
+     "idle_delay_us_total": 29.82
+    },
+    "a2-t59-distinguish-mod3-mod4-r5": {
+     "alap_us": 30.268,
+     "dd_x_pulses": 174,
+     "idle_delay_us_total": 93.404
+    },
+    "a2-t59-distinguish-mod5-mod4-r1": {
+     "alap_us": 20.652,
+     "dd_x_pulses": 248,
+     "idle_delay_us_total": 99.912
+    },
+    "a2-hc-21-kept-step-is-input-r1": {
+     "alap_us": 23.308,
+     "dd_x_pulses": 298,
+     "idle_delay_us_total": 107.064
+    },
+    "a2-t60-dim-redundant-k5-r5": {
+     "alap_us": 56.876,
+     "dd_x_pulses": 314,
+     "idle_delay_us_total": 240.852
+    },
+    "a2-queue-sim-r1": {
+     "alap_us": 26.388,
+     "dd_x_pulses": 346,
+     "idle_delay_us_total": 123.096
+    },
+    "a2-counter-r1": {
+     "alap_us": 37.836,
+     "dd_x_pulses": 466,
+     "idle_delay_us_total": 180.688
+    },
+    "a2-hc-11-fabric-caps-logged-r5": {
+     "alap_us": 68.928,
+     "dd_x_pulses": 542,
+     "idle_delay_us_total": 279.036
+    },
+    "a2-washer-r5": {
+     "alap_us": 66.504,
+     "dd_x_pulses": 608,
+     "idle_delay_us_total": 263.008
+    },
+    "a2-door-r3": {
+     "alap_us": 62.644,
+     "dd_x_pulses": 678,
+     "idle_delay_us_total": 245.608
+    },
+    "a2-03-distributed-accept-g2": {
+     "alap_us": 52.504,
+     "dd_x_pulses": 720,
+     "idle_delay_us_total": 445.64
+    },
+    "a2-s1-guard-trap-keeps-r3": {
+     "alap_us": 76.696,
+     "dd_x_pulses": 832,
+     "idle_delay_us_total": 368.516
+    },
+    "a2-t62-dependent-differ-r2": {
+     "alap_us": 78.168,
+     "dd_x_pulses": 940,
+     "idle_delay_us_total": 375.804
+    },
+    "a2-session-r2": {
+     "alap_us": 94.584,
+     "dd_x_pulses": 1192,
+     "idle_delay_us_total": 533.508
+    },
+    "ctl-zero-cz-thermostat-r5": {
+     "alap_us": 8.42,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 10.104
+    },
+    "ctl-mirror-6q": {
+     "alap_us": 2.236,
+     "dd_x_pulses": 0,
+     "idle_delay_us_total": 0.048
+    },
+    "a1-b12-p1-warm": {
+     "alap_us": 9.084,
+     "dd_x_pulses": 98,
+     "idle_delay_us_total": 64.448
+    },
+    "a1-r12-p2-cold": {
+     "alap_us": 11.204,
+     "dd_x_pulses": 138,
+     "idle_delay_us_total": 78.632
+    },
+    "a1-b20-p1-warm": {
+     "alap_us": 14.612,
+     "dd_x_pulses": 238,
+     "idle_delay_us_total": 193.568
+    },
+    "a1-b16-p2-warm": {
+     "alap_us": 15.24,
+     "dd_x_pulses": 328,
+     "idle_delay_us_total": 133.704
+    },
+    "a1-d12-p2-warm": {
+     "alap_us": 21.368,
+     "dd_x_pulses": 386,
+     "idle_delay_us_total": 139.784
+    },
+    "a1-b16-p3-warm": {
+     "alap_us": 23.584,
+     "dd_x_pulses": 484,
+     "idle_delay_us_total": 226.368
+    }
+   },
+   "device_cz": {
+    "a2-17-traffic-light-accept-p5": 10,
+    "a2-ch07-form-injective-f64-r5": 40,
+    "a2-counter-flag-r1": 75,
+    "a2-t59-distinguish-mod3-mod4-r5": 150,
+    "a2-t59-distinguish-mod5-mod4-r1": 213,
+    "a2-hc-21-kept-step-is-input-r1": 271,
+    "a2-t60-dim-redundant-k5-r5": 300,
+    "a2-queue-sim-r1": 303,
+    "a2-counter-r1": 422,
+    "a2-hc-11-fabric-caps-logged-r5": 474,
+    "a2-washer-r5": 566,
+    "a2-door-r3": 610,
+    "a2-03-distributed-accept-g2": 648,
+    "a2-s1-guard-trap-keeps-r3": 764,
+    "a2-t62-dependent-differ-r2": 840,
+    "a2-session-r2": 1113,
+    "ctl-zero-cz-thermostat-r5": 0,
+    "ctl-mirror-6q": 18,
+    "a1-b12-p1-warm": 130,
+    "a1-r12-p2-cold": 196,
+    "a1-b20-p1-warm": 351,
+    "a1-b16-p2-warm": 449,
+    "a1-d12-p2-warm": 523,
+    "a1-b16-p3-warm": 666
+   },
+   "route_seed": {
+    "a1-r12-p2-cold": 2
+   }
+  }
+ }
+}

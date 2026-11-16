@@ -1,0 +1,11 @@
+numpy==2.5.3
+scipy==1.18.1
+matplotlib
+qiskit==2.6.2
+qiskit-aer==0.18.2
+qiskit-ibm-runtime==0.52.0
+guppylang==1.2.1
+selene-sim==0.3.7
+pyscf==2.15.0
+physics-tenpy==1.1.1
+ffsim==0.0.86

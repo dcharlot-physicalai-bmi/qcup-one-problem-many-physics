@@ -1,0 +1,126 @@
+{
+ "read_at": "2026-11-16T08:54:36Z",
+ "source": "GET https://resonance.iqm.tech/api/v1/quantum-computers/{alias}",
+ "computers": [
+  {
+   "alias": "emerald",
+   "display_name": "IQM Emerald",
+   "backend_type": "qpu",
+   "number_of_qubits": 54,
+   "operational_status": "online",
+   "pricing": {
+    "payg_price_per_second": "0.75",
+    "timeslot": {
+     "slot_duration": "PT1H",
+     "slot_price": "2400.00"
+    }
+   },
+   "limits": {
+    "max_instructions_per_circuit": 30000,
+    "max_shots_per_circuit": 20000,
+    "max_circuits_per_job": 100,
+    "max_executions_per_job": 2000000,
+    "max_queued_jobs_per_user": 200
+   },
+   "mock_url": "https://cocos.resonance.meetiqm.com/emerald:mock"
+  },
+  {
+   "alias": "emerald:mock",
+   "display_name": "IQM Emerald (mock)",
+   "backend_type": "mock",
+   "number_of_qubits": 54,
+   "operational_status": "online",
+   "pricing": {
+    "payg_price_per_second": "0.00"
+   },
+   "limits": {
+    "max_instructions_per_circuit": 10000,
+    "max_shots_per_circuit": 200000,
+    "max_circuits_per_job": 1000,
+    "max_executions_per_job": 200000000,
+    "max_queued_jobs_per_user": 200
+   },
+   "mock_url": ""
+  },
+  {
+   "alias": "garnet",
+   "display_name": "IQM Garnet",
+   "backend_type": "qpu",
+   "number_of_qubits": 20,
+   "operational_status": "maintenance",
+   "pricing": {
+    "payg_price_per_second": "0.50",
+    "timeslot": {
+     "slot_duration": "PT1H",
+     "slot_price": "1800.00"
+    }
+   },
+   "limits": {
+    "max_instructions_per_circuit": 10000,
+    "max_shots_per_circuit": 20000,
+    "max_circuits_per_job": 100,
+    "max_executions_per_job": 2000000,
+    "max_queued_jobs_per_user": 200
+   },
+   "mock_url": "https://cocos.resonance.meetiqm.com/garnet:mock"
+  },
+  {
+   "alias": "garnet:mock",
+   "display_name": "IQM Garnet (mock)",
+   "backend_type": "mock",
+   "number_of_qubits": 20,
+   "operational_status": "online",
+   "pricing": {
+    "payg_price_per_second": "0.00"
+   },
+   "limits": {
+    "max_instructions_per_circuit": 10000,
+    "max_shots_per_circuit": 20000,
+    "max_circuits_per_job": 500,
+    "max_executions_per_job": 10000000,
+    "max_queued_jobs_per_user": 100
+   },
+   "mock_url": ""
+  },
+  {
+   "alias": "sirius",
+   "display_name": "IQM Sirius",
+   "backend_type": "qpu",
+   "number_of_qubits": 16,
+   "operational_status": "online",
+   "pricing": {
+    "payg_price_per_second": "0.30",
+    "timeslot": {
+     "slot_duration": "PT1H",
+     "slot_price": "1080.00"
+    }
+   },
+   "limits": {
+    "max_instructions_per_circuit": 75000,
+    "max_shots_per_circuit": 20000,
+    "max_circuits_per_job": 100,
+    "max_executions_per_job": 2000000,
+    "max_queued_jobs_per_user": 200
+   },
+   "mock_url": "https://cocos.resonance.meetiqm.com/sirius:mock"
+  },
+  {
+   "alias": "sirius:mock",
+   "display_name": "IQM Sirius (mock)",
+   "backend_type": "mock",
+   "number_of_qubits": 24,
+   "operational_status": "online",
+   "pricing": {
+    "payg_price_per_second": "0.67"
+   },
+   "limits": {
+    "max_instructions_per_circuit": 20000,
+    "max_shots_per_circuit": 20000,
+    "max_circuits_per_job": 200,
+    "max_executions_per_job": 4000000,
+    "max_queued_jobs_per_user": 100
+   },
+   "mock_url": ""
+  }
+ ]
+}

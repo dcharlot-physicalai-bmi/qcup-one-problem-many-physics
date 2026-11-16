@@ -1,0 +1,58 @@
+{
+ "trapped_ion": [
+  {
+   "N": 8,
+   "p": 1,
+   "n1q": 318,
+   "n2q": 96,
+   "hqc_at_200_shots": 59,
+   "ionq_two_qubit_gate_shots_at_500": 48000
+  },
+  {
+   "N": 12,
+   "p": 1,
+   "n1q": 1137,
+   "n2q": 365,
+   "hqc_at_200_shots": 201,
+   "ionq_two_qubit_gate_shots_at_500": 182500
+  },
+  {
+   "N": 16,
+   "p": 1,
+   "n1q": 2756,
+   "n2q": 910,
+   "hqc_at_200_shots": 486,
+   "ionq_two_qubit_gate_shots_at_500": 455000
+  },
+  {
+   "N": 20,
+   "p": 1,
+   "n1q": 5442,
+   "n2q": 1827,
+   "hqc_at_200_shots": 961,
+   "ionq_two_qubit_gate_shots_at_500": 913500
+  }
+ ],
+ "superconducting": [
+  {
+   "N": 8,
+   "p": 1,
+   "heavy_hex_cz": 297
+  },
+  {
+   "N": 8,
+   "p": 2,
+   "heavy_hex_cz": 594
+  }
+ ],
+ "totals": {
+  "quantinuum_hqc": 1707,
+  "ionq_two_qubit_gate_shots": 1599000,
+  "circuits": {
+   "IBM": 2,
+   "IQM": 2,
+   "IonQ": 4,
+   "Quantinuum": 4
+  }
+ }
+}

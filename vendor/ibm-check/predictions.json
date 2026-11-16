@@ -1,0 +1,2460 @@
+{
+ "created_utc": "2026-11-16T01:17:34Z",
+ "what": "Pre-registered predictions for the first device runs of the QCUP application's Aim 2 reversible programs and Aim 1 QAOA circuits on an IBM Heron device (open plan). Fixed before any submission; never edited after.",
+ "backend": "ibm_marrakesh",
+ "backend_rule": "Fixed to ibm_marrakesh at sealing: at the final design check it was online with 4 jobs queued, ibm_fez was in maintenance (105 queued) and ibm_kingston's free queue had held another job for more than 8.7 h (292 queued). Its calibration then was byte-identical to the design-time read used here. If marrakesh is offline at submission, nothing is sent. design.json also holds layouts for kingston and fez; they are not pre-registered.",
+ "calibration_at_design": {
+  "ibm_marrakesh": {
+   "last_update_date": "2026-11-13T17:22:56Z",
+   "properties_sha256": "0cb8f74aa9dda7b0907ae9aa5815bce140f4bdeec9f176ec6b49ec8f8b2aa968",
+   "configuration_sha256": "d1dea0bd0e2aea1d1386cdfaffab72d67281350a718dc68f884e131d0f37a2f4",
+   "excluded_qubits": [
+    31,
+    48,
+    64,
+    74,
+    76,
+    79,
+    82,
+    83,
+    85,
+    94,
+    113,
+    119,
+    130
+   ]
+  }
+ },
+ "arms": {
+  "dd_off": "ISA circuits exactly as placed, no delays and no dynamical decoupling (the application's assumption). Sampler V2, no twirling, no readout mitigation, server-side DD off.",
+  "dd_on": "The same ISA circuits scheduled ALAP with the device's durations and padded with XX dynamical decoupling (tau/2 X tau X tau/2, qiskit PadDynamicalDecoupling, skip_reset_qubits) before submission; server-side DD off. Runs only if the DD-off arm fits the remaining allowance with 30 s to spare."
+ },
+ "transpilation": "Each circuit is transpiled exactly as the package does (heavy_hex_patch(n), CZ basis, optimisation level 3, seed 7; CZ counts checked equal to the package's result files). Embedded circuits are placed on the device unchanged by a noise-aware subgraph embedding (VF2Layout on the design-time calibration), so the executed CZ count equals the admission count. The one QAOA circuit whose patch circuit uses the patch's 10-cycle (no Heron lattice has one) is transpiled to the device as aim1_ibm.py does (level 3, best of 8 seeds). Executed CZ counts are read from the submitted OpenQASM 3.",
+ "models": {
+  "generic_aer": "The application's generic model, aim2.noise('sc_like'): depolarising 3e-3 per CZ, 3e-4 per sx and x, 1e-2 per reset, 1e-2 readout, no idle term. Aer simulation of the submitted circuit. Layout-blind.",
+  "generic_law_intercept": "The package's fitted trace law, F = 0.8588 x (1 - 0.001595)^CZ (aggregate.py rule, free intercept). 30% at 659 CZ.",
+  "generic_law_no_intercept": "F = (1 - 0.001595)^CZ, F(0) = 1. 30% at 754 CZ. The convention of the qcup-emulators IBM comparison.",
+  "cal_idle_aer": "Design-time calibration as qiskit-aer builds a noise model from a backend (gate error as depolarising plus thermal relaxation over the gate duration, readout assignment error, T1/T2). Circuit scheduled ALAP with the device durations and padded with delays, which relax under T1/T2. Idle convention: the leading delay before a qubit's first gate is in the schedule, but relaxation of a qubit in |0> does nothing, so leading idle costs nothing here. No static ZZ, leakage or crosstalk.",
+  "cal_noidle_aer": "The same noise model on the unscheduled circuit: no idle relaxation at all (the idle-suppressed variant).",
+  "script_e_minus_b": "Port of qcup-emulators/scripts/ibm_budget.py to these circuits (scripts/budget.py): gate, relaxation, ASAP idle and readout terms, plus mid-circuit measure and reset terms these circuits need. No ZZ. Idle convention: charged from t = 0, including before a qubit's first gate, as the original script does. Prediction = e^-budget (mixed with the uniform optimum chance for Aim 1).",
+  "script_e_minus_b_no_leading": "As script_e_minus_b without idle before a qubit's first operation.",
+  "script_law_carried": "The application's trace law carried over by this circuit's budget ratio (script budget / generic budget), (1 - 0.001595)^(CZ x ratio), as ibm_analyze.py derives its 30% points. Leading idle charged.",
+  "script_law_carried_no_leading": "As script_law_carried without leading idle."
+ },
+ "reference_30pct_points_cz": {
+  "generic_application": {
+   "intercept": 659,
+   "no_intercept": 754
+  },
+  "wai_quantum_forecast_qcup_emulators_sample": {
+   "implementation": "WAI Quantum forecast (idle term about 1.3x the script's, with static ZZ), qcup-emulators IBM sample of 29 circuits, calibrations of 2026-11-13, no-intercept carried-over convention; verify/ibm_analysis_rerun.json",
+   "ibm_marrakesh": 256,
+   "ibm_kingston": 284,
+   "ibm_fez": 224
+  },
+  "budget_script_qcup_emulators_sample": {
+   "implementation": "qcup-emulators/scripts/ibm_budget.py budgets alone (no ZZ; leading idle charged), same sample and convention",
+   "ibm_marrakesh": 344,
+   "ibm_kingston": 415,
+   "ibm_fez": 324
+  },
+  "wai_quantum_without_idle": {
+   "range_over_three_devices": [
+    483,
+    635
+   ]
+  }
+ },
+ "scoring": {
+  "aim2": "trace fidelity exactly as aim2.trace_prob: the share of shots whose whole trace register equals the reference trace",
+  "control_zero_cz": "the same, on the 0-CZ program",
+  "control_mirror": "the share of shots equal to the known string",
+  "aim1": "the share of shots that are an optimal assignment (the package's ground set, ties included)"
+ },
+ "fit_rules": "Fit rules for the QCUP hardware check, pure Python so the same code scores predictions and device data.\n\npackage:          aggregate.py's rule. Least squares of ln F on two-qubit gate count with a free intercept, on circuits\n                  with F >= 0.01 (at least 20 correct traces in 2,000). 30% point = (ln 0.3 - c) / k.\nno_intercept:     ln F = k x CZ through F(0) = 1, same points. 30% point = ln 0.3 / k. The convention behind 754 CZ.\nfloor_corrected:  F' = (F - f) / (1 - f) with f = 2^-(trace bits), the probability of guessing the trace; points with\n                  F' >= 0.01; then as package. Guards against one-step programs flattening the slope at their floor.",
+ "fit_set": "The 16 Aim 2 programs and the 0-CZ program (17 programs from the application's Aim 2 set). Not the mirror or the QAOA circuits.",
+ "analysis_plan": [
+  "Primary: the device 30% point by the package rule (free intercept, F >= 0.01) on the DD-off arm, compared with 659 (generic) and with each calibration model's implied 30% point under the same rule (below).",
+  "Also reported: the no-intercept rule (compared with 754 and with the qcup-emulators sample values, which use that convention) and the floor-corrected rule.",
+  "Uncertainty: 2,000 bootstrap draws that resample programs and each program's counts (fitlib.bootstrap_30); 68% and 95% intervals.",
+  "A model is consistent with the device if its implied 30% point (same rule) lies inside the device's 95% interval. Per circuit, the ratio of measured to predicted -ln F is reported for every model, with its median.",
+  "Q5 held-out on the device: fit on half the programs (the package's alternating order over all 40 forms), predict the other half; falsified if the median error factor exceeds 1.25.",
+  "DD-on against DD-off: per-circuit difference and the 30% point of each arm.",
+  "Aim 1: measured optimum probability against each prediction and against the ideal value.",
+  "Guard against gates not running as sent: the executed CZ count is the count in the submitted OpenQASM 3; if trace fidelity shows no fall with CZ (package-rule slope not negative at 95%), the run is reported as not measuring the device.",
+  "Positive controls (pipeline check, decided before submission): the 0-CZ program passes at trace fidelity >= 0.85 and the mirror circuit at >= 0.80 (models predict 0.86 to 0.99 and 0.83 to 0.93). A wrong bit order or register decoding gives about 0.03 and 0.016. If a control fails, no other result is interpreted until the cause is found.",
+  "Expectation fixed in advance for Q5 held-out: every calibration model here implies a median held-out factor above 1.25 on these 17 programs (see implied_by_predictions.held_out_q5), because gate count alone does not carry idle time and mid-circuit measurement. A device factor above 1.25 is therefore what the calibration models expect, and is reported as such, not only as a falsification of the generic law.",
+  "Every outcome is reported, including one that contradicts the calibration models or the application."
+ ],
+ "circuits": [
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 8,
+   "cz": 10,
+   "want": "1001001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.879,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 10,
+     "active_qubits": 2,
+     "depth": 46,
+     "trace_fidelity": 0.8795,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 10,
+     "active_qubits": 2,
+     "depth": 51,
+     "trace_fidelity": 0.9265,
+     "shots": 2000
+    }
+   },
+   "id": "a2-17-traffic-light-accept-p5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      54,
+      55
+     ],
+     "executed_cz": 10,
+     "schedule": {
+      "alap_us": 14.64,
+      "dd_x_pulses": 0,
+      "idle_delay_us_total": 0.18
+     },
+     "script_budget": {
+      "gate": 0.016643746690241105,
+      "relaxation": 0.012581776061881648,
+      "idle": 0.00045561713826491255,
+      "idle_leading": 9.112342765298251e-05,
+      "readout": 0.026899085018163054,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.8829,
+       "se": 0.0022736269482920893,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.9552,
+       "se": 0.0014627535677618421,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.9543,
+       "se": 0.0014766771820543575,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.845200039382763,
+      "generic_law_no_intercept": 0.9841639955551502,
+      "script_e_minus_b": 0.9449906696640135,
+      "script_e_minus_b_no_leading": 0.9450767843764076,
+      "script_law_carried": 0.9934789582970871,
+      "script_law_carried_no_leading": 0.9934894262848384
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3,
+    2,
+    0,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 40,
+   "want": "1000101101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.785,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 42,
+     "active_qubits": 5,
+     "depth": 79,
+     "trace_fidelity": 0.8025,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 40,
+     "active_qubits": 5,
+     "depth": 77,
+     "trace_fidelity": 0.866,
+     "shots": 2000
+    }
+   },
+   "id": "a2-ch07-form-injective-f64-r5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      4,
+      5,
+      3,
+      6,
+      16
+     ],
+     "executed_cz": 40,
+     "schedule": {
+      "alap_us": 24.096,
+      "dd_x_pulses": 48,
+      "idle_delay_us_total": 63.296
+     },
+     "script_budget": {
+      "gate": 0.14817286124749982,
+      "relaxation": 0.03108124441554174,
+      "idle": 0.21734744909068035,
+      "idle_leading": 0.0005807789222275991,
+      "readout": 0.05876608488985041,
+      "reset": 0.049496245399447025
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.7859,
+       "se": 0.0029005274520335087,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.7733,
+       "se": 0.0029606343070362473,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.84285,
+       "se": 0.002573459514933157,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.8056787834217025,
+      "generic_law_no_intercept": 0.9381448339796257,
+      "script_e_minus_b": 0.6035877271533898,
+      "script_e_minus_b_no_leading": 0.6039383799990703,
+      "script_law_carried": 0.9059278714498946,
+      "script_law_carried_no_leading": 0.9060308371064733
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 75,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.841,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-r1",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      39,
+      53,
+      33,
+      54,
+      34,
+      55,
+      35
+     ],
+     "executed_cz": 75,
+     "schedule": {
+      "alap_us": 8.768,
+      "dd_x_pulses": 76,
+      "idle_delay_us_total": 37.544
+     },
+     "script_budget": {
+      "gate": 0.18670142702412906,
+      "relaxation": 0.07751763066113639,
+      "idle": 0.12505189851965431,
+      "idle_leading": 0.0013182373979262296,
+      "readout": 0.0325336168308641,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.8528,
+       "se": 0.0025053159481390765,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.8351,
+       "se": 0.002624004477892521,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.8601,
+       "se": 0.002452834992411842,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.7619001904930488,
+      "generic_law_no_intercept": 0.887168363405972,
+      "script_e_minus_b": 0.6558622000287077,
+      "script_e_minus_b_no_leading": 0.6567273522213745,
+      "script_law_carried": 0.8460166685484904,
+      "script_law_carried_no_leading": 0.8464589035793049
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 150,
+   "want": "0100100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.608,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 146,
+     "active_qubits": 5,
+     "depth": 424,
+     "trace_fidelity": 0.562,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 146,
+     "active_qubits": 5,
+     "depth": 435,
+     "trace_fidelity": 0.6495,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t59-distinguish-mod3-mod4-r5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      147,
+      146,
+      148,
+      145,
+      149
+     ],
+     "executed_cz": 150,
+     "schedule": {
+      "alap_us": 43.524,
+      "dd_x_pulses": 172,
+      "idle_delay_us_total": 137.424
+     },
+     "script_budget": {
+      "gate": 0.1458084480774782,
+      "relaxation": 0.21562662053824913,
+      "idle": 0.856397392751991,
+      "idle_leading": 0.000630807387864681,
+      "readout": 0.08451013782306607,
+      "reset": 0.028464855643999015
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.6229,
+       "se": 0.0034270657274117168,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.6373,
+       "se": 0.0033996228467287368,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.7554,
+       "se": 0.0030394969978600078,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.6759337450784164,
+      "generic_law_no_intercept": 0.7870677050284308,
+      "script_e_minus_b": 0.2642637940506764,
+      "script_e_minus_b_no_leading": 0.2644305461930209,
+      "script_law_carried": 0.6443070473133328,
+      "script_law_carried_no_leading": 0.6444413106651008
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod5_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 213,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6595,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod5-mod4-r1",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      148,
+      147,
+      149,
+      146,
+      150,
+      145,
+      151
+     ],
+     "executed_cz": 213,
+     "schedule": {
+      "alap_us": 24.712,
+      "dd_x_pulses": 248,
+      "idle_delay_us_total": 119.908
+     },
+     "script_budget": {
+      "gate": 0.2361427583363585,
+      "relaxation": 0.3092402325633995,
+      "idle": 0.7662682852598834,
+      "idle_leading": 0.004077085867607019,
+      "readout": 0.04140875922529878,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.6751,
+       "se": 0.0033116460408684984,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.66235,
+       "se": 0.0033439682825947975,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.754,
+       "se": 0.0030453571219152607,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.6112645467677396,
+      "generic_law_no_intercept": 0.7117658905073818,
+      "script_e_minus_b": 0.2584481887771547,
+      "script_e_minus_b_no_leading": 0.2595040552015592,
+      "script_law_carried": 0.564255114077916,
+      "script_law_carried_no_leading": 0.5652289093708891
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_21_kept_step_is_input",
+   "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 271,
+   "want": "000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.5805,
+   "package_snapshot": {},
+   "id": "a2-hc-21-kept-step-is-input-r1",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      53,
+      39,
+      54,
+      33,
+      55,
+      34,
+      59
+     ],
+     "executed_cz": 271,
+     "schedule": {
+      "alap_us": 27.812,
+      "dd_x_pulses": 292,
+      "idle_delay_us_total": 128.392
+     },
+     "script_budget": {
+      "gate": 0.5979329160422264,
+      "relaxation": 0.28914729444641335,
+      "idle": 0.644215779337189,
+      "idle_leading": 0.0011787427447500468,
+      "readout": 0.022088358969325445,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.60715,
+       "se": 0.0034533959916291093,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.6297,
+       "se": 0.0034145124835033183,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.66135,
+       "se": 0.0033463874364753404,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.5572121146209034,
+      "generic_law_no_intercept": 0.6488264026792074,
+      "script_e_minus_b": 0.21153086680685554,
+      "script_e_minus_b_no_leading": 0.21178035429328987,
+      "script_law_carried": 0.5183379786941088,
+      "script_law_carried_no_leading": 0.5185965088748726
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "trace_bits": 15,
+   "uniform_floor": 3.0517578125e-05,
+   "qubits": 6,
+   "resets": 12,
+   "mid_circuit_measurements": 12,
+   "cz": 300,
+   "want": "000100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.443,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 277,
+     "active_qubits": 6,
+     "depth": 761,
+     "trace_fidelity": 0.358,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 271,
+     "active_qubits": 6,
+     "depth": 757,
+     "trace_fidelity": 0.5355,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t60-dim-redundant-k5-r5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      148,
+      147,
+      149,
+      146,
+      150,
+      145
+     ],
+     "executed_cz": 300,
+     "schedule": {
+      "alap_us": 81.908,
+      "dd_x_pulses": 310,
+      "idle_delay_us_total": 356.004
+     },
+     "script_budget": {
+      "gate": 0.28331070142444453,
+      "relaxation": 0.4237268023795048,
+      "idle": 2.379042410812803,
+      "idle_leading": 0.004079114329385714,
+      "readout": 0.14939447909717363,
+      "reset": 0.04482568182452358
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.45745,
+       "se": 0.00352270845728113,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.2715,
+       "se": 0.0031447396553609965,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.6125,
+       "se": 0.003444878444880167,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.5320056214901415,
+      "generic_law_no_intercept": 0.619475572298721,
+      "script_e_minus_b": 0.03761696718170881,
+      "script_e_minus_b_no_leading": 0.037770724475157766,
+      "script_law_carried": 0.31341499140170187,
+      "script_law_carried_no_leading": 0.31386750164114563
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "queue_sim",
+   "source": "programs/world/queue_sim.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 303,
+   "want": "000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.5355,
+   "package_snapshot": {},
+   "id": "a2-queue-sim-r1",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      147,
+      146,
+      148,
+      145,
+      149,
+      144,
+      150
+     ],
+     "executed_cz": 303,
+     "schedule": {
+      "alap_us": 31.28,
+      "dd_x_pulses": 336,
+      "idle_delay_us_total": 146.552
+     },
+     "script_budget": {
+      "gate": 0.33170553041372497,
+      "relaxation": 0.4454563642296577,
+      "idle": 0.8947265206629158,
+      "idle_leading": 0.03093551471231784,
+      "readout": 0.05974880239531208,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.5531,
+       "se": 0.0035155397167433624,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.5949,
+       "se": 0.0034712677079130616,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.66875,
+       "se": 0.0033280883213941304,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.5294640327393851,
+      "generic_law_no_intercept": 0.6165161070556417,
+      "script_e_minus_b": 0.17699439426985625,
+      "script_e_minus_b_no_leading": 0.1825553794427983,
+      "script_law_carried": 0.47762258371840005,
+      "script_law_carried_no_leading": 0.4839694727218357
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "counter",
+   "source": "book/listings/ch04/counter.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 422,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.502,
+   "package_snapshot": {},
+   "id": "a2-counter-r1",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      53,
+      39,
+      54,
+      33,
+      55,
+      34,
+      59
+     ],
+     "executed_cz": 422,
+     "schedule": {
+      "alap_us": 44.572,
+      "dd_x_pulses": 462,
+      "idle_delay_us_total": 213.872
+     },
+     "script_budget": {
+      "gate": 0.9636228003243695,
+      "relaxation": 0.4492391483268284,
+      "idle": 1.1022819166584232,
+      "idle_leading": 0.016587991528004095,
+      "readout": 0.02453634060796549,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.51885,
+       "se": 0.0035330205030540086,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.42885,
+       "se": 0.00349955481097239,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.56865,
+       "se": 0.0035020506671092013,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.4378641512305847,
+      "generic_law_no_intercept": 0.5098557885777651,
+      "script_e_minus_b": 0.07889162483182371,
+      "script_e_minus_b_no_leading": 0.08021119266849958,
+      "script_law_carried": 0.3364394559070294,
+      "script_law_carried_no_leading": 0.3388417706223785
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_11_fabric_caps_logged",
+   "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "trace_bits": 15,
+   "uniform_floor": 3.0517578125e-05,
+   "qubits": 6,
+   "resets": 12,
+   "mid_circuit_measurements": 12,
+   "cz": 474,
+   "want": "101100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.321,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 444,
+     "active_qubits": 6,
+     "depth": 1298,
+     "trace_fidelity": 0.2425,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 454,
+     "active_qubits": 6,
+     "depth": 1328,
+     "trace_fidelity": 0.308,
+     "shots": 2000
+    }
+   },
+   "id": "a2-hc-11-fabric-caps-logged-r5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      147,
+      148,
+      146,
+      149,
+      145,
+      150
+     ],
+     "executed_cz": 474,
+     "schedule": {
+      "alap_us": 93.26,
+      "dd_x_pulses": 540,
+      "idle_delay_us_total": 384.756
+     },
+     "script_budget": {
+      "gate": 0.45842737144811574,
+      "relaxation": 0.7021435939589323,
+      "idle": 2.573319885539907,
+      "idle_leading": 0.0028269809861253257,
+      "readout": 0.1539515896047006,
+      "reset": 0.047279630578046065
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.3181,
+       "se": 0.0032932688168444435,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.1982,
+       "se": 0.0028188362847104123,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.4732,
+       "se": 0.0035304515291956634,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.40298626931676224,
+      "generic_law_no_intercept": 0.46924344354536823,
+      "script_e_minus_b": 0.019543313507499868,
+      "script_e_minus_b_no_leading": 0.01959864025016945,
+      "script_law_carried": 0.226926521567226,
+      "script_law_carried_no_leading": 0.2271684351476259
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "washer",
+   "source": "programs/multi/washer.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "reference_trace": [
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 6,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 566,
+   "want": "1010101001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.276,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 533,
+     "active_qubits": 6,
+     "depth": 1528,
+     "trace_fidelity": 0.1715,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 534,
+     "active_qubits": 6,
+     "depth": 1493,
+     "trace_fidelity": 0.281,
+     "shots": 2000
+    }
+   },
+   "id": "a2-washer-r5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      147,
+      148,
+      146,
+      149,
+      145,
+      150
+     ],
+     "executed_cz": 566,
+     "schedule": {
+      "alap_us": 87.92,
+      "dd_x_pulses": 608,
+      "idle_delay_us_total": 358.492
+     },
+     "script_budget": {
+      "gate": 0.5429877468356145,
+      "relaxation": 0.8318939402652703,
+      "idle": 2.384590003265925,
+      "idle_leading": 0.021944298776754474,
+      "readout": 0.10518720236172405,
+      "reset": 0.04924968312467043
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.2928,
+       "se": 0.0032176712075661184,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.21075,
+       "se": 0.002883872721706005,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.4426,
+       "se": 0.0035121591649582167,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.3479453198135457,
+      "generic_law_no_intercept": 0.4051529108215483,
+      "script_e_minus_b": 0.01996232412292127,
+      "script_e_minus_b_no_leading": 0.020405225130584705,
+      "script_law_carried": 0.20677789825239998,
+      "script_law_carried_no_leading": 0.2086132613178189
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "door",
+   "source": "book/listings/ch05/door.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    3,
+    1,
+    0
+   ],
+   "reference_trace": [
+    0,
+    0,
+    1
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 6,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 610,
+   "want": "010000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.3015,
+   "package_snapshot": {},
+   "id": "a2-door-r3",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      148,
+      147,
+      149,
+      146,
+      150,
+      145
+     ],
+     "executed_cz": 610,
+     "schedule": {
+      "alap_us": 79.528,
+      "dd_x_pulses": 676,
+      "idle_delay_us_total": 321.324
+     },
+     "script_budget": {
+      "gate": 0.5855014245429642,
+      "relaxation": 0.8901988590286983,
+      "idle": 2.0858907917474867,
+      "idle_leading": 0.0018898314761151838,
+      "readout": 0.06346687744531149,
+      "reset": 0.015499048975892799
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.2916,
+       "se": 0.0032137940195351663,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.23435,
+       "se": 0.0029952468804757978,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.4471,
+       "se": 0.0035156904727236724,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.3243455021602993,
+      "generic_law_no_intercept": 0.3776729182118063,
+      "script_e_minus_b": 0.02623772543606189,
+      "script_e_minus_b_no_leading": 0.02628735719851458,
+      "script_law_carried": 0.21637522464969433,
+      "script_law_carried_no_leading": 0.2165472280821497
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "03_distributed_accept",
+   "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 648,
+   "want": "011001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.25,
+   "package_snapshot": {},
+   "id": "a2-03-distributed-accept-g2",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      108,
+      107,
+      109,
+      97,
+      110,
+      87,
+      111,
+      88,
+      86,
+      112,
+      98
+     ],
+     "executed_cz": 648,
+     "schedule": {
+      "alap_us": 61.716,
+      "dd_x_pulses": 702,
+      "idle_delay_us_total": 523.92
+     },
+     "script_budget": {
+      "gate": 1.7589479115893303,
+      "relaxation": 1.3473846591862537,
+      "idle": 4.485041063326409,
+      "idle_leading": 0.001521543054802441,
+      "readout": 0.09391561817124046,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.2649,
+       "se": 0.0031203204162393323,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.10775,
+       "se": 0.0021924864594792827,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.2144,
+       "se": 0.0029020048242551218,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.305256047488685,
+      "generic_law_no_intercept": 0.3554448620035922,
+      "script_e_minus_b": 0.00045953784776851326,
+      "script_e_minus_b_no_leading": 0.0004602375865955838,
+      "script_law_carried": 0.0379518710382491,
+      "script_law_carried_no_leading": 0.037976459783154906
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "s1_guard_trap_keeps",
+   "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    1
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 7,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 764,
+   "want": "011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.168,
+   "package_snapshot": {},
+   "id": "a2-s1-guard-trap-keeps-r3",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      148,
+      149,
+      147,
+      150,
+      146,
+      151,
+      145
+     ],
+     "executed_cz": 764,
+     "schedule": {
+      "alap_us": 95.608,
+      "dd_x_pulses": 810,
+      "idle_delay_us_total": 465.764
+     },
+     "script_budget": {
+      "gate": 0.7842921407458024,
+      "relaxation": 1.134452890540052,
+      "idle": 3.358010964316345,
+      "idle_leading": 0.01628082937551128,
+      "readout": 0.11263067496163992,
+      "reset": 0.019357059546210167
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.18665,
+       "se": 0.00275510233476,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.1341,
+       "se": 0.0024095351211385154,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.32885,
+       "se": 0.0033219548273569284,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.2536570642098221,
+      "generic_law_no_intercept": 0.2953622079760388,
+      "script_e_minus_b": 0.004477261328385302,
+      "script_e_minus_b_no_leading": 0.004550751473094975,
+      "script_law_carried": 0.10598244590695123,
+      "script_law_carried_no_leading": 0.10670089837651406
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "t62_dependent_differ",
+   "source": "conformance/tests/properties/t62-dependent-differ.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 7,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 840,
+   "want": "011001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.204,
+   "package_snapshot": {},
+   "id": "a2-t62-dependent-differ-r2",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      148,
+      147,
+      149,
+      146,
+      150,
+      145,
+      151
+     ],
+     "executed_cz": 840,
+     "schedule": {
+      "alap_us": 94.388,
+      "dd_x_pulses": 936,
+      "idle_delay_us_total": 459.032
+     },
+     "script_budget": {
+      "gate": 0.8944451400343049,
+      "relaxation": 1.2114858011520182,
+      "idle": 3.361425605652711,
+      "idle_leading": 0.020468493229370194,
+      "readout": 0.07377376312170679,
+      "reset": 0.019027684504199508
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.20945,
+       "se": 0.0028773312070389115,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.1298,
+       "se": 0.002376467546590948,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.3519,
+       "se": 0.003376880142972208,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.22467758926796982,
+      "generic_law_no_intercept": 0.26161805923145065,
+      "script_e_minus_b": 0.0038481683602774553,
+      "script_e_minus_b_no_leading": 0.003927746209334219,
+      "script_law_carried": 0.0931330100797058,
+      "script_law_carried_no_leading": 0.09395040505978677
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim2",
+   "form": "session",
+   "source": "programs/multi/session.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 2,
+   "event_stream": [
+    2,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 8,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 1113,
+   "want": "001000",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.1285,
+   "package_snapshot": {},
+   "id": "a2-session-r2",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      39,
+      53,
+      33,
+      54,
+      34,
+      55,
+      35,
+      59
+     ],
+     "executed_cz": 1113,
+     "schedule": {
+      "alap_us": 114.072,
+      "dd_x_pulses": 1174,
+      "idle_delay_us_total": 651.768
+     },
+     "script_budget": {
+      "gate": 2.734467653308367,
+      "relaxation": 1.227500647953953,
+      "idle": 2.8987126389669062,
+      "idle_leading": 0.006485970934266728,
+      "readout": 0.11515336907001367,
+      "reset": 0.036083841175058286
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.13485,
+       "se": 0.0024152171486224584,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.09645,
+       "se": 0.002087431406058652,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.1643,
+       "se": 0.002620167074825573,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.14531209502817136,
+      "generic_law_no_intercept": 0.16920365047528105,
+      "script_e_minus_b": 0.0009010785254650484,
+      "script_e_minus_b_no_leading": 0.0009069418888380191,
+      "script_law_carried": 0.04949234779881791,
+      "script_law_carried_no_leading": 0.049630151230279904
+     }
+    }
+   }
+  },
+  {
+   "kind": "control_zero_cz",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 3,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 0,
+   "want": "11111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9425,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.97,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.991,
+     "shots": 2000
+    }
+   },
+   "id": "ctl-zero-cz-thermostat-r5",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      120,
+      14,
+      55
+     ],
+     "executed_cz": 0,
+     "schedule": {
+      "alap_us": 13.6,
+      "dd_x_pulses": 0,
+      "idle_delay_us_total": 16.32
+     },
+     "script_budget": {
+      "gate": 0.0,
+      "relaxation": 0.0020858587460168263,
+      "idle": 0.02206467427585591,
+      "idle_leading": 0.0,
+      "readout": 0.007329588412481416,
+      "reset": 0.003908166017804668
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.9306,
+       "se": 0.0017969924874634286,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.99045,
+       "se": 0.0006877062417922332,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.9906,
+       "se": 0.0006823356945082077,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.8588,
+      "generic_law_no_intercept": 1.0,
+      "script_e_minus_b": 0.9652305565720629,
+      "script_e_minus_b_no_leading": 0.9652305565720629,
+      "script_law_carried": 1.0,
+      "script_law_carried_no_leading": 1.0
+     }
+    }
+   }
+  },
+  {
+   "kind": "control_mirror",
+   "qubits": 6,
+   "cz": 18,
+   "want": "101101",
+   "creg": "c",
+   "uniform_floor": 0.015625,
+   "description": "3 layers of rz(k pi/4) sx and a CZ matching on the 6-qubit heavy-hex patch, then the exact inverse, then X on bits 0,2,3,5",
+   "id": "ctl-mirror-6q",
+   "shots": 1000,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      87,
+      97,
+      6,
+      54,
+      5,
+      55
+     ],
+     "executed_cz": 18,
+     "schedule": {
+      "alap_us": 3.344,
+      "dd_x_pulses": 0,
+      "idle_delay_us_total": 0.072
+     },
+     "script_budget": {
+      "gate": 0.045589055016149016,
+      "relaxation": 0.019867737313263818,
+      "idle": 0.00038925808019418925,
+      "idle_leading": 0.0,
+      "readout": 0.024470034359707075,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.89795,
+       "se": 0.002140511591886388,
+       "shots": 20000
+      },
+      "cal_idle_aer": {
+       "score": 0.92815,
+       "se": 0.0018260281692788856,
+       "shots": 20000
+      },
+      "cal_noidle_aer": {
+       "score": 0.93055,
+       "se": 0.0017975914093586454,
+       "shots": 20000
+      },
+      "generic_law_intercept": 0.8344753010867493,
+      "generic_law_no_intercept": 0.971675944441953,
+      "script_e_minus_b": 0.9136423511937939,
+      "script_e_minus_b_no_leading": 0.9136423511937939,
+      "script_law_carried": 0.9796765050438426,
+      "script_law_carried_no_leading": 0.9796765050438426
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 12,
+   "p": 1,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 12,
+   "cz": 130,
+   "package_heavy_hex_cz": 130,
+   "ideal_p_gs": 0.4739104860518585,
+   "e_min": -6.661559654723064,
+   "e_max": 1.095696165880596,
+   "creg": "meas",
+   "uniform_floor": 0.000244140625,
+   "gw16_is_optimal": true,
+   "id": "a1-b12-p1-warm",
+   "shots": 4000,
+   "ground_state_count": 1,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      34,
+      33,
+      35,
+      39,
+      19,
+      53,
+      87,
+      54,
+      52,
+      97,
+      86,
+      55
+     ],
+     "executed_cz": 130,
+     "schedule": {
+      "alap_us": 11.236,
+      "dd_x_pulses": 98,
+      "idle_delay_us_total": 74.432
+     },
+     "script_budget": {
+      "gate": 0.3764073878148724,
+      "relaxation": 0.1723105978019774,
+      "idle": 0.8429802548676295,
+      "idle_leading": 0.0,
+      "readout": 0.1393277893422935,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.300375,
+       "se": 0.005125303154143665,
+       "shots": 8000
+      },
+      "cal_idle_aer": {
+       "score": 0.254,
+       "se": 0.004866775112946971,
+       "shots": 8000
+      },
+      "cal_noidle_aer": {
+       "score": 0.28525,
+       "se": 0.005048297206732187,
+       "shots": 8000
+      },
+      "generic_law_intercept": 0.3307976037505301,
+      "generic_law_no_intercept": 0.3851457045811365,
+      "script_e_minus_b": 0.1027046173615141,
+      "script_e_minus_b_no_leading": 0.1027046173615141,
+      "script_law_carried": 0.2787372257877056,
+      "script_law_carried_no_leading": 0.2787372257877056
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim1",
+   "family": "R",
+   "n": 12,
+   "p": 2,
+   "start": "cold",
+   "placement": "route",
+   "qubits": 12,
+   "cz": 193,
+   "package_heavy_hex_cz": 193,
+   "ideal_p_gs": 0.5264886848063002,
+   "e_min": -6.796875,
+   "e_max": 19.328125,
+   "creg": "meas",
+   "uniform_floor": 0.000244140625,
+   "gw16_is_optimal": true,
+   "id": "a1-r12-p2-cold",
+   "shots": 4000,
+   "ground_state_count": 1,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      126,
+      127,
+      128,
+      129,
+      137,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150
+     ],
+     "executed_cz": 200,
+     "schedule": {
+      "alap_us": 13.976,
+      "dd_x_pulses": 148,
+      "idle_delay_us_total": 94.48
+     },
+     "script_budget": {
+      "gate": 0.277752074455,
+      "relaxation": 0.4904623697208045,
+      "idle": 1.120006260917153,
+      "idle_leading": 0.11140627225382468,
+      "readout": 0.18143375097941655,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.284,
+       "se": 0.005041626721604843,
+       "shots": 8000
+      },
+      "cal_idle_aer": {
+       "score": 0.15675,
+       "se": 0.00406477916835589,
+       "shots": 8000
+      },
+      "cal_noidle_aer": {
+       "score": 0.254125,
+       "se": 0.004867564642290332,
+       "shots": 8000
+      },
+      "generic_law_intercept": 0.3286637643253634,
+      "generic_law_no_intercept": 0.3826610289579802,
+      "script_e_minus_b": 0.06667166946445999,
+      "script_e_minus_b_no_leading": 0.07450008502762533,
+      "script_law_carried": 0.23915297166119337,
+      "script_law_carried_no_leading": 0.2495273101651721
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 20,
+   "p": 1,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 20,
+   "cz": 351,
+   "package_heavy_hex_cz": 351,
+   "ideal_p_gs": 0.514869220296107,
+   "e_min": -9.56293721437081,
+   "e_max": 1.4947151510261525,
+   "creg": "meas",
+   "uniform_floor": 9.5367431640625e-07,
+   "gw16_is_optimal": true,
+   "id": "a1-b20-p1-warm",
+   "shots": 4000,
+   "ground_state_count": 1,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      65,
+      77,
+      66,
+      128,
+      67,
+      127,
+      57,
+      126,
+      137,
+      47,
+      117,
+      125,
+      147,
+      46,
+      124,
+      148,
+      146,
+      45,
+      123,
+      149
+     ],
+     "executed_cz": 351,
+     "schedule": {
+      "alap_us": 17.56,
+      "dd_x_pulses": 238,
+      "idle_delay_us_total": 223.18
+     },
+     "script_budget": {
+      "gate": 0.744497596141514,
+      "relaxation": 0.8557331226387838,
+      "idle": 2.5960227103096507,
+      "idle_leading": 0.0,
+      "readout": 0.2571997321359835,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.176,
+       "se": 0.009832734445039522,
+       "shots": 1500
+      },
+      "cal_idle_aer": {
+       "score": 0.06066666666666667,
+       "se": 0.006163668941045975,
+       "shots": 1500
+      },
+      "cal_noidle_aer": {
+       "score": 0.14133333333333334,
+       "se": 0.008994747438448813,
+       "shots": 1500
+      },
+      "generic_law_intercept": 0.25249809073783896,
+      "generic_law_no_intercept": 0.29401252454474325,
+      "script_e_minus_b": 0.005993149421382725,
+      "script_e_minus_b_no_leading": 0.005993149421382725,
+      "script_law_carried": 0.09509693349373974,
+      "script_law_carried_no_leading": 0.09509693349373974
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 16,
+   "p": 2,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 16,
+   "cz": 449,
+   "package_heavy_hex_cz": 449,
+   "ideal_p_gs": 0.8731864929472171,
+   "e_min": -7.251824156557774,
+   "e_max": 1.3185425144731813,
+   "creg": "meas",
+   "uniform_floor": 1.52587890625e-05,
+   "gw16_is_optimal": true,
+   "id": "a1-b16-p2-warm",
+   "shots": 4000,
+   "ground_state_count": 1,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      46,
+      47,
+      45,
+      57,
+      52,
+      67,
+      53,
+      68,
+      66,
+      54,
+      39,
+      33,
+      65,
+      55,
+      34,
+      77
+     ],
+     "executed_cz": 449,
+     "schedule": {
+      "alap_us": 18.332,
+      "dd_x_pulses": 326,
+      "idle_delay_us_total": 155.536
+     },
+     "script_budget": {
+      "gate": 1.3015981403921135,
+      "relaxation": 0.6890193258168965,
+      "idle": 1.20441289946321,
+      "idle_leading": 0.0,
+      "readout": 0.15370288065983945,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.235,
+       "se": 0.0067040099940259635,
+       "shots": 4000
+      },
+      "cal_idle_aer": {
+       "score": 0.11325,
+       "se": 0.005010599702131472,
+       "shots": 4000
+      },
+      "cal_noidle_aer": {
+       "score": 0.19,
+       "se": 0.006202821938440599,
+       "shots": 4000
+      },
+      "generic_law_intercept": 0.3662174905115272,
+      "generic_law_no_intercept": 0.42642680015196965,
+      "script_e_minus_b": 0.030688738702188367,
+      "script_e_minus_b_no_leading": 0.030688738702188367,
+      "script_law_carried": 0.22867408553683968,
+      "script_law_carried_no_leading": 0.22867408553683968
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim1",
+   "family": "D",
+   "n": 12,
+   "p": 2,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 12,
+   "cz": 523,
+   "package_heavy_hex_cz": 523,
+   "ideal_p_gs": 0.18152373777886488,
+   "e_min": -8.082903768659994,
+   "e_max": 6.928203230279996,
+   "creg": "meas",
+   "uniform_floor": 0.00048828125,
+   "gw16_is_optimal": false,
+   "id": "a1-d12-p2-warm",
+   "shots": 4000,
+   "ground_state_count": 2,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      150,
+      149,
+      123,
+      148,
+      136,
+      147,
+      143,
+      146,
+      137,
+      142,
+      144,
+      145
+     ],
+     "executed_cz": 523,
+     "schedule": {
+      "alap_us": 25.344,
+      "dd_x_pulses": 386,
+      "idle_delay_us_total": 162.416
+     },
+     "script_budget": {
+      "gate": 1.131642932983633,
+      "relaxation": 0.9313271508202386,
+      "idle": 1.3438433722260772,
+      "idle_leading": 0.0,
+      "readout": 0.18203022481880565,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.0495,
+       "se": 0.0024251224195904007,
+       "shots": 8000
+      },
+      "cal_idle_aer": {
+       "score": 0.0275,
+       "se": 0.0018283787217094822,
+       "shots": 8000
+      },
+      "cal_noidle_aer": {
+       "score": 0.043125,
+       "se": 0.0022711570392368293,
+       "shots": 8000
+      },
+      "generic_law_intercept": 0.06795421064514558,
+      "generic_law_no_intercept": 0.07904665269288028,
+      "script_e_minus_b": 0.005490338229116414,
+      "script_e_minus_b_no_leading": 0.005490338229116414,
+      "script_law_carried": 0.041318091558594595,
+      "script_law_carried_no_leading": 0.041318091558594595
+     }
+    }
+   }
+  },
+  {
+   "kind": "aim1",
+   "family": "B",
+   "n": 16,
+   "p": 3,
+   "start": "warm",
+   "placement": "embed",
+   "qubits": 16,
+   "cz": 666,
+   "package_heavy_hex_cz": 666,
+   "ideal_p_gs": 0.9458786951038568,
+   "e_min": -7.251824156557774,
+   "e_max": 1.3185425144731813,
+   "creg": "meas",
+   "uniform_floor": 1.52587890625e-05,
+   "gw16_is_optimal": true,
+   "id": "a1-b16-p3-warm",
+   "shots": 4000,
+   "ground_state_count": 1,
+   "backends": {
+    "ibm_marrakesh": {
+     "layout": [
+      46,
+      47,
+      45,
+      57,
+      52,
+      67,
+      53,
+      68,
+      66,
+      54,
+      39,
+      33,
+      65,
+      55,
+      34,
+      77
+     ],
+     "executed_cz": 666,
+     "schedule": {
+      "alap_us": 27.92,
+      "dd_x_pulses": 482,
+      "idle_delay_us_total": 262.44
+     },
+     "script_budget": {
+      "gate": 1.975903433268108,
+      "relaxation": 0.9995885084020667,
+      "idle": 2.049111670304598,
+      "idle_leading": 0.0,
+      "readout": 0.15370288065983947,
+      "reset": 0.0
+     },
+     "predictions": {
+      "generic_aer": {
+       "score": 0.15075,
+       "se": 0.005657394221282445,
+       "shots": 4000
+      },
+      "cal_idle_aer": {
+       "score": 0.04475,
+       "se": 0.0032690762265508585,
+       "shots": 4000
+      },
+      "cal_noidle_aer": {
+       "score": 0.10825,
+       "se": 0.004912533396833043,
+       "shots": 4000
+      },
+      "generic_law_intercept": 0.28056777313531206,
+      "generic_law_no_intercept": 0.3266949448000658,
+      "script_e_minus_b": 0.005347607004584991,
+      "script_e_minus_b_no_leading": 0.005347607004584991,
+      "script_law_carried": 0.11244632904976093,
+      "script_law_carried_no_leading": 0.11244632904976093
+     }
+    }
+   }
+  }
+ ],
+ "implied_by_predictions": {
+  "ibm_marrakesh": {
+   "generic_aer": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.18188404805737912,
+     "fidelity_at_zero_cz": 0.8998178779453483,
+     "r2": 0.9637552808342887,
+     "cz_at_30pct": 603.3573052621125
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.19826307596593207,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.951159746600974,
+     "cz_at_30pct": 606.6580410562801
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.1868777940692068,
+     "fidelity_at_zero_cz": 0.879628364980104,
+     "r2": 0.9834919104307457,
+     "cz_at_30pct": 575.087898999447
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.1524876644607591,
+     "p90_error_factor": 1.2561517644603792,
+     "predictions": 17
+    }
+   },
+   "generic_law_intercept": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.1595000000000013,
+     "fidelity_at_zero_cz": 0.8588000000000001,
+     "r2": 1.0,
+     "cz_at_30pct": 658.8806236409793
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.18312261311300704,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.9646547229739596,
+     "cz_at_30pct": 656.8659511187009
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.16275875005773432,
+     "fidelity_at_zero_cz": 0.8282129277498247,
+     "r2": 0.9870982711422586,
+     "cz_at_30pct": 623.4142148687223
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.0,
+     "p90_error_factor": 1.0000000000000002,
+     "predictions": 17
+    }
+   },
+   "generic_law_no_intercept": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.1595000000000013,
+     "fidelity_at_zero_cz": 0.9999999999999998,
+     "r2": 1.0,
+     "cz_at_30pct": 754.2397370319561
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.1595000000000013,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 1.0,
+     "cz_at_30pct": 754.2397370319561
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.1630876503660561,
+     "fidelity_at_zero_cz": 0.9799641370816976,
+     "r2": 0.9935507584144879,
+     "cz_at_30pct": 725.234543944798
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.0,
+     "p90_error_factor": 1.0000000000000002,
+     "predictions": 17
+    }
+   },
+   "cal_idle_aer": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.23843498713610467,
+     "fidelity_at_zero_cz": 0.9154881217964669,
+     "r2": 0.8838412231256575,
+     "cz_at_30pct": 467.3577142943984
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.25212761709016984,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.8791411417707728,
+     "cz_at_30pct": 476.9229192896137
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.2490044979829631,
+     "fidelity_at_zero_cz": 0.9010391730942908,
+     "r2": 0.9060934185529217,
+     "cz_at_30pct": 441.1151065861097
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.3136685331420244,
+     "p90_error_factor": 1.9239924660822747,
+     "predictions": 17
+    }
+   },
+   "cal_noidle_aer": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.15159206544684833,
+     "fidelity_at_zero_cz": 0.9786115638571711,
+     "r2": 0.901163555489691,
+     "cz_at_30pct": 779.3652752444262
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.1549479139592025,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.9004521295599155,
+     "cz_at_30pct": 776.4156142173022
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.15536684718432392,
+     "fidelity_at_zero_cz": 0.962739227803127,
+     "r2": 0.8979610921849281,
+     "cz_at_30pct": 749.8987760702756
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.1531021044277936,
+     "p90_error_factor": 1.615321987094959,
+     "predictions": 17
+    }
+   },
+   "script_e_minus_b": {
+    "package": {
+     "circuits": 13,
+     "loss_per_cz_pct": 0.6582728471961508,
+     "fidelity_at_zero_cz": 0.8830214876236337,
+     "r2": 0.8937830313287093,
+     "cz_at_30pct": 163.4595601788537
+    },
+    "no_intercept": {
+     "circuits": 13,
+     "loss_per_cz_pct": 0.6880368541134607,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.8908912745667105,
+     "cz_at_30pct": 174.38399452272134
+    },
+    "floor_corrected": {
+     "circuits": 12,
+     "loss_per_cz_pct": 0.7463939951444787,
+     "fidelity_at_zero_cz": 0.8055781853175534,
+     "r2": 0.955218509962701,
+     "cz_at_30pct": 131.84549098053915
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.4374160330430845,
+     "p90_error_factor": 2.355381570318983,
+     "predictions": 13
+    }
+   },
+   "script_e_minus_b_no_leading": {
+    "package": {
+     "circuits": 13,
+     "loss_per_cz_pct": 0.656134528143093,
+     "fidelity_at_zero_cz": 0.8838522481395437,
+     "r2": 0.8922269455702251,
+     "cz_at_30pct": 164.13688158831943
+    },
+    "no_intercept": {
+     "circuits": 13,
+     "loss_per_cz_pct": 0.685674220498067,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.8893650756643583,
+     "cz_at_30pct": 174.98695001031382
+    },
+    "floor_corrected": {
+     "circuits": 12,
+     "loss_per_cz_pct": 0.7435031489574917,
+     "fidelity_at_zero_cz": 0.8097659652807511,
+     "r2": 0.9563097634146023,
+     "cz_at_30pct": 133.05483033215953
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.450535423671678,
+     "p90_error_factor": 2.404317736878011,
+     "predictions": 13
+    }
+   },
+   "script_law_carried": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.2988793601351514,
+     "fidelity_at_zero_cz": 0.996222685815283,
+     "r2": 0.8725181212129172,
+     "cz_at_30pct": 400.96241010178795
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.29946591210777695,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.8725126999655479,
+     "cz_at_30pct": 401.4377298161884
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.32429889807295,
+     "fidelity_at_zero_cz": 0.9857560609718832,
+     "r2": 0.8431931030841062,
+     "cz_at_30pct": 366.23511109667726
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.3368150873295273,
+     "p90_error_factor": 3.6761914847255044,
+     "predictions": 17
+    }
+   },
+   "script_law_carried_no_leading": {
+    "package": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.2983827265360173,
+     "fidelity_at_zero_cz": 0.9974299700178133,
+     "r2": 0.8714900405837434,
+     "cz_at_30pct": 402.03607063278315
+    },
+    "no_intercept": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.2987815689153406,
+     "fidelity_at_zero_cz": 1.0,
+     "r2": 0.871487528591431,
+     "cz_at_30pct": 402.35858164640075
+    },
+    "floor_corrected": {
+     "circuits": 17,
+     "loss_per_cz_pct": 0.32372025229420176,
+     "fidelity_at_zero_cz": 0.9873962443934927,
+     "r2": 0.8421399280543049,
+     "cz_at_30pct": 367.40354530797475
+    },
+    "held_out_q5": {
+     "median_error_factor": 1.3418578400947596,
+     "p90_error_factor": 3.665844454252516,
+     "predictions": 17
+    }
+   }
+  }
+ },
+ "reproduction_check": {
+  "what": "generic_aer (20,000 shots, the submitted circuit) against the package's own generic trace fidelity for the same circuit (2,000 shots, results/aim2)",
+  "circuits": 17,
+  "median_abs_difference_in_package_standard_errors": 1.4431133526131974,
+  "max_abs_difference_in_package_standard_errors": 2.4151556028728183,
+  "pairs": [
+   [
+    "a2-17-traffic-light-accept-p5",
+    0.8829,
+    0.879
+   ],
+   [
+    "a2-ch07-form-injective-f64-r5",
+    0.7859,
+    0.785
+   ],
+   [
+    "a2-counter-flag-r1",
+    0.8528,
+    0.841
+   ],
+   [
+    "a2-t59-distinguish-mod3-mod4-r5",
+    0.6229,
+    0.608
+   ],
+   [
+    "a2-t59-distinguish-mod5-mod4-r1",
+    0.6751,
+    0.6595
+   ],
+   [
+    "a2-hc-21-kept-step-is-input-r1",
+    0.60715,
+    0.5805
+   ],
+   [
+    "a2-t60-dim-redundant-k5-r5",
+    0.45745,
+    0.443
+   ],
+   [
+    "a2-queue-sim-r1",
+    0.5531,
+    0.5355
+   ],
+   [
+    "a2-counter-r1",
+    0.51885,
+    0.502
+   ],
+   [
+    "a2-hc-11-fabric-caps-logged-r5",
+    0.3181,
+    0.321
+   ],
+   [
+    "a2-washer-r5",
+    0.2928,
+    0.276
+   ],
+   [
+    "a2-door-r3",
+    0.2916,
+    0.3015
+   ],
+   [
+    "a2-03-distributed-accept-g2",
+    0.2649,
+    0.25
+   ],
+   [
+    "a2-s1-guard-trap-keeps-r3",
+    0.18665,
+    0.168
+   ],
+   [
+    "a2-t62-dependent-differ-r2",
+    0.20945,
+    0.204
+   ],
+   [
+    "a2-session-r2",
+    0.13485,
+    0.1285
+   ],
+   [
+    "ctl-zero-cz-thermostat-r5",
+    0.9306,
+    0.9425
+   ]
+  ],
+  "explanation": "Rerunning the package's own call (patch circuit, 2,000 shots, seed_simulator=11) reproduces its values, so the circuits are identical. The package drew every circuit from the same seed, so its generic values share one correlated draw: with 20,000 shots (seed 11 or 12345) they come out 0.00 to 0.03 higher on 14 of 17 programs. Prediction generic_aer uses the 20,000-shot values."
+ },
+ "qpu_seconds_estimate": {
+  "method": "IBM's own estimator is only shown once a job exists. Its estimate for the other agent's queued job on this account (176,000 shots of short circuits, 44.9 s) gives 0.255 ms per shot (the 250 us default repetition delay plus about 5 us). Per arm: shots x 0.255 ms + shots x each circuit's ASAP duration + 2 to 6 s per job. IBM's estimate for the DD-off job is read when it is created, before the DD-on job is sent.",
+  "per_backend": {
+   "ibm_marrakesh": {
+    "shots_per_arm": 42000,
+    "circuits_per_arm": 24,
+    "shot_seconds_at_ibm_rate": 10.71,
+    "circuit_seconds": 1.29,
+    "per_job_overhead_assumed_s": [
+     2,
+     6
+    ],
+    "estimate_per_arm_s": [
+     14.0,
+     18.0
+    ]
+   }
+  },
+  "max_execution_time_cap_per_job_s": 45,
+  "budget_rule": "Read usage just before each submission and reserve the hard cost cap of every job already pending on the instance (300 s if none is stated). Send an arm only if what remains covers its own 45 s cap plus 30 s. Send DD-on only if both arms together are estimated at 100 s or less (IBM's estimate for DD-off once it exists). Open plan only; each job carries the 45 s cap as a hard stop."
+ }
+}

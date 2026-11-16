@@ -1,0 +1,634 @@
+[
+ {
+  "id": "qcup-a1-A24-p1-warm",
+  "circuit": "A_24_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-A24-p2-warm",
+  "circuit": "A_24_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-A24-p3-warm",
+  "circuit": "A_24_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-A32-p1-cold",
+  "circuit": "A_32_0_p1_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-A32-p1-warm",
+  "circuit": "A_32_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-A32-p2-cold",
+  "circuit": "A_32_0_p2_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-A32-p2-warm",
+  "circuit": "A_32_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-A32-p3-cold",
+  "circuit": "A_32_0_p3_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-A32-p3-warm",
+  "circuit": "A_32_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-B24-p1-warm",
+  "circuit": "B_24_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-B32-p1-cold",
+  "circuit": "B_32_0_p1_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-B32-p1-warm",
+  "circuit": "B_32_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-C24-p1-warm",
+  "circuit": "C_24_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-C24-p2-warm",
+  "circuit": "C_24_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-C24-p3-warm",
+  "circuit": "C_24_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-C30-p1-cold",
+  "circuit": "C_30_0_p1_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-C30-p1-warm",
+  "circuit": "C_30_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-C30-p2-cold",
+  "circuit": "C_30_0_p2_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-C30-p2-warm",
+  "circuit": "C_30_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-C30-p3-cold",
+  "circuit": "C_30_0_p3_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-C30-p3-warm",
+  "circuit": "C_30_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-D24-p1-warm",
+  "circuit": "D_24_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-D24-p2-warm",
+  "circuit": "D_24_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-D24-p3-warm",
+  "circuit": "D_24_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-D32-p1-cold",
+  "circuit": "D_32_0_p1_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-D32-p1-warm",
+  "circuit": "D_32_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-D32-p2-cold",
+  "circuit": "D_32_0_p2_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-D32-p2-warm",
+  "circuit": "D_32_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-D32-p3-cold",
+  "circuit": "D_32_0_p3_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-D32-p3-warm",
+  "circuit": "D_32_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-R24-p1-warm",
+  "circuit": "R_24_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-R24-p2-warm",
+  "circuit": "R_24_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-R24-p3-warm",
+  "circuit": "R_24_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "no Goemans-Williamson seed state is stored above 20 variables, so the warm-start circuit of the method cannot be built; the model uses a placeholder seed (two-qubit structure identical)"
+ },
+ {
+  "id": "qcup-a1-R30-p1-cold",
+  "circuit": "R_30_0_p1_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-R30-p1-warm",
+  "circuit": "R_30_0_p1_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-R30-p2-cold",
+  "circuit": "R_30_0_p2_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-R30-p2-warm",
+  "circuit": "R_30_0_p2_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-R30-p3-cold",
+  "circuit": "R_30_0_p3_cold",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a1-R30-p3-warm",
+  "circuit": "R_30_0_p3_warm",
+  "group": "aim1_qaoa",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-a2-door-r-t5",
+  "circuit": "door_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-counter-flag-r-t5",
+  "circuit": "counter_flag_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-phase-r-t5",
+  "circuit": "phase_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-phase-p-t5",
+  "circuit": "phase_P_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-r-t5",
+  "circuit": "17_traffic_light_accept_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-p-t5",
+  "circuit": "17_traffic_light_accept_P_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t5",
+  "circuit": "ch07_form_bytes_not_rfc8785_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t5",
+  "circuit": "ch17_callee_requires_at_run_time_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-r-t5",
+  "circuit": "f6_signed_zero_state_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-p-t5",
+  "circuit": "f6_signed_zero_state_P_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-ch07-form-injective-f64-r-t5",
+  "circuit": "ch07_form_injective_f64_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t5",
+  "circuit": "t59_distinguish_mod2_mod3_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t5",
+  "circuit": "t59_distinguish_mod3_mod4_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t5",
+  "circuit": "t59_distinguish_mod5_mod4_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-r-t5",
+  "circuit": "t60_dim_redundant_k4_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-p-t5",
+  "circuit": "t60_dim_redundant_k4_P_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-r-t5",
+  "circuit": "t60_dim_redundant_k5_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-p-t5",
+  "circuit": "t60_dim_redundant_k5_P_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-thermostat-r-t5",
+  "circuit": "thermostat_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-lobby-r-t5",
+  "circuit": "lobby_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-session-r-t5",
+  "circuit": "session_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-washer-r-t5",
+  "circuit": "washer_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-equivalent-r-t5",
+  "circuit": "equivalent_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-counter-r-t5",
+  "circuit": "counter_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-03-distributed-accept-r-t5",
+  "circuit": "03_distributed_accept_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-s1-guard-trap-keeps-r-t5",
+  "circuit": "s1_guard_trap_keeps_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-hc-11-fabric-caps-logged-r-t5",
+  "circuit": "hc_11_fabric_caps_logged_R_T5",
+  "group": "aim2",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-hc-21-kept-step-is-input-r-t5",
+  "circuit": "hc_21_kept_step_is_input_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t62-dependent-differ-r-t5",
+  "circuit": "t62_dependent_differ_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-t62-independent-commute-r-t5",
+  "circuit": "t62_independent_commute_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-card-r-t5",
+  "circuit": "card_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-ring-buffer-r-t5",
+  "circuit": "ring_buffer_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-queue-sim-r-t5",
+  "circuit": "queue_sim_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-a2-flag-walls-r-t5",
+  "circuit": "flag_walls_R_T5",
+  "group": "aim2",
+  "tier_application": "extension",
+  "shots": 500,
+  "reason": "mid-circuit measurement or reset (could not run under IonQ's noise model)"
+ },
+ {
+  "id": "qcup-f-hub-4x4-p1-free",
+  "circuit": "4x4_p1_U4.0",
+  "group": "family_F_hubbard",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-f-hub-4x4-p1-free",
+  "circuit": "4x4_p1_U8.0",
+  "group": "family_F_hubbard",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-f-hub-4x4-p2-free",
+  "circuit": "4x4_p2_U4.0",
+  "group": "family_F_hubbard",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-f-hub-4x4-p2-free",
+  "circuit": "4x4_p2_U8.0",
+  "group": "family_F_hubbard",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-f-hub-4x4-p3-free",
+  "circuit": "4x4_p3_U4.0",
+  "group": "family_F_hubbard",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ },
+ {
+  "id": "qcup-f-hub-4x4-p3-free",
+  "circuit": "4x4_p3_U8.0",
+  "group": "family_F_hubbard",
+  "tier_application": "core",
+  "shots": 500,
+  "reason": "over the simulator limit of 29 qubits"
+ }
+]

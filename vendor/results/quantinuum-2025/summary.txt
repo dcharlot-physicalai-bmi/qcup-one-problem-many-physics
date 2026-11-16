@@ -1,0 +1,46 @@
+controls: {"pub 2023-03-10 H2-1": {"vs": "quantinuum-h2-1-2023", "circuits": 331, "max_relative_difference": 0.0}, "pub 2024-12-06 H2-2": {"vs": "quantinuum-h2-2-2024", "circuits": 331, "max_relative_difference": 0.0}, "rule_2023_vs_admission_json_max_abs": 0.0, "rule_2024_vs_admission_json_max_abs": 0.0}
+figure set                     2Q       1Q      mem  readout | N30 prog  N30 all |   core core HQC* |   ext  ext HQC |        TM F    TM share |       act F   act share act>=.3 |         A60 | Q8 act false alarm 50/100/200
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pub 2023-03-10 H2-1      1.93e-03  2.7e-05 1.95e-04 1.55e-03 |    643.0    758.1 |  84/93    4309.3 | 37/82   7317.0 | 0.516-0.671 0.518-0.671 | 0.185-0.274 0.216-0.281       0 | 0.101-0.104 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+pub 2024-05-20 H2-1      1.36e-03  3.4e-05 4.71e-04 1.50e-03 |    506.2    565.7 |  84/93    4309.3 | 20/82   2868.5 | 0.464-0.680 0.466-0.680 | 0.155-0.232 0.178-0.241       0 | 0.033-0.033 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+pub 2024-12-06 H2-2      1.40e-03  8.0e-05 4.60e-04 1.35e-03 |    495.1    553.9 |  84/93    4309.3 | 20/82   2868.5 | 0.448-0.663 0.450-0.663 | 0.141-0.216 0.164-0.226       0 | 0.034-0.035 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+docs 2025-04-30 H2-1     1.10e-03  1.9e-05 1.83e-04 1.00e-03 |    927.1   1091.0 |  84/93    4309.3 | 49/82  10969.6 | 0.642-0.778 0.644-0.778 | 0.330-0.424 0.359-0.430       4 | 0.182-0.186 | 0.0020/0.0000/0.0000 (power 1.000/1.000/1.000)
+docs 2025-05-29 H2-2     1.10e-03  3.5e-05 2.00e-04 1.20e-03 |    875.6   1023.5 |  84/93    4309.3 | 47/82  10426.0 | 0.623-0.766 0.624-0.766 | 0.308-0.401 0.338-0.407       4 | 0.164-0.168 | 0.0015/0.0000/0.0000 (power 1.000/1.000/1.000)
+docs 2025-08-28 H2-2     8.30e-04  2.8e-05 9.51e-05 9.35e-04 |   1387.0   1608.8 |  87/93    6008.6 | 64/82  19065.8 | 0.732-0.829 0.733-0.829 | 0.456-0.545 0.480-0.550       4 | 0.343-0.348 | 0.0390/0.0075/0.0000 (power 0.976/0.997/1.000)
+docs 2026-10-20 H2-1     1.20e-03  4.7e-05 2.67e-04 1.93e-03 |    718.7    816.0 |  84/93    4309.3 | 37/82   7443.6 | 0.561-0.727 0.563-0.727 | 0.244-0.332 0.271-0.339       2 | 0.103-0.105 | 0.0005/0.0000/0.0000 (power 1.000/1.000/1.000)
+docs 2026-10-06 H2-2     8.30e-04  3.9e-05 1.47e-04 1.29e-03 |   1146.9   1325.2 |  85/93    4510.6 | 51/82  11930.6 | 0.690-0.808 0.691-0.808 | 0.401-0.490 0.427-0.496       4 | 0.254-0.258 | 0.0120/0.0005/0.0000 (power 0.998/1.000/1.000)
+fit 2023-03-10 H2-1      1.93e-03  2.7e-05 1.91e-04 1.56e-03 |    646.9    763.1 |  84/93    4309.3 | 37/82   7317.0 | 0.518-0.671 0.520-0.671 | 0.186-0.275 0.217-0.283       0 | 0.102-0.106 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2024-05-20 H2-1      1.36e-03  3.4e-05 4.75e-04 1.49e-03 |    503.4    562.8 |  84/93    4309.3 | 20/82   2868.5 | 0.462-0.679 0.464-0.679 | 0.153-0.230 0.176-0.239       0 | 0.032-0.033 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-04-30 H2-1      1.05e-03  1.9e-05 1.87e-04 9.94e-04 |    940.1   1100.6 |  84/93    4309.3 | 49/82  10969.6 | 0.647-0.783 0.649-0.783 | 0.337-0.431 0.366-0.437       4 | 0.184-0.187 | 0.0020/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-04-30 H2-1 +1sd 1.14e-03  2.2e-05 1.97e-04 1.10e-03 |    877.1   1028.6 |  84/93    4309.3 | 47/82  10426.0 | 0.626-0.768 0.627-0.768 | 0.310-0.404 0.340-0.410       4 | 0.164-0.167 | 0.0015/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-04-30 H2-1 -1sd 9.68e-04  1.5e-05 1.77e-04 8.84e-04 |   1012.8   1183.4 |  84/93    4309.3 | 49/82  10969.6 | 0.669-0.799 0.670-0.799 | 0.367-0.460 0.394-0.465       4 | 0.206-0.209 | 0.0050/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2024-12-06 H2-2      1.40e-03  7.8e-05 4.57e-04 1.33e-03 |    497.7    556.9 |  84/93    4309.3 | 20/82   2868.5 | 0.450-0.664 0.452-0.665 | 0.143-0.218 0.166-0.228       0 | 0.034-0.035 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-05-29 H2-2      1.15e-03  3.5e-05 1.95e-04 1.19e-03 |    865.9   1017.9 |  84/93    4309.3 | 47/82  10426.0 | 0.618-0.761 0.620-0.761 | 0.302-0.395 0.332-0.401       4 | 0.164-0.167 | 0.0020/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-05-29 H2-2 +1sd 1.32e-03  4.0e-05 2.11e-04 1.30e-03 |    775.2    916.4 |  84/93    4309.3 | 45/82   9909.4 | 0.583-0.735 0.585-0.735 | 0.260-0.352 0.290-0.359       2 | 0.135-0.138 | 0.0000/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-05-29 H2-2 -1sd 9.77e-04  3.0e-05 1.80e-04 1.07e-03 |    980.7   1144.6 |  84/93    4309.3 | 49/82  10969.6 | 0.656-0.789 0.657-0.789 | 0.351-0.443 0.379-0.449       4 | 0.198-0.202 | 0.0045/0.0000/0.0000 (power 1.000/1.000/1.000)
+fit 2025-08-28 H2-2      8.30e-04  2.8e-05 1.00e-04 9.19e-04 |   1363.5   1586.6 |  87/93    6008.6 | 63/82  18468.3 | 0.729-0.828 0.730-0.828 | 0.452-0.542 0.476-0.546       4 | 0.334-0.339 | 0.0385/0.0075/0.0000 (power 0.980/0.998/1.000)
+fit 2025-08-28 H2-2 +1sd 8.68e-04  3.2e-05 1.12e-04 1.03e-03 |   1265.5   1469.1 |  87/93    6008.6 | 57/82  15111.4 | 0.712-0.817 0.713-0.817 | 0.427-0.517 0.452-0.522       4 | 0.305-0.309 | 0.0200/0.0015/0.0000 (power 0.991/1.000/1.000)
+fit 2025-08-28 H2-2 -1sd 7.92e-04  2.3e-05 8.84e-05 8.10e-04 |   1478.1   1723.6 |  87/93    6008.6 | 65/82  19589.2 | 0.747-0.839 0.748-0.839 | 0.479-0.567 0.502-0.571       4 | 0.367-0.372 | 0.0640/0.0235/0.0010 (power 0.954/0.994/1.000)
+
+* core circuits and HQC: the kept core rows, plus the 4 actinide circuits at 50 shots (405.0 HQC) and the 8 transition-metal circuits at 200 (1,208.9 HQC), counting an actinide circuit once when the rule also admits it (final_request.py would count it twice: see core_total.hqc_as_final_request).
+generic-law shares (unchanged): transition metals 0.810-0.906, actinides 0.629-0.678
+rows added to the 72-row core on pub 2023-03-10 H2-1: []
+rows added to the 72-row core on pub 2024-05-20 H2-1: []
+rows added to the 72-row core on pub 2024-12-06 H2-2: []
+rows added to the 72-row core on docs 2025-04-30 H2-1: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on docs 2025-05-29 H2-2: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on docs 2025-08-28 H2-2: ['qcup-a1-A60-p1-cold', 'qcup-a1-A60-p1-warm', 'qcup-e-labs12-p1', 'qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on docs 2026-10-20 H2-1: ['qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on docs 2026-10-06 H2-2: ['qcup-e-labs12-p1', 'qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2023-03-10 H2-1: []
+rows added to the 72-row core on fit 2024-05-20 H2-1: []
+rows added to the 72-row core on fit 2025-04-30 H2-1: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-04-30 H2-1 +1sd: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-04-30 H2-1 -1sd: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2024-12-06 H2-2: []
+rows added to the 72-row core on fit 2025-05-29 H2-2: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-05-29 H2-2 +1sd: ['qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-05-29 H2-2 -1sd: ['qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-08-28 H2-2: ['qcup-a1-A60-p1-cold', 'qcup-a1-A60-p1-warm', 'qcup-e-labs12-p1', 'qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-08-28 H2-2 +1sd: ['qcup-a1-A60-p1-cold', 'qcup-a1-A60-p1-warm', 'qcup-e-labs12-p1', 'qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']
+rows added to the 72-row core on fit 2025-08-28 H2-2 -1sd: ['qcup-a1-A60-p1-cold', 'qcup-a1-A60-p1-warm', 'qcup-e-labs12-p1', 'qcup-f-tgt-puo2-eq', 'qcup-f-tgt-puo2-stretched', 'qcup-f-tgt-uo22p-eq', 'qcup-f-tgt-uo22p-stretched']

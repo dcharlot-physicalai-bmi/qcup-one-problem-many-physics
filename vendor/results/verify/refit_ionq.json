@@ -1,0 +1,390 @@
+{
+ "native": {
+  "builder (>=20 correct, >=2x floor, rzz>0)": {
+   "n": 21,
+   "loss_pct": 0.8015,
+   "r2": 0.9816,
+   "F0": 0.9806,
+   "n30": 147.2,
+   "xmax": 173
+  },
+  "package aggregate.py rule (>=20 correct traces, i.e. y>=0.04 at 500 shots; rzz 0 included)": {
+   "n": 44,
+   "loss_pct": 0.1933,
+   "r2": 0.7536,
+   "F0": 0.6379,
+   "n30": 389.8,
+   "xmax": 1529
+  },
+  "package rule, rzz>0": {
+   "n": 41,
+   "loss_pct": 0.1881,
+   "r2": 0.7488,
+   "F0": 0.6066,
+   "n30": 374.0,
+   "xmax": 1529
+  },
+  "package literal threshold y>=0.01": {
+   "n": 44,
+   "loss_pct": 0.1933,
+   "r2": 0.7536,
+   "F0": 0.6379,
+   "n30": 389.8,
+   "xmax": 1529
+  },
+  ">=2x floor incl rzz 0": {
+   "n": 24,
+   "loss_pct": 0.8055,
+   "r2": 0.9835,
+   "F0": 0.9848,
+   "n30": 147.0,
+   "xmax": 173
+  },
+  "rzz<=147 only": {
+   "n": 23,
+   "loss_pct": 0.8256,
+   "r2": 0.981,
+   "F0": 0.9892,
+   "n30": 143.9,
+   "xmax": 139
+  },
+  "rzz<=300 (IonQ core cap) all": {
+   "n": 26,
+   "loss_pct": 0.7568,
+   "r2": 0.9809,
+   "F0": 0.9705,
+   "n30": 154.5,
+   "xmax": 215
+  },
+  "floor-corrected y'=(y-floor)/(1-floor), y'>0.04, rzz>0": {
+   "n": 28,
+   "loss_pct": 0.8702,
+   "r2": 0.968,
+   "F0": 0.906,
+   "n30": 126.5,
+   "xmax": 396
+  },
+  "builder_ids": [
+   [
+    1,
+    "qcup-a2-t60-dim-redundant-k4-p-t1"
+   ],
+   [
+    2,
+    "qcup-a2-17-traffic-light-accept-p-t1"
+   ],
+   [
+    3,
+    "qcup-a2-17-traffic-light-accept-r-t1"
+   ],
+   [
+    3,
+    "qcup-a2-t60-dim-redundant-k4-r-t1"
+   ],
+   [
+    4,
+    "qcup-a2-ch07-form-injective-f64-r-t1"
+   ],
+   [
+    9,
+    "qcup-a2-equivalent-r-t1"
+   ],
+   [
+    13,
+    "qcup-a2-t59-distinguish-mod3-mod4-r-t1"
+   ],
+   [
+    13,
+    "qcup-a2-t60-dim-redundant-k5-p-t1"
+   ],
+   [
+    16,
+    "qcup-a2-phase-p-t1"
+   ],
+   [
+    23,
+    "qcup-a2-phase-r-t1"
+   ],
+   [
+    24,
+    "qcup-a2-t60-dim-redundant-k5-r-t1"
+   ],
+   [
+    30,
+    "qcup-a2-counter-flag-r-t1"
+   ],
+   [
+    43,
+    "qcup-a2-hc-11-fabric-caps-logged-r-t1"
+   ],
+   [
+    50,
+    "qcup-a2-washer-r-t1"
+   ],
+   [
+    89,
+    "qcup-a2-door-r-t1"
+   ],
+   [
+    99,
+    "qcup-a2-t59-distinguish-mod5-mod4-r-t1"
+   ],
+   [
+    106,
+    "qcup-a2-s1-guard-trap-keeps-r-t1"
+   ],
+   [
+    108,
+    "qcup-a2-hc-21-kept-step-is-input-r-t1"
+   ],
+   [
+    130,
+    "qcup-a2-queue-sim-r-t1"
+   ],
+   [
+    139,
+    "qcup-a2-03-distributed-accept-r-t1"
+   ],
+   [
+    173,
+    "qcup-a2-t62-dependent-differ-r-t1"
+   ]
+  ]
+ },
+ "qis": {
+  "builder (>=20 correct, >=2x floor, rzz>0)": {
+   "n": 40,
+   "loss_pct": -0.0001,
+   "r2": 0.0004,
+   "F0": 0.9887,
+   "n30": -871646.0,
+   "xmax": 1529
+  },
+  "package aggregate.py rule (>=20 correct traces, i.e. y>=0.04 at 500 shots; rzz 0 included)": {
+   "n": 44,
+   "loss_pct": 0.0,
+   "r2": 0.0,
+   "F0": 0.9901,
+   "n30": 7560316.8,
+   "xmax": 1529
+  },
+  "package rule, rzz>0": {
+   "n": 41,
+   "loss_pct": -0.0001,
+   "r2": 0.0002,
+   "F0": 0.989,
+   "n30": -1188896.8,
+   "xmax": 1529
+  },
+  "package literal threshold y>=0.01": {
+   "n": 44,
+   "loss_pct": 0.0,
+   "r2": 0.0,
+   "F0": 0.9901,
+   "n30": 7560316.8,
+   "xmax": 1529
+  },
+  ">=2x floor incl rzz 0": {
+   "n": 43,
+   "loss_pct": -0.0,
+   "r2": 0.0,
+   "F0": 0.9899,
+   "n30": -9275092.0,
+   "xmax": 1529
+  },
+  "rzz<=147 only": {
+   "n": 23,
+   "loss_pct": 0.0328,
+   "r2": 0.4924,
+   "F0": 1.0047,
+   "n30": 3688.9,
+   "xmax": 139
+  },
+  "rzz<=300 (IonQ core cap) all": {
+   "n": 26,
+   "loss_pct": 0.0142,
+   "r2": 0.2014,
+   "F0": 0.9998,
+   "n30": 8472.5,
+   "xmax": 215
+  },
+  "floor-corrected y'=(y-floor)/(1-floor), y'>0.04, rzz>0": {
+   "n": 41,
+   "loss_pct": -0.0001,
+   "r2": 0.0004,
+   "F0": 0.9876,
+   "n30": -810382.4,
+   "xmax": 1529
+  },
+  "builder_ids": [
+   [
+    1,
+    "qcup-a2-ch17-callee-requires-at-run-time-r-t1"
+   ],
+   [
+    1,
+    "qcup-a2-f6-signed-zero-state-r-t1"
+   ],
+   [
+    1,
+    "qcup-a2-t60-dim-redundant-k4-p-t1"
+   ],
+   [
+    2,
+    "qcup-a2-17-traffic-light-accept-p-t1"
+   ],
+   [
+    3,
+    "qcup-a2-17-traffic-light-accept-r-t1"
+   ],
+   [
+    3,
+    "qcup-a2-t60-dim-redundant-k4-r-t1"
+   ],
+   [
+    4,
+    "qcup-a2-ch07-form-injective-f64-r-t1"
+   ],
+   [
+    9,
+    "qcup-a2-equivalent-r-t1"
+   ],
+   [
+    13,
+    "qcup-a2-t59-distinguish-mod3-mod4-r-t1"
+   ],
+   [
+    13,
+    "qcup-a2-t60-dim-redundant-k5-p-t1"
+   ],
+   [
+    16,
+    "qcup-a2-phase-p-t1"
+   ],
+   [
+    23,
+    "qcup-a2-phase-r-t1"
+   ],
+   [
+    24,
+    "qcup-a2-t60-dim-redundant-k5-r-t1"
+   ],
+   [
+    30,
+    "qcup-a2-counter-flag-r-t1"
+   ],
+   [
+    43,
+    "qcup-a2-hc-11-fabric-caps-logged-r-t1"
+   ],
+   [
+    50,
+    "qcup-a2-washer-r-t1"
+   ],
+   [
+    89,
+    "qcup-a2-door-r-t1"
+   ],
+   [
+    99,
+    "qcup-a2-t59-distinguish-mod5-mod4-r-t1"
+   ],
+   [
+    106,
+    "qcup-a2-s1-guard-trap-keeps-r-t1"
+   ],
+   [
+    108,
+    "qcup-a2-hc-21-kept-step-is-input-r-t1"
+   ],
+   [
+    130,
+    "qcup-a2-queue-sim-r-t1"
+   ],
+   [
+    139,
+    "qcup-a2-03-distributed-accept-r-t1"
+   ],
+   [
+    173,
+    "qcup-a2-t62-dependent-differ-r-t1"
+   ],
+   [
+    182,
+    "qcup-a2-counter-r-t1"
+   ],
+   [
+    215,
+    "qcup-a2-session-r-t1"
+   ],
+   [
+    333,
+    "qcup-a2-t62-independent-commute-r-t1"
+   ],
+   [
+    375,
+    "qcup-a2-card-r-t1"
+   ],
+   [
+    386,
+    "qcup-a2-flag-walls-r-t1"
+   ],
+   [
+    396,
+    "qcup-a2-lobby-r-t1"
+   ],
+   [
+    399,
+    "qcup-a2-ring-buffer-r-t1"
+   ],
+   [
+    470,
+    "qcup-a2-reconcile-r-t1"
+   ],
+   [
+    486,
+    "qcup-a2-crossing-r-t1"
+   ],
+   [
+    501,
+    "qcup-a2-account-r-t1"
+   ],
+   [
+    788,
+    "qcup-a2-handshake-r-t1"
+   ],
+   [
+    973,
+    "qcup-a2-player-r-t1"
+   ],
+   [
+    1259,
+    "qcup-a2-printer-r-t1"
+   ],
+   [
+    1289,
+    "qcup-a2-parking-r-t1"
+   ],
+   [
+    1400,
+    "qcup-a2-climate-r-t1"
+   ],
+   [
+    1493,
+    "qcup-a2-reservoir-r-t1"
+   ],
+   [
+    1529,
+    "qcup-a2-vending-r-t1"
+   ]
+  ]
+ },
+ "generic_model_same_44": {
+  "n": 41,
+  "loss_pct": 0.0506,
+  "r2": 0.9927,
+  "F0": 0.9915,
+  "n30": 2362.5,
+  "xmax": 1529
+ }
+}

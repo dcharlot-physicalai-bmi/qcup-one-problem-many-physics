@@ -1,0 +1,114 @@
+{
+ "backend": "ibm_marrakesh",
+ "model": "generic",
+ "results": {
+  "a2-17-traffic-light-accept-p5": {
+   "score": 0.8829,
+   "shots": 20000,
+   "se": 0.0022736269482920893,
+   "seconds": 2.8
+  },
+  "a2-ch07-form-injective-f64-r5": {
+   "score": 0.7859,
+   "shots": 20000,
+   "se": 0.0029005274520335087,
+   "seconds": 5.2
+  },
+  "a2-counter-flag-r1": {
+   "score": 0.8528,
+   "shots": 20000,
+   "se": 0.0025053159481390765,
+   "seconds": 6.6
+  },
+  "a2-t59-distinguish-mod3-mod4-r5": {
+   "score": 0.6229,
+   "shots": 20000,
+   "se": 0.0034270657274117168,
+   "seconds": 15.4
+  },
+  "a2-t59-distinguish-mod5-mod4-r1": {
+   "score": 0.6751,
+   "shots": 20000,
+   "se": 0.0033116460408684984,
+   "seconds": 28.5
+  },
+  "a2-hc-21-kept-step-is-input-r1": {
+   "score": 0.60715,
+   "shots": 20000,
+   "se": 0.0034533959916291093,
+   "seconds": 29.3
+  },
+  "a2-t60-dim-redundant-k5-r5": {
+   "score": 0.45745,
+   "shots": 20000,
+   "se": 0.00352270845728113,
+   "seconds": 35.8
+  },
+  "a2-queue-sim-r1": {
+   "score": 0.5531,
+   "shots": 20000,
+   "se": 0.0035155397167433624,
+   "seconds": 38.5
+  },
+  "a2-counter-r1": {
+   "score": 0.51885,
+   "shots": 20000,
+   "se": 0.0035330205030540086,
+   "seconds": 105.7
+  },
+  "a2-hc-11-fabric-caps-logged-r5": {
+   "score": 0.3181,
+   "shots": 20000,
+   "se": 0.0032932688168444435,
+   "seconds": 100.1
+  },
+  "a2-washer-r5": {
+   "score": 0.2928,
+   "shots": 20000,
+   "se": 0.0032176712075661184,
+   "seconds": 63.4
+  },
+  "a2-door-r3": {
+   "score": 0.2916,
+   "shots": 20000,
+   "se": 0.0032137940195351663,
+   "seconds": 76.6
+  },
+  "a2-03-distributed-accept-g2": {
+   "score": 0.2649,
+   "shots": 20000,
+   "se": 0.0031203204162393323,
+   "seconds": 225.5
+  },
+  "a2-s1-guard-trap-keeps-r3": {
+   "score": 0.18665,
+   "shots": 20000,
+   "se": 0.00275510233476,
+   "seconds": 40.0
+  },
+  "a2-t62-dependent-differ-r2": {
+   "score": 0.20945,
+   "shots": 20000,
+   "se": 0.0028773312070389115,
+   "seconds": 61.1
+  },
+  "a2-session-r2": {
+   "score": 0.13485,
+   "shots": 20000,
+   "se": 0.0024152171486224584,
+   "seconds": 75.5
+  },
+  "ctl-zero-cz-thermostat-r5": {
+   "score": 0.9306,
+   "shots": 20000,
+   "se": 0.0017969924874634286,
+   "seconds": 2.4
+  },
+  "ctl-mirror-6q": {
+   "score": 0.89795,
+   "shots": 20000,
+   "se": 0.002140511591886388,
+   "seconds": 1.4
+  }
+ }
+}

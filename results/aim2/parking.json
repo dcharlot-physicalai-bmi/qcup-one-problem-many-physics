@@ -1,0 +1,607 @@
+[
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3733,
+   "two_qubit_depth": 2847,
+   "depth": 8823,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1289,
+   "two_qubit_depth": 1184,
+   "depth": 3402,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.522,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3733,
+   "two_qubit_depth": 2847,
+   "depth": 8823,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1289,
+   "two_qubit_depth": 1184,
+   "depth": 3402,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.522,
+   "shots": 2000
+  },
+  "guppy_gates": 3738
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 16,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6459,
+   "two_qubit_depth": 4992,
+   "depth": 15797
+  },
+  "ion_like": {
+   "two_qubit_gates": 2528,
+   "two_qubit_depth": 2295,
+   "depth": 6594
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 10,
+  "resets": 4,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 7583,
+   "two_qubit_depth": 5786,
+   "depth": 18005,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2579,
+   "two_qubit_depth": 2372,
+   "depth": 6813,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2015,
+   "shots": 2000
+  },
+  "guppy_gates": 7482
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2,
+   2
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 22,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   4,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 9866,
+   "two_qubit_depth": 7619,
+   "depth": 23783
+  },
+  "ion_like": {
+   "two_qubit_gates": 3766,
+   "two_qubit_depth": 3402,
+   "depth": 9774
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2,
+   2
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 10,
+  "resets": 8,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   4,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 11470,
+   "two_qubit_depth": 8687,
+   "depth": 26951,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 3868,
+   "two_qubit_depth": 3555,
+   "depth": 10211,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 11224
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2,
+   2,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 28,
+  "resets": 0,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   4,
+   4,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 12814,
+   "two_qubit_depth": 9746,
+   "depth": 31169
+  },
+  "ion_like": {
+   "two_qubit_gates": 5004,
+   "two_qubit_depth": 4509,
+   "depth": 12954
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2,
+   2,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 10,
+  "resets": 12,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   4,
+   4,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 15349,
+   "two_qubit_depth": 11591,
+   "depth": 35938,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 5158,
+   "two_qubit_depth": 4743,
+   "depth": 13622,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 14968
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2,
+   2,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 34,
+  "resets": 0,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   1,
+   4,
+   4,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 16413,
+   "two_qubit_depth": 12535,
+   "depth": 39434
+  },
+  "ion_like": {
+   "two_qubit_gates": 6242,
+   "two_qubit_depth": 5616,
+   "depth": 16134
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   2,
+   2,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   1,
+   4,
+   4,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19202,
+   "two_qubit_depth": 14507,
+   "depth": 45056,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6447,
+   "two_qubit_depth": 5926,
+   "depth": 17020,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 18710,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 16485,
+   "active_qubits": 10,
+   "depth": 40554
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 16206,
+   "active_qubits": 10,
+   "depth": 39998
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19202,
+   "two_qubit_depth": 14507,
+   "depth": 45053,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6447,
+   "two_qubit_depth": 5926,
+   "depth": 17020,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19202,
+   "two_qubit_depth": 14507,
+   "depth": 45054,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6447,
+   "two_qubit_depth": 5926,
+   "depth": 17020,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   2,
+   2,
+   2,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19202,
+   "two_qubit_depth": 14507,
+   "depth": 45055,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6447,
+   "two_qubit_depth": 5926,
+   "depth": 17020,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "parking",
+  "source": "programs/multi/parking.rce",
+  "kind": "exact",
+  "states": 10,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 112,
+  "anf_literals": 346,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   0,
+   2,
+   2,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   0,
+   1,
+   4,
+   4,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19202,
+   "two_qubit_depth": 14507,
+   "depth": 45055,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6447,
+   "two_qubit_depth": 5926,
+   "depth": 17020,
+   "noiseless_trace_ok": true
+  }
+ }
+]

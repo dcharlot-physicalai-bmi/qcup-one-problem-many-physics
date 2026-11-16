@@ -1,0 +1,154 @@
+{
+ "IonQ": [
+  {
+   "case": "H2 eq",
+   "n": 4,
+   "n1q": 79,
+   "n2q": 22,
+   "shots": 1000,
+   "two_qubit_gate_shots": 22000
+  },
+  {
+   "case": "H2 stretched",
+   "n": 4,
+   "n1q": 79,
+   "n2q": 22,
+   "shots": 1000,
+   "two_qubit_gate_shots": 22000
+  },
+  {
+   "case": "H2 broken",
+   "n": 4,
+   "n1q": 79,
+   "n2q": 22,
+   "shots": 1000,
+   "two_qubit_gate_shots": 22000
+  },
+  {
+   "case": "H4 chain eq",
+   "n": 8,
+   "n1q": 1018,
+   "n2q": 296,
+   "shots": 1000,
+   "two_qubit_gate_shots": 296000
+  },
+  {
+   "case": "H4 chain stretched",
+   "n": 8,
+   "n1q": 1018,
+   "n2q": 296,
+   "shots": 1000,
+   "two_qubit_gate_shots": 296000
+  },
+  {
+   "case": "H4 chain broken",
+   "n": 8,
+   "n1q": 1018,
+   "n2q": 296,
+   "shots": 1000,
+   "two_qubit_gate_shots": 296000
+  },
+  {
+   "case": "H4 square square",
+   "n": 8,
+   "n1q": 1018,
+   "n2q": 296,
+   "shots": 1000,
+   "two_qubit_gate_shots": 296000
+  },
+  {
+   "case": "LiH eq",
+   "n": 10,
+   "n1q": 918,
+   "n2q": 269,
+   "shots": 1000,
+   "two_qubit_gate_shots": 269000
+  },
+  {
+   "case": "LiH stretched",
+   "n": 10,
+   "n1q": 918,
+   "n2q": 269,
+   "shots": 1000,
+   "two_qubit_gate_shots": 269000
+  }
+ ],
+ "Quantinuum": [
+  {
+   "case": "H6 chain stretched",
+   "n": 12,
+   "n1q": 5133,
+   "n2q": 1505,
+   "shots": 200,
+   "hqc": 817
+  },
+  {
+   "case": "H6 chain broken",
+   "n": 12,
+   "n1q": 5133,
+   "n2q": 1505,
+   "shots": 200,
+   "hqc": 817
+  },
+  {
+   "case": "BeH2 stretched",
+   "n": 12,
+   "n1q": 4007,
+   "n2q": 1176,
+   "shots": 200,
+   "hqc": 640
+  },
+  {
+   "case": "H2O stretched",
+   "n": 12,
+   "n1q": 4097,
+   "n2q": 1198,
+   "shots": 200,
+   "hqc": 653
+  }
+ ],
+ "IBM": [
+  {
+   "case": "H2 eq",
+   "shots": 4000
+  },
+  {
+   "case": "H2 stretched",
+   "shots": 4000
+  },
+  {
+   "case": "H2 broken",
+   "shots": 4000
+  }
+ ],
+ "IQM": [
+  {
+   "case": "H2 eq",
+   "shots": 2000
+  },
+  {
+   "case": "H2 stretched",
+   "shots": 2000
+  },
+  {
+   "case": "H2 broken",
+   "shots": 2000
+  }
+ ],
+ "totals": {
+  "circuits": {
+   "IonQ": 9,
+   "Quantinuum": 4,
+   "IBM": 3,
+   "IQM": 3
+  },
+  "ionq_two_qubit_gate_shots": 1788000,
+  "quantinuum_hqc": 2927,
+  "shots": {
+   "IonQ": 9000,
+   "Quantinuum": 800,
+   "IBM": 12000,
+   "IQM": 6000
+  }
+ }
+}

@@ -1,0 +1,1327 @@
+[
+ {
+  "case": "FeO_eq",
+  "system": "FeO",
+  "setting": "orbit",
+  "geometry": "eq",
+  "orbitals": 8,
+  "electrons": [
+   8,
+   4
+  ],
+  "qubits": 16,
+  "e_exact_davidson": -1336.8905293083894,
+  "dimension": 70,
+  "e_uhf_reference": -1336.888561587532,
+  "e_uhf_lowest": -1336.888561587532,
+  "restart_energies": [
+   -1336.888561587532,
+   -1336.888561587528,
+   -1336.888561587532,
+   -1336.888561587532,
+   -1336.888561587493,
+   -1336.888561587496,
+   -1336.8885615875104,
+   -1336.8885615873273
+  ],
+  "flag_reference": false,
+  "e_exact": -1336.8905293083894,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -1336.890529302534,
+   "t1_diagnostic": 0.007333476420598652,
+   "max_abs_t2": 0.03821944732729488,
+   "flag_amplitudes": false,
+   "error_mha": 5.855326890014112e-06,
+   "wrong": false
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -1336.890529302534,
+   "t1_diagnostic": 0.007333476420598652,
+   "max_abs_t2": 0.03821944732729488,
+   "flag_amplitudes": false,
+   "error_mha": 5.855326890014112e-06,
+   "wrong": false
+  },
+  "check1_flags": false,
+  "check12_flags": false,
+  "cheap2_flags": false,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 3,
+    "energy": -1336.7944538313534,
+    "solver_energy": -1336.7944538313536,
+    "error_mha": 96.07547703603814
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 4,
+    "energy": -1336.8901016929442,
+    "solver_energy": -1336.890101692944,
+    "error_mha": 0.42761544523273187
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 4,
+    "energy": -1336.8901016929312,
+    "solver_energy": -1336.890101692931,
+    "error_mha": 0.4276154581930314
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 38,
+    "energy": -1336.890319373423,
+    "solver_energy": -1336.8903193734232,
+    "error_mha": 0.20993496650589805
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 38,
+    "energy": -1336.8903193727767,
+    "solver_energy": -1336.8903193727765,
+    "error_mha": 0.20993561270188366
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 38,
+    "energy": -1336.8903193730948,
+    "solver_energy": -1336.890319373095,
+    "error_mha": 0.2099352946061117
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 52,
+    "energy": -1336.8903193730268,
+    "solver_energy": -1336.8903193730266,
+    "error_mha": 0.20993536259084067
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 4,
+  "selected_ci_self_check_dimension": 38,
+  "selected_ci_self_check_error_mha": 0.20993496650589805,
+  "seconds": {
+   "exact": 0.0,
+   "reference_search": 0.96,
+   "cheap": 0.04,
+   "cheap2": 0.0,
+   "selected_ci": 0.07
+  }
+ },
+ {
+  "case": "FeO_stretched",
+  "system": "FeO",
+  "setting": "orbit",
+  "geometry": "stretched",
+  "orbitals": 9,
+  "electrons": [
+   8,
+   4
+  ],
+  "qubits": 18,
+  "e_exact_davidson": -1336.9317742249468,
+  "dimension": 1134,
+  "e_uhf_reference": -1336.9075625077476,
+  "e_uhf_lowest": -1336.9075625077476,
+  "restart_energies": [
+   -1336.8976678142392,
+   -1336.8405380682761,
+   -1336.8976675760464,
+   -1336.897666276211,
+   -1336.9075625227913,
+   -1336.9075619702858,
+   -1336.8405380549727,
+   -1336.907562464567
+  ],
+  "flag_reference": false,
+  "e_exact": -1336.9317801283541,
+  "exact_lowered_by_selected_ci_mha": 0.005903407327423338,
+  "cheap": {
+   "converged": false,
+   "energy": -1336.926683624033,
+   "t1_diagnostic": 0.03124003075148053,
+   "max_abs_t2": 0.5459922243042712,
+   "flag_amplitudes": true,
+   "error_mha": 5.096504321045359,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": false,
+   "energy": -1336.926683624033,
+   "t1_diagnostic": 0.03124003075148053,
+   "max_abs_t2": 0.5459922243042712,
+   "flag_amplitudes": true,
+   "error_mha": 5.096504321045359,
+   "wrong": true
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 2,
+    "energy": -1336.865828561116,
+    "solver_energy": -1336.865828561116,
+    "error_mha": 65.95156723824402
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 8,
+    "energy": -1336.8680333368636,
+    "solver_energy": -1336.8680333368634,
+    "error_mha": 63.746791490530086
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 30,
+    "energy": -1336.8858757653863,
+    "solver_energy": -1336.8858757653861,
+    "error_mha": 45.904362967803536
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 477,
+    "energy": -1336.9205178388115,
+    "solver_energy": -1336.9205178388115,
+    "error_mha": 11.262289542628423
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 891,
+    "energy": -1336.9294374309884,
+    "solver_energy": -1336.929437430988,
+    "error_mha": 2.342697365747881
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 1134,
+    "energy": -1336.9317801283541,
+    "solver_energy": -1336.9317801283537,
+    "error_mha": 0.0
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 1134,
+  "selected_ci_self_check_dimension": null,
+  "selected_ci_self_check_error_mha": null,
+  "seconds": {
+   "exact": 0.85,
+   "reference_search": 7.76,
+   "cheap": 1.38,
+   "cheap2": 0.0,
+   "selected_ci": 0.95
+  }
+ },
+ {
+  "case": "MnO_eq",
+  "system": "MnO",
+  "setting": "orbit",
+  "geometry": "eq",
+  "orbitals": 9,
+  "electrons": [
+   8,
+   3
+  ],
+  "qubits": 18,
+  "e_exact_davidson": -1224.285892665471,
+  "dimension": 756,
+  "e_uhf_reference": -1224.2572455798074,
+  "e_uhf_lowest": -1224.2572455798074,
+  "restart_energies": [
+   -1224.257245579796,
+   -1224.2572455797297,
+   -1224.2572455798045,
+   -1224.2572455798024,
+   -1224.2572455798033,
+   -1224.2572455797879,
+   -1224.2572455798065,
+   -1224.2572455798036
+  ],
+  "flag_reference": false,
+  "e_exact": -1224.285892665471,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -1224.2843747634972,
+   "t1_diagnostic": 0.03513700636288102,
+   "max_abs_t2": 0.09331671410586673,
+   "flag_amplitudes": true,
+   "error_mha": 1.5179019737843191,
+   "wrong": false
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -1224.2843747634972,
+   "t1_diagnostic": 0.03513700636288102,
+   "max_abs_t2": 0.09331671410586673,
+   "flag_amplitudes": true,
+   "error_mha": 1.5179019737843191,
+   "wrong": false
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 2,
+    "energy": -1223.846083310385,
+    "solver_energy": -1223.846083310385,
+    "error_mha": 439.8093550860267
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 8,
+    "energy": -1224.0589616947666,
+    "solver_energy": -1224.0589616947666,
+    "error_mha": 226.9309707044158
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 24,
+    "energy": -1224.0594524805754,
+    "solver_energy": -1224.0594524805756,
+    "error_mha": 226.44018489563678
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 315,
+    "energy": -1224.2638180352278,
+    "solver_energy": -1224.263818035228,
+    "error_mha": 22.074630243196225
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 522,
+    "energy": -1224.285883714632,
+    "solver_energy": -1224.2858837146318,
+    "error_mha": 0.008950838946475415
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 675,
+    "energy": -1224.2858920813305,
+    "solver_energy": -1224.28589208133,
+    "error_mha": 0.0005841404799866723
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 729,
+    "energy": -1224.285892664382,
+    "solver_energy": -1224.2858926643817,
+    "error_mha": 1.0891199053730816e-06
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 522,
+  "selected_ci_self_check_dimension": 729,
+  "selected_ci_self_check_error_mha": 1.0891199053730816e-06,
+  "seconds": {
+   "exact": 0.15,
+   "reference_search": 0.4,
+   "cheap": 0.09,
+   "cheap2": 0.0,
+   "selected_ci": 0.33
+  }
+ },
+ {
+  "case": "MnO_stretched",
+  "system": "MnO",
+  "setting": "orbit",
+  "geometry": "stretched",
+  "orbitals": 9,
+  "electrons": [
+   8,
+   3
+  ],
+  "qubits": 18,
+  "e_exact_davidson": -1224.36046507163,
+  "dimension": 756,
+  "e_uhf_reference": -1224.2738012605437,
+  "e_uhf_lowest": -1224.3477469648192,
+  "restart_energies": [
+   -1224.3477469648192,
+   -1224.2778173247943,
+   -1224.3477469648178,
+   -1224.3477469648149,
+   -1224.2749009953743,
+   -1224.3356507139772,
+   -1224.3477469648024,
+   -1224.2747817365232
+  ],
+  "flag_reference": true,
+  "e_exact": -1224.36046507163,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": false,
+   "energy": -1224.3547208636362,
+   "t1_diagnostic": 0.13165145239938295,
+   "max_abs_t2": 1.308830433415642,
+   "flag_amplitudes": true,
+   "error_mha": 5.7442079937573,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": false,
+   "energy": -1224.3539229901867,
+   "t1_diagnostic": 0.02555364826340815,
+   "max_abs_t2": 0.4819780476803384,
+   "flag_amplitudes": true,
+   "error_mha": 6.542081443285497,
+   "wrong": true
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 2,
+    "energy": -1224.1393451036317,
+    "solver_energy": -1224.139345103632,
+    "error_mha": 221.1199679982201
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 12,
+    "energy": -1224.2486675194352,
+    "solver_energy": -1224.2486675194352,
+    "error_mha": 111.79755219473009
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 16,
+    "energy": -1224.2486675219068,
+    "solver_energy": -1224.2486675219068,
+    "error_mha": 111.79754972317824
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 279,
+    "energy": -1224.3570447179188,
+    "solver_energy": -1224.357044717919,
+    "error_mha": 3.420353711135249
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 666,
+    "energy": -1224.360465039214,
+    "solver_energy": -1224.3604650392138,
+    "error_mha": 3.2415982786915265e-05
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 738,
+    "energy": -1224.3604650506356,
+    "solver_energy": -1224.3604650506354,
+    "error_mha": 2.099432094837539e-05
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 747,
+    "energy": -1224.3604650566058,
+    "solver_energy": -1224.3604650566056,
+    "error_mha": 1.5024170352262445e-05
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 666,
+  "selected_ci_self_check_dimension": 747,
+  "selected_ci_self_check_error_mha": 1.5024170352262445e-05,
+  "seconds": {
+   "exact": 0.18,
+   "reference_search": 7.75,
+   "cheap": 1.39,
+   "cheap2": 1.45,
+   "selected_ci": 0.53
+  }
+ },
+ {
+  "case": "NiO_eq",
+  "system": "NiO",
+  "setting": "orbit",
+  "geometry": "eq",
+  "orbitals": 9,
+  "electrons": [
+   8,
+   6
+  ],
+  "qubits": 18,
+  "e_exact_davidson": -1581.3320105761554,
+  "dimension": 756,
+  "e_uhf_reference": -1581.2890499392772,
+  "e_uhf_lowest": -1581.2890499392772,
+  "restart_energies": [
+   -1581.2890499392513,
+   -1581.2890499391838,
+   -1581.2890499385192,
+   -1581.289049937699,
+   -1581.2890499386315,
+   -1581.2890499339464,
+   -1581.2890499391892,
+   -1581.2890499365471
+  ],
+  "flag_reference": false,
+  "e_exact": -1581.3320105761554,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -1581.3158158008137,
+   "t1_diagnostic": 0.03654978897463423,
+   "max_abs_t2": 0.09105421663651454,
+   "flag_amplitudes": true,
+   "error_mha": 16.194775341773493,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -1581.3158158008137,
+   "t1_diagnostic": 0.03654978897463423,
+   "max_abs_t2": 0.09105421663651454,
+   "flag_amplitudes": true,
+   "error_mha": 16.194775341773493,
+   "wrong": true
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 2,
+    "energy": -1581.2521188195299,
+    "solver_energy": -1581.25211881953,
+    "error_mha": 79.89175662555681
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 12,
+    "energy": -1581.2675587253696,
+    "solver_energy": -1581.2675587253698,
+    "error_mha": 64.45185078587201
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 21,
+    "energy": -1581.2675587665076,
+    "solver_energy": -1581.2675587665076,
+    "error_mha": 64.45180964783503
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 189,
+    "energy": -1581.3046587963736,
+    "solver_energy": -1581.3046587963734,
+    "error_mha": 27.35177978183856
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 495,
+    "energy": -1581.330886718292,
+    "solver_energy": -1581.3308867182918,
+    "error_mha": 1.1238578633765428
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 666,
+    "energy": -1581.3311927309735,
+    "solver_energy": -1581.3311927309749,
+    "error_mha": 0.8178451819276233
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 756,
+    "energy": -1581.3320105747064,
+    "solver_energy": -1581.332010574706,
+    "error_mha": 1.449052433599718e-06
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 495,
+  "selected_ci_self_check_dimension": 756,
+  "selected_ci_self_check_error_mha": 1.449052433599718e-06,
+  "seconds": {
+   "exact": 0.09,
+   "reference_search": 2.68,
+   "cheap": 0.12,
+   "cheap2": 0.0,
+   "selected_ci": 0.27
+  }
+ },
+ {
+  "case": "NiO_stretched",
+  "system": "NiO",
+  "setting": "orbit",
+  "geometry": "stretched",
+  "orbitals": 8,
+  "electrons": [
+   8,
+   6
+  ],
+  "qubits": 16,
+  "e_exact_davidson": -1581.277371158393,
+  "dimension": 28,
+  "e_uhf_reference": -1581.2769468718304,
+  "e_uhf_lowest": -1581.2769468718304,
+  "restart_energies": [
+   -1581.276946872328,
+   -1581.2718861839774,
+   -1581.2769468665742,
+   -1581.2651803333947,
+   -1581.2718861829753,
+   -1581.2769468713398,
+   -1581.2769468713893,
+   -1581.2718861773665
+  ],
+  "flag_reference": false,
+  "e_exact": -1581.277371158393,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -1581.277371005381,
+   "t1_diagnostic": 0.008031013933056523,
+   "max_abs_t2": 0.3072451570955153,
+   "flag_amplitudes": true,
+   "error_mha": 0.0001530120243842248,
+   "wrong": false
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -1581.277371005381,
+   "t1_diagnostic": 0.008031013933056523,
+   "max_abs_t2": 0.3072451570955153,
+   "flag_amplitudes": true,
+   "error_mha": 0.0001530120243842248,
+   "wrong": false
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 1,
+    "energy": -1581.2748652290084,
+    "solver_energy": -1581.2748652290084,
+    "error_mha": 2.5059293845970387
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 1,
+    "energy": -1581.2748652290084,
+    "solver_energy": -1581.2748652290084,
+    "error_mha": 2.5059293845970387
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 5,
+    "energy": -1581.274865229066,
+    "solver_energy": -1581.2748652290666,
+    "error_mha": 2.505929326844125
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 13,
+    "energy": -1581.2748652292282,
+    "solver_energy": -1581.274865229228,
+    "error_mha": 2.5059291647266946
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 13,
+    "energy": -1581.2773644943052,
+    "solver_energy": -1581.2773644943054,
+    "error_mha": 0.006664087777608074
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 22,
+    "energy": -1581.2773644943823,
+    "solver_energy": -1581.2773644943823,
+    "error_mha": 0.006664010697932099
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 28,
+    "energy": -1581.2773711494137,
+    "solver_energy": -1581.277371149414,
+    "error_mha": 8.979213816928677e-06
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 13,
+  "selected_ci_self_check_dimension": 5,
+  "selected_ci_self_check_error_mha": 2.505929326844125,
+  "seconds": {
+   "exact": 0.0,
+   "reference_search": 3.46,
+   "cheap": 0.09,
+   "cheap2": 0.0,
+   "selected_ci": 0.06
+  }
+ },
+ {
+  "case": "FeS_eq",
+  "system": "FeS",
+  "setting": "undersea",
+  "geometry": "eq",
+  "orbitals": 8,
+  "electrons": [
+   8,
+   4
+  ],
+  "qubits": 16,
+  "e_exact_davidson": -1659.605809226756,
+  "dimension": 70,
+  "e_uhf_reference": -1659.6053031456702,
+  "e_uhf_lowest": -1659.6053031456702,
+  "restart_energies": [
+   -1659.605303145666,
+   -1659.6053031456556,
+   -1659.6053031456647,
+   -1659.6053031456574,
+   -1659.6053031456406,
+   -1659.6053031456404,
+   -1659.605303145622,
+   -1659.6053031456674
+  ],
+  "flag_reference": false,
+  "e_exact": -1659.605809226756,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -1659.6058092259734,
+   "t1_diagnostic": 0.002578268752169552,
+   "max_abs_t2": 0.015569912426870358,
+   "flag_amplitudes": false,
+   "error_mha": 7.826201908756047e-07,
+   "wrong": false
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -1659.6058092259734,
+   "t1_diagnostic": 0.002578268752169552,
+   "max_abs_t2": 0.015569912426870358,
+   "flag_amplitudes": false,
+   "error_mha": 7.826201908756047e-07,
+   "wrong": false
+  },
+  "check1_flags": false,
+  "check12_flags": false,
+  "cheap2_flags": false,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 2,
+    "energy": -1659.5246794449367,
+    "solver_energy": -1659.5246794449367,
+    "error_mha": 81.12978181929975
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 3,
+    "energy": -1659.5454049987247,
+    "solver_energy": -1659.545404998725,
+    "error_mha": 60.40422803130241
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 8,
+    "energy": -1659.5592236849059,
+    "solver_energy": -1659.5592236849059,
+    "error_mha": 46.58554185016328
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 25,
+    "energy": -1659.5592349144054,
+    "solver_energy": -1659.5592349144054,
+    "error_mha": 46.57431235068543
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 36,
+    "energy": -1659.6057524353303,
+    "solver_energy": -1659.6057524353305,
+    "error_mha": 0.05679142577719176
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 42,
+    "energy": -1659.605752607199,
+    "solver_energy": -1659.6057526071988,
+    "error_mha": 0.056619556971782004
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 49,
+    "energy": -1659.6057532792172,
+    "solver_energy": -1659.6057532792167,
+    "error_mha": 0.055947538839973276
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 36,
+  "selected_ci_self_check_dimension": 49,
+  "selected_ci_self_check_error_mha": 0.055947538839973276,
+  "seconds": {
+   "exact": 0.0,
+   "reference_search": 0.95,
+   "cheap": 0.03,
+   "cheap2": 0.0,
+   "selected_ci": 0.06
+  }
+ },
+ {
+  "case": "FeS_stretched",
+  "system": "FeS",
+  "setting": "undersea",
+  "geometry": "stretched",
+  "orbitals": 8,
+  "electrons": [
+   7,
+   3
+  ],
+  "qubits": 16,
+  "e_exact_davidson": -1659.4877661280366,
+  "dimension": 448,
+  "e_uhf_reference": -1659.4049422534954,
+  "e_uhf_lowest": -1659.460511252697,
+  "restart_energies": [
+   -1659.4602247379794,
+   -1659.4055835933182,
+   -1659.405582681065,
+   -1659.4602240506683,
+   -1659.460511252697,
+   -1659.4602257429192,
+   -1659.4057788712782,
+   -1659.40618753477
+  ],
+  "flag_reference": true,
+  "e_exact": -1659.4878532593466,
+  "exact_lowered_by_selected_ci_mha": 0.08713131001059082,
+  "cheap": {
+   "converged": false,
+   "energy": -1659.3938466738844,
+   "t1_diagnostic": 0.10102984931338134,
+   "max_abs_t2": 0.8510371087735396,
+   "flag_amplitudes": true,
+   "error_mha": 94.00658546223895,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": false,
+   "energy": -1659.4872527949044,
+   "t1_diagnostic": 0.011411755236319788,
+   "max_abs_t2": 0.9821444574982731,
+   "flag_amplitudes": true,
+   "error_mha": 0.6004644421864214,
+   "wrong": true
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 4,
+    "energy": -1659.4316895450388,
+    "solver_energy": -1659.431689545039,
+    "error_mha": 56.163714307785995
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 4,
+    "energy": -1659.4316895450388,
+    "solver_energy": -1659.431689545039,
+    "error_mha": 56.163714307785995
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 20,
+    "energy": -1659.4322711088112,
+    "solver_energy": -1659.4322711088112,
+    "error_mha": 55.58215053542881
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 232,
+    "energy": -1659.4870427854908,
+    "solver_energy": -1659.4870427854908,
+    "error_mha": 0.8104738558358804
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 288,
+    "energy": -1659.4870481414152,
+    "solver_energy": -1659.4870481414152,
+    "error_mha": 0.8051179313497414
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 360,
+    "energy": -1659.487819614716,
+    "solver_energy": -1659.4878196147158,
+    "error_mha": 0.033644630548224086
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 448,
+    "energy": -1659.4878532593466,
+    "solver_energy": -1659.4878532593461,
+    "error_mha": 0.0
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 232,
+  "selected_ci_self_check_dimension": 20,
+  "selected_ci_self_check_error_mha": 55.58215053542881,
+  "seconds": {
+   "exact": 0.36,
+   "reference_search": 9.57,
+   "cheap": 1.39,
+   "cheap2": 1.28,
+   "selected_ci": 0.31
+  }
+ },
+ {
+  "case": "UO22p_eq",
+  "system": "UO2(2+)",
+  "setting": "hazard",
+  "geometry": "eq",
+  "orbitals": 13,
+  "electrons": [
+   6,
+   6
+  ],
+  "qubits": 26,
+  "e_exact_davidson": -199.71343938898423,
+  "dimension": 2944656,
+  "e_uhf_reference": -199.63940777981836,
+  "e_uhf_lowest": -199.63940777981836,
+  "restart_energies": [
+   -199.63940777981773,
+   -199.6394077798144,
+   -199.63940777981736,
+   -199.63940777981327,
+   -199.63940777981782,
+   -199.63940777981367,
+   -199.63940777981486,
+   -199.63940777981747
+  ],
+  "flag_reference": false,
+  "e_exact": -199.71343938898423,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -199.70566815977756,
+   "t1_diagnostic": 0.031863782109984834,
+   "max_abs_t2": 0.06091572009242599,
+   "flag_amplitudes": true,
+   "error_mha": 7.77122920666784,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -199.70566815977756,
+   "t1_diagnostic": 0.031863782109984834,
+   "max_abs_t2": 0.06091572009242599,
+   "flag_amplitudes": true,
+   "error_mha": 7.77122920666784,
+   "wrong": true
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 1,
+    "energy": -199.63940777981648,
+    "solver_energy": -199.63940777981645,
+    "error_mha": 74.03160916774709
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 49,
+    "energy": -199.68189147718033,
+    "solver_energy": -199.68189147718036,
+    "error_mha": 31.547911803897932
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 121,
+    "energy": -199.69396353638305,
+    "solver_energy": -199.6939635363831,
+    "error_mha": 19.475852601175347
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 2116,
+    "energy": -199.70410589555166,
+    "solver_energy": -199.70410589555158,
+    "error_mha": 9.333493432563955
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 7056,
+    "energy": -199.71169370709097,
+    "solver_energy": -199.71169370709083,
+    "error_mha": 1.7456818932544138
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 61009,
+    "energy": -199.7129864762694,
+    "solver_energy": -199.71298647626983,
+    "error_mha": 0.45291271482028606
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 184040,
+    "energy": -199.7133814601627,
+    "solver_energy": -199.713381460162,
+    "error_mha": 0.0579288215192264
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 61009,
+  "selected_ci_self_check_dimension": 184040,
+  "selected_ci_self_check_error_mha": 0.0579288215192264,
+  "seconds": {
+   "exact": 381.09,
+   "reference_search": 0.49,
+   "cheap": 0.15,
+   "cheap2": 0.0,
+   "selected_ci": 45.9
+  }
+ },
+ {
+  "case": "UO22p_stretched",
+  "system": "UO2(2+)",
+  "setting": "hazard",
+  "geometry": "stretched",
+  "orbitals": 12,
+  "electrons": [
+   5,
+   5
+  ],
+  "qubits": 24,
+  "e_exact_davidson": -199.2606445950485,
+  "dimension": 627264,
+  "e_uhf_reference": -199.1629288122616,
+  "e_uhf_lowest": -199.19041971376183,
+  "restart_energies": [
+   -199.1904195387839,
+   -199.19041953850956,
+   -199.190419538664,
+   -199.19041953782846,
+   -199.19041953833204,
+   -199.19041953830975,
+   -199.19041953780183,
+   -199.19041971376183
+  ],
+  "flag_reference": true,
+  "e_exact": -199.2606445950485,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -199.2025168951113,
+   "t1_diagnostic": 0.07466363386559599,
+   "max_abs_t2": 0.24409969877734186,
+   "flag_amplitudes": true,
+   "error_mha": 58.12769993718803,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": false,
+   "energy": -199.20847962768045,
+   "t1_diagnostic": 0.06499568039827126,
+   "max_abs_t2": 0.6625625839381499,
+   "flag_amplitudes": true,
+   "error_mha": 52.16496736804288,
+   "wrong": true
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 25,
+    "energy": -198.95372604091395,
+    "solver_energy": -222.96629267441577,
+    "error_mha": 306.9185541345405
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 12,
+    "energy": -199.24897502849194,
+    "solver_energy": -199.24897502849194,
+    "error_mha": 11.669566556548716
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 80,
+    "energy": -199.25293943625522,
+    "solver_energy": -199.25293943625528,
+    "error_mha": 7.705158793271494
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 552,
+    "energy": -199.25423361851796,
+    "solver_energy": -199.25423361851801,
+    "error_mha": 6.410976530531798
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 2646,
+    "energy": -199.2550064722904,
+    "solver_energy": -199.2550064722905,
+    "error_mha": 5.6381227580857285
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 73712,
+    "energy": -199.2595746831614,
+    "solver_energy": -199.2595746831614,
+    "error_mha": 1.069911887100261
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 162812,
+    "energy": -199.2596609656085,
+    "solver_energy": -199.25966096560742,
+    "error_mha": 0.983629439986089
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 73712,
+  "selected_ci_self_check_dimension": 2646,
+  "selected_ci_self_check_error_mha": 5.6381227580857285,
+  "seconds": {
+   "exact": 281.99,
+   "reference_search": 5.93,
+   "cheap": 1.45,
+   "cheap2": 2.76,
+   "selected_ci": 29.94
+  }
+ },
+ {
+  "case": "PuO2_eq",
+  "system": "PuO2",
+  "setting": "hazard",
+  "geometry": "eq",
+  "orbitals": 13,
+  "electrons": [
+   10,
+   6
+  ],
+  "qubits": 26,
+  "e_exact_davidson": -219.96559432236205,
+  "dimension": 490776,
+  "e_uhf_reference": -219.94101383239794,
+  "e_uhf_lowest": -219.94101383239794,
+  "restart_energies": [
+   -219.94101383238078,
+   -219.94101383237626,
+   -219.94101383234832,
+   -219.9410138323981,
+   -219.9410138323605,
+   -219.94101383239575,
+   -219.94101383238407,
+   -219.94101383235602
+  ],
+  "flag_reference": false,
+  "e_exact": -219.96559432236205,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -219.96372571162306,
+   "t1_diagnostic": 0.015106180555755522,
+   "max_abs_t2": 0.054966824815606684,
+   "flag_amplitudes": false,
+   "error_mha": 1.8686107389953577,
+   "wrong": true
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -219.96372571162306,
+   "t1_diagnostic": 0.015106180555755522,
+   "max_abs_t2": 0.054966824815606684,
+   "flag_amplitudes": false,
+   "error_mha": 1.8686107389953577,
+   "wrong": true
+  },
+  "check1_flags": false,
+  "check12_flags": false,
+  "cheap2_flags": false,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 1,
+    "energy": -219.9395649018966,
+    "solver_energy": -219.9395649018966,
+    "error_mha": 26.02942046544854
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 20,
+    "energy": -219.95374541060735,
+    "solver_energy": -219.95374541060735,
+    "error_mha": 11.848911754697156
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 81,
+    "energy": -219.95606249367023,
+    "solver_energy": -219.95606249367015,
+    "error_mha": 9.53182869182001
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 896,
+    "energy": -219.96220226503647,
+    "solver_energy": -219.96220226503652,
+    "error_mha": 3.392057325584119
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 3430,
+    "energy": -219.96444622707804,
+    "solver_energy": -219.964446227078,
+    "error_mha": 1.148095284008832
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 17024,
+    "energy": -219.9655094133066,
+    "solver_energy": -219.96550941330653,
+    "error_mha": 0.08490905545954774
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 48372,
+    "energy": -219.96556395517177,
+    "solver_energy": -219.96556395517143,
+    "error_mha": 0.030367190277047484
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 3430,
+  "selected_ci_self_check_dimension": 48372,
+  "selected_ci_self_check_error_mha": 0.030367190277047484,
+  "seconds": {
+   "exact": 35.6,
+   "reference_search": 1.66,
+   "cheap": 0.21,
+   "cheap2": 0.0,
+   "selected_ci": 15.24
+  }
+ },
+ {
+  "case": "PuO2_stretched",
+  "system": "PuO2",
+  "setting": "hazard",
+  "geometry": "stretched",
+  "orbitals": 12,
+  "electrons": [
+   9,
+   5
+  ],
+  "qubits": 24,
+  "e_exact_davidson": -219.66299709019154,
+  "dimension": 174240,
+  "e_uhf_reference": -219.65475264389826,
+  "e_uhf_lowest": -219.65475264389826,
+  "restart_energies": [
+   -219.65475264355752,
+   -219.65475264386288,
+   -219.65475264342936,
+   -219.65475264370025,
+   -219.65475264371585,
+   -219.6547526437653,
+   -219.65475264372583,
+   -219.65475264389738
+  ],
+  "flag_reference": false,
+  "e_exact": -219.66299709019154,
+  "exact_lowered_by_selected_ci_mha": 0.0,
+  "cheap": {
+   "converged": true,
+   "energy": -219.66228143986604,
+   "t1_diagnostic": 0.046271626992255996,
+   "max_abs_t2": 0.21558371489580974,
+   "flag_amplitudes": true,
+   "error_mha": 0.7156503255032476,
+   "wrong": false
+  },
+  "cheap2": {
+   "converged": true,
+   "energy": -219.66228143986604,
+   "t1_diagnostic": 0.046271626992255996,
+   "max_abs_t2": 0.21558371489580974,
+   "flag_amplitudes": true,
+   "error_mha": 0.7156503255032476,
+   "wrong": false
+  },
+  "check1_flags": true,
+  "check12_flags": true,
+  "cheap2_flags": true,
+  "selected_ci": [
+   {
+    "cutoff": 0.1,
+    "dimension": 15,
+    "energy": -219.57943455814979,
+    "solver_energy": -219.57943455814976,
+    "error_mha": 83.56253204175346
+   },
+   {
+    "cutoff": 0.03,
+    "dimension": 4,
+    "energy": -219.64739807700784,
+    "solver_energy": -219.64739807700784,
+    "error_mha": 15.599013183702937
+   },
+   {
+    "cutoff": 0.01,
+    "dimension": 80,
+    "energy": -219.65848885039856,
+    "solver_energy": -219.65848885039856,
+    "error_mha": 4.508239792983204
+   },
+   {
+    "cutoff": 0.003,
+    "dimension": 700,
+    "energy": -219.65962784248515,
+    "solver_energy": -219.65962784248512,
+    "error_mha": 3.3692477063880233
+   },
+   {
+    "cutoff": 0.001,
+    "dimension": 3417,
+    "energy": -219.662560573757,
+    "solver_energy": -219.66256057375696,
+    "error_mha": 0.43651643454722944
+   },
+   {
+    "cutoff": 0.0003,
+    "dimension": 13915,
+    "energy": -219.66294743580104,
+    "solver_energy": -219.66294743580102,
+    "error_mha": 0.04965439049442466
+   },
+   {
+    "cutoff": 0.0001,
+    "dimension": 31872,
+    "energy": -219.66298704322844,
+    "solver_energy": -219.66298704322813,
+    "error_mha": 0.010046963097920525
+   }
+  ],
+  "selected_ci_dimension_for_chemical_accuracy": 3417,
+  "selected_ci_self_check_dimension": 31872,
+  "selected_ci_self_check_error_mha": 0.010046963097920525,
+  "seconds": {
+   "exact": 29.32,
+   "reference_search": 3.89,
+   "cheap": 0.74,
+   "cheap2": 0.0,
+   "selected_ci": 8.81
+  }
+ }
+]

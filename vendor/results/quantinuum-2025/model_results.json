@@ -1,0 +1,3024 @@
+{
+ "controls": {
+  "pub 2023-03-10 H2-1": {
+   "vs": "quantinuum-h2-1-2023",
+   "circuits": 331,
+   "max_relative_difference": 0.0
+  },
+  "pub 2024-12-06 H2-2": {
+   "vs": "quantinuum-h2-2-2024",
+   "circuits": 331,
+   "max_relative_difference": 0.0
+  },
+  "rule_2023_vs_admission_json_max_abs": 0.0,
+  "rule_2024_vs_admission_json_max_abs": 0.0
+ },
+ "sets": {
+  "pub 2023-03-10 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.00193,
+    "angle_line_scale": 1.0,
+    "one_qubit_error": 2.7e-05,
+    "one_qubit_error_legacy": 2.5e-05,
+    "transport_1q_error": 0.00022,
+    "memory": 0.000195,
+    "p_meas_0": 0.0009,
+    "p_meas_1": 0.0022,
+    "readout_and_reset": 0.0015500000000000002
+   },
+   "core": {
+    "requested": 93,
+    "kept": 72,
+    "hqc_kept": 2695.4,
+    "kept_actinide_rows": []
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 37,
+    "hqc_kept": 7317.0,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 758.1,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 643.0,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.5161679937492867,
+    "fidelity_max": 0.6708376838633477,
+    "share_min": 0.5182609865131428,
+    "share_max": 0.6709783171771269,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.6615902875779844,
+      "share": 0.6619517481472829,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.5161679937492867,
+      "share": 0.5182609865131428,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.5217965375192711,
+      "share": 0.5231756338084688,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.5335841454710222,
+      "share": 0.5349292473464186,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.5331584720915097,
+      "share": 0.5345048015711041,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.6708376838633477,
+      "share": 0.6709783171771269,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.6629613678228676,
+      "share": 0.6633213639204689,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.6139034964756452,
+      "share": 0.6165428280427062,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.18520910503460364,
+    "fidelity_max": 0.2735899586505391,
+    "share_min": 0.21579357477890043,
+    "share_max": 0.2811340998003419,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 0,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.18520910503460364,
+      "share": 0.22096114663681618,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.24923969641240099,
+      "share": 0.2773090084525852,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.21001631962044692,
+      "share": 0.21579357477890043,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.2735899586505391,
+      "share": 0.2811340998003419,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.10053597736500056,
+    "qcup-a1-A60-p1-warm": 0.1035473605962975
+   },
+   "core_total": {
+    "circuits_as_final_request": 84,
+    "hqc_as_final_request": 4309.3,
+    "actinide_rows_also_kept_at_200_shots": 0,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 2695.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "pub 2024-05-20 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.00136,
+    "angle_line_scale": 0.7046632124352332,
+    "one_qubit_error": 3.4e-05,
+    "one_qubit_error_legacy": 2.9e-05,
+    "transport_1q_error": 0.0005,
+    "memory": 0.000471,
+    "p_meas_0": 0.0005,
+    "p_meas_1": 0.0025,
+    "readout_and_reset": 0.0015
+   },
+   "core": {
+    "requested": 93,
+    "kept": 72,
+    "hqc_kept": 2695.4,
+    "kept_actinide_rows": []
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 20,
+    "hqc_kept": 2868.5,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 565.7,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 506.2,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.463852359574179,
+    "fidelity_max": 0.6799423610834902,
+    "share_min": 0.46617166279776173,
+    "share_max": 0.680079104459492,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.6662656077936413,
+      "share": 0.6666220745821918,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.463852359574179,
+      "share": 0.46617166279776173,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.4849912769560538,
+      "share": 0.4864765163459358,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.4927399943321431,
+      "share": 0.49420288710971916,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.4969118927062162,
+      "share": 0.4983627540996263,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.6799423610834902,
+      "share": 0.680079104459492,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.6566320523055996,
+      "share": 0.6569988088415281,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.5730119522258401,
+      "share": 0.5759308158336713,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.15462312978,
+    "fidelity_max": 0.2320410529592145,
+    "share_min": 0.1775989155176618,
+    "share_max": 0.24059630988667044,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 0,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.15462312978,
+      "share": 0.19171724708102517,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.21110107694261912,
+      "share": 0.24059630988667044,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.17154027999155808,
+      "share": 0.1775989155176618,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.2320410529592145,
+      "share": 0.24001670082191034,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.03272251860980387,
+    "qcup-a1-A60-p1-warm": 0.033468205909337446
+   },
+   "core_total": {
+    "circuits_as_final_request": 84,
+    "hqc_as_final_request": 4309.3,
+    "actinide_rows_also_kept_at_200_shots": 0,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 2695.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "pub 2024-12-06 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.0014,
+    "angle_line_scale": 0.7253886010362693,
+    "one_qubit_error": 8e-05,
+    "one_qubit_error_legacy": 7e-05,
+    "transport_1q_error": 0.00053,
+    "memory": 0.00046,
+    "p_meas_0": 0.0009,
+    "p_meas_1": 0.0018,
+    "readout_and_reset": 0.00135
+   },
+   "core": {
+    "requested": 93,
+    "kept": 72,
+    "hqc_kept": 2695.4,
+    "kept_actinide_rows": []
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 20,
+    "hqc_kept": 2868.5,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 553.9,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 495.1,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.44775262630645335,
+    "fidelity_max": 0.662959662231584,
+    "share_min": 0.4501415748300453,
+    "share_max": 0.6631036613993317,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.6487283903714842,
+      "share": 0.6491035889291319,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.44775262630645335,
+      "share": 0.4501415748300453,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.46757137359389345,
+      "share": 0.4691068504370141,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.4754347960206371,
+      "share": 0.4769475954522792,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.479346726544034,
+      "share": 0.4808482443156889,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.662959662231584,
+      "share": 0.6631036613993317,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.6398379777699079,
+      "share": 0.6402226723126951,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.5571620350903274,
+      "share": 0.560189247741077,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.14140190856828944,
+    "fidelity_max": 0.21627073171280073,
+    "share_min": 0.16411435665719998,
+    "share_max": 0.2263881514294312,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 0,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.14140190856828944,
+      "share": 0.17907615710754254,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.19634107373026718,
+      "share": 0.2263881514294312,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.15795638027551206,
+      "share": 0.16411435665719998,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.21627073171280073,
+      "share": 0.2244101624566358,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.03361249033487472,
+    "qcup-a1-A60-p1-warm": 0.034581318417818786
+   },
+   "core_total": {
+    "circuits_as_final_request": 84,
+    "hqc_as_final_request": 4309.3,
+    "actinide_rows_also_kept_at_200_shots": 0,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 2695.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "docs 2025-04-30 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.0011,
+    "angle_line_scale": 0.5699481865284974,
+    "one_qubit_error": 1.9e-05,
+    "one_qubit_error_legacy": 1.66e-05,
+    "transport_1q_error": 0.0002,
+    "memory": 0.0001834,
+    "p_meas_0": 0.0006,
+    "p_meas_1": 0.0014,
+    "readout_and_reset": 0.001
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 49,
+    "hqc_kept": 10969.6,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1091.0,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 927.1,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.6419814336840006,
+    "fidelity_max": 0.7782328117894716,
+    "share_min": 0.6435301742777291,
+    "share_max": 0.7783275609543564,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7703315863053024,
+      "share": 0.7705768986368244,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.6419814336840006,
+      "share": 0.6435301742777291,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6511743992782312,
+      "share": 0.6521803813115626,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6595290693723432,
+      "share": 0.6605109572795793,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6605273698402299,
+      "share": 0.6615063787376327,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7782328117894716,
+      "share": 0.7783275609543564,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7685651691806834,
+      "share": 0.7688123682492465,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.722594256305069,
+      "share": 0.7244905846311086,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.3297971265316498,
+    "fidelity_max": 0.4237969317729093,
+    "share_min": 0.3592048201647266,
+    "share_max": 0.4297810964047462,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.3297971265316498,
+      "share": 0.3592048201647266,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.39938627606365845,
+      "share": 0.4218419306210776,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.35540600034232106,
+      "share": 0.3601200015326258,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.4237969317729093,
+      "share": 0.4297810964047462,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.18249575994218642,
+    "qcup-a1-A60-p1-warm": 0.18566890532867833
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.002,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "docs 2025-05-29 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.0011,
+    "angle_line_scale": 0.5699481865284974,
+    "one_qubit_error": 3.5e-05,
+    "one_qubit_error_legacy": 3.0199999999999995e-05,
+    "transport_1q_error": 0.00023,
+    "memory": 0.0001998,
+    "p_meas_0": 0.0006,
+    "p_meas_1": 0.0018,
+    "readout_and_reset": 0.0012
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 47,
+    "hqc_kept": 10426.0,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1023.5,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 875.6,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.6225383017003785,
+    "fidelity_max": 0.7658190059837706,
+    "share_min": 0.6241711506912834,
+    "share_max": 0.7659190588986945,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7572583732285566,
+      "share": 0.7575176492581281,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.6225383017003785,
+      "share": 0.6241711506912834,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6326402823833494,
+      "share": 0.6336997151627308,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6408391834339294,
+      "share": 0.6418749713112943,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6421329115829051,
+      "share": 0.6431649684632583,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7658190059837706,
+      "share": 0.7659190588986945,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7549272928313736,
+      "share": 0.7551890587234299,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7059181220533126,
+      "share": 0.7079284473908388,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.3082358292274558,
+    "fidelity_max": 0.4010613251222292,
+    "share_min": 0.33784014016418923,
+    "share_max": 0.40728161069944907,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.3082358292274558,
+      "share": 0.338589606577202,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.37724182846013654,
+      "share": 0.4005254162563943,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.3329620030526771,
+      "share": 0.33784014016418923,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.4010613251222292,
+      "share": 0.40728161069944907,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.1643329271653493,
+    "qcup-a1-A60-p1-warm": 0.16750087632517668
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.001,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "docs 2025-08-28 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.00083,
+    "angle_line_scale": 0.43005181347150256,
+    "one_qubit_error": 2.8e-05,
+    "one_qubit_error_legacy": 2.495e-05,
+    "transport_1q_error": 0.00012,
+    "memory": 9.505e-05,
+    "p_meas_0": 0.00067,
+    "p_meas_1": 0.0012,
+    "readout_and_reset": 0.000935
+   },
+   "core": {
+    "requested": 93,
+    "kept": 79,
+    "hqc_kept": 5934.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 64,
+    "hqc_kept": 19065.8,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1608.8,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 1387.0,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.7318254657576593,
+    "fidelity_max": 0.8289726103127235,
+    "share_min": 0.7329855530449167,
+    "share_max": 0.8290456810968917,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.8233027314928442,
+      "share": 0.8234914645372091,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.7318254657576593,
+      "share": 0.7329855530449167,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.7362227290079876,
+      "share": 0.7369834392163843,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.7434178854251934,
+      "share": 0.7441578454418962,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.7434433016424711,
+      "share": 0.744183188361062,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.8289726103127235,
+      "share": 0.8290456810968917,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.8235881189009532,
+      "share": 0.8237765471186799,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7934369370707286,
+      "share": 0.7948489892587217,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.4561101491255581,
+    "fidelity_max": 0.5452324851356762,
+    "share_min": 0.479975379696538,
+    "share_max": 0.5499554792122835,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.4561101491255581,
+      "share": 0.479975379696538,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.523055783870067,
+      "share": 0.540887701679704,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.4824652141898286,
+      "share": 0.48625001454110217,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.5452324851356762,
+      "share": 0.5499554792122835,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.34328451719263975,
+    "qcup-a1-A60-p1-warm": 0.3483302625390468
+   },
+   "core_total": {
+    "circuits_as_final_request": 91,
+    "hqc_as_final_request": 7548.3,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 87,
+    "hqc_without_double_count": 6008.6,
+    "rows_hqc": 5934.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0005,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.043,
+     "power_if_generic_true": 0.973
+    }
+   }
+  },
+  "docs 2026-10-20 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.0012,
+    "angle_line_scale": 0.621761658031088,
+    "one_qubit_error": 4.7e-05,
+    "one_qubit_error_legacy": 4.26e-05,
+    "transport_1q_error": 0.00031,
+    "memory": 0.0002674,
+    "p_meas_0": 0.00065,
+    "p_meas_1": 0.0032,
+    "readout_and_reset": 0.001925
+   },
+   "core": {
+    "requested": 93,
+    "kept": 74,
+    "hqc_kept": 3401.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 37,
+    "hqc_kept": 7443.6,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 816.0,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 718.7,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.5613936660380513,
+    "fidelity_max": 0.7269104971241713,
+    "share_min": 0.5632910185722038,
+    "share_max": 0.7270271735475191,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7167695882577191,
+      "share": 0.7170721109753393,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.5613936660380513,
+      "share": 0.5632910185722038,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.5744875050553367,
+      "share": 0.5757146452766585,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.5826564220726952,
+      "share": 0.5838600038632875,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.5847331753311557,
+      "share": 0.5859307679499058,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7269104971241713,
+      "share": 0.7270271735475191,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7126698628211877,
+      "share": 0.7129767645180035,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.6539459794032854,
+      "share": 0.6563115830597082,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.2437127062695238,
+    "fidelity_max": 0.332343954317521,
+    "share_min": 0.2712745670686351,
+    "share_max": 0.3392779050635634,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 2,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.2437127062695238,
+      "share": 0.27689768042148094,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.30947653809272424,
+      "share": 0.33529372425816467,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.26590604083485425,
+      "share": 0.2712745670686351,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.332343954317521,
+      "share": 0.3392779050635634,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.10303337629274692,
+    "qcup-a1-A60-p1-warm": 0.10530977570332851
+   },
+   "core_total": {
+    "circuits_as_final_request": 86,
+    "hqc_as_final_request": 5015.3,
+    "actinide_rows_also_kept_at_200_shots": 2,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 3401.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "docs 2026-10-06 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.00083,
+    "angle_line_scale": 0.43005181347150256,
+    "one_qubit_error": 3.9e-05,
+    "one_qubit_error_legacy": 3.3e-05,
+    "transport_1q_error": 0.00018,
+    "memory": 0.000147,
+    "p_meas_0": 0.00067,
+    "p_meas_1": 0.0019,
+    "readout_and_reset": 0.0012850000000000001
+   },
+   "core": {
+    "requested": 93,
+    "kept": 77,
+    "hqc_kept": 4436.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 51,
+    "hqc_kept": 11930.6,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1325.2,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 1146.9,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.6895677808048704,
+    "fidelity_max": 0.8081488246122813,
+    "share_min": 0.6909106692042511,
+    "share_max": 0.8082307922775471,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.8010707419245024,
+      "share": 0.8012832212956158,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.6895677808048704,
+      "share": 0.6909106692042511,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.697745701960933,
+      "share": 0.6986173764959883,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.7046268282785717,
+      "share": 0.7054786582568333,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.7056674455479389,
+      "share": 0.7065162744784723,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.8081488246122813,
+      "share": 0.8082307922775471,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7993523984023289,
+      "share": 0.7995667131623362,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7596780005709627,
+      "share": 0.7613208267389346,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.4005177108228434,
+    "fidelity_max": 0.49048377707882723,
+    "share_min": 0.42682227052630145,
+    "share_max": 0.4957753645914268,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.4005177108228434,
+      "share": 0.42682227052630145,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.4683080683291886,
+      "share": 0.48818688540036176,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.4250227594370516,
+      "share": 0.42922764405876895,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.49048377707882723,
+      "share": 0.4957753645914268,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.25412567574895173,
+    "qcup-a1-A60-p1-warm": 0.25819018823851714
+   },
+   "core_total": {
+    "circuits_as_final_request": 89,
+    "hqc_as_final_request": 6050.3,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 85,
+    "hqc_without_double_count": 4510.6,
+    "rows_hqc": 4436.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.009,
+     "power_if_generic_true": 0.998
+    }
+   }
+  },
+  "fit 2023-03-10 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.0019317747074876213,
+    "angle_line_scale": 1.0009195375583528,
+    "one_qubit_error": 2.6826518099591837e-05,
+    "one_qubit_error_legacy": 2.4979865133223367e-05,
+    "transport_1q_error": 0.0002160515026998766,
+    "memory": 0.00019107163756665324,
+    "p_meas_0": 0.000875,
+    "p_meas_1": 0.0022500000000000003,
+    "readout_and_reset": 0.0015625
+   },
+   "core": {
+    "requested": 93,
+    "kept": 72,
+    "hqc_kept": 2695.4,
+    "kept_actinide_rows": []
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 37,
+    "hqc_kept": 7317.0,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 763.1,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 646.9,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.5176349356263523,
+    "fidelity_max": 0.6712865085005292,
+    "share_min": 0.5197215825951927,
+    "share_max": 0.6714269500557353,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.6621106363450335,
+      "share": 0.6624715411218867,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.5176349356263523,
+      "share": 0.5197215825951927,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.5230464517508839,
+      "share": 0.524421943398514,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.5348724592418977,
+      "share": 0.5362138457348677,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.534385993968909,
+      "share": 0.5357287833844955,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.6712865085005292,
+      "share": 0.6714269500557353,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.6636149337442191,
+      "share": 0.6639742317581031,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.6150881987580994,
+      "share": 0.6177194317744015,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.18640117361149466,
+    "fidelity_max": 0.27501370601790864,
+    "share_min": 0.21712096964473918,
+    "share_max": 0.28254306082048375,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 0,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.18640117361149466,
+      "share": 0.22210090868252597,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.2506040850848909,
+      "share": 0.27862238556891106,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.21135349341513568,
+      "share": 0.21712096964473918,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.27501370601790864,
+      "share": 0.28254306082048375,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.10247451145200304,
+    "qcup-a1-A60-p1-warm": 0.10554439722764553
+   },
+   "core_total": {
+    "circuits_as_final_request": 84,
+    "hqc_as_final_request": 4309.3,
+    "actinide_rows_also_kept_at_200_shots": 0,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 2695.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2024-05-20 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.0013625010786831007,
+    "angle_line_scale": 0.7059591081259589,
+    "one_qubit_error": 3.412147430245343e-05,
+    "one_qubit_error_legacy": 2.891593039211493e-05,
+    "transport_1q_error": 0.0005036442936057761,
+    "memory": 0.0004747283632136612,
+    "p_meas_0": 0.0005,
+    "p_meas_1": 0.0024875,
+    "readout_and_reset": 0.00149375
+   },
+   "core": {
+    "requested": 93,
+    "kept": 72,
+    "hqc_kept": 2695.4,
+    "kept_actinide_rows": []
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 20,
+    "hqc_kept": 2868.5,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 562.8,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 503.4,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.46213066131156966,
+    "fidelity_max": 0.6790119727219961,
+    "share_min": 0.46445741237233273,
+    "share_max": 0.6791491136027912,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.6652703999918763,
+      "share": 0.6656279297770412,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.46213066131156966,
+      "share": 0.46445741237233273,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.48338299173997645,
+      "share": 0.4848728692814978,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.4911205838522473,
+      "share": 0.49258814686573493,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.49532420456421533,
+      "share": 0.4967796447091336,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.6790119727219961,
+      "share": 0.6791491136027912,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.6555435667279548,
+      "share": 0.6559114858919112,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.571521615193517,
+      "share": 0.574450666652155,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.15326904807070418,
+    "fidelity_max": 0.23042910539763303,
+    "share_min": 0.17616222381967087,
+    "share_max": 0.2390993730632895,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 0,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.15326904807070418,
+      "share": 0.1904225808437267,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.2095459991055942,
+      "share": 0.2390993730632895,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.17009300417405934,
+      "share": 0.17616222381967087,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.23042910539763303,
+      "share": 0.2384214941631777,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.032043443590129964,
+    "qcup-a1-A60-p1-warm": 0.032775238466747646
+   },
+   "core_total": {
+    "circuits_as_final_request": 84,
+    "hqc_as_final_request": 4309.3,
+    "actinide_rows_also_kept_at_200_shots": 0,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 2695.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-04-30 H2-1": {
+   "terms": {
+    "two_qubit_error": 0.0010542620902253704,
+    "angle_line_scale": 0.5462497876815391,
+    "one_qubit_error": 1.888223960458215e-05,
+    "one_qubit_error_legacy": 1.645500362662533e-05,
+    "transport_1q_error": 0.00020339304119115775,
+    "memory": 0.00018693803756453242,
+    "p_meas_0": 0.0006000000000000001,
+    "p_meas_1": 0.0013874999999999998,
+    "readout_and_reset": 0.0009937499999999998
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 49,
+    "hqc_kept": 10969.6,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1100.6,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 940.1,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.646990857598623,
+    "fidelity_max": 0.7833041666556901,
+    "share_min": 0.6485179280922568,
+    "share_max": 0.7833967491040184,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7754027647415567,
+      "share": 0.7756426604701347,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.646990857598623,
+      "share": 0.6485179280922568,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6566815245182135,
+      "share": 0.6576716244917556,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6647575219178545,
+      "share": 0.6657243314325872,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6659238585372057,
+      "share": 0.6668873044407773,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7833041666556901,
+      "share": 0.7833967491040184,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7732837490325041,
+      "share": 0.7735259081140429,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7268820737913838,
+      "share": 0.7287490908650756,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.33730971232808904,
+    "fidelity_max": 0.43087958673570265,
+    "share_min": 0.3663877627587269,
+    "share_max": 0.436790194360184,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.33730971232808904,
+      "share": 0.3663877627587269,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.40667156223332657,
+      "share": 0.4288548356195233,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.362556674926222,
+      "share": 0.36721838228736,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.43087958673570265,
+      "share": 0.436790194360184,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.18416666199966494,
+    "qcup-a1-A60-p1-warm": 0.18724919236389972
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0025,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-04-30 H2-1 +1sd": {
+   "terms": {
+    "two_qubit_error": 0.0011402953777161383,
+    "angle_line_scale": 0.5908266205783099,
+    "one_qubit_error": 2.227202398544319e-05,
+    "one_qubit_error_legacy": 1.645500362662533e-05,
+    "transport_1q_error": 0.00021359492393304924,
+    "memory": 0.0001971399203064239,
+    "p_meas_0": 0.0006860415777399944,
+    "p_meas_1": 0.0015206742703636608,
+    "readout_and_reset": 0.0011033579240518276
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 47,
+    "hqc_kept": 10426.0,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1028.6,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 877.1,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.6258027895759457,
+    "fidelity_max": 0.7677863264186623,
+    "share_min": 0.6274215168274597,
+    "share_max": 0.7678855388036152,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7594803217164053,
+      "share": 0.759737224448947,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.6258027895759457,
+      "share": 0.6274215168274597,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6355938194317012,
+      "share": 0.6366447344727079,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6440629697406577,
+      "share": 0.6450894605048029,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6452012906115391,
+      "share": 0.646224498559452,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7677863264186623,
+      "share": 0.7678855388036152,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7574199244238844,
+      "share": 0.7576790278981631,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7091345978644453,
+      "share": 0.7111229355743564,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.3103333303889838,
+    "fidelity_max": 0.4039657691280818,
+    "share_min": 0.3403975940690378,
+    "share_max": 0.4101558905634333,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.3103333303889838,
+      "share": 0.3405950719179433,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.37961230074733043,
+      "share": 0.4028072616862625,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.33553829774139216,
+      "share": 0.3403975940690378,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.4039657691280818,
+      "share": 0.4101558905634333,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.16438226239000506,
+    "qcup-a1-A60-p1-warm": 0.16739613211111226
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.001,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-04-30 H2-1 -1sd": {
+   "terms": {
+    "two_qubit_error": 0.0009682288027346025,
+    "angle_line_scale": 0.5016729547847681,
+    "one_qubit_error": 1.549245522372111e-05,
+    "one_qubit_error_legacy": 1.645500362662533e-05,
+    "transport_1q_error": 0.00019319115844926627,
+    "memory": 0.00017673615482264094,
+    "p_meas_0": 0.0005139584222600057,
+    "p_meas_1": 0.001254325729636339,
+    "readout_and_reset": 0.0008841420759481723
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 49,
+    "hqc_kept": 10969.6,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1183.4,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 1012.8,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.668895370714783,
+    "fidelity_max": 0.7991343277669954,
+    "share_min": 0.6703276852045651,
+    "share_max": 0.7992201468408254,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7916577223804886,
+      "share": 0.7918802559411784,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.668895370714783,
+      "share": 0.6703276852045651,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6784676720900849,
+      "share": 0.6793949427501034,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6861159365058332,
+      "share": 0.6870211502509564,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6873107789629532,
+      "share": 0.6882125468886124,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7991343277669954,
+      "share": 0.7992201468408254,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7894786228174535,
+      "share": 0.7897034839075838,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7450727954740569,
+      "share": 0.7468154619112459,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.36662909271625593,
+    "fidelity_max": 0.4595849171433363,
+    "share_min": 0.39442064410294786,
+    "share_max": 0.46519740517692576,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.36662909271625593,
+      "share": 0.39442064410294786,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.43565785633636583,
+      "share": 0.4567573945674422,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.3917491913537814,
+      "share": 0.39619740998052133,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.4595849171433363,
+      "share": 0.46519740517692576,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.20633160494453706,
+    "qcup-a1-A60-p1-warm": 0.20945618015523326
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.005,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2024-12-06 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.0013979989481852407,
+    "angle_line_scale": 0.7243517866244771,
+    "one_qubit_error": 7.846129555706322e-05,
+    "one_qubit_error_legacy": 7.266644387493582e-05,
+    "transport_1q_error": 0.0005297064973942556,
+    "memory": 0.00045704005351931976,
+    "p_meas_0": 0.0009,
+    "p_meas_1": 0.0017625,
+    "readout_and_reset": 0.00133125
+   },
+   "core": {
+    "requested": 93,
+    "kept": 72,
+    "hqc_kept": 2695.4,
+    "kept_actinide_rows": []
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 20,
+    "hqc_kept": 2868.5,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 556.9,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 497.7,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.44980709627733917,
+    "fidelity_max": 0.6644404401285744,
+    "share_min": 0.4521871574376995,
+    "share_max": 0.6645838066397499,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.6502741166349106,
+      "share": 0.6506476641787882,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.44980709627733917,
+      "share": 0.4521871574376995,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.4695660472320009,
+      "share": 0.47109577161361027,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.4774461741328127,
+      "share": 0.47895317292872486,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.4813368307157733,
+      "share": 0.4828326092038519,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.6644404401285744,
+      "share": 0.6645838066397499,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.6414460866023952,
+      "share": 0.64182906349964,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.5590560650316313,
+      "share": 0.5620703302120791,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.14288059619042587,
+    "fidelity_max": 0.21808808427736817,
+    "share_min": 0.1656886963399977,
+    "share_max": 0.22804920105410656,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 0,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.14288059619042587,
+      "share": 0.18048996170053622,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.19806663850841003,
+      "share": 0.22804920105410656,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.1595423181316492,
+      "share": 0.1656886963399977,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.21808808427736817,
+      "share": 0.22620864088196285,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.034243592112216496,
+    "qcup-a1-A60-p1-warm": 0.035223358395552365
+   },
+   "core_total": {
+    "circuits_as_final_request": 84,
+    "hqc_as_final_request": 4309.3,
+    "actinide_rows_also_kept_at_200_shots": 0,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 2695.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-05-29 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.0011458859123519587,
+    "angle_line_scale": 0.5937232706486832,
+    "one_qubit_error": 3.508365273564014e-05,
+    "one_qubit_error_legacy": 3.027259045362829e-05,
+    "transport_1q_error": 0.00022575240521899298,
+    "memory": 0.0001954798147653647,
+    "p_meas_0": 0.0006000000000000001,
+    "p_meas_1": 0.0017749999999999999,
+    "readout_and_reset": 0.0011875
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 47,
+    "hqc_kept": 10426.0,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1017.9,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 865.9,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.618332558370842,
+    "fidelity_max": 0.7612455876637548,
+    "share_min": 0.6199836008467616,
+    "share_max": 0.7613475945537911,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7527044269040806,
+      "share": 0.7529685670730978,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.618332558370842,
+      "share": 0.6199836008467616,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6279037562293975,
+      "share": 0.6289768487292853,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6363764551084369,
+      "share": 0.6374251130977024,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6374940796909185,
+      "share": 0.6385395145502083,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7612455876637548,
+      "share": 0.7613475945537911,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7507471139387493,
+      "share": 0.7510133447435632,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7022863878212713,
+      "share": 0.7043215394670244,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.30196136876428215,
+    "fidelity_max": 0.39511590885754355,
+    "share_min": 0.3319475713391495,
+    "share_max": 0.401397940634488,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.30196136876428215,
+      "share": 0.33259046187037383,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.3711144180797791,
+      "share": 0.3946270965633609,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.32702602362483413,
+      "share": 0.3319475713391495,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.39511590885754355,
+      "share": 0.401397940634488,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.16369121627433336,
+    "qcup-a1-A60-p1-warm": 0.16695310254625859
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.001,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-05-29 H2-2 +1sd": {
+   "terms": {
+    "two_qubit_error": 0.001315066515223921,
+    "angle_line_scale": 0.6813816141056586,
+    "one_qubit_error": 4.032920407616506e-05,
+    "one_qubit_error_legacy": 3.027259045362829e-05,
+    "transport_1q_error": 0.00024112316769215494,
+    "memory": 0.00021085057723852665,
+    "p_meas_0": 0.0006851574052286126,
+    "p_meas_1": 0.00192459716156774,
+    "readout_and_reset": 0.0013048772833981763
+   },
+   "core": {
+    "requested": 93,
+    "kept": 74,
+    "hqc_kept": 3401.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 45,
+    "hqc_kept": 9909.4,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 916.4,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 775.2,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.583162281287593,
+    "fidelity_max": 0.7345013550887464,
+    "share_min": 0.5849654656939492,
+    "share_max": 0.7346147883476806,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7253434857676634,
+      "share": 0.7256368505747353,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.583162281287593,
+      "share": 0.5849654656939492,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.5926435532655775,
+      "share": 0.5938183330573379,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6018323899561874,
+      "share": 0.602980669959518,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6028249638163264,
+      "share": 0.6039703813248517,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7345013550887464,
+      "share": 0.7346147883476806,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7236488840264332,
+      "share": 0.7239440588634412,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.672497571526033,
+      "share": 0.6747363576581792,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.2599952854953305,
+    "fidelity_max": 0.3521836740364405,
+    "share_min": 0.2900026504598719,
+    "share_max": 0.3589115791093615,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 2,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.2599952854953305,
+      "share": 0.29246579971226705,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.3281130844612687,
+      "share": 0.3532334902656934,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.2847720941698459,
+      "share": 0.2900026504598719,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.3521836740364405,
+      "share": 0.3589115791093615,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.135071161119222,
+    "qcup-a1-A60-p1-warm": 0.13816576438123232
+   },
+   "core_total": {
+    "circuits_as_final_request": 86,
+    "hqc_as_final_request": 5015.3,
+    "actinide_rows_also_kept_at_200_shots": 2,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 3401.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-05-29 H2-2 -1sd": {
+   "terms": {
+    "two_qubit_error": 0.0009767053094799963,
+    "angle_line_scale": 0.5060649271917079,
+    "one_qubit_error": 2.983810139511522e-05,
+    "one_qubit_error_legacy": 3.027259045362829e-05,
+    "transport_1q_error": 0.00021038164274583102,
+    "memory": 0.00018010905229220273,
+    "p_meas_0": 0.0005148425947713875,
+    "p_meas_1": 0.0016254028384322598,
+    "readout_and_reset": 0.0010701227166018236
+   },
+   "core": {
+    "requested": 93,
+    "kept": 76,
+    "hqc_kept": 4235.1,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 49,
+    "hqc_kept": 10969.6,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1144.6,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 980.7,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.655620060599912,
+    "fidelity_max": 0.7889590266230116,
+    "share_min": 0.6571098023116417,
+    "share_max": 0.7890491930545082,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.7810929523767789,
+      "share": 0.7813267703292573,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.655620060599912,
+      "share": 0.6571098023116417,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.6652570830812337,
+      "share": 0.6662224519059659,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.6728990227541569,
+      "share": 0.6738423529039901,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.6741523682496213,
+      "share": 0.6750920838624268,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.7889590266230116,
+      "share": 0.7890491930545082,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.7788559107760781,
+      "share": 0.7790921181467702,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7333911623015159,
+      "share": 0.7352136836529704,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.35069405084997174,
+    "fidelity_max": 0.4432754665993868,
+    "share_min": 0.37918481265157705,
+    "share_max": 0.44905733664860853,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.35069405084997174,
+      "share": 0.37918481265157705,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.41974469914310847,
+      "share": 0.4414391960749413,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.3755435559095222,
+      "share": 0.38011028849204587,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.4432754665993868,
+      "share": 0.44905733664860853,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.19837384634892585,
+    "qcup-a1-A60-p1-warm": 0.20173669287343515
+   },
+   "core_total": {
+    "circuits_as_final_request": 88,
+    "hqc_as_final_request": 5849.0,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 84,
+    "hqc_without_double_count": 4309.3,
+    "rows_hqc": 4235.1,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.0045,
+     "power_if_generic_true": 1.0
+    }
+   }
+  },
+  "fit 2025-08-28 H2-2": {
+   "terms": {
+    "two_qubit_error": 0.0008296631744555934,
+    "angle_line_scale": 0.42987729246403805,
+    "one_qubit_error": 2.7606457046034628e-05,
+    "one_qubit_error_legacy": 2.4551207043144174e-05,
+    "transport_1q_error": 0.00012476161049396195,
+    "memory": 0.00010021040345081778,
+    "p_meas_0": 0.000675,
+    "p_meas_1": 0.0011625,
+    "readout_and_reset": 0.00091875
+   },
+   "core": {
+    "requested": 93,
+    "kept": 79,
+    "hqc_kept": 5934.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 63,
+    "hqc_kept": 18468.3,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1586.6,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 1363.5,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.7291363884076311,
+    "fidelity_max": 0.8282504005151243,
+    "share_min": 0.7303081082850487,
+    "share_max": 0.8283237798606073,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.8224700652813718,
+      "share": 0.8226596877092024,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.7291363884076311,
+      "share": 0.7303081082850487,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.7339373438812803,
+      "share": 0.7347046449372867,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.7411049712327611,
+      "share": 0.7418516014884527,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.7412329042008894,
+      "share": 0.74197916550927,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.8282504005151243,
+      "share": 0.8283237798606073,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.8225497305568553,
+      "share": 0.8227392678929915,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.7914774822142501,
+      "share": 0.7929029291131761,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.452252698767901,
+    "fidelity_max": 0.5415360808859251,
+    "share_min": 0.47628718960739586,
+    "share_max": 0.5462974640180512,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.452252698767901,
+      "share": 0.47628718960739586,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.519296922278604,
+      "share": 0.5372693758337013,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.4784503346973962,
+      "share": 0.4822644963935106,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.5415360808859251,
+      "share": 0.5462974640180512,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.3344506661151951,
+    "qcup-a1-A60-p1-warm": 0.3393495124093757
+   },
+   "core_total": {
+    "circuits_as_final_request": 91,
+    "hqc_as_final_request": 7548.3,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 87,
+    "hqc_without_double_count": 6008.6,
+    "rows_hqc": 5934.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0005,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.037,
+     "power_if_generic_true": 0.9805
+    }
+   }
+  },
+  "fit 2025-08-28 H2-2 +1sd": {
+   "terms": {
+    "two_qubit_error": 0.0008676259150375965,
+    "angle_line_scale": 0.4495471062370966,
+    "one_qubit_error": 3.203138216949727e-05,
+    "one_qubit_error_legacy": 2.4551207043144174e-05,
+    "transport_1q_error": 0.0001366077021008983,
+    "memory": 0.00011205649505775412,
+    "p_meas_0": 0.0007687525520746516,
+    "p_meas_1": 0.0012853354891865613,
+    "readout_and_reset": 0.0010270440206306066
+   },
+   "core": {
+    "requested": 93,
+    "kept": 79,
+    "hqc_kept": 5934.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 57,
+    "hqc_kept": 15111.4,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1469.1,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 1265.5,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.7115408626168481,
+    "fidelity_max": 0.8172937417509527,
+    "share_min": 0.7127886983933392,
+    "share_max": 0.8173718022860933,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.8110658012827044,
+      "share": 0.8112676047786488,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.7115408626168481,
+      "share": 0.7127886983933392,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.7170261375299369,
+      "share": 0.7178422090022093,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.7243692998972204,
+      "share": 0.7251641943417917,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.7246504972680562,
+      "share": 0.7254445807643992,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.8172937417509527,
+      "share": 0.8173718022860933,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.8108654611068832,
+      "share": 0.8110674785892215,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.777264916235049,
+      "share": 0.7787875193467235,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.42673289769418726,
+    "fidelity_max": 0.5172828336298152,
+    "share_min": 0.45188716662067996,
+    "share_max": 0.5222960991840252,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.42673289769418726,
+      "share": 0.45188716662067996,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.49473456557823103,
+      "share": 0.5136253527897169,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.45290082185962627,
+      "share": 0.45690183052296796,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.5172828336298152,
+      "share": 0.5222960991840252,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.30451199383529926,
+    "qcup-a1-A60-p1-warm": 0.3092914070496766
+   },
+   "core_total": {
+    "circuits_as_final_request": 91,
+    "hqc_as_final_request": 7548.3,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 87,
+    "hqc_without_double_count": 6008.6,
+    "rows_hqc": 5934.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0,
+     "power_if_generic_true": 1.0
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.014,
+     "power_if_generic_true": 0.99
+    }
+   }
+  },
+  "fit 2025-08-28 H2-2 -1sd": {
+   "terms": {
+    "two_qubit_error": 0.0007917004338735904,
+    "angle_line_scale": 0.41020747869097945,
+    "one_qubit_error": 2.3181531922571982e-05,
+    "one_qubit_error_legacy": 2.4551207043144174e-05,
+    "transport_1q_error": 0.0001129155188870256,
+    "memory": 8.836431184388143e-05,
+    "p_meas_0": 0.0005812474479253485,
+    "p_meas_1": 0.0010396645108134385,
+    "readout_and_reset": 0.0008104559793693935
+   },
+   "core": {
+    "requested": 93,
+    "kept": 79,
+    "hqc_kept": 5934.4,
+    "kept_actinide_rows": [
+     "qcup-f-tgt-puo2-eq",
+     "qcup-f-tgt-puo2-stretched",
+     "qcup-f-tgt-uo22p-eq",
+     "qcup-f-tgt-uo22p-stretched"
+    ]
+   },
+   "extension": {
+    "requested": 82,
+    "kept": 65,
+    "hqc_kept": 19589.2,
+    "kept_actinide_rows": []
+   },
+   "n30_all_quantinuum_rows": 1723.6,
+   "n30_all_quantinuum_rows_rows": 166,
+   "n30_aim2_programs": 1478.1,
+   "n30_aim2_programs_rows": 106,
+   "transition_metal": {
+    "fidelity_min": 0.7471673095942077,
+    "fidelity_max": 0.8393535381998687,
+    "share_min": 0.748261030110108,
+    "share_max": 0.8394221737731475,
+    "generic_share_min": 0.8099521999748747,
+    "generic_share_max": 0.9063263555197764,
+    "above_30pct": 8,
+    "rows": [
+     {
+      "case": "FeO_eq",
+      "fidelity": 0.8340342577415347,
+      "share": 0.8342115282792254,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeO_stretched",
+      "fidelity": 0.7471673095942077,
+      "share": 0.748261030110108,
+      "generic_share": 0.8099521999748747
+     },
+     {
+      "case": "MnO_eq",
+      "fidelity": 0.751247465905145,
+      "share": 0.7519648461075364,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "MnO_stretched",
+      "fidelity": 0.7582273919146311,
+      "share": 0.7589246426306976,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_eq",
+      "fidelity": 0.7581947613221438,
+      "share": 0.7588921061419392,
+      "generic_share": 0.8116155976412753
+     },
+     {
+      "case": "NiO_stretched",
+      "fidelity": 0.8393535381998687,
+      "share": 0.8394221737731475,
+      "generic_share": 0.9063263555197764
+     },
+     {
+      "case": "FeS_eq",
+      "fidelity": 0.8344019524019771,
+      "share": 0.8345788301993994,
+      "generic_share": 0.9020512984946581
+     },
+     {
+      "case": "FeS_stretched",
+      "fidelity": 0.8059499625996126,
+      "share": 0.8072764765271543,
+      "generic_share": 0.8484283862339443
+     }
+    ]
+   },
+   "actinides": {
+    "fidelity_min": 0.47929817795037444,
+    "fidelity_max": 0.56692654011561,
+    "share_min": 0.5021459457878595,
+    "share_max": 0.5714242302955692,
+    "generic_share_min": 0.6286138887701047,
+    "generic_share_max": 0.6775045975444083,
+    "above_30pct": 4,
+    "rows": [
+     {
+      "case": "UO22p_eq",
+      "fidelity": 0.47929817795037444,
+      "share": 0.5021459457878595,
+      "generic_share": 0.6337384806326561
+     },
+     {
+      "case": "UO22p_stretched",
+      "fidelity": 0.5450784771648106,
+      "share": 0.5620870138671867,
+      "generic_share": 0.6775045975444083
+     },
+     {
+      "case": "PuO2_eq",
+      "fidelity": 0.5054415557682469,
+      "share": 0.5090583270941076,
+      "generic_share": 0.6286138887701047
+     },
+     {
+      "case": "PuO2_stretched",
+      "fidelity": 0.56692654011561,
+      "share": 0.5714242302955692,
+      "generic_share": 0.6748061646212146
+     }
+    ]
+   },
+   "family_A_60": {
+    "qcup-a1-A60-p1-cold": 0.3673320460538045,
+    "qcup-a1-A60-p1-warm": 0.372328001866224
+   },
+   "core_total": {
+    "circuits_as_final_request": 91,
+    "hqc_as_final_request": 7548.3,
+    "actinide_rows_also_kept_at_200_shots": 4,
+    "circuits_without_double_count": 87,
+    "hqc_without_double_count": 6008.6,
+    "rows_hqc": 5934.4,
+    "actinide_hqc_50_shots": 405.0,
+    "transition_metal_hqc": 1208.9
+   },
+   "q8_rule": {
+    "transition_metal_200_shots": {
+     "false_alarm_if_published_true": 0.0055,
+     "power_if_generic_true": 0.998
+    },
+    "actinides_50_shots": {
+     "false_alarm_if_published_true": 0.071,
+     "power_if_generic_true": 0.9505
+    }
+   }
+  }
+ }
+}

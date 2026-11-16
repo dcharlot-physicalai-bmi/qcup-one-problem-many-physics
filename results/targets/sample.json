@@ -1,0 +1,1569 @@
+[
+ {
+  "case": "FeO_eq",
+  "qubits": 16,
+  "dimension": 70,
+  "e_exact": -1336.8905293083894,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 53,
+     "dimension": 53,
+     "error_mha": 0.12131163225603814
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 70,
+     "dimension": 70,
+     "error_mha": 3.8539837987627834e-07
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 70,
+     "dimension": 70,
+     "error_mha": 3.8539837987627834e-07
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 70,
+     "dimension": 70,
+     "error_mha": 3.8539837987627834e-07
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.42761544523273187
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.37206481511020684
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 12,
+     "dimension": 12,
+     "error_mha": 0.05812265658278193
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 12,
+     "dimension": 12,
+     "error_mha": 0.0038614216464338824
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.42761544523273187
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.42761544523273187
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.42761544523273187
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.3720654478911456
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 94,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.42761544523273187
+    },
+    {
+     "shots": 1000,
+     "kept": 908,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.42761544523273187
+    },
+    {
+     "shots": 10000,
+     "kept": 9020,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.42761544546010555
+    },
+    {
+     "shots": 100000,
+     "kept": 90345,
+     "distinct_configurations": 13,
+     "dimension": 13,
+     "error_mha": 0.3115425026862795
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1336.888816712023,
+   "rzz": 172,
+   "one_qubit_gates": 605,
+   "amplitudes_converged": true,
+   "error_mha": 1.7125963663602306,
+   "modelled_fidelity": 0.9019465661281568,
+   "overlap_with_exact": 0.998031863501746
+  },
+  "seconds": 2.5
+ },
+ {
+  "case": "FeO_stretched",
+  "qubits": 18,
+  "dimension": 1134,
+  "e_exact": -1336.9317801283541,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 96,
+     "dimension": 585,
+     "error_mha": 40.970799878323305
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 678,
+     "dimension": 1134,
+     "error_mha": 0.23215490728034638
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 1133,
+     "dimension": 1134,
+     "error_mha": 0.23215490728034638
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 1134,
+     "dimension": 1134,
+     "error_mha": 0.23215490728034638
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 24,
+     "dimension": 136,
+     "error_mha": 5.47066752505998
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 50,
+     "dimension": 342,
+     "error_mha": 2.5597752508019767
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 83,
+     "dimension": 477,
+     "error_mha": 0.0632035144008114
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 111,
+     "dimension": 630,
+     "error_mha": 0.07403225708912942
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 23,
+     "dimension": 55,
+     "error_mha": 34.63710138203169
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 52,
+     "dimension": 150,
+     "error_mha": 5.598068220933783
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 99,
+     "dimension": 222,
+     "error_mha": 3.459177492004528
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 126,
+     "dimension": 301,
+     "error_mha": 3.2724472746394895
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 85,
+     "distinct_configurations": 23,
+     "dimension": 55,
+     "error_mha": 34.63710138203169
+    },
+    {
+     "shots": 1000,
+     "kept": 809,
+     "distinct_configurations": 48,
+     "dimension": 144,
+     "error_mha": 5.598710104095517
+    },
+    {
+     "shots": 10000,
+     "kept": 8139,
+     "distinct_configurations": 99,
+     "dimension": 259,
+     "error_mha": 2.6074500040067505
+    },
+    {
+     "shots": 100000,
+     "kept": 80861,
+     "distinct_configurations": 194,
+     "dimension": 720,
+     "error_mha": 2.4701606919279584
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1336.9070217360068,
+   "rzz": 353,
+   "one_qubit_gates": 917,
+   "amplitudes_converged": false,
+   "error_mha": 24.758392347393965,
+   "modelled_fidelity": 0.8091265066863857,
+   "overlap_with_exact": 0.1521540861104062
+  },
+  "seconds": 16.7
+ },
+ {
+  "case": "MnO_eq",
+  "qubits": 18,
+  "dimension": 756,
+  "e_exact": -1224.285892665471,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 95,
+     "dimension": 558,
+     "error_mha": 81.53642493380175
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 567,
+     "dimension": 756,
+     "error_mha": 1.2246346159372479e-06
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 756,
+     "dimension": 756,
+     "error_mha": 1.2246346159372479e-06
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 756,
+     "dimension": 756,
+     "error_mha": 1.2246346159372479e-06
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 11,
+     "dimension": 44,
+     "error_mha": 19.196245927105338
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 29,
+     "dimension": 80,
+     "error_mha": 2.172705449993373
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 61,
+     "dimension": 306,
+     "error_mha": 0.4845909211326216
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 101,
+     "dimension": 405,
+     "error_mha": 0.016445668961750926
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 9,
+     "dimension": 16,
+     "error_mha": 32.506398006262316
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 18,
+     "dimension": 36,
+     "error_mha": 20.95441673213827
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 35,
+     "dimension": 48,
+     "error_mha": 1.3206902244746743
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 44,
+     "dimension": 51,
+     "error_mha": 1.2704739817763766
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 86,
+     "distinct_configurations": 9,
+     "dimension": 16,
+     "error_mha": 32.506398006262316
+    },
+    {
+     "shots": 1000,
+     "kept": 818,
+     "distinct_configurations": 17,
+     "dimension": 36,
+     "error_mha": 20.95441673213827
+    },
+    {
+     "shots": 10000,
+     "kept": 8082,
+     "distinct_configurations": 37,
+     "dimension": 68,
+     "error_mha": 1.3206813694068842
+    },
+    {
+     "shots": 100000,
+     "kept": 81277,
+     "distinct_configurations": 99,
+     "dimension": 423,
+     "error_mha": 0.7614575017669267
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1224.2586146853432,
+   "rzz": 349,
+   "one_qubit_gates": 874,
+   "amplitudes_converged": true,
+   "error_mha": 27.277980127792034,
+   "modelled_fidelity": 0.811070742452119,
+   "overlap_with_exact": 0.9740401467344706
+  },
+  "seconds": 2.4
+ },
+ {
+  "case": "MnO_stretched",
+  "qubits": 18,
+  "dimension": 756,
+  "e_exact": -1224.36046507163,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 95,
+     "dimension": 558,
+     "error_mha": 36.82569893976506
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 567,
+     "dimension": 756,
+     "error_mha": 0.005278589014778845
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 756,
+     "dimension": 756,
+     "error_mha": 0.005278589014778845
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 756,
+     "dimension": 756,
+     "error_mha": 0.005278589014778845
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 31,
+     "dimension": 234,
+     "error_mha": 3.9160048511348577
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 40,
+     "dimension": 288,
+     "error_mha": 0.589908921483584
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 44,
+     "dimension": 297,
+     "error_mha": 0.018788353372656275
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 48,
+     "dimension": 333,
+     "error_mha": 0.010092426691699075
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 16,
+     "dimension": 30,
+     "error_mha": 13.954303798982437
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 24,
+     "dimension": 42,
+     "error_mha": 12.718474949224401
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 33,
+     "dimension": 85,
+     "error_mha": 10.675069069975507
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 39,
+     "dimension": 100,
+     "error_mha": 10.657837886355992
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 86,
+     "distinct_configurations": 16,
+     "dimension": 30,
+     "error_mha": 13.954303798982437
+    },
+    {
+     "shots": 1000,
+     "kept": 818,
+     "distinct_configurations": 23,
+     "dimension": 39,
+     "error_mha": 12.844919123608634
+    },
+    {
+     "shots": 10000,
+     "kept": 8082,
+     "distinct_configurations": 35,
+     "dimension": 108,
+     "error_mha": 10.675070405341103
+    },
+    {
+     "shots": 100000,
+     "kept": 81277,
+     "distinct_configurations": 92,
+     "dimension": 441,
+     "error_mha": 3.17997192155417
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1224.3458691855055,
+   "rzz": 349,
+   "one_qubit_gates": 870,
+   "amplitudes_converged": false,
+   "error_mha": 14.595886124425306,
+   "modelled_fidelity": 0.811070742452119,
+   "overlap_with_exact": 0.15415958808209274
+  },
+  "seconds": 12.5
+ },
+ {
+  "case": "NiO_eq",
+  "qubits": 18,
+  "dimension": 756,
+  "e_exact": -1581.3320105761554,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 95,
+     "dimension": 558,
+     "error_mha": 10.216239959845552
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 567,
+     "dimension": 756,
+     "error_mha": 2.6557245291769505e-06
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 756,
+     "dimension": 756,
+     "error_mha": 2.6557245291769505e-06
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 756,
+     "dimension": 756,
+     "error_mha": 2.6557245291769505e-06
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 8,
+     "dimension": 24,
+     "error_mha": 17.977720639919426
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 24,
+     "dimension": 75,
+     "error_mha": 3.7466691394456575
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 69,
+     "dimension": 324,
+     "error_mha": 0.7119613396753266
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 130,
+     "dimension": 594,
+     "error_mha": 0.038633725580439204
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 3,
+     "dimension": 3,
+     "error_mha": 43.509859044661425
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 6,
+     "dimension": 10,
+     "error_mha": 30.273438704853106
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 14,
+     "dimension": 18,
+     "error_mha": 16.447653252271266
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 21,
+     "dimension": 32,
+     "error_mha": 16.033523878832057
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 86,
+     "distinct_configurations": 3,
+     "dimension": 3,
+     "error_mha": 43.509859044661425
+    },
+    {
+     "shots": 1000,
+     "kept": 818,
+     "distinct_configurations": 6,
+     "dimension": 10,
+     "error_mha": 30.273438704853106
+    },
+    {
+     "shots": 10000,
+     "kept": 8082,
+     "distinct_configurations": 17,
+     "dimension": 36,
+     "error_mha": 16.447652876649954
+    },
+    {
+     "shots": 100000,
+     "kept": 81277,
+     "distinct_configurations": 75,
+     "dimension": 378,
+     "error_mha": 15.602914997316475
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1581.2877156766815,
+   "rzz": 349,
+   "one_qubit_gates": 868,
+   "amplitudes_converged": true,
+   "error_mha": 44.2948994739254,
+   "modelled_fidelity": 0.811070742452119,
+   "overlap_with_exact": 1.5923344304083786e-10
+  },
+  "seconds": 4.9
+ },
+ {
+  "case": "NiO_stretched",
+  "qubits": 16,
+  "dimension": 28,
+  "e_exact": -1581.277371158393,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 28,
+     "dimension": 28,
+     "error_mha": 3.3680862543405965e-06
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 28,
+     "dimension": 28,
+     "error_mha": 3.3680862543405965e-06
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 28,
+     "dimension": 28,
+     "error_mha": 3.3680862543405965e-06
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 28,
+     "dimension": 28,
+     "error_mha": 3.3680862543405965e-06
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 3,
+     "dimension": 3,
+     "error_mha": 0.009954744655260583
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 3,
+     "dimension": 3,
+     "error_mha": 0.009954744655260583
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.005779409093520371
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 94,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 1000,
+     "kept": 913,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 10000,
+     "kept": 9031,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.006665014552709181
+    },
+    {
+     "shots": 100000,
+     "kept": 90590,
+     "distinct_configurations": 7,
+     "dimension": 7,
+     "error_mha": 0.0066649738528212765
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1581.2767142302955,
+   "rzz": 164,
+   "one_qubit_gates": 556,
+   "amplitudes_converged": true,
+   "error_mha": 0.6569280974417779,
+   "modelled_fidelity": 0.9062863167146618,
+   "overlap_with_exact": 0.9340500093434575
+  },
+  "seconds": 4.3
+ },
+ {
+  "case": "FeS_eq",
+  "qubits": 16,
+  "dimension": 70,
+  "e_exact": -1659.605809226756,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 53,
+     "dimension": 53,
+     "error_mha": 46.4785629292237
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 70,
+     "dimension": 70,
+     "error_mha": 1.3528733688872308e-07
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 70,
+     "dimension": 70,
+     "error_mha": 1.3528733688872308e-07
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 70,
+     "dimension": 70,
+     "error_mha": 1.3528733688872308e-07
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.23519403657701332
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.18645063755684532
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.18485742157281493
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 11,
+     "dimension": 11,
+     "error_mha": 0.02711969295887684
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.23519403657701332
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.23519403657701332
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.23519403657701332
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 6,
+     "dimension": 6,
+     "error_mha": 0.16713099284970667
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 94,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.23519403657701332
+    },
+    {
+     "shots": 1000,
+     "kept": 908,
+     "distinct_configurations": 4,
+     "dimension": 4,
+     "error_mha": 0.23519403657701332
+    },
+    {
+     "shots": 10000,
+     "kept": 9020,
+     "distinct_configurations": 5,
+     "dimension": 5,
+     "error_mha": 0.2351940322569135
+    },
+    {
+     "shots": 100000,
+     "kept": 90345,
+     "distinct_configurations": 16,
+     "dimension": 16,
+     "error_mha": 0.1663202135659958
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1659.6053975455168,
+   "rzz": 172,
+   "one_qubit_gates": 626,
+   "amplitudes_converged": true,
+   "error_mha": 0.4116812392567226,
+   "modelled_fidelity": 0.9019465661281568,
+   "overlap_with_exact": 0.9992776018176294
+  },
+  "seconds": 1.4
+ },
+ {
+  "case": "FeS_stretched",
+  "qubits": 16,
+  "dimension": 448,
+  "e_exact": -1659.4878532593466,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 91,
+     "dimension": 400,
+     "error_mha": 0.8411937310484063
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 407,
+     "dimension": 448,
+     "error_mha": 0.0018076798369293101
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 448,
+     "dimension": 448,
+     "error_mha": 0.0018076798369293101
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 448,
+     "dimension": 448,
+     "error_mha": 0.0018076798369293101
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 22,
+     "dimension": 144,
+     "error_mha": 1.5360617512669705
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 36,
+     "dimension": 200,
+     "error_mha": 0.3911652538590715
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 71,
+     "dimension": 304,
+     "error_mha": 0.041838301285679336
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 109,
+     "dimension": 416,
+     "error_mha": 0.07986962282302557
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 9,
+     "dimension": 20,
+     "error_mha": 8.030062531361182
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 14,
+     "dimension": 32,
+     "error_mha": 2.287405319066238
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 24,
+     "dimension": 56,
+     "error_mha": 0.708112748043277
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 38,
+     "dimension": 72,
+     "error_mha": 0.47736771921336185
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 89,
+     "distinct_configurations": 9,
+     "dimension": 20,
+     "error_mha": 8.030062531361182
+    },
+    {
+     "shots": 1000,
+     "kept": 844,
+     "distinct_configurations": 15,
+     "dimension": 45,
+     "error_mha": 2.2866634901674843
+    },
+    {
+     "shots": 10000,
+     "kept": 8514,
+     "distinct_configurations": 32,
+     "dimension": 126,
+     "error_mha": 0.4400476461796643
+    },
+    {
+     "shots": 100000,
+     "kept": 84901,
+     "distinct_configurations": 111,
+     "dimension": 408,
+     "error_mha": 0.29280917738105927
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -1659.4725781384307,
+   "rzz": 276,
+   "one_qubit_gates": 709,
+   "amplitudes_converged": false,
+   "error_mha": 15.275120915930529,
+   "modelled_fidelity": 0.8473851204558103,
+   "overlap_with_exact": 0.22460730442466684
+  },
+  "seconds": 13.7
+ },
+ {
+  "case": "UO22p_eq",
+  "qubits": 26,
+  "dimension": 2944656,
+  "e_exact": -199.71343938898423,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 100,
+     "dimension": 8832,
+     "error_mha": 377.54136210779166
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 998,
+     "dimension": 585144
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 9970,
+     "dimension": 2929232
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 8,
+     "dimension": 48,
+     "error_mha": 71.24962877500707
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 34,
+     "dimension": 289,
+     "error_mha": 12.427757799059691
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 133,
+     "dimension": 3360,
+     "error_mha": 3.0847018886959177
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 2,
+     "dimension": 2,
+     "error_mha": 74.03160916715024
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 5,
+     "dimension": 9,
+     "error_mha": 58.40371213005824
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 15,
+     "dimension": 42,
+     "error_mha": 33.90766192038086
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 65,
+     "distinct_configurations": 4,
+     "dimension": 12,
+     "error_mha": 419.82428892171697
+    },
+    {
+     "shots": 1000,
+     "kept": 627,
+     "distinct_configurations": 13,
+     "dimension": 121,
+     "error_mha": 62.46281362126638
+    },
+    {
+     "shots": 10000,
+     "kept": 6346,
+     "distinct_configurations": 185,
+     "dimension": 29580,
+     "error_mha": 38.74303488024111
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -199.63501896885728,
+   "rzz": 805,
+   "one_qubit_gates": 2356,
+   "amplitudes_converged": true,
+   "error_mha": 78.42042012694606,
+   "modelled_fidelity": 0.6169298233735474,
+   "overlap_with_exact": 0.9456140272634496
+  },
+  "seconds": 528.4
+ },
+ {
+  "case": "UO22p_stretched",
+  "qubits": 24,
+  "dimension": 627264,
+  "e_exact": -199.2606445950485,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 100,
+     "dimension": 8550,
+     "error_mha": 374.27471339168505
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 999,
+     "dimension": 327120
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 9896,
+     "dimension": 627264
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 33,
+     "dimension": 323,
+     "error_mha": 7.07368913495543
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 101,
+     "dimension": 1755,
+     "error_mha": 4.524998082331422
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 271,
+     "dimension": 6889,
+     "error_mha": 2.053647677968229
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 5,
+     "dimension": 6,
+     "error_mha": 58.993808772015655
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 15,
+     "dimension": 35,
+     "error_mha": 58.22572316557739
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 28,
+     "dimension": 100,
+     "error_mha": 56.30903917824526
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 69,
+     "distinct_configurations": 6,
+     "dimension": 12,
+     "error_mha": 58.99380877195881
+    },
+    {
+     "shots": 1000,
+     "kept": 672,
+     "distinct_configurations": 22,
+     "dimension": 272,
+     "error_mha": 58.2439513790689
+    },
+    {
+     "shots": 10000,
+     "kept": 6781,
+     "distinct_configurations": 147,
+     "dimension": 14518,
+     "error_mha": 25.144574769996098
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -199.19025569862447,
+   "rzz": 680,
+   "one_qubit_gates": 1942,
+   "amplitudes_converged": false,
+   "error_mha": 70.38889642402069,
+   "modelled_fidelity": 0.6649788788224019,
+   "overlap_with_exact": 7.201155810129408e-14
+  },
+  "seconds": 320.3
+ },
+ {
+  "case": "PuO2_eq",
+  "qubits": 26,
+  "dimension": 490776,
+  "e_exact": -219.96559432236205,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 100,
+     "dimension": 7820,
+     "error_mha": 540.3948207564611
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 997,
+     "dimension": 213920,
+     "error_mha": 691.0534379708508
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 9875,
+     "dimension": 489346
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 4,
+     "dimension": 9,
+     "error_mha": 21.2411027972621
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 15,
+     "dimension": 72,
+     "error_mha": 9.294633562603849
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 64,
+     "dimension": 864,
+     "error_mha": 1.4884586054790816
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 2,
+     "dimension": 2,
+     "error_mha": 25.872836063399518
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 4,
+     "dimension": 6,
+     "error_mha": 23.777510325686535
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 14,
+     "dimension": 35,
+     "error_mha": 9.72007511026618
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 64,
+     "distinct_configurations": 2,
+     "dimension": 2,
+     "error_mha": 25.872836063399518
+    },
+    {
+     "shots": 1000,
+     "kept": 627,
+     "distinct_configurations": 2,
+     "dimension": 2,
+     "error_mha": 25.701118562835745
+    },
+    {
+     "shots": 10000,
+     "kept": 6259,
+     "distinct_configurations": 36,
+     "dimension": 899,
+     "error_mha": 11.792541662686062
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -219.94088166787023,
+   "rzz": 781,
+   "one_qubit_gates": 2116,
+   "amplitudes_converged": true,
+   "error_mha": 24.712654491821695,
+   "modelled_fidelity": 0.625877884246454,
+   "overlap_with_exact": 0.9765967902470484
+  },
+  "seconds": 348.7
+ },
+ {
+  "case": "PuO2_stretched",
+  "qubits": 24,
+  "dimension": 174240,
+  "e_exact": -219.66299709019154,
+  "proposers": {
+   "random": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 100,
+     "dimension": 7254,
+     "error_mha": 135.86303553032053
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 996,
+     "dimension": 122256,
+     "error_mha": 0.9309834921964466
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 9727,
+     "dimension": 174240,
+     "error_mha": 6.888285497552715e-07
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 76015,
+     "dimension": 174240,
+     "error_mha": 6.888285497552715e-07
+    }
+   ],
+   "exact_state": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 16,
+     "dimension": 88,
+     "error_mha": 5.961639070818592
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 40,
+     "dimension": 294,
+     "error_mha": 2.1224005419071545
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 102,
+     "dimension": 1364,
+     "error_mha": 0.47629975153995474
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 210,
+     "dimension": 3604,
+     "error_mha": 0.13294440901745475
+    }
+   ],
+   "lucj_ideal": [
+    {
+     "shots": 100,
+     "kept": 100,
+     "distinct_configurations": 7,
+     "dimension": 10,
+     "error_mha": 11.324215076569999
+    },
+    {
+     "shots": 1000,
+     "kept": 1000,
+     "distinct_configurations": 13,
+     "dimension": 24,
+     "error_mha": 7.291302249029741
+    },
+    {
+     "shots": 10000,
+     "kept": 10000,
+     "distinct_configurations": 27,
+     "dimension": 72,
+     "error_mha": 4.091835820076994
+    },
+    {
+     "shots": 100000,
+     "kept": 100000,
+     "distinct_configurations": 38,
+     "dimension": 88,
+     "error_mha": 3.8845998111867175
+    }
+   ],
+   "lucj_noisy": [
+    {
+     "shots": 100,
+     "kept": 68,
+     "distinct_configurations": 7,
+     "dimension": 10,
+     "error_mha": 11.324215076569999
+    },
+    {
+     "shots": 1000,
+     "kept": 666,
+     "distinct_configurations": 12,
+     "dimension": 18,
+     "error_mha": 7.346333265360272
+    },
+    {
+     "shots": 10000,
+     "kept": 6738,
+     "distinct_configurations": 61,
+     "dimension": 1848,
+     "error_mha": 4.078892904431086
+    },
+    {
+     "shots": 100000,
+     "kept": 67265,
+     "distinct_configurations": 362,
+     "dimension": 51731,
+     "error_mha": 1.6578443062371662
+    }
+   ]
+  },
+  "lucj": {
+   "energy": -219.65053877606735,
+   "rzz": 664,
+   "one_qubit_gates": 1783,
+   "amplitudes_converged": true,
+   "error_mha": 12.458314124188519,
+   "modelled_fidelity": 0.6713934165767436,
+   "overlap_with_exact": 0.844573699099681
+  },
+  "seconds": 375.4
+ }
+]

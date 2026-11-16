@@ -1,0 +1,189 @@
+{
+ "IonQ|core|1": {
+  "circuits": 40,
+  "qubits": [
+   4,
+   30
+  ],
+  "shots": 21500,
+  "groups": {
+   "aim1_qaoa": 32,
+   "family_E": 1,
+   "sampling_Q7": 4,
+   "family_F_chem": 3
+  },
+  "ionq_qpu_hours": 0.72,
+  "ionq_credits": 615.4,
+  "2q_gate_shots": 1192000,
+  "sizes": {
+   "aim1_qaoa:A": [
+    12,
+    16
+   ],
+   "aim1_qaoa:B": [
+    12,
+    16,
+    20
+   ],
+   "aim1_qaoa:C": [
+    12,
+    15,
+    18,
+    24,
+    30
+   ],
+   "aim1_qaoa:D": [
+    12,
+    16
+   ],
+   "aim1_qaoa:R": [
+    12,
+    16,
+    20,
+    24
+   ],
+   "family_E:E": [
+    8
+   ],
+   "sampling_Q7:Q7": [
+    12,
+    16
+   ],
+   "family_F_chem:F-chem": [
+    4
+   ]
+  }
+ },
+ "IonQ|core|2": {
+  "circuits": 26,
+  "qubits": [
+   1,
+   7
+  ],
+  "shots": 13000,
+  "groups": {
+   "aim2": 26
+  },
+  "ionq_qpu_hours": 0.38,
+  "ionq_credits": 325.0,
+  "2q_gate_shots": 454000,
+  "max_rzz": 139,
+  "T": [
+   1
+  ]
+ },
+ "IonQ|extension|1": {
+  "circuits": 24,
+  "qubits": [
+   12,
+   20
+  ],
+  "shots": 12000,
+  "groups": {
+   "aim1_qaoa": 24
+  },
+  "ionq_qpu_hours": 0.59,
+  "ionq_credits": 510.3,
+  "2q_gate_shots": 927000,
+  "sizes": {
+   "aim1_qaoa:B": [
+    12,
+    16
+   ],
+   "aim1_qaoa:C": [
+    12,
+    15,
+    18
+   ],
+   "aim1_qaoa:R": [
+    12,
+    16,
+    20
+   ]
+  }
+ },
+ "Quantinuum|core|1": {
+  "circuits": 1,
+  "qubits": [
+   8,
+   8
+  ],
+  "shots": 200,
+  "groups": {
+   "family_E": 1
+  },
+  "hqc": 59,
+  "sizes": {
+   "family_E:E": [
+    8
+   ]
+  }
+ },
+ "Quantinuum|core|2": {
+  "circuits": 71,
+  "qubits": [
+   1,
+   8
+  ],
+  "shots": 14200,
+  "groups": {
+   "aim2": 71
+  },
+  "hqc": 2636,
+  "max_rzz": 297,
+  "T": [
+   1,
+   3,
+   5
+  ]
+ },
+ "Quantinuum|extension|1": {
+  "circuits": 21,
+  "qubits": [
+   40,
+   60
+  ],
+  "shots": 4200,
+  "groups": {
+   "aim1_qaoa": 21
+  },
+  "hqc": 3532,
+  "sizes": {
+   "aim1_qaoa:A": [
+    40
+   ],
+   "aim1_qaoa:B": [
+    40
+   ],
+   "aim1_qaoa:C": [
+    42,
+    60
+   ],
+   "aim1_qaoa:D": [
+    40
+   ],
+   "aim1_qaoa:R": [
+    40,
+    60
+   ]
+  }
+ },
+ "Quantinuum|extension|2": {
+  "circuits": 16,
+  "qubits": [
+   6,
+   8
+  ],
+  "shots": 3200,
+  "groups": {
+   "aim2": 16
+  },
+  "hqc": 3785,
+  "max_rzz": 546,
+  "T": [
+   1,
+   3,
+   5
+  ]
+ }
+}

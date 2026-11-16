@@ -1,0 +1,12 @@
+{
+ "backend": "ibm_kingston",
+ "model": "cal_noidle",
+ "results": {
+  "a1-b20-p1-warm": {
+   "score": 0.20866666666666667,
+   "shots": 1500,
+   "se": 0.010492056960351447,
+   "seconds": 2195.3
+  }
+ }
+}

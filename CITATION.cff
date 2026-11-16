@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+type: dataset
+title: "One Problem, Many Physics: supporting package for a QCUP application"
+abstract: "Code, circuits, sealed preregistration, device results, vendor emulator and model outputs, independent re-scores and request scripts for measuring where quantum processors belong behind autonomous laboratories. Code under Apache-2.0; circuits, data and results under CC0-1.0. A Charlot Lab project, Institute for Physical AI, John Bailey Institute."
+authors:
+  - family-names: Charlot
+    given-names: David Jean
+    orcid: "https://orcid.org/0009-0001-9007-2301"
+    affiliation: "Institute for Physical AI, John Bailey Institute"
+license:
+  - Apache-2.0
+  - CC0-1.0
+repository-code: "https://github.com/dcharlot-physicalai-bmi/qcup-one-problem-many-physics"
+keywords:
+  - quantum computing
+  - benchmarking
+  - preregistration
+  - physical AI
+  - heterogeneous computing

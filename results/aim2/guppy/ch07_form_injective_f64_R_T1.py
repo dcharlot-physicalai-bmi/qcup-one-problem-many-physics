@@ -1,0 +1,37 @@
+# Generated from RCE Form circuit ch07_form_injective_f64_R_T1. Reversible logic lowered to {x, h, cx, rz}; project_z is a non-destructive read.
+from guppylang import guppy
+from guppylang.std.builtins import result
+from guppylang.std.angles import angle
+from guppylang.std.quantum import qubit, x, h, cx, rz, reset, project_z, discard
+
+N_QUBITS = 5
+
+@guppy
+def main() -> None:
+    q0 = qubit()
+    q1 = qubit()
+    q2 = qubit()
+    q3 = qubit()
+    q4 = qubit()
+    x(q2)
+    cx(q1, q2)
+    cx(q0, q3)
+    cx(q4, q2)
+    cx(q4, q3)
+    result("c000", project_z(q2).read())
+    result("c001", project_z(q3).read())
+    discard(q0)
+    discard(q1)
+    discard(q2)
+    discard(q3)
+    discard(q4)
+
+if __name__ == "__main__":
+    import json, sys
+    shots = int(sys.argv[1]) if len(sys.argv) > 1 else 20
+    res = main.emulator(n_qubits=N_QUBITS).with_shots(shots).with_seed(5).run()
+    out = []
+    for shot in res.results:
+        d = dict(shot.entries)
+        out.append("".join(str(int(d[k])) for k in sorted(d, reverse=True)))
+    print(json.dumps(out))

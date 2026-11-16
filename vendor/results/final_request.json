@@ -1,0 +1,944 @@
+{
+ "note": "Every figure below is computed by this script from the files named in its docstring.",
+ "parameters": {
+  "quantinuum_figure_set": "docs 2026-10-20 H2-1",
+  "ibm_cap_cz": 117,
+  "ladder_cap_cz": 234,
+  "mcm_e_minus_b_floor": 0.3,
+  "actinide_shots": 100
+ },
+ "controls": {
+  "rule_2023_vs_admission_json_max_abs": 1.1102230246251565e-16,
+  "rule_2024_vs_admission_json_max_abs": 1.1102230246251565e-16
+ },
+ "steps": {
+  "1_readmission": {
+   "IonQ|core": {
+    "requested_rows": 130,
+    "kept_rows": 66,
+    "credits_requested": 6663.8,
+    "credits_kept": 940.4,
+    "ionq_execution_hours_kept": 0.87
+   },
+   "IonQ|extension": {
+    "requested_rows": 121,
+    "kept_rows": 24,
+    "credits_requested": 14266.5,
+    "credits_kept": 510.3,
+    "ionq_execution_hours_kept": 0.47
+   },
+   "Quantinuum|core": {
+    "requested_rows": 93,
+    "kept_rows": 72,
+    "hqc_requested": 15861.4,
+    "hqc_kept": 2695.4,
+    "model": "docs 2026-10-20 H2-1",
+    "by_figure_set": {
+     "pub 2023-03-10 H2-1": {
+      "kept_rows": 72,
+      "hqc_kept": 2695.4
+     },
+     "pub 2024-05-20 H2-1": {
+      "kept_rows": 72,
+      "hqc_kept": 2695.4
+     },
+     "pub 2024-12-06 H2-2": {
+      "kept_rows": 72,
+      "hqc_kept": 2695.4
+     },
+     "docs 2025-04-30 H2-1": {
+      "kept_rows": 72,
+      "hqc_kept": 2695.4
+     },
+     "docs 2025-05-29 H2-2": {
+      "kept_rows": 72,
+      "hqc_kept": 2695.4
+     },
+     "docs 2025-08-28 H2-2": {
+      "kept_rows": 75,
+      "hqc_kept": 4394.7
+     },
+     "docs 2026-10-20 H2-1": {
+      "kept_rows": 72,
+      "hqc_kept": 2695.4
+     },
+     "docs 2026-10-06 H2-2": {
+      "kept_rows": 73,
+      "hqc_kept": 2896.7
+     }
+    },
+    "same_rows_on_every_figure_set": true
+   },
+   "Quantinuum|extension": {
+    "requested_rows": 82,
+    "kept_rows": 37,
+    "hqc_requested": 33066.9,
+    "hqc_kept": 7443.6,
+    "model": "docs 2026-10-20 H2-1",
+    "by_figure_set": {
+     "pub 2023-03-10 H2-1": {
+      "kept_rows": 37,
+      "hqc_kept": 7317.0
+     },
+     "pub 2024-05-20 H2-1": {
+      "kept_rows": 20,
+      "hqc_kept": 2868.5
+     },
+     "pub 2024-12-06 H2-2": {
+      "kept_rows": 20,
+      "hqc_kept": 2868.5
+     },
+     "docs 2025-04-30 H2-1": {
+      "kept_rows": 49,
+      "hqc_kept": 10969.6
+     },
+     "docs 2025-05-29 H2-2": {
+      "kept_rows": 47,
+      "hqc_kept": 10426.0
+     },
+     "docs 2025-08-28 H2-2": {
+      "kept_rows": 64,
+      "hqc_kept": 19065.8
+     },
+     "docs 2026-10-20 H2-1": {
+      "kept_rows": 37,
+      "hqc_kept": 7443.6
+     },
+     "docs 2026-10-06 H2-2": {
+      "kept_rows": 51,
+      "hqc_kept": 11930.6
+     }
+    }
+   }
+  },
+  "quantinuum_30pct_point": {
+   "pub 2023-03-10 H2-1": {
+    "aim2_programs": 643.0,
+    "all_quantinuum_rows": 758.1
+   },
+   "pub 2024-05-20 H2-1": {
+    "aim2_programs": 506.2,
+    "all_quantinuum_rows": 565.7
+   },
+   "pub 2024-12-06 H2-2": {
+    "aim2_programs": 495.1,
+    "all_quantinuum_rows": 553.9
+   },
+   "docs 2025-04-30 H2-1": {
+    "aim2_programs": 927.1,
+    "all_quantinuum_rows": 1091.0
+   },
+   "docs 2025-05-29 H2-2": {
+    "aim2_programs": 875.6,
+    "all_quantinuum_rows": 1023.5
+   },
+   "docs 2025-08-28 H2-2": {
+    "aim2_programs": 1387.0,
+    "all_quantinuum_rows": 1608.8
+   },
+   "docs 2026-10-20 H2-1": {
+    "aim2_programs": 718.7,
+    "all_quantinuum_rows": 816.0
+   },
+   "docs 2026-10-06 H2-2": {
+    "aim2_programs": 1146.9,
+    "all_quantinuum_rows": 1325.2
+   }
+  },
+  "2_actinide_test": {
+   "shots": 100,
+   "hqc_total": 789.9,
+   "hqc_by_shots": {
+    "50": 405.0,
+    "100": 789.9,
+    "200": 1559.9
+   },
+   "circuits": [
+    {
+     "case": "UO22p_eq",
+     "fidelity": 0.2437,
+     "share": 0.2769,
+     "generic_share": 0.6337
+    },
+    {
+     "case": "UO22p_stretched",
+     "fidelity": 0.3095,
+     "share": 0.3353,
+     "generic_share": 0.6775
+    },
+    {
+     "case": "PuO2_eq",
+     "fidelity": 0.2659,
+     "share": 0.2713,
+     "generic_share": 0.6286
+    },
+    {
+     "case": "PuO2_stretched",
+     "fidelity": 0.3323,
+     "share": 0.3393,
+     "generic_share": 0.6748
+    }
+   ],
+   "generic_share": [
+    0.6286,
+    0.6775
+   ],
+   "by_figure_set": {
+    "pub 2023-03-10 H2-1": {
+     "fidelity": [
+      0.1852,
+      0.2736
+     ],
+     "share": [
+      0.2158,
+      0.2811
+     ],
+     "above_30pct": 0,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    },
+    "pub 2024-05-20 H2-1": {
+     "fidelity": [
+      0.1546,
+      0.232
+     ],
+     "share": [
+      0.1776,
+      0.2406
+     ],
+     "above_30pct": 0,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    },
+    "pub 2024-12-06 H2-2": {
+     "fidelity": [
+      0.1414,
+      0.2163
+     ],
+     "share": [
+      0.1641,
+      0.2264
+     ],
+     "above_30pct": 0,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    },
+    "docs 2025-04-30 H2-1": {
+     "fidelity": [
+      0.3298,
+      0.4238
+     ],
+     "share": [
+      0.3592,
+      0.4298
+     ],
+     "above_30pct": 4,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.002,
+       "power_if_generic_true": 1.0
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    },
+    "docs 2025-05-29 H2-2": {
+     "fidelity": [
+      0.3082,
+      0.4011
+     ],
+     "share": [
+      0.3378,
+      0.4073
+     ],
+     "above_30pct": 4,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.0015,
+       "power_if_generic_true": 1.0
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    },
+    "docs 2025-08-28 H2-2": {
+     "fidelity": [
+      0.4561,
+      0.5452
+     ],
+     "share": [
+      0.48,
+      0.55
+     ],
+     "above_30pct": 4,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.039,
+       "power_if_generic_true": 0.976
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0075,
+       "power_if_generic_true": 0.997
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 0.9995
+      }
+     }
+    },
+    "docs 2026-10-20 H2-1": {
+     "fidelity": [
+      0.2437,
+      0.3323
+     ],
+     "share": [
+      0.2713,
+      0.3393
+     ],
+     "above_30pct": 2,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.0005,
+       "power_if_generic_true": 1.0
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    },
+    "docs 2026-10-06 H2-2": {
+     "fidelity": [
+      0.4005,
+      0.4905
+     ],
+     "share": [
+      0.4268,
+      0.4958
+     ],
+     "above_30pct": 4,
+     "q8_rule": {
+      "50_shots": {
+       "false_alarm_if_published_true": 0.012,
+       "power_if_generic_true": 0.998
+      },
+      "100_shots": {
+       "false_alarm_if_published_true": 0.0005,
+       "power_if_generic_true": 1.0
+      },
+      "200_shots": {
+       "false_alarm_if_published_true": 0.0,
+       "power_if_generic_true": 1.0
+      }
+     }
+    }
+   },
+   "max_false_alarm_over_published_sets": {
+    "50_shots": 0.039,
+    "100_shots": 0.0075,
+    "200_shots": 0.0
+   }
+  },
+  "2_h2_prediction_ionq": {
+   "fidelity_published_figures_e_minus_b": 0.7971,
+   "predicted_share_with_chance": 0.8478
+  },
+  "3_transition_metal_on_quantinuum": {
+   "hqc_total": 1208.9,
+   "by_figure_set": {
+    "pub 2023-03-10 H2-1": {
+     "fidelity": [
+      0.5162,
+      0.6708
+     ],
+     "share": [
+      0.5183,
+      0.671
+     ],
+     "above_30pct": 8
+    },
+    "pub 2024-05-20 H2-1": {
+     "fidelity": [
+      0.4639,
+      0.6799
+     ],
+     "share": [
+      0.4662,
+      0.6801
+     ],
+     "above_30pct": 8
+    },
+    "pub 2024-12-06 H2-2": {
+     "fidelity": [
+      0.4478,
+      0.663
+     ],
+     "share": [
+      0.4501,
+      0.6631
+     ],
+     "above_30pct": 8
+    },
+    "docs 2025-04-30 H2-1": {
+     "fidelity": [
+      0.642,
+      0.7782
+     ],
+     "share": [
+      0.6435,
+      0.7783
+     ],
+     "above_30pct": 8
+    },
+    "docs 2025-05-29 H2-2": {
+     "fidelity": [
+      0.6225,
+      0.7658
+     ],
+     "share": [
+      0.6242,
+      0.7659
+     ],
+     "above_30pct": 8
+    },
+    "docs 2025-08-28 H2-2": {
+     "fidelity": [
+      0.7318,
+      0.829
+     ],
+     "share": [
+      0.733,
+      0.829
+     ],
+     "above_30pct": 8
+    },
+    "docs 2026-10-20 H2-1": {
+     "fidelity": [
+      0.5614,
+      0.7269
+     ],
+     "share": [
+      0.5633,
+      0.727
+     ],
+     "above_30pct": 8
+    },
+    "docs 2026-10-06 H2-2": {
+     "fidelity": [
+      0.6896,
+      0.8081
+     ],
+     "share": [
+      0.6909,
+      0.8082
+     ],
+     "above_30pct": 8
+    }
+   },
+   "generic_share": [
+    0.81,
+    0.9063
+   ],
+   "q8_rule_200_shots": {
+    "false_alarm_if_published_true": 0.0,
+    "power_if_generic_true": 1.0
+   }
+  },
+  "family_A_60_fidelity": {
+   "pub 2023-03-10 H2-1": [
+    0.1005,
+    0.1035
+   ],
+   "pub 2024-05-20 H2-1": [
+    0.0327,
+    0.0335
+   ],
+   "pub 2024-12-06 H2-2": [
+    0.0336,
+    0.0346
+   ],
+   "docs 2025-04-30 H2-1": [
+    0.1825,
+    0.1857
+   ],
+   "docs 2025-05-29 H2-2": [
+    0.1643,
+    0.1675
+   ],
+   "docs 2025-08-28 H2-2": [
+    0.3433,
+    0.3483
+   ],
+   "docs 2026-10-20 H2-1": [
+    0.103,
+    0.1053
+   ],
+   "docs 2026-10-06 H2-2": [
+    0.2541,
+    0.2582
+   ]
+  },
+  "4_h2_merged": {
+   "IonQ": {
+    "rows_before": 3,
+    "circuits_after": 1,
+    "shots_after": 3000
+   },
+   "IBM": {
+    "rows_before": 3,
+    "circuits_after": 1,
+    "shots_after": 12000
+   },
+   "IQM": {
+    "rows_before": 3,
+    "circuits_after": 1,
+    "shots_after": 6000
+   }
+  },
+  "ibm_aim1_qaoa_at_caps": {
+   "660": 588,
+   "415": 424,
+   "284": 296,
+   "258": 282,
+   "234": 272,
+   "224": 150,
+   "117": 84
+  },
+  "iqm_device_model_counts_of_admitted_qaoa": {
+   "distinct_circuits": 42,
+   "of": 42,
+   "iqm_cz_max": 103,
+   "within_cap_on_iqm_model": 42,
+   "median_ratio_iqm_to_heavy_hex": 0.721,
+   "qaoa_at_cap_by_iqm_counts": 98
+  },
+  "ibm_aim2_ladder": {
+   "IBM": {
+    "rows": 149,
+    "circuits": 425,
+    "dropped_rows": [
+     "a2-counter-flag-r2",
+     "a2-hc-11-fabric-caps-logged-r2",
+     "a2-phase-r3",
+     "a2-phase-r4",
+     "a2-t59-distinguish-mod3-mod4-r4",
+     "a2-t59-distinguish-mod3-mod4-r5",
+     "a2-t60-dim-redundant-k5-r3",
+     "a2-washer-r2"
+    ],
+    "dropped_circuits": 24,
+    "mcm_rows_kept": 60,
+    "mcm_circuits_kept": 148,
+    "circuits_above_ibm_cap": 56,
+    "qubits": [
+     1,
+     17
+    ],
+    "mean_sc_depth_all_streams": 105.6,
+    "not_embedded_on_device_as_counted": [
+     "a2-ch07-form-injective-f64-g4",
+     "a2-17-traffic-light-accept-g5",
+     "a2-ch07-form-injective-f64-g5",
+     "a2-phase-g3",
+     "a2-t60-dim-redundant-k5-g3",
+     "a2-t60-dim-redundant-k5-g4"
+    ]
+   },
+   "IQM": {
+    "rows": 82,
+    "circuits": 210,
+    "dropped_rows": [
+     "a2-counter-flag-r2",
+     "a2-hc-11-fabric-caps-logged-r2",
+     "a2-phase-r3",
+     "a2-phase-r4",
+     "a2-t59-distinguish-mod3-mod4-r4",
+     "a2-t59-distinguish-mod3-mod4-r5",
+     "a2-t60-dim-redundant-k5-r3",
+     "a2-washer-r2"
+    ],
+    "dropped_circuits": 24,
+    "mcm_rows_kept": 60,
+    "mcm_circuits_kept": 148,
+    "circuits_above_ibm_cap": 16,
+    "qubits": [
+     1,
+     7
+    ],
+    "mean_sc_depth_all_streams": 89.1,
+    "not_embedded_on_device_as_counted": []
+   },
+   "mcm_e_minus_b": {
+    "a2-17-traffic-light-accept-r2": 0.942,
+    "a2-17-traffic-light-accept-p2": 0.978,
+    "a2-17-traffic-light-accept-r3": 0.917,
+    "a2-17-traffic-light-accept-p3": 0.967,
+    "a2-17-traffic-light-accept-r4": 0.884,
+    "a2-17-traffic-light-accept-p4": 0.956,
+    "a2-17-traffic-light-accept-r5": 0.86,
+    "a2-17-traffic-light-accept-p5": 0.945,
+    "a2-ch07-form-bytes-not-rfc8785-r2": 0.974,
+    "a2-ch07-form-bytes-not-rfc8785-r3": 0.971,
+    "a2-ch07-form-bytes-not-rfc8785-r4": 0.968,
+    "a2-ch07-form-bytes-not-rfc8785-r5": 0.965,
+    "a2-ch07-form-injective-f64-r2": 0.907,
+    "a2-ch07-form-injective-f64-r3": 0.792,
+    "a2-ch07-form-injective-f64-r4": 0.691,
+    "a2-ch07-form-injective-f64-r5": 0.604,
+    "a2-ch17-callee-requires-at-run-time-r2": 0.948,
+    "a2-ch17-callee-requires-at-run-time-r3": 0.936,
+    "a2-ch17-callee-requires-at-run-time-r4": 0.899,
+    "a2-ch17-callee-requires-at-run-time-r5": 0.898,
+    "a2-counter-flag-r2": 0.253,
+    "a2-equivalent-r2": 0.669,
+    "a2-equivalent-r3": 0.451,
+    "a2-equivalent-r4": 0.345,
+    "a2-equivalent-r5": 0.31,
+    "a2-f6-signed-zero-state-r2": 0.988,
+    "a2-f6-signed-zero-state-p2": 0.996,
+    "a2-f6-signed-zero-state-r3": 0.981,
+    "a2-f6-signed-zero-state-p3": 0.994,
+    "a2-f6-signed-zero-state-r4": 0.973,
+    "a2-f6-signed-zero-state-p4": 0.992,
+    "a2-f6-signed-zero-state-r5": 0.966,
+    "a2-f6-signed-zero-state-p5": 0.99,
+    "a2-hc-11-fabric-caps-logged-r2": 0.263,
+    "a2-phase-r2": 0.38,
+    "a2-phase-p2": 0.796,
+    "a2-phase-r3": 0.205,
+    "a2-phase-p3": 0.685,
+    "a2-phase-r4": 0.109,
+    "a2-phase-p4": 0.6,
+    "a2-phase-p5": 0.514,
+    "a2-t59-distinguish-mod2-mod3-r2": 0.988,
+    "a2-t59-distinguish-mod2-mod3-r3": 0.981,
+    "a2-t59-distinguish-mod2-mod3-r4": 0.973,
+    "a2-t59-distinguish-mod2-mod3-r5": 0.966,
+    "a2-t59-distinguish-mod3-mod4-r2": 0.542,
+    "a2-t59-distinguish-mod3-mod4-r3": 0.438,
+    "a2-t59-distinguish-mod3-mod4-r4": 0.292,
+    "a2-t59-distinguish-mod3-mod4-r5": 0.264,
+    "a2-t60-dim-redundant-k4-r2": 0.849,
+    "a2-t60-dim-redundant-k4-p2": 0.983,
+    "a2-t60-dim-redundant-k4-r3": 0.812,
+    "a2-t60-dim-redundant-k4-p3": 0.975,
+    "a2-t60-dim-redundant-k4-r4": 0.652,
+    "a2-t60-dim-redundant-k4-p4": 0.966,
+    "a2-t60-dim-redundant-k4-r5": 0.657,
+    "a2-t60-dim-redundant-k4-p5": 0.958,
+    "a2-t60-dim-redundant-k5-r2": 0.314,
+    "a2-t60-dim-redundant-k5-p2": 0.8,
+    "a2-t60-dim-redundant-k5-r3": 0.178,
+    "a2-t60-dim-redundant-k5-p3": 0.697,
+    "a2-t60-dim-redundant-k5-p4": 0.607,
+    "a2-t60-dim-redundant-k5-p5": 0.528,
+    "a2-thermostat-r2": 0.974,
+    "a2-thermostat-r3": 0.971,
+    "a2-thermostat-r4": 0.968,
+    "a2-thermostat-r5": 0.965,
+    "a2-washer-r2": 0.226
+   },
+   "before_at_660": {
+    "IBM": 655,
+    "IQM": 335
+   }
+  },
+  "ibm_aim1": {
+   "groups": {
+    "qaoa": {
+     "circuits": 84,
+     "shots_per_circuit": 4000,
+     "shots": 336000
+    },
+    "hubbard": {
+     "circuits": 4,
+     "shots_per_circuit": 4000,
+     "shots": 16000
+    },
+    "pulse_code": {
+     "circuits": 0,
+     "shots_per_circuit": 4000,
+     "shots": 0
+    },
+    "sampling_q7": {
+     "circuits": 0,
+     "shots_per_circuit": 4000,
+     "shots": 0
+    },
+    "h2_merged": {
+     "circuits": 1,
+     "shots_per_circuit": 12000,
+     "shots": 12000
+    }
+   },
+   "circuits": 89,
+   "shots": 364000,
+   "qubits": [
+    4,
+    12
+   ],
+   "hubbard_lattices": [
+    [
+     "2x2",
+     1
+    ],
+    [
+     "2x2",
+     2
+    ]
+   ]
+  },
+  "iqm_aim1": {
+   "groups": {
+    "qaoa": {
+     "circuits": 84,
+     "shots_per_circuit": 2000,
+     "shots": 168000
+    },
+    "hubbard": {
+     "circuits": 4,
+     "shots_per_circuit": 2000,
+     "shots": 8000
+    },
+    "pulse_code": {
+     "circuits": 0,
+     "shots_per_circuit": 2000,
+     "shots": 0
+    },
+    "sampling_q7": {
+     "circuits": 0,
+     "shots_per_circuit": 2000,
+     "shots": 0
+    },
+    "h2_merged": {
+     "circuits": 1,
+     "shots_per_circuit": 6000,
+     "shots": 6000
+    }
+   },
+   "circuits": 89,
+   "shots": 182000,
+   "qubits": [
+    4,
+    12
+   ],
+   "hubbard_lattices": [
+    [
+     "2x2",
+     1
+    ],
+    [
+     "2x2",
+     2
+    ]
+   ]
+  }
+ },
+ "table": [
+  {
+   "aim": 1,
+   "vendor": "IBM",
+   "qubits": [
+    4,
+    12
+   ],
+   "circuits": 89,
+   "shots_per_circuit": "4,000 (12,000 for H2)",
+   "total_shots": 364000
+  },
+  {
+   "aim": 1,
+   "vendor": "IQM",
+   "qubits": [
+    4,
+    12
+   ],
+   "circuits": 89,
+   "shots_per_circuit": "2,000 (6,000 for H2)",
+   "total_shots": 182000
+  },
+  {
+   "aim": 1,
+   "vendor": "IonQ",
+   "qubits": [
+    4,
+    30
+   ],
+   "circuits": 38,
+   "total_shots": 21500
+  },
+  {
+   "aim": 1,
+   "vendor": "Quantinuum",
+   "qubits": [
+    8,
+    26
+   ],
+   "circuits": 13,
+   "shots_per_circuit": "200 (100 for actinides)",
+   "total_shots": 2200
+  },
+  {
+   "aim": 2,
+   "vendor": "IBM",
+   "qubits": [
+    1,
+    17
+   ],
+   "circuits": 425,
+   "shots_per_circuit": "1,000",
+   "total_shots": 425000
+  },
+  {
+   "aim": 2,
+   "vendor": "IQM",
+   "qubits": [
+    1,
+    7
+   ],
+   "circuits": 210,
+   "shots_per_circuit": "1,000",
+   "total_shots": 210000
+  },
+  {
+   "aim": 2,
+   "vendor": "IonQ",
+   "qubits": [
+    1,
+    7
+   ],
+   "circuits": 26,
+   "total_shots": 13000
+  },
+  {
+   "aim": 2,
+   "vendor": "Quantinuum",
+   "qubits": [
+    1,
+    8
+   ],
+   "circuits": 71,
+   "total_shots": 14200
+  }
+ ],
+ "totals": {
+  "circuits": 961,
+  "shots": 1231900
+ },
+ "totals_before": {
+  "circuits": 2380,
+  "shots": 4778700,
+  "from": "the revision of 15 November 2026 (its final_request.json)"
+ },
+ "costs": {
+  "per_vendor": {
+   "IBM": {
+    "circuits": 514,
+    "shots": 789000,
+    "minutes_cost_py_formula": 5.2,
+    "minutes_at_check_charge_rate": 4.7,
+    "check_charge_seconds_per_42000_shots": 15,
+    "minutes_before": 26.0
+   },
+   "IQM": {
+    "circuits": 299,
+    "shots": 392000,
+    "provisional_set_undiscounted": 225.4,
+    "provisional_set_as_entered_jobs_of_100": 209.1,
+    "provisional_aim1_undiscounted": 104.2,
+    "provisional_aim2_undiscounted": 121.1,
+    "device_check_two_arms_undiscounted": 57.0,
+    "before_undiscounted": 873.1,
+    "default_credits_new_project": 400,
+    "emerald_rate_credits_per_second": 0.75,
+    "max_circuits_per_job": 100,
+    "check_plus_provisional_undiscounted": 282.4
+   },
+   "IonQ": {
+    "circuits": 64,
+    "credits": 940.4,
+    "execution_hours": 0.87,
+    "two_qubit_gate_shots": 1646000,
+    "credits_as_first_requested": 6663.8
+   },
+   "Quantinuum": {
+    "circuits": 84,
+    "hqc": 4694.2,
+    "hqc_readmitted_rows": 2695.4,
+    "hqc_transition_metal": 1208.9,
+    "hqc_actinides": 789.9,
+    "hqc_as_first_requested": 15861.4,
+    "hqc_before": 4309.3,
+    "figure_set": "docs 2026-10-20 H2-1"
+   }
+  },
+  "period_1_core": {
+   "IBM_minutes": 5.2,
+   "IQM_credits": 282.4,
+   "IonQ_credits": 940.4,
+   "Quantinuum_hqc": 4694.2,
+   "circuits": 961,
+   "shots": 1231900
+  },
+  "period_2_extension_if_midterm_passes": {
+   "circuits": 61,
+   "ionq_circuits": 24,
+   "IonQ_credits": 510.3,
+   "quantinuum_circuits": 37,
+   "Quantinuum_hqc": 7443.6,
+   "shots": 19400
+  }
+ }
+}

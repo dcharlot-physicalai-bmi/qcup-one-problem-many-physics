@@ -1,0 +1,56 @@
+[
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "qubits": 8,
+  "rzz_per_layer": 28,
+  "state_preparation_two_qubit_gates": 16,
+  "cz_per_layer": 58
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "qubits": 12,
+  "rzz_per_layer": 58,
+  "state_preparation_two_qubit_gates": 36,
+  "cz_per_layer": 121
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "qubits": 16,
+  "rzz_per_layer": 96,
+  "state_preparation_two_qubit_gates": 64,
+  "cz_per_layer": 218
+ },
+ {
+  "lattice": "3x4",
+  "sites": 12,
+  "qubits": 24,
+  "rzz_per_layer": 176,
+  "state_preparation_two_qubit_gates": 144,
+  "cz_per_layer": 539
+ },
+ {
+  "lattice": "4x4",
+  "sites": 16,
+  "qubits": 32,
+  "rzz_per_layer": 256,
+  "state_preparation_two_qubit_gates": 256,
+  "cz_per_layer": 619
+ },
+ {
+  "lattice": "4x6",
+  "sites": 24,
+  "qubits": 48,
+  "rzz_per_layer": 536,
+  "state_preparation_two_qubit_gates": 576
+ },
+ {
+  "lattice": "6x6",
+  "sites": 36,
+  "qubits": 72,
+  "rzz_per_layer": 876,
+  "state_preparation_two_qubit_gates": 1296
+ }
+]

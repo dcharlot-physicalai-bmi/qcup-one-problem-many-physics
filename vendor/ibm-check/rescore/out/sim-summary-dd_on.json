@@ -1,0 +1,218 @@
+[
+ {
+  "id": "a2-17-traffic-light-accept-p5",
+  "qubits_used": 2,
+  "cz": 10,
+  "reset": 0,
+  "measure": 10,
+  "delay": 5,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-ch07-form-injective-f64-r5",
+  "qubits_used": 5,
+  "cz": 40,
+  "reset": 8,
+  "measure": 10,
+  "delay": 73,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-counter-flag-r1",
+  "qubits_used": 7,
+  "cz": 75,
+  "reset": 0,
+  "measure": 3,
+  "delay": 127,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-t59-distinguish-mod3-mod4-r5",
+  "qubits_used": 5,
+  "cz": 150,
+  "reset": 8,
+  "measure": 10,
+  "delay": 273,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-t59-distinguish-mod5-mod4-r1",
+  "qubits_used": 7,
+  "cz": 213,
+  "reset": 0,
+  "measure": 3,
+  "delay": 393,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-hc-21-kept-step-is-input-r1",
+  "qubits_used": 7,
+  "cz": 271,
+  "reset": 0,
+  "measure": 3,
+  "delay": 455,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-t60-dim-redundant-k5-r5",
+  "qubits_used": 6,
+  "cz": 300,
+  "reset": 12,
+  "measure": 15,
+  "delay": 501,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-queue-sim-r1",
+  "qubits_used": 7,
+  "cz": 303,
+  "reset": 0,
+  "measure": 3,
+  "delay": 530,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-counter-r1",
+  "qubits_used": 7,
+  "cz": 422,
+  "reset": 0,
+  "measure": 3,
+  "delay": 725,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-hc-11-fabric-caps-logged-r5",
+  "qubits_used": 6,
+  "cz": 474,
+  "reset": 12,
+  "measure": 15,
+  "delay": 839,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-washer-r5",
+  "qubits_used": 6,
+  "cz": 566,
+  "reset": 8,
+  "measure": 10,
+  "delay": 964,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-door-r3",
+  "qubits_used": 6,
+  "cz": 610,
+  "reset": 4,
+  "measure": 6,
+  "delay": 1065,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-03-distributed-accept-g2",
+  "qubits_used": 11,
+  "cz": 648,
+  "reset": 0,
+  "measure": 6,
+  "delay": 1100,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-s1-guard-trap-keeps-r3",
+  "qubits_used": 7,
+  "cz": 764,
+  "reset": 6,
+  "measure": 9,
+  "delay": 1272,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-t62-dependent-differ-r2",
+  "qubits_used": 7,
+  "cz": 840,
+  "reset": 3,
+  "measure": 6,
+  "delay": 1453,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a2-session-r2",
+  "qubits_used": 8,
+  "cz": 1113,
+  "reset": 3,
+  "measure": 6,
+  "delay": 1836,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "ctl-zero-cz-thermostat-r5",
+  "qubits_used": 3,
+  "cz": 0,
+  "reset": 4,
+  "measure": 5,
+  "delay": 2,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "ctl-mirror-6q",
+  "qubits_used": 6,
+  "cz": 18,
+  "reset": 0,
+  "measure": 6,
+  "delay": 2,
+  "distinct_outcomes": 1
+ },
+ {
+  "id": "a1-b12-p1-warm",
+  "qubits_used": 12,
+  "cz": 130,
+  "reset": 0,
+  "measure": 12,
+  "delay": 197,
+  "distinct_outcomes": 504
+ },
+ {
+  "id": "a1-r12-p2-cold",
+  "qubits_used": 12,
+  "cz": 200,
+  "reset": 0,
+  "measure": 12,
+  "delay": 284,
+  "distinct_outcomes": 116
+ },
+ {
+  "id": "a1-b20-p1-warm",
+  "qubits_used": 20,
+  "cz": 351,
+  "reset": 0,
+  "measure": 20,
+  "delay": 474,
+  "distinct_outcomes": 782
+ },
+ {
+  "id": "a1-b16-p2-warm",
+  "qubits_used": 16,
+  "cz": 449,
+  "reset": 0,
+  "measure": 16,
+  "delay": 626,
+  "distinct_outcomes": 139
+ },
+ {
+  "id": "a1-d12-p2-warm",
+  "qubits_used": 12,
+  "cz": 523,
+  "reset": 0,
+  "measure": 12,
+  "delay": 730,
+  "distinct_outcomes": 247
+ },
+ {
+  "id": "a1-b16-p3-warm",
+  "qubits_used": 16,
+  "cz": 666,
+  "reset": 0,
+  "measure": 16,
+  "delay": 919,
+  "distinct_outcomes": 83
+ }
+]

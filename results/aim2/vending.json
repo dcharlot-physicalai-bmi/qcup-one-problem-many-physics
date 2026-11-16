@@ -1,0 +1,605 @@
+[
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4436,
+   "two_qubit_depth": 3384,
+   "depth": 10323,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1529,
+   "two_qubit_depth": 1417,
+   "depth": 4097,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.4495,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4436,
+   "two_qubit_depth": 3384,
+   "depth": 10323,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1529,
+   "two_qubit_depth": 1417,
+   "depth": 4097,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.4495,
+   "shots": 2000
+  },
+  "guppy_gates": 4405
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 16,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 7613,
+   "two_qubit_depth": 5905,
+   "depth": 18680
+  },
+  "ion_like": {
+   "two_qubit_gates": 3014,
+   "two_qubit_depth": 2768,
+   "depth": 8001
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 10,
+  "resets": 4,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 9068,
+   "two_qubit_depth": 6932,
+   "depth": 20980,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 3058,
+   "two_qubit_depth": 2830,
+   "depth": 8178,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 8812
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 22,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 11672,
+   "two_qubit_depth": 8894,
+   "depth": 28159
+  },
+  "ion_like": {
+   "two_qubit_gates": 4499,
+   "two_qubit_depth": 4120,
+   "depth": 11908
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 10,
+  "resets": 8,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 13620,
+   "two_qubit_depth": 10445,
+   "depth": 31679,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 4587,
+   "two_qubit_depth": 4244,
+   "depth": 12265,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 13221
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 28,
+  "resets": 0,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   5,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 15552,
+   "two_qubit_depth": 11722,
+   "depth": 36970
+  },
+  "ion_like": {
+   "two_qubit_gates": 5984,
+   "two_qubit_depth": 5472,
+   "depth": 15815
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 10,
+  "resets": 12,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   5,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 18358,
+   "two_qubit_depth": 13970,
+   "depth": 42297,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6116,
+   "two_qubit_depth": 5657,
+   "depth": 16346,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 17628
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   1,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 34,
+  "resets": 0,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   2,
+   5,
+   6,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19941,
+   "two_qubit_depth": 15111,
+   "depth": 47272
+  },
+  "ion_like": {
+   "two_qubit_gates": 7469,
+   "two_qubit_depth": 6824,
+   "depth": 19722
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   1,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   2,
+   5,
+   6,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 23014,
+   "two_qubit_depth": 17470,
+   "depth": 52681,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 7645,
+   "two_qubit_depth": 7071,
+   "depth": 20433,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 22037,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 19440,
+   "active_qubits": 10,
+   "depth": 47735
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 19407,
+   "active_qubits": 10,
+   "depth": 47550
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   2,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 23014,
+   "two_qubit_depth": 17470,
+   "depth": 52679,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 7645,
+   "two_qubit_depth": 7071,
+   "depth": 20433,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 6.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 23014,
+   "two_qubit_depth": 17470,
+   "depth": 52679,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 7645,
+   "two_qubit_depth": 7071,
+   "depth": 20433,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   2,
+   1,
+   2,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 6.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 23014,
+   "two_qubit_depth": 17470,
+   "depth": 52684,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 7645,
+   "two_qubit_depth": 7071,
+   "depth": 20433,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "vending",
+  "source": "programs/multi/vending.rce",
+  "kind": "exact",
+  "states": 16,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 120,
+  "anf_literals": 393,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   2,
+   0,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   3,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 23014,
+   "two_qubit_depth": 17470,
+   "depth": 52680,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 7645,
+   "two_qubit_depth": 7071,
+   "depth": 20433,
+   "noiseless_trace_ok": true
+  }
+ }
+]

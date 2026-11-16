@@ -1,0 +1,118 @@
+{
+ "IonQ": [
+  {
+   "case": "FeO_eq",
+   "qubits": 16,
+   "rzz": 172,
+   "shots": 500,
+   "two_qubit_gate_shots": 86000,
+   "modelled_fidelity": 0.9019465661281568
+  },
+  {
+   "case": "FeO_stretched",
+   "qubits": 18,
+   "rzz": 353,
+   "shots": 500,
+   "two_qubit_gate_shots": 176500,
+   "modelled_fidelity": 0.8091265066863857
+  },
+  {
+   "case": "MnO_eq",
+   "qubits": 18,
+   "rzz": 349,
+   "shots": 500,
+   "two_qubit_gate_shots": 174500,
+   "modelled_fidelity": 0.811070742452119
+  },
+  {
+   "case": "MnO_stretched",
+   "qubits": 18,
+   "rzz": 349,
+   "shots": 500,
+   "two_qubit_gate_shots": 174500,
+   "modelled_fidelity": 0.811070742452119
+  },
+  {
+   "case": "NiO_eq",
+   "qubits": 18,
+   "rzz": 349,
+   "shots": 500,
+   "two_qubit_gate_shots": 174500,
+   "modelled_fidelity": 0.811070742452119
+  },
+  {
+   "case": "NiO_stretched",
+   "qubits": 16,
+   "rzz": 164,
+   "shots": 500,
+   "two_qubit_gate_shots": 82000,
+   "modelled_fidelity": 0.9062863167146618
+  },
+  {
+   "case": "FeS_eq",
+   "qubits": 16,
+   "rzz": 172,
+   "shots": 500,
+   "two_qubit_gate_shots": 86000,
+   "modelled_fidelity": 0.9019465661281568
+  },
+  {
+   "case": "FeS_stretched",
+   "qubits": 16,
+   "rzz": 276,
+   "shots": 500,
+   "two_qubit_gate_shots": 138000,
+   "modelled_fidelity": 0.8473851204558103
+  }
+ ],
+ "Quantinuum": [
+  {
+   "case": "UO22p_eq",
+   "qubits": 26,
+   "rzz": 805,
+   "n1q": 2356,
+   "shots": 200,
+   "hqc": 426,
+   "modelled_fidelity": 0.6169298233735474
+  },
+  {
+   "case": "UO22p_stretched",
+   "qubits": 24,
+   "rzz": 680,
+   "n1q": 1942,
+   "shots": 200,
+   "hqc": 359,
+   "modelled_fidelity": 0.6649788788224019
+  },
+  {
+   "case": "PuO2_eq",
+   "qubits": 26,
+   "rzz": 781,
+   "n1q": 2116,
+   "shots": 200,
+   "hqc": 407,
+   "modelled_fidelity": 0.625877884246454
+  },
+  {
+   "case": "PuO2_stretched",
+   "qubits": 24,
+   "rzz": 664,
+   "n1q": 1783,
+   "shots": 200,
+   "hqc": 347,
+   "modelled_fidelity": 0.6713934165767436
+  }
+ ],
+ "totals": {
+  "circuits": {
+   "IonQ": 8,
+   "Quantinuum": 4
+  },
+  "shots": {
+   "IonQ": 4000,
+   "Quantinuum": 800
+  },
+  "ionq_two_qubit_gate_shots": 1092000,
+  "quantinuum_hqc": 1539
+ }
+}

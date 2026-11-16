@@ -1,0 +1,276 @@
+[
+ {
+  "vendor": "IBM",
+  "tier": "core",
+  "device_qubits": 156,
+  "two_qubit_gate_budget": 660,
+  "instances": 131,
+  "circuits": 588,
+  "qubits": [
+   12,
+   42
+  ],
+  "sizes_by_family": {
+   "A": [
+    12,
+    16
+   ],
+   "B": [
+    12,
+    16,
+    20,
+    24
+   ],
+   "C": [
+    12,
+    15,
+    18,
+    24,
+    30,
+    42
+   ],
+   "D": [
+    12,
+    16
+   ],
+   "R": [
+    12,
+    16,
+    20,
+    24,
+    30
+   ]
+  },
+  "by_depth": {
+   "1": 262,
+   "2": 208,
+   "3": 118
+  },
+  "shots_per_circuit": 4000,
+  "total_shots": 2352000
+ },
+ {
+  "vendor": "IQM",
+  "tier": "core",
+  "device_qubits": 54,
+  "two_qubit_gate_budget": 660,
+  "instances": 131,
+  "circuits": 588,
+  "qubits": [
+   12,
+   42
+  ],
+  "sizes_by_family": {
+   "A": [
+    12,
+    16
+   ],
+   "B": [
+    12,
+    16,
+    20,
+    24
+   ],
+   "C": [
+    12,
+    15,
+    18,
+    24,
+    30,
+    42
+   ],
+   "D": [
+    12,
+    16
+   ],
+   "R": [
+    12,
+    16,
+    20,
+    24,
+    30
+   ]
+  },
+  "by_depth": {
+   "1": 262,
+   "2": 208,
+   "3": 118
+  },
+  "shots_per_circuit": 2000,
+  "total_shots": 1176000
+ },
+ {
+  "vendor": "IonQ",
+  "tier": "core",
+  "device_qubits": 36,
+  "two_qubit_gate_budget": 2000,
+  "instances": 25,
+  "circuits": 50,
+  "qubits": [
+   12,
+   32
+  ],
+  "sizes_by_family": {
+   "A": [
+    12,
+    16,
+    20,
+    24,
+    32
+   ],
+   "B": [
+    12,
+    16,
+    20,
+    24,
+    32
+   ],
+   "C": [
+    12,
+    15,
+    18,
+    24,
+    30
+   ],
+   "D": [
+    12,
+    16,
+    20,
+    24,
+    32
+   ],
+   "R": [
+    12,
+    16,
+    20,
+    24,
+    30
+   ]
+  },
+  "by_depth": {
+   "1": 50,
+   "2": 0,
+   "3": 0
+  },
+  "shots_per_circuit": 500,
+  "total_shots": 25000
+ },
+ {
+  "vendor": "IonQ",
+  "tier": "extension",
+  "device_qubits": 36,
+  "two_qubit_gate_budget": 2000,
+  "instances": 23,
+  "circuits": 92,
+  "qubits": [
+   12,
+   32
+  ],
+  "sizes_by_family": {
+   "A": [
+    12,
+    16,
+    20,
+    24,
+    32
+   ],
+   "B": [
+    12,
+    16,
+    20
+   ],
+   "C": [
+    12,
+    15,
+    18,
+    24,
+    30
+   ],
+   "D": [
+    12,
+    16,
+    20,
+    24,
+    32
+   ],
+   "R": [
+    12,
+    16,
+    20,
+    24,
+    30
+   ]
+  },
+  "by_depth": {
+   "1": 0,
+   "2": 46,
+   "3": 46
+  },
+  "shots_per_circuit": 500,
+  "total_shots": 46000
+ },
+ {
+  "vendor": "Quantinuum",
+  "tier": "core",
+  "device_qubits": 98,
+  "two_qubit_gate_budget": 2000,
+  "instances": 3,
+  "circuits": 14,
+  "qubits": [
+   40,
+   60
+  ],
+  "sizes_by_family": {
+   "A": [
+    60
+   ],
+   "R": [
+    40,
+    60
+   ]
+  },
+  "by_depth": {
+   "1": 6,
+   "2": 4,
+   "3": 4
+  },
+  "shots_per_circuit": 200,
+  "total_shots": 2800
+ },
+ {
+  "vendor": "Quantinuum",
+  "tier": "extension",
+  "device_qubits": 98,
+  "two_qubit_gate_budget": 2000,
+  "instances": 7,
+  "circuits": 26,
+  "qubits": [
+   40,
+   60
+  ],
+  "sizes_by_family": {
+   "A": [
+    40
+   ],
+   "B": [
+    40,
+    60
+   ],
+   "C": [
+    42,
+    60
+   ],
+   "D": [
+    40,
+    60
+   ]
+  },
+  "by_depth": {
+   "1": 14,
+   "2": 8,
+   "3": 4
+  },
+  "shots_per_circuit": 200,
+  "total_shots": 5200
+ }
+]

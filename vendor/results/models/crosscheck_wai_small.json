@@ -1,0 +1,887 @@
+{
+ "h2-1-2023-03-10-published-32q": {
+  "circuits": 19,
+  "median_ratio_mine_over_wai": 0.9858387167436748,
+  "min": 0.5042409285625966,
+  "max": 1.0205370403588612,
+  "rows": [
+   {
+    "id": "qcup-a1-C12-p1-cold",
+    "wai_budget": {
+     "gate": 0.026567442165979623,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.0034026314978012604,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 0.03741979480107351
+    },
+    "wai_total": 0.08600429837769252,
+    "wai_predicted": 0.9247843244780265,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 0.029377,
+     "memory": 0.018716,
+     "readout": 0.018614
+    },
+    "mine_total": 0.06670782519018953,
+    "ratio": 0.7756336188830761
+   },
+   {
+    "id": "qcup-a1-B12-p2-cold",
+    "wai_budget": {
+     "gate": 0.10836572297604176,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.014548803337702981,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 0.07221072816954063
+    },
+    "wai_total": 0.2137396843961235,
+    "wai_predicted": 0.8138899510404907,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 0.126578,
+     "memory": 0.047975,
+     "readout": 0.018614
+    },
+    "mine_total": 0.19316728429457056,
+    "ratio": 0.9037502082981177
+   },
+   {
+    "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+    "wai_budget": {
+     "gate": 7.500170629759003e-05,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 6.000008999968489e-06,
+     "zz": 0.0,
+     "readout": 0.0031024049854730226
+    },
+    "wai_total": 0.003183406700770581,
+    "wai_predicted": 0.002251802698487952,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 5.4e-05,
+     "readout": 0.001551
+    },
+    "mine_total": 0.00160520395078895,
+    "ratio": 0.5042409285625966
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+    "wai_budget": {
+     "gate": 0.0023259104740792676,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.00030748988900119426,
+     "zz": 0.0,
+     "readout": 0.0031024049854730226
+    },
+    "wai_total": 0.005735805348553485,
+    "wai_predicted": 0.002903271691314936,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.002712,
+     "readout": 0.003102
+    },
+    "mine_total": 0.005814324297867866,
+    "ratio": 1.0136892632408077
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+    "wai_budget": {
+     "gate": 0.024622967538260696,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.003272029482288404,
+     "zz": 0.0,
+     "readout": 0.007756012463682556,
+     "memory": 0.00965117255223824
+    },
+    "wai_total": 0.04530218203646989,
+    "wai_predicted": 0.0057086560818181845,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.028741,
+     "memory": 0.007897,
+     "readout": 0.003102
+    },
+    "mine_total": 0.0397405444880314,
+    "ratio": 0.8772324577222093
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+    "wai_budget": {
+     "gate": 0.09074957156798127,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.012227672845094836,
+     "zz": 0.0,
+     "readout": 0.009307214956419068,
+     "memory": 0.061941255431116324
+    },
+    "wai_total": 0.1742257148006115,
+    "wai_predicted": 0.0100304168453794,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.109179,
+     "memory": 0.046207,
+     "readout": 0.004654
+    },
+    "mine_total": 0.16003989445521025,
+    "ratio": 0.9185779185257705
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t1",
+    "wai_budget": {
+     "gate": 0.29328464538250004,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.03953402742500918,
+     "zz": 0.0,
+     "readout": 0.01085841744915558,
+     "memory": 0.24441239467827755
+    },
+    "wai_total": 0.5880894849349423,
+    "wai_predicted": 0.03189348392367176,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.35358,
+     "memory": 0.221528,
+     "readout": 0.004654
+    },
+    "mine_total": 0.5797613831587122,
+    "ratio": 0.9858387167436748
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t1",
+    "wai_budget": {
+     "gate": 0.8090782502069953,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.10908410735191441,
+     "zz": 0.0,
+     "readout": 0.01240961994189209,
+     "memory": 0.7627408918484224
+    },
+    "wai_total": 1.6933128693492243,
+    "wai_predicted": 0.023800119473028066,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.975812,
+     "memory": 0.691185,
+     "readout": 0.004654
+    },
+    "mine_total": 1.6716505594973992,
+    "ratio": 0.9872071427295356
+   },
+   {
+    "id": "qcup-a2-handshake-r-t1",
+    "wai_budget": {
+     "gate": 1.6741727210445005,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.22572033327827637,
+     "zz": 0.0,
+     "readout": 0.013960822434628602,
+     "memory": 1.7374375362270988
+    },
+    "wai_total": 3.6512914129845044,
+    "wai_predicted": 0.1850397568174335,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 2.023604,
+     "memory": 1.692149,
+     "readout": 0.004654
+    },
+    "mine_total": 3.7204060035107966,
+    "ratio": 1.0189288070189388
+   },
+   {
+    "id": "qcup-a2-vending-r-t1",
+    "wai_budget": {
+     "gate": 3.260334347547751,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.4397750553318839,
+     "zz": 0.0,
+     "readout": 0.015512024927365113,
+     "memory": 3.6062486481241876
+    },
+    "wai_total": 7.321870075931187,
+    "wai_predicted": 0.01724414872225833,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 3.946939,
+     "memory": 3.498617,
+     "readout": 0.006205
+    },
+    "mine_total": 7.451761533792686,
+    "ratio": 1.017740202504888
+   },
+   {
+    "id": "qcup-e-labs8-p1",
+    "wai_budget": {
+     "gate": 0.16690920431613182,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.02216937642226337,
+     "zz": 0.0,
+     "readout": 0.01240961994189209,
+     "memory": 0.18723785707311189
+    },
+    "wai_total": 0.3887260577533992,
+    "wai_predicted": 0.0032694275859075574,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.195149,
+     "memory": 0.180807,
+     "readout": 0.01241
+    },
+    "mine_total": 0.3883661496397247,
+    "ratio": 0.9990741343254566
+   },
+   {
+    "id": "qcup-e-labs12-p1",
+    "wai_budget": {
+     "gate": 0.6356846670118502,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.08442519137795748,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 0.9578114753273848
+    },
+    "wai_total": 1.6965357636300307,
+    "wai_predicted": 0.18475471534549656,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 0.74322,
+     "memory": 0.936202,
+     "readout": 0.018614
+    },
+    "mine_total": 1.698036305234172,
+    "ratio": 1.000884473900468
+   },
+   {
+    "id": "qcup-f-chem-h2-n4",
+    "wai_budget": {
+     "gate": 0.043619062797036735,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.0058156448992876045,
+     "zz": 0.0,
+     "readout": 0.006204809970946045,
+     "memory": 0.01491762755849669
+    },
+    "wai_total": 0.07055714522576707,
+    "wai_predicted": 0.005756162182303969,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.051761,
+     "memory": 0.01404,
+     "readout": 0.006205
+    },
+    "mine_total": 0.07200618016487469,
+    "ratio": 1.0205370403588612
+   },
+   {
+    "id": "qcup-f-chem-h4chain-n8",
+    "wai_budget": {
+     "gate": 0.6335900684247263,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.0852464735484102,
+     "zz": 0.0,
+     "readout": 0.01240961994189209,
+     "memory": 0.4657254467932109
+    },
+    "wai_total": 1.1969716087082394,
+    "wai_predicted": 0.0010340035859968196,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.758866,
+     "memory": 0.421067,
+     "readout": 0.01241
+    },
+    "mine_total": 1.1923430012660805,
+    "ratio": 0.9961330683129953
+   },
+   {
+    "id": "qcup-f-chem-beh2-n12",
+    "wai_budget": {
+     "gate": 2.555010249791864,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.34442703381354484,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 2.876261080590989
+    },
+    "wai_total": 5.794312794109236,
+    "wai_predicted": 0.003068693963010228,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 3.067904,
+     "memory": 2.626318,
+     "readout": 0.018614
+    },
+    "mine_total": 5.712835982888335,
+    "ratio": 0.9859384858712265
+   },
+   {
+    "id": "qcup-f-chem-h6chain-n12",
+    "wai_budget": {
+     "gate": 3.276683009108138,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.4417620703162137,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 3.6446003488475927
+    },
+    "wai_total": 7.381659858184783,
+    "wai_predicted": 0.0006274476660271523,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 3.935538,
+     "memory": 3.235955,
+     "readout": 0.018614
+    },
+    "mine_total": 7.190107600462147,
+    "ratio": 0.9740502459605691
+   },
+   {
+    "id": "qcup-q7-B12-warmT-p1",
+    "wai_budget": {
+     "gate": 0.041945202699107696,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.005536310764542351,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 0.040639991231114225
+    },
+    "wai_total": 0.1067359346076024,
+    "wai_predicted": 0.9058094024767948,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 0.048315,
+     "memory": 0.021647,
+     "readout": 0.018614
+    },
+    "mine_total": 0.08857734339710652,
+    "ratio": 0.8298736852096433
+   },
+   {
+    "id": "qcup-q7-B12-warmT-p2",
+    "wai_budget": {
+     "gate": 0.07472368484852358,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.009913329874892195,
+     "zz": 0.0,
+     "readout": 0.018614429912838137,
+     "memory": 0.07221072816954063
+    },
+    "wai_total": 0.17546217280579457,
+    "wai_predicted": 0.8456475567102479,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "gate": 0.086394,
+     "memory": 0.047975,
+     "readout": 0.018614
+    },
+    "mine_total": 0.1529833258218167,
+    "ratio": 0.8718877885499688
+   },
+   {
+    "id": "qcup-a2-door-r-t1",
+    "wai_budget": {
+     "gate": 0.17456033522949735,
+     "relaxation": 0.0,
+     "idle": 0.0,
+     "coherent": 0.0,
+     "leakage": 0.02343579848401058,
+     "zz": 0.0,
+     "readout": 0.009307214956419068,
+     "memory": 0.1340883803014226
+    },
+    "wai_total": 0.3413917289713496,
+    "wai_predicted": 0.8197852156238973,
+    "wai_method": "density matrix",
+    "mine": {
+     "gate": 0.20733,
+     "memory": 0.097337,
+     "readout": 0.003102
+    },
+    "mine_total": 0.3077698607596638,
+    "ratio": 0.9015152818347645
+   }
+  ]
+ },
+ "forte-1-2026-11-14-any-angle": {
+  "circuits": 19,
+  "median_ratio_mine_over_wai": 1.008856451388807,
+  "min": 0.4948787821838347,
+  "max": 1.024925926986399,
+  "rows": [
+   {
+    "id": "qcup-a1-C12-p1-cold",
+    "wai_budget": {
+     "gate": 0.17955518302121562,
+     "relaxation": 0.03122955964664424,
+     "idle": 0.07362212952703664,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 0.3252763898128903,
+    "wai_predicted": 0.7223276820368609,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 0.026526,
+     "gate": 0.186148,
+     "idle": 0.064243,
+     "readout": 0.04087
+    },
+    "mine_total": 0.31778686878573936,
+    "ratio": 0.9769749011557243
+   },
+   {
+    "id": "qcup-a1-B12-p2-cold",
+    "wai_budget": {
+     "gate": 0.5657694055769324,
+     "relaxation": 0.08777825807364796,
+     "idle": 0.07278266563188336,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 0.7671998469004576,
+    "wai_predicted": 0.46431139269478056,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 0.07994,
+     "gate": 0.594141,
+     "idle": 0.064188,
+     "readout": 0.04087
+    },
+    "mine_total": 0.7791372700378943,
+    "ratio": 1.0155597308649953
+   },
+   {
+    "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+    "wai_budget": {
+     "gate": 0.00016938037373350495,
+     "relaxation": 0.0001306458169328148,
+     "idle": 0.0001306416338664279,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.006811586269665642
+    },
+    "wai_total": 0.00724225409419839,
+    "wai_predicted": 0.0035658063638678993,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 6.5e-05,
+     "gate": 0.000113,
+     "readout": 0.003406
+    },
+    "mine_total": 0.0035840378864027897,
+    "ratio": 0.4948787821838347
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+    "wai_budget": {
+     "gate": 0.007566156146084076,
+     "relaxation": 0.00136655456040992,
+     "idle": 0.0001306416338664279,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.006811586269665642
+    },
+    "wai_total": 0.015874938610026066,
+    "wai_predicted": 0.005411361175164938,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.001171,
+     "gate": 0.007869,
+     "idle": 6.5e-05,
+     "readout": 0.006812
+    },
+    "mine_total": 0.015916585856038203,
+    "ratio": 1.0026234587128313
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+    "wai_budget": {
+     "gate": 0.09649684578802453,
+     "relaxation": 0.016328105299067995,
+     "idle": 0.02576650896343986,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.017028965674164107
+    },
+    "wai_total": 0.15562042572469648,
+    "wai_predicted": 0.017979266827629493,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.014368,
+     "gate": 0.10083,
+     "idle": 0.018153,
+     "readout": 0.006812
+    },
+    "mine_total": 0.14016328930700192,
+    "ratio": 0.90067411558789
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+    "wai_budget": {
+     "gate": 0.31433498998893705,
+     "relaxation": 0.05026986799699339,
+     "idle": 0.09437286383731391,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.02043475880899693
+    },
+    "wai_total": 0.4794124806322413,
+    "wai_predicted": 0.011987791599105261,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.047788,
+     "gate": 0.333967,
+     "idle": 0.088182,
+     "readout": 0.010217
+    },
+    "mine_total": 0.48015399166267525,
+    "ratio": 1.0015467078150657
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t1",
+    "wai_budget": {
+     "gate": 1.015448304326714,
+     "relaxation": 0.16199287907335747,
+     "idle": 0.38643074641374403,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.023840551943829752
+    },
+    "wai_total": 1.5877124817576453,
+    "wai_predicted": 0.053663870942241225,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.154938,
+     "gate": 1.080366,
+     "idle": 0.367515,
+     "readout": 0.010217
+    },
+    "mine_total": 1.6130363442939764,
+    "ratio": 1.0159499045496554
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t1",
+    "wai_budget": {
+     "gate": 2.8183999070271852,
+     "relaxation": 0.4487106327077338,
+     "idle": 1.297771766582572,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.027246345078662575
+    },
+    "wai_total": 4.592128651396154,
+    "wai_predicted": 0.020539295480862977,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.429832,
+     "gate": 2.999414,
+     "idle": 1.244546,
+     "readout": 0.010217
+    },
+    "mine_total": 4.684010535226478,
+    "ratio": 1.0200085604749747
+   },
+   {
+    "id": "qcup-a2-handshake-r-t1",
+    "wai_budget": {
+     "gate": 5.756164508654505,
+     "relaxation": 0.9179796802126751,
+     "idle": 3.000054266988734,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.030652138213495397
+    },
+    "wai_total": 9.704850594069411,
+    "wai_predicted": 0.01586307316150204,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.884273,
+     "gate": 6.134897,
+     "idle": 2.872255,
+     "readout": 0.010217
+    },
+    "mine_total": 9.901642663192776,
+    "ratio": 1.0202777020847311
+   },
+   {
+    "id": "qcup-a2-vending-r-t1",
+    "wai_budget": {
+     "gate": 11.162478611150089,
+     "relaxation": 1.7761732538619295,
+     "idle": 6.602149823458814,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.03405793134832822
+    },
+    "wai_total": 19.57485961981916,
+    "wai_predicted": 0.001797103945648596,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 1.718885,
+     "gate": 11.909207,
+     "idle": 6.421066,
+     "readout": 0.013623
+    },
+    "mine_total": 20.062781141471785,
+    "ratio": 1.024925926986399
+   },
+   {
+    "id": "qcup-e-labs8-p1",
+    "wai_budget": {
+     "gate": 0.7100904741456527,
+     "relaxation": 0.11864723937380123,
+     "idle": 0.3185951348267553,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.027246345078662575
+    },
+    "wai_total": 1.174579193424872,
+    "wai_predicted": 0.0026672466198988313,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.105713,
+     "gate": 0.743915,
+     "idle": 0.271236,
+     "readout": 0.027246
+    },
+    "mine_total": 1.1481106097067038,
+    "ratio": 0.9774654754091205
+   },
+   {
+    "id": "qcup-e-labs12-p1",
+    "wai_budget": {
+     "gate": 2.700331298029198,
+     "relaxation": 0.4514986288199335,
+     "idle": 1.7559553338962859,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 4.9486547783634105,
+    "wai_predicted": 0.007092944096022829,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 0.40218,
+     "gate": 2.828856,
+     "idle": 1.472494,
+     "readout": 0.04087
+    },
+    "mine_total": 4.744399275001136,
+    "ratio": 0.9587250449848869
+   },
+   {
+    "id": "qcup-f-chem-h2-n4",
+    "wai_budget": {
+     "gate": 0.16289844736544606,
+     "relaxation": 0.02732063817342911,
+     "idle": 0.019771756607123096,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.013623172539331284
+    },
+    "wai_total": 0.22361401468532957,
+    "wai_predicted": 0.015357991662079604,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.024969,
+     "gate": 0.171765,
+     "idle": 0.01638,
+     "readout": 0.013623
+    },
+    "mine_total": 0.22673730986966817,
+    "ratio": 1.0139673498941186
+   },
+   {
+    "id": "qcup-f-chem-h4chain-n8",
+    "wai_budget": {
+     "gate": 2.1696281248889524,
+     "relaxation": 0.3505434274880823,
+     "idle": 0.7435414529653843,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.027246345078662575
+    },
+    "wai_total": 3.2909593504210815,
+    "wai_predicted": 0.003203024916002058,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.32853,
+     "gate": 2.298197,
+     "idle": 0.683704,
+     "readout": 0.027246
+    },
+    "mine_total": 3.3376771213569287,
+    "ratio": 1.0141957909415897
+   },
+   {
+    "id": "qcup-f-chem-beh2-n12",
+    "wai_budget": {
+     "gate": 8.598673887781853,
+     "relaxation": 1.3763476503387166,
+     "idle": 4.9040301316713295,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 14.919921187409892,
+    "wai_predicted": 3.314061457188847e-07,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 1.30005,
+     "gate": 9.121706,
+     "idle": 4.568167,
+     "readout": 0.04087
+    },
+    "mine_total": 15.030793828983951,
+    "ratio": 1.0074311814507182
+   },
+   {
+    "id": "qcup-f-chem-h6chain-n12",
+    "wai_budget": {
+     "gate": 11.003079692603167,
+     "relaxation": 1.7604905464302876,
+     "idle": 6.140178426555714,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 18.944618183207165,
+    "wai_predicted": 5.921842619373698e-09,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 1.664205,
+     "gate": 11.674389,
+     "idle": 5.732937,
+     "readout": 0.04087
+    },
+    "mine_total": 19.112400273226246,
+    "ratio": 1.008856451388807
+   },
+   {
+    "id": "qcup-q7-B12-warmT-p1",
+    "wai_budget": {
+     "gate": 0.2849172672732683,
+     "relaxation": 0.04545687884001785,
+     "idle": 0.05392919358946235,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 0.4251728573207424,
+    "wai_predicted": 0.6536567860030519,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 0.041146,
+     "gate": 0.299103,
+     "idle": 0.04963,
+     "readout": 0.04087
+    },
+    "mine_total": 0.43074850242012647,
+    "ratio": 1.0131138312415318
+   },
+   {
+    "id": "qcup-q7-B12-warmT-p2",
+    "wai_budget": {
+     "gate": 0.5657694055769324,
+     "relaxation": 0.08777825807364796,
+     "idle": 0.07278266563188336,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.040869517617993865
+    },
+    "wai_total": 0.7671998469004576,
+    "wai_predicted": 0.46431139269478056,
+    "wai_method": "error budget, the readout's share as the figure reads it",
+    "mine": {
+     "relaxation": 0.080723,
+     "gate": 0.595496,
+     "idle": 0.064188,
+     "readout": 0.04087
+    },
+    "mine_total": 0.7812762070567335,
+    "ratio": 1.0183477098087876
+   },
+   {
+    "id": "qcup-a2-door-r-t1",
+    "wai_budget": {
+     "gate": 0.6523847306585266,
+     "relaxation": 0.10542327457681315,
+     "idle": 0.20985063260733644,
+     "coherent": 0.0,
+     "leakage": 0.0,
+     "zz": 0.0,
+     "readout": 0.02043475880899693
+    },
+    "wai_total": 0.9880933966516731,
+    "wai_predicted": 0.5551527652962562,
+    "wai_method": "density matrix",
+    "mine": {
+     "relaxation": 0.096997,
+     "gate": 0.687928,
+     "idle": 0.174697,
+     "readout": 0.006812
+    },
+    "mine_total": 0.9664331074300863,
+    "ratio": 0.9780787025852147
+   }
+  ]
+ }
+}

@@ -1,0 +1,651 @@
+[
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 271,
+   "two_qubit_depth": 216,
+   "depth": 712,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5805,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 108,
+   "two_qubit_depth": 102,
+   "depth": 299,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9445,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 271,
+   "two_qubit_depth": 216,
+   "depth": 712,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5805,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 108,
+   "two_qubit_depth": 102,
+   "depth": 299,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9445,
+   "shots": 2000
+  },
+  "guppy_gates": 315
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 534,
+   "two_qubit_depth": 394,
+   "depth": 1303,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.313,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 196,
+   "two_qubit_depth": 182,
+   "depth": 531,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8625,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 7,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 549,
+   "two_qubit_depth": 442,
+   "depth": 1458,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3295,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 216,
+   "two_qubit_depth": 204,
+   "depth": 597,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8635,
+   "shots": 2000
+  },
+  "guppy_gates": 631
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 690,
+   "two_qubit_depth": 522,
+   "depth": 1702
+  },
+  "ion_like": {
+   "two_qubit_gates": 284,
+   "two_qubit_depth": 262,
+   "depth": 763
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 7,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 833,
+   "two_qubit_depth": 672,
+   "depth": 2207,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.19,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 324,
+   "two_qubit_depth": 306,
+   "depth": 895,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.799,
+   "shots": 2000
+  },
+  "guppy_gates": 947
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 952,
+   "two_qubit_depth": 705,
+   "depth": 2271
+  },
+  "ion_like": {
+   "two_qubit_gates": 372,
+   "two_qubit_depth": 342,
+   "depth": 995
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 7,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1115,
+   "two_qubit_depth": 900,
+   "depth": 2956,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.1015,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 432,
+   "two_qubit_depth": 408,
+   "depth": 1193,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.741,
+   "shots": 2000
+  },
+  "guppy_gates": 1265
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1209,
+   "two_qubit_depth": 872,
+   "depth": 2911
+  },
+  "ion_like": {
+   "two_qubit_gates": 460,
+   "two_qubit_depth": 422,
+   "depth": 1227
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1395,
+   "two_qubit_depth": 1126,
+   "depth": 3705,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.059,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 540,
+   "two_qubit_depth": 510,
+   "depth": 1491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6855,
+   "shots": 2000
+  },
+  "guppy_gates": 1581,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 1167,
+   "active_qubits": 7,
+   "depth": 3253,
+   "trace_fidelity": 0.031,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 1175,
+   "active_qubits": 7,
+   "depth": 3289,
+   "trace_fidelity": 0.0705,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   1,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1395,
+   "two_qubit_depth": 1126,
+   "depth": 3705,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0565,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 540,
+   "two_qubit_depth": 510,
+   "depth": 1491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.703,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   0,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1395,
+   "two_qubit_depth": 1126,
+   "depth": 3705,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.05,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 540,
+   "two_qubit_depth": 510,
+   "depth": 1491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7025,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1395,
+   "two_qubit_depth": 1126,
+   "depth": 3705,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0615,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 540,
+   "two_qubit_depth": 510,
+   "depth": 1491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6935,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_21_kept_step_is_input",
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 15,
+  "anf_literals": 33,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1395,
+   "two_qubit_depth": 1126,
+   "depth": 3705,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.052,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 540,
+   "two_qubit_depth": 510,
+   "depth": 1491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7115,
+   "shots": 2000
+  }
+ }
+]

@@ -1,0 +1,525 @@
+{
+ "rows": [
+  {
+   "case": "FeO_eq",
+   "system": "FeO",
+   "setting": "orbit",
+   "geometry": "eq",
+   "qubits": 16,
+   "dimension": 70,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.04,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 0.96,
+     "note": "amplitudes: clear; reference search: clear"
+    }
+   ],
+   "on_device_seconds": 1.0,
+   "truth": {
+    "cheap_error_mha": 5.855326890014112e-06,
+    "cheap_wrong": false
+   },
+   "resolved_by": "cheap",
+   "accepted_error_mha": 5.855326890014112e-06,
+   "accepted_right": true
+  },
+  {
+   "case": "FeO_stretched",
+   "system": "FeO",
+   "setting": "orbit",
+   "geometry": "stretched",
+   "qubits": 18,
+   "dimension": 1134,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 1.38,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 7.76,
+     "note": "amplitudes: flag; reference search: clear"
+    },
+    {
+     "step": "full diagonalisation on board",
+     "where": "on device",
+     "seconds": 0.85,
+     "note": "the whole space has 1134 determinants, within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 9.99,
+   "truth": {
+    "cheap_error_mha": 5.096504321045359,
+    "cheap_wrong": true
+   },
+   "resolved_by": "full diagonalisation on board",
+   "accepted_error_mha": 0.0,
+   "accepted_right": true
+  },
+  {
+   "case": "MnO_eq",
+   "system": "MnO",
+   "setting": "orbit",
+   "geometry": "eq",
+   "qubits": 18,
+   "dimension": 756,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.09,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 0.4,
+     "note": "amplitudes: flag; reference search: clear"
+    },
+    {
+     "step": "full diagonalisation on board",
+     "where": "on device",
+     "seconds": 0.15,
+     "note": "the whole space has 756 determinants, within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 0.64,
+   "truth": {
+    "cheap_error_mha": 1.5179019737843191,
+    "cheap_wrong": false
+   },
+   "resolved_by": "full diagonalisation on board",
+   "accepted_error_mha": 0.0,
+   "accepted_right": true
+  },
+  {
+   "case": "MnO_stretched",
+   "system": "MnO",
+   "setting": "orbit",
+   "geometry": "stretched",
+   "qubits": 18,
+   "dimension": 756,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 1.39,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 7.75,
+     "note": "amplitudes: flag; reference search: flag"
+    },
+    {
+     "step": "cheap method on the lower reference",
+     "where": "on device",
+     "seconds": 1.45,
+     "note": "amplitudes: flag"
+    },
+    {
+     "step": "full diagonalisation on board",
+     "where": "on device",
+     "seconds": 0.18,
+     "note": "the whole space has 756 determinants, within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 10.77,
+   "truth": {
+    "cheap_error_mha": 5.7442079937573,
+    "cheap_wrong": true
+   },
+   "resolved_by": "full diagonalisation on board",
+   "accepted_error_mha": 0.0,
+   "accepted_right": true
+  },
+  {
+   "case": "NiO_eq",
+   "system": "NiO",
+   "setting": "orbit",
+   "geometry": "eq",
+   "qubits": 18,
+   "dimension": 756,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.12,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 2.68,
+     "note": "amplitudes: flag; reference search: clear"
+    },
+    {
+     "step": "full diagonalisation on board",
+     "where": "on device",
+     "seconds": 0.09,
+     "note": "the whole space has 756 determinants, within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 2.89,
+   "truth": {
+    "cheap_error_mha": 16.194775341773493,
+    "cheap_wrong": true
+   },
+   "resolved_by": "full diagonalisation on board",
+   "accepted_error_mha": 0.0,
+   "accepted_right": true
+  },
+  {
+   "case": "NiO_stretched",
+   "system": "NiO",
+   "setting": "orbit",
+   "geometry": "stretched",
+   "qubits": 16,
+   "dimension": 28,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.09,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 3.46,
+     "note": "amplitudes: flag; reference search: clear"
+    },
+    {
+     "step": "full diagonalisation on board",
+     "where": "on device",
+     "seconds": 0.0,
+     "note": "the whole space has 28 determinants, within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 3.55,
+   "truth": {
+    "cheap_error_mha": 0.0001530120243842248,
+    "cheap_wrong": false
+   },
+   "resolved_by": "full diagonalisation on board",
+   "accepted_error_mha": 0.0,
+   "accepted_right": true
+  },
+  {
+   "case": "FeS_eq",
+   "system": "FeS",
+   "setting": "undersea",
+   "geometry": "eq",
+   "qubits": 16,
+   "dimension": 70,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.03,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 0.95,
+     "note": "amplitudes: clear; reference search: clear"
+    }
+   ],
+   "on_device_seconds": 0.98,
+   "truth": {
+    "cheap_error_mha": 7.826201908756047e-07,
+    "cheap_wrong": false
+   },
+   "resolved_by": "cheap",
+   "accepted_error_mha": 7.826201908756047e-07,
+   "accepted_right": true
+  },
+  {
+   "case": "FeS_stretched",
+   "system": "FeS",
+   "setting": "undersea",
+   "geometry": "stretched",
+   "qubits": 16,
+   "dimension": 448,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 1.39,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 9.57,
+     "note": "amplitudes: flag; reference search: flag"
+    },
+    {
+     "step": "cheap method on the lower reference",
+     "where": "on device",
+     "seconds": 1.28,
+     "note": "amplitudes: flag"
+    },
+    {
+     "step": "full diagonalisation on board",
+     "where": "on device",
+     "seconds": 0.36,
+     "note": "the whole space has 448 determinants, within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 12.6,
+   "truth": {
+    "cheap_error_mha": 94.00658546223895,
+    "cheap_wrong": true
+   },
+   "resolved_by": "full diagonalisation on board",
+   "accepted_error_mha": 0.0,
+   "accepted_right": true
+  },
+  {
+   "case": "UO22p_eq",
+   "system": "UO2(2+)",
+   "setting": "hazard",
+   "geometry": "eq",
+   "qubits": 26,
+   "dimension": 2944656,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.15,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 0.49,
+     "note": "amplitudes: flag; reference search: clear"
+    },
+    {
+     "step": "selected CI on board",
+     "where": "on device",
+     "seconds": 32.79,
+     "note": "largest space 7056 of 2944656 determinants; self-check does not pass within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 33.43,
+   "truth": {
+    "cheap_error_mha": 7.77122920666784,
+    "cheap_wrong": true
+   },
+   "resolved_by": "escalated",
+   "escalation": {
+    "bytes_up": 117209,
+    "proposers": {
+     "random": null,
+     "exact_state": null,
+     "lucj_ideal": null,
+     "lucj_noisy": null
+    },
+    "circuit": {
+     "two_qubit_gates": 805,
+     "one_qubit_gates": 2356,
+     "modelled_fidelity": 0.6169298233735474,
+     "overlap_with_exact": 0.9456140272634496,
+     "admitted": true
+    },
+    "remote_classical_selected_ci_dimension": 61009
+   }
+  },
+  {
+   "case": "UO22p_stretched",
+   "system": "UO2(2+)",
+   "setting": "hazard",
+   "geometry": "stretched",
+   "qubits": 24,
+   "dimension": 627264,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 1.45,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 5.93,
+     "note": "amplitudes: flag; reference search: flag"
+    },
+    {
+     "step": "cheap method on the lower reference",
+     "where": "on device",
+     "seconds": 2.76,
+     "note": "amplitudes: flag"
+    },
+    {
+     "step": "selected CI on board",
+     "where": "on device",
+     "seconds": 21.39,
+     "note": "largest space 2646 of 627264 determinants; self-check passes at 2646"
+    }
+   ],
+   "on_device_seconds": 31.53,
+   "truth": {
+    "cheap_error_mha": 58.12769993718803,
+    "cheap_wrong": true
+   },
+   "resolved_by": "selected CI on board",
+   "accepted_error_mha": 5.6381227580857285,
+   "accepted_right": false
+  },
+  {
+   "case": "PuO2_eq",
+   "system": "PuO2",
+   "setting": "hazard",
+   "geometry": "eq",
+   "qubits": 26,
+   "dimension": 490776,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.21,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 1.66,
+     "note": "amplitudes: clear; reference search: clear"
+    }
+   ],
+   "on_device_seconds": 1.87,
+   "truth": {
+    "cheap_error_mha": 1.8686107389953577,
+    "cheap_wrong": true
+   },
+   "resolved_by": "cheap",
+   "accepted_error_mha": 1.8686107389953577,
+   "accepted_right": false
+  },
+  {
+   "case": "PuO2_stretched",
+   "system": "PuO2",
+   "setting": "hazard",
+   "geometry": "stretched",
+   "qubits": 24,
+   "dimension": 174240,
+   "steps": [
+    {
+     "step": "cheap method",
+     "where": "on device",
+     "seconds": 0.74,
+     "note": "coupled cluster on the carried-over reference"
+    },
+    {
+     "step": "checks",
+     "where": "on device",
+     "seconds": 3.89,
+     "note": "amplitudes: flag; reference search: clear"
+    },
+    {
+     "step": "selected CI on board",
+     "where": "on device",
+     "seconds": 6.29,
+     "note": "largest space 3417 of 174240 determinants; self-check does not pass within the on-board limit"
+    }
+   ],
+   "on_device_seconds": 10.92,
+   "truth": {
+    "cheap_error_mha": 0.7156503255032476,
+    "cheap_wrong": false
+   },
+   "resolved_by": "escalated",
+   "escalation": {
+    "bytes_up": 82572,
+    "proposers": {
+     "random": {
+      "shots": 1000,
+      "kept": 1000,
+      "dimension": 122256,
+      "error_mha": 0.9309834921964466,
+      "bytes_down": 3000,
+      "verifiable_on_board": false
+     },
+     "exact_state": {
+      "shots": 10000,
+      "kept": 10000,
+      "dimension": 1364,
+      "error_mha": 0.47629975153995474,
+      "bytes_down": 30000,
+      "verifiable_on_board": true
+     },
+     "lucj_ideal": null,
+     "lucj_noisy": null
+    },
+    "circuit": {
+     "two_qubit_gates": 664,
+     "one_qubit_gates": 1783,
+     "modelled_fidelity": 0.6713934165767436,
+     "overlap_with_exact": 0.844573699099681,
+     "admitted": true
+    },
+    "link": [
+     {
+      "link": "wired, on site",
+      "seconds": 0.9
+     }
+    ],
+    "remote_classical_selected_ci_dimension": 3417
+   }
+  }
+ ],
+ "totals": {
+  "cases": 12,
+  "edge_dim": 10000,
+  "resolved_by": {
+   "cheap": 3,
+   "full diagonalisation on board": 6,
+   "escalated": 2,
+   "selected CI on board": 1
+  },
+  "accepted": 10,
+  "accepted_right": 8,
+  "accepted_wrong": [
+   "UO22p_stretched (selected CI on board, 5.6 mHa)",
+   "PuO2_eq (cheap, 1.9 mHa)"
+  ],
+  "escalated": 2,
+  "escalated_resolved_by_quantum_samples": 0,
+  "escalated_resolved_by_ideal_ground_state_samples": 1,
+  "largest_case_ledger": {
+   "case": "PuO2_eq",
+   "qubits": 26,
+   "bytes_up_hamiltonian": 117390,
+   "shots": 10000,
+   "bytes_down_samples": 40000,
+   "round_trip_seconds": {
+    "Mars relay, closest": 360.6,
+    "Mars relay, farthest": 2688.6,
+    "acoustic, 2 km": 190.6,
+    "acoustic, 90 km": 2638.2,
+    "wired, on site": 1.3
+   },
+   "two_qubit_gates": 781,
+   "one_qubit_gates": 2116,
+   "modelled_fidelity": 0.625877884246454,
+   "hqc": 20117,
+   "ionq_two_qubit_gate_shots": 7810000
+  },
+  "escalated_resolved_by_remote_selected_ci": 2
+ }
+}

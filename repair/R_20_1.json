@@ -1,0 +1,39 @@
+{
+ "tag": "R_20_1",
+ "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+ "source_sha256": "545dba23c29564f5acff972bd078d6ce339d919506a7999e2252e429f544b94d",
+ "states": 5,
+ "events": [
+  "Inc",
+  "Dec"
+ ],
+ "suspect_entries": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   4,
+   1
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 20,
+ "tests_passed_by_faulty_program": 12,
+ "tests_passed_by_optimum": 20,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 5.0,
+ "mu": 0.25,
+ "qubo_optimum": -3.9000000000000004,
+ "ising_offset": 11.2
+}

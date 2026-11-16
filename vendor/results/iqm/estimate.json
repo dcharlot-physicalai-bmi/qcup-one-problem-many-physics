@@ -1,0 +1,296 @@
+{
+ "note": "Every figure is computed by scripts/estimate.py from the files named in its docstring.",
+ "request_rows": [
+  {
+   "group": "Aim 1 QAOA",
+   "aim": 1,
+   "circuits": 588,
+   "shots_per_circuit": 2000,
+   "shots": 1176000
+  },
+  {
+   "group": "Aim 1 Hubbard",
+   "aim": 1,
+   "circuits": 26,
+   "shots_per_circuit": 2000,
+   "shots": 52000
+  },
+  {
+   "group": "Aim 1 LABS",
+   "aim": 1,
+   "circuits": 2,
+   "shots_per_circuit": 2000,
+   "shots": 4000
+  },
+  {
+   "group": "Aim 1 Q7 sampling",
+   "aim": 1,
+   "circuits": 4,
+   "shots_per_circuit": 2000,
+   "shots": 8000
+  },
+  {
+   "group": "Aim 1 H2 (3 rows merged)",
+   "aim": 1,
+   "circuits": 1,
+   "shots_per_circuit": 6000,
+   "shots": 6000
+  },
+  {
+   "group": "Aim 2 programs",
+   "aim": 2,
+   "circuits": 335,
+   "shots_per_circuit": 1000,
+   "shots": 335000
+  }
+ ],
+ "totals": {
+  "circuits": 956,
+  "shots": 1581000,
+  "aim1": {
+   "circuits": 621,
+   "shots": 1246000
+  },
+  "aim2": {
+   "circuits": 335,
+   "shots": 335000
+  }
+ },
+ "emerald": {
+  "rate_credits_per_second": 0.75,
+  "max_circuits_per_job": 100,
+  "max_shots_per_circuit": 20000,
+  "max_executions_per_job": 2000000,
+  "timeslot": {
+   "slot_duration": "PT1H",
+   "slot_price": "2400.00"
+  }
+ },
+ "resource_calculator": {
+  "formula": "runtime_s = 0.948749148221405**min(J,10) * J * C * (0.022 + 0.00041*S + 0.000301*S) + 3.8; credits = runtime_s * 0.75 (Emerald)",
+  "source": "https://www.iqmacademy.com/qpu/resourceCalculator/ (page script, saved as sources/iqmacademy_js/calc_0fw-zv5wrs59w.js)",
+  "undiscounted_upper": {
+   "entries": [
+    {
+     "aim": 1,
+     "jobs": 6,
+     "circuits_per_job": 100,
+     "shots": 2000,
+     "runtime_s": 870.1999999999999
+    },
+    {
+     "aim": 1,
+     "jobs": 1,
+     "circuits_per_job": 20,
+     "shots": 2000,
+     "runtime_s": 32.68
+    },
+    {
+     "aim": 1,
+     "jobs": 1,
+     "circuits_per_job": 1,
+     "shots": 6000,
+     "runtime_s": 8.088000000000001
+    },
+    {
+     "aim": 2,
+     "jobs": 3,
+     "circuits_per_job": 100,
+     "shots": 1000,
+     "runtime_s": 223.70000000000002
+    },
+    {
+     "aim": 2,
+     "jobs": 1,
+     "circuits_per_job": 35,
+     "shots": 1000,
+     "runtime_s": 29.455000000000002
+    }
+   ],
+   "runtime_s": 1164.1,
+   "minutes": 19.4,
+   "credits_emerald": 873.1,
+   "aim1_credits": 683.2,
+   "aim2_credits": 189.9
+  },
+  "as_entered_jobs_of_100": {
+   "entries": [
+    {
+     "aim": 1,
+     "jobs": 6,
+     "circuits_per_job": 100,
+     "shots": 2000,
+     "runtime_s": 635.6686923606146
+    },
+    {
+     "aim": 1,
+     "jobs": 1,
+     "circuits_per_job": 20,
+     "shots": 2000,
+     "runtime_s": 31.199875400634177
+    },
+    {
+     "aim": 1,
+     "jobs": 1,
+     "circuits_per_job": 1,
+     "shots": 6000,
+     "runtime_s": 7.868236347573385
+    },
+    {
+     "aim": 2,
+     "jobs": 3,
+     "circuits_per_job": 100,
+     "shots": 1000,
+     "runtime_s": 191.5930114530264
+    },
+    {
+     "aim": 2,
+     "jobs": 1,
+     "circuits_per_job": 35,
+     "shots": 1000,
+     "runtime_s": 28.140159397620145
+    }
+   ],
+   "runtime_s": 894.5,
+   "minutes": 14.91,
+   "credits_emerald": 670.9,
+   "aim1_credits": 506.1,
+   "aim2_credits": 164.8
+  },
+  "as_entered_one_job_per_shot_count": {
+   "entries": [
+    {
+     "aim": 1,
+     "jobs": 1,
+     "circuits_per_job": 620,
+     "shots": 2000,
+     "runtime_s": 853.1961374196594
+    },
+    {
+     "aim": 1,
+     "jobs": 1,
+     "circuits_per_job": 1,
+     "shots": 6000,
+     "runtime_s": 7.868236347573385
+    },
+    {
+     "aim": 2,
+     "jobs": 1,
+     "circuits_per_job": 335,
+     "shots": 1000,
+     "runtime_s": 236.7700970915071
+    }
+   ],
+   "runtime_s": 1097.8,
+   "minutes": 18.3,
+   "credits_emerald": 823.4,
+   "aim1_credits": 645.8,
+   "aim2_credits": 177.6
+  },
+  "as_entered_ten_jobs_per_shot_count": {
+   "entries": [
+    {
+     "aim": 1,
+     "jobs": 10,
+     "circuits_per_job": 62.0,
+     "shots": 2000,
+     "runtime_s": 532.8209519999997
+    },
+    {
+     "aim": 1,
+     "jobs": 10,
+     "circuits_per_job": 0.1,
+     "shots": 6000,
+     "runtime_s": 6.333779199999999
+    },
+    {
+     "aim": 2,
+     "jobs": 10,
+     "circuits_per_job": 33.5,
+     "shots": 1000,
+     "runtime_s": 148.89844949999994
+    }
+   ],
+   "runtime_s": 688.1,
+   "minutes": 11.47,
+   "credits_emerald": 516.0,
+   "aim1_credits": 404.4,
+   "aim2_credits": 111.7
+  }
+ },
+ "mock_runtime_estimate": {
+  "jobs_run": 17,
+  "jobs_of_request_circuits": 16,
+  "outside_request": [
+   {
+    "label": "single Aim 2 door reset T5 (mid-circuit reset; 1,028 superconducting-like CZ, outside the IQM set), 1000 shots",
+    "qpu_us_per_circuit_shot": 527.7,
+    "cz": 962
+   }
+  ],
+  "us_per_circuit_shot_range_singles_and_batches": [
+   410.1,
+   435.0
+  ],
+  "us_per_circuit_shot_aim1_batch": 423.0,
+  "us_per_circuit_shot_aim2_batch": 426.2,
+  "overhead_s_per_job_range": [
+   1.6,
+   2.5
+  ],
+  "jobs_minimum_at_100_circuits": 12,
+  "central": {
+   "runtime_s": 699.8,
+   "minutes": 11.66,
+   "credits_emerald": 524.9
+  },
+  "aim1": {
+   "credits_emerald": 410.3
+  },
+  "aim2": {
+   "credits_emerald": 114.6
+  },
+  "low": {
+   "runtime_s": 667.6,
+   "minutes": 11.13,
+   "credits_emerald": 500.7
+  },
+  "high_slowest_circuit_and_60_jobs": {
+   "runtime_s": 837.7,
+   "minutes": 13.96,
+   "credits_emerald": 628.3
+  },
+  "high_outside_program_rate_and_60_jobs": {
+   "runtime_s": 984.3,
+   "minutes": 16.4,
+   "credits_emerald": 738.2
+  }
+ },
+ "aim1_qaoa_cz_line_sensitivity": [
+  {
+   "cz_line": 660,
+   "qaoa_circuits": 588,
+   "credits_saved_vs_660_undiscounted": 0.0,
+   "request_credits_undiscounted": 873.1
+  },
+  {
+   "cz_line": 415,
+   "qaoa_circuits": 494,
+   "credits_saved_vs_660_undiscounted": 101.8,
+   "request_credits_undiscounted": 771.3
+  },
+  {
+   "cz_line": 284,
+   "qaoa_circuits": 386,
+   "credits_saved_vs_660_undiscounted": 218.8,
+   "request_credits_undiscounted": 654.3
+  },
+  {
+   "cz_line": 224,
+   "qaoa_circuits": 304,
+   "credits_saved_vs_660_undiscounted": 307.6,
+   "request_credits_undiscounted": 565.5
+  }
+ ],
+ "default_credits_new_project": 400
+}

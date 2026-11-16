@@ -1,0 +1,130 @@
+[
+ {
+  "vendor": "IBM",
+  "tier": "core",
+  "noise_model": "sc_like",
+  "two_qubit_gate_budget": 660,
+  "styles": "GRP",
+  "steps": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "all_event_streams": true,
+  "forms": 24,
+  "circuits": 655,
+  "qubits": [
+   1,
+   23
+  ],
+  "shots_per_circuit": 1000,
+  "total_shots": 655000
+ },
+ {
+  "vendor": "IQM",
+  "tier": "core",
+  "noise_model": "sc_like",
+  "two_qubit_gate_budget": 660,
+  "styles": "RP",
+  "steps": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "all_event_streams": true,
+  "forms": 24,
+  "circuits": 335,
+  "qubits": [
+   1,
+   8
+  ],
+  "shots_per_circuit": 1000,
+  "total_shots": 335000
+ },
+ {
+  "vendor": "IonQ",
+  "tier": "core",
+  "noise_model": "ion_like",
+  "two_qubit_gate_budget": 300,
+  "styles": "RP",
+  "steps": [
+   1,
+   5
+  ],
+  "all_event_streams": false,
+  "forms": 24,
+  "circuits": 49,
+  "qubits": [
+   1,
+   8
+  ],
+  "shots_per_circuit": 500,
+  "total_shots": 24500
+ },
+ {
+  "vendor": "IonQ",
+  "tier": "extension",
+  "noise_model": "ion_like",
+  "two_qubit_gate_budget": 2000,
+  "styles": "RP",
+  "steps": [
+   1,
+   5
+  ],
+  "all_event_streams": false,
+  "forms": 24,
+  "circuits": 29,
+  "qubits": [
+   6,
+   10
+  ],
+  "shots_per_circuit": 500,
+  "total_shots": 14500
+ },
+ {
+  "vendor": "Quantinuum",
+  "tier": "core",
+  "noise_model": "ion_like",
+  "two_qubit_gate_budget": 300,
+  "styles": "RP",
+  "steps": [
+   1,
+   3,
+   5
+  ],
+  "all_event_streams": false,
+  "forms": 24,
+  "circuits": 71,
+  "qubits": [
+   1,
+   8
+  ],
+  "shots_per_circuit": 200,
+  "total_shots": 14200
+ },
+ {
+  "vendor": "Quantinuum",
+  "tier": "extension",
+  "noise_model": "ion_like",
+  "two_qubit_gate_budget": 2000,
+  "styles": "RP",
+  "steps": [
+   1,
+   3,
+   5
+  ],
+  "all_event_streams": false,
+  "forms": 24,
+  "circuits": 44,
+  "qubits": [
+   6,
+   10
+  ],
+  "shots_per_circuit": 200,
+  "total_shots": 8800
+ }
+]

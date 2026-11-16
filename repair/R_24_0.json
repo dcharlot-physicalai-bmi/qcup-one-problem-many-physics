@@ -1,0 +1,41 @@
+{
+ "tag": "R_24_0",
+ "source": "programs/multi/session.rce",
+ "source_sha256": "5b170d108954b40d4e0c470a7a394051be2fd0008f81750c8cb7420e18e8dff8",
+ "states": 6,
+ "events": [
+  "Login(ok: true)",
+  "Login(ok: false)",
+  "Logout",
+  "Tick"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   1
+  ],
+  [
+   5,
+   2
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 96,
+ "tests_passed_by_faulty_program": 85,
+ "tests_passed_by_optimum": 96,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 11.0,
+ "mu": 0.25,
+ "qubo_optimum": -8.681818181818182,
+ "ising_offset": 14.000000000000002
+}

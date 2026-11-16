@@ -1,0 +1,45 @@
+{
+ "tag": "R_40_0",
+ "source": "programs/multi/lobby.rce",
+ "source_sha256": "8bd313bd9d989355dee812275febb7194d43dea047957beeec1717eca22dc822",
+ "states": 8,
+ "events": [
+  "Join",
+  "Leave",
+  "Start",
+  "End"
+ ],
+ "suspect_entries": [
+  [
+   3,
+   2
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   5,
+   1
+  ],
+  [
+   7,
+   2
+  ],
+  [
+   7,
+   3
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 128,
+ "tests_passed_by_faulty_program": 113,
+ "tests_passed_by_optimum": 128,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 10.0,
+ "mu": 0.25,
+ "qubo_optimum": -12.75,
+ "ising_offset": 43.587500000000006
+}

@@ -1,0 +1,651 @@
+[
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 246,
+   "two_qubit_depth": 201,
+   "depth": 632,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5935,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 106,
+   "two_qubit_depth": 94,
+   "depth": 270,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9325,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 246,
+   "two_qubit_depth": 201,
+   "depth": 632,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5935,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 106,
+   "two_qubit_depth": 94,
+   "depth": 270,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9325,
+   "shots": 2000
+  },
+  "guppy_gates": 296
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 528,
+   "two_qubit_depth": 401,
+   "depth": 1229,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3045,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 209,
+   "two_qubit_depth": 184,
+   "depth": 524,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.855,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 7,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 505,
+   "two_qubit_depth": 416,
+   "depth": 1277,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3265,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 212,
+   "two_qubit_depth": 188,
+   "depth": 539,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8565,
+   "shots": 2000
+  },
+  "guppy_gates": 597
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 694,
+   "two_qubit_depth": 548,
+   "depth": 1780
+  },
+  "ion_like": {
+   "two_qubit_gates": 312,
+   "two_qubit_depth": 274,
+   "depth": 778
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 7,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 764,
+   "two_qubit_depth": 627,
+   "depth": 1932,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.168,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 318,
+   "two_qubit_depth": 282,
+   "depth": 808,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.783,
+   "shots": 2000
+  },
+  "guppy_gates": 896
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 932,
+   "two_qubit_depth": 751,
+   "depth": 2423
+  },
+  "ion_like": {
+   "two_qubit_gates": 415,
+   "two_qubit_depth": 364,
+   "depth": 1032
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 7,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1023,
+   "two_qubit_depth": 840,
+   "depth": 2583,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.102,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 424,
+   "two_qubit_depth": 376,
+   "depth": 1077,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.731,
+   "shots": 2000
+  },
+  "guppy_gates": 1195
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1231,
+   "two_qubit_depth": 978,
+   "depth": 3083
+  },
+  "ion_like": {
+   "two_qubit_gates": 518,
+   "two_qubit_depth": 454,
+   "depth": 1286
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1284,
+   "two_qubit_depth": 1055,
+   "depth": 3233,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0515,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 530,
+   "two_qubit_depth": 470,
+   "depth": 1346,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.68,
+   "shots": 2000
+  },
+  "guppy_gates": 1494,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 1087,
+   "active_qubits": 7,
+   "depth": 3009,
+   "trace_fidelity": 0.028,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 1044,
+   "active_qubits": 7,
+   "depth": 2999,
+   "trace_fidelity": 0.077,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1284,
+   "two_qubit_depth": 1055,
+   "depth": 3234,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.056,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 530,
+   "two_qubit_depth": 470,
+   "depth": 1346,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.685,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   0,
+   1,
+   0,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1284,
+   "two_qubit_depth": 1055,
+   "depth": 3231,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0575,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 530,
+   "two_qubit_depth": 470,
+   "depth": 1346,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.69,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   0,
+   1,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1284,
+   "two_qubit_depth": 1055,
+   "depth": 3231,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.05,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 530,
+   "two_qubit_depth": 470,
+   "depth": 1346,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6985,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "s1_guard_trap_keeps",
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 17,
+  "anf_literals": 35,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   0,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1284,
+   "two_qubit_depth": 1055,
+   "depth": 3230,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.055,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 530,
+   "two_qubit_depth": 470,
+   "depth": 1346,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6865,
+   "shots": 2000
+  }
+ }
+]

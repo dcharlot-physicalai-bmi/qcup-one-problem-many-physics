@@ -1,0 +1,46 @@
+{
+ "tag": "R_60_0",
+ "source": "programs/multi/elevator.rce",
+ "source_sha256": "92574a142bd5c96365cfccdb58a63d04e1b9a3a921d60e4de7b48ff65e73f77a",
+ "states": 12,
+ "events": [
+  "Up",
+  "Down",
+  "OpenDoor",
+  "CloseDoor",
+  "Arrive"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   2
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   6,
+   2
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 300,
+ "tests_passed_by_faulty_program": 281,
+ "tests_passed_by_optimum": 300,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 12.0,
+ "mu": 0.25,
+ "qubo_optimum": -24.958333333333336,
+ "ising_offset": 116.44791666666666
+}

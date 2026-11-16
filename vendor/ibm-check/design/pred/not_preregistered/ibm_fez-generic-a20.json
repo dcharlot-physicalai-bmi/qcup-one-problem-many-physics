@@ -1,0 +1,12 @@
+{
+ "backend": "ibm_fez",
+ "model": "generic",
+ "results": {
+  "a1-b20-p1-warm": {
+   "score": 0.17333333333333334,
+   "shots": 1500,
+   "se": 0.009773736538598015,
+   "seconds": 1185.1
+  }
+ }
+}

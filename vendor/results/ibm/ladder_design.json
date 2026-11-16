@@ -1,0 +1,6009 @@
+{
+ "circuits": [
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.994,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "11",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.978,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 4,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9685,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.957,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "11111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9515,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.994,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 2,
+   "resets": 1,
+   "mid_circuit_measurements": 1,
+   "cz": 0,
+   "want": "11",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.968,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 2,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 0,
+   "want": "111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.965,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 2,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 0,
+   "want": "1111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9455,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-bytes-not-rfc8785-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_bytes_not_rfc8785",
+   "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 2,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 0,
+   "want": "11111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9425,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.97,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.991,
+     "shots": 2000
+    }
+   },
+   "id": "a2-ch07-form-bytes-not-rfc8785-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "P",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 1,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.994,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-p1"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "P",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 1,
+   "resets": 0,
+   "mid_circuit_measurements": 1,
+   "cz": 0,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.981,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-p2"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "P",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 1,
+   "resets": 0,
+   "mid_circuit_measurements": 2,
+   "cz": 0,
+   "want": "101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9705,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-p3"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "P",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 1,
+   "resets": 0,
+   "mid_circuit_measurements": 3,
+   "cz": 0,
+   "want": "0101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.955,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-p4"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 1,
+   "resets": 0,
+   "mid_circuit_measurements": 4,
+   "cz": 0,
+   "want": "10101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9565,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 1,
+     "depth": 10,
+     "trace_fidelity": 0.971,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 1,
+     "depth": 10,
+     "trace_fidelity": 0.9885,
+     "shots": 2000
+    }
+   },
+   "id": "a2-f6-signed-zero-state-p5"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.994,
+   "package_snapshot": {},
+   "id": "a2-thermostat-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "11",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.978,
+   "package_snapshot": {},
+   "id": "a2-thermostat-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9685,
+   "package_snapshot": {},
+   "id": "a2-thermostat-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 9,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.957,
+   "package_snapshot": {},
+   "id": "a2-thermostat-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "11111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9515,
+   "package_snapshot": {},
+   "id": "a2-thermostat-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 0,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.994,
+   "package_snapshot": {},
+   "id": "a2-thermostat-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 3,
+   "resets": 1,
+   "mid_circuit_measurements": 1,
+   "cz": 0,
+   "want": "11",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.968,
+   "package_snapshot": {},
+   "id": "a2-thermostat-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 3,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 0,
+   "want": "111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.965,
+   "package_snapshot": {},
+   "id": "a2-thermostat-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 3,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 0,
+   "want": "1111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9455,
+   "package_snapshot": {},
+   "id": "a2-thermostat-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "thermostat",
+   "source": "programs/body/thermostat.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 3,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 0,
+   "want": "11111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9425,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.97,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 0,
+     "active_qubits": 2,
+     "depth": 8,
+     "trace_fidelity": 0.991,
+     "shots": 2000
+    }
+   },
+   "id": "a2-thermostat-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9825,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9825,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9895,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9895,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9895,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 1,
+   "uniform_floor": 0.5,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "1",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9895,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "P",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 1,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.973,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-p1"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 2,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.973,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-p1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 2,
+   "want": "11",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.978,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 3,
+   "resets": 1,
+   "mid_circuit_measurements": 1,
+   "cz": 2,
+   "want": "11",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.973,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 2,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.975,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 2,
+   "resets": 1,
+   "mid_circuit_measurements": 1,
+   "cz": 2,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.969,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 2,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.975,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 3,
+   "resets": 1,
+   "mid_circuit_measurements": 1,
+   "cz": 2,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.972,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "P",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 2,
+   "cz": 2,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.953,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-p2"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 4,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9775,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 4,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9775,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9625,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 3,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 3,
+   "want": "111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.963,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 4,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9715,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 2,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 3,
+   "want": "101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.946,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9705,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 3,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 3,
+   "want": "101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.946,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 4,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9735,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "P",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 4,
+   "cz": 3,
+   "want": "111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9285,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-p3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 4,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 3,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9735,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 2,
+   "cz": 4,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.948,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-p2"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 4,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.977,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 4,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.977,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 9,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 4,
+   "want": "0111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9535,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 3,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 4,
+   "want": "0111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.942,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 4,
+   "want": "0101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9525,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 2,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 4,
+   "want": "0101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.938,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 9,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 4,
+   "want": "0101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9545,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 3,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 4,
+   "want": "0101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.946,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "P",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 6,
+   "cz": 4,
+   "want": "00111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.916,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-p4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 3,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 5,
+   "want": "10111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9205,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 3,
+     "depth": 23,
+     "trace_fidelity": 0.955,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 3,
+     "depth": 23,
+     "trace_fidelity": 0.9705,
+     "shots": 2000
+    }
+   },
+   "id": "a2-ch17-callee-requires-at-run-time-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 5,
+   "want": "10101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.945,
+   "package_snapshot": {},
+   "id": "a2-f6-signed-zero-state-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "f6_signed_zero_state",
+   "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 2,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 5,
+   "want": "10101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9175,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 2,
+     "depth": 22,
+     "trace_fidelity": 0.945,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 2,
+     "depth": 24,
+     "trace_fidelity": 0.9685,
+     "shots": 2000
+    }
+   },
+   "id": "a2-f6-signed-zero-state-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 5,
+   "want": "10101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.94,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod2-mod3-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod2_mod3",
+   "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 3,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 5,
+   "want": "10101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9175,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 2,
+     "depth": 22,
+     "trace_fidelity": 0.945,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 2,
+     "depth": 24,
+     "trace_fidelity": 0.9685,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t59-distinguish-mod2-mod3-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 8,
+   "cz": 5,
+   "want": "0100111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.881,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 2,
+     "depth": 35,
+     "trace_fidelity": 0.889,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 5,
+     "active_qubits": 2,
+     "depth": 30,
+     "trace_fidelity": 0.9495,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t60-dim-redundant-k4-p5"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 4,
+   "cz": 6,
+   "want": "001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.924,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-p3"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 4,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 6,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9425,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 6,
+   "cz": 8,
+   "want": "01001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9025,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-p4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch17_callee_requires_at_run_time",
+   "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 1,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "trace_bits": 5,
+   "uniform_floor": 0.03125,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 8,
+   "want": "10111",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9375,
+   "package_snapshot": {},
+   "id": "a2-ch17-callee-requires-at-run-time-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 4,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 9,
+   "want": "001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.911,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 2,
+   "resets": 0,
+   "mid_circuit_measurements": 8,
+   "cz": 10,
+   "want": "1001001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.879,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 10,
+     "active_qubits": 2,
+     "depth": 46,
+     "trace_fidelity": 0.8795,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 10,
+     "active_qubits": 2,
+     "depth": 51,
+     "trace_fidelity": 0.9265,
+     "shots": 2000
+    }
+   },
+   "id": "a2-17-traffic-light-accept-p5"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    3
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 5,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 10,
+   "want": "1101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.923,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 4,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 12,
+   "want": "01001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.877,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 12,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9275,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 4,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 12,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9235,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 15,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.933,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 4,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 15,
+   "want": "1001001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8315,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 15,
+     "active_qubits": 4,
+     "depth": 33,
+     "trace_fidelity": 0.859,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 15,
+     "active_qubits": 4,
+     "depth": 31,
+     "trace_fidelity": 0.9195,
+     "shots": 2000
+    }
+   },
+   "id": "a2-17-traffic-light-accept-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 17,
+   "want": "00",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.957,
+   "package_snapshot": {},
+   "id": "a2-equivalent-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 17,
+   "want": "00",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.957,
+   "package_snapshot": {},
+   "id": "a2-equivalent-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 4,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 19,
+   "want": "111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8975,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "P",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 19,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9175,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-p1"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    3,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 5,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 20,
+   "want": "101101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.88,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    3
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 8,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 21,
+   "want": "1101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9145,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 8,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 21,
+   "want": "111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.888,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 8,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 23,
+   "want": "001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8935,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "P",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 23,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9125,
+   "package_snapshot": {},
+   "id": "a2-phase-p1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 28,
+   "want": "10",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9235,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 5,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 28,
+   "want": "10",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9235,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "17_traffic_light_accept",
+   "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 10,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 30,
+   "want": "01001001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8495,
+   "package_snapshot": {},
+   "id": "a2-17-traffic-light-accept-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 5,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 30,
+   "want": "00101101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.832,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 4,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 30,
+   "want": "00111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8235,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 12,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 31,
+   "want": "0100111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8395,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 10,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 33,
+   "want": "00111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.848,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k4-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    3,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 35,
+   "want": "101101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8565,
+   "package_snapshot": {},
+   "id": "a2-ch07-form-injective-f64-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 8,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 37,
+   "want": "0100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.89,
+   "package_snapshot": {},
+   "id": "a2-equivalent-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "P",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 3,
+   "cz": 38,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.852,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-p2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k4",
+   "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 4,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 39,
+   "want": "0100111001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8105,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 30,
+     "active_qubits": 4,
+     "depth": 82,
+     "trace_fidelity": 0.812,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 30,
+     "active_qubits": 4,
+     "depth": 87,
+     "trace_fidelity": 0.8795,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t60-dim-redundant-k4-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "ch07_form_injective_f64",
+   "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    3,
+    2,
+    0,
+    2
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 40,
+   "want": "1000101101",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.785,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 42,
+     "active_qubits": 5,
+     "depth": 79,
+     "trace_fidelity": 0.8025,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 40,
+     "active_qubits": 5,
+     "depth": 77,
+     "trace_fidelity": 0.866,
+     "shots": 2000
+    }
+   },
+   "id": "a2-ch07-form-injective-f64-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 46,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.887,
+   "package_snapshot": {},
+   "id": "a2-phase-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "P",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 3,
+   "cz": 46,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.84,
+   "package_snapshot": {},
+   "id": "a2-phase-p2"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 46,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.887,
+   "package_snapshot": {},
+   "id": "a2-phase-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 5,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 47,
+   "want": "0100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8685,
+   "package_snapshot": {},
+   "id": "a2-equivalent-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 47,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9135,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 47,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.9135,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 55,
+   "want": "100100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.84,
+   "package_snapshot": {},
+   "id": "a2-equivalent-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "P",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 6,
+   "cz": 57,
+   "want": "011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.79,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-p3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 5,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 63,
+   "want": "0010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8255,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 8,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 65,
+   "want": "0010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8365,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 5,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 67,
+   "want": "100100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8045,
+   "package_snapshot": {},
+   "id": "a2-equivalent-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "P",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 6,
+   "cz": 67,
+   "want": "011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.7645,
+   "package_snapshot": {},
+   "id": "a2-phase-p3"
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 75,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.841,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 75,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.841,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "P",
+   "T": 4,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "trace_bits": 12,
+   "uniform_floor": 0.000244140625,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 9,
+   "cz": 76,
+   "want": "100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.7425,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-p4"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 14,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 80,
+   "want": "11100100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": null,
+   "package_snapshot": {},
+   "id": "a2-equivalent-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_11_fabric_caps_logged",
+   "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 80,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.839,
+   "package_snapshot": {},
+   "id": "a2-hc-11-fabric-caps-logged-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_11_fabric_caps_logged",
+   "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 80,
+   "want": "001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.839,
+   "package_snapshot": {},
+   "id": "a2-hc-11-fabric-caps-logged-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 5,
+   "resets": 4,
+   "mid_circuit_measurements": 4,
+   "cz": 88,
+   "want": "100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.7665,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "P",
+   "T": 4,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "trace_bits": 12,
+   "uniform_floor": 0.000244140625,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 9,
+   "cz": 92,
+   "want": "100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6875,
+   "package_snapshot": {},
+   "id": "a2-phase-p4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 94,
+   "want": "100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.7645,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "trace_bits": 15,
+   "uniform_floor": 3.0517578125e-05,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 12,
+   "cz": 95,
+   "want": "000100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.669,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 95,
+     "active_qubits": 3,
+     "depth": 336,
+     "trace_fidelity": 0.645,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 95,
+     "active_qubits": 3,
+     "depth": 336,
+     "trace_fidelity": 0.742,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t60-dim-redundant-k5-p5"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1,
+    2,
+    3,
+    0
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 17,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 97,
+   "want": "0011100100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": null,
+   "package_snapshot": {},
+   "id": "a2-equivalent-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 5,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 97,
+   "want": "11100100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.7325,
+   "package_snapshot": {},
+   "id": "a2-equivalent-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 9,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 100,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.758,
+   "package_snapshot": {},
+   "id": "a2-phase-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 6,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 104,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.766,
+   "package_snapshot": {},
+   "id": "a2-phase-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 9,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 104,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.7565,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "washer",
+   "source": "programs/multi/washer.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 114,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8235,
+   "package_snapshot": {},
+   "id": "a2-washer-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "washer",
+   "source": "programs/multi/washer.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    0
+   ],
+   "reference_trace": [
+    1
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 114,
+   "want": "01",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.8235,
+   "package_snapshot": {},
+   "id": "a2-washer-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "P",
+   "T": 5,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "trace_bits": 15,
+   "uniform_floor": 3.0517578125e-05,
+   "qubits": 3,
+   "resets": 0,
+   "mid_circuit_measurements": 12,
+   "cz": 115,
+   "want": "101100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.634,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 115,
+     "active_qubits": 3,
+     "depth": 427,
+     "trace_fidelity": 0.596,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 115,
+     "active_qubits": 3,
+     "depth": 427,
+     "trace_fidelity": 0.681,
+     "shots": 2000
+    }
+   },
+   "id": "a2-phase-p5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 6,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 118,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.755,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2,
+    0
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 5,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 125,
+   "want": "00100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6545,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "equivalent",
+   "source": "spec/checker/tests/mutants/equivalent.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    0,
+    1,
+    2,
+    3,
+    0
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 127,
+   "want": "0011100100",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6605,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 95,
+     "active_qubits": 5,
+     "depth": 251,
+     "trace_fidelity": 0.6835,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 95,
+     "active_qubits": 5,
+     "depth": 251,
+     "trace_fidelity": 0.7535,
+     "shots": 2000
+    }
+   },
+   "id": "a2-equivalent-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2,
+    0
+   ],
+   "trace_bits": 8,
+   "uniform_floor": 0.00390625,
+   "qubits": 14,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 129,
+   "want": "00100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": null,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "G",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 17,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 147,
+   "want": "0100100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": null,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod3-mod4-g5"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod3_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+   "style": "R",
+   "T": 5,
+   "state_bits": 2,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "reference_trace": [
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "trace_bits": 10,
+   "uniform_floor": 0.0009765625,
+   "qubits": 5,
+   "resets": 8,
+   "mid_circuit_measurements": 8,
+   "cz": 150,
+   "want": "0100100010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.608,
+   "package_snapshot": {
+    "ibm_torino_snapshot": {
+     "two_qubit_gates": 146,
+     "active_qubits": 5,
+     "depth": 424,
+     "trace_fidelity": 0.562,
+     "shots": 2000
+    },
+    "ibm_fez_snapshot": {
+     "two_qubit_gates": 146,
+     "active_qubits": 5,
+     "depth": 435,
+     "trace_fidelity": 0.6495,
+     "shots": 2000
+    }
+   },
+   "id": "a2-t59-distinguish-mod3-mod4-r5"
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1
+   ],
+   "reference_trace": [
+    2,
+    5
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 11,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 151,
+   "want": "101010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6695,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_11_fabric_caps_logged",
+   "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 9,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 160,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.653,
+   "package_snapshot": {},
+   "id": "a2-hc-11-fabric-caps-logged-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 6,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 163,
+   "want": "011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6255,
+   "package_snapshot": {},
+   "id": "a2-phase-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1
+   ],
+   "reference_trace": [
+    2,
+    5
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 7,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 172,
+   "want": "101010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.658,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t60_dim_redundant_k5",
+   "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+   "style": "R",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 6,
+   "resets": 6,
+   "mid_circuit_measurements": 6,
+   "cz": 178,
+   "want": "011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6345,
+   "package_snapshot": {},
+   "id": "a2-t60-dim-redundant-k5-r3"
+  },
+  {
+   "kind": "aim2",
+   "form": "hc_11_fabric_caps_logged",
+   "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 6,
+   "uniform_floor": 0.015625,
+   "qubits": 6,
+   "resets": 3,
+   "mid_circuit_measurements": 3,
+   "cz": 179,
+   "want": "010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.652,
+   "package_snapshot": {},
+   "id": "a2-hc-11-fabric-caps-logged-r2"
+  },
+  {
+   "kind": "aim2",
+   "form": "door",
+   "source": "book/listings/ch05/door.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    3
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 190,
+   "want": "00",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.69,
+   "package_snapshot": {},
+   "id": "a2-door-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "door",
+   "source": "book/listings/ch05/door.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    3
+   ],
+   "reference_trace": [
+    0
+   ],
+   "trace_bits": 2,
+   "uniform_floor": 0.25,
+   "qubits": 6,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 190,
+   "want": "00",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.69,
+   "package_snapshot": {},
+   "id": "a2-door-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "G",
+   "T": 4,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "trace_bits": 12,
+   "uniform_floor": 0.000244140625,
+   "qubits": 15,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 197,
+   "want": "100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": null,
+   "package_snapshot": {},
+   "id": "a2-phase-g4"
+  },
+  {
+   "kind": "aim2",
+   "form": "counter_flag",
+   "source": "book/listings/ch18/counter_flag.rce",
+   "style": "G",
+   "T": 3,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1,
+    1,
+    1
+   ],
+   "reference_trace": [
+    2,
+    5,
+    7
+   ],
+   "trace_bits": 9,
+   "uniform_floor": 0.001953125,
+   "qubits": 15,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 202,
+   "want": "111101010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": null,
+   "package_snapshot": {},
+   "id": "a2-counter-flag-g3"
+  },
+  {
+   "kind": "aim2",
+   "form": "washer",
+   "source": "programs/multi/washer.rce",
+   "style": "G",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 10,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 202,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6445,
+   "package_snapshot": {},
+   "id": "a2-washer-g2"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod5_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+   "style": "G",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 213,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6595,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod5-mod4-g1"
+  },
+  {
+   "kind": "aim2",
+   "form": "t59_distinguish_mod5_mod4",
+   "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+   "style": "R",
+   "T": 1,
+   "state_bits": 3,
+   "event_bits": 1,
+   "event_stream": [
+    1
+   ],
+   "reference_trace": [
+    2
+   ],
+   "trace_bits": 3,
+   "uniform_floor": 0.125,
+   "qubits": 7,
+   "resets": 0,
+   "mid_circuit_measurements": 0,
+   "cz": 213,
+   "want": "010",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.6595,
+   "package_snapshot": {},
+   "id": "a2-t59-distinguish-mod5-mod4-r1"
+  },
+  {
+   "kind": "aim2",
+   "form": "phase",
+   "source": "book/listings/ch18/phase.rce",
+   "style": "R",
+   "T": 4,
+   "state_bits": 3,
+   "event_bits": 0,
+   "event_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "reference_trace": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "trace_bits": 12,
+   "uniform_floor": 0.000244140625,
+   "qubits": 6,
+   "resets": 9,
+   "mid_circuit_measurements": 9,
+   "cz": 218,
+   "want": "100011010001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.5285,
+   "package_snapshot": {},
+   "id": "a2-phase-r4"
+  },
+  {
+   "kind": "aim2",
+   "form": "washer",
+   "source": "programs/multi/washer.rce",
+   "style": "R",
+   "T": 2,
+   "state_bits": 2,
+   "event_bits": 2,
+   "event_stream": [
+    0,
+    1
+   ],
+   "reference_trace": [
+    1,
+    2
+   ],
+   "trace_bits": 4,
+   "uniform_floor": 0.0625,
+   "qubits": 6,
+   "resets": 2,
+   "mid_circuit_measurements": 2,
+   "cz": 227,
+   "want": "1001",
+   "creg": "trace",
+   "package_generic_trace_fidelity_2000_shots": 0.577,
+   "package_snapshot": {},
+   "id": "a2-washer-r2"
+  }
+ ],
+ "backends": {
+  "ibm_marrakesh": {
+   "calibration_last_update_date": "2026-11-13T17:22:56Z",
+   "excluded_qubits": [
+    31,
+    48,
+    64,
+    74,
+    76,
+    79,
+    82,
+    83,
+    85,
+    94,
+    113,
+    119,
+    130
+   ],
+   "device_cz": {
+    "a2-ch07-form-bytes-not-rfc8785-g1": 0,
+    "a2-ch07-form-bytes-not-rfc8785-g2": 0,
+    "a2-ch07-form-bytes-not-rfc8785-g3": 0,
+    "a2-ch07-form-bytes-not-rfc8785-g4": 0,
+    "a2-ch07-form-bytes-not-rfc8785-g5": 0,
+    "a2-ch07-form-bytes-not-rfc8785-r1": 0,
+    "a2-ch07-form-bytes-not-rfc8785-r2": 0,
+    "a2-ch07-form-bytes-not-rfc8785-r3": 0,
+    "a2-ch07-form-bytes-not-rfc8785-r4": 0,
+    "a2-ch07-form-bytes-not-rfc8785-r5": 0,
+    "a2-f6-signed-zero-state-p1": 0,
+    "a2-f6-signed-zero-state-p2": 0,
+    "a2-f6-signed-zero-state-p3": 0,
+    "a2-f6-signed-zero-state-p4": 0,
+    "a2-f6-signed-zero-state-p5": 0,
+    "a2-thermostat-g1": 0,
+    "a2-thermostat-g2": 0,
+    "a2-thermostat-g3": 0,
+    "a2-thermostat-g4": 0,
+    "a2-thermostat-g5": 0,
+    "a2-thermostat-r1": 0,
+    "a2-thermostat-r2": 0,
+    "a2-thermostat-r3": 0,
+    "a2-thermostat-r4": 0,
+    "a2-thermostat-r5": 0,
+    "a2-ch17-callee-requires-at-run-time-g1": 1,
+    "a2-ch17-callee-requires-at-run-time-r1": 1,
+    "a2-f6-signed-zero-state-g1": 1,
+    "a2-f6-signed-zero-state-r1": 1,
+    "a2-t59-distinguish-mod2-mod3-g1": 1,
+    "a2-t59-distinguish-mod2-mod3-r1": 1,
+    "a2-t60-dim-redundant-k4-p1": 1,
+    "a2-17-traffic-light-accept-p1": 2,
+    "a2-ch17-callee-requires-at-run-time-g2": 2,
+    "a2-ch17-callee-requires-at-run-time-r2": 2,
+    "a2-f6-signed-zero-state-g2": 2,
+    "a2-f6-signed-zero-state-r2": 2,
+    "a2-t59-distinguish-mod2-mod3-g2": 2,
+    "a2-t59-distinguish-mod2-mod3-r2": 2,
+    "a2-t60-dim-redundant-k4-p2": 2,
+    "a2-17-traffic-light-accept-g1": 3,
+    "a2-17-traffic-light-accept-r1": 3,
+    "a2-ch17-callee-requires-at-run-time-g3": 3,
+    "a2-ch17-callee-requires-at-run-time-r3": 3,
+    "a2-f6-signed-zero-state-g3": 3,
+    "a2-f6-signed-zero-state-r3": 3,
+    "a2-t59-distinguish-mod2-mod3-g3": 3,
+    "a2-t59-distinguish-mod2-mod3-r3": 3,
+    "a2-t60-dim-redundant-k4-g1": 3,
+    "a2-t60-dim-redundant-k4-p3": 3,
+    "a2-t60-dim-redundant-k4-r1": 3,
+    "a2-17-traffic-light-accept-p2": 4,
+    "a2-ch07-form-injective-f64-g1": 4,
+    "a2-ch07-form-injective-f64-r1": 4,
+    "a2-ch17-callee-requires-at-run-time-g4": 4,
+    "a2-ch17-callee-requires-at-run-time-r4": 4,
+    "a2-f6-signed-zero-state-g4": 4,
+    "a2-f6-signed-zero-state-r4": 4,
+    "a2-t59-distinguish-mod2-mod3-g4": 4,
+    "a2-t59-distinguish-mod2-mod3-r4": 4,
+    "a2-t60-dim-redundant-k4-p4": 4,
+    "a2-ch17-callee-requires-at-run-time-r5": 5,
+    "a2-f6-signed-zero-state-g5": 5,
+    "a2-f6-signed-zero-state-r5": 5,
+    "a2-t59-distinguish-mod2-mod3-g5": 5,
+    "a2-t59-distinguish-mod2-mod3-r5": 5,
+    "a2-t60-dim-redundant-k4-p5": 5,
+    "a2-17-traffic-light-accept-p3": 6,
+    "a2-17-traffic-light-accept-r2": 6,
+    "a2-17-traffic-light-accept-p4": 8,
+    "a2-ch17-callee-requires-at-run-time-g5": 8,
+    "a2-17-traffic-light-accept-r3": 9,
+    "a2-17-traffic-light-accept-p5": 10,
+    "a2-ch07-form-injective-f64-r2": 10,
+    "a2-17-traffic-light-accept-r4": 12,
+    "a2-t60-dim-redundant-k4-g2": 12,
+    "a2-t60-dim-redundant-k4-r2": 12,
+    "a2-17-traffic-light-accept-g2": 15,
+    "a2-17-traffic-light-accept-r5": 15,
+    "a2-equivalent-g1": 17,
+    "a2-equivalent-r1": 17,
+    "a2-t60-dim-redundant-k4-r3": 19,
+    "a2-t60-dim-redundant-k5-p1": 19,
+    "a2-ch07-form-injective-f64-r3": 20,
+    "a2-ch07-form-injective-f64-g2": 21,
+    "a2-t60-dim-redundant-k4-g3": 21,
+    "a2-17-traffic-light-accept-g3": 23,
+    "a2-phase-p1": 23,
+    "a2-t59-distinguish-mod3-mod4-g1": 28,
+    "a2-t59-distinguish-mod3-mod4-r1": 28,
+    "a2-17-traffic-light-accept-g4": 30,
+    "a2-ch07-form-injective-f64-r4": 30,
+    "a2-t60-dim-redundant-k4-r4": 30,
+    "a2-t60-dim-redundant-k4-g5": 31,
+    "a2-t60-dim-redundant-k4-g4": 33,
+    "a2-ch07-form-injective-f64-g3": 35,
+    "a2-equivalent-g2": 37,
+    "a2-t60-dim-redundant-k5-p2": 38,
+    "a2-t60-dim-redundant-k4-r5": 39,
+    "a2-ch07-form-injective-f64-r5": 40,
+    "a2-phase-g1": 46,
+    "a2-phase-p2": 46,
+    "a2-phase-r1": 46,
+    "a2-equivalent-r2": 47,
+    "a2-t60-dim-redundant-k5-g1": 47,
+    "a2-t60-dim-redundant-k5-r1": 47,
+    "a2-equivalent-g3": 55,
+    "a2-t60-dim-redundant-k5-p3": 57,
+    "a2-t59-distinguish-mod3-mod4-r2": 63,
+    "a2-t59-distinguish-mod3-mod4-g2": 65,
+    "a2-equivalent-r3": 67,
+    "a2-phase-p3": 67,
+    "a2-counter-flag-g1": 75,
+    "a2-counter-flag-r1": 75,
+    "a2-t60-dim-redundant-k5-p4": 76,
+    "a2-equivalent-g4": 80,
+    "a2-hc-11-fabric-caps-logged-g1": 80,
+    "a2-hc-11-fabric-caps-logged-r1": 80,
+    "a2-t59-distinguish-mod3-mod4-r3": 88,
+    "a2-phase-p4": 92,
+    "a2-t59-distinguish-mod3-mod4-g3": 94,
+    "a2-t60-dim-redundant-k5-p5": 95,
+    "a2-equivalent-g5": 97,
+    "a2-equivalent-r4": 97,
+    "a2-phase-g2": 100,
+    "a2-phase-r2": 104,
+    "a2-t60-dim-redundant-k5-g2": 104,
+    "a2-washer-g1": 114,
+    "a2-washer-r1": 114,
+    "a2-phase-p5": 115,
+    "a2-t60-dim-redundant-k5-r2": 118,
+    "a2-t59-distinguish-mod3-mod4-r4": 125,
+    "a2-equivalent-r5": 127,
+    "a2-t59-distinguish-mod3-mod4-g4": 129,
+    "a2-t59-distinguish-mod3-mod4-g5": 147,
+    "a2-t59-distinguish-mod3-mod4-r5": 150,
+    "a2-counter-flag-g2": 151,
+    "a2-hc-11-fabric-caps-logged-g2": 160,
+    "a2-phase-r3": 163,
+    "a2-counter-flag-r2": 172,
+    "a2-t60-dim-redundant-k5-r3": 178,
+    "a2-hc-11-fabric-caps-logged-r2": 179,
+    "a2-door-g1": 190,
+    "a2-door-r1": 190,
+    "a2-phase-g4": 197,
+    "a2-counter-flag-g3": 202,
+    "a2-washer-g2": 202,
+    "a2-t59-distinguish-mod5-mod4-g1": 213,
+    "a2-t59-distinguish-mod5-mod4-r1": 213,
+    "a2-phase-r4": 218,
+    "a2-washer-r2": 227
+   },
+   "layouts": {
+    "a2-ch07-form-bytes-not-rfc8785-g1": [
+     14,
+     55
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-g2": [
+     120,
+     55,
+     14
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-g3": [
+     120,
+     6,
+     55,
+     14
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-g4": [
+     6,
+     120,
+     54,
+     55,
+     14
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-g5": [
+     54,
+     6,
+     120,
+     134,
+     55,
+     14
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-r1": [
+     14,
+     55
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-r2": [
+     14,
+     55
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-r3": [
+     14,
+     55
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-r4": [
+     14,
+     55
+    ],
+    "a2-ch07-form-bytes-not-rfc8785-r5": [
+     14,
+     55
+    ],
+    "a2-f6-signed-zero-state-p1": [
+     14
+    ],
+    "a2-f6-signed-zero-state-p2": [
+     14
+    ],
+    "a2-f6-signed-zero-state-p3": [
+     14
+    ],
+    "a2-f6-signed-zero-state-p4": [
+     14
+    ],
+    "a2-f6-signed-zero-state-p5": [
+     14
+    ],
+    "a2-thermostat-g1": [
+     55,
+     14,
+     120
+    ],
+    "a2-thermostat-g2": [
+     120,
+     6,
+     54,
+     55,
+     14
+    ],
+    "a2-thermostat-g3": [
+     120,
+     6,
+     54,
+     134,
+     0,
+     55,
+     14
+    ],
+    "a2-thermostat-g4": [
+     6,
+     54,
+     134,
+     0,
+     78,
+     77,
+     120,
+     55,
+     14
+    ],
+    "a2-thermostat-g5": [
+     54,
+     134,
+     0,
+     78,
+     77,
+     10,
+     153,
+     6,
+     120,
+     55,
+     14
+    ],
+    "a2-thermostat-r1": [
+     55,
+     14,
+     120
+    ],
+    "a2-thermostat-r2": [
+     120,
+     14,
+     55
+    ],
+    "a2-thermostat-r3": [
+     120,
+     14,
+     55
+    ],
+    "a2-thermostat-r4": [
+     120,
+     14,
+     55
+    ],
+    "a2-thermostat-r5": [
+     120,
+     14,
+     55
+    ],
+    "a2-ch17-callee-requires-at-run-time-g1": [
+     54,
+     55,
+     14
+    ],
+    "a2-ch17-callee-requires-at-run-time-r1": [
+     55,
+     54,
+     14
+    ],
+    "a2-f6-signed-zero-state-g1": [
+     13,
+     14
+    ],
+    "a2-f6-signed-zero-state-r1": [
+     13,
+     14
+    ],
+    "a2-t59-distinguish-mod2-mod3-g1": [
+     13,
+     14,
+     55
+    ],
+    "a2-t59-distinguish-mod2-mod3-r1": [
+     13,
+     14,
+     55
+    ],
+    "a2-t60-dim-redundant-k4-p1": [
+     54,
+     55
+    ],
+    "a2-17-traffic-light-accept-p1": [
+     54,
+     55
+    ],
+    "a2-ch17-callee-requires-at-run-time-g2": [
+     120,
+     15,
+     54,
+     14,
+     55
+    ],
+    "a2-ch17-callee-requires-at-run-time-r2": [
+     147,
+     148,
+     146
+    ],
+    "a2-f6-signed-zero-state-g2": [
+     54,
+     53,
+     55
+    ],
+    "a2-f6-signed-zero-state-r2": [
+     55,
+     54
+    ],
+    "a2-t59-distinguish-mod2-mod3-g2": [
+     53,
+     54,
+     120,
+     55,
+     14
+    ],
+    "a2-t59-distinguish-mod2-mod3-r2": [
+     54,
+     55,
+     14
+    ],
+    "a2-t60-dim-redundant-k4-p2": [
+     54,
+     55
+    ],
+    "a2-17-traffic-light-accept-g1": [
+     147,
+     148,
+     146,
+     149
+    ],
+    "a2-17-traffic-light-accept-r1": [
+     147,
+     148,
+     146,
+     149
+    ],
+    "a2-ch17-callee-requires-at-run-time-g3": [
+     15,
+     14,
+     120,
+     54,
+     5,
+     55,
+     6
+    ],
+    "a2-ch17-callee-requires-at-run-time-r3": [
+     53,
+     54,
+     52
+    ],
+    "a2-f6-signed-zero-state-g3": [
+     53,
+     54,
+     52,
+     55
+    ],
+    "a2-f6-signed-zero-state-r3": [
+     54,
+     55
+    ],
+    "a2-t59-distinguish-mod2-mod3-g3": [
+     52,
+     53,
+     120,
+     54,
+     6,
+     55,
+     14
+    ],
+    "a2-t59-distinguish-mod2-mod3-r3": [
+     54,
+     55,
+     14
+    ],
+    "a2-t60-dim-redundant-k4-g1": [
+     147,
+     148,
+     146,
+     149
+    ],
+    "a2-t60-dim-redundant-k4-p3": [
+     54,
+     55
+    ],
+    "a2-t60-dim-redundant-k4-r1": [
+     147,
+     148,
+     146,
+     149
+    ],
+    "a2-17-traffic-light-accept-p2": [
+     54,
+     55
+    ],
+    "a2-ch07-form-injective-f64-g1": [
+     53,
+     54,
+     52,
+     55,
+     51
+    ],
+    "a2-ch07-form-injective-f64-r1": [
+     53,
+     54,
+     52,
+     55,
+     51
+    ],
+    "a2-ch17-callee-requires-at-run-time-g4": [
+     15,
+     55,
+     14,
+     54,
+     5,
+     121,
+     6,
+     120,
+     134
+    ],
+    "a2-ch17-callee-requires-at-run-time-r4": [
+     7,
+     8,
+     6
+    ],
+    "a2-f6-signed-zero-state-g4": [
+     54,
+     55,
+     53,
+     59,
+     52
+    ],
+    "a2-f6-signed-zero-state-r4": [
+     55,
+     54
+    ],
+    "a2-t59-distinguish-mod2-mod3-g4": [
+     55,
+     59,
+     54,
+     120,
+     53,
+     6,
+     52,
+     14,
+     134
+    ],
+    "a2-t59-distinguish-mod2-mod3-r4": [
+     54,
+     55,
+     14
+    ],
+    "a2-t60-dim-redundant-k4-p4": [
+     54,
+     55
+    ],
+    "a2-ch17-callee-requires-at-run-time-r5": [
+     53,
+     54,
+     52
+    ],
+    "a2-f6-signed-zero-state-g5": [
+     54,
+     53,
+     55,
+     39,
+     59,
+     33
+    ],
+    "a2-f6-signed-zero-state-r5": [
+     54,
+     55
+    ],
+    "a2-t59-distinguish-mod2-mod3-g5": [
+     53,
+     54,
+     39,
+     55,
+     33,
+     59,
+     120,
+     14,
+     6,
+     134,
+     0
+    ],
+    "a2-t59-distinguish-mod2-mod3-r5": [
+     54,
+     55,
+     14
+    ],
+    "a2-t60-dim-redundant-k4-p5": [
+     54,
+     55
+    ],
+    "a2-17-traffic-light-accept-p3": [
+     54,
+     55
+    ],
+    "a2-17-traffic-light-accept-r2": [
+     54,
+     53,
+     55,
+     52
+    ],
+    "a2-17-traffic-light-accept-p4": [
+     54,
+     55
+    ],
+    "a2-ch17-callee-requires-at-run-time-g5": [
+     55,
+     54,
+     15,
+     88,
+     14,
+     87,
+     5,
+     97,
+     86,
+     6,
+     120
+    ],
+    "a2-17-traffic-light-accept-r3": [
+     53,
+     54,
+     52,
+     55
+    ],
+    "a2-17-traffic-light-accept-p5": [
+     54,
+     55
+    ],
+    "a2-ch07-form-injective-f64-r2": [
+     4,
+     5,
+     3,
+     6,
+     16
+    ],
+    "a2-17-traffic-light-accept-r4": [
+     54,
+     53,
+     55,
+     52
+    ],
+    "a2-t60-dim-redundant-k4-g2": [
+     54,
+     53,
+     55,
+     39,
+     59,
+     33
+    ],
+    "a2-t60-dim-redundant-k4-r2": [
+     53,
+     54,
+     52,
+     55
+    ],
+    "a2-17-traffic-light-accept-g2": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55
+    ],
+    "a2-17-traffic-light-accept-r5": [
+     53,
+     54,
+     52,
+     55
+    ],
+    "a2-equivalent-g1": [
+     54,
+     53,
+     55,
+     52,
+     59
+    ],
+    "a2-equivalent-r1": [
+     54,
+     53,
+     55,
+     52,
+     59
+    ],
+    "a2-t60-dim-redundant-k4-r3": [
+     54,
+     53,
+     55,
+     52
+    ],
+    "a2-t60-dim-redundant-k5-p1": [
+     54,
+     53,
+     55
+    ],
+    "a2-ch07-form-injective-f64-r3": [
+     4,
+     5,
+     3,
+     6,
+     16
+    ],
+    "a2-ch07-form-injective-f64-g2": [
+     53,
+     39,
+     54,
+     33,
+     55,
+     34,
+     59,
+     35
+    ],
+    "a2-t60-dim-redundant-k4-g3": [
+     53,
+     39,
+     54,
+     33,
+     55,
+     34,
+     59,
+     35
+    ],
+    "a2-17-traffic-light-accept-g3": [
+     6,
+     5,
+     7,
+     4,
+     8,
+     3,
+     9,
+     16
+    ],
+    "a2-phase-p1": [
+     54,
+     53,
+     55
+    ],
+    "a2-t59-distinguish-mod3-mod4-g1": [
+     147,
+     146,
+     148,
+     145,
+     149
+    ],
+    "a2-t59-distinguish-mod3-mod4-r1": [
+     147,
+     146,
+     148,
+     145,
+     149
+    ],
+    "a2-17-traffic-light-accept-g4": [
+     57,
+     47,
+     67,
+     46,
+     66,
+     45,
+     65,
+     44,
+     37,
+     77
+    ],
+    "a2-ch07-form-injective-f64-r4": [
+     4,
+     5,
+     3,
+     6,
+     16
+    ],
+    "a2-t60-dim-redundant-k4-r4": [
+     53,
+     54,
+     52,
+     55
+    ],
+    "a2-t60-dim-redundant-k4-g5": [
+     0,
+     1,
+     9,
+     2,
+     8,
+     3,
+     7,
+     4,
+     16,
+     17,
+     6,
+     5
+    ],
+    "a2-t60-dim-redundant-k4-g4": [
+     4,
+     5,
+     3,
+     6,
+     2,
+     7,
+     1,
+     8,
+     17,
+     0
+    ],
+    "a2-ch07-form-injective-f64-g3": [
+     128,
+     129,
+     127,
+     118,
+     137,
+     109,
+     147,
+     108,
+     110,
+     146,
+     148
+    ],
+    "a2-equivalent-g2": [
+     53,
+     39,
+     54,
+     33,
+     55,
+     34,
+     59,
+     35
+    ],
+    "a2-t60-dim-redundant-k5-p2": [
+     54,
+     53,
+     55
+    ],
+    "a2-t60-dim-redundant-k4-r5": [
+     53,
+     54,
+     52,
+     55
+    ],
+    "a2-ch07-form-injective-f64-r5": [
+     4,
+     5,
+     3,
+     6,
+     16
+    ],
+    "a2-phase-g1": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ],
+    "a2-phase-p2": [
+     54,
+     55,
+     53
+    ],
+    "a2-phase-r1": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ],
+    "a2-equivalent-r2": [
+     54,
+     55,
+     53,
+     59,
+     52
+    ],
+    "a2-t60-dim-redundant-k5-g1": [
+     149,
+     148,
+     150,
+     147,
+     151,
+     146
+    ],
+    "a2-t60-dim-redundant-k5-r1": [
+     149,
+     148,
+     150,
+     147,
+     151,
+     146
+    ],
+    "a2-equivalent-g3": [
+     108,
+     107,
+     109,
+     97,
+     110,
+     87,
+     111,
+     88,
+     86,
+     112,
+     98
+    ],
+    "a2-t60-dim-redundant-k5-p3": [
+     54,
+     53,
+     55
+    ],
+    "a2-t59-distinguish-mod3-mod4-r2": [
+     53,
+     39,
+     54,
+     33,
+     55
+    ],
+    "a2-t59-distinguish-mod3-mod4-g2": [
+     57,
+     67,
+     47,
+     66,
+     46,
+     65,
+     45,
+     77
+    ],
+    "a2-equivalent-r3": [
+     148,
+     147,
+     149,
+     146,
+     150
+    ],
+    "a2-phase-p3": [
+     54,
+     53,
+     55
+    ],
+    "a2-counter-flag-g1": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55,
+     35
+    ],
+    "a2-counter-flag-r1": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55,
+     35
+    ],
+    "a2-t60-dim-redundant-k5-p4": [
+     54,
+     53,
+     55
+    ],
+    "a2-equivalent-g4": [
+     128,
+     127,
+     129,
+     137,
+     118,
+     147,
+     143,
+     146,
+     148,
+     142,
+     144,
+     145,
+     149,
+     141
+    ],
+    "a2-hc-11-fabric-caps-logged-g1": [
+     53,
+     54,
+     39,
+     55,
+     33,
+     59
+    ],
+    "a2-hc-11-fabric-caps-logged-r1": [
+     53,
+     54,
+     39,
+     55,
+     33,
+     59
+    ],
+    "a2-t59-distinguish-mod3-mod4-r3": [
+     147,
+     146,
+     148,
+     145,
+     149
+    ],
+    "a2-phase-p4": [
+     54,
+     55,
+     53
+    ],
+    "a2-t59-distinguish-mod3-mod4-g3": [
+     108,
+     109,
+     107,
+     110,
+     97,
+     111,
+     87,
+     112,
+     98,
+     86,
+     88
+    ],
+    "a2-t60-dim-redundant-k5-p5": [
+     54,
+     53,
+     55
+    ],
+    "a2-equivalent-g5": [
+     118,
+     109,
+     129,
+     108,
+     128,
+     107,
+     127,
+     146,
+     97,
+     126,
+     137,
+     147,
+     87,
+     125,
+     148,
+     86,
+     88
+    ],
+    "a2-equivalent-r4": [
+     148,
+     149,
+     147,
+     150,
+     146
+    ],
+    "a2-phase-g2": [
+     6,
+     5,
+     7,
+     4,
+     8,
+     3,
+     9,
+     2,
+     16
+    ],
+    "a2-phase-r2": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-t60-dim-redundant-k5-g2": [
+     108,
+     107,
+     109,
+     97,
+     118,
+     87,
+     129,
+     88,
+     86
+    ],
+    "a2-washer-g1": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55
+    ],
+    "a2-washer-r1": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55
+    ],
+    "a2-phase-p5": [
+     54,
+     55,
+     53
+    ],
+    "a2-t60-dim-redundant-k5-r2": [
+     149,
+     148,
+     150,
+     147,
+     151,
+     146
+    ],
+    "a2-t59-distinguish-mod3-mod4-r4": [
+     147,
+     146,
+     148,
+     145,
+     149
+    ],
+    "a2-equivalent-r5": [
+     54,
+     53,
+     55,
+     52,
+     59
+    ],
+    "a2-t59-distinguish-mod3-mod4-g4": [
+     150,
+     149,
+     141,
+     148,
+     142,
+     147,
+     143,
+     146,
+     137,
+     136,
+     144,
+     145,
+     127,
+     123
+    ],
+    "a2-t59-distinguish-mod3-mod4-g5": [
+     150,
+     105,
+     149,
+     117,
+     148,
+     125,
+     147,
+     126,
+     124,
+     146,
+     137,
+     127,
+     123,
+     145,
+     128,
+     136,
+     122
+    ],
+    "a2-t59-distinguish-mod3-mod4-r5": [
+     147,
+     146,
+     148,
+     145,
+     149
+    ],
+    "a2-counter-flag-g2": [
+     128,
+     127,
+     129,
+     137,
+     118,
+     147,
+     109,
+     146,
+     148,
+     108,
+     110
+    ],
+    "a2-hc-11-fabric-caps-logged-g2": [
+     6,
+     5,
+     7,
+     4,
+     8,
+     3,
+     9,
+     2,
+     16
+    ],
+    "a2-phase-r3": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ],
+    "a2-counter-flag-r2": [
+     39,
+     53,
+     33,
+     54,
+     34,
+     55,
+     35
+    ],
+    "a2-t60-dim-redundant-k5-r3": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-hc-11-fabric-caps-logged-r2": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ],
+    "a2-door-g1": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-door-r1": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-phase-g4": [
+     97,
+     87,
+     107,
+     90,
+     108,
+     91,
+     109,
+     98,
+     92,
+     118,
+     110,
+     111,
+     93,
+     129,
+     112
+    ],
+    "a2-counter-flag-g3": [
+     128,
+     129,
+     89,
+     118,
+     90,
+     109,
+     91,
+     110,
+     108,
+     92,
+     98,
+     111,
+     107,
+     93,
+     112
+    ],
+    "a2-washer-g2": [
+     57,
+     47,
+     67,
+     46,
+     66,
+     45,
+     65,
+     44,
+     37,
+     77
+    ],
+    "a2-t59-distinguish-mod5-mod4-g1": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145,
+     151
+    ],
+    "a2-t59-distinguish-mod5-mod4-r1": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145,
+     151
+    ],
+    "a2-phase-r4": [
+     148,
+     147,
+     149,
+     146,
+     150,
+     145
+    ],
+    "a2-washer-r2": [
+     147,
+     148,
+     146,
+     149,
+     145,
+     150
+    ]
+   }
+  }
+ },
+ "not_embedded": [
+  {
+   "id": "a2-ch07-form-injective-f64-g4",
+   "form": "ch07_form_injective_f64",
+   "style": "G",
+   "T": 4,
+   "qubits": 14,
+   "cz": 43,
+   "why": "no embedding: VF2LayoutStopReason.NO_SOLUTION_FOUND"
+  },
+  {
+   "id": "a2-17-traffic-light-accept-g5",
+   "form": "17_traffic_light_accept",
+   "style": "G",
+   "T": 5,
+   "qubits": 12,
+   "cz": 45,
+   "why": "no embedding: VF2LayoutStopReason.NO_SOLUTION_FOUND"
+  },
+  {
+   "id": "a2-ch07-form-injective-f64-g5",
+   "form": "ch07_form_injective_f64",
+   "style": "G",
+   "T": 5,
+   "qubits": 17,
+   "cz": 73,
+   "why": "no embedding: VF2LayoutStopReason.NO_SOLUTION_FOUND"
+  },
+  {
+   "id": "a2-phase-g3",
+   "form": "phase",
+   "style": "G",
+   "T": 3,
+   "qubits": 12,
+   "cz": 150,
+   "why": "no embedding: VF2LayoutStopReason.NO_SOLUTION_FOUND"
+  },
+  {
+   "id": "a2-t60-dim-redundant-k5-g3",
+   "form": "t60_dim_redundant_k5",
+   "style": "G",
+   "T": 3,
+   "qubits": 12,
+   "cz": 168,
+   "why": "no embedding: VF2LayoutStopReason.NO_SOLUTION_FOUND"
+  },
+  {
+   "id": "a2-t60-dim-redundant-k5-g4",
+   "form": "t60_dim_redundant_k5",
+   "style": "G",
+   "T": 4,
+   "qubits": 15,
+   "cz": 219,
+   "why": "no embedding: VF2LayoutStopReason.NO_SOLUTION_FOUND"
+  }
+ ],
+ "cap2": 234,
+ "rows_in_range": 157
+}

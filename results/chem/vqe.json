@@ -1,0 +1,178 @@
+[
+ {
+  "system": "H2",
+  "geometry": "eq",
+  "qubits": 4,
+  "sector_dimension": 4,
+  "excitations": 3,
+  "e_uccsd": -1.1372838344885012,
+  "err_uccsd_mha": 6.661338147750939e-13,
+  "iterations": 4,
+  "evaluations": 24
+ },
+ {
+  "system": "H2",
+  "geometry": "stretched",
+  "qubits": 4,
+  "sector_dimension": 4,
+  "excitations": 3,
+  "e_uccsd": -0.9981493534714103,
+  "err_uccsd_mha": -2.220446049250313e-13,
+  "iterations": 4,
+  "evaluations": 24
+ },
+ {
+  "system": "H2",
+  "geometry": "broken",
+  "qubits": 4,
+  "sector_dimension": 4,
+  "excitations": 3,
+  "e_uccsd": -0.9360549199556063,
+  "err_uccsd_mha": 0.0,
+  "iterations": 5,
+  "evaluations": 24
+ },
+ {
+  "system": "H4 chain",
+  "geometry": "eq",
+  "qubits": 8,
+  "sector_dimension": 36,
+  "excitations": 26,
+  "e_uccsd": -2.1802818035401956,
+  "err_uccsd_mha": 0.03481078366629475,
+  "iterations": 11,
+  "evaluations": 351
+ },
+ {
+  "system": "H4 chain",
+  "geometry": "stretched",
+  "qubits": 8,
+  "sector_dimension": 36,
+  "excitations": 26,
+  "e_uccsd": -1.9947704834057514,
+  "err_uccsd_mha": 1.3798421130557514,
+  "iterations": 17,
+  "evaluations": 567
+ },
+ {
+  "system": "H4 chain",
+  "geometry": "broken",
+  "qubits": 8,
+  "sector_dimension": 36,
+  "excitations": 26,
+  "e_uccsd": -1.8932275832084002,
+  "err_uccsd_mha": 4.553062781473383,
+  "iterations": 24,
+  "evaluations": 729
+ },
+ {
+  "system": "H4 square",
+  "geometry": "square",
+  "qubits": 8,
+  "sector_dimension": 36,
+  "excitations": 26,
+  "e_uccsd": -1.9460079769711007,
+  "err_uccsd_mha": 21.541903320560607,
+  "iterations": 200,
+  "evaluations": 6237
+ },
+ {
+  "system": "H6 chain",
+  "geometry": "eq",
+  "qubits": 12,
+  "sector_dimension": 400,
+  "excitations": 117,
+  "e_uccsd": -3.2441405935872245,
+  "err_uccsd_mha": 0.4016464576732659,
+  "iterations": 15,
+  "evaluations": 2124
+ },
+ {
+  "system": "H6 chain",
+  "geometry": "stretched",
+  "qubits": 12,
+  "sector_dimension": 400,
+  "excitations": 117,
+  "e_uccsd": -2.9907540383463633,
+  "err_uccsd_mha": 4.811387485567309,
+  "iterations": 25,
+  "evaluations": 3422
+ },
+ {
+  "system": "H6 chain",
+  "geometry": "broken",
+  "qubits": 12,
+  "sector_dimension": 400,
+  "excitations": 117,
+  "e_uccsd": -2.8346190583792135,
+  "err_uccsd_mha": 12.573075576384873,
+  "iterations": 39,
+  "evaluations": 4838
+ },
+ {
+  "system": "LiH",
+  "geometry": "eq",
+  "qubits": 10,
+  "sector_dimension": 25,
+  "excitations": 24,
+  "e_uccsd": -7.882096599920583,
+  "err_uccsd_mha": 5.728750807065808e-10,
+  "iterations": 10,
+  "evaluations": 300
+ },
+ {
+  "system": "LiH",
+  "geometry": "stretched",
+  "qubits": 10,
+  "sector_dimension": 25,
+  "excitations": 24,
+  "e_uccsd": -7.798504222561531,
+  "err_uccsd_mha": 4.5652370772586437e-10,
+  "iterations": 16,
+  "evaluations": 500
+ },
+ {
+  "system": "BeH2",
+  "geometry": "eq",
+  "qubits": 12,
+  "sector_dimension": 225,
+  "excitations": 92,
+  "e_uccsd": -15.594407546575319,
+  "err_uccsd_mha": 0.37085344076537297,
+  "iterations": 10,
+  "evaluations": 1116
+ },
+ {
+  "system": "BeH2",
+  "geometry": "stretched",
+  "qubits": 12,
+  "sector_dimension": 225,
+  "excitations": 92,
+  "e_uccsd": -15.339564531320178,
+  "err_uccsd_mha": 11.926543851576099,
+  "iterations": 18,
+  "evaluations": 1953
+ },
+ {
+  "system": "H2O",
+  "geometry": "eq",
+  "qubits": 12,
+  "sector_dimension": 225,
+  "excitations": 92,
+  "e_uccsd": -75.01222497622614,
+  "err_uccsd_mha": 0.1005216625031835,
+  "iterations": 11,
+  "evaluations": 1209
+ },
+ {
+  "system": "H2O",
+  "geometry": "stretched",
+  "qubits": 12,
+  "sector_dimension": 225,
+  "excitations": 92,
+  "e_uccsd": -74.7711304089477,
+  "err_uccsd_mha": 0.7759973336476378,
+  "iterations": 31,
+  "evaluations": 2976
+ }
+]

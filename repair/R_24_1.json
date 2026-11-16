@@ -1,0 +1,37 @@
+{
+ "tag": "R_24_1",
+ "source": "programs/multi/lobby.rce",
+ "source_sha256": "8bd313bd9d989355dee812275febb7194d43dea047957beeec1717eca22dc822",
+ "states": 8,
+ "events": [
+  "Join",
+  "Leave",
+  "Start",
+  "End"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   3
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   6,
+   0
+  ]
+ ],
+ "faults_injected": 1,
+ "tests": 128,
+ "tests_passed_by_faulty_program": 121,
+ "tests_passed_by_optimum": 128,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 1,
+ "lambda": 8.0,
+ "mu": 0.25,
+ "qubo_optimum": -15.96875,
+ "ising_offset": 18.203125
+}

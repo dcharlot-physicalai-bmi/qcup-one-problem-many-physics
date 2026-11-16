@@ -1,0 +1,37 @@
+{
+ "tag": "R_30_1",
+ "source": "programs/multi/reservoir.rce",
+ "source_sha256": "e40830270eeedca0674caa41330b3cd548b6b8c650cb68cc0747dddf63d21dc7",
+ "states": 10,
+ "events": [
+  "Rain",
+  "Draw",
+  "Toggle",
+  "Tick"
+ ],
+ "suspect_entries": [
+  [
+   6,
+   1
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   8,
+   3
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 160,
+ "tests_passed_by_faulty_program": 145,
+ "tests_passed_by_optimum": 160,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 8.75,
+ "mu": 0.25,
+ "qubo_optimum": -18.228571428571428,
+ "ising_offset": 38.37142857142857
+}

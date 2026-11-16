@@ -1,0 +1,629 @@
+[
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1364,
+   "two_qubit_depth": 1104,
+   "depth": 3405,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2055,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 501,
+   "two_qubit_depth": 455,
+   "depth": 1310,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.76,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1364,
+   "two_qubit_depth": 1104,
+   "depth": 3405,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2055,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 501,
+   "two_qubit_depth": 455,
+   "depth": 1310,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.76,
+   "shots": 2000
+  },
+  "guppy_gates": 1367
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 13,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2323,
+   "two_qubit_depth": 1828,
+   "depth": 5828,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 965,
+   "two_qubit_depth": 870,
+   "depth": 2496,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 8,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2764,
+   "two_qubit_depth": 2231,
+   "depth": 6881,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.034,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 1002,
+   "two_qubit_depth": 913,
+   "depth": 2629,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5655,
+   "shots": 2000
+  },
+  "guppy_gates": 2733
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2,
+   3
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 18,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   0,
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3436,
+   "two_qubit_depth": 2659,
+   "depth": 8507
+  },
+  "ion_like": {
+   "two_qubit_gates": 1429,
+   "two_qubit_depth": 1282,
+   "depth": 3673
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2,
+   3
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 8,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   0,
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4154,
+   "two_qubit_depth": 3357,
+   "depth": 10340,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1503,
+   "two_qubit_depth": 1368,
+   "depth": 3938,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.4305,
+   "shots": 2000
+  },
+  "guppy_gates": 4101
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2,
+   3,
+   2
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4528,
+   "two_qubit_depth": 3509,
+   "depth": 11245
+  },
+  "ion_like": {
+   "two_qubit_gates": 1893,
+   "two_qubit_depth": 1694,
+   "depth": 4850
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2,
+   3,
+   2
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 8,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5574,
+   "two_qubit_depth": 4494,
+   "depth": 13799,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2004,
+   "two_qubit_depth": 1826,
+   "depth": 5257,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3155,
+   "shots": 2000
+  },
+  "guppy_gates": 5467
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2,
+   3,
+   2,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 28,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5764,
+   "two_qubit_depth": 4451,
+   "depth": 14340
+  },
+  "ion_like": {
+   "two_qubit_gates": 2357,
+   "two_qubit_depth": 2106,
+   "depth": 6027
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   3,
+   2,
+   3,
+   2,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6956,
+   "two_qubit_depth": 5609,
+   "depth": 17286,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2505,
+   "two_qubit_depth": 2281,
+   "depth": 6566,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2115,
+   "shots": 2000
+  },
+  "guppy_gates": 6833,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 5576,
+   "active_qubits": 8,
+   "depth": 14431
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 5587,
+   "active_qubits": 8,
+   "depth": 14492
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   3,
+   2,
+   0,
+   3,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6956,
+   "two_qubit_depth": 5609,
+   "depth": 17287,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2505,
+   "two_qubit_depth": 2281,
+   "depth": 6566,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.207,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   2,
+   2,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   1,
+   0,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6956,
+   "two_qubit_depth": 5609,
+   "depth": 17289,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2505,
+   "two_qubit_depth": 2281,
+   "depth": 6566,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2105,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   0,
+   0,
+   1,
+   2,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   4,
+   3,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6956,
+   "two_qubit_depth": 5609,
+   "depth": 17288,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2505,
+   "two_qubit_depth": 2281,
+   "depth": 6566,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.213,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "account",
+  "source": "book/listings/ch06/account.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 52,
+  "anf_literals": 139,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   3,
+   2,
+   2,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   2,
+   0,
+   0,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6956,
+   "two_qubit_depth": 5609,
+   "depth": 17289,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2505,
+   "two_qubit_depth": 2281,
+   "depth": 6566,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.21,
+   "shots": 2000
+  }
+ }
+]

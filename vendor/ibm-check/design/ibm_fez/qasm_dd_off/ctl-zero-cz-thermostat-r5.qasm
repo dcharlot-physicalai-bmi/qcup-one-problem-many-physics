@@ -1,0 +1,17 @@
+OPENQASM 3.0;
+include "stdgates.inc";
+bit[5] trace;
+reset $23;
+x $23;
+x $114;
+trace[0] = measure $114;
+reset $114;
+x $114;
+trace[1] = measure $23;
+reset $23;
+x $23;
+trace[2] = measure $114;
+reset $114;
+x $114;
+trace[3] = measure $23;
+trace[4] = measure $114;

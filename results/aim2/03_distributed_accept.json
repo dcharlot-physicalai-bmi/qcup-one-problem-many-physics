@@ -1,0 +1,651 @@
+[
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 346,
+   "two_qubit_depth": 277,
+   "depth": 887,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5355,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 139,
+   "two_qubit_depth": 127,
+   "depth": 370,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9215,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 346,
+   "two_qubit_depth": 277,
+   "depth": 887,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5355,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 139,
+   "two_qubit_depth": 127,
+   "depth": 370,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9215,
+   "shots": 2000
+  },
+  "guppy_gates": 387
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 648,
+   "two_qubit_depth": 507,
+   "depth": 1673,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.25,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 268,
+   "two_qubit_depth": 242,
+   "depth": 701,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8365,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 7,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 696,
+   "two_qubit_depth": 551,
+   "depth": 1787,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2655,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 278,
+   "two_qubit_depth": 254,
+   "depth": 739,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8425,
+   "shots": 2000
+  },
+  "guppy_gates": 779
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 889,
+   "two_qubit_depth": 715,
+   "depth": 2370
+  },
+  "ion_like": {
+   "two_qubit_gates": 397,
+   "two_qubit_depth": 357,
+   "depth": 1032
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 7,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1060,
+   "two_qubit_depth": 835,
+   "depth": 2706,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.1215,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 417,
+   "two_qubit_depth": 381,
+   "depth": 1108,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.759,
+   "shots": 2000
+  },
+  "guppy_gates": 1169
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   5,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1189,
+   "two_qubit_depth": 938,
+   "depth": 3115
+  },
+  "ion_like": {
+   "two_qubit_gates": 526,
+   "two_qubit_depth": 472,
+   "depth": 1363
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 7,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   5,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1425,
+   "two_qubit_depth": 1122,
+   "depth": 3622,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0585,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 556,
+   "two_qubit_depth": 508,
+   "depth": 1477,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.693,
+   "shots": 2000
+  },
+  "guppy_gates": 1559
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1,
+   3,
+   5,
+   6,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1565,
+   "two_qubit_depth": 1181,
+   "depth": 3893
+  },
+  "ion_like": {
+   "two_qubit_gates": 655,
+   "two_qubit_depth": 587,
+   "depth": 1694
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1,
+   3,
+   5,
+   6,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1782,
+   "two_qubit_depth": 1405,
+   "depth": 4553,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0345,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 695,
+   "two_qubit_depth": 635,
+   "depth": 1846,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6395,
+   "shots": 2000
+  },
+  "guppy_gates": 1949,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 1381,
+   "active_qubits": 7,
+   "depth": 3968,
+   "trace_fidelity": 0.012,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 1380,
+   "active_qubits": 7,
+   "depth": 3942,
+   "trace_fidelity": 0.043,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   0,
+   1,
+   0,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1,
+   3,
+   4,
+   5,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1782,
+   "two_qubit_depth": 1405,
+   "depth": 4555,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.031,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 695,
+   "two_qubit_depth": 635,
+   "depth": 1846,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6345,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   3,
+   4,
+   6,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1782,
+   "two_qubit_depth": 1405,
+   "depth": 4554,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0335,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 695,
+   "two_qubit_depth": 635,
+   "depth": 1846,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.635,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   3,
+   5,
+   7,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1782,
+   "two_qubit_depth": 1405,
+   "depth": 4554,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0335,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 695,
+   "two_qubit_depth": 635,
+   "depth": 1846,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6295,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "03_distributed_accept",
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 19,
+  "anf_literals": 42,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   4,
+   5,
+   7,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1782,
+   "two_qubit_depth": 1405,
+   "depth": 4554,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0315,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 695,
+   "two_qubit_depth": 635,
+   "depth": 1846,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.635,
+   "shots": 2000
+  }
+ }
+]

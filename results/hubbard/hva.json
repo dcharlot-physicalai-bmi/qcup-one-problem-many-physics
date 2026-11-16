@@ -1,0 +1,308 @@
+[
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "U": 2.0,
+  "free_ground_state_degenerate": true,
+  "e_exact": -2.828427124746184,
+  "e_start": -2.5000004062498276,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -2.7768939109141884,
+    "error_per_site": 0.01288330345799893,
+    "relative_error": 0.01821974247847032
+   },
+   {
+    "p": 2,
+    "energy": -2.8284271247461654,
+    "error_per_site": 4.6629367034256575e-15,
+    "relative_error": 6.594388326471869e-15
+   },
+   {
+    "p": 3,
+    "energy": -2.8284271247461654,
+    "error_per_site": 4.6629367034256575e-15,
+    "relative_error": 6.594388326471869e-15
+   },
+   {
+    "p": 4,
+    "energy": -2.8284271247461654,
+    "error_per_site": 4.6629367034256575e-15,
+    "relative_error": 6.594388326471869e-15
+   }
+  ]
+ },
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "U": 4.0,
+  "free_ground_state_degenerate": true,
+  "e_exact": -2.1027484834620735,
+  "e_start": -1.0000008124997581,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -1.975254801785805,
+    "error_per_site": 0.031873420419067156,
+    "relative_error": 0.060631921829450784
+   },
+   {
+    "p": 2,
+    "energy": -2.102748483462057,
+    "error_per_site": 4.107825191113079e-15,
+    "relative_error": 7.814201695392012e-15
+   },
+   {
+    "p": 3,
+    "energy": -2.102748483462057,
+    "error_per_site": 4.107825191113079e-15,
+    "relative_error": 7.814201695392012e-15
+   },
+   {
+    "p": 4,
+    "energy": -2.102748483462057,
+    "error_per_site": 4.107825191113079e-15,
+    "relative_error": 7.814201695392012e-15
+   }
+  ]
+ },
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "U": 8.0,
+  "free_ground_state_degenerate": true,
+  "e_exact": -1.3202349582719297,
+  "e_start": 1.9999983750003805,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -1.0432093219452845,
+    "error_per_site": 0.06925640908166131,
+    "relative_error": 0.20983055674366263
+   },
+   {
+    "p": 2,
+    "energy": -1.3202349582719184,
+    "error_per_site": 2.831068712794149e-15,
+    "relative_error": 8.577469321066203e-15
+   },
+   {
+    "p": 3,
+    "energy": -1.3202349582719184,
+    "error_per_site": 2.831068712794149e-15,
+    "relative_error": 8.577469321066203e-15
+   },
+   {
+    "p": 4,
+    "energy": -1.3202349582719184,
+    "error_per_site": 2.831068712794149e-15,
+    "relative_error": 8.577469321066203e-15
+   }
+  ]
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "U": 2.0,
+  "free_ground_state_degenerate": false,
+  "e_exact": -5.159165521196817,
+  "e_start": -4.656854748084481,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -4.965907099995267,
+    "error_per_site": 0.03220973686692504,
+    "relative_error": 0.03745924033790612
+   },
+   {
+    "p": 2,
+    "energy": -5.059796662303869,
+    "error_per_site": 0.016561476482158,
+    "relative_error": 0.01926064563826914
+   },
+   {
+    "p": 3,
+    "energy": -5.108679518791561,
+    "error_per_site": 0.0084143337342093,
+    "relative_error": 0.009785691542136085
+   },
+   {
+    "p": 4,
+    "energy": -5.137679302389856,
+    "error_per_site": 0.003581036467826889,
+    "relative_error": 0.004164669406066465
+   }
+  ]
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "U": 4.0,
+  "free_ground_state_degenerate": false,
+  "e_exact": -3.6193213239575504,
+  "e_start": -1.6568552466767108,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -2.8079598089286386,
+    "error_per_site": 0.1352269191714853,
+    "relative_error": 0.22417504344204722
+   },
+   {
+    "p": 2,
+    "energy": -3.1377738321224875,
+    "error_per_site": 0.08025791530584381,
+    "relative_error": 0.133049113005671
+   },
+   {
+    "p": 3,
+    "energy": -3.457506011265022,
+    "error_per_site": 0.026969218782088022,
+    "relative_error": 0.04470874459844616
+   },
+   {
+    "p": 4,
+    "energy": -3.490949518400047,
+    "error_per_site": 0.021395300926250565,
+    "relative_error": 0.03546847435395294
+   }
+  ]
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "U": 8.0,
+  "free_ground_state_degenerate": false,
+  "e_exact": -2.1777935524904137,
+  "e_start": 4.343143756138831,
+  "depths": [
+   {
+    "p": 1,
+    "energy": 0.5560238299873006,
+    "error_per_site": 0.4556362304129524,
+    "relative_error": 1.2553152154167508
+   },
+   {
+    "p": 2,
+    "energy": -0.7534913987104934,
+    "error_per_site": 0.23738369229665338,
+    "relative_error": 0.6540115577765215
+   },
+   {
+    "p": 3,
+    "energy": -1.3001938117083993,
+    "error_per_site": 0.14626662346366906,
+    "relative_error": 0.4029765538512299
+   },
+   {
+    "p": 4,
+    "energy": -1.760851398977411,
+    "error_per_site": 0.06949035891883378,
+    "relative_error": 0.1914516428961822
+   }
+  ]
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "U": 2.0,
+  "free_ground_state_degenerate": false,
+  "e_exact": -7.11744658031345,
+  "e_start": -6.472136596294247,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -6.829286439339366,
+    "error_per_site": 0.036020017621760436,
+    "relative_error": 0.04048644942009428
+   },
+   {
+    "p": 2,
+    "energy": -6.947628121428916,
+    "error_per_site": 0.02122730736056677,
+    "relative_error": 0.023859463779362208
+   },
+   {
+    "p": 3,
+    "energy": -6.950641068102515,
+    "error_per_site": 0.020850689026366886,
+    "relative_error": 0.023436145298555797
+   },
+   {
+    "p": 4,
+    "energy": -7.056479455981363,
+    "error_per_site": 0.0076208905415108275,
+    "relative_error": 0.008565870308140992
+   }
+  ]
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "U": 4.0,
+  "free_ground_state_degenerate": false,
+  "e_exact": -5.012503152657036,
+  "e_start": -2.4721372375890787,
+  "depths": [
+   {
+    "p": 1,
+    "energy": -3.8135593520395874,
+    "error_per_site": 0.14986797507718108,
+    "relative_error": 0.2391906327244723
+   },
+   {
+    "p": 2,
+    "energy": -4.274521828464772,
+    "error_per_site": 0.09224766552403296,
+    "relative_error": 0.14722810175213025
+   },
+   {
+    "p": 3,
+    "energy": -4.450364520464477,
+    "error_per_site": 0.07026732902406985,
+    "relative_error": 0.11214728750735636
+   },
+   {
+    "p": 4,
+    "energy": -4.577105920513944,
+    "error_per_site": 0.05442465401788654,
+    "relative_error": 0.08686223606907784
+   }
+  ]
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "U": 8.0,
+  "free_ground_state_degenerate": false,
+  "e_exact": -3.0259228056908043,
+  "e_start": 5.527861479821259,
+  "depths": [
+   {
+    "p": 1,
+    "energy": 1.041497311813839,
+    "error_per_site": 0.5084275146880805,
+    "relative_error": 1.344191632997085
+   },
+   {
+    "p": 2,
+    "energy": -0.5699230789744816,
+    "error_per_site": 0.30699996583954037,
+    "relative_error": 0.8116531334168089
+   },
+   {
+    "p": 3,
+    "energy": -0.859835379758582,
+    "error_per_site": 0.27076092824152775,
+    "relative_error": 0.7158435839336338
+   },
+   {
+    "p": 4,
+    "energy": -1.951311127302756,
+    "error_per_site": 0.13432645979850605,
+    "relative_error": 0.3551351925987813
+   }
+  ]
+ }
+]

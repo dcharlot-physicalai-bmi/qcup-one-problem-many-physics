@@ -1,0 +1,44 @@
+{
+ "tag": "R_20_0",
+ "source": "programs/multi/washer.rce",
+ "source_sha256": "e2f8c394e61bd9c4b0693f2cfae6dd2edeec1eac7b9219f44ccaa2878acc333c",
+ "states": 4,
+ "events": [
+  "Start",
+  "Tick",
+  "Open"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 36,
+ "tests_passed_by_faulty_program": 28,
+ "tests_passed_by_optimum": 36,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 6.0,
+ "mu": 0.25,
+ "qubo_optimum": -5.916666666666666,
+ "ising_offset": 5.229166666666666
+}

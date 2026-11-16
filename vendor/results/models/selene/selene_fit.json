@@ -1,0 +1,23 @@
+{
+ "programs_in_file": 29,
+ "programs_up_to_2000_gates": 25,
+ "fit_at_least_20_correct": {
+  "circuits": 21,
+  "loss_per_two_qubit_gate_pct": 0.1445,
+  "r2": 0.9878,
+  "gates_at_30pct": 818,
+  "fidelity_at_zero_gates": 0.9788
+ },
+ "fit_all_nonzero": {
+  "circuits": 25,
+  "loss_per_two_qubit_gate_pct": 0.1518,
+  "r2": 0.9418,
+  "gates_at_30pct": 786,
+  "fidelity_at_zero_gates": 0.9901
+ },
+ "door_R_T5": {
+  "rzz": 437,
+  "selene": 0.51,
+  "generic": 0.7135
+ }
+}

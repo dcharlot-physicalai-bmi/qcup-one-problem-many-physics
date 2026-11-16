@@ -1,0 +1,44 @@
+{
+ "tag": "R_60_1",
+ "source": "programs/multi/printer.rce",
+ "source_sha256": "0293d83920797caae990642dfed5db859c57464b507c0a193657e1d9dd67e877",
+ "states": 12,
+ "events": [
+  "Submit",
+  "Print",
+  "Refill"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   2
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   7,
+   1
+  ],
+  [
+   9,
+   2
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 108,
+ "tests_passed_by_faulty_program": 99,
+ "tests_passed_by_optimum": 108,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 9.0,
+ "mu": 0.25,
+ "qubo_optimum": -11.944444444444443,
+ "ising_offset": 129.125
+}

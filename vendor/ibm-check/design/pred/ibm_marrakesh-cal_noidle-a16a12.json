@@ -1,0 +1,36 @@
+{
+ "backend": "ibm_marrakesh",
+ "model": "cal_noidle",
+ "results": {
+  "a1-b16-p2-warm": {
+   "score": 0.19,
+   "shots": 4000,
+   "se": 0.006202821938440599,
+   "seconds": 259.1
+  },
+  "a1-b16-p3-warm": {
+   "score": 0.10825,
+   "shots": 4000,
+   "se": 0.004912533396833043,
+   "seconds": 374.8
+  },
+  "a1-b12-p1-warm": {
+   "score": 0.28525,
+   "shots": 8000,
+   "se": 0.005048297206732187,
+   "seconds": 55.1
+  },
+  "a1-r12-p2-cold": {
+   "score": 0.254125,
+   "shots": 8000,
+   "se": 0.004867564642290332,
+   "seconds": 64.0
+  },
+  "a1-d12-p2-warm": {
+   "score": 0.043125,
+   "shots": 8000,
+   "se": 0.0022711570392368293,
+   "seconds": 185.0
+  }
+ }
+}

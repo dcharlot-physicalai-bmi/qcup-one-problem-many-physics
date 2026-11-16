@@ -1,0 +1,39 @@
+{
+ "tag": "R_16_1",
+ "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+ "source_sha256": "80526af992f30a2c994e6d8ba8be0ebdcd88cf70151292e9d04b5227433c08bb",
+ "states": 4,
+ "events": [
+  "Inc",
+  "Dec"
+ ],
+ "suspect_entries": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 16,
+ "tests_passed_by_faulty_program": 8,
+ "tests_passed_by_optimum": 16,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 5.25,
+ "mu": 0.25,
+ "qubo_optimum": -2.952380952380952,
+ "ising_offset": 5.999999999999998
+}

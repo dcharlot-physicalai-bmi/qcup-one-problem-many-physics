@@ -1,0 +1,283 @@
+[
+ {
+  "program": "aim1-B-12-0-p2-warm",
+  "result": {
+   "best_state": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "best_energy": -6.661559654723063,
+   "shots": 1000,
+   "two_qubit_gates": 78,
+   "topology": "all_to_all",
+   "mean_energy": -6.265647835739673,
+   "certified_gap": 1.1549349287031765e-11,
+   "proof": true,
+   "verified": true,
+   "margin": 2.3062440845933452e-11
+  },
+  "receipt": {
+   "oer_version": "1.0",
+   "receipt_id": "fa806bac-749f-40a2-8aaa-b393cdcf6d9b",
+   "issued_at": "2026-11-12T02:57:27Z",
+   "issuer": {
+    "org": "Institute for Physical AI @ JBI",
+    "contact": "mailto:david@physicalai-bmi.org"
+   },
+   "workload": {
+    "name": "aim1-B-12-0-p2-warm",
+    "spec_uri": "https://physicalai-bmi.org/assets/papers/relax-1-dialect",
+    "input_hash": "2d2de2fec60d2ca75fe94e3582da5aa632c079bc74b879dde3f2236022d9e0ae",
+    "output_hash": "d5eb244144c0c92a246a9bb2f00ca17165691621daa7166057168bde3ef08eb5",
+    "quality": {
+     "metric": "certified_relative_gap",
+     "value": 1.1549349287031765e-11,
+     "higher_is_better": false
+    }
+   },
+   "execution": {
+    "substrate": {
+     "family": "quantum_gate",
+     "device_model": "qiskit-aer statevector (reference emulation)",
+     "device_count": 1,
+     "firmware": null
+    },
+    "stack": [
+     {
+      "layer": "compiler",
+      "name": "relax_quantum (draft lowering)",
+      "version": "0.1"
+     }
+    ],
+    "site": null
+   },
+   "energy": {
+    "joules_total": null,
+    "breakdown": {
+     "compute_j": null,
+     "movement_j": null,
+     "idle_alloc_j": null
+    },
+    "method": "model_estimated",
+    "meter": null,
+    "sampling_hz": null
+   },
+   "provenance": {
+    "how": "simulated",
+    "device": "emulation",
+    "note": "ideal state-vector emulation; no device noise, no device energy"
+   },
+   "latency": {
+    "wall_s": 1.0865,
+    "time_to_first_valid_s": null,
+    "p99_decision_s": null
+   },
+   "certificate": {
+    "type": "none",
+    "coverage": null,
+    "evidence_uri": null
+   },
+   "extensions": {
+    "unpriced": true,
+    "proposed_substrate_family": "quantum_gate",
+    "refused": null
+   },
+   "attestation": {
+    "receipt_hash": "2d784ba1b1b82efee653dbe3784ddb0ccd6f56981d75e83ee8bc4e61dafb3d93",
+    "signature": null,
+    "pubkey": null,
+    "witness": null
+   }
+  }
+ },
+ {
+  "program": "aim1-C-12-0-p3-cold",
+  "result": {
+   "best_state": [
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "best_energy": -11.914523190736968,
+   "shots": 1000,
+   "two_qubit_gates": 357,
+   "topology": "heavy_hex",
+   "mean_energy": -10.244138166676505,
+   "certified_gap": 0.08377086019950536,
+   "proof": false,
+   "verified": true,
+   "margin": 0.35523292933696915
+  },
+  "receipt": {
+   "oer_version": "1.0",
+   "receipt_id": "3d9e5113-d8bb-4081-a523-a596f24427bb",
+   "issued_at": "2026-11-12T02:57:28Z",
+   "issuer": {
+    "org": "Institute for Physical AI @ JBI",
+    "contact": "mailto:david@physicalai-bmi.org"
+   },
+   "workload": {
+    "name": "aim1-C-12-0-p3-cold",
+    "spec_uri": "https://physicalai-bmi.org/assets/papers/relax-1-dialect",
+    "input_hash": "028c7746ee8507865c30ccc8e8c6b24e9abce6ed2f76633f9e52b0a73b3338bd",
+    "output_hash": "5cd9b13f07b7265d862cb7d8b8802f2ae33aa1fc19b4986eda8c13b4cf2dd01d",
+    "quality": {
+     "metric": "certified_relative_gap",
+     "value": 0.08377086019950536,
+     "higher_is_better": false
+    }
+   },
+   "execution": {
+    "substrate": {
+     "family": "quantum_gate",
+     "device_model": "qiskit-aer statevector (reference emulation)",
+     "device_count": 1,
+     "firmware": null
+    },
+    "stack": [
+     {
+      "layer": "compiler",
+      "name": "relax_quantum (draft lowering)",
+      "version": "0.1"
+     }
+    ],
+    "site": null
+   },
+   "energy": {
+    "joules_total": null,
+    "breakdown": {
+     "compute_j": null,
+     "movement_j": null,
+     "idle_alloc_j": null
+    },
+    "method": "model_estimated",
+    "meter": null,
+    "sampling_hz": null
+   },
+   "provenance": {
+    "how": "simulated",
+    "device": "emulation",
+    "note": "ideal state-vector emulation; no device noise, no device energy"
+   },
+   "latency": {
+    "wall_s": 0.1609,
+    "time_to_first_valid_s": null,
+    "p99_decision_s": null
+   },
+   "certificate": {
+    "type": "none",
+    "coverage": null,
+    "evidence_uri": null
+   },
+   "extensions": {
+    "unpriced": true,
+    "proposed_substrate_family": "quantum_gate",
+    "refused": null
+   },
+   "attestation": {
+    "receipt_hash": "070b12093200404bd21dc5934fdc36d1b083267eb5a8406b4d534699755a87ec",
+    "signature": null,
+    "pubkey": null,
+    "witness": null
+   }
+  }
+ },
+ {
+  "program": "aim1-A-16-0-p3-cold",
+  "result": {
+   "refused": "gate_budget",
+   "detail": "1428 two-qubit gates on heavy_hex exceeds the admission budget of 660"
+  },
+  "receipt": {
+   "oer_version": "1.0",
+   "receipt_id": "48b73eb7-3da9-4dd2-884b-5cbaca7646eb",
+   "issued_at": "2026-11-12T02:57:28Z",
+   "issuer": {
+    "org": "Institute for Physical AI @ JBI",
+    "contact": "mailto:david@physicalai-bmi.org"
+   },
+   "workload": {
+    "name": "aim1-A-16-0-p3-cold",
+    "spec_uri": "https://physicalai-bmi.org/assets/papers/relax-1-dialect",
+    "input_hash": "a4b1fdee2a0e70f7bb80ce80ef21b46412c923560973d257886395ffe79ea483",
+    "output_hash": null,
+    "quality": null
+   },
+   "execution": {
+    "substrate": {
+     "family": "quantum_gate",
+     "device_model": "qiskit-aer statevector (reference emulation)",
+     "device_count": 1,
+     "firmware": null
+    },
+    "stack": [
+     {
+      "layer": "compiler",
+      "name": "relax_quantum (draft lowering)",
+      "version": "0.1"
+     }
+    ],
+    "site": null
+   },
+   "energy": {
+    "joules_total": null,
+    "breakdown": {
+     "compute_j": null,
+     "movement_j": null,
+     "idle_alloc_j": null
+    },
+    "method": "model_estimated",
+    "meter": null,
+    "sampling_hz": null
+   },
+   "provenance": {
+    "how": "simulated",
+    "device": "emulation",
+    "note": "ideal state-vector emulation; no device noise, no device energy"
+   },
+   "latency": {
+    "wall_s": 0.1568,
+    "time_to_first_valid_s": null,
+    "p99_decision_s": null
+   },
+   "certificate": {
+    "type": "none",
+    "coverage": null,
+    "evidence_uri": null
+   },
+   "extensions": {
+    "unpriced": true,
+    "proposed_substrate_family": "quantum_gate",
+    "refused": {
+     "reason": "gate_budget",
+     "detail": "1428 two-qubit gates on heavy_hex exceeds the admission budget of 660"
+    }
+   },
+   "attestation": {
+    "receipt_hash": "71a6dc8eba38fac5b1daab75c94731b4fc8435268dd35fb6a16ff81b93749c2a",
+    "signature": null,
+    "pubkey": null,
+    "witness": null
+   }
+  }
+ }
+]

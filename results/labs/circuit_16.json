@@ -1,0 +1,7 @@
+{
+ "N": 16,
+ "two_body_terms": 56,
+ "four_body_terms": 252,
+ "heavy_hex_cz_per_layer": 3602,
+ "all_to_all_rzz_per_layer": 910
+}

@@ -1,0 +1,629 @@
+[
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 9,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1263,
+   "two_qubit_depth": 990,
+   "depth": 3154,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.178,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 486,
+   "two_qubit_depth": 446,
+   "depth": 1278,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.766,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 9,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1263,
+   "two_qubit_depth": 990,
+   "depth": 3154,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.178,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 486,
+   "two_qubit_depth": 446,
+   "depth": 1278,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.766,
+   "shots": 2000
+  },
+  "guppy_gates": 1395
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 14,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2217,
+   "two_qubit_depth": 1779,
+   "depth": 5732,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 941,
+   "two_qubit_depth": 843,
+   "depth": 2414,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 9,
+  "resets": 4,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2573,
+   "two_qubit_depth": 2021,
+   "depth": 6422,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.028,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 972,
+   "two_qubit_depth": 889,
+   "depth": 2548,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5735,
+   "shots": 2000
+  },
+  "guppy_gates": 2794
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3460,
+   "two_qubit_depth": 2717,
+   "depth": 8660
+  },
+  "ion_like": {
+   "two_qubit_gates": 1396,
+   "two_qubit_depth": 1243,
+   "depth": 3555
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 9,
+  "resets": 8,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3905,
+   "two_qubit_depth": 3045,
+   "depth": 9661,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1458,
+   "two_qubit_depth": 1335,
+   "depth": 3825,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.446,
+   "shots": 2000
+  },
+  "guppy_gates": 4193
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 24,
+  "resets": 0,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   3,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4519,
+   "two_qubit_depth": 3492,
+   "depth": 11280
+  },
+  "ion_like": {
+   "two_qubit_gates": 1851,
+   "two_qubit_depth": 1643,
+   "depth": 4696
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 9,
+  "resets": 12,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   3,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5206,
+   "two_qubit_depth": 4039,
+   "depth": 12885,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1944,
+   "two_qubit_depth": 1778,
+   "depth": 5095,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.338,
+   "shots": 2000
+  },
+  "guppy_gates": 5594
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 29,
+  "resets": 0,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   1,
+   3,
+   0,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5919,
+   "two_qubit_depth": 4490,
+   "depth": 14301
+  },
+  "ion_like": {
+   "two_qubit_gates": 2306,
+   "two_qubit_depth": 2043,
+   "depth": 5837
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 9,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   1,
+   3,
+   0,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6610,
+   "two_qubit_depth": 5192,
+   "depth": 16262,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2430,
+   "two_qubit_depth": 2224,
+   "depth": 6372,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.236,
+   "shots": 2000
+  },
+  "guppy_gates": 6993,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 5660,
+   "active_qubits": 9,
+   "depth": 14428
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 5637,
+   "active_qubits": 9,
+   "depth": 14893
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 9,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   2,
+   2,
+   5,
+   8,
+   8
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6610,
+   "two_qubit_depth": 5192,
+   "depth": 16263,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2430,
+   "two_qubit_depth": 2224,
+   "depth": 6372,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.24,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 9,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   2,
+   2,
+   2,
+   5,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6610,
+   "two_qubit_depth": 5192,
+   "depth": 16262,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2430,
+   "two_qubit_depth": 2224,
+   "depth": 6372,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2455,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   0,
+   0,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 9,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   9,
+   11
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6610,
+   "two_qubit_depth": 5192,
+   "depth": 16263,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2430,
+   "two_qubit_depth": 2224,
+   "depth": 6372,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2215,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "crossing",
+  "source": "programs/multi/crossing.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 2,
+  "state_bits": 4,
+  "event_bits": 1,
+  "anf_terms": 54,
+  "anf_literals": 141,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 9,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6,
+   9
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6610,
+   "two_qubit_depth": 5192,
+   "depth": 16263,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2430,
+   "two_qubit_depth": 2224,
+   "depth": 6372,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2145,
+   "shots": 2000
+  }
+ }
+]

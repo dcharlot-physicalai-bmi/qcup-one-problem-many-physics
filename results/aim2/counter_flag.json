@@ -1,0 +1,651 @@
+[
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 75,
+   "two_qubit_depth": 57,
+   "depth": 168,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.841,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 30,
+   "two_qubit_depth": 26,
+   "depth": 74,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.976,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 75,
+   "two_qubit_depth": 57,
+   "depth": 169,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.841,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 30,
+   "two_qubit_depth": 26,
+   "depth": 75,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.976,
+   "shots": 2000
+  },
+  "guppy_gates": 87
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 151,
+   "two_qubit_depth": 113,
+   "depth": 353,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6695,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 60,
+   "two_qubit_depth": 51,
+   "depth": 143,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9515,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 7,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 172,
+   "two_qubit_depth": 120,
+   "depth": 371,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.658,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 60,
+   "two_qubit_depth": 52,
+   "depth": 149,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9485,
+   "shots": 2000
+  },
+  "guppy_gates": 175
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   2,
+   5,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 202,
+   "two_qubit_depth": 156,
+   "depth": 504
+  },
+  "ion_like": {
+   "two_qubit_gates": 90,
+   "two_qubit_depth": 76,
+   "depth": 212
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 7,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   2,
+   5,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 267,
+   "two_qubit_depth": 185,
+   "depth": 566,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5025,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 90,
+   "two_qubit_depth": 78,
+   "depth": 223,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.917,
+   "shots": 2000
+  },
+  "guppy_gates": 263
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 304,
+   "two_qubit_depth": 206,
+   "depth": 657
+  },
+  "ion_like": {
+   "two_qubit_gates": 120,
+   "two_qubit_depth": 101,
+   "depth": 281
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 7,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 368,
+   "two_qubit_depth": 257,
+   "depth": 778,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3695,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 120,
+   "two_qubit_depth": 104,
+   "depth": 297,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.883,
+   "shots": 2000
+  },
+  "guppy_gates": 351
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 422,
+   "two_qubit_depth": 300,
+   "depth": 894
+  },
+  "ion_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 126,
+   "depth": 350
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 468,
+   "two_qubit_depth": 323,
+   "depth": 975,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2945,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 130,
+   "depth": 371,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.872,
+   "shots": 2000
+  },
+  "guppy_gates": 439,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 362,
+   "active_qubits": 7,
+   "depth": 839,
+   "trace_fidelity": 0.2155,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 411,
+   "active_qubits": 7,
+   "depth": 941,
+   "trace_fidelity": 0.28,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 468,
+   "two_qubit_depth": 323,
+   "depth": 975,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2945,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 130,
+   "depth": 371,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.872,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   3,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 468,
+   "two_qubit_depth": 323,
+   "depth": 975,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.301,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 130,
+   "depth": 371,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8665,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   2,
+   5,
+   7,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 468,
+   "two_qubit_depth": 323,
+   "depth": 975,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2945,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 130,
+   "depth": 371,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.872,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "counter_flag",
+  "source": "book/listings/ch18/counter_flag.rce",
+  "kind": "exact",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 10,
+  "anf_literals": 14,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 5.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   5,
+   7
+  ],
+  "sc_like": {
+   "two_qubit_gates": 468,
+   "two_qubit_depth": 323,
+   "depth": 976,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2825,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 130,
+   "depth": 372,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.884,
+   "shots": 2000
+  }
+ }
+]

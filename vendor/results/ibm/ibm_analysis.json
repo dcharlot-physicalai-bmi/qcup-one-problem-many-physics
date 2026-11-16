@@ -1,0 +1,2034 @@
+{
+ "rows": [
+  {
+   "id": "ibm-a1-a12-s21-p2",
+   "family": "A1-A",
+   "package_cz": 523,
+   "patch_cz": 523,
+   "generic_budget": 2.001908742157341,
+   "generic_rule_fidelity": 0.43393914622661045,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 2.91373929166301,
+     "cz": 535,
+     "wai_predicted": 0.022280189008979993,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.842937424889702,
+     "wai_budget": {
+      "gate": 1.1718190751417032,
+      "relaxation": 0.8894182026857266,
+      "idle": 1.50723049261799,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.15790796043291175,
+      "readout": 0.11656169401137106
+     },
+     "budget_ratio_device_over_generic": 1.9196366667285698,
+     "rule_fidelity_carried_over": 0.20137014746881468,
+     "e_minus_b_device": 0.0214305581431952,
+     "e_minus_b_generic": 0.13507720945263213
+    },
+    "ibm_fez": {
+     "script_total": 4.5064457887591685,
+     "cz": 535,
+     "wai_predicted": 0.003784097323684134,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.619935130523485,
+     "wai_budget": {
+      "gate": 1.1914242693343597,
+      "relaxation": 1.0747072095792014,
+      "idle": 3.0674311301440857,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.17371039689226642,
+      "readout": 0.112662124573572
+     },
+     "budget_ratio_device_over_generic": 2.8072883704315146,
+     "rule_fidelity_carried_over": 0.09597501120789585,
+     "e_minus_b_device": 0.0036248762451635474,
+     "e_minus_b_generic": 0.13507720945263213
+    },
+    "ibm_marrakesh": {
+     "script_total": 3.754067121153517,
+     "cz": 535,
+     "wai_predicted": 0.00843768809958614,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.816610898946056,
+     "wai_budget": {
+      "gate": 1.3462070223822822,
+      "relaxation": 1.0650209945063838,
+      "idle": 2.086309383365499,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.10465782797539364,
+      "readout": 0.21441567071649753
+     },
+     "budget_ratio_device_over_generic": 2.4060092238547663,
+     "rule_fidelity_carried_over": 0.1341684557306257,
+     "e_minus_b_device": 0.008094172675857894,
+     "e_minus_b_generic": 0.13507720945263213
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-a16-s4-p1",
+   "family": "A1-A",
+   "package_cz": 507,
+   "patch_cz": 507,
+   "generic_budget": 1.9814360508684823,
+   "generic_rule_fidelity": 0.4451648584864442,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.4692610058554125,
+     "cz": 500,
+     "wai_predicted": 0.010369290496592647,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.6169475523205925,
+     "wai_budget": {
+      "gate": 1.2991780324915676,
+      "relaxation": 0.5170735238865162,
+      "idle": 2.2907625627630854,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.3233344266517931,
+      "readout": 0.18659900652763
+     },
+     "budget_ratio_device_over_generic": 2.3301017210709074,
+     "rule_fidelity_carried_over": 0.1517112835437817,
+     "e_minus_b_device": 0.009882917153801919,
+     "e_minus_b_generic": 0.13787110516071469
+    },
+    "ibm_fez": {
+     "script_total": 4.61301483399428,
+     "cz": 500,
+     "wai_predicted": 0.0012426000593463791,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 6.742698418485729,
+     "wai_budget": {
+      "gate": 0.9580977169651806,
+      "relaxation": 1.604687410022186,
+      "idle": 2.886303125503301,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.1025319784281549,
+      "readout": 0.19107818756690484
+     },
+     "budget_ratio_device_over_generic": 3.402935166911059,
+     "rule_fidelity_carried_over": 0.06367065540721964,
+     "e_minus_b_device": 0.0011794601814961749,
+     "e_minus_b_generic": 0.13787110516071469
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.411513954925612,
+     "cz": 500,
+     "wai_predicted": 0.0030521400271247058,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.834567548699537,
+     "wai_budget": {
+      "gate": 1.2334379796079646,
+      "relaxation": 1.0481675188397326,
+      "idle": 2.9924915068238445,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.2541120808920941,
+      "readout": 0.3063584625359014
+     },
+     "budget_ratio_device_over_generic": 2.944615621655915,
+     "rule_fidelity_carried_over": 0.09226331905868905,
+     "e_minus_b_device": 0.002924687771741974,
+     "e_minus_b_generic": 0.13787110516071469
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-b12-s2-p3",
+   "family": "A1-B",
+   "package_cz": 650,
+   "patch_cz": 650,
+   "generic_budget": 2.4587926849947874,
+   "generic_rule_fidelity": 0.3543118971544158,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.819057880294527,
+     "cz": 637,
+     "wai_predicted": 0.006632684122236998,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.040701222054821,
+     "wai_budget": {
+      "gate": 1.027336176579339,
+      "relaxation": 1.5633558530016676,
+      "idle": 2.207046829689386,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.09124940347353046,
+      "readout": 0.15171295931089793
+     },
+     "budget_ratio_device_over_generic": 2.0500716684316584,
+     "rule_fidelity_carried_over": 0.11918139453080218,
+     "e_minus_b_device": 0.006469210374430366,
+     "e_minus_b_generic": 0.08553816015605824
+    },
+    "ibm_fez": {
+     "script_total": 3.8259134495164036,
+     "cz": 637,
+     "wai_predicted": 0.009406028747098054,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.686916586795566,
+     "wai_budget": {
+      "gate": 1.5616100720594686,
+      "relaxation": 0.9857794864685416,
+      "idle": 1.8842890161721435,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.14708588533829892,
+      "readout": 0.10815212675711282
+     },
+     "budget_ratio_device_over_generic": 1.9061861601420464,
+     "rule_fidelity_carried_over": 0.1383710782793474,
+     "e_minus_b_device": 0.009215056221483494,
+     "e_minus_b_generic": 0.08553816015605824
+    },
+    "ibm_marrakesh": {
+     "script_total": 5.304522777833391,
+     "cz": 637,
+     "wai_predicted": 0.0011810715413188364,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 6.865961615371636,
+     "wai_budget": {
+      "gate": 1.2295389177543683,
+      "relaxation": 1.5278847484563294,
+      "idle": 3.80230735366413,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.08209985259856598,
+      "readout": 0.22413074289824259
+     },
+     "budget_ratio_device_over_generic": 2.7924117625989244,
+     "rule_fidelity_carried_over": 0.05516954816711382,
+     "e_minus_b_device": 0.0010426793138683253,
+     "e_minus_b_generic": 0.08553816015605824
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-b16-s2-p3",
+   "family": "A1-B",
+   "package_cz": 649,
+   "patch_cz": 649,
+   "generic_budget": 2.5082913647575773,
+   "generic_rule_fidelity": 0.35487792744869645,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.002543614416663,
+     "cz": 648,
+     "wai_predicted": 0.018298892508982503,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.063838519559301,
+     "wai_budget": {
+      "gate": 0.9825566259429164,
+      "relaxation": 0.9659401084786223,
+      "idle": 1.6412291493498479,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.27727089484869594,
+      "readout": 0.19684174093921808
+     },
+     "budget_ratio_device_over_generic": 1.6201620659616094,
+     "rule_fidelity_carried_over": 0.18666162567497738,
+     "e_minus_b_device": 0.017182935331183424,
+     "e_minus_b_generic": 0.08140721571478785
+    },
+    "ibm_fez": {
+     "script_total": 4.421192298835365,
+     "cz": 648,
+     "wai_predicted": 0.003911011353418958,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.577657704373541,
+     "wai_budget": {
+      "gate": 1.4422360627941673,
+      "relaxation": 1.1739685754615337,
+      "idle": 2.549520218274471,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.26965142830167677,
+      "readout": 0.14228141954169246
+     },
+     "budget_ratio_device_over_generic": 2.223688118031939,
+     "rule_fidelity_carried_over": 0.09988861507832501,
+     "e_minus_b_device": 0.0037814123393972794,
+     "e_minus_b_generic": 0.08140721571478785
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.073183960175764,
+     "cz": 648,
+     "wai_predicted": 0.005187232316840679,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.315470823771648,
+     "wai_budget": {
+      "gate": 1.194187081302998,
+      "relaxation": 1.244992674911677,
+      "idle": 2.4461003752827426,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.1619514070281265,
+      "readout": 0.2682392852461033
+     },
+     "budget_ratio_device_over_generic": 2.119160037966873,
+     "rule_fidelity_carried_over": 0.11131286769048052,
+     "e_minus_b_device": 0.004914964128550734,
+     "e_minus_b_generic": 0.08140721571478785
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-b20-s1-p1",
+   "family": "A1-B",
+   "package_cz": 422,
+   "patch_cz": 422,
+   "generic_budget": 1.7344493566028818,
+   "generic_rule_fidelity": 0.5098557885777651,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.1515938732158624,
+     "cz": 399,
+     "wai_predicted": 0.009498732887273946,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.749535481350875,
+     "wai_budget": {
+      "gate": 0.7626671007639502,
+      "relaxation": 0.6544489493789583,
+      "idle": 2.3898951613474373,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.7049049328035104,
+      "readout": 0.23761933705701924
+     },
+     "budget_ratio_device_over_generic": 2.7383535087201314,
+     "rule_fidelity_carried_over": 0.15808382528472745,
+     "e_minus_b_device": 0.008655715010454479,
+     "e_minus_b_generic": 0.17649736063977656
+    },
+    "ibm_fez": {
+     "script_total": 3.6440725772684894,
+     "cz": 399,
+     "wai_predicted": 0.0032763013614967697,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.767262952706326,
+     "wai_budget": {
+      "gate": 1.016374173483526,
+      "relaxation": 0.5668406953569368,
+      "idle": 2.5819813546232777,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.3933972235147094,
+      "readout": 0.20866950572787604
+     },
+     "budget_ratio_device_over_generic": 3.32512617376282,
+     "rule_fidelity_carried_over": 0.10646957998529731,
+     "e_minus_b_device": 0.0031283081344140352,
+     "e_minus_b_generic": 0.17649736063977656
+    },
+    "ibm_marrakesh": {
+     "script_total": 3.806107392067296,
+     "cz": 399,
+     "wai_predicted": 0.004864239589599397,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.51093512684359,
+     "wai_budget": {
+      "gate": 0.860300988462568,
+      "relaxation": 0.7105562161178767,
+      "idle": 2.8795059663931104,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.673210196169248,
+      "readout": 0.3873617597007868
+     },
+     "budget_ratio_device_over_generic": 3.1773398893798714,
+     "rule_fidelity_carried_over": 0.11761448446631124,
+     "e_minus_b_device": 0.004042325528128799,
+     "e_minus_b_generic": 0.17649736063977656
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-b24-s2-p1",
+   "family": "A1-B",
+   "package_cz": 545,
+   "patch_cz": 545,
+   "generic_budget": 2.209915166485074,
+   "generic_rule_fidelity": 0.4189645432951681,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.3423049844812187,
+     "cz": 511,
+     "wai_predicted": 0.006341054848594645,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.143693350993519,
+     "wai_budget": {
+      "gate": 1.3319253557826125,
+      "relaxation": 0.5775603960078205,
+      "idle": 2.010676839554905,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.9529283863836377,
+      "readout": 0.27060237326454406
+     },
+     "budget_ratio_device_over_generic": 2.3275524006537744,
+     "rule_fidelity_carried_over": 0.13200725455221393,
+     "e_minus_b_device": 0.005836095111981699,
+     "e_minus_b_generic": 0.10970995520186853
+    },
+    "ibm_fez": {
+     "script_total": 5.200709410150367,
+     "cz": 511,
+     "wai_predicted": 0.0005403623243899482,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.59769387246836,
+     "wai_budget": {
+      "gate": 1.038558044053014,
+      "relaxation": 1.2445823346385492,
+      "idle": 3.6754588021622436,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.279574879824445,
+      "readout": 0.3595198117901093
+     },
+     "budget_ratio_device_over_generic": 3.4380025024004364,
+     "rule_fidelity_carried_over": 0.05023940766908681,
+     "e_minus_b_device": 0.0005016068700495316,
+     "e_minus_b_generic": 0.10970995520186853
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.741101685092209,
+     "cz": 511,
+     "wai_predicted": 0.0013383496151218226,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 6.849628822961538,
+     "wai_budget": {
+      "gate": 1.1511526713548352,
+      "relaxation": 1.0191128202087731,
+      "idle": 3.3628856265162907,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.8415735592966516,
+      "readout": 0.47490414558498784
+     },
+     "budget_ratio_device_over_generic": 3.0994985358899756,
+     "rule_fidelity_carried_over": 0.0674433296275516,
+     "e_minus_b_device": 0.001059849011524989,
+     "e_minus_b_generic": 0.10970995520186853
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-c12-s22-p3",
+   "family": "A1-C",
+   "package_cz": 357,
+   "patch_cz": 357,
+   "generic_budget": 1.4110464270241314,
+   "generic_rule_fidelity": 0.565599192601053,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 2.9612249588587845,
+     "cz": 377,
+     "wai_predicted": 0.020844960505003066,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.897546169935444,
+     "wai_budget": {
+      "gate": 0.8466369526548251,
+      "relaxation": 0.692652663094924,
+      "idle": 2.094216897275187,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.11428917001155783,
+      "readout": 0.14975048689895018
+     },
+     "budget_ratio_device_over_generic": 2.762167208172796,
+     "rule_fidelity_carried_over": 0.20719910259584068,
+     "e_minus_b_device": 0.020291642647679537,
+     "e_minus_b_generic": 0.24388793864718145
+    },
+    "ibm_fez": {
+     "script_total": 2.6729681860854693,
+     "cz": 377,
+     "wai_predicted": 0.03777575338955689,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.318565208454489,
+     "wai_budget": {
+      "gate": 0.8539682772539462,
+      "relaxation": 0.7208945905940211,
+      "idle": 1.4976395675162124,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.11800922579203976,
+      "readout": 0.1280535472982699
+     },
+     "budget_ratio_device_over_generic": 2.3518469306876577,
+     "rule_fidelity_carried_over": 0.2617812492155399,
+     "e_minus_b_device": 0.03620474076179102,
+     "e_minus_b_generic": 0.24388793864718145
+    },
+    "ibm_marrakesh": {
+     "script_total": 2.8966927364234745,
+     "cz": 377,
+     "wai_predicted": 0.027387899702821728,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.6737695396288883,
+     "wai_budget": {
+      "gate": 1.0677460490454653,
+      "relaxation": 0.5635357238981455,
+      "idle": 1.7246137644778492,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.04527311750650543,
+      "readout": 0.27260088470092275
+     },
+     "budget_ratio_device_over_generic": 2.6035780745902137,
+     "rule_fidelity_carried_over": 0.22679699089589284,
+     "e_minus_b_device": 0.025380616159439883,
+     "e_minus_b_generic": 0.24388793864718145
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-c15-s4-p3",
+   "family": "A1-C",
+   "package_cz": 482,
+   "patch_cz": 482,
+   "generic_budget": 1.8845712341564336,
+   "generic_rule_fidelity": 0.46328921626821434,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.950009353876695,
+     "cz": 502,
+     "wai_predicted": 0.004850848418403545,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.375137498439418,
+     "wai_budget": {
+      "gate": 1.2724076361424894,
+      "relaxation": 0.6413148759848407,
+      "idle": 2.903405705701603,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.38865296604246424,
+      "readout": 0.16935631456802006
+     },
+     "budget_ratio_device_over_generic": 2.8521805920726697,
+     "rule_fidelity_carried_over": 0.11141665241600356,
+     "e_minus_b_device": 0.004630282033207966,
+     "e_minus_b_generic": 0.15189417250230805
+    },
+    "ibm_fez": {
+     "script_total": 4.626879265974122,
+     "cz": 502,
+     "wai_predicted": 0.0018876464530671686,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 6.333363015569991,
+     "wai_budget": {
+      "gate": 1.0929129224060319,
+      "relaxation": 1.2447430171206153,
+      "idle": 3.020316958108903,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.684263550919451,
+      "readout": 0.2911265670149902
+     },
+     "budget_ratio_device_over_generic": 3.3606386963689983,
+     "rule_fidelity_carried_over": 0.07534422055210938,
+     "e_minus_b_device": 0.0017760508277910028,
+     "e_minus_b_generic": 0.15189417250230805
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.186828897483446,
+     "cz": 502,
+     "wai_predicted": 0.004063083825009156,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.553388243563296,
+     "wai_budget": {
+      "gate": 1.4059955890116285,
+      "relaxation": 1.0227098623741069,
+      "idle": 2.5505945183996497,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.28962063317493847,
+      "readout": 0.2844676406029722
+     },
+     "budget_ratio_device_over_generic": 2.9467648359013014,
+     "rule_fidelity_carried_over": 0.10359647729584895,
+     "e_minus_b_device": 0.0038743078806950043,
+     "e_minus_b_generic": 0.15189417250230805
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-c18-s1-p3",
+   "family": "A1-C",
+   "package_cz": 618,
+   "patch_cz": 618,
+   "generic_budget": 2.415449286241186,
+   "generic_rule_fidelity": 0.3728806287884984,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 5.042091644985266,
+     "cz": 580,
+     "wai_predicted": 0.00073414882759706,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.278606946596918,
+     "wai_budget": {
+      "gate": 1.4418962722350388,
+      "relaxation": 0.7837195372449096,
+      "idle": 3.9674625680746196,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.8842365074635321,
+      "readout": 0.2012920615788177
+     },
+     "budget_ratio_device_over_generic": 3.0133553157406836,
+     "rule_fidelity_carried_over": 0.05116672810018198,
+     "e_minus_b_device": 0.0006901463050142664,
+     "e_minus_b_generic": 0.08932719642437538
+    },
+    "ibm_fez": {
+     "script_total": 6.473413534693951,
+     "cz": 580,
+     "wai_predicted": 9.332789670651691e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 9.345908326089772,
+     "wai_budget": {
+      "gate": 1.479700559790467,
+      "relaxation": 1.2159072727779336,
+      "idle": 4.850631225827385,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.4205037225814046,
+      "readout": 0.3791655451125805
+     },
+     "budget_ratio_device_over_generic": 3.869221506460794,
+     "rule_fidelity_carried_over": 0.02199422898957209,
+     "e_minus_b_device": 8.732198220332984e-05,
+     "e_minus_b_generic": 0.08932719642437538
+    },
+    "ibm_marrakesh": {
+     "script_total": 5.711459949273472,
+     "cz": 580,
+     "wai_predicted": 0.0003611635555090167,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.986526988666719,
+     "wai_budget": {
+      "gate": 1.5875407614792953,
+      "relaxation": 1.266500674154045,
+      "idle": 4.142478550216431,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.6780471958759852,
+      "readout": 0.3119598069409617
+     },
+     "budget_ratio_device_over_generic": 3.306435384157866,
+     "rule_fidelity_carried_over": 0.038319805912050316,
+     "e_minus_b_device": 0.0003400129038185577,
+     "e_minus_b_generic": 0.08932719642437538
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-c24-s2-p2",
+   "family": "A1-C",
+   "package_cz": 562,
+   "patch_cz": 562,
+   "generic_budget": 2.269393080082209,
+   "generic_rule_fidelity": 0.4077481265558806,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 6.398222724169921,
+     "cz": 575,
+     "wai_predicted": 2.598638054066181e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 10.623157378746864,
+     "wai_budget": {
+      "gate": 1.4970892846436903,
+      "relaxation": 0.9417381584272968,
+      "idle": 5.390975974787702,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 2.4947566897623723,
+      "readout": 0.29859727112580325
+     },
+     "budget_ratio_device_over_generic": 4.681056566173208,
+     "rule_fidelity_carried_over": 0.015004543712133306,
+     "e_minus_b_device": 2.4345649766562907e-05,
+     "e_minus_b_generic": 0.1033749013344061
+    },
+    "ibm_fez": {
+     "script_total": 8.081174790610415,
+     "cz": 575,
+     "wai_predicted": 8.906880351519644e-09,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 18.61711708478593,
+     "wai_budget": {
+      "gate": 1.3805202090229949,
+      "relaxation": 1.6738931835707096,
+      "idle": 6.559819392186326,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 8.720304514977805,
+      "readout": 0.2825797850280987
+     },
+     "budget_ratio_device_over_generic": 8.203566516608717,
+     "rule_fidelity_carried_over": 0.0006365384551566197,
+     "e_minus_b_device": 8.216536354159457e-09,
+     "e_minus_b_generic": 0.1033749013344061
+    },
+    "ibm_marrakesh": {
+     "script_total": 9.35360460826813,
+     "cz": 575,
+     "wai_predicted": 8.471930451829071e-07,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 14.072283484078836,
+     "wai_budget": {
+      "gate": 1.3023266225288082,
+      "relaxation": 1.9671845686822058,
+      "idle": 8.477791086428939,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.9336865571401058,
+      "readout": 0.39129464929877733
+     },
+     "budget_ratio_device_over_generic": 6.200901733413705,
+     "rule_fidelity_carried_over": 0.003837769774366573,
+     "e_minus_b_device": 7.735438454305506e-07,
+     "e_minus_b_generic": 0.1033749013344061
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-c30-s2-p1",
+   "family": "A1-C",
+   "package_cz": 350,
+   "patch_cz": 350,
+   "generic_budget": 1.566120189101034,
+   "generic_rule_fidelity": 0.5719545902991005,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 4.660887273121997,
+     "cz": 329,
+     "wai_predicted": 0.009458066789212339,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 4.660887273121997,
+     "wai_budget": {
+      "gate": 0.8265947778523646,
+      "relaxation": 0.3406334716755262,
+      "idle": 3.1436639088944003,
+      "readout": 0.349995114699706
+     },
+     "budget_ratio_device_over_generic": 2.976072529782906,
+     "rule_fidelity_carried_over": 0.18962272081398984,
+     "e_minus_b_device": 0.009458066789212339,
+     "e_minus_b_generic": 0.20885392619508839
+    },
+    "ibm_fez": {
+     "script_total": 6.759040206430311,
+     "cz": 329,
+     "wai_predicted": 0.001160342328725467,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 6.759040206430311,
+     "wai_budget": {
+      "gate": 0.7379694253175503,
+      "relaxation": 0.6575567872757807,
+      "idle": 4.8310625570246195,
+      "readout": 0.5324514368123607
+     },
+     "budget_ratio_device_over_generic": 4.3157863958768425,
+     "rule_fidelity_carried_over": 0.08970657542060069,
+     "e_minus_b_device": 0.001160342328725467,
+     "e_minus_b_generic": 0.20885392619508839
+    },
+    "ibm_marrakesh": {
+     "script_total": 8.814129262588883,
+     "cz": 329,
+     "wai_predicted": 0.00014861830316254527,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 8.814129262588883,
+     "wai_budget": {
+      "gate": 0.8946752940541077,
+      "relaxation": 0.7090517157381416,
+      "idle": 6.63261024734266,
+      "readout": 0.5777920054539744
+     },
+     "budget_ratio_device_over_generic": 5.628003089372258,
+     "rule_fidelity_carried_over": 0.04309531434259281,
+     "e_minus_b_device": 0.00014861830316254527,
+     "e_minus_b_generic": 0.20885392619508839
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-c42-s2-p1",
+   "family": "A1-C",
+   "package_cz": 451,
+   "patch_cz": 451,
+   "generic_budget": 2.060690207508698,
+   "generic_rule_fidelity": 0.48679154410919667,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 12.095183006917669,
+     "cz": 506,
+     "wai_predicted": 5.586357982033196e-06,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 12.095183006917669,
+     "wai_budget": {
+      "gate": 1.5995707773361367,
+      "relaxation": 0.7622546260256392,
+      "idle": 9.1437736403054,
+      "readout": 0.589583963250494
+     },
+     "budget_ratio_device_over_generic": 5.869481478994516,
+     "rule_fidelity_carried_over": 0.014617250165740033,
+     "e_minus_b_device": 5.586357982033196e-06,
+     "e_minus_b_generic": 0.12736603055947185
+    },
+    "ibm_fez": {
+     "script_total": 15.12828299089584,
+     "cz": 506,
+     "wai_predicted": 2.6907303438745315e-07,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 15.12828299089584,
+     "wai_budget": {
+      "gate": 1.314422057014919,
+      "relaxation": 0.9945765982998078,
+      "idle": 11.911914391667596,
+      "readout": 0.9073699439135184
+     },
+     "budget_ratio_device_over_generic": 7.341366953543883,
+     "rule_fidelity_carried_over": 0.005066061068365299,
+     "e_minus_b_device": 2.6907303438745315e-07,
+     "e_minus_b_generic": 0.12736603055947185
+    },
+    "ibm_marrakesh": {
+     "script_total": 19.536967950123774,
+     "cz": 506,
+     "wai_predicted": 3.274934558737341e-09,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 19.536967950123774,
+     "wai_budget": {
+      "gate": 1.9919165089969293,
+      "relaxation": 1.2371547178798663,
+      "idle": 15.028229762300585,
+      "readout": 1.2796669609463927
+     },
+     "budget_ratio_device_over_generic": 9.480788465406103,
+     "rule_fidelity_carried_over": 0.0010858388193562179,
+     "e_minus_b_device": 3.274934558737341e-09,
+     "e_minus_b_generic": 0.12736603055947185
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-d12-s14-p2",
+   "family": "A1-D",
+   "package_cz": 523,
+   "patch_cz": 523,
+   "generic_budget": 2.001008607130335,
+   "generic_rule_fidelity": 0.43393914622661045,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 2.917169192778219,
+     "cz": 535,
+     "wai_predicted": 0.022146050269307764,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.848976160082236,
+     "wai_budget": {
+      "gate": 1.174652528235508,
+      "relaxation": 0.8991668094392077,
+      "idle": 1.5021106177003625,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.15648451069578673,
+      "readout": 0.11656169401137106
+     },
+     "budget_ratio_device_over_generic": 1.9235180430343517,
+     "rule_fidelity_carried_over": 0.2007186895802054,
+     "e_minus_b_device": 0.021301534639012094,
+     "e_minus_b_generic": 0.13519885191931988
+    },
+    "ibm_fez": {
+     "script_total": 4.509896060160521,
+     "cz": 535,
+     "wai_predicted": 0.0037313794647102286,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.633964506205435,
+     "wai_budget": {
+      "gate": 1.1917671059949957,
+      "relaxation": 1.0770331332731593,
+      "idle": 3.0777114287609897,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.17479071360271783,
+      "readout": 0.112662124573572
+     },
+     "budget_ratio_device_over_generic": 2.815562354969155,
+     "rule_fidelity_carried_over": 0.09531434401361849,
+     "e_minus_b_device": 0.003574376562321261,
+     "e_minus_b_generic": 0.13519885191931988
+    },
+    "ibm_marrakesh": {
+     "script_total": 3.742814627378564,
+     "cz": 535,
+     "wai_predicted": 0.008572795057728264,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.800725424318638,
+     "wai_budget": {
+      "gate": 1.3436549315109885,
+      "relaxation": 1.0661402247654772,
+      "idle": 2.0733920919546693,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.10312250537100648,
+      "readout": 0.21441567071649753
+     },
+     "budget_ratio_device_over_generic": 2.399152810843429,
+     "rule_fidelity_carried_over": 0.13493864933820432,
+     "e_minus_b_device": 0.008223779155263775,
+     "e_minus_b_generic": 0.13519885191931988
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-d16-s4-p1",
+   "family": "A1-D",
+   "package_cz": 507,
+   "patch_cz": 507,
+   "generic_budget": 1.9820361408864864,
+   "generic_rule_fidelity": 0.4451648584864442,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.477674219892921,
+     "cz": 500,
+     "wai_predicted": 0.010239006246528227,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 4.629591584713235,
+     "wai_budget": {
+      "gate": 1.2971462938085756,
+      "relaxation": 0.5169137271311767,
+      "idle": 2.3022460562738427,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.32668650097200913,
+      "readout": 0.18659900652763
+     },
+     "budget_ratio_device_over_generic": 2.3357755639322506,
+     "rule_fidelity_carried_over": 0.1510162373389884,
+     "e_minus_b_device": 0.009758743908751548,
+     "e_minus_b_generic": 0.1377883949060177
+    },
+    "ibm_fez": {
+     "script_total": 4.617906838208518,
+     "cz": 500,
+     "wai_predicted": 0.001240175578278209,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 6.744651459914108,
+     "wai_budget": {
+      "gate": 0.9588853875739596,
+      "relaxation": 1.6033659969362495,
+      "idle": 2.887515369864931,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.1038065179720624,
+      "readout": 0.19107818756690484
+     },
+     "budget_ratio_device_over_generic": 3.4028902504762057,
+     "rule_fidelity_carried_over": 0.06367296996335747,
+     "e_minus_b_device": 0.0011771588948841316,
+     "e_minus_b_generic": 0.1377883949060177
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.4213310875513665,
+     "cz": 500,
+     "wai_predicted": 0.0030210519666321726,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.844805437461701,
+     "wai_budget": {
+      "gate": 1.2327985425900765,
+      "relaxation": 1.0483492711436604,
+      "idle": 3.001768181629682,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.25553097956237963,
+      "readout": 0.3063584625359014
+     },
+     "budget_ratio_device_over_generic": 2.9488894359149023,
+     "rule_fidelity_carried_over": 0.091944745972588,
+     "e_minus_b_device": 0.0028948978965849873,
+     "e_minus_b_generic": 0.1377883949060177
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-r12-s0-p3",
+   "family": "A1-R",
+   "package_cz": 314,
+   "patch_cz": 314,
+   "generic_budget": 1.2608493885211447,
+   "generic_rule_fidelity": 0.605785184280373,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 1.8572535650498236,
+     "cz": 328,
+     "wai_predicted": 0.09699244999391246,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 2.384233109356097,
+     "wai_budget": {
+      "gate": 0.8272344849083372,
+      "relaxation": 0.38441438469882544,
+      "idle": 0.9904766670659789,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.08392749264603297,
+      "readout": 0.09818008003692258
+     },
+     "budget_ratio_device_over_generic": 1.8909737602780405,
+     "rule_fidelity_carried_over": 0.3875879570915596,
+     "e_minus_b_device": 0.09215962884279415,
+     "e_minus_b_generic": 0.2834131963193595
+    },
+    "ibm_fez": {
+     "script_total": 2.0793815959322766,
+     "cz": 328,
+     "wai_predicted": 0.08114157203823408,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 2.5464051900752667,
+     "wai_budget": {
+      "gate": 0.9617762410411113,
+      "relaxation": 0.4139186613016061,
+      "idle": 0.9574907961518874,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.06375631328445647,
+      "readout": 0.14946317829620573
+     },
+     "budget_ratio_device_over_generic": 2.0195950549351145,
+     "rule_fidelity_carried_over": 0.36338903367748887,
+     "e_minus_b_device": 0.07836285986546662,
+     "e_minus_b_generic": 0.2834131963193595
+    },
+    "ibm_marrakesh": {
+     "script_total": 2.4524012146312906,
+     "cz": 328,
+     "wai_predicted": 0.04876685732125796,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.0946992829159004,
+     "wai_budget": {
+      "gate": 0.9296767673463945,
+      "relaxation": 0.4874799695479041,
+      "idle": 1.3954126602272536,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.05035099561368014,
+      "readout": 0.2317788901806676
+     },
+     "budget_ratio_device_over_generic": 2.454455949370516,
+     "rule_fidelity_carried_over": 0.2922205201414495,
+     "e_minus_b_device": 0.04528862947731673,
+     "e_minus_b_generic": 0.2834131963193595
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-r16-s0-p3",
+   "family": "A1-R",
+   "package_cz": 543,
+   "patch_cz": 543,
+   "generic_budget": 2.114502111346404,
+   "generic_rule_fidelity": 0.42030424457084326,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 4.392287153039713,
+     "cz": 606,
+     "wai_predicted": 0.002873514836605662,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.900260191173136,
+     "wai_budget": {
+      "gate": 1.4778663915491228,
+      "relaxation": 0.7633264508621845,
+      "idle": 3.085054141735405,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.3874142004987938,
+      "readout": 0.18659900652763
+     },
+     "budget_ratio_device_over_generic": 2.7903780088524766,
+     "rule_fidelity_carried_over": 0.08904317526830484,
+     "e_minus_b_device": 0.002738732132128639,
+     "e_minus_b_generic": 0.12069336645383531
+    },
+    "ibm_fez": {
+     "script_total": 5.8195623600610435,
+     "cz": 606,
+     "wai_predicted": 0.0004299510473127861,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.7969816601962005,
+     "wai_budget": {
+      "gate": 1.4072079352450653,
+      "relaxation": 1.4495264454786125,
+      "idle": 3.907155458640197,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.6823905901179967,
+      "readout": 0.3507012307143282
+     },
+     "budget_ratio_device_over_generic": 3.687384192409953,
+     "rule_fidelity_carried_over": 0.040919942779225095,
+     "e_minus_b_device": 0.0004109735666747874,
+     "e_minus_b_generic": 0.12069336645383531
+    },
+    "ibm_marrakesh": {
+     "script_total": 5.660092964050142,
+     "cz": 606,
+     "wai_predicted": 0.0006111971499407838,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.442746245712122,
+     "wai_budget": {
+      "gate": 1.5919753812623514,
+      "relaxation": 1.3048828164996265,
+      "idle": 3.993271774542286,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.24625781087195736,
+      "readout": 0.3063584625359014
+     },
+     "budget_ratio_device_over_generic": 3.5198575616332546,
+     "rule_fidelity_carried_over": 0.047314919994142675,
+     "e_minus_b_device": 0.0005856745806775264,
+     "e_minus_b_generic": 0.12069336645383531
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-r20-s0-p3",
+   "family": "A1-R",
+   "package_cz": 652,
+   "patch_cz": 652,
+   "generic_budget": 2.5548058301514605,
+   "generic_rule_fidelity": 0.35318254358081735,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 5.055906651911407,
+     "cz": 652,
+     "wai_predicted": 0.000859044004816941,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.117093687316414,
+     "wai_budget": {
+      "gate": 1.716776715307805,
+      "relaxation": 0.8735700116607784,
+      "idle": 3.5166903874934134,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.7547763787728637,
+      "readout": 0.25528019408155384
+     },
+     "budget_ratio_device_over_generic": 2.7857669664447573,
+     "rule_fidelity_carried_over": 0.05505936343913364,
+     "e_minus_b_device": 0.0008111206991886092,
+     "e_minus_b_generic": 0.07770731902090393
+    },
+    "ibm_fez": {
+     "script_total": 7.0635789235264905,
+     "cz": 652,
+     "wai_predicted": 5.5209590197585865e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 9.883347010962629,
+     "wai_budget": {
+      "gate": 1.6442514738318952,
+      "relaxation": 1.4716519654397757,
+      "idle": 4.961702377556201,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.320670584565303,
+      "readout": 0.48507060956945314
+     },
+     "budget_ratio_device_over_generic": 3.8685315707051986,
+     "rule_fidelity_carried_over": 0.017841064001428503,
+     "e_minus_b_device": 5.10172365402158e-05,
+     "e_minus_b_generic": 0.07770731902090393
+    },
+    "ibm_marrakesh": {
+     "script_total": 8.094151041219698,
+     "cz": 652,
+     "wai_predicted": 1.9859850856201512e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 10.8373204699944,
+     "wai_budget": {
+      "gate": 1.7296958286659285,
+      "relaxation": 1.7958322143766936,
+      "idle": 6.397444120486885,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.4410570440017975,
+      "readout": 0.47329126246309544
+     },
+     "budget_ratio_device_over_generic": 4.241935078624709,
+     "rule_fidelity_carried_over": 0.012096008352935337,
+     "e_minus_b_device": 1.9652215655617805e-05,
+     "e_minus_b_generic": 0.07770731902090393
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-r24-s1-p1",
+   "family": "A1-R",
+   "package_cz": 391,
+   "patch_cz": 391,
+   "generic_budget": 1.6536067345504388,
+   "generic_rule_fidelity": 0.5357204050505991,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 4.516651074967749,
+     "cz": 369,
+     "wai_predicted": 0.00039004342863133097,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.91447968502588,
+     "wai_budget": {
+      "gate": 0.9324413215257207,
+      "relaxation": 0.7488835929859362,
+      "idle": 3.782102973692931,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 2.160359705202602,
+      "readout": 0.29069209161869003
+     },
+     "budget_ratio_device_over_generic": 4.78619221829522,
+     "rule_fidelity_carried_over": 0.050425018619908564,
+     "e_minus_b_device": 0.0003654139691415974,
+     "e_minus_b_generic": 0.19135848322339363
+    },
+    "ibm_fez": {
+     "script_total": 5.846853922871493,
+     "cz": 369,
+     "wai_predicted": 1.3688468741628816e-06,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 13.587659210690296,
+     "wai_budget": {
+      "gate": 0.9356466310026776,
+      "relaxation": 0.9910227368949229,
+      "idle": 4.947706433984853,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 6.437166484952629,
+      "readout": 0.276116923855214
+     },
+     "budget_ratio_device_over_generic": 8.21698347423841,
+     "rule_fidelity_carried_over": 0.005925016643565998,
+     "e_minus_b_device": 1.2558986188021713e-06,
+     "e_minus_b_generic": 0.19135848322339363
+    },
+    "ibm_marrakesh": {
+     "script_total": 6.943631488038426,
+     "cz": 369,
+     "wai_predicted": 3.237281402399626e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 10.382617030308417,
+     "wai_budget": {
+      "gate": 1.0348322574982887,
+      "relaxation": 1.1054957643564773,
+      "idle": 6.163351432878352,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.5707924519389918,
+      "readout": 0.5081451236363077
+     },
+     "budget_ratio_device_over_generic": 6.2787704073611605,
+     "rule_fidelity_carried_over": 0.01986392741363349,
+     "e_minus_b_device": 3.096611455153457e-05,
+     "e_minus_b_generic": 0.19135848322339363
+    }
+   }
+  },
+  {
+   "id": "ibm-a1-r30-s0-p1",
+   "family": "A1-R",
+   "package_cz": 624,
+   "patch_cz": 624,
+   "generic_budget": 2.551079920514975,
+   "generic_rule_fidelity": 0.36932636021089105,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 8.549234707600709,
+     "cz": 639,
+     "wai_predicted": 0.00019369327484318368,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 8.549234707600709,
+     "wai_budget": {
+      "gate": 1.318442062415283,
+      "relaxation": 0.8736296203658086,
+      "idle": 5.900825286922062,
+      "readout": 0.45633773789755355
+     },
+     "budget_ratio_device_over_generic": 3.3512218252554447,
+     "rule_fidelity_carried_over": 0.035505528053213525,
+     "e_minus_b_device": 0.00019369327484318368,
+     "e_minus_b_generic": 0.07799738952233475
+    },
+    "ibm_fez": {
+     "script_total": 11.481735601470744,
+     "cz": 639,
+     "wai_predicted": 1.0316813639267061e-05,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 11.481735601470744,
+     "wai_budget": {
+      "gate": 1.7382825688892023,
+      "relaxation": 1.0754743741905457,
+      "idle": 8.12511698583582,
+      "readout": 0.5428616725551747
+     },
+     "budget_ratio_device_over_generic": 4.500735358833046,
+     "rule_fidelity_carried_over": 0.011298694556438128,
+     "e_minus_b_device": 1.0316813639267061e-05,
+     "e_minus_b_generic": 0.07799738952233475
+    },
+    "ibm_marrakesh": {
+     "script_total": 15.716680854254815,
+     "cz": 639,
+     "wai_predicted": 1.4939368200653113e-07,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 15.716680854254815,
+     "wai_budget": {
+      "gate": 1.8112377229116212,
+      "relaxation": 1.6958435164787282,
+      "idle": 11.573264908413096,
+      "readout": 0.6363347064513687
+     },
+     "budget_ratio_device_over_generic": 6.160795170651556,
+     "rule_fidelity_carried_over": 0.00216223803343567,
+     "e_minus_b_device": 1.4939368200653113e-07,
+     "e_minus_b_generic": 0.07799738952233475
+    }
+   }
+  },
+  {
+   "id": "ibm-a2-03-distributed-accept-g-t2",
+   "family": "A2-G",
+   "package_cz": 648,
+   "patch_cz": 648,
+   "generic_budget": 2.429087142931428,
+   "generic_rule_fidelity": 0.3554448620035922,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 4.994315348154825,
+     "cz": 580,
+     "wai_predicted": 0.00041450908355436425,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.845360721846193,
+     "wai_budget": {
+      "gate": 1.21772144566581,
+      "relaxation": 0.9599776507875356,
+      "idle": 4.3454859584834304,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.1932052688020771,
+      "readout": 0.12897039810733918
+     },
+     "budget_ratio_device_over_generic": 3.229756801717041,
+     "rule_fidelity_carried_over": 0.03540817877331439,
+     "e_minus_b_device": 0.00039156433683483965,
+     "e_minus_b_generic": 0.08811723431935374
+    },
+    "ibm_fez": {
+     "script_total": 4.29764385905926,
+     "cz": 580,
+     "wai_predicted": 0.0011918645135158086,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 6.773573400197216,
+     "wai_budget": {
+      "gate": 1.5892045166885052,
+      "relaxation": 0.7159170249532073,
+      "idle": 2.8198544649313275,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.4529877618453673,
+      "readout": 0.19560963177880789
+     },
+     "budget_ratio_device_over_generic": 2.788526307056589,
+     "rule_fidelity_carried_over": 0.05588774358025866,
+     "e_minus_b_device": 0.0011436007974541741,
+     "e_minus_b_generic": 0.08811723431935374
+    },
+    "ibm_marrakesh": {
+     "script_total": 5.167805020467571,
+     "cz": 580,
+     "wai_predicted": 0.0005997682986347584,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.603955657479469,
+     "wai_budget": {
+      "gate": 1.5144182312861139,
+      "relaxation": 0.9541818586500457,
+      "idle": 4.00783626477343,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.8269904240965454,
+      "readout": 0.30052887867333433
+     },
+     "budget_ratio_device_over_generic": 3.1303758202363205,
+     "rule_fidelity_carried_over": 0.039241742614671865,
+     "e_minus_b_device": 0.0004984757291656967,
+     "e_minus_b_generic": 0.08811723431935374
+    }
+   }
+  },
+  {
+   "id": "ibm-a2-session-r-t1",
+   "family": "A2-R",
+   "package_cz": 554,
+   "patch_cz": 554,
+   "generic_budget": 2.048702115428386,
+   "generic_rule_fidelity": 0.4129885356396566,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 2.730498430333589,
+     "cz": 428,
+     "wai_predicted": 0.19196709659918532,
+     "wai_method": "density matrix",
+     "wai_budget_total": 3.784617645843475,
+     "wai_budget": {
+      "gate": 1.085723922038074,
+      "relaxation": 0.5213787358408263,
+      "idle": 1.9187328765093694,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.1688117043150975,
+      "readout": 0.08997040714010758
+     },
+     "budget_ratio_device_over_generic": 1.8473245169916306,
+     "rule_fidelity_carried_over": 0.19521484668334474,
+     "e_minus_b_device": 0.02271754726497326,
+     "e_minus_b_generic": 0.12890209510717623
+    },
+    "ibm_fez": {
+     "script_total": 2.5895119045798363,
+     "cz": 428,
+     "wai_predicted": 0.19567208393859473,
+     "wai_method": "density matrix",
+     "wai_budget_total": 3.230784724572853,
+     "wai_budget": {
+      "gate": 1.1108464993761853,
+      "relaxation": 0.5061464107195052,
+      "idle": 1.373787579547765,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.0938110203894154,
+      "readout": 0.14619321453998205
+     },
+     "budget_ratio_device_over_generic": 1.5769909642999964,
+     "rule_fidelity_carried_over": 0.24793491509117388,
+     "e_minus_b_device": 0.039526469223482213,
+     "e_minus_b_generic": 0.12890209510717623
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.150514747567615,
+     "cz": 428,
+     "wai_predicted": 0.1417000669929918,
+     "wai_method": "density matrix",
+     "wai_budget_total": 5.743050161808074,
+     "wai_budget": {
+      "gate": 0.9221320992607795,
+      "relaxation": 0.9559797223206622,
+      "idle": 3.378965424803524,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.19140510178652895,
+      "readout": 0.2945678136365789
+     },
+     "budget_ratio_device_over_generic": 2.8032626698426557,
+     "rule_fidelity_carried_over": 0.08382495352972845,
+     "e_minus_b_device": 0.003204977650976505,
+     "e_minus_b_generic": 0.12890209510717623
+    }
+   }
+  },
+  {
+   "id": "ibm-a2-phase-p-t1",
+   "family": "A2-P",
+   "package_cz": 23,
+   "patch_cz": 23,
+   "generic_budget": 0.11335683045047013,
+   "generic_rule_fidelity": 0.9639515090675198,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 0.08728174433925841,
+     "cz": 23,
+     "wai_predicted": 0.010208041753127254,
+     "wai_method": "density matrix",
+     "wai_budget_total": 0.10743657720537741,
+     "wai_budget": {
+      "gate": 0.028088066051219104,
+      "relaxation": 0.02631849207477006,
+      "idle": 0.03532704364490537,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 5.406715699358496e-05,
+      "readout": 0.017648908277489286
+     },
+     "budget_ratio_device_over_generic": 0.9477732993983147,
+     "rule_fidelity_carried_over": 0.9658016266078767,
+     "e_minus_b_device": 0.8981334827799139,
+     "e_minus_b_generic": 0.8928320136183964
+    },
+    "ibm_fez": {
+     "script_total": 0.10921358472812653,
+     "cz": 23,
+     "wai_predicted": 0.011977403068213372,
+     "wai_method": "density matrix",
+     "wai_budget_total": 0.12967335457967136,
+     "wai_budget": {
+      "gate": 0.054987004710044717,
+      "relaxation": 0.03072201649871764,
+      "idle": 0.032184533043895194,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 3.593973150854151e-05,
+      "readout": 0.01174386059550526
+     },
+     "budget_ratio_device_over_generic": 1.1439394879369933,
+     "rule_fidelity_carried_over": 0.9588708131155076,
+     "e_minus_b_device": 0.8783823036219593,
+     "e_minus_b_generic": 0.8928320136183964
+    },
+    "ibm_marrakesh": {
+     "script_total": 0.10026999044908498,
+     "cz": 23,
+     "wai_predicted": 0.0034192582022763434,
+     "wai_method": "density matrix",
+     "wai_budget_total": 0.11916457051969356,
+     "wai_budget": {
+      "gate": 0.04635563940798879,
+      "relaxation": 0.020811484408970543,
+      "idle": 0.030294013296288867,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 7.910462419771436e-05,
+      "readout": 0.021624328782247657
+     },
+     "budget_ratio_device_over_generic": 1.0512341430696677,
+     "rule_fidelity_carried_over": 0.9621399964115498,
+     "e_minus_b_device": 0.887661705792583,
+     "e_minus_b_generic": 0.8928320136183964
+    }
+   }
+  },
+  {
+   "id": "ibm-f-hub-2x2-p4",
+   "family": "F-hubbard",
+   "package_cz": 232,
+   "patch_cz": 286,
+   "generic_budget": 1.141022467673805,
+   "generic_rule_fidelity": 0.633475355014986,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 1.262109714046858,
+     "cz": 270,
+     "wai_predicted": 0.0010819335956149061,
+     "wai_method": "density matrix",
+     "wai_budget_total": 1.6029953261001824,
+     "wai_budget": {
+      "gate": 0.3891826365865638,
+      "relaxation": 0.44154016166124654,
+      "idle": 0.6742084948376301,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.013048593905984712,
+      "readout": 0.08501543910875724
+     },
+     "budget_ratio_device_over_generic": 1.4048762154247483,
+     "rule_fidelity_carried_over": 0.5265684138318278,
+     "e_minus_b_device": 0.20129267688675623,
+     "e_minus_b_generic": 0.31949218432388815
+    },
+    "ibm_fez": {
+     "script_total": 1.4102459291800558,
+     "cz": 270,
+     "wai_predicted": 0.0009538925219334781,
+     "wai_method": "density matrix",
+     "wai_budget_total": 1.6755887160576473,
+     "wai_budget": {
+      "gate": 0.7085420570616239,
+      "relaxation": 0.3247039269724328,
+      "idle": 0.5207602138648253,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.013401070422925605,
+      "readout": 0.10818144773583949
+     },
+     "budget_ratio_device_over_generic": 1.468497565585767,
+     "rule_fidelity_carried_over": 0.5114940448615672,
+     "e_minus_b_device": 0.18719794060185072,
+     "e_minus_b_generic": 0.31949218432388815
+    },
+    "ibm_marrakesh": {
+     "script_total": 1.9284396238506671,
+     "cz": 270,
+     "wai_predicted": 0.0032770011341571098,
+     "wai_method": "density matrix",
+     "wai_budget_total": 2.5035827853086494,
+     "wai_budget": {
+      "gate": 0.463817006881781,
+      "relaxation": 0.6178529854338297,
+      "idle": 1.3046357589764737,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.014267701579256869,
+      "readout": 0.1030093324373081
+     },
+     "budget_ratio_device_over_generic": 2.1941573073602023,
+     "rule_fidelity_carried_over": 0.3672517079055193,
+     "e_minus_b_device": 0.0817914319040611,
+     "e_minus_b_generic": 0.31949218432388815
+    }
+   }
+  },
+  {
+   "id": "ibm-f-hub-2x3-p4",
+   "family": "F-hubbard",
+   "package_cz": 484,
+   "patch_cz": 556,
+   "generic_budget": 2.170067891897665,
+   "generic_rule_fidelity": 0.41167215286412545,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 2.9423438059607543,
+     "cz": 644,
+     "wai_predicted": 0.025149852964731385,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.7210519826016797,
+     "wai_budget": {
+      "gate": 1.7352126152708507,
+      "relaxation": 0.7407261899859987,
+      "idle": 1.0434748604557504,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.07213106495235316,
+      "readout": 0.1295072519367269
+     },
+     "budget_ratio_device_over_generic": 1.714716851253774,
+     "rule_fidelity_carried_over": 0.2183056347859476,
+     "e_minus_b_device": 0.02420848753791787,
+     "e_minus_b_generic": 0.11416986543888759
+    },
+    "ibm_fez": {
+     "script_total": 4.635538839387453,
+     "cz": 644,
+     "wai_predicted": 0.003101626812919625,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.827933635990176,
+     "wai_budget": {
+      "gate": 1.3743379034488536,
+      "relaxation": 1.664873127218262,
+      "idle": 2.345534268340774,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.17067898215014912,
+      "readout": 0.27250935483213706
+     },
+     "budget_ratio_device_over_generic": 2.685599679968449,
+     "rule_fidelity_carried_over": 0.09222307662519691,
+     "e_minus_b_device": 0.002944154393665306,
+     "e_minus_b_generic": 0.11416986543888759
+    },
+    "ibm_marrakesh": {
+     "script_total": 4.372817487761625,
+     "cz": 644,
+     "wai_predicted": 0.003908174062412559,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 5.571054041966656,
+     "wai_budget": {
+      "gate": 1.7350632852525032,
+      "relaxation": 1.428139123549959,
+      "idle": 2.112754858935138,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.05543869920902505,
+      "readout": 0.23965807502003098
+     },
+     "budget_ratio_device_over_generic": 2.567225690388388,
+     "rule_fidelity_carried_over": 0.102439319386163,
+     "e_minus_b_device": 0.0038064661422898445,
+     "e_minus_b_generic": 0.11416986543888759
+    }
+   }
+  },
+  {
+   "id": "ibm-f-hub-2x4-p3",
+   "family": "F-hubbard",
+   "package_cz": 654,
+   "patch_cz": 733,
+   "generic_budget": 2.8707866407664127,
+   "generic_rule_fidelity": 0.3103457197866622,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 5.434346667420196,
+     "cz": 741,
+     "wai_predicted": 0.0005118877367508363,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 7.625879067635924,
+     "wai_budget": {
+      "gate": 1.8447886820162935,
+      "relaxation": 0.9977076855200603,
+      "idle": 3.922302300546244,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.6888167517010441,
+      "readout": 0.17226364785228226
+     },
+     "budget_ratio_device_over_generic": 2.656372632972838,
+     "rule_fidelity_carried_over": 0.04468409677739157,
+     "e_minus_b_device": 0.00048766636332655405,
+     "e_minus_b_generic": 0.05665434243094097
+    },
+    "ibm_fez": {
+     "script_total": 7.753168196913674,
+     "cz": 741,
+     "wai_predicted": 2.0257674193905506e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 10.856087943187251,
+     "wai_budget": {
+      "gate": 1.7484514857873212,
+      "relaxation": 1.7658477360587321,
+      "idle": 5.760166466959765,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.2240040000409314,
+      "readout": 0.3576182543405011
+     },
+     "budget_ratio_device_over_generic": 3.7815725449694186,
+     "rule_fidelity_carried_over": 0.011977822630687569,
+     "e_minus_b_device": 1.9286832607876773e-05,
+     "e_minus_b_generic": 0.05665434243094097
+    },
+    "ibm_marrakesh": {
+     "script_total": 8.112714507849324,
+     "cz": 741,
+     "wai_predicted": 1.6437147563604675e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 11.057138638784137,
+     "wai_budget": {
+      "gate": 1.9832291463526524,
+      "relaxation": 1.6497349605407081,
+      "idle": 6.651774925233256,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.46752445712535534,
+      "readout": 0.30487514953216616
+     },
+     "budget_ratio_device_over_generic": 3.851605856655449,
+     "rule_fidelity_carried_over": 0.011035452694830179,
+     "e_minus_b_device": 1.5774140455544553e-05,
+     "e_minus_b_generic": 0.05665434243094097
+    }
+   }
+  },
+  {
+   "id": "ibm-f-hub-3x4-p1",
+   "family": "F-hubbard",
+   "package_cz": 539,
+   "patch_cz": 539,
+   "generic_budget": 2.215891713083444,
+   "generic_rule_fidelity": 0.42299651250125275,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 5.056462708005636,
+     "cz": 441,
+     "wai_predicted": 0.0002490144512620127,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 8.356012482703242,
+     "wai_budget": {
+      "gate": 0.9251181161893618,
+      "relaxation": 0.8184881351673136,
+      "idle": 4.398624582354488,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.9171582331582449,
+      "readout": 0.2966234158338343
+     },
+     "budget_ratio_device_over_generic": 3.7709480266414896,
+     "rule_fidelity_carried_over": 0.03898840271959531,
+     "e_minus_b_device": 0.00023497945276079198,
+     "e_minus_b_generic": 0.10905622401563828
+    },
+    "ibm_fez": {
+     "script_total": 6.5609550228806786,
+     "cz": 441,
+     "wai_predicted": 1.0715538466585163e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 11.539349760493062,
+     "wai_budget": {
+      "gate": 1.1369375585243788,
+      "relaxation": 1.0909888835857673,
+      "idle": 5.466493119753078,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 3.548332332363782,
+      "readout": 0.29659786626605655
+     },
+     "budget_ratio_device_over_generic": 5.207542269489287,
+     "rule_fidelity_carried_over": 0.011327472653943375,
+     "e_minus_b_device": 9.739217712832469e-06,
+     "e_minus_b_generic": 0.10905622401563828
+    },
+    "ibm_marrakesh": {
+     "script_total": 7.228060233888504,
+     "cz": 441,
+     "wai_predicted": 2.6380471319149363e-05,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 10.63926829225511,
+     "wai_budget": {
+      "gate": 1.0692143851891247,
+      "relaxation": 1.2279497145165492,
+      "idle": 6.608046351174022,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 1.3180639229715905,
+      "readout": 0.41599391840382305
+     },
+     "budget_ratio_device_over_generic": 4.801348472687964,
+     "rule_fidelity_carried_over": 0.016066182714711295,
+     "e_minus_b_device": 2.395656180609676e-05,
+     "e_minus_b_generic": 0.10905622401563828
+    }
+   }
+  },
+  {
+   "id": "ibm-f-hub-4x4-p1",
+   "family": "F-hubbard",
+   "package_cz": 619,
+   "patch_cz": 619,
+   "generic_budget": 2.6023649785067966,
+   "generic_rule_fidelity": 0.3722858841855808,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 8.872930829915225,
+     "cz": 700,
+     "wai_predicted": 0.00014013128427868703,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 8.872930829915225,
+     "wai_budget": {
+      "gate": 1.7981673193875132,
+      "relaxation": 0.8465201823869024,
+      "idle": 5.7833933404564215,
+      "readout": 0.44484998768438794
+     },
+     "budget_ratio_device_over_generic": 3.4095643398207724,
+     "rule_fidelity_carried_over": 0.034425166877360726,
+     "e_minus_b_device": 0.00014013128427868703,
+     "e_minus_b_generic": 0.07409813034522898
+    },
+    "ibm_fez": {
+     "script_total": 11.712748559624842,
+     "cz": 700,
+     "wai_predicted": 8.188756037366838e-06,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 11.712748559624842,
+     "wai_budget": {
+      "gate": 1.694366365642799,
+      "relaxation": 1.4828192046034068,
+      "idle": 7.92810752535103,
+      "readout": 0.6074554640276054
+     },
+     "budget_ratio_device_over_generic": 4.500809323965567,
+     "rule_fidelity_carried_over": 0.011711088505975865,
+     "e_minus_b_device": 8.188756037366838e-06,
+     "e_minus_b_generic": 0.07409813034522898
+    },
+    "ibm_marrakesh": {
+     "script_total": 16.285550131888172,
+     "cz": 700,
+     "wai_predicted": 8.458151171302476e-08,
+     "wai_method": "script (wider than WAI's forecast takes)",
+     "wai_budget_total": 16.285550131888172,
+     "wai_budget": {
+      "gate": 1.8373702485567878,
+      "relaxation": 1.608305931497117,
+      "idle": 12.058731992970795,
+      "readout": 0.7811419588634737
+     },
+     "budget_ratio_device_over_generic": 6.257980823747717,
+     "rule_fidelity_carried_over": 0.0020632592522719516,
+     "e_minus_b_device": 8.458151171302476e-08,
+     "e_minus_b_generic": 0.07409813034522898
+    }
+   }
+  },
+  {
+   "id": "ibm-e-labs8-p2",
+   "family": "E",
+   "package_cz": 594,
+   "patch_cz": 668,
+   "generic_budget": 2.4936756545763004,
+   "generic_rule_fidelity": 0.3442763472945371,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 3.0072883356331572,
+     "cz": 536,
+     "wai_predicted": 0.002183752489949611,
+     "wai_method": "density matrix",
+     "wai_budget_total": 4.0368927513182085,
+     "wai_budget": {
+      "gate": 1.069396019927447,
+      "relaxation": 0.8267005272414591,
+      "idle": 1.9389439626527782,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.08854992463794265,
+      "readout": 0.11330231685858141
+     },
+     "budget_ratio_device_over_generic": 1.6188523731664355,
+     "rule_fidelity_carried_over": 0.17795946847184582,
+     "e_minus_b_device": 0.017652237178395386,
+     "e_minus_b_generic": 0.08260577756644784
+    },
+    "ibm_fez": {
+     "script_total": 3.1563693793171756,
+     "cz": 536,
+     "wai_predicted": 0.0028363966810224634,
+     "wai_method": "density matrix",
+     "wai_budget_total": 3.882392536715746,
+     "wai_budget": {
+      "gate": 1.3897454819425796,
+      "relaxation": 0.6450230832139059,
+      "idle": 1.7117976059609523,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.047977877217865006,
+      "readout": 0.08784848838044294
+     },
+     "budget_ratio_device_over_generic": 1.55689555279209,
+     "rule_fidelity_carried_over": 0.1901134566128659,
+     "e_minus_b_device": 0.020601476382202548,
+     "e_minus_b_generic": 0.08260577756644784
+    },
+    "ibm_marrakesh": {
+     "script_total": 3.607823671881956,
+     "cz": 536,
+     "wai_predicted": 0.003067258458068742,
+     "wai_method": "density matrix",
+     "wai_budget_total": 4.650929486103348,
+     "wai_budget": {
+      "gate": 1.452187996732345,
+      "relaxation": 0.8101648410382503,
+      "idle": 2.2442333299839445,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.06225825855819408,
+      "readout": 0.08208505979061428
+     },
+     "budget_ratio_device_over_generic": 1.8650899837627786,
+     "rule_fidelity_carried_over": 0.13686431623870673,
+     "e_minus_b_device": 0.009552718683490216,
+     "e_minus_b_generic": 0.08260577756644784
+    }
+   }
+  },
+  {
+   "id": "ibm-q7-b16-p2",
+   "family": "Q7",
+   "package_cz": null,
+   "patch_cz": 449,
+   "generic_budget": 1.779270341853968,
+   "generic_rule_fidelity": 0.48834813228131685,
+   "devices": {
+    "ibm_kingston": {
+     "script_total": 2.248973661020342,
+     "cz": 442,
+     "wai_predicted": 0.05644623317410566,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 2.9486705258751957,
+     "wai_budget": {
+      "gate": 0.7315139870785194,
+      "relaxation": 0.678821159502984,
+      "idle": 1.246488739309549,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.09746977581668145,
+      "readout": 0.19437686416746208
+     },
+     "budget_ratio_device_over_generic": 1.6572358098223194,
+     "rule_fidelity_carried_over": 0.30489579328591737,
+     "e_minus_b_device": 0.05240933650894894,
+     "e_minus_b_generic": 0.16876124036896226
+    },
+    "ibm_fez": {
+     "script_total": 3.078730050351147,
+     "cz": 442,
+     "wai_predicted": 0.021983033491049978,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.8546897952141834,
+     "wai_budget": {
+      "gate": 1.1000915937483209,
+      "relaxation": 0.6459815166480908,
+      "idle": 1.7583457299884562,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.18373236118186692,
+      "readout": 0.16653859364744858
+     },
+     "budget_ratio_device_over_generic": 2.1664441341711265,
+     "rule_fidelity_carried_over": 0.21166542281463518,
+     "e_minus_b_device": 0.021180172482037914,
+     "e_minus_b_generic": 0.16876124036896226
+    },
+    "ibm_marrakesh": {
+     "script_total": 2.916484651106055,
+     "cz": 442,
+     "wai_predicted": 0.024867775776462313,
+     "wai_method": "error budget, the readout's share as the figure reads it",
+     "wai_budget_total": 3.7494984264185525,
+     "wai_budget": {
+      "gate": 0.9811079839248161,
+      "relaxation": 0.7271040970080622,
+      "idle": 1.7507569474131472,
+      "coherent": 0.0,
+      "leakage": 0.0,
+      "zz": 0.09208578513403806,
+      "readout": 0.19844361293848875
+     },
+     "budget_ratio_device_over_generic": 2.1073236248695304,
+     "rule_fidelity_carried_over": 0.22082710913304907,
+     "e_minus_b_device": 0.02352954469477123,
+     "e_minus_b_generic": 0.16876124036896226
+    }
+   }
+  }
+ ],
+ "ibm_kingston": {
+  "circuits": 29,
+  "median_budget_ratio": 2.656372632972838,
+  "range": [
+   0.9477732993983147,
+   5.869481478994516
+  ],
+  "median_visible_loss_per_patch_cz": 0.004240296886027731,
+  "cz_at_30pct": 283.9359677779237,
+  "generic_cz_at_30pct": 754.239734321934,
+  "below_30pct_carried_over": 25
+ },
+ "ibm_fez": {
+  "circuits": 29,
+  "median_budget_ratio": 3.3606386963689983,
+  "range": [
+   1.1439394879369933,
+   8.21698347423841
+  ],
+  "median_visible_loss_per_patch_cz": 0.00536449804609302,
+  "cz_at_30pct": 224.43344925381362,
+  "generic_cz_at_30pct": 754.239734321934,
+  "below_30pct_carried_over": 26
+ },
+ "ibm_marrakesh": {
+  "circuits": 29,
+  "median_budget_ratio": 2.9488894359149023,
+  "range": [
+   1.0512341430696677,
+   9.480788465406103
+  ],
+  "median_visible_loss_per_patch_cz": 0.004707233667874447,
+  "cz_at_30pct": 255.77077429080646,
+  "generic_cz_at_30pct": 754.239734321934,
+  "below_30pct_carried_over": 27
+ }
+}

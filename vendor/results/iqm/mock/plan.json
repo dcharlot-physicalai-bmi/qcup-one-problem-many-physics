@@ -1,0 +1,2346 @@
+{
+ "backend": "emerald:mock",
+ "price_per_second_read": "0.00",
+ "transpile": "qiskit transpile, IQM client 36.0.0 target, optimization_level 3, seed 7",
+ "circuits": {
+  "qcup-a1-A12-p1-cold": {
+   "qubits": 12,
+   "cz": 212,
+   "prx_or_r": 278,
+   "measure": 12,
+   "reset": 0,
+   "depth": 227,
+   "ops": {
+    "r": 278,
+    "cz": 212,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-A12-p1-warm": {
+   "qubits": 12,
+   "cz": 212,
+   "prx_or_r": 284,
+   "measure": 12,
+   "reset": 0,
+   "depth": 227,
+   "ops": {
+    "r": 284,
+    "cz": 212,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-A12-p2-cold": {
+   "qubits": 12,
+   "cz": 451,
+   "prx_or_r": 609,
+   "measure": 12,
+   "reset": 0,
+   "depth": 409,
+   "ops": {
+    "r": 609,
+    "cz": 451,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-A12-p2-warm": {
+   "qubits": 12,
+   "cz": 451,
+   "prx_or_r": 654,
+   "measure": 12,
+   "reset": 0,
+   "depth": 418,
+   "ops": {
+    "r": 654,
+    "cz": 451,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-A16-p1-cold": {
+   "qubits": 16,
+   "cz": 412,
+   "prx_or_r": 573,
+   "measure": 16,
+   "reset": 0,
+   "depth": 365,
+   "ops": {
+    "r": 573,
+    "cz": 412,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-A16-p1-warm": {
+   "qubits": 16,
+   "cz": 412,
+   "prx_or_r": 598,
+   "measure": 16,
+   "reset": 0,
+   "depth": 366,
+   "ops": {
+    "r": 598,
+    "cz": 412,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B12-p1-cold": {
+   "qubits": 12,
+   "cz": 120,
+   "prx_or_r": 156,
+   "measure": 12,
+   "reset": 0,
+   "depth": 138,
+   "ops": {
+    "r": 156,
+    "cz": 120,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B12-p1-warm": {
+   "qubits": 12,
+   "cz": 120,
+   "prx_or_r": 169,
+   "measure": 12,
+   "reset": 0,
+   "depth": 140,
+   "ops": {
+    "r": 169,
+    "cz": 120,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B12-p2-cold": {
+   "qubits": 12,
+   "cz": 249,
+   "prx_or_r": 349,
+   "measure": 12,
+   "reset": 0,
+   "depth": 223,
+   "ops": {
+    "r": 349,
+    "cz": 249,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B12-p2-warm": {
+   "qubits": 12,
+   "cz": 249,
+   "prx_or_r": 381,
+   "measure": 12,
+   "reset": 0,
+   "depth": 229,
+   "ops": {
+    "r": 381,
+    "cz": 249,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B12-p3-cold": {
+   "qubits": 12,
+   "cz": 374,
+   "prx_or_r": 529,
+   "measure": 12,
+   "reset": 0,
+   "depth": 366,
+   "ops": {
+    "r": 529,
+    "cz": 374,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B12-p3-warm": {
+   "qubits": 12,
+   "cz": 336,
+   "prx_or_r": 507,
+   "measure": 12,
+   "reset": 0,
+   "depth": 374,
+   "ops": {
+    "r": 507,
+    "cz": 336,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B16-p1-cold": {
+   "qubits": 16,
+   "cz": 175,
+   "prx_or_r": 226,
+   "measure": 16,
+   "reset": 0,
+   "depth": 124,
+   "ops": {
+    "r": 226,
+    "cz": 175,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B16-p1-warm": {
+   "qubits": 16,
+   "cz": 175,
+   "prx_or_r": 247,
+   "measure": 16,
+   "reset": 0,
+   "depth": 127,
+   "ops": {
+    "r": 247,
+    "cz": 175,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B16-p2-cold": {
+   "qubits": 16,
+   "cz": 367,
+   "prx_or_r": 506,
+   "measure": 16,
+   "reset": 0,
+   "depth": 272,
+   "ops": {
+    "r": 506,
+    "cz": 367,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B16-p2-warm": {
+   "qubits": 16,
+   "cz": 367,
+   "prx_or_r": 540,
+   "measure": 16,
+   "reset": 0,
+   "depth": 277,
+   "ops": {
+    "r": 540,
+    "cz": 367,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B20-p1-cold": {
+   "qubits": 20,
+   "cz": 304,
+   "prx_or_r": 407,
+   "measure": 20,
+   "reset": 0,
+   "depth": 209,
+   "ops": {
+    "r": 407,
+    "cz": 304,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B20-p1-warm": {
+   "qubits": 20,
+   "cz": 303,
+   "prx_or_r": 417,
+   "measure": 20,
+   "reset": 0,
+   "depth": 217,
+   "ops": {
+    "r": 417,
+    "cz": 303,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B24-p1-cold": {
+   "qubits": 24,
+   "cz": 451,
+   "prx_or_r": 612,
+   "measure": 24,
+   "reset": 0,
+   "depth": 317,
+   "ops": {
+    "r": 612,
+    "cz": 451,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-B24-p1-warm": {
+   "qubits": 24,
+   "cz": 440,
+   "prx_or_r": 636,
+   "measure": 24,
+   "reset": 0,
+   "depth": 298,
+   "ops": {
+    "r": 636,
+    "cz": 440,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C12-p1-cold": {
+   "qubits": 12,
+   "cz": 80,
+   "prx_or_r": 130,
+   "measure": 12,
+   "reset": 0,
+   "depth": 102,
+   "ops": {
+    "r": 130,
+    "cz": 80,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C12-p1-warm": {
+   "qubits": 12,
+   "cz": 80,
+   "prx_or_r": 135,
+   "measure": 12,
+   "reset": 0,
+   "depth": 103,
+   "ops": {
+    "r": 135,
+    "cz": 80,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C12-p2-cold": {
+   "qubits": 12,
+   "cz": 146,
+   "prx_or_r": 212,
+   "measure": 12,
+   "reset": 0,
+   "depth": 148,
+   "ops": {
+    "r": 212,
+    "cz": 146,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C12-p2-warm": {
+   "qubits": 12,
+   "cz": 146,
+   "prx_or_r": 230,
+   "measure": 12,
+   "reset": 0,
+   "depth": 151,
+   "ops": {
+    "r": 230,
+    "cz": 146,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C12-p3-cold": {
+   "qubits": 12,
+   "cz": 255,
+   "prx_or_r": 388,
+   "measure": 12,
+   "reset": 0,
+   "depth": 242,
+   "ops": {
+    "r": 388,
+    "cz": 255,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C12-p3-warm": {
+   "qubits": 12,
+   "cz": 255,
+   "prx_or_r": 414,
+   "measure": 12,
+   "reset": 0,
+   "depth": 245,
+   "ops": {
+    "r": 414,
+    "cz": 255,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C15-p1-cold": {
+   "qubits": 15,
+   "cz": 106,
+   "prx_or_r": 167,
+   "measure": 15,
+   "reset": 0,
+   "depth": 129,
+   "ops": {
+    "r": 167,
+    "cz": 106,
+    "measure": 15,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C15-p1-warm": {
+   "qubits": 15,
+   "cz": 106,
+   "prx_or_r": 177,
+   "measure": 15,
+   "reset": 0,
+   "depth": 128,
+   "ops": {
+    "r": 177,
+    "cz": 106,
+    "measure": 15,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C15-p2-cold": {
+   "qubits": 15,
+   "cz": 199,
+   "prx_or_r": 306,
+   "measure": 15,
+   "reset": 0,
+   "depth": 187,
+   "ops": {
+    "r": 306,
+    "cz": 199,
+    "measure": 15,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C15-p2-warm": {
+   "qubits": 15,
+   "cz": 199,
+   "prx_or_r": 326,
+   "measure": 15,
+   "reset": 0,
+   "depth": 190,
+   "ops": {
+    "r": 326,
+    "cz": 199,
+    "measure": 15,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C15-p3-cold": {
+   "qubits": 15,
+   "cz": 336,
+   "prx_or_r": 509,
+   "measure": 15,
+   "reset": 0,
+   "depth": 302,
+   "ops": {
+    "r": 509,
+    "cz": 336,
+    "measure": 15,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C15-p3-warm": {
+   "qubits": 15,
+   "cz": 336,
+   "prx_or_r": 553,
+   "measure": 15,
+   "reset": 0,
+   "depth": 307,
+   "ops": {
+    "r": 553,
+    "cz": 336,
+    "measure": 15,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C18-p1-cold": {
+   "qubits": 18,
+   "cz": 127,
+   "prx_or_r": 191,
+   "measure": 18,
+   "reset": 0,
+   "depth": 157,
+   "ops": {
+    "r": 191,
+    "cz": 127,
+    "measure": 18,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C18-p1-warm": {
+   "qubits": 18,
+   "cz": 127,
+   "prx_or_r": 211,
+   "measure": 18,
+   "reset": 0,
+   "depth": 162,
+   "ops": {
+    "r": 211,
+    "cz": 127,
+    "measure": 18,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C18-p2-cold": {
+   "qubits": 18,
+   "cz": 250,
+   "prx_or_r": 392,
+   "measure": 18,
+   "reset": 0,
+   "depth": 244,
+   "ops": {
+    "r": 392,
+    "cz": 250,
+    "measure": 18,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C18-p2-warm": {
+   "qubits": 18,
+   "cz": 250,
+   "prx_or_r": 423,
+   "measure": 18,
+   "reset": 0,
+   "depth": 247,
+   "ops": {
+    "r": 423,
+    "cz": 250,
+    "measure": 18,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C18-p3-cold": {
+   "qubits": 18,
+   "cz": 377,
+   "prx_or_r": 565,
+   "measure": 18,
+   "reset": 0,
+   "depth": 327,
+   "ops": {
+    "r": 565,
+    "cz": 377,
+    "measure": 18,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C18-p3-warm": {
+   "qubits": 18,
+   "cz": 377,
+   "prx_or_r": 609,
+   "measure": 18,
+   "reset": 0,
+   "depth": 328,
+   "ops": {
+    "r": 609,
+    "cz": 377,
+    "measure": 18,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C24-p1-cold": {
+   "qubits": 24,
+   "cz": 173,
+   "prx_or_r": 264,
+   "measure": 24,
+   "reset": 0,
+   "depth": 225,
+   "ops": {
+    "r": 264,
+    "cz": 173,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C24-p1-warm": {
+   "qubits": 24,
+   "cz": 173,
+   "prx_or_r": 284,
+   "measure": 24,
+   "reset": 0,
+   "depth": 230,
+   "ops": {
+    "r": 284,
+    "cz": 173,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C24-p2-cold": {
+   "qubits": 24,
+   "cz": 318,
+   "prx_or_r": 484,
+   "measure": 24,
+   "reset": 0,
+   "depth": 271,
+   "ops": {
+    "r": 484,
+    "cz": 318,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C24-p2-warm": {
+   "qubits": 24,
+   "cz": 335,
+   "prx_or_r": 536,
+   "measure": 24,
+   "reset": 0,
+   "depth": 293,
+   "ops": {
+    "r": 536,
+    "cz": 335,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C30-p1-cold": {
+   "qubits": 30,
+   "cz": 228,
+   "prx_or_r": 370,
+   "measure": 30,
+   "reset": 0,
+   "depth": 294,
+   "ops": {
+    "r": 370,
+    "cz": 228,
+    "measure": 30,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C30-p1-warm": {
+   "qubits": 30,
+   "cz": 228,
+   "prx_or_r": 393,
+   "measure": 30,
+   "reset": 0,
+   "depth": 296,
+   "ops": {
+    "r": 393,
+    "cz": 228,
+    "measure": 30,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C42-p1-cold": {
+   "qubits": 42,
+   "cz": 302,
+   "prx_or_r": 496,
+   "measure": 42,
+   "reset": 0,
+   "depth": 430,
+   "ops": {
+    "r": 496,
+    "cz": 302,
+    "measure": 42,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-C42-p1-warm": {
+   "qubits": 42,
+   "cz": 302,
+   "prx_or_r": 531,
+   "measure": 42,
+   "reset": 0,
+   "depth": 431,
+   "ops": {
+    "r": 531,
+    "cz": 302,
+    "measure": 42,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-D12-p1-cold": {
+   "qubits": 12,
+   "cz": 212,
+   "prx_or_r": 273,
+   "measure": 12,
+   "reset": 0,
+   "depth": 225,
+   "ops": {
+    "r": 273,
+    "cz": 212,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-D12-p1-warm": {
+   "qubits": 12,
+   "cz": 212,
+   "prx_or_r": 285,
+   "measure": 12,
+   "reset": 0,
+   "depth": 227,
+   "ops": {
+    "r": 285,
+    "cz": 212,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-D12-p2-cold": {
+   "qubits": 12,
+   "cz": 443,
+   "prx_or_r": 615,
+   "measure": 12,
+   "reset": 0,
+   "depth": 415,
+   "ops": {
+    "r": 615,
+    "cz": 443,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-D12-p2-warm": {
+   "qubits": 12,
+   "cz": 451,
+   "prx_or_r": 621,
+   "measure": 12,
+   "reset": 0,
+   "depth": 411,
+   "ops": {
+    "r": 621,
+    "cz": 451,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-D16-p1-cold": {
+   "qubits": 16,
+   "cz": 412,
+   "prx_or_r": 572,
+   "measure": 16,
+   "reset": 0,
+   "depth": 365,
+   "ops": {
+    "r": 572,
+    "cz": 412,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-D16-p1-warm": {
+   "qubits": 16,
+   "cz": 412,
+   "prx_or_r": 588,
+   "measure": 16,
+   "reset": 0,
+   "depth": 366,
+   "ops": {
+    "r": 588,
+    "cz": 412,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R12-p1-cold": {
+   "qubits": 12,
+   "cz": 68,
+   "prx_or_r": 96,
+   "measure": 12,
+   "reset": 0,
+   "depth": 96,
+   "ops": {
+    "r": 96,
+    "cz": 68,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R12-p1-warm": {
+   "qubits": 12,
+   "cz": 68,
+   "prx_or_r": 111,
+   "measure": 12,
+   "reset": 0,
+   "depth": 97,
+   "ops": {
+    "r": 111,
+    "cz": 68,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R12-p2-cold": {
+   "qubits": 12,
+   "cz": 145,
+   "prx_or_r": 205,
+   "measure": 12,
+   "reset": 0,
+   "depth": 157,
+   "ops": {
+    "r": 205,
+    "cz": 145,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R12-p2-warm": {
+   "qubits": 12,
+   "cz": 145,
+   "prx_or_r": 233,
+   "measure": 12,
+   "reset": 0,
+   "depth": 160,
+   "ops": {
+    "r": 233,
+    "cz": 145,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R12-p3-cold": {
+   "qubits": 12,
+   "cz": 219,
+   "prx_or_r": 289,
+   "measure": 12,
+   "reset": 0,
+   "depth": 225,
+   "ops": {
+    "r": 289,
+    "cz": 219,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R12-p3-warm": {
+   "qubits": 12,
+   "cz": 219,
+   "prx_or_r": 333,
+   "measure": 12,
+   "reset": 0,
+   "depth": 231,
+   "ops": {
+    "r": 333,
+    "cz": 219,
+    "measure": 12,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R16-p1-cold": {
+   "qubits": 16,
+   "cz": 124,
+   "prx_or_r": 178,
+   "measure": 16,
+   "reset": 0,
+   "depth": 148,
+   "ops": {
+    "r": 178,
+    "cz": 124,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R16-p1-warm": {
+   "qubits": 16,
+   "cz": 124,
+   "prx_or_r": 192,
+   "measure": 16,
+   "reset": 0,
+   "depth": 150,
+   "ops": {
+    "r": 192,
+    "cz": 124,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R16-p2-cold": {
+   "qubits": 16,
+   "cz": 251,
+   "prx_or_r": 373,
+   "measure": 16,
+   "reset": 0,
+   "depth": 245,
+   "ops": {
+    "r": 373,
+    "cz": 251,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R16-p2-warm": {
+   "qubits": 16,
+   "cz": 254,
+   "prx_or_r": 410,
+   "measure": 16,
+   "reset": 0,
+   "depth": 255,
+   "ops": {
+    "r": 410,
+    "cz": 254,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R16-p3-cold": {
+   "qubits": 16,
+   "cz": 404,
+   "prx_or_r": 599,
+   "measure": 16,
+   "reset": 0,
+   "depth": 435,
+   "ops": {
+    "r": 599,
+    "cz": 404,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R16-p3-warm": {
+   "qubits": 16,
+   "cz": 404,
+   "prx_or_r": 645,
+   "measure": 16,
+   "reset": 0,
+   "depth": 437,
+   "ops": {
+    "r": 645,
+    "cz": 404,
+    "measure": 16,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R20-p1-cold": {
+   "qubits": 20,
+   "cz": 136,
+   "prx_or_r": 216,
+   "measure": 20,
+   "reset": 0,
+   "depth": 158,
+   "ops": {
+    "r": 216,
+    "cz": 136,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R20-p1-warm": {
+   "qubits": 20,
+   "cz": 136,
+   "prx_or_r": 231,
+   "measure": 20,
+   "reset": 0,
+   "depth": 161,
+   "ops": {
+    "r": 231,
+    "cz": 136,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R20-p2-cold": {
+   "qubits": 20,
+   "cz": 305,
+   "prx_or_r": 463,
+   "measure": 20,
+   "reset": 0,
+   "depth": 318,
+   "ops": {
+    "r": 463,
+    "cz": 305,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R20-p2-warm": {
+   "qubits": 20,
+   "cz": 305,
+   "prx_or_r": 496,
+   "measure": 20,
+   "reset": 0,
+   "depth": 318,
+   "ops": {
+    "r": 496,
+    "cz": 305,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R20-p3-cold": {
+   "qubits": 20,
+   "cz": 467,
+   "prx_or_r": 696,
+   "measure": 20,
+   "reset": 0,
+   "depth": 457,
+   "ops": {
+    "r": 696,
+    "cz": 467,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R20-p3-warm": {
+   "qubits": 20,
+   "cz": 474,
+   "prx_or_r": 773,
+   "measure": 20,
+   "reset": 0,
+   "depth": 444,
+   "ops": {
+    "r": 773,
+    "cz": 474,
+    "measure": 20,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R24-p1-cold": {
+   "qubits": 24,
+   "cz": 251,
+   "prx_or_r": 360,
+   "measure": 24,
+   "reset": 0,
+   "depth": 316,
+   "ops": {
+    "r": 360,
+    "cz": 251,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R24-p1-warm": {
+   "qubits": 24,
+   "cz": 251,
+   "prx_or_r": 385,
+   "measure": 24,
+   "reset": 0,
+   "depth": 320,
+   "ops": {
+    "r": 385,
+    "cz": 251,
+    "measure": 24,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R30-p1-cold": {
+   "qubits": 30,
+   "cz": 496,
+   "prx_or_r": 697,
+   "measure": 30,
+   "reset": 0,
+   "depth": 461,
+   "ops": {
+    "r": 697,
+    "cz": 496,
+    "measure": 30,
+    "barrier": 1
+   }
+  },
+  "qcup-a1-R30-p1-warm": {
+   "qubits": 30,
+   "cz": 496,
+   "prx_or_r": 747,
+   "measure": 30,
+   "reset": 0,
+   "depth": 468,
+   "ops": {
+    "r": 747,
+    "cz": 496,
+    "measure": 30,
+    "barrier": 1
+   }
+  },
+  "qcup-a2-03-distributed-accept-r-t1": {
+   "qubits": 7,
+   "cz": 255,
+   "prx_or_r": 448,
+   "measure": 3,
+   "reset": 0,
+   "depth": 435,
+   "ops": {
+    "r": 448,
+    "cz": 255,
+    "measure": 3
+   }
+  },
+  "qcup-a2-17-traffic-light-accept-p-t1": {
+   "qubits": 2,
+   "cz": 2,
+   "prx_or_r": 6,
+   "measure": 2,
+   "reset": 0,
+   "depth": 6,
+   "ops": {
+    "r": 6,
+    "cz": 2,
+    "measure": 2
+   }
+  },
+  "qcup-a2-17-traffic-light-accept-p-t3": {
+   "qubits": 2,
+   "cz": 6,
+   "prx_or_r": 18,
+   "measure": 6,
+   "reset": 0,
+   "depth": 18,
+   "ops": {
+    "r": 18,
+    "cz": 6,
+    "measure": 6
+   }
+  },
+  "qcup-a2-17-traffic-light-accept-p-t5": {
+   "qubits": 2,
+   "cz": 10,
+   "prx_or_r": 30,
+   "measure": 10,
+   "reset": 0,
+   "depth": 30,
+   "ops": {
+    "r": 30,
+    "cz": 10,
+    "measure": 10
+   }
+  },
+  "qcup-a2-17-traffic-light-accept-r-t1": {
+   "qubits": 4,
+   "cz": 3,
+   "prx_or_r": 8,
+   "measure": 2,
+   "reset": 0,
+   "depth": 5,
+   "ops": {
+    "r": 8,
+    "cz": 3,
+    "measure": 2
+   }
+  },
+  "qcup-a2-17-traffic-light-accept-r-t3": {
+   "qubits": 4,
+   "cz": 9,
+   "prx_or_r": 16,
+   "measure": 6,
+   "reset": 4,
+   "depth": 13,
+   "ops": {
+    "r": 16,
+    "cz": 9,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-17-traffic-light-accept-r-t5": {
+   "qubits": 4,
+   "cz": 15,
+   "prx_or_r": 24,
+   "measure": 10,
+   "reset": 8,
+   "depth": 21,
+   "ops": {
+    "r": 24,
+    "cz": 15,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1": {
+   "qubits": 2,
+   "cz": 0,
+   "prx_or_r": 1,
+   "measure": 1,
+   "reset": 0,
+   "depth": 2,
+   "ops": {
+    "r": 1,
+    "measure": 1
+   }
+  },
+  "qcup-a2-ch07-form-bytes-not-rfc8785-r-t3": {
+   "qubits": 2,
+   "cz": 0,
+   "prx_or_r": 3,
+   "measure": 3,
+   "reset": 2,
+   "depth": 5,
+   "ops": {
+    "r": 3,
+    "measure": 3,
+    "reset": 2
+   }
+  },
+  "qcup-a2-ch07-form-bytes-not-rfc8785-r-t5": {
+   "qubits": 2,
+   "cz": 0,
+   "prx_or_r": 5,
+   "measure": 5,
+   "reset": 4,
+   "depth": 8,
+   "ops": {
+    "r": 5,
+    "measure": 5,
+    "reset": 4
+   }
+  },
+  "qcup-a2-ch07-form-injective-f64-r-t1": {
+   "qubits": 5,
+   "cz": 4,
+   "prx_or_r": 10,
+   "measure": 2,
+   "reset": 0,
+   "depth": 6,
+   "ops": {
+    "r": 10,
+    "cz": 4,
+    "measure": 2
+   }
+  },
+  "qcup-a2-ch07-form-injective-f64-r-t3": {
+   "qubits": 5,
+   "cz": 18,
+   "prx_or_r": 33,
+   "measure": 6,
+   "reset": 4,
+   "depth": 30,
+   "ops": {
+    "r": 33,
+    "cz": 18,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-ch07-form-injective-f64-r-t5": {
+   "qubits": 5,
+   "cz": 35,
+   "prx_or_r": 66,
+   "measure": 10,
+   "reset": 8,
+   "depth": 62,
+   "ops": {
+    "r": 66,
+    "cz": 35,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-a2-ch17-callee-requires-at-run-time-r-t1": {
+   "qubits": 3,
+   "cz": 1,
+   "prx_or_r": 2,
+   "measure": 1,
+   "reset": 0,
+   "depth": 4,
+   "ops": {
+    "r": 2,
+    "cz": 1,
+    "measure": 1
+   }
+  },
+  "qcup-a2-ch17-callee-requires-at-run-time-r-t3": {
+   "qubits": 3,
+   "cz": 3,
+   "prx_or_r": 8,
+   "measure": 3,
+   "reset": 2,
+   "depth": 9,
+   "ops": {
+    "r": 8,
+    "cz": 3,
+    "measure": 3,
+    "reset": 2
+   }
+  },
+  "qcup-a2-ch17-callee-requires-at-run-time-r-t5": {
+   "qubits": 3,
+   "cz": 5,
+   "prx_or_r": 14,
+   "measure": 5,
+   "reset": 4,
+   "depth": 14,
+   "ops": {
+    "r": 14,
+    "cz": 5,
+    "measure": 5,
+    "reset": 4
+   }
+  },
+  "qcup-a2-counter-flag-r-t1": {
+   "qubits": 7,
+   "cz": 62,
+   "prx_or_r": 123,
+   "measure": 3,
+   "reset": 0,
+   "depth": 118,
+   "ops": {
+    "r": 123,
+    "cz": 62,
+    "measure": 3
+   }
+  },
+  "qcup-a2-counter-flag-r-t3": {
+   "qubits": 7,
+   "cz": 198,
+   "prx_or_r": 370,
+   "measure": 9,
+   "reset": 6,
+   "depth": 347,
+   "ops": {
+    "r": 370,
+    "cz": 198,
+    "measure": 9,
+    "reset": 6
+   }
+  },
+  "qcup-a2-counter-flag-r-t5": {
+   "qubits": 7,
+   "cz": 347,
+   "prx_or_r": 633,
+   "measure": 15,
+   "reset": 12,
+   "depth": 583,
+   "ops": {
+    "r": 633,
+    "cz": 347,
+    "measure": 15,
+    "reset": 12
+   }
+  },
+  "qcup-a2-counter-r-t1": {
+   "qubits": 7,
+   "cz": 365,
+   "prx_or_r": 644,
+   "measure": 3,
+   "reset": 0,
+   "depth": 625,
+   "ops": {
+    "r": 644,
+    "cz": 365,
+    "measure": 3
+   }
+  },
+  "qcup-a2-door-r-t1": {
+   "qubits": 6,
+   "cz": 173,
+   "prx_or_r": 312,
+   "measure": 2,
+   "reset": 0,
+   "depth": 311,
+   "ops": {
+    "r": 312,
+    "cz": 173,
+    "measure": 2
+   }
+  },
+  "qcup-a2-door-r-t3": {
+   "qubits": 6,
+   "cz": 565,
+   "prx_or_r": 992,
+   "measure": 6,
+   "reset": 4,
+   "depth": 975,
+   "ops": {
+    "r": 992,
+    "cz": 565,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-door-r-t5": {
+   "qubits": 6,
+   "cz": 962,
+   "prx_or_r": 1695,
+   "measure": 10,
+   "reset": 8,
+   "depth": 1663,
+   "ops": {
+    "r": 1695,
+    "cz": 962,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-a2-equivalent-r-t1": {
+   "qubits": 5,
+   "cz": 18,
+   "prx_or_r": 39,
+   "measure": 2,
+   "reset": 0,
+   "depth": 34,
+   "ops": {
+    "r": 39,
+    "cz": 18,
+    "measure": 2
+   }
+  },
+  "qcup-a2-equivalent-r-t3": {
+   "qubits": 5,
+   "cz": 54,
+   "prx_or_r": 104,
+   "measure": 6,
+   "reset": 4,
+   "depth": 99,
+   "ops": {
+    "r": 104,
+    "cz": 54,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-equivalent-r-t5": {
+   "qubits": 5,
+   "cz": 92,
+   "prx_or_r": 174,
+   "measure": 10,
+   "reset": 8,
+   "depth": 166,
+   "ops": {
+    "r": 174,
+    "cz": 92,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-a2-f6-signed-zero-state-p-t1": {
+   "qubits": 1,
+   "cz": 0,
+   "prx_or_r": 1,
+   "measure": 1,
+   "reset": 0,
+   "depth": 2,
+   "ops": {
+    "r": 1,
+    "measure": 1
+   }
+  },
+  "qcup-a2-f6-signed-zero-state-p-t3": {
+   "qubits": 1,
+   "cz": 0,
+   "prx_or_r": 3,
+   "measure": 3,
+   "reset": 0,
+   "depth": 6,
+   "ops": {
+    "r": 3,
+    "measure": 3
+   }
+  },
+  "qcup-a2-f6-signed-zero-state-p-t5": {
+   "qubits": 1,
+   "cz": 0,
+   "prx_or_r": 5,
+   "measure": 5,
+   "reset": 0,
+   "depth": 10,
+   "ops": {
+    "r": 5,
+    "measure": 5
+   }
+  },
+  "qcup-a2-f6-signed-zero-state-r-t1": {
+   "qubits": 2,
+   "cz": 1,
+   "prx_or_r": 4,
+   "measure": 1,
+   "reset": 0,
+   "depth": 4,
+   "ops": {
+    "r": 4,
+    "cz": 1,
+    "measure": 1
+   }
+  },
+  "qcup-a2-f6-signed-zero-state-r-t3": {
+   "qubits": 2,
+   "cz": 3,
+   "prx_or_r": 10,
+   "measure": 3,
+   "reset": 2,
+   "depth": 12,
+   "ops": {
+    "r": 10,
+    "cz": 3,
+    "measure": 3,
+    "reset": 2
+   }
+  },
+  "qcup-a2-f6-signed-zero-state-r-t5": {
+   "qubits": 2,
+   "cz": 5,
+   "prx_or_r": 16,
+   "measure": 5,
+   "reset": 4,
+   "depth": 20,
+   "ops": {
+    "r": 16,
+    "cz": 5,
+    "measure": 5,
+    "reset": 4
+   }
+  },
+  "qcup-a2-hc-11-fabric-caps-logged-r-t1": {
+   "qubits": 6,
+   "cz": 74,
+   "prx_or_r": 130,
+   "measure": 3,
+   "reset": 0,
+   "depth": 136,
+   "ops": {
+    "r": 130,
+    "cz": 74,
+    "measure": 3
+   }
+  },
+  "qcup-a2-hc-11-fabric-caps-logged-r-t3": {
+   "qubits": 6,
+   "cz": 236,
+   "prx_or_r": 419,
+   "measure": 9,
+   "reset": 6,
+   "depth": 440,
+   "ops": {
+    "r": 419,
+    "cz": 236,
+    "measure": 9,
+    "reset": 6
+   }
+  },
+  "qcup-a2-hc-11-fabric-caps-logged-r-t5": {
+   "qubits": 6,
+   "cz": 380,
+   "prx_or_r": 681,
+   "measure": 15,
+   "reset": 12,
+   "depth": 685,
+   "ops": {
+    "r": 681,
+    "cz": 380,
+    "measure": 15,
+    "reset": 12
+   }
+  },
+  "qcup-a2-hc-21-kept-step-is-input-r-t1": {
+   "qubits": 7,
+   "cz": 203,
+   "prx_or_r": 357,
+   "measure": 3,
+   "reset": 0,
+   "depth": 355,
+   "ops": {
+    "r": 357,
+    "cz": 203,
+    "measure": 3
+   }
+  },
+  "qcup-a2-phase-p-t1": {
+   "qubits": 3,
+   "cz": 39,
+   "prx_or_r": 71,
+   "measure": 3,
+   "reset": 0,
+   "depth": 75,
+   "ops": {
+    "r": 71,
+    "cz": 39,
+    "measure": 3
+   }
+  },
+  "qcup-a2-phase-p-t3": {
+   "qubits": 3,
+   "cz": 117,
+   "prx_or_r": 215,
+   "measure": 9,
+   "reset": 0,
+   "depth": 230,
+   "ops": {
+    "r": 215,
+    "cz": 117,
+    "measure": 9
+   }
+  },
+  "qcup-a2-phase-p-t5": {
+   "qubits": 3,
+   "cz": 197,
+   "prx_or_r": 365,
+   "measure": 15,
+   "reset": 0,
+   "depth": 389,
+   "ops": {
+    "r": 365,
+    "cz": 197,
+    "measure": 15
+   }
+  },
+  "qcup-a2-phase-r-t1": {
+   "qubits": 6,
+   "cz": 54,
+   "prx_or_r": 105,
+   "measure": 3,
+   "reset": 0,
+   "depth": 91,
+   "ops": {
+    "r": 105,
+    "cz": 54,
+    "measure": 3
+   }
+  },
+  "qcup-a2-phase-r-t3": {
+   "qubits": 6,
+   "cz": 185,
+   "prx_or_r": 341,
+   "measure": 9,
+   "reset": 6,
+   "depth": 322,
+   "ops": {
+    "r": 341,
+    "cz": 185,
+    "measure": 9,
+    "reset": 6
+   }
+  },
+  "qcup-a2-phase-r-t5": {
+   "qubits": 6,
+   "cz": 317,
+   "prx_or_r": 581,
+   "measure": 15,
+   "reset": 12,
+   "depth": 549,
+   "ops": {
+    "r": 581,
+    "cz": 317,
+    "measure": 15,
+    "reset": 12
+   }
+  },
+  "qcup-a2-queue-sim-r-t1": {
+   "qubits": 7,
+   "cz": 244,
+   "prx_or_r": 429,
+   "measure": 3,
+   "reset": 0,
+   "depth": 429,
+   "ops": {
+    "r": 429,
+    "cz": 244,
+    "measure": 3
+   }
+  },
+  "qcup-a2-s1-guard-trap-keeps-r-t1": {
+   "qubits": 7,
+   "cz": 192,
+   "prx_or_r": 346,
+   "measure": 3,
+   "reset": 0,
+   "depth": 333,
+   "ops": {
+    "r": 346,
+    "cz": 192,
+    "measure": 3
+   }
+  },
+  "qcup-a2-session-r-t1": {
+   "qubits": 8,
+   "cz": 449,
+   "prx_or_r": 791,
+   "measure": 3,
+   "reset": 0,
+   "depth": 785,
+   "ops": {
+    "r": 791,
+    "cz": 449,
+    "measure": 3
+   }
+  },
+  "qcup-a2-t59-distinguish-mod2-mod3-r-t1": {
+   "qubits": 3,
+   "cz": 1,
+   "prx_or_r": 4,
+   "measure": 1,
+   "reset": 0,
+   "depth": 4,
+   "ops": {
+    "r": 4,
+    "cz": 1,
+    "measure": 1
+   }
+  },
+  "qcup-a2-t59-distinguish-mod2-mod3-r-t3": {
+   "qubits": 3,
+   "cz": 3,
+   "prx_or_r": 10,
+   "measure": 3,
+   "reset": 2,
+   "depth": 12,
+   "ops": {
+    "r": 10,
+    "cz": 3,
+    "measure": 3,
+    "reset": 2
+   }
+  },
+  "qcup-a2-t59-distinguish-mod2-mod3-r-t5": {
+   "qubits": 3,
+   "cz": 5,
+   "prx_or_r": 16,
+   "measure": 5,
+   "reset": 4,
+   "depth": 20,
+   "ops": {
+    "r": 16,
+    "cz": 5,
+    "measure": 5,
+    "reset": 4
+   }
+  },
+  "qcup-a2-t59-distinguish-mod3-mod4-r-t1": {
+   "qubits": 5,
+   "cz": 26,
+   "prx_or_r": 51,
+   "measure": 2,
+   "reset": 0,
+   "depth": 51,
+   "ops": {
+    "r": 51,
+    "cz": 26,
+    "measure": 2
+   }
+  },
+  "qcup-a2-t59-distinguish-mod3-mod4-r-t3": {
+   "qubits": 5,
+   "cz": 85,
+   "prx_or_r": 156,
+   "measure": 6,
+   "reset": 4,
+   "depth": 154,
+   "ops": {
+    "r": 156,
+    "cz": 85,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-t59-distinguish-mod3-mod4-r-t5": {
+   "qubits": 5,
+   "cz": 153,
+   "prx_or_r": 285,
+   "measure": 10,
+   "reset": 8,
+   "depth": 269,
+   "ops": {
+    "r": 285,
+    "cz": 153,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-a2-t59-distinguish-mod5-mod4-r-t1": {
+   "qubits": 7,
+   "cz": 200,
+   "prx_or_r": 354,
+   "measure": 3,
+   "reset": 0,
+   "depth": 362,
+   "ops": {
+    "r": 354,
+    "cz": 200,
+    "measure": 3
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k4-p-t1": {
+   "qubits": 2,
+   "cz": 1,
+   "prx_or_r": 3,
+   "measure": 2,
+   "reset": 0,
+   "depth": 4,
+   "ops": {
+    "r": 3,
+    "measure": 2,
+    "cz": 1
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k4-p-t3": {
+   "qubits": 2,
+   "cz": 3,
+   "prx_or_r": 9,
+   "measure": 6,
+   "reset": 0,
+   "depth": 12,
+   "ops": {
+    "r": 9,
+    "measure": 6,
+    "cz": 3
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k4-p-t5": {
+   "qubits": 2,
+   "cz": 5,
+   "prx_or_r": 15,
+   "measure": 10,
+   "reset": 0,
+   "depth": 20,
+   "ops": {
+    "r": 15,
+    "measure": 10,
+    "cz": 5
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k4-r-t1": {
+   "qubits": 4,
+   "cz": 3,
+   "prx_or_r": 9,
+   "measure": 2,
+   "reset": 0,
+   "depth": 7,
+   "ops": {
+    "r": 9,
+    "cz": 3,
+    "measure": 2
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k4-r-t3": {
+   "qubits": 4,
+   "cz": 9,
+   "prx_or_r": 23,
+   "measure": 6,
+   "reset": 4,
+   "depth": 19,
+   "ops": {
+    "r": 23,
+    "cz": 9,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k4-r-t5": {
+   "qubits": 4,
+   "cz": 15,
+   "prx_or_r": 37,
+   "measure": 10,
+   "reset": 8,
+   "depth": 30,
+   "ops": {
+    "r": 37,
+    "cz": 15,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k5-p-t1": {
+   "qubits": 3,
+   "cz": 29,
+   "prx_or_r": 53,
+   "measure": 3,
+   "reset": 0,
+   "depth": 57,
+   "ops": {
+    "r": 53,
+    "cz": 29,
+    "measure": 3
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k5-p-t3": {
+   "qubits": 3,
+   "cz": 96,
+   "prx_or_r": 179,
+   "measure": 9,
+   "reset": 0,
+   "depth": 176,
+   "ops": {
+    "r": 179,
+    "cz": 96,
+    "measure": 9
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k5-p-t5": {
+   "qubits": 3,
+   "cz": 162,
+   "prx_or_r": 310,
+   "measure": 15,
+   "reset": 0,
+   "depth": 316,
+   "ops": {
+    "r": 310,
+    "cz": 162,
+    "measure": 15
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k5-r-t1": {
+   "qubits": 6,
+   "cz": 53,
+   "prx_or_r": 101,
+   "measure": 3,
+   "reset": 0,
+   "depth": 96,
+   "ops": {
+    "r": 101,
+    "cz": 53,
+    "measure": 3
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k5-r-t3": {
+   "qubits": 6,
+   "cz": 173,
+   "prx_or_r": 314,
+   "measure": 9,
+   "reset": 6,
+   "depth": 305,
+   "ops": {
+    "r": 314,
+    "cz": 173,
+    "measure": 9,
+    "reset": 6
+   }
+  },
+  "qcup-a2-t60-dim-redundant-k5-r-t5": {
+   "qubits": 6,
+   "cz": 291,
+   "prx_or_r": 527,
+   "measure": 15,
+   "reset": 12,
+   "depth": 514,
+   "ops": {
+    "r": 527,
+    "cz": 291,
+    "measure": 15,
+    "reset": 12
+   }
+  },
+  "qcup-a2-t62-dependent-differ-r-t1": {
+   "qubits": 7,
+   "cz": 335,
+   "prx_or_r": 600,
+   "measure": 3,
+   "reset": 0,
+   "depth": 586,
+   "ops": {
+    "r": 600,
+    "cz": 335,
+    "measure": 3
+   }
+  },
+  "qcup-a2-thermostat-r-t1": {
+   "qubits": 3,
+   "cz": 0,
+   "prx_or_r": 1,
+   "measure": 1,
+   "reset": 0,
+   "depth": 2,
+   "ops": {
+    "r": 1,
+    "measure": 1
+   }
+  },
+  "qcup-a2-thermostat-r-t3": {
+   "qubits": 3,
+   "cz": 0,
+   "prx_or_r": 3,
+   "measure": 3,
+   "reset": 2,
+   "depth": 5,
+   "ops": {
+    "r": 3,
+    "measure": 3,
+    "reset": 2
+   }
+  },
+  "qcup-a2-thermostat-r-t5": {
+   "qubits": 3,
+   "cz": 0,
+   "prx_or_r": 5,
+   "measure": 5,
+   "reset": 4,
+   "depth": 8,
+   "ops": {
+    "r": 5,
+    "measure": 5,
+    "reset": 4
+   }
+  },
+  "qcup-a2-washer-r-t1": {
+   "qubits": 6,
+   "cz": 92,
+   "prx_or_r": 170,
+   "measure": 2,
+   "reset": 0,
+   "depth": 168,
+   "ops": {
+    "r": 170,
+    "cz": 92,
+    "measure": 2
+   }
+  },
+  "qcup-a2-washer-r-t3": {
+   "qubits": 6,
+   "cz": 320,
+   "prx_or_r": 573,
+   "measure": 6,
+   "reset": 4,
+   "depth": 571,
+   "ops": {
+    "r": 573,
+    "cz": 320,
+    "measure": 6,
+    "reset": 4
+   }
+  },
+  "qcup-a2-washer-r-t5": {
+   "qubits": 6,
+   "cz": 543,
+   "prx_or_r": 974,
+   "measure": 10,
+   "reset": 8,
+   "depth": 940,
+   "ops": {
+    "r": 974,
+    "cz": 543,
+    "measure": 10,
+    "reset": 8
+   }
+  },
+  "qcup-e-labs8-p1": {
+   "qubits": 8,
+   "cz": 230,
+   "prx_or_r": 397,
+   "measure": 8,
+   "reset": 0,
+   "depth": 390,
+   "ops": {
+    "r": 397,
+    "cz": 230,
+    "measure": 8,
+    "barrier": 1
+   }
+  },
+  "qcup-f-chem-h2-n4": {
+   "qubits": 4,
+   "cz": 32,
+   "prx_or_r": 55,
+   "measure": 4,
+   "reset": 0,
+   "depth": 56,
+   "ops": {
+    "r": 55,
+    "cz": 32,
+    "measure": 4,
+    "barrier": 1
+   }
+  },
+  "qcup-q7-B12-warmT-p1": {
+   "qubits": 12,
+   "cz": 120,
+   "prx_or_r": 157,
+   "measure": 12,
+   "reset": 0,
+   "depth": 139,
+   "ops": {
+    "r": 157,
+    "cz": 120,
+    "measure": 12,
+    "barrier": 1
+   }
+  }
+ },
+ "jobs": [
+  {
+   "job": 0,
+   "label": "single C12 p1, 100 shots",
+   "circuits": 1,
+   "shots": 100,
+   "circuit_names": [
+    "qcup-a1-C12-p1-cold"
+   ]
+  },
+  {
+   "job": 1,
+   "label": "single C12 p1, 1000 shots",
+   "circuits": 1,
+   "shots": 1000,
+   "circuit_names": [
+    "qcup-a1-C12-p1-cold"
+   ]
+  },
+  {
+   "job": 2,
+   "label": "single C12 p1, 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-C12-p1-cold"
+   ]
+  },
+  {
+   "job": 3,
+   "label": "single C12 p1, 6000 shots",
+   "circuits": 1,
+   "shots": 6000,
+   "circuit_names": [
+    "qcup-a1-C12-p1-cold"
+   ]
+  },
+  {
+   "job": 4,
+   "label": "single C42 p1 (widest), 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-C42-p1-cold"
+   ]
+  },
+  {
+   "job": 5,
+   "label": "single R30 p1 (624 heavy-hex CZ), 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-R30-p1-cold"
+   ]
+  },
+  {
+   "job": 6,
+   "label": "single C18 p3 (618 heavy-hex CZ), 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-C18-p3-cold"
+   ]
+  },
+  {
+   "job": 7,
+   "label": "single H2 (merged row), 6000 shots",
+   "circuits": 1,
+   "shots": 6000,
+   "circuit_names": [
+    "qcup-f-chem-h2-n4"
+   ]
+  },
+  {
+   "job": 8,
+   "label": "single LABS N=8 p1, 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-e-labs8-p1"
+   ]
+  },
+  {
+   "job": 9,
+   "label": "single Q7 sampling B12 warm p1, 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-q7-B12-warmT-p1"
+   ]
+  },
+  {
+   "job": 10,
+   "label": "single Aim 2 phase in place T1, 1000 shots",
+   "circuits": 1,
+   "shots": 1000,
+   "circuit_names": [
+    "qcup-a2-phase-p-t1"
+   ]
+  },
+  {
+   "job": 11,
+   "label": "single Aim 2 door reset T5 (mid-circuit reset; 1,028 superconducting-like CZ, outside the IQM set), 1000 shots",
+   "circuits": 1,
+   "shots": 1000,
+   "circuit_names": [
+    "qcup-a2-door-r-t5"
+   ]
+  },
+  {
+   "job": 12,
+   "label": "batch 10 Aim 1 QAOA, 2000 shots",
+   "circuits": 10,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-A12-p1-cold",
+    "qcup-a1-A12-p1-warm",
+    "qcup-a1-A12-p2-cold",
+    "qcup-a1-A12-p2-warm",
+    "qcup-a1-A16-p1-cold",
+    "qcup-a1-A16-p1-warm",
+    "qcup-a1-B12-p1-cold",
+    "qcup-a1-B12-p1-warm",
+    "qcup-a1-B12-p2-cold",
+    "qcup-a1-B12-p2-warm"
+   ]
+  },
+  {
+   "job": 13,
+   "label": "batch 74 Aim 1 QAOA (all seed-0 IQM circuits, cold and warm), 2000 shots",
+   "circuits": 74,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-A12-p1-cold",
+    "qcup-a1-A12-p1-warm",
+    "qcup-a1-A12-p2-cold",
+    "qcup-a1-A12-p2-warm",
+    "qcup-a1-A16-p1-cold",
+    "qcup-a1-A16-p1-warm",
+    "qcup-a1-B12-p1-cold",
+    "qcup-a1-B12-p1-warm",
+    "qcup-a1-B12-p2-cold",
+    "qcup-a1-B12-p2-warm",
+    "qcup-a1-B12-p3-cold",
+    "qcup-a1-B12-p3-warm",
+    "qcup-a1-B16-p1-cold",
+    "qcup-a1-B16-p1-warm",
+    "qcup-a1-B16-p2-cold",
+    "qcup-a1-B16-p2-warm",
+    "qcup-a1-B20-p1-cold",
+    "qcup-a1-B20-p1-warm",
+    "qcup-a1-C12-p1-cold",
+    "qcup-a1-C12-p1-warm",
+    "qcup-a1-C12-p2-cold",
+    "qcup-a1-C12-p2-warm",
+    "qcup-a1-C12-p3-cold",
+    "qcup-a1-C12-p3-warm",
+    "qcup-a1-C15-p1-cold",
+    "qcup-a1-C15-p1-warm",
+    "qcup-a1-C15-p2-cold",
+    "qcup-a1-C15-p2-warm",
+    "qcup-a1-C15-p3-cold",
+    "qcup-a1-C15-p3-warm",
+    "qcup-a1-C18-p1-cold",
+    "qcup-a1-C18-p1-warm",
+    "qcup-a1-C18-p2-cold",
+    "qcup-a1-C18-p2-warm",
+    "qcup-a1-C18-p3-cold",
+    "qcup-a1-C18-p3-warm",
+    "qcup-a1-D12-p1-cold",
+    "qcup-a1-D12-p1-warm",
+    "qcup-a1-D12-p2-cold",
+    "qcup-a1-D12-p2-warm",
+    "qcup-a1-D16-p1-cold",
+    "qcup-a1-D16-p1-warm",
+    "qcup-a1-R12-p1-cold",
+    "qcup-a1-R12-p1-warm",
+    "qcup-a1-R12-p2-cold",
+    "qcup-a1-R12-p2-warm",
+    "qcup-a1-R12-p3-cold",
+    "qcup-a1-R12-p3-warm",
+    "qcup-a1-R16-p1-cold",
+    "qcup-a1-R16-p1-warm",
+    "qcup-a1-R16-p2-cold",
+    "qcup-a1-R16-p2-warm",
+    "qcup-a1-R16-p3-cold",
+    "qcup-a1-R16-p3-warm",
+    "qcup-a1-R20-p1-cold",
+    "qcup-a1-R20-p1-warm",
+    "qcup-a1-R20-p2-cold",
+    "qcup-a1-R20-p2-warm",
+    "qcup-a1-R20-p3-cold",
+    "qcup-a1-R20-p3-warm",
+    "qcup-a1-B24-p1-cold",
+    "qcup-a1-B24-p1-warm",
+    "qcup-a1-C24-p1-cold",
+    "qcup-a1-C24-p1-warm",
+    "qcup-a1-C24-p2-cold",
+    "qcup-a1-C24-p2-warm",
+    "qcup-a1-C30-p1-cold",
+    "qcup-a1-C30-p1-warm",
+    "qcup-a1-C42-p1-cold",
+    "qcup-a1-C42-p1-warm",
+    "qcup-a1-R24-p1-cold",
+    "qcup-a1-R24-p1-warm",
+    "qcup-a1-R30-p1-cold",
+    "qcup-a1-R30-p1-warm"
+   ]
+  },
+  {
+   "job": 14,
+   "label": "batch 10 Aim 2, 1000 shots",
+   "circuits": 10,
+   "shots": 1000,
+   "circuit_names": [
+    "qcup-a2-03-distributed-accept-r-t1",
+    "qcup-a2-17-traffic-light-accept-p-t1",
+    "qcup-a2-17-traffic-light-accept-p-t3",
+    "qcup-a2-17-traffic-light-accept-p-t5",
+    "qcup-a2-17-traffic-light-accept-r-t1",
+    "qcup-a2-17-traffic-light-accept-r-t3",
+    "qcup-a2-17-traffic-light-accept-r-t5",
+    "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+    "qcup-a2-ch07-form-bytes-not-rfc8785-r-t3",
+    "qcup-a2-ch07-form-bytes-not-rfc8785-r-t5"
+   ]
+  },
+  {
+   "job": 15,
+   "label": "batch 70 Aim 2 (all stream-0 IQM programs at T 1, 3, 5 in the package), 1000 shots",
+   "circuits": 70,
+   "shots": 1000,
+   "circuit_names": [
+    "qcup-a2-03-distributed-accept-r-t1",
+    "qcup-a2-17-traffic-light-accept-p-t1",
+    "qcup-a2-17-traffic-light-accept-p-t3",
+    "qcup-a2-17-traffic-light-accept-p-t5",
+    "qcup-a2-17-traffic-light-accept-r-t1",
+    "qcup-a2-17-traffic-light-accept-r-t3",
+    "qcup-a2-17-traffic-light-accept-r-t5",
+    "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+    "qcup-a2-ch07-form-bytes-not-rfc8785-r-t3",
+    "qcup-a2-ch07-form-bytes-not-rfc8785-r-t5",
+    "qcup-a2-ch07-form-injective-f64-r-t1",
+    "qcup-a2-ch07-form-injective-f64-r-t3",
+    "qcup-a2-ch07-form-injective-f64-r-t5",
+    "qcup-a2-ch17-callee-requires-at-run-time-r-t1",
+    "qcup-a2-ch17-callee-requires-at-run-time-r-t3",
+    "qcup-a2-ch17-callee-requires-at-run-time-r-t5",
+    "qcup-a2-counter-flag-r-t1",
+    "qcup-a2-counter-flag-r-t3",
+    "qcup-a2-counter-flag-r-t5",
+    "qcup-a2-counter-r-t1",
+    "qcup-a2-door-r-t1",
+    "qcup-a2-door-r-t3",
+    "qcup-a2-equivalent-r-t1",
+    "qcup-a2-equivalent-r-t3",
+    "qcup-a2-equivalent-r-t5",
+    "qcup-a2-f6-signed-zero-state-p-t1",
+    "qcup-a2-f6-signed-zero-state-p-t3",
+    "qcup-a2-f6-signed-zero-state-p-t5",
+    "qcup-a2-f6-signed-zero-state-r-t1",
+    "qcup-a2-f6-signed-zero-state-r-t3",
+    "qcup-a2-f6-signed-zero-state-r-t5",
+    "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+    "qcup-a2-hc-11-fabric-caps-logged-r-t3",
+    "qcup-a2-hc-11-fabric-caps-logged-r-t5",
+    "qcup-a2-hc-21-kept-step-is-input-r-t1",
+    "qcup-a2-phase-p-t1",
+    "qcup-a2-phase-p-t3",
+    "qcup-a2-phase-p-t5",
+    "qcup-a2-phase-r-t1",
+    "qcup-a2-phase-r-t3",
+    "qcup-a2-phase-r-t5",
+    "qcup-a2-queue-sim-r-t1",
+    "qcup-a2-s1-guard-trap-keeps-r-t1",
+    "qcup-a2-session-r-t1",
+    "qcup-a2-t59-distinguish-mod2-mod3-r-t1",
+    "qcup-a2-t59-distinguish-mod2-mod3-r-t3",
+    "qcup-a2-t59-distinguish-mod2-mod3-r-t5",
+    "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+    "qcup-a2-t59-distinguish-mod3-mod4-r-t3",
+    "qcup-a2-t59-distinguish-mod3-mod4-r-t5",
+    "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+    "qcup-a2-t60-dim-redundant-k4-p-t1",
+    "qcup-a2-t60-dim-redundant-k4-p-t3",
+    "qcup-a2-t60-dim-redundant-k4-p-t5",
+    "qcup-a2-t60-dim-redundant-k4-r-t1",
+    "qcup-a2-t60-dim-redundant-k4-r-t3",
+    "qcup-a2-t60-dim-redundant-k4-r-t5",
+    "qcup-a2-t60-dim-redundant-k5-p-t1",
+    "qcup-a2-t60-dim-redundant-k5-p-t3",
+    "qcup-a2-t60-dim-redundant-k5-p-t5",
+    "qcup-a2-t60-dim-redundant-k5-r-t1",
+    "qcup-a2-t60-dim-redundant-k5-r-t3",
+    "qcup-a2-t60-dim-redundant-k5-r-t5",
+    "qcup-a2-t62-dependent-differ-r-t1",
+    "qcup-a2-thermostat-r-t1",
+    "qcup-a2-thermostat-r-t3",
+    "qcup-a2-thermostat-r-t5",
+    "qcup-a2-washer-r-t1",
+    "qcup-a2-washer-r-t3",
+    "qcup-a2-washer-r-t5"
+   ]
+  },
+  {
+   "job": 16,
+   "label": "repeat: single C12 p1, 2000 shots",
+   "circuits": 1,
+   "shots": 2000,
+   "circuit_names": [
+    "qcup-a1-C12-p1-cold"
+   ]
+  }
+ ]
+}

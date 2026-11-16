@@ -1,0 +1,119 @@
+[
+ {
+  "family": "R",
+  "n": 24,
+  "seed": 0,
+  "n_ground": 1,
+  "pt_tts99_proposals": 6144.0,
+  "depths": [
+   {
+    "donor": "R_20_1",
+    "expectation": -17.77847740178626,
+    "ratio": 0.9500816764642925,
+    "p_gs": 4.22854166931945e-05,
+    "p": 1,
+    "all_to_all_rzz": 72,
+    "shots_to_99pct": 108904.51554370477,
+    "shots_times_gates": 7841125.119146743
+   },
+   {
+    "donor": "R_20_1",
+    "expectation": -15.745463166289028,
+    "ratio": 0.9293846319566859,
+    "p_gs": 0.004593055582893937,
+    "p": 2,
+    "all_to_all_rzz": 144,
+    "shots_to_99pct": 1000.3332394204299,
+    "shots_times_gates": 144047.9864765419
+   },
+   {
+    "donor": "R_20_1",
+    "expectation": -16.565733588021782,
+    "ratio": 0.9377353720206009,
+    "p_gs": 0.0029166219108948117,
+    "p": 3,
+    "all_to_all_rzz": 216,
+    "shots_to_99pct": 1576.636014886629,
+    "shots_times_gates": 340553.37921551184
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 24,
+  "seed": 1,
+  "n_ground": 1,
+  "pt_tts99_proposals": 1536.0,
+  "depths": [
+   {
+    "donor": "R_20_1",
+    "expectation": -28.224730588753044,
+    "ratio": 0.959370490785674,
+    "p_gs": 7.52964581000058e-05,
+    "p": 1,
+    "all_to_all_rzz": 89,
+    "shots_to_99pct": 61158.212796598506,
+    "shots_times_gates": 5443080.938897267
+   },
+   {
+    "donor": "R_20_1",
+    "expectation": 1.9807190017534653,
+    "ratio": 0.7530138753082598,
+    "p_gs": 1.3323030627842915e-08,
+    "p": 2,
+    "all_to_all_rzz": 178,
+    "shots_to_99pct": 345654848.8382693,
+    "shots_times_gates": 61526563093.21194
+   },
+   {
+    "donor": "R_12_1",
+    "expectation": -17.10351783336053,
+    "ratio": 0.883392948477271,
+    "p_gs": 1.9222048277304133e-06,
+    "p": 3,
+    "all_to_all_rzz": 267,
+    "shots_to_99pct": 2395772.6530781966,
+    "shots_times_gates": 639671298.3718785
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 24,
+  "seed": 2,
+  "n_ground": 1,
+  "pt_tts99_proposals": 12288.0,
+  "depths": [
+   {
+    "donor": "R_16_0",
+    "expectation": -8.121654288193588,
+    "ratio": 0.9031206723175214,
+    "p_gs": 1.848730158436924e-05,
+    "p": 1,
+    "all_to_all_rzz": 63,
+    "shots_to_99pct": 249096.7974018862,
+    "shots_times_gates": 15693098.23631883
+   },
+   {
+    "donor": "R_12_0",
+    "expectation": -9.50015610201992,
+    "ratio": 0.9301501196474494,
+    "p_gs": 0.026487006276528724,
+    "p": 2,
+    "all_to_all_rzz": 126,
+    "shots_to_99pct": 171.55237145326328,
+    "shots_times_gates": 21615.598803111174
+   },
+   {
+    "donor": "R_12_1",
+    "expectation": -10.584827166820148,
+    "ratio": 0.9514181797415715,
+    "p_gs": 0.05710697861633676,
+    "p": 3,
+    "all_to_all_rzz": 189,
+    "shots_to_99pct": 78.31596066290568,
+    "shots_times_gates": 14801.716565289174
+   }
+  ]
+ }
+]

@@ -1,0 +1,2102 @@
+[
+ {
+  "family": "A",
+  "n": 24,
+  "seed": 0,
+  "couplings": 276,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 276,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2581,
+    "all_to_all_rzz": 552,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3934,
+    "all_to_all_rzz": 828,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 24,
+  "seed": 1,
+  "couplings": 276,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 276,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2581,
+    "all_to_all_rzz": 552,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3934,
+    "all_to_all_rzz": 828,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 24,
+  "seed": 2,
+  "couplings": 276,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 276,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2581,
+    "all_to_all_rzz": 552,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3934,
+    "all_to_all_rzz": 828,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 32,
+  "seed": 0,
+  "couplings": 496,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1954,
+    "all_to_all_rzz": 496,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3985,
+    "all_to_all_rzz": 992,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5928,
+    "all_to_all_rzz": 1488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 32,
+  "seed": 1,
+  "couplings": 496,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1954,
+    "all_to_all_rzz": 496,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3985,
+    "all_to_all_rzz": 992,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5928,
+    "all_to_all_rzz": 1488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 32,
+  "seed": 2,
+  "couplings": 496,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1954,
+    "all_to_all_rzz": 496,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3985,
+    "all_to_all_rzz": 992,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5928,
+    "all_to_all_rzz": 1488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 40,
+  "seed": 0,
+  "couplings": 780,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3586,
+    "all_to_all_rzz": 780,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 6639,
+    "all_to_all_rzz": 1560,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10304,
+    "all_to_all_rzz": 2340,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 40,
+  "seed": 1,
+  "couplings": 780,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3586,
+    "all_to_all_rzz": 780,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 6639,
+    "all_to_all_rzz": 1560,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10304,
+    "all_to_all_rzz": 2340,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 40,
+  "seed": 2,
+  "couplings": 780,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3586,
+    "all_to_all_rzz": 780,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 6639,
+    "all_to_all_rzz": 1560,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10304,
+    "all_to_all_rzz": 2340,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 60,
+  "seed": 0,
+  "couplings": 1770,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 7367,
+    "all_to_all_rzz": 1770,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 15384,
+    "all_to_all_rzz": 3540,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 26073,
+    "all_to_all_rzz": 5310,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 60,
+  "seed": 1,
+  "couplings": 1770,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 7367,
+    "all_to_all_rzz": 1770,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 15384,
+    "all_to_all_rzz": 3540,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 26073,
+    "all_to_all_rzz": 5310,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "A",
+  "n": 60,
+  "seed": 2,
+  "couplings": 1770,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 7367,
+    "all_to_all_rzz": 1770,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 15384,
+    "all_to_all_rzz": 3540,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 26073,
+    "all_to_all_rzz": 5310,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 24,
+  "seed": 0,
+  "couplings": 136,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 537,
+    "all_to_all_rzz": 136,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1042,
+    "all_to_all_rzz": 272,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1714,
+    "all_to_all_rzz": 408,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 24,
+  "seed": 1,
+  "couplings": 157,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 676,
+    "all_to_all_rzz": 157,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1165,
+    "all_to_all_rzz": 314,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1656,
+    "all_to_all_rzz": 471,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 24,
+  "seed": 2,
+  "couplings": 141,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 545,
+    "all_to_all_rzz": 141,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1179,
+    "all_to_all_rzz": 282,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1763,
+    "all_to_all_rzz": 423,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 32,
+  "seed": 0,
+  "couplings": 241,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 964,
+    "all_to_all_rzz": 241,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1852,
+    "all_to_all_rzz": 482,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2639,
+    "all_to_all_rzz": 723,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 32,
+  "seed": 1,
+  "couplings": 240,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 875,
+    "all_to_all_rzz": 240,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1988,
+    "all_to_all_rzz": 480,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2718,
+    "all_to_all_rzz": 720,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 32,
+  "seed": 2,
+  "couplings": 244,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 919,
+    "all_to_all_rzz": 244,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1802,
+    "all_to_all_rzz": 488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2784,
+    "all_to_all_rzz": 732,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 40,
+  "seed": 0,
+  "couplings": 381,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1697,
+    "all_to_all_rzz": 381,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3150,
+    "all_to_all_rzz": 762,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 4824,
+    "all_to_all_rzz": 1143,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 40,
+  "seed": 1,
+  "couplings": 380,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1465,
+    "all_to_all_rzz": 380,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3254,
+    "all_to_all_rzz": 760,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 4532,
+    "all_to_all_rzz": 1140,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 40,
+  "seed": 2,
+  "couplings": 384,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1566,
+    "all_to_all_rzz": 384,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2989,
+    "all_to_all_rzz": 768,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 4890,
+    "all_to_all_rzz": 1152,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 60,
+  "seed": 0,
+  "couplings": 879,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3870,
+    "all_to_all_rzz": 879,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 7887,
+    "all_to_all_rzz": 1758,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10772,
+    "all_to_all_rzz": 2637,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 60,
+  "seed": 1,
+  "couplings": 934,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 4164,
+    "all_to_all_rzz": 934,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 8312,
+    "all_to_all_rzz": 1868,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 11023,
+    "all_to_all_rzz": 2802,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "B",
+  "n": 60,
+  "seed": 2,
+  "couplings": 886,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3613,
+    "all_to_all_rzz": 886,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 7621,
+    "all_to_all_rzz": 1772,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 11439,
+    "all_to_all_rzz": 2658,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 24,
+  "seed": 0,
+  "couplings": 48,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 268,
+    "all_to_all_rzz": 48,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 562,
+    "all_to_all_rzz": 96,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 905,
+    "all_to_all_rzz": 144,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 24,
+  "seed": 1,
+  "couplings": 48,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 268,
+    "all_to_all_rzz": 48,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 562,
+    "all_to_all_rzz": 96,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 905,
+    "all_to_all_rzz": 144,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 24,
+  "seed": 2,
+  "couplings": 48,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 268,
+    "all_to_all_rzz": 48,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 562,
+    "all_to_all_rzz": 96,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 905,
+    "all_to_all_rzz": 144,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 30,
+  "seed": 0,
+  "couplings": 60,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 350,
+    "all_to_all_rzz": 60,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 727,
+    "all_to_all_rzz": 120,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1133,
+    "all_to_all_rzz": 180,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 30,
+  "seed": 1,
+  "couplings": 60,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 350,
+    "all_to_all_rzz": 60,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 727,
+    "all_to_all_rzz": 120,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1133,
+    "all_to_all_rzz": 180,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 30,
+  "seed": 2,
+  "couplings": 60,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 350,
+    "all_to_all_rzz": 60,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 727,
+    "all_to_all_rzz": 120,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1133,
+    "all_to_all_rzz": 180,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 42,
+  "seed": 0,
+  "couplings": 84,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 451,
+    "all_to_all_rzz": 84,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 964,
+    "all_to_all_rzz": 168,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1479,
+    "all_to_all_rzz": 252,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 42,
+  "seed": 1,
+  "couplings": 84,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 451,
+    "all_to_all_rzz": 84,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 964,
+    "all_to_all_rzz": 168,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1479,
+    "all_to_all_rzz": 252,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 42,
+  "seed": 2,
+  "couplings": 84,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 451,
+    "all_to_all_rzz": 84,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 964,
+    "all_to_all_rzz": 168,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1479,
+    "all_to_all_rzz": 252,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 60,
+  "seed": 0,
+  "couplings": 120,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 739,
+    "all_to_all_rzz": 120,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1374,
+    "all_to_all_rzz": 240,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2188,
+    "all_to_all_rzz": 360,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 60,
+  "seed": 1,
+  "couplings": 120,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 739,
+    "all_to_all_rzz": 120,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1374,
+    "all_to_all_rzz": 240,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2188,
+    "all_to_all_rzz": 360,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "C",
+  "n": 60,
+  "seed": 2,
+  "couplings": 120,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 739,
+    "all_to_all_rzz": 120,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1374,
+    "all_to_all_rzz": 240,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2188,
+    "all_to_all_rzz": 360,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 24,
+  "seed": 0,
+  "couplings": 276,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 276,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2581,
+    "all_to_all_rzz": 552,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3934,
+    "all_to_all_rzz": 828,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 24,
+  "seed": 1,
+  "couplings": 276,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 276,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2581,
+    "all_to_all_rzz": 552,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3934,
+    "all_to_all_rzz": 828,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 24,
+  "seed": 2,
+  "couplings": 276,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 276,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2581,
+    "all_to_all_rzz": 552,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3934,
+    "all_to_all_rzz": 828,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 32,
+  "seed": 0,
+  "couplings": 496,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1954,
+    "all_to_all_rzz": 496,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3985,
+    "all_to_all_rzz": 992,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5928,
+    "all_to_all_rzz": 1488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 32,
+  "seed": 1,
+  "couplings": 496,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1954,
+    "all_to_all_rzz": 496,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3985,
+    "all_to_all_rzz": 992,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5928,
+    "all_to_all_rzz": 1488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 32,
+  "seed": 2,
+  "couplings": 496,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1954,
+    "all_to_all_rzz": 496,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3985,
+    "all_to_all_rzz": 992,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5928,
+    "all_to_all_rzz": 1488,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 40,
+  "seed": 0,
+  "couplings": 780,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3586,
+    "all_to_all_rzz": 780,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 6639,
+    "all_to_all_rzz": 1560,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10304,
+    "all_to_all_rzz": 2340,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 40,
+  "seed": 1,
+  "couplings": 780,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3586,
+    "all_to_all_rzz": 780,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 6639,
+    "all_to_all_rzz": 1560,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10304,
+    "all_to_all_rzz": 2340,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 40,
+  "seed": 2,
+  "couplings": 780,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 3586,
+    "all_to_all_rzz": 780,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 6639,
+    "all_to_all_rzz": 1560,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 10304,
+    "all_to_all_rzz": 2340,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 60,
+  "seed": 0,
+  "couplings": 1770,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 7367,
+    "all_to_all_rzz": 1770,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 15384,
+    "all_to_all_rzz": 3540,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 26073,
+    "all_to_all_rzz": 5310,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 60,
+  "seed": 1,
+  "couplings": 1770,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 7367,
+    "all_to_all_rzz": 1770,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 15384,
+    "all_to_all_rzz": 3540,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 26073,
+    "all_to_all_rzz": 5310,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "D",
+  "n": 60,
+  "seed": 2,
+  "couplings": 1770,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 7367,
+    "all_to_all_rzz": 1770,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 15384,
+    "all_to_all_rzz": 3540,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 26073,
+    "all_to_all_rzz": 5310,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": false
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 24,
+  "seed": 0,
+  "couplings": 72,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 314,
+    "all_to_all_rzz": 72,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 740,
+    "all_to_all_rzz": 144,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1171,
+    "all_to_all_rzz": 216,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 24,
+  "seed": 1,
+  "couplings": 89,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 391,
+    "all_to_all_rzz": 89,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 809,
+    "all_to_all_rzz": 178,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1246,
+    "all_to_all_rzz": 267,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 24,
+  "seed": 2,
+  "couplings": 63,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 326,
+    "all_to_all_rzz": 63,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 809,
+    "all_to_all_rzz": 126,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1278,
+    "all_to_all_rzz": 189,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 30,
+  "seed": 0,
+  "couplings": 141,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 624,
+    "all_to_all_rzz": 141,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1271,
+    "all_to_all_rzz": 282,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2055,
+    "all_to_all_rzz": 423,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 30,
+  "seed": 1,
+  "couplings": 141,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 577,
+    "all_to_all_rzz": 141,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1254,
+    "all_to_all_rzz": 282,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1997,
+    "all_to_all_rzz": 423,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 30,
+  "seed": 2,
+  "couplings": 94,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 517,
+    "all_to_all_rzz": 94,
+    "admitted": {
+     "heavy_hex_cz": true,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1123,
+    "all_to_all_rzz": 188,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 1734,
+    "all_to_all_rzz": 282,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 40,
+  "seed": 0,
+  "couplings": 158,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 813,
+    "all_to_all_rzz": 158,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1745,
+    "all_to_all_rzz": 316,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 2825,
+    "all_to_all_rzz": 474,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 40,
+  "seed": 1,
+  "couplings": 192,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 858,
+    "all_to_all_rzz": 192,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 2058,
+    "all_to_all_rzz": 384,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3206,
+    "all_to_all_rzz": 576,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 40,
+  "seed": 2,
+  "couplings": 191,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 941,
+    "all_to_all_rzz": 191,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 1989,
+    "all_to_all_rzz": 382,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 3000,
+    "all_to_all_rzz": 573,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 60,
+  "seed": 0,
+  "couplings": 346,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1745,
+    "all_to_all_rzz": 346,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3717,
+    "all_to_all_rzz": 692,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 5917,
+    "all_to_all_rzz": 1038,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 60,
+  "seed": 1,
+  "couplings": 350,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1842,
+    "all_to_all_rzz": 350,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 4019,
+    "all_to_all_rzz": 700,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 6474,
+    "all_to_all_rzz": 1050,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ },
+ {
+  "family": "R",
+  "n": 60,
+  "seed": 2,
+  "couplings": 299,
+  "transpile": [
+   {
+    "p": 1,
+    "heavy_hex_cz": 1804,
+    "all_to_all_rzz": 299,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 2,
+    "heavy_hex_cz": 3938,
+    "all_to_all_rzz": 598,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   },
+   {
+    "p": 3,
+    "heavy_hex_cz": 6140,
+    "all_to_all_rzz": 897,
+    "admitted": {
+     "heavy_hex_cz": false,
+     "all_to_all_rzz": true
+    }
+   }
+  ]
+ }
+]

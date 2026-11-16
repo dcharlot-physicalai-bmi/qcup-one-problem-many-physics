@@ -1,0 +1,631 @@
+[
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 957,
+   "two_qubit_depth": 788,
+   "depth": 2472,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2355,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 375,
+   "two_qubit_depth": 343,
+   "depth": 967,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8055,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 957,
+   "two_qubit_depth": 788,
+   "depth": 2473,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2355,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 375,
+   "two_qubit_depth": 343,
+   "depth": 967,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8055,
+   "shots": 2000
+  },
+  "guppy_gates": 1031
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 13,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1772,
+   "two_qubit_depth": 1404,
+   "depth": 4435,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 728,
+   "two_qubit_depth": 653,
+   "depth": 1836,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 8,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1955,
+   "two_qubit_depth": 1572,
+   "depth": 4905,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0355,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 745,
+   "two_qubit_depth": 682,
+   "depth": 1918,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6165,
+   "shots": 2000
+  },
+  "guppy_gates": 2062
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3,
+   2
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 18,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2634,
+   "two_qubit_depth": 2080,
+   "depth": 6566
+  },
+  "ion_like": {
+   "two_qubit_gates": 1081,
+   "two_qubit_depth": 963,
+   "depth": 2704
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3,
+   2
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 8,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2962,
+   "two_qubit_depth": 2389,
+   "depth": 7458,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.007,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 1115,
+   "two_qubit_depth": 1021,
+   "depth": 2869,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.49,
+   "shots": 2000
+  },
+  "guppy_gates": 3091
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3,
+   2,
+   1
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3630,
+   "two_qubit_depth": 2843,
+   "depth": 8837
+  },
+  "ion_like": {
+   "two_qubit_gates": 1434,
+   "two_qubit_depth": 1273,
+   "depth": 3572
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3,
+   2,
+   1
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 8,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3958,
+   "two_qubit_depth": 3158,
+   "depth": 9887,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1485,
+   "two_qubit_depth": 1360,
+   "depth": 3820,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3735,
+   "shots": 2000
+  },
+  "guppy_gates": 4122
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3,
+   2,
+   1,
+   3
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 28,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   5,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4570,
+   "two_qubit_depth": 3587,
+   "depth": 11123
+  },
+  "ion_like": {
+   "two_qubit_gates": 1787,
+   "two_qubit_depth": 1583,
+   "depth": 4440
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   3,
+   2,
+   1,
+   3
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   5,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4936,
+   "two_qubit_depth": 3928,
+   "depth": 12297,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1855,
+   "two_qubit_depth": 1699,
+   "depth": 4771,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2885,
+   "shots": 2000
+  },
+  "guppy_gates": 5153,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 4011,
+   "active_qubits": 8,
+   "depth": 11154
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 4071,
+   "active_qubits": 8,
+   "depth": 11077
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   3,
+   2,
+   2,
+   2,
+   3
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   3,
+   0,
+   2,
+   7,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4936,
+   "two_qubit_depth": 3928,
+   "depth": 12296,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1855,
+   "two_qubit_depth": 1699,
+   "depth": 4771,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2745,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   2,
+   0,
+   1,
+   0,
+   3
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   2,
+   2,
+   5,
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4936,
+   "two_qubit_depth": 3928,
+   "depth": 12296,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1855,
+   "two_qubit_depth": 1699,
+   "depth": 4771,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.3,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   2,
+   3,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   2,
+   0,
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4936,
+   "two_qubit_depth": 3928,
+   "depth": 12296,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1855,
+   "two_qubit_depth": 1699,
+   "depth": 4771,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.299,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "card",
+  "source": "programs/multi/card.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 4,
+  "state_bits": 3,
+  "event_bits": 2,
+  "anf_terms": 43,
+  "anf_literals": 112,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   0,
+   1,
+   2,
+   3,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 8,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 4.1699,
+  "reference_trace": [
+   0,
+   1,
+   5,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4936,
+   "two_qubit_depth": 3928,
+   "depth": 12296,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1855,
+   "two_qubit_depth": 1699,
+   "depth": 4771,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2935,
+   "shots": 2000
+  }
+ }
+]

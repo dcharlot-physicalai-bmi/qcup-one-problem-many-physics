@@ -1,0 +1,65 @@
+[
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "U": 2.0,
+  "dimension": 36,
+  "e_exact": -2.828427124746184
+ },
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "U": 4.0,
+  "dimension": 36,
+  "e_exact": -2.1027484834620735
+ },
+ {
+  "lattice": "2x2",
+  "sites": 4,
+  "U": 8.0,
+  "dimension": 36,
+  "e_exact": -1.3202349582719297
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "U": 2.0,
+  "dimension": 400,
+  "e_exact": -5.159165521196817
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "U": 4.0,
+  "dimension": 400,
+  "e_exact": -3.6193213239575504
+ },
+ {
+  "lattice": "2x3",
+  "sites": 6,
+  "U": 8.0,
+  "dimension": 400,
+  "e_exact": -2.1777935524904137
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "U": 2.0,
+  "dimension": 4900,
+  "e_exact": -7.11744658031345
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "U": 4.0,
+  "dimension": 4900,
+  "e_exact": -5.012503152657036
+ },
+ {
+  "lattice": "2x4",
+  "sites": 8,
+  "U": 8.0,
+  "dimension": 4900,
+  "e_exact": -3.0259228056908043
+ }
+]

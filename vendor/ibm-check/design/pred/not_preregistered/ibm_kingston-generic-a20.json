@@ -1,0 +1,12 @@
+{
+ "backend": "ibm_kingston",
+ "model": "generic",
+ "results": {
+  "a1-b20-p1-warm": {
+   "score": 0.178,
+   "shots": 1500,
+   "se": 0.009876436604362932,
+   "seconds": 1222.2
+  }
+ }
+}

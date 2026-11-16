@@ -1,0 +1,651 @@
+[
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 405,
+   "two_qubit_depth": 353,
+   "depth": 1141,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.4985,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 173,
+   "two_qubit_depth": 162,
+   "depth": 457,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 7,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 405,
+   "two_qubit_depth": 353,
+   "depth": 1141,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.4985,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 173,
+   "two_qubit_depth": 162,
+   "depth": 457,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9,
+   "shots": 2000
+  },
+  "guppy_gates": 453
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 786,
+   "two_qubit_depth": 643,
+   "depth": 2072,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2025,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 336,
+   "two_qubit_depth": 299,
+   "depth": 842,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8035,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 7,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 840,
+   "two_qubit_depth": 706,
+   "depth": 2263,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.204,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 346,
+   "two_qubit_depth": 324,
+   "depth": 913,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.799,
+   "shots": 2000
+  },
+  "guppy_gates": 911
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1,
+   3,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1052,
+   "two_qubit_depth": 847,
+   "depth": 2774
+  },
+  "ion_like": {
+   "two_qubit_gates": 499,
+   "two_qubit_depth": 436,
+   "depth": 1227
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 7,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   1,
+   3,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1271,
+   "two_qubit_depth": 1053,
+   "depth": 3365,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.087,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 519,
+   "two_qubit_depth": 486,
+   "depth": 1369,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7005,
+   "shots": 2000
+  },
+  "guppy_gates": 1367
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 19,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1460,
+   "two_qubit_depth": 1139,
+   "depth": 3695
+  },
+  "ion_like": {
+   "two_qubit_gates": 662,
+   "two_qubit_depth": 573,
+   "depth": 1612
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 7,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1706,
+   "two_qubit_depth": 1409,
+   "depth": 4491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0435,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 692,
+   "two_qubit_depth": 648,
+   "depth": 1825,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6435,
+   "shots": 2000
+  },
+  "guppy_gates": 1823
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 23,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1817,
+   "two_qubit_depth": 1438,
+   "depth": 4688
+  },
+  "ion_like": {
+   "two_qubit_gates": 825,
+   "two_qubit_depth": 710,
+   "depth": 1997
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2143,
+   "two_qubit_depth": 1763,
+   "depth": 5626,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0195,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 865,
+   "two_qubit_depth": 810,
+   "depth": 2281,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.594,
+   "shots": 2000
+  },
+  "guppy_gates": 2279,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 1788,
+   "active_qubits": 7,
+   "depth": 5019,
+   "trace_fidelity": 0.008,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 1792,
+   "active_qubits": 7,
+   "depth": 4999,
+   "trace_fidelity": 0.0195,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2143,
+   "two_qubit_depth": 1763,
+   "depth": 5625,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0165,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 865,
+   "two_qubit_depth": 810,
+   "depth": 2281,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.584,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   1,
+   3,
+   6,
+   6,
+   6
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2143,
+   "two_qubit_depth": 1763,
+   "depth": 5627,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.0195,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 865,
+   "two_qubit_depth": 810,
+   "depth": 2281,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.588,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   5,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2143,
+   "two_qubit_depth": 1763,
+   "depth": 5624,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.016,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 865,
+   "two_qubit_depth": 810,
+   "depth": 2281,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5585,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t62_dependent_differ",
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 2,
+  "state_bits": 3,
+  "event_bits": 1,
+  "anf_terms": 25,
+  "anf_literals": 54,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 7,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   3,
+   5,
+   5,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2143,
+   "two_qubit_depth": 1763,
+   "depth": 5627,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.015,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 865,
+   "two_qubit_depth": 810,
+   "depth": 2281,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.549,
+   "shots": 2000
+  }
+ }
+]

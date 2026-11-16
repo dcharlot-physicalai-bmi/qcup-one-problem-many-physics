@@ -1,0 +1,18 @@
+OPENQASM 3.0;
+include "stdgates.inc";
+gate rzz(p0) _gate_q_0, _gate_q_1 {
+  cx _gate_q_0, _gate_q_1;
+  rz(p0) _gate_q_1;
+  cx _gate_q_0, _gate_q_1;
+}
+bit[2] trace;
+qubit[2] s_0;
+ry(pi/2) s_0[1];
+rz(-0.07066442742242485) s_0[1];
+rzz(-pi/2) s_0[0], s_0[1];
+rz(pi/2) s_0[0];
+ry(pi) s_0[0];
+rz(1.6414607542173218) s_0[1];
+ry(-pi/2) s_0[1];
+trace[0] = measure s_0[0];
+trace[1] = measure s_0[1];

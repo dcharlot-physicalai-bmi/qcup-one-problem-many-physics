@@ -1,0 +1,3955 @@
+{
+ "qcup-a1-B12-p1-warm|500": {
+  "id": "qcup-a1-B12-p1-warm",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 48,
+  "input_2q": 39,
+  "input_1q": 49
+ },
+ "qcup-f-chem-lih-n10|1000": {
+  "id": "qcup-f-chem-lih-n10",
+  "native_gates": {
+   "gpi2": 401,
+   "zz": 235
+  },
+  "native_2q": 235,
+  "native_1q": 401,
+  "input_2q": 269,
+  "input_1q": 918
+ },
+ "qcup-a2-climate-r-t1|500": {
+  "id": "qcup-a2-climate-r-t1",
+  "native_gates": {
+   "gpi": 2
+  },
+  "native_2q": 0,
+  "native_1q": 2,
+  "input_2q": 1400,
+  "input_1q": 4581
+ },
+ "qcup-a2-reservoir-r-t1|500": {
+  "id": "qcup-a2-reservoir-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1493,
+  "input_1q": 4877
+ },
+ "qcup-a2-vending-r-t1|500": {
+  "id": "qcup-a2-vending-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1529,
+  "input_1q": 5041
+ },
+ "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1|500": {
+  "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 0,
+  "input_1q": 1
+ },
+ "qcup-a2-f6-signed-zero-state-p-t1|500": {
+  "id": "qcup-a2-f6-signed-zero-state-p-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 0,
+  "input_1q": 1
+ },
+ "qcup-a2-thermostat-r-t1|500": {
+  "id": "qcup-a2-thermostat-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 0,
+  "input_1q": 1
+ },
+ "qcup-a2-ch17-callee-requires-at-run-time-r-t1|500": {
+  "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1,
+  "input_1q": 7
+ },
+ "qcup-a2-f6-signed-zero-state-r-t1|500": {
+  "id": "qcup-a2-f6-signed-zero-state-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1,
+  "input_1q": 5
+ },
+ "qcup-a2-t59-distinguish-mod2-mod3-r-t1|500": {
+  "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1,
+  "input_1q": 5
+ },
+ "qcup-a2-t60-dim-redundant-k4-p-t1|500": {
+  "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1,
+  "input_1q": 6
+ },
+ "qcup-a2-17-traffic-light-accept-p-t1|500": {
+  "id": "qcup-a2-17-traffic-light-accept-p-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 2,
+  "input_1q": 9
+ },
+ "qcup-a2-17-traffic-light-accept-r-t1|500": {
+  "id": "qcup-a2-17-traffic-light-accept-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 3,
+  "input_1q": 14
+ },
+ "qcup-a2-t60-dim-redundant-k4-r-t1|500": {
+  "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 3,
+  "input_1q": 13
+ },
+ "qcup-a2-ch07-form-injective-f64-r-t1|500": {
+  "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 4,
+  "input_1q": 17
+ },
+ "qcup-a2-t59-distinguish-mod3-mod4-r-t1|500": {
+  "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 13,
+  "input_1q": 47
+ },
+ "qcup-a2-t60-dim-redundant-k5-p-t1|500": {
+  "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 13,
+  "input_1q": 45
+ },
+ "qcup-a2-phase-p-t1|500": {
+  "id": "qcup-a2-phase-p-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 16,
+  "input_1q": 55
+ },
+ "qcup-f-chem-h2-n4|1000": {
+  "id": "qcup-f-chem-h2-n4",
+  "native_gates": {
+   "gpi2": 40,
+   "zz": 19,
+   "gpi": 1
+  },
+  "native_2q": 19,
+  "native_1q": 41,
+  "input_2q": 22,
+  "input_1q": 79
+ },
+ "qcup-a2-phase-r-t1|500": {
+  "id": "qcup-a2-phase-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 23,
+  "input_1q": 84
+ },
+ "qcup-a1-C12-p1-cold|500": {
+  "id": "qcup-a1-C12-p1-cold",
+  "native_gates": {
+   "gpi2": 36,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 36,
+  "input_2q": 24,
+  "input_1q": 48
+ },
+ "qcup-a1-C12-p1-warm|500": {
+  "id": "qcup-a1-C12-p1-warm",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 48,
+  "input_2q": 24,
+  "input_1q": 49
+ },
+ "qcup-a1-R12-p1-cold|500": {
+  "id": "qcup-a1-R12-p1-cold",
+  "native_gates": {
+   "gpi2": 36,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 36,
+  "input_2q": 24,
+  "input_1q": 48
+ },
+ "qcup-a1-R12-p1-warm|500": {
+  "id": "qcup-a1-R12-p1-warm",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 48,
+  "input_2q": 24,
+  "input_1q": 49
+ },
+ "qcup-a2-t60-dim-redundant-k5-r-t1|500": {
+  "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 24,
+  "input_1q": 84
+ },
+ "qcup-a1-C15-p1-cold|500": {
+  "id": "qcup-a1-C15-p1-cold",
+  "native_gates": {
+   "gpi2": 45,
+   "zz": 15
+  },
+  "native_2q": 15,
+  "native_1q": 45,
+  "input_2q": 30,
+  "input_1q": 60
+ },
+ "qcup-a1-C15-p1-warm|500": {
+  "id": "qcup-a1-C15-p1-warm",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 30
+  },
+  "native_2q": 30,
+  "native_1q": 60,
+  "input_2q": 30,
+  "input_1q": 61
+ },
+ "qcup-a2-counter-flag-r-t1|500": {
+  "id": "qcup-a2-counter-flag-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 30,
+  "input_1q": 104
+ },
+ "qcup-a1-C18-p1-cold|500": {
+  "id": "qcup-a1-C18-p1-cold",
+  "native_gates": {
+   "gpi2": 54,
+   "zz": 36
+  },
+  "native_2q": 36,
+  "native_1q": 54,
+  "input_2q": 36,
+  "input_1q": 72
+ },
+ "qcup-a1-C18-p1-warm|500": {
+  "id": "qcup-a1-C18-p1-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 36
+  },
+  "native_2q": 36,
+  "native_1q": 72,
+  "input_2q": 36,
+  "input_1q": 73
+ },
+ "qcup-a1-R16-p1-cold|500": {
+  "id": "qcup-a1-R16-p1-cold",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 36
+  },
+  "native_2q": 36,
+  "native_1q": 48,
+  "input_2q": 36,
+  "input_1q": 64
+ },
+ "qcup-a1-R16-p1-warm|500": {
+  "id": "qcup-a1-R16-p1-warm",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 36
+  },
+  "native_2q": 36,
+  "native_1q": 64,
+  "input_2q": 36,
+  "input_1q": 65
+ },
+ "qcup-a1-B12-p1-cold|500": {
+  "id": "qcup-a1-B12-p1-cold",
+  "native_gates": {
+   "gpi2": 24,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 24,
+  "input_2q": 39,
+  "input_1q": 48
+ },
+ "qcup-q7-B12-warmT-p1|500": {
+  "id": "qcup-q7-B12-warmT-p1",
+  "native_gates": {
+   "gpi2": 36,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 36,
+  "input_2q": 39,
+  "input_1q": 48
+ },
+ "qcup-a1-R20-p1-cold|500": {
+  "id": "qcup-a1-R20-p1-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 42
+  },
+  "native_2q": 42,
+  "native_1q": 60,
+  "input_2q": 42,
+  "input_1q": 80
+ },
+ "qcup-a1-R20-p1-warm|500": {
+  "id": "qcup-a1-R20-p1-warm",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 42
+  },
+  "native_2q": 42,
+  "native_1q": 80,
+  "input_2q": 42,
+  "input_1q": 81
+ },
+ "qcup-a2-hc-11-fabric-caps-logged-r-t1|500": {
+  "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 43,
+  "input_1q": 143
+ },
+ "qcup-a1-C24-p1-cold|500": {
+  "id": "qcup-a1-C24-p1-cold",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 72,
+  "input_2q": 48,
+  "input_1q": 96
+ },
+ "qcup-a2-washer-r-t1|500": {
+  "id": "qcup-a2-washer-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 50,
+  "input_1q": 161
+ },
+ "qcup-a1-B16-p1-cold|500": {
+  "id": "qcup-a1-B16-p1-cold",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 57
+  },
+  "native_2q": 57,
+  "native_1q": 48,
+  "input_2q": 57,
+  "input_1q": 64
+ },
+ "qcup-a1-B16-p1-warm|500": {
+  "id": "qcup-a1-B16-p1-warm",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 57
+  },
+  "native_2q": 57,
+  "native_1q": 64,
+  "input_2q": 57,
+  "input_1q": 64
+ },
+ "qcup-q7-B16-warmT-p1|500": {
+  "id": "qcup-q7-B16-warmT-p1",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 57
+  },
+  "native_2q": 57,
+  "native_1q": 48,
+  "input_2q": 57,
+  "input_1q": 64
+ },
+ "qcup-a1-A12-p1-cold|500": {
+  "id": "qcup-a1-A12-p1-cold",
+  "native_gates": {
+   "gpi2": 36,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 36,
+  "input_2q": 66,
+  "input_1q": 48
+ },
+ "qcup-a1-A12-p1-warm|500": {
+  "id": "qcup-a1-A12-p1-warm",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 48,
+  "input_2q": 66,
+  "input_1q": 49
+ },
+ "qcup-a1-D12-p1-cold|500": {
+  "id": "qcup-a1-D12-p1-cold",
+  "native_gates": {
+   "gpi2": 36,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 36,
+  "input_2q": 66,
+  "input_1q": 36
+ },
+ "qcup-a1-D12-p1-warm|500": {
+  "id": "qcup-a1-D12-p1-warm",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 48,
+  "input_2q": 66,
+  "input_1q": 48
+ },
+ "qcup-a1-R24-p1-cold|500": {
+  "id": "qcup-a1-R24-p1-cold",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 72,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-q7-B12-warmT-p2|500": {
+  "id": "qcup-q7-B12-warmT-p2",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 78
+  },
+  "native_2q": 78,
+  "native_1q": 60,
+  "input_2q": 78,
+  "input_1q": 72
+ },
+ "qcup-a1-B20-p1-cold|500": {
+  "id": "qcup-a1-B20-p1-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 94
+  },
+  "native_2q": 94,
+  "native_1q": 60,
+  "input_2q": 94,
+  "input_1q": 80
+ },
+ "qcup-a1-B20-p1-warm|500": {
+  "id": "qcup-a1-B20-p1-warm",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 94
+  },
+  "native_2q": 94,
+  "native_1q": 80,
+  "input_2q": 94,
+  "input_1q": 81
+ },
+ "qcup-e-labs8-p1|500": {
+  "id": "qcup-e-labs8-p1",
+  "native_gates": {
+   "gpi2": 131,
+   "zz": 95
+  },
+  "native_2q": 95,
+  "native_1q": 131,
+  "input_2q": 96,
+  "input_1q": 316
+ },
+ "qcup-a2-t59-distinguish-mod5-mod4-r-t1|500": {
+  "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 99,
+  "input_1q": 317
+ },
+ "qcup-a2-s1-guard-trap-keeps-r-t1|500": {
+  "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 106,
+  "input_1q": 348
+ },
+ "qcup-a2-hc-21-kept-step-is-input-r-t1|500": {
+  "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+  "native_gates": {
+   "gpi2": 6,
+   "zz": 4
+  },
+  "native_2q": 4,
+  "native_1q": 6,
+  "input_2q": 108,
+  "input_1q": 361
+ },
+ "qcup-q7-B16-warmT-p2|500": {
+  "id": "qcup-q7-B16-warmT-p2",
+  "native_gates": {
+   "gpi2": 65,
+   "zz": 114
+  },
+  "native_2q": 114,
+  "native_1q": 65,
+  "input_2q": 114,
+  "input_1q": 96
+ },
+ "qcup-a1-A16-p1-cold|500": {
+  "id": "qcup-a1-A16-p1-cold",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 48,
+  "input_2q": 120,
+  "input_1q": 64
+ },
+ "qcup-a1-A16-p1-warm|500": {
+  "id": "qcup-a1-A16-p1-warm",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 112
+  },
+  "native_2q": 112,
+  "native_1q": 64,
+  "input_2q": 120,
+  "input_1q": 65
+ },
+ "qcup-a1-D16-p1-cold|500": {
+  "id": "qcup-a1-D16-p1-cold",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 48,
+  "input_2q": 120,
+  "input_1q": 48
+ },
+ "qcup-a1-D16-p1-warm|500": {
+  "id": "qcup-a1-D16-p1-warm",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 64,
+  "input_2q": 120,
+  "input_1q": 64
+ },
+ "qcup-a2-queue-sim-r-t1|500": {
+  "id": "qcup-a2-queue-sim-r-t1",
+  "native_gates": {
+   "gpi2": 6,
+   "zz": 4
+  },
+  "native_2q": 4,
+  "native_1q": 6,
+  "input_2q": 130,
+  "input_1q": 426
+ },
+ "qcup-a1-B24-p1-cold|500": {
+  "id": "qcup-a1-B24-p1-cold",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 136
+  },
+  "native_2q": 136,
+  "native_1q": 72,
+  "input_2q": 136,
+  "input_1q": 96
+ },
+ "qcup-a2-03-distributed-accept-r-t1|500": {
+  "id": "qcup-a2-03-distributed-accept-r-t1",
+  "native_gates": {
+   "gpi2": 4,
+   "zz": 4
+  },
+  "native_2q": 4,
+  "native_1q": 4,
+  "input_2q": 139,
+  "input_1q": 453
+ },
+ "qcup-f-tgt-nio-stretched|500": {
+  "id": "qcup-f-tgt-nio-stretched",
+  "native_gates": {
+   "gpi": 1,
+   "gpi2": 136,
+   "zz": 75
+  },
+  "native_2q": 75,
+  "native_1q": 137,
+  "input_2q": 164,
+  "input_1q": 556
+ },
+ "qcup-f-tgt-feo-eq|500": {
+  "id": "qcup-f-tgt-feo-eq",
+  "native_gates": {
+   "gpi2": 134,
+   "zz": 67,
+   "gpi": 1
+  },
+  "native_2q": 67,
+  "native_1q": 135,
+  "input_2q": 172,
+  "input_1q": 605
+ },
+ "qcup-f-tgt-fes-eq|500": {
+  "id": "qcup-f-tgt-fes-eq",
+  "native_gates": {
+   "gpi2": 176,
+   "zz": 85,
+   "gpi": 1
+  },
+  "native_2q": 85,
+  "native_1q": 177,
+  "input_2q": 172,
+  "input_1q": 626
+ },
+ "qcup-a2-t62-dependent-differ-r-t1|500": {
+  "id": "qcup-a2-t62-dependent-differ-r-t1",
+  "native_gates": {
+   "gpi2": 4,
+   "zz": 2
+  },
+  "native_2q": 2,
+  "native_1q": 4,
+  "input_2q": 173,
+  "input_1q": 554
+ },
+ "qcup-a2-counter-r-t1|500": {
+  "id": "qcup-a2-counter-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 182,
+  "input_1q": 583
+ },
+ "qcup-a1-A20-p1-cold|500": {
+  "id": "qcup-a1-A20-p1-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 60,
+  "input_2q": 190,
+  "input_1q": 80
+ },
+ "qcup-a1-A20-p1-warm|500": {
+  "id": "qcup-a1-A20-p1-warm",
+  "native_gates": {
+   "gpi2": 84,
+   "zz": 138
+  },
+  "native_2q": 138,
+  "native_1q": 84,
+  "input_2q": 190,
+  "input_1q": 81
+ },
+ "qcup-a1-D20-p1-cold|500": {
+  "id": "qcup-a1-D20-p1-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 60,
+  "input_2q": 190,
+  "input_1q": 60
+ },
+ "qcup-a1-D20-p1-warm|500": {
+  "id": "qcup-a1-D20-p1-warm",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 80,
+  "input_2q": 190,
+  "input_1q": 80
+ },
+ "qcup-a1-A24-p1-cold|500": {
+  "id": "qcup-a1-A24-p1-cold",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 268
+  },
+  "native_2q": 268,
+  "native_1q": 72,
+  "input_2q": 276,
+  "input_1q": 96
+ },
+ "qcup-a1-D24-p1-cold|500": {
+  "id": "qcup-a1-D24-p1-cold",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 276
+  },
+  "native_2q": 276,
+  "native_1q": 72,
+  "input_2q": 276,
+  "input_1q": 72
+ },
+ "qcup-f-tgt-fes-stretched|500": {
+  "id": "qcup-f-tgt-fes-stretched",
+  "native_gates": {
+   "gpi2": 220,
+   "zz": 96
+  },
+  "native_2q": 96,
+  "native_1q": 220,
+  "input_2q": 276,
+  "input_1q": 707
+ },
+ "qcup-f-chem-h4chain-n8|1000": {
+  "id": "qcup-f-chem-h4chain-n8",
+  "native_gates": {
+   "gpi2": 461,
+   "zz": 265,
+   "gpi": 1
+  },
+  "native_2q": 265,
+  "native_1q": 462,
+  "input_2q": 296,
+  "input_1q": 1018
+ },
+ "qcup-f-chem-h4square-n8|1000": {
+  "id": "qcup-f-chem-h4square-n8",
+  "native_gates": {
+   "gpi2": 461,
+   "zz": 265,
+   "gpi": 1
+  },
+  "native_2q": 265,
+  "native_1q": 462,
+  "input_2q": 296,
+  "input_1q": 1018
+ },
+ "qcup-f-tgt-mno-eq|500": {
+  "id": "qcup-f-tgt-mno-eq",
+  "native_gates": {
+   "gpi2": 247,
+   "zz": 135
+  },
+  "native_2q": 135,
+  "native_1q": 247,
+  "input_2q": 349,
+  "input_1q": 874
+ },
+ "qcup-f-tgt-mno-stretched|500": {
+  "id": "qcup-f-tgt-mno-stretched",
+  "native_gates": {
+   "gpi": 1,
+   "gpi2": 329,
+   "zz": 129
+  },
+  "native_2q": 129,
+  "native_1q": 330,
+  "input_2q": 349,
+  "input_1q": 870
+ },
+ "qcup-f-tgt-nio-eq|500": {
+  "id": "qcup-f-tgt-nio-eq",
+  "native_gates": {
+   "gpi2": 207,
+   "zz": 111
+  },
+  "native_2q": 111,
+  "native_1q": 207,
+  "input_2q": 349,
+  "input_1q": 868
+ },
+ "qcup-f-tgt-feo-stretched|500": {
+  "id": "qcup-f-tgt-feo-stretched",
+  "native_gates": {
+   "gpi": 1,
+   "gpi2": 390,
+   "zz": 142
+  },
+  "native_2q": 142,
+  "native_1q": 391,
+  "input_2q": 353,
+  "input_1q": 917
+ },
+ "qcup-e-labs12-p1|500": {
+  "id": "qcup-e-labs12-p1",
+  "native_gates": {
+   "gpi2": 450,
+   "zz": 364
+  },
+  "native_2q": 364,
+  "native_1q": 450,
+  "input_2q": 365,
+  "input_1q": 1143
+ },
+ "qcup-e-labs16-p1|500": {
+  "id": "qcup-e-labs16-p1",
+  "native_gates": {
+   "gpi2": 1081,
+   "zz": 909
+  },
+  "native_2q": 909,
+  "native_1q": 1081,
+  "input_2q": 910,
+  "input_1q": 2756
+ },
+ "qcup-e-labs20-p1|500": {
+  "id": "qcup-e-labs20-p1",
+  "native_gates": {
+   "gpi2": 2127,
+   "zz": 1826
+  },
+  "native_2q": 1826,
+  "native_1q": 2127,
+  "input_2q": 1827,
+  "input_1q": 5681
+ },
+ "qcup-a1-C12-p2-cold|500": {
+  "id": "qcup-a1-C12-p2-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 60,
+  "input_2q": 48,
+  "input_1q": 72
+ },
+ "qcup-a1-C12-p2-warm|500": {
+  "id": "qcup-a1-C12-p2-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 72,
+  "input_2q": 48,
+  "input_1q": 86
+ },
+ "qcup-a1-R12-p2-cold|500": {
+  "id": "qcup-a1-R12-p2-cold",
+  "native_gates": {
+   "gpi2": 49,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 49,
+  "input_2q": 48,
+  "input_1q": 72
+ },
+ "qcup-a1-R12-p2-warm|500": {
+  "id": "qcup-a1-R12-p2-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 72,
+  "input_2q": 48,
+  "input_1q": 86
+ },
+ "qcup-a1-C15-p2-cold|500": {
+  "id": "qcup-a1-C15-p2-cold",
+  "native_gates": {
+   "gpi2": 75,
+   "zz": 60
+  },
+  "native_2q": 60,
+  "native_1q": 75,
+  "input_2q": 60,
+  "input_1q": 90
+ },
+ "qcup-a1-C15-p2-warm|500": {
+  "id": "qcup-a1-C15-p2-warm",
+  "native_gates": {
+   "gpi2": 90,
+   "zz": 60
+  },
+  "native_2q": 60,
+  "native_1q": 90,
+  "input_2q": 60,
+  "input_1q": 107
+ },
+ "qcup-a1-C12-p3-cold|500": {
+  "id": "qcup-a1-C12-p3-cold",
+  "native_gates": {
+   "gpi2": 84,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 84,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-a1-C12-p3-warm|500": {
+  "id": "qcup-a1-C12-p3-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 122
+ },
+ "qcup-a1-C18-p2-cold|500": {
+  "id": "qcup-a1-C18-p2-cold",
+  "native_gates": {
+   "gpi2": 90,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 90,
+  "input_2q": 72,
+  "input_1q": 108
+ },
+ "qcup-a1-C18-p2-warm|500": {
+  "id": "qcup-a1-C18-p2-warm",
+  "native_gates": {
+   "gpi2": 108,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 108,
+  "input_2q": 72,
+  "input_1q": 128
+ },
+ "qcup-a1-R12-p3-cold|500": {
+  "id": "qcup-a1-R12-p3-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 42
+  },
+  "native_2q": 42,
+  "native_1q": 60,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-a1-R12-p3-warm|500": {
+  "id": "qcup-a1-R12-p3-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 123
+ },
+ "qcup-a1-R16-p2-cold|500": {
+  "id": "qcup-a1-R16-p2-cold",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 64,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-a1-R16-p2-warm|500": {
+  "id": "qcup-a1-R16-p2-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 114
+ },
+ "qcup-a1-B12-p2-cold|500": {
+  "id": "qcup-a1-B12-p2-cold",
+  "native_gates": {
+   "gpi2": 24,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 24,
+  "input_2q": 78,
+  "input_1q": 72
+ },
+ "qcup-a1-B12-p2-warm|500": {
+  "id": "qcup-a1-B12-p2-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 78
+  },
+  "native_2q": 78,
+  "native_1q": 72,
+  "input_2q": 78,
+  "input_1q": 86
+ },
+ "qcup-a1-R20-p2-cold|500": {
+  "id": "qcup-a1-R20-p2-cold",
+  "native_gates": {
+   "gpi2": 40
+  },
+  "native_2q": 0,
+  "native_1q": 40,
+  "input_2q": 84,
+  "input_1q": 120
+ },
+ "qcup-a1-R20-p2-warm|500": {
+  "id": "qcup-a1-R20-p2-warm",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 84
+  },
+  "native_2q": 84,
+  "native_1q": 120,
+  "input_2q": 84,
+  "input_1q": 142
+ },
+ "qcup-a1-C15-p3-cold|500": {
+  "id": "qcup-a1-C15-p3-cold",
+  "native_gates": {
+   "gpi2": 105,
+   "zz": 90
+  },
+  "native_2q": 90,
+  "native_1q": 105,
+  "input_2q": 90,
+  "input_1q": 120
+ },
+ "qcup-a1-C15-p3-warm|500": {
+  "id": "qcup-a1-C15-p3-warm",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 90
+  },
+  "native_2q": 90,
+  "native_1q": 120,
+  "input_2q": 90,
+  "input_1q": 153
+ },
+ "qcup-a1-C24-p2-cold|500": {
+  "id": "qcup-a1-C24-p2-cold",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 96
+  },
+  "native_2q": 96,
+  "native_1q": 120,
+  "input_2q": 96,
+  "input_1q": 144
+ },
+ "qcup-a1-B12-p3-warm|500": {
+  "id": "qcup-a1-B12-p3-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 78
+  },
+  "native_2q": 78,
+  "native_1q": 72,
+  "input_2q": 107,
+  "input_1q": 116
+ },
+ "qcup-a1-C18-p3-cold|500": {
+  "id": "qcup-a1-C18-p3-cold",
+  "native_gates": {
+   "gpi2": 126,
+   "zz": 108
+  },
+  "native_2q": 108,
+  "native_1q": 126,
+  "input_2q": 108,
+  "input_1q": 144
+ },
+ "qcup-a1-C18-p3-warm|500": {
+  "id": "qcup-a1-C18-p3-warm",
+  "native_gates": {
+   "gpi2": 144,
+   "zz": 108
+  },
+  "native_2q": 108,
+  "native_1q": 144,
+  "input_2q": 108,
+  "input_1q": 183
+ },
+ "qcup-a1-R16-p3-cold|500": {
+  "id": "qcup-a1-R16-p3-cold",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 60
+  },
+  "native_2q": 60,
+  "native_1q": 80,
+  "input_2q": 108,
+  "input_1q": 128
+ },
+ "qcup-a1-R16-p3-warm|500": {
+  "id": "qcup-a1-R16-p3-warm",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 108
+  },
+  "native_2q": 108,
+  "native_1q": 128,
+  "input_2q": 108,
+  "input_1q": 163
+ },
+ "qcup-a1-B16-p2-cold|500": {
+  "id": "qcup-a1-B16-p2-cold",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 114
+  },
+  "native_2q": 114,
+  "native_1q": 80,
+  "input_2q": 114,
+  "input_1q": 96
+ },
+ "qcup-a1-B16-p2-warm|500": {
+  "id": "qcup-a1-B16-p2-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 114
+  },
+  "native_2q": 114,
+  "native_1q": 96,
+  "input_2q": 114,
+  "input_1q": 112
+ },
+ "qcup-a1-B12-p3-cold|500": {
+  "id": "qcup-a1-B12-p3-cold",
+  "native_gates": {
+   "gpi2": 32,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 32,
+  "input_2q": 117,
+  "input_1q": 84
+ },
+ "qcup-a1-R20-p3-cold|500": {
+  "id": "qcup-a1-R20-p3-cold",
+  "native_gates": {
+   "gpi2": 100,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 100,
+  "input_2q": 126,
+  "input_1q": 160
+ },
+ "qcup-a1-R20-p3-warm|500": {
+  "id": "qcup-a1-R20-p3-warm",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 126
+  },
+  "native_2q": 126,
+  "native_1q": 160,
+  "input_2q": 126,
+  "input_1q": 203
+ },
+ "qcup-a1-A12-p2-cold|500": {
+  "id": "qcup-a1-A12-p2-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 60,
+  "input_2q": 132,
+  "input_1q": 72
+ },
+ "qcup-a1-A12-p2-warm|500": {
+  "id": "qcup-a1-A12-p2-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 72,
+  "input_2q": 132,
+  "input_1q": 86
+ },
+ "qcup-a1-D12-p2-cold|500": {
+  "id": "qcup-a1-D12-p2-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 60,
+  "input_2q": 132,
+  "input_1q": 48
+ },
+ "qcup-a1-D12-p2-warm|500": {
+  "id": "qcup-a1-D12-p2-warm",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 72,
+  "input_2q": 132,
+  "input_1q": 84
+ },
+ "qcup-a1-C24-p3-cold|500": {
+  "id": "qcup-a1-C24-p3-cold",
+  "native_gates": {
+   "gpi2": 168,
+   "zz": 144
+  },
+  "native_2q": 144,
+  "native_1q": 168,
+  "input_2q": 144,
+  "input_1q": 192
+ },
+ "qcup-a1-R24-p2-cold|500": {
+  "id": "qcup-a1-R24-p2-cold",
+  "native_gates": {
+   "gpi2": 48
+  },
+  "native_2q": 0,
+  "native_1q": 48,
+  "input_2q": 144,
+  "input_1q": 144
+ },
+ "qcup-a1-B16-p3-cold|500": {
+  "id": "qcup-a1-B16-p3-cold",
+  "native_gates": {
+   "gpi2": 111,
+   "zz": 171
+  },
+  "native_2q": 171,
+  "native_1q": 111,
+  "input_2q": 171,
+  "input_1q": 128
+ },
+ "qcup-a1-B16-p3-warm|500": {
+  "id": "qcup-a1-B16-p3-warm",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 171
+  },
+  "native_2q": 171,
+  "native_1q": 128,
+  "input_2q": 171,
+  "input_1q": 160
+ },
+ "qcup-a1-B20-p2-cold|500": {
+  "id": "qcup-a1-B20-p2-cold",
+  "native_gates": {
+   "gpi2": 100,
+   "zz": 188
+  },
+  "native_2q": 188,
+  "native_1q": 100,
+  "input_2q": 188,
+  "input_1q": 120
+ },
+ "qcup-a1-B20-p2-warm|500": {
+  "id": "qcup-a1-B20-p2-warm",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 188
+  },
+  "native_2q": 188,
+  "native_1q": 120,
+  "input_2q": 188,
+  "input_1q": 142
+ },
+ "qcup-a1-A12-p3-cold|500": {
+  "id": "qcup-a1-A12-p3-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 60,
+  "input_2q": 198,
+  "input_1q": 96
+ },
+ "qcup-a1-A12-p3-warm|500": {
+  "id": "qcup-a1-A12-p3-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 96,
+  "input_2q": 198,
+  "input_1q": 123
+ },
+ "qcup-a1-D12-p3-cold|500": {
+  "id": "qcup-a1-D12-p3-cold",
+  "native_gates": {
+   "gpi2": 84,
+   "zz": 198
+  },
+  "native_2q": 198,
+  "native_1q": 84,
+  "input_2q": 198,
+  "input_1q": 60
+ },
+ "qcup-a1-D12-p3-warm|500": {
+  "id": "qcup-a1-D12-p3-warm",
+  "native_gates": {
+   "gpi": 4
+  },
+  "native_2q": 0,
+  "native_1q": 4,
+  "input_2q": 198,
+  "input_1q": 48
+ },
+ "qcup-a1-R24-p3-cold|500": {
+  "id": "qcup-a1-R24-p3-cold",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 120,
+  "input_2q": 216,
+  "input_1q": 192
+ },
+ "qcup-a1-A16-p2-cold|500": {
+  "id": "qcup-a1-A16-p2-cold",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 232
+  },
+  "native_2q": 232,
+  "native_1q": 80,
+  "input_2q": 240,
+  "input_1q": 96
+ },
+ "qcup-a1-A16-p2-warm|500": {
+  "id": "qcup-a1-A16-p2-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 232
+  },
+  "native_2q": 232,
+  "native_1q": 96,
+  "input_2q": 240,
+  "input_1q": 114
+ },
+ "qcup-a1-D16-p2-cold|500": {
+  "id": "qcup-a1-D16-p2-cold",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 240
+  },
+  "native_2q": 240,
+  "native_1q": 80,
+  "input_2q": 240,
+  "input_1q": 64
+ },
+ "qcup-a1-D16-p2-warm|500": {
+  "id": "qcup-a1-D16-p2-warm",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 240
+  },
+  "native_2q": 240,
+  "native_1q": 96,
+  "input_2q": 240,
+  "input_1q": 112
+ },
+ "qcup-a1-B20-p3-cold|500": {
+  "id": "qcup-a1-B20-p3-cold",
+  "native_gates": {
+   "gpi2": 140,
+   "zz": 282
+  },
+  "native_2q": 282,
+  "native_1q": 140,
+  "input_2q": 282,
+  "input_1q": 160
+ },
+ "qcup-a1-B20-p3-warm|500": {
+  "id": "qcup-a1-B20-p3-warm",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 282
+  },
+  "native_2q": 282,
+  "native_1q": 160,
+  "input_2q": 282,
+  "input_1q": 203
+ },
+ "qcup-a2-t62-independent-commute-r-t1|500": {
+  "id": "qcup-a2-t62-independent-commute-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 333,
+  "input_1q": 1083
+ },
+ "qcup-a1-A16-p3-cold|500": {
+  "id": "qcup-a1-A16-p3-cold",
+  "native_gates": {
+   "gpi2": 112,
+   "zz": 360
+  },
+  "native_2q": 360,
+  "native_1q": 112,
+  "input_2q": 360,
+  "input_1q": 128
+ },
+ "qcup-a1-A16-p3-warm|500": {
+  "id": "qcup-a1-A16-p3-warm",
+  "native_gates": {
+   "gpi2": 140,
+   "zz": 293
+  },
+  "native_2q": 293,
+  "native_1q": 140,
+  "input_2q": 360,
+  "input_1q": 162
+ },
+ "qcup-a1-D16-p3-cold|500": {
+  "id": "qcup-a1-D16-p3-cold",
+  "native_gates": {
+   "gpi2": 112,
+   "zz": 360
+  },
+  "native_2q": 360,
+  "native_1q": 112,
+  "input_2q": 360,
+  "input_1q": 80
+ },
+ "qcup-a1-D16-p3-warm|500": {
+  "id": "qcup-a1-D16-p3-warm",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 360
+  },
+  "native_2q": 360,
+  "native_1q": 128,
+  "input_2q": 360,
+  "input_1q": 160
+ },
+ "qcup-a2-card-r-t1|500": {
+  "id": "qcup-a2-card-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 375,
+  "input_1q": 1195
+ },
+ "qcup-a1-A20-p2-cold|500": {
+  "id": "qcup-a1-A20-p2-cold",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 162
+  },
+  "native_2q": 162,
+  "native_1q": 60,
+  "input_2q": 380,
+  "input_1q": 120
+ },
+ "qcup-a1-A20-p2-warm|500": {
+  "id": "qcup-a1-A20-p2-warm",
+  "native_gates": {
+   "gpi2": 124,
+   "zz": 313
+  },
+  "native_2q": 313,
+  "native_1q": 124,
+  "input_2q": 380,
+  "input_1q": 142
+ },
+ "qcup-a1-D20-p2-cold|500": {
+  "id": "qcup-a1-D20-p2-cold",
+  "native_gates": {
+   "gpi2": 100,
+   "zz": 380
+  },
+  "native_2q": 380,
+  "native_1q": 100,
+  "input_2q": 380,
+  "input_1q": 80
+ },
+ "qcup-a1-D20-p2-warm|500": {
+  "id": "qcup-a1-D20-p2-warm",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 380
+  },
+  "native_2q": 380,
+  "native_1q": 120,
+  "input_2q": 380,
+  "input_1q": 140
+ },
+ "qcup-a2-flag-walls-r-t1|500": {
+  "id": "qcup-a2-flag-walls-r-t1",
+  "native_gates": {
+   "gpi": 2
+  },
+  "native_2q": 0,
+  "native_1q": 2,
+  "input_2q": 386,
+  "input_1q": 1242
+ },
+ "qcup-a2-lobby-r-t1|500": {
+  "id": "qcup-a2-lobby-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 396,
+  "input_1q": 1264
+ },
+ "qcup-a2-ring-buffer-r-t1|500": {
+  "id": "qcup-a2-ring-buffer-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 399,
+  "input_1q": 1291
+ },
+ "qcup-a2-reconcile-r-t1|500": {
+  "id": "qcup-a2-reconcile-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 470,
+  "input_1q": 1522
+ },
+ "qcup-a2-crossing-r-t1|500": {
+  "id": "qcup-a2-crossing-r-t1",
+  "native_gates": {
+   "gpi2": 12,
+   "zz": 14,
+   "gpi": 1
+  },
+  "native_2q": 14,
+  "native_1q": 13,
+  "input_2q": 486,
+  "input_1q": 1582
+ },
+ "qcup-a2-account-r-t1|500": {
+  "id": "qcup-a2-account-r-t1",
+  "native_gates": {
+   "gpi2": 6,
+   "zz": 4
+  },
+  "native_2q": 4,
+  "native_1q": 6,
+  "input_2q": 501,
+  "input_1q": 1628
+ },
+ "qcup-a1-A24-p2-cold|500": {
+  "id": "qcup-a1-A24-p2-cold",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 236
+  },
+  "native_2q": 236,
+  "native_1q": 72,
+  "input_2q": 552,
+  "input_1q": 144
+ },
+ "qcup-a1-A20-p3-cold|500": {
+  "id": "qcup-a1-A20-p3-cold",
+  "native_gates": {
+   "gpi2": 100,
+   "zz": 372
+  },
+  "native_2q": 372,
+  "native_1q": 100,
+  "input_2q": 570,
+  "input_1q": 160
+ },
+ "qcup-a1-A20-p3-warm|500": {
+  "id": "qcup-a1-A20-p3-warm",
+  "native_gates": {
+   "gpi2": 164,
+   "zz": 350
+  },
+  "native_2q": 350,
+  "native_1q": 164,
+  "input_2q": 570,
+  "input_1q": 203
+ },
+ "qcup-a1-D20-p3-cold|500": {
+  "id": "qcup-a1-D20-p3-cold",
+  "native_gates": {
+   "gpi2": 140,
+   "zz": 570
+  },
+  "native_2q": 570,
+  "native_1q": 140,
+  "input_2q": 570,
+  "input_1q": 100
+ },
+ "qcup-a1-D20-p3-warm|500": {
+  "id": "qcup-a1-D20-p3-warm",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 570
+  },
+  "native_2q": 570,
+  "native_1q": 160,
+  "input_2q": 570,
+  "input_1q": 200
+ },
+ "qcup-a2-parking-r-t1|500": {
+  "id": "qcup-a2-parking-r-t1",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 1289,
+  "input_1q": 4232
+ },
+ "qcup-a1-D24-p2-cold|500": {
+  "id": "qcup-a1-D24-p2-cold",
+  "route": "qis",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 552
+  },
+  "native_2q": 552,
+  "native_1q": 120,
+  "input_2q": 552,
+  "input_1q": 96
+ },
+ "qcup-a1-A24-p3-cold|500": {
+  "id": "qcup-a1-A24-p3-cold",
+  "route": "qis",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 528
+  },
+  "native_2q": 528,
+  "native_1q": 120,
+  "input_2q": 828,
+  "input_1q": 192
+ },
+ "qcup-a1-D24-p3-cold|500": {
+  "id": "qcup-a1-D24-p3-cold",
+  "route": "qis",
+  "native_gates": {
+   "gpi2": 168,
+   "zz": 828
+  },
+  "native_2q": 828,
+  "native_1q": 168,
+  "input_2q": 828,
+  "input_1q": 120
+ },
+ "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1|500|native": {
+  "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 0,
+  "input_1q": 1
+ },
+ "qcup-a2-f6-signed-zero-state-p-t1|500|native": {
+  "id": "qcup-a2-f6-signed-zero-state-p-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 0,
+  "input_1q": 1
+ },
+ "qcup-a2-thermostat-r-t1|500|native": {
+  "id": "qcup-a2-thermostat-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 1
+  },
+  "native_2q": 0,
+  "native_1q": 1,
+  "input_2q": 0,
+  "input_1q": 1
+ },
+ "qcup-a2-ch17-callee-requires-at-run-time-r-t1|500|native": {
+  "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 2,
+   "gpi": 3,
+   "zz": 1
+  },
+  "native_2q": 1,
+  "native_1q": 5,
+  "input_2q": 1,
+  "input_1q": 5
+ },
+ "qcup-a2-f6-signed-zero-state-r-t1|500|native": {
+  "id": "qcup-a2-f6-signed-zero-state-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 2,
+   "zz": 1
+  },
+  "native_2q": 1,
+  "native_1q": 2,
+  "input_2q": 1,
+  "input_1q": 2
+ },
+ "qcup-a2-t59-distinguish-mod2-mod3-r-t1|500|native": {
+  "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 2,
+   "zz": 1
+  },
+  "native_2q": 1,
+  "native_1q": 2,
+  "input_2q": 1,
+  "input_1q": 2
+ },
+ "qcup-a2-t60-dim-redundant-k4-p-t1|500|native": {
+  "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 2,
+   "zz": 1,
+   "gpi": 1
+  },
+  "native_2q": 1,
+  "native_1q": 3,
+  "input_2q": 1,
+  "input_1q": 3
+ },
+ "qcup-a2-17-traffic-light-accept-p-t1|500|native": {
+  "id": "qcup-a2-17-traffic-light-accept-p-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 8,
+   "gpi": 3,
+   "zz": 2
+  },
+  "native_2q": 2,
+  "native_1q": 11,
+  "input_2q": 2,
+  "input_1q": 11
+ },
+ "qcup-a2-17-traffic-light-accept-r-t1|500|native": {
+  "id": "qcup-a2-17-traffic-light-accept-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 3,
+   "gpi2": 4,
+   "zz": 3
+  },
+  "native_2q": 3,
+  "native_1q": 7,
+  "input_2q": 3,
+  "input_1q": 7
+ },
+ "qcup-a2-t60-dim-redundant-k4-r-t1|500|native": {
+  "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 4,
+   "zz": 3,
+   "gpi": 1
+  },
+  "native_2q": 3,
+  "native_1q": 5,
+  "input_2q": 3,
+  "input_1q": 5
+ },
+ "qcup-a2-ch07-form-injective-f64-r-t1|500|native": {
+  "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 3,
+   "gpi2": 4,
+   "zz": 4
+  },
+  "native_2q": 4,
+  "native_1q": 7,
+  "input_2q": 4,
+  "input_1q": 7
+ },
+ "qcup-a2-equivalent-r-t1|500|native": {
+  "id": "qcup-a2-equivalent-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 8,
+   "gpi2": 11,
+   "zz": 9
+  },
+  "native_2q": 9,
+  "native_1q": 19,
+  "input_2q": 9,
+  "input_1q": 19
+ },
+ "qcup-a2-t59-distinguish-mod3-mod4-r-t1|500|native": {
+  "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 17,
+   "zz": 13,
+   "gpi": 9
+  },
+  "native_2q": 13,
+  "native_1q": 26,
+  "input_2q": 13,
+  "input_1q": 26
+ },
+ "qcup-a2-t60-dim-redundant-k5-p-t1|500|native": {
+  "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 17,
+   "gpi": 6,
+   "zz": 13
+  },
+  "native_2q": 13,
+  "native_1q": 23,
+  "input_2q": 13,
+  "input_1q": 23
+ },
+ "qcup-a2-phase-p-t1|500|native": {
+  "id": "qcup-a2-phase-p-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 22,
+   "gpi": 9,
+   "zz": 16
+  },
+  "native_2q": 16,
+  "native_1q": 31,
+  "input_2q": 16,
+  "input_1q": 31
+ },
+ "qcup-f-chem-h2-n4|1000|native": {
+  "id": "qcup-f-chem-h2-n4",
+  "route": "native",
+  "native_gates": {
+   "gpi": 5,
+   "zz": 22,
+   "gpi2": 49
+  },
+  "native_2q": 22,
+  "native_1q": 54,
+  "input_2q": 22,
+  "input_1q": 54
+ },
+ "qcup-a2-phase-r-t1|500|native": {
+  "id": "qcup-a2-phase-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 17,
+   "gpi2": 30,
+   "zz": 23
+  },
+  "native_2q": 23,
+  "native_1q": 47,
+  "input_2q": 23,
+  "input_1q": 47
+ },
+ "qcup-a1-C12-p1-cold|500|native": {
+  "id": "qcup-a1-C12-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 36,
+   "gpi": 12,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 48,
+  "input_2q": 24,
+  "input_1q": 48
+ },
+ "qcup-a1-C12-p1-warm|500|native": {
+  "id": "qcup-a1-C12-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 24,
+   "gpi": 1
+  },
+  "native_2q": 24,
+  "native_1q": 49,
+  "input_2q": 24,
+  "input_1q": 49
+ },
+ "qcup-a1-R12-p1-cold|500|native": {
+  "id": "qcup-a1-R12-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 36,
+   "gpi": 12,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 48,
+  "input_2q": 24,
+  "input_1q": 48
+ },
+ "qcup-a1-R12-p1-warm|500|native": {
+  "id": "qcup-a1-R12-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 24,
+   "gpi": 1
+  },
+  "native_2q": 24,
+  "native_1q": 49,
+  "input_2q": 24,
+  "input_1q": 49
+ },
+ "qcup-a2-t60-dim-redundant-k5-r-t1|500|native": {
+  "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 16,
+   "gpi2": 28,
+   "zz": 24
+  },
+  "native_2q": 24,
+  "native_1q": 44,
+  "input_2q": 24,
+  "input_1q": 44
+ },
+ "qcup-a1-C15-p1-cold|500|native": {
+  "id": "qcup-a1-C15-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 45,
+   "gpi": 15,
+   "zz": 30
+  },
+  "native_2q": 30,
+  "native_1q": 60,
+  "input_2q": 30,
+  "input_1q": 60
+ },
+ "qcup-a1-C15-p1-warm|500|native": {
+  "id": "qcup-a1-C15-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "zz": 30,
+   "gpi": 1
+  },
+  "native_2q": 30,
+  "native_1q": 61,
+  "input_2q": 30,
+  "input_1q": 61
+ },
+ "qcup-a2-counter-flag-r-t1|500|native": {
+  "id": "qcup-a2-counter-flag-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 16,
+   "gpi2": 44,
+   "zz": 30
+  },
+  "native_2q": 30,
+  "native_1q": 60,
+  "input_2q": 30,
+  "input_1q": 60
+ },
+ "qcup-a1-C18-p1-cold|500|native": {
+  "id": "qcup-a1-C18-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 54,
+   "gpi": 18,
+   "zz": 36
+  },
+  "native_2q": 36,
+  "native_1q": 72,
+  "input_2q": 36,
+  "input_1q": 72
+ },
+ "qcup-a1-C18-p1-warm|500|native": {
+  "id": "qcup-a1-C18-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 36,
+   "gpi": 1
+  },
+  "native_2q": 36,
+  "native_1q": 73,
+  "input_2q": 36,
+  "input_1q": 73
+ },
+ "qcup-a1-R16-p1-cold|500|native": {
+  "id": "qcup-a1-R16-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "gpi": 16,
+   "zz": 36
+  },
+  "native_2q": 36,
+  "native_1q": 64,
+  "input_2q": 36,
+  "input_1q": 64
+ },
+ "qcup-a1-R16-p1-warm|500|native": {
+  "id": "qcup-a1-R16-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 36,
+   "gpi": 1
+  },
+  "native_2q": 36,
+  "native_1q": 65,
+  "input_2q": 36,
+  "input_1q": 65
+ },
+ "qcup-a1-B12-p1-cold|500|native": {
+  "id": "qcup-a1-B12-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 36,
+   "gpi": 12,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 48,
+  "input_2q": 39,
+  "input_1q": 48
+ },
+ "qcup-a1-B12-p1-warm|500|native": {
+  "id": "qcup-a1-B12-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 39,
+   "gpi": 1
+  },
+  "native_2q": 39,
+  "native_1q": 49,
+  "input_2q": 39,
+  "input_1q": 49
+ },
+ "qcup-q7-B12-warmT-p1|500|native": {
+  "id": "qcup-q7-B12-warmT-p1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 36,
+   "gpi": 12,
+   "zz": 39
+  },
+  "native_2q": 39,
+  "native_1q": 48,
+  "input_2q": 39,
+  "input_1q": 48
+ },
+ "qcup-a1-R20-p1-cold|500|native": {
+  "id": "qcup-a1-R20-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 20,
+   "zz": 42
+  },
+  "native_2q": 42,
+  "native_1q": 80,
+  "input_2q": 42,
+  "input_1q": 80
+ },
+ "qcup-a1-R20-p1-warm|500|native": {
+  "id": "qcup-a1-R20-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 42,
+   "gpi": 1
+  },
+  "native_2q": 42,
+  "native_1q": 81,
+  "input_2q": 42,
+  "input_1q": 81
+ },
+ "qcup-a2-hc-11-fabric-caps-logged-r-t1|500|native": {
+  "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 15,
+   "gpi2": 75,
+   "zz": 43
+  },
+  "native_2q": 43,
+  "native_1q": 90,
+  "input_2q": 43,
+  "input_1q": 90
+ },
+ "qcup-a1-C24-p1-cold|500|native": {
+  "id": "qcup-a1-C24-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "gpi": 24,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 96,
+  "input_2q": 48,
+  "input_1q": 96
+ },
+ "qcup-a2-washer-r-t1|500|native": {
+  "id": "qcup-a2-washer-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 50,
+   "gpi": 20
+  },
+  "native_2q": 50,
+  "native_1q": 92,
+  "input_2q": 50,
+  "input_1q": 92
+ },
+ "qcup-a1-B16-p1-cold|500|native": {
+  "id": "qcup-a1-B16-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "gpi": 16,
+   "zz": 57
+  },
+  "native_2q": 57,
+  "native_1q": 64,
+  "input_2q": 57,
+  "input_1q": 64
+ },
+ "qcup-a1-B16-p1-warm|500|native": {
+  "id": "qcup-a1-B16-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 57
+  },
+  "native_2q": 57,
+  "native_1q": 64,
+  "input_2q": 57,
+  "input_1q": 64
+ },
+ "qcup-q7-B16-warmT-p1|500|native": {
+  "id": "qcup-q7-B16-warmT-p1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "gpi": 16,
+   "zz": 57
+  },
+  "native_2q": 57,
+  "native_1q": 64,
+  "input_2q": 57,
+  "input_1q": 64
+ },
+ "qcup-a1-A12-p1-cold|500|native": {
+  "id": "qcup-a1-A12-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 36,
+   "gpi": 12,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 48,
+  "input_2q": 66,
+  "input_1q": 48
+ },
+ "qcup-a1-A12-p1-warm|500|native": {
+  "id": "qcup-a1-A12-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "zz": 66,
+   "gpi": 1
+  },
+  "native_2q": 66,
+  "native_1q": 49,
+  "input_2q": 66,
+  "input_1q": 49
+ },
+ "qcup-a1-D12-p1-cold|500|native": {
+  "id": "qcup-a1-D12-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 36,
+   "gpi": 12,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 48,
+  "input_2q": 66,
+  "input_1q": 48
+ },
+ "qcup-a1-D12-p1-warm|500|native": {
+  "id": "qcup-a1-D12-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 66
+  },
+  "native_2q": 66,
+  "native_1q": 72,
+  "input_2q": 66,
+  "input_1q": 72
+ },
+ "qcup-a1-R24-p1-cold|500|native": {
+  "id": "qcup-a1-R24-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "gpi": 24,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-q7-B12-warmT-p2|500|native": {
+  "id": "qcup-q7-B12-warmT-p2",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 12,
+   "zz": 78
+  },
+  "native_2q": 78,
+  "native_1q": 72,
+  "input_2q": 78,
+  "input_1q": 72
+ },
+ "qcup-a2-door-r-t1|500|native": {
+  "id": "qcup-a2-door-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 89,
+   "gpi": 29
+  },
+  "native_2q": 89,
+  "native_1q": 157,
+  "input_2q": 89,
+  "input_1q": 157
+ },
+ "qcup-a1-B20-p1-cold|500|native": {
+  "id": "qcup-a1-B20-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 20,
+   "zz": 94
+  },
+  "native_2q": 94,
+  "native_1q": 80,
+  "input_2q": 94,
+  "input_1q": 80
+ },
+ "qcup-a1-B20-p1-warm|500|native": {
+  "id": "qcup-a1-B20-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 94,
+   "gpi": 1
+  },
+  "native_2q": 94,
+  "native_1q": 81,
+  "input_2q": 94,
+  "input_1q": 81
+ },
+ "qcup-e-labs8-p1|500|native": {
+  "id": "qcup-e-labs8-p1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 145,
+   "gpi": 41,
+   "zz": 96
+  },
+  "native_2q": 96,
+  "native_1q": 186,
+  "input_2q": 96,
+  "input_1q": 186
+ },
+ "qcup-a2-t59-distinguish-mod5-mod4-r-t1|500|native": {
+  "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 40,
+   "gpi2": 137,
+   "zz": 99
+  },
+  "native_2q": 99,
+  "native_1q": 177,
+  "input_2q": 99,
+  "input_1q": 177
+ },
+ "qcup-a2-s1-guard-trap-keeps-r-t1|500|native": {
+  "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 37,
+   "gpi2": 181,
+   "zz": 106
+  },
+  "native_2q": 106,
+  "native_1q": 218,
+  "input_2q": 106,
+  "input_1q": 218
+ },
+ "qcup-a2-hc-21-kept-step-is-input-r-t1|500|native": {
+  "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 36,
+   "gpi2": 207,
+   "zz": 108
+  },
+  "native_2q": 108,
+  "native_1q": 243,
+  "input_2q": 108,
+  "input_1q": 243
+ },
+ "qcup-q7-B16-warmT-p2|500|native": {
+  "id": "qcup-q7-B16-warmT-p2",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "gpi": 16,
+   "zz": 114
+  },
+  "native_2q": 114,
+  "native_1q": 96,
+  "input_2q": 114,
+  "input_1q": 96
+ },
+ "qcup-a1-A16-p1-cold|500|native": {
+  "id": "qcup-a1-A16-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "gpi": 16,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 64,
+  "input_2q": 120,
+  "input_1q": 64
+ },
+ "qcup-a1-A16-p1-warm|500|native": {
+  "id": "qcup-a1-A16-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 64,
+   "zz": 120,
+   "gpi": 1
+  },
+  "native_2q": 120,
+  "native_1q": 65,
+  "input_2q": 120,
+  "input_1q": 65
+ },
+ "qcup-a1-D16-p1-cold|500|native": {
+  "id": "qcup-a1-D16-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "gpi": 16,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 64,
+  "input_2q": 120,
+  "input_1q": 64
+ },
+ "qcup-a1-D16-p1-warm|500|native": {
+  "id": "qcup-a1-D16-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 120
+  },
+  "native_2q": 120,
+  "native_1q": 96,
+  "input_2q": 120,
+  "input_1q": 96
+ },
+ "qcup-a2-queue-sim-r-t1|500|native": {
+  "id": "qcup-a2-queue-sim-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 50,
+   "gpi2": 217,
+   "zz": 130
+  },
+  "native_2q": 130,
+  "native_1q": 267,
+  "input_2q": 130,
+  "input_1q": 267
+ },
+ "qcup-a1-B24-p1-cold|500|native": {
+  "id": "qcup-a1-B24-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "gpi": 24,
+   "zz": 136
+  },
+  "native_2q": 136,
+  "native_1q": 96,
+  "input_2q": 136,
+  "input_1q": 96
+ },
+ "qcup-a2-03-distributed-accept-r-t1|500|native": {
+  "id": "qcup-a2-03-distributed-accept-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 39,
+   "gpi2": 259,
+   "zz": 139
+  },
+  "native_2q": 139,
+  "native_1q": 298,
+  "input_2q": 139,
+  "input_1q": 298
+ },
+ "qcup-f-tgt-nio-stretched|500|native": {
+  "id": "qcup-f-tgt-nio-stretched",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 286,
+   "zz": 142,
+   "gpi": 21
+  },
+  "native_2q": 142,
+  "native_1q": 307,
+  "input_2q": 142,
+  "input_1q": 307
+ },
+ "qcup-f-tgt-feo-eq|500|native": {
+  "id": "qcup-f-tgt-feo-eq",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 302,
+   "zz": 157,
+   "gpi": 25
+  },
+  "native_2q": 157,
+  "native_1q": 327,
+  "input_2q": 157,
+  "input_1q": 327
+ },
+ "qcup-f-tgt-fes-eq|500|native": {
+  "id": "qcup-f-tgt-fes-eq",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 294,
+   "zz": 171,
+   "gpi": 30
+  },
+  "native_2q": 171,
+  "native_1q": 324,
+  "input_2q": 171,
+  "input_1q": 324
+ },
+ "qcup-a2-t62-dependent-differ-r-t1|500|native": {
+  "id": "qcup-a2-t62-dependent-differ-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 53,
+   "gpi2": 288,
+   "zz": 173
+  },
+  "native_2q": 173,
+  "native_1q": 341,
+  "input_2q": 173,
+  "input_1q": 341
+ },
+ "qcup-a2-counter-r-t1|500|native": {
+  "id": "qcup-a2-counter-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 57,
+   "gpi2": 296,
+   "zz": 182
+  },
+  "native_2q": 182,
+  "native_1q": 353,
+  "input_2q": 182,
+  "input_1q": 353
+ },
+ "qcup-a1-A20-p1-cold|500|native": {
+  "id": "qcup-a1-A20-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 20,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 80,
+  "input_2q": 190,
+  "input_1q": 80
+ },
+ "qcup-a1-A20-p1-warm|500|native": {
+  "id": "qcup-a1-A20-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "zz": 190,
+   "gpi": 1
+  },
+  "native_2q": 190,
+  "native_1q": 81,
+  "input_2q": 190,
+  "input_1q": 81
+ },
+ "qcup-a1-D20-p1-cold|500|native": {
+  "id": "qcup-a1-D20-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 20,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 80,
+  "input_2q": 190,
+  "input_1q": 80
+ },
+ "qcup-a1-D20-p1-warm|500|native": {
+  "id": "qcup-a1-D20-p1-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 190
+  },
+  "native_2q": 190,
+  "native_1q": 120,
+  "input_2q": 190,
+  "input_1q": 120
+ },
+ "qcup-a2-session-r-t1|500|native": {
+  "id": "qcup-a2-session-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 380,
+   "zz": 215,
+   "gpi": 71
+  },
+  "native_2q": 215,
+  "native_1q": 451,
+  "input_2q": 215,
+  "input_1q": 451
+ },
+ "qcup-f-chem-lih-n10|1000|native": {
+  "id": "qcup-f-chem-lih-n10",
+  "route": "native",
+  "native_gates": {
+   "gpi": 88,
+   "zz": 269,
+   "gpi2": 466
+  },
+  "native_2q": 269,
+  "native_1q": 554,
+  "input_2q": 269,
+  "input_1q": 554
+ },
+ "qcup-a1-A24-p1-cold|500|native": {
+  "id": "qcup-a1-A24-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "gpi": 24,
+   "zz": 276
+  },
+  "native_2q": 276,
+  "native_1q": 96,
+  "input_2q": 276,
+  "input_1q": 96
+ },
+ "qcup-a1-D24-p1-cold|500|native": {
+  "id": "qcup-a1-D24-p1-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "gpi": 24,
+   "zz": 276
+  },
+  "native_2q": 276,
+  "native_1q": 96,
+  "input_2q": 276,
+  "input_1q": 96
+ },
+ "qcup-f-tgt-fes-stretched|500|native": {
+  "id": "qcup-f-tgt-fes-stretched",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 402,
+   "zz": 184,
+   "gpi": 11
+  },
+  "native_2q": 184,
+  "native_1q": 413,
+  "input_2q": 184,
+  "input_1q": 413
+ },
+ "qcup-f-chem-h4chain-n8|1000|native": {
+  "id": "qcup-f-chem-h4chain-n8",
+  "route": "native",
+  "native_gates": {
+   "gpi": 101,
+   "zz": 296,
+   "gpi2": 512
+  },
+  "native_2q": 296,
+  "native_1q": 613,
+  "input_2q": 296,
+  "input_1q": 613
+ },
+ "qcup-f-chem-h4square-n8|1000|native": {
+  "id": "qcup-f-chem-h4square-n8",
+  "route": "native",
+  "native_gates": {
+   "gpi": 101,
+   "zz": 296,
+   "gpi2": 512
+  },
+  "native_2q": 296,
+  "native_1q": 613,
+  "input_2q": 296,
+  "input_1q": 613
+ },
+ "qcup-f-tgt-mno-eq|500|native": {
+  "id": "qcup-f-tgt-mno-eq",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 520,
+   "zz": 224,
+   "gpi": 11
+  },
+  "native_2q": 224,
+  "native_1q": 531,
+  "input_2q": 224,
+  "input_1q": 531
+ },
+ "qcup-f-tgt-mno-stretched|500|native": {
+  "id": "qcup-f-tgt-mno-stretched",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 508,
+   "zz": 224,
+   "gpi": 14
+  },
+  "native_2q": 224,
+  "native_1q": 522,
+  "input_2q": 224,
+  "input_1q": 522
+ },
+ "qcup-f-tgt-nio-eq|500|native": {
+  "id": "qcup-f-tgt-nio-eq",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 508,
+   "zz": 224,
+   "gpi": 12
+  },
+  "native_2q": 224,
+  "native_1q": 520,
+  "input_2q": 224,
+  "input_1q": 520
+ },
+ "qcup-f-tgt-feo-stretched|500|native": {
+  "id": "qcup-f-tgt-feo-stretched",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 512,
+   "zz": 245,
+   "gpi": 16
+  },
+  "native_2q": 245,
+  "native_1q": 528,
+  "input_2q": 245,
+  "input_1q": 528
+ },
+ "qcup-e-labs12-p1|500|native": {
+  "id": "qcup-e-labs12-p1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 557,
+   "gpi": 154,
+   "zz": 365
+  },
+  "native_2q": 365,
+  "native_1q": 711,
+  "input_2q": 365,
+  "input_1q": 711
+ },
+ "qcup-e-labs16-p1|500|native": {
+  "id": "qcup-e-labs16-p1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 1043,
+   "gpi": 238,
+   "zz": 910
+  },
+  "native_2q": 910,
+  "native_1q": 1281,
+  "input_2q": 910,
+  "input_1q": 1281
+ },
+ "qcup-e-labs20-p1|500|native": {
+  "id": "qcup-e-labs20-p1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 2737,
+   "gpi": 794,
+   "zz": 1827
+  },
+  "native_2q": 1827,
+  "native_1q": 3531,
+  "input_2q": 1827,
+  "input_1q": 3531
+ },
+ "qcup-a1-C12-p2-cold|500|native": {
+  "id": "qcup-a1-C12-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 12,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 72,
+  "input_2q": 48,
+  "input_1q": 72
+ },
+ "qcup-a1-C12-p2-warm|500|native": {
+  "id": "qcup-a1-C12-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 48,
+   "gpi": 2
+  },
+  "native_2q": 48,
+  "native_1q": 74,
+  "input_2q": 48,
+  "input_1q": 74
+ },
+ "qcup-a1-R12-p2-cold|500|native": {
+  "id": "qcup-a1-R12-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 12,
+   "zz": 48
+  },
+  "native_2q": 48,
+  "native_1q": 72,
+  "input_2q": 48,
+  "input_1q": 72
+ },
+ "qcup-a1-R12-p2-warm|500|native": {
+  "id": "qcup-a1-R12-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 48,
+   "gpi": 2
+  },
+  "native_2q": 48,
+  "native_1q": 74,
+  "input_2q": 48,
+  "input_1q": 74
+ },
+ "qcup-a1-C15-p2-cold|500|native": {
+  "id": "qcup-a1-C15-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 75,
+   "gpi": 15,
+   "zz": 60
+  },
+  "native_2q": 60,
+  "native_1q": 90,
+  "input_2q": 60,
+  "input_1q": 90
+ },
+ "qcup-a1-C15-p2-warm|500|native": {
+  "id": "qcup-a1-C15-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 90,
+   "zz": 60,
+   "gpi": 2
+  },
+  "native_2q": 60,
+  "native_1q": 92,
+  "input_2q": 60,
+  "input_1q": 92
+ },
+ "qcup-a1-C12-p3-cold|500|native": {
+  "id": "qcup-a1-C12-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 84,
+   "gpi": 12,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-a1-C12-p3-warm|500|native": {
+  "id": "qcup-a1-C12-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 72,
+   "gpi": 2
+  },
+  "native_2q": 72,
+  "native_1q": 98,
+  "input_2q": 72,
+  "input_1q": 98
+ },
+ "qcup-a1-C18-p2-cold|500|native": {
+  "id": "qcup-a1-C18-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 90,
+   "gpi": 18,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 108,
+  "input_2q": 72,
+  "input_1q": 108
+ },
+ "qcup-a1-C18-p2-warm|500|native": {
+  "id": "qcup-a1-C18-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 108,
+   "zz": 72,
+   "gpi": 2
+  },
+  "native_2q": 72,
+  "native_1q": 110,
+  "input_2q": 72,
+  "input_1q": 110
+ },
+ "qcup-a1-R12-p3-cold|500|native": {
+  "id": "qcup-a1-R12-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 84,
+   "gpi": 12,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-a1-R12-p3-warm|500|native": {
+  "id": "qcup-a1-R12-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 72,
+   "gpi": 3
+  },
+  "native_2q": 72,
+  "native_1q": 99,
+  "input_2q": 72,
+  "input_1q": 99
+ },
+ "qcup-a1-R16-p2-cold|500|native": {
+  "id": "qcup-a1-R16-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "gpi": 16,
+   "zz": 72
+  },
+  "native_2q": 72,
+  "native_1q": 96,
+  "input_2q": 72,
+  "input_1q": 96
+ },
+ "qcup-a1-R16-p2-warm|500|native": {
+  "id": "qcup-a1-R16-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 72,
+   "gpi": 2
+  },
+  "native_2q": 72,
+  "native_1q": 98,
+  "input_2q": 72,
+  "input_1q": 98
+ },
+ "qcup-a1-B12-p2-cold|500|native": {
+  "id": "qcup-a1-B12-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 48,
+   "gpi": 12,
+   "zz": 78
+  },
+  "native_2q": 78,
+  "native_1q": 60,
+  "input_2q": 78,
+  "input_1q": 60
+ },
+ "qcup-a1-B12-p2-warm|500|native": {
+  "id": "qcup-a1-B12-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 78,
+   "gpi": 2
+  },
+  "native_2q": 78,
+  "native_1q": 74,
+  "input_2q": 78,
+  "input_1q": 74
+ },
+ "qcup-a1-R20-p2-cold|500|native": {
+  "id": "qcup-a1-R20-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 100,
+   "gpi": 20,
+   "zz": 84
+  },
+  "native_2q": 84,
+  "native_1q": 120,
+  "input_2q": 84,
+  "input_1q": 120
+ },
+ "qcup-a1-R20-p2-warm|500|native": {
+  "id": "qcup-a1-R20-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 84,
+   "gpi": 2
+  },
+  "native_2q": 84,
+  "native_1q": 122,
+  "input_2q": 84,
+  "input_1q": 122
+ },
+ "qcup-a1-C15-p3-cold|500|native": {
+  "id": "qcup-a1-C15-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 105,
+   "gpi": 15,
+   "zz": 90
+  },
+  "native_2q": 90,
+  "native_1q": 120,
+  "input_2q": 90,
+  "input_1q": 120
+ },
+ "qcup-a1-C15-p3-warm|500|native": {
+  "id": "qcup-a1-C15-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 90,
+   "gpi": 3
+  },
+  "native_2q": 90,
+  "native_1q": 123,
+  "input_2q": 90,
+  "input_1q": 123
+ },
+ "qcup-a1-C24-p2-cold|500|native": {
+  "id": "qcup-a1-C24-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "gpi": 24,
+   "zz": 96
+  },
+  "native_2q": 96,
+  "native_1q": 144,
+  "input_2q": 96,
+  "input_1q": 144
+ },
+ "qcup-a1-B12-p3-warm|500|native": {
+  "id": "qcup-a1-B12-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 92,
+   "zz": 107,
+   "gpi": 2
+  },
+  "native_2q": 107,
+  "native_1q": 94,
+  "input_2q": 107,
+  "input_1q": 94
+ },
+ "qcup-a1-C18-p3-cold|500|native": {
+  "id": "qcup-a1-C18-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 126,
+   "gpi": 18,
+   "zz": 108
+  },
+  "native_2q": 108,
+  "native_1q": 144,
+  "input_2q": 108,
+  "input_1q": 144
+ },
+ "qcup-a1-C18-p3-warm|500|native": {
+  "id": "qcup-a1-C18-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 144,
+   "zz": 108,
+   "gpi": 3
+  },
+  "native_2q": 108,
+  "native_1q": 147,
+  "input_2q": 108,
+  "input_1q": 147
+ },
+ "qcup-a1-R16-p3-cold|500|native": {
+  "id": "qcup-a1-R16-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 112,
+   "gpi": 16,
+   "zz": 108
+  },
+  "native_2q": 108,
+  "native_1q": 128,
+  "input_2q": 108,
+  "input_1q": 128
+ },
+ "qcup-a1-R16-p3-warm|500|native": {
+  "id": "qcup-a1-R16-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 108,
+   "gpi": 3
+  },
+  "native_2q": 108,
+  "native_1q": 131,
+  "input_2q": 108,
+  "input_1q": 131
+ },
+ "qcup-a1-B16-p2-cold|500|native": {
+  "id": "qcup-a1-B16-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "gpi": 16,
+   "zz": 114
+  },
+  "native_2q": 114,
+  "native_1q": 96,
+  "input_2q": 114,
+  "input_1q": 96
+ },
+ "qcup-a1-B16-p2-warm|500|native": {
+  "id": "qcup-a1-B16-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 114
+  },
+  "native_2q": 114,
+  "native_1q": 96,
+  "input_2q": 114,
+  "input_1q": 96
+ },
+ "qcup-a1-B12-p3-cold|500|native": {
+  "id": "qcup-a1-B12-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 12,
+   "zz": 117
+  },
+  "native_2q": 117,
+  "native_1q": 72,
+  "input_2q": 117,
+  "input_1q": 72
+ },
+ "qcup-a1-R20-p3-cold|500|native": {
+  "id": "qcup-a1-R20-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 140,
+   "gpi": 20,
+   "zz": 126
+  },
+  "native_2q": 126,
+  "native_1q": 160,
+  "input_2q": 126,
+  "input_1q": 160
+ },
+ "qcup-a1-R20-p3-warm|500|native": {
+  "id": "qcup-a1-R20-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 126,
+   "gpi": 3
+  },
+  "native_2q": 126,
+  "native_1q": 163,
+  "input_2q": 126,
+  "input_1q": 163
+ },
+ "qcup-a1-A12-p2-cold|500|native": {
+  "id": "qcup-a1-A12-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 12,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 72,
+  "input_2q": 132,
+  "input_1q": 72
+ },
+ "qcup-a1-A12-p2-warm|500|native": {
+  "id": "qcup-a1-A12-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 132,
+   "gpi": 2
+  },
+  "native_2q": 132,
+  "native_1q": 74,
+  "input_2q": 132,
+  "input_1q": 74
+ },
+ "qcup-a1-D12-p2-cold|500|native": {
+  "id": "qcup-a1-D12-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 60,
+   "gpi": 12,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 72,
+  "input_2q": 132,
+  "input_1q": 72
+ },
+ "qcup-a1-D12-p2-warm|500|native": {
+  "id": "qcup-a1-D12-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 132
+  },
+  "native_2q": 132,
+  "native_1q": 120,
+  "input_2q": 132,
+  "input_1q": 120
+ },
+ "qcup-a1-C24-p3-cold|500|native": {
+  "id": "qcup-a1-C24-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 168,
+   "gpi": 24,
+   "zz": 144
+  },
+  "native_2q": 144,
+  "native_1q": 192,
+  "input_2q": 144,
+  "input_1q": 192
+ },
+ "qcup-a1-R24-p2-cold|500|native": {
+  "id": "qcup-a1-R24-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "gpi": 24,
+   "zz": 144
+  },
+  "native_2q": 144,
+  "native_1q": 144,
+  "input_2q": 144,
+  "input_1q": 144
+ },
+ "qcup-a1-B16-p3-cold|500|native": {
+  "id": "qcup-a1-B16-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 112,
+   "gpi": 16,
+   "zz": 171
+  },
+  "native_2q": 171,
+  "native_1q": 128,
+  "input_2q": 171,
+  "input_1q": 128
+ },
+ "qcup-a1-B16-p3-warm|500|native": {
+  "id": "qcup-a1-B16-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 171
+  },
+  "native_2q": 171,
+  "native_1q": 128,
+  "input_2q": 171,
+  "input_1q": 128
+ },
+ "qcup-a1-B20-p2-cold|500|native": {
+  "id": "qcup-a1-B20-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 100,
+   "gpi": 20,
+   "zz": 188
+  },
+  "native_2q": 188,
+  "native_1q": 120,
+  "input_2q": 188,
+  "input_1q": 120
+ },
+ "qcup-a1-B20-p2-warm|500|native": {
+  "id": "qcup-a1-B20-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 188,
+   "gpi": 2
+  },
+  "native_2q": 188,
+  "native_1q": 122,
+  "input_2q": 188,
+  "input_1q": 122
+ },
+ "qcup-a1-A12-p3-cold|500|native": {
+  "id": "qcup-a1-A12-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 84,
+   "gpi": 12,
+   "zz": 198
+  },
+  "native_2q": 198,
+  "native_1q": 96,
+  "input_2q": 198,
+  "input_1q": 96
+ },
+ "qcup-a1-A12-p3-warm|500|native": {
+  "id": "qcup-a1-A12-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 198,
+   "gpi": 3
+  },
+  "native_2q": 198,
+  "native_1q": 99,
+  "input_2q": 198,
+  "input_1q": 99
+ },
+ "qcup-a1-D12-p3-cold|500|native": {
+  "id": "qcup-a1-D12-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 84,
+   "gpi": 12,
+   "zz": 198
+  },
+  "native_2q": 198,
+  "native_1q": 96,
+  "input_2q": 198,
+  "input_1q": 96
+ },
+ "qcup-a1-D12-p3-warm|500|native": {
+  "id": "qcup-a1-D12-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 72,
+   "zz": 198
+  },
+  "native_2q": 198,
+  "native_1q": 72,
+  "input_2q": 198,
+  "input_1q": 72
+ },
+ "qcup-a1-R24-p3-cold|500|native": {
+  "id": "qcup-a1-R24-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 168,
+   "gpi": 24,
+   "zz": 216
+  },
+  "native_2q": 216,
+  "native_1q": 192,
+  "input_2q": 216,
+  "input_1q": 192
+ },
+ "qcup-a1-A16-p2-cold|500|native": {
+  "id": "qcup-a1-A16-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "gpi": 16,
+   "zz": 240
+  },
+  "native_2q": 240,
+  "native_1q": 96,
+  "input_2q": 240,
+  "input_1q": 96
+ },
+ "qcup-a1-A16-p2-warm|500|native": {
+  "id": "qcup-a1-A16-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 96,
+   "zz": 240,
+   "gpi": 2
+  },
+  "native_2q": 240,
+  "native_1q": 98,
+  "input_2q": 240,
+  "input_1q": 98
+ },
+ "qcup-a1-D16-p2-cold|500|native": {
+  "id": "qcup-a1-D16-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 80,
+   "gpi": 16,
+   "zz": 240
+  },
+  "native_2q": 240,
+  "native_1q": 96,
+  "input_2q": 240,
+  "input_1q": 96
+ },
+ "qcup-a1-D16-p2-warm|500|native": {
+  "id": "qcup-a1-D16-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 240
+  },
+  "native_2q": 240,
+  "native_1q": 160,
+  "input_2q": 240,
+  "input_1q": 160
+ },
+ "qcup-a1-B20-p3-cold|500|native": {
+  "id": "qcup-a1-B20-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 140,
+   "gpi": 20,
+   "zz": 282
+  },
+  "native_2q": 282,
+  "native_1q": 160,
+  "input_2q": 282,
+  "input_1q": 160
+ },
+ "qcup-a1-B20-p3-warm|500|native": {
+  "id": "qcup-a1-B20-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 282,
+   "gpi": 3
+  },
+  "native_2q": 282,
+  "native_1q": 163,
+  "input_2q": 282,
+  "input_1q": 163
+ },
+ "qcup-a2-t62-independent-commute-r-t1|500|native": {
+  "id": "qcup-a2-t62-independent-commute-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 611,
+   "zz": 333,
+   "gpi": 103
+  },
+  "native_2q": 333,
+  "native_1q": 714,
+  "input_2q": 333,
+  "input_1q": 714
+ },
+ "qcup-a1-A16-p3-cold|500|native": {
+  "id": "qcup-a1-A16-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 112,
+   "gpi": 16,
+   "zz": 360
+  },
+  "native_2q": 360,
+  "native_1q": 128,
+  "input_2q": 360,
+  "input_1q": 128
+ },
+ "qcup-a1-A16-p3-warm|500|native": {
+  "id": "qcup-a1-A16-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 128,
+   "zz": 360,
+   "gpi": 2
+  },
+  "native_2q": 360,
+  "native_1q": 130,
+  "input_2q": 360,
+  "input_1q": 130
+ },
+ "qcup-a1-D16-p3-cold|500|native": {
+  "id": "qcup-a1-D16-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 112,
+   "gpi": 16,
+   "zz": 360
+  },
+  "native_2q": 360,
+  "native_1q": 128,
+  "input_2q": 360,
+  "input_1q": 128
+ },
+ "qcup-a1-D16-p3-warm|500|native": {
+  "id": "qcup-a1-D16-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 224,
+   "zz": 360
+  },
+  "native_2q": 360,
+  "native_1q": 224,
+  "input_2q": 360,
+  "input_1q": 224
+ },
+ "qcup-a2-card-r-t1|500|native": {
+  "id": "qcup-a2-card-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 105,
+   "gpi2": 645,
+   "zz": 375
+  },
+  "native_2q": 375,
+  "native_1q": 750,
+  "input_2q": 375,
+  "input_1q": 750
+ },
+ "qcup-a1-A20-p2-cold|500|native": {
+  "id": "qcup-a1-A20-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 100,
+   "gpi": 20,
+   "zz": 380
+  },
+  "native_2q": 380,
+  "native_1q": 120,
+  "input_2q": 380,
+  "input_1q": 120
+ },
+ "qcup-a1-A20-p2-warm|500|native": {
+  "id": "qcup-a1-A20-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "zz": 380,
+   "gpi": 2
+  },
+  "native_2q": 380,
+  "native_1q": 122,
+  "input_2q": 380,
+  "input_1q": 122
+ },
+ "qcup-a1-D20-p2-cold|500|native": {
+  "id": "qcup-a1-D20-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 100,
+   "gpi": 20,
+   "zz": 380
+  },
+  "native_2q": 380,
+  "native_1q": 120,
+  "input_2q": 380,
+  "input_1q": 120
+ },
+ "qcup-a1-D20-p2-warm|500|native": {
+  "id": "qcup-a1-D20-p2-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 200,
+   "zz": 380
+  },
+  "native_2q": 380,
+  "native_1q": 200,
+  "input_2q": 380,
+  "input_1q": 200
+ },
+ "qcup-a2-flag-walls-r-t1|500|native": {
+  "id": "qcup-a2-flag-walls-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 105,
+   "gpi2": 716,
+   "zz": 386
+  },
+  "native_2q": 386,
+  "native_1q": 821,
+  "input_2q": 386,
+  "input_1q": 821
+ },
+ "qcup-a2-lobby-r-t1|500|native": {
+  "id": "qcup-a2-lobby-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 104,
+   "gpi2": 709,
+   "zz": 396
+  },
+  "native_2q": 396,
+  "native_1q": 813,
+  "input_2q": 396,
+  "input_1q": 813
+ },
+ "qcup-a2-ring-buffer-r-t1|500|native": {
+  "id": "qcup-a2-ring-buffer-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 131,
+   "gpi2": 683,
+   "zz": 399
+  },
+  "native_2q": 399,
+  "native_1q": 814,
+  "input_2q": 399,
+  "input_1q": 814
+ },
+ "qcup-a2-reconcile-r-t1|500|native": {
+  "id": "qcup-a2-reconcile-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 130,
+   "gpi2": 876,
+   "zz": 470
+  },
+  "native_2q": 470,
+  "native_1q": 1006,
+  "input_2q": 470,
+  "input_1q": 1006
+ },
+ "qcup-a2-crossing-r-t1|500|native": {
+  "id": "qcup-a2-crossing-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 145,
+   "gpi2": 916,
+   "zz": 486
+  },
+  "native_2q": 486,
+  "native_1q": 1061,
+  "input_2q": 486,
+  "input_1q": 1061
+ },
+ "qcup-a2-account-r-t1|500|native": {
+  "id": "qcup-a2-account-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 144,
+   "gpi2": 936,
+   "zz": 501
+  },
+  "native_2q": 501,
+  "native_1q": 1080,
+  "input_2q": 501,
+  "input_1q": 1080
+ },
+ "qcup-a1-A20-p3-cold|500|native": {
+  "id": "qcup-a1-A20-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 140,
+   "gpi": 20,
+   "zz": 570
+  },
+  "native_2q": 570,
+  "native_1q": 160,
+  "input_2q": 570,
+  "input_1q": 160
+ },
+ "qcup-a1-A20-p3-warm|500|native": {
+  "id": "qcup-a1-A20-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 160,
+   "zz": 570,
+   "gpi": 3
+  },
+  "native_2q": 570,
+  "native_1q": 163,
+  "input_2q": 570,
+  "input_1q": 163
+ },
+ "qcup-a1-D20-p3-cold|500|native": {
+  "id": "qcup-a1-D20-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 140,
+   "gpi": 20,
+   "zz": 570
+  },
+  "native_2q": 570,
+  "native_1q": 160,
+  "input_2q": 570,
+  "input_1q": 160
+ },
+ "qcup-a1-D20-p3-warm|500|native": {
+  "id": "qcup-a1-D20-p3-warm",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 280,
+   "zz": 570
+  },
+  "native_2q": 570,
+  "native_1q": 280,
+  "input_2q": 570,
+  "input_1q": 280
+ },
+ "qcup-a2-handshake-r-t1|500|native": {
+  "id": "qcup-a2-handshake-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 222,
+   "gpi2": 1558,
+   "zz": 788
+  },
+  "native_2q": 788,
+  "native_1q": 1780,
+  "input_2q": 788,
+  "input_1q": 1780
+ },
+ "qcup-a2-player-r-t1|500|native": {
+  "id": "qcup-a2-player-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 270,
+   "gpi2": 1894,
+   "zz": 973
+  },
+  "native_2q": 973,
+  "native_1q": 2164,
+  "input_2q": 973,
+  "input_1q": 2164
+ },
+ "qcup-a2-printer-r-t1|500|native": {
+  "id": "qcup-a2-printer-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 341,
+   "gpi2": 2497,
+   "zz": 1259
+  },
+  "native_2q": 1259,
+  "native_1q": 2838,
+  "input_2q": 1259,
+  "input_1q": 2838
+ },
+ "qcup-a2-parking-r-t1|500|native": {
+  "id": "qcup-a2-parking-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 367,
+   "gpi2": 2525,
+   "zz": 1289
+  },
+  "native_2q": 1289,
+  "native_1q": 2892,
+  "input_2q": 1289,
+  "input_1q": 2892
+ },
+ "qcup-a2-climate-r-t1|500|native": {
+  "id": "qcup-a2-climate-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 387,
+   "gpi2": 2786,
+   "zz": 1400
+  },
+  "native_2q": 1400,
+  "native_1q": 3173,
+  "input_2q": 1400,
+  "input_1q": 3173
+ },
+ "qcup-a2-reservoir-r-t1|500|native": {
+  "id": "qcup-a2-reservoir-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 414,
+   "gpi2": 2920,
+   "zz": 1493
+  },
+  "native_2q": 1493,
+  "native_1q": 3334,
+  "input_2q": 1493,
+  "input_1q": 3334
+ },
+ "qcup-a2-vending-r-t1|500|native": {
+  "id": "qcup-a2-vending-r-t1",
+  "route": "native",
+  "native_gates": {
+   "gpi": 422,
+   "gpi2": 3079,
+   "zz": 1529
+  },
+  "native_2q": 1529,
+  "native_1q": 3501,
+  "input_2q": 1529,
+  "input_1q": 3501
+ },
+ "qcup-a2-equivalent-r-t1|500": {
+  "id": "qcup-a2-equivalent-r-t1",
+  "route": "qis",
+  "native_gates": {},
+  "native_2q": 0,
+  "native_1q": 0,
+  "input_2q": 9,
+  "input_1q": 35
+ },
+ "qcup-a2-door-r-t1|500": {
+  "id": "qcup-a2-door-r-t1",
+  "route": "qis",
+  "native_gates": {},
+  "native_2q": 0,
+  "native_1q": 0,
+  "input_2q": 89,
+  "input_1q": 280
+ },
+ "qcup-a2-session-r-t1|500": {
+  "id": "qcup-a2-session-r-t1",
+  "route": "qis",
+  "native_gates": {},
+  "native_2q": 0,
+  "native_1q": 0,
+  "input_2q": 215,
+  "input_1q": 704
+ },
+ "qcup-a2-handshake-r-t1|500": {
+  "id": "qcup-a2-handshake-r-t1",
+  "route": "qis",
+  "native_gates": {},
+  "native_2q": 0,
+  "native_1q": 0,
+  "input_2q": 788,
+  "input_1q": 2584
+ },
+ "qcup-a2-player-r-t1|500": {
+  "id": "qcup-a2-player-r-t1",
+  "route": "qis",
+  "native_gates": {},
+  "native_2q": 0,
+  "native_1q": 0,
+  "input_2q": 973,
+  "input_1q": 3171
+ },
+ "qcup-a2-printer-r-t1|500": {
+  "id": "qcup-a2-printer-r-t1",
+  "route": "qis",
+  "native_gates": {},
+  "native_2q": 0,
+  "native_1q": 0,
+  "input_2q": 1259,
+  "input_1q": 4128
+ },
+ "qcup-a1-A24-p2-cold|500|native": {
+  "id": "qcup-a1-A24-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "gpi": 24,
+   "zz": 552
+  },
+  "native_2q": 552,
+  "native_1q": 144,
+  "input_2q": 552,
+  "input_1q": 144
+ },
+ "qcup-a1-D24-p2-cold|500|native": {
+  "id": "qcup-a1-D24-p2-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 120,
+   "gpi": 24,
+   "zz": 552
+  },
+  "native_2q": 552,
+  "native_1q": 144,
+  "input_2q": 552,
+  "input_1q": 144
+ },
+ "qcup-a1-A24-p3-cold|500|native": {
+  "id": "qcup-a1-A24-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 168,
+   "gpi": 24,
+   "zz": 828
+  },
+  "native_2q": 828,
+  "native_1q": 192,
+  "input_2q": 828,
+  "input_1q": 192
+ },
+ "qcup-a1-D24-p3-cold|500|native": {
+  "id": "qcup-a1-D24-p3-cold",
+  "route": "native",
+  "native_gates": {
+   "gpi2": 168,
+   "gpi": 24,
+   "zz": 828
+  },
+  "native_2q": 828,
+  "native_1q": 192,
+  "input_2q": 828,
+  "input_1q": 192
+ }
+}

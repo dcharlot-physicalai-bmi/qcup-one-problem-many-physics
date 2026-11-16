@@ -1,0 +1,12 @@
+{
+ "backend": "ibm_marrakesh",
+ "model": "generic",
+ "results": {
+  "a1-b20-p1-warm": {
+   "score": 0.176,
+   "shots": 1500,
+   "se": 0.009832734445039522,
+   "seconds": 1188.1
+  }
+ }
+}

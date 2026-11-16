@@ -1,0 +1,1011 @@
+{
+ "method": "Component-benchmark fits of Quantinuum's published raw H2 data, written from the published method descriptions only.\n\n    python3 -I qrb_fit.py RAW_DIR OUT_JSON [N_BOOT] [SEED]\n\nRAW_DIR holds <machine>/<date>/{SQ_RB,TQ_RB,Memory_RB,SPAM}.json as published in\ngithub.com/Quantinuum/quantinuum-hardware-specifications (commit 59e68bb). Only the count tables are read\n(\"shots\", \"survival\", \"leakage_postselect\"); the circuit text and per-shot records in the files are not used.\n\nMethods, each from a published description (no code from that repository was read or run):\n  RB decay (1Q, 2Q, transport): Moses et al., PRX 13, 041052 (2023), App. A1, Eqs. (A1)-(A2):\n      p(l) = A r^l + 1/2^N (asymptote fixed by the random final Pauli), average infidelity e = (2^N - 1)/2^N (1 - r).\n      The combined estimate fits the survival averaged over every qubit's (or pair's) random sequences at each length.\n  2Q per gate: the 2Q Clifford infidelity divided by 1.5, the mean number of UZZ(pi/2) per Clifford (Moses Sec. III;\n      Quantinuum documentation, Performance Validation, \"2-qubit gate fidelity\").\n  Leakage: the fraction of shots with no leakage flagged by the gadget, fitted to p(l) = A (1 - r_L)^l\n      (Moses Eq. (A8)); for 2Q, r_L per Clifford divided by 1.5 for the rate per 2Q gate (documentation, as above).\n  Error including leakage (the repository's \"1Q error\"/\"2Q error\" columns since May 2025): average infidelity\n      1 - F = (d - 1)/d * lambda + tau  (Chen and Baldwin, arXiv:2502.00154, Eq. (10)), i.e. the legacy estimate\n      (d - 1)/d (1 - r) plus tau/d, d = 2 (1Q) or 4 (2Q).\n  Transport 1Q RB (memory): 1Q RB interleaved with transport to random pairings on all qubits; the same 1Q fit,\n      averaged across all qubits (Moses Sec. III; documentation, \"Memory error per qubit at depth-1 circuit time\").\n  SPAM: prepare |0> (|1>) and count wrong outcomes; the reported SPAM error is the average of the two\n      (Moses Sec. III; documentation, \"State preparation and measurement (SPAM) error\"); counts summed over qubits.\n  Uncertainty: semi-parametric bootstrap (Meier 2006, cited by Moses as [44]): at each length resample the\n      sequences with replacement, redraw each sequence's shots binomially at its observed rate, refit; report the\n      standard deviation over resamples. SPAM: each qubit's counts redrawn binomially.\n",
+ "n_boot": 2000,
+ "seed": 20261116,
+ "dates": {
+  "H2-1/2023_03_10": {
+   "SQ_RB": {
+    "A": 0.4971106380505951,
+    "r": 0.9999500402697336,
+    "e_clifford_legacy": 2.4979865133223367e-05,
+    "e_legacy": 2.4979865133223367e-05,
+    "A_leak": 0.9951917735431431,
+    "leak_rate_clifford": 3.6933059327369443e-06,
+    "leak_rate": 3.6933059327369443e-06,
+    "e_with_leakage": 2.6826518099591837e-05,
+    "e_legacy_free_asymptote": 1.7587890401626893e-05,
+    "free_asymptote_B": 0.2937700152851264,
+    "A_sd": 0.00039468061416368373,
+    "r_sd": 5.467997319216156e-06,
+    "e_clifford_legacy_sd": 2.733998659608078e-06,
+    "e_legacy_sd": 2.733998659608078e-06,
+    "A_leak_sd": 0.0004208818492359765,
+    "leak_rate_clifford_sd": 1.7738566053770827e-06,
+    "leak_rate_sd": 1.7738566053770827e-06,
+    "e_with_leakage_sd": 2.8937980509788512e-06,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     32,
+     128,
+     512
+    ],
+    "sequences_per_length": {
+     "2": 240,
+     "32": 240,
+     "128": 240,
+     "512": 240
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9972083333333334,
+     "32": 0.9954166666666667,
+     "128": 0.994875,
+     "512": 0.984375
+    },
+    "mean_unleaked": {
+     "2": 0.9949583333333334,
+     "32": 0.9949583333333334,
+     "128": 0.9951666666666666,
+     "512": 0.9932083333333334
+    }
+   },
+   "TQ_RB": {
+    "A": 0.7426658562526357,
+    "r": 0.9963335411145384,
+    "e_clifford_legacy": 0.0027498441640961824,
+    "e_legacy": 0.0018332294427307883,
+    "A_leak": 0.9908459856844172,
+    "leak_rate_clifford": 0.0005912715885409981,
+    "leak_rate": 0.0003941810590273321,
+    "e_with_leakage": 0.0019317747074876213,
+    "e_legacy_free_asymptote": 0.0017734619281729036,
+    "free_asymptote_B": 0.23014409579001124,
+    "A_sd": 0.0020280586801729606,
+    "r_sd": 9.455489339290889e-05,
+    "e_clifford_legacy_sd": 7.091617004468167e-05,
+    "e_legacy_sd": 4.7277446696454445e-05,
+    "A_leak_sd": 0.0012841236291717465,
+    "leak_rate_clifford_sd": 3.230414767329277e-05,
+    "leak_rate_sd": 2.1536098448861844e-05,
+    "e_with_leakage_sd": 4.843674396586125e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     16,
+     64,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 120,
+     "16": 120,
+     "64": 120,
+     "128": 120
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9863333333333334,
+     "16": 0.9514166666666667,
+     "64": 0.8369166666666666,
+     "128": 0.7140000000000001
+    },
+    "mean_unleaked": {
+     "2": 0.9904166666666667,
+     "16": 0.9816666666666667,
+     "64": 0.9522499999999999,
+     "128": 0.9195
+    }
+   },
+   "Memory_RB": {
+    "A": 0.4969775988339099,
+    "r": 0.9995678969946002,
+    "e_clifford_legacy": 0.0002160515026998766,
+    "e_legacy": 0.0002160515026998766,
+    "e_legacy_free_asymptote": 0.0021798340607315225,
+    "free_asymptote_B": 0.9411668533106993,
+    "A_sd": 0.000778265634626009,
+    "r_sd": 6.143967552017352e-05,
+    "e_clifford_legacy_sd": 3.071983776008676e-05,
+    "e_legacy_sd": 3.071983776008676e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     16,
+     32,
+     64
+    ],
+    "sequences_per_length": {
+     "2": 64,
+     "16": 64,
+     "32": 64,
+     "64": 64
+    },
+    "shots": 200,
+    "mean_survival": {
+     "2": 0.996875,
+     "16": 0.993125,
+     "32": 0.99015625,
+     "64": 0.983515625
+    },
+    "units": 1
+   },
+   "SPAM": {
+    "shots_per_qubit": 5000,
+    "qubits": 8,
+    "p_meas_0": 0.000875,
+    "p_meas_1": 0.0022500000000000003,
+    "spam_avg": 0.0015625,
+    "per_qubit_e0": [
+     0.0008,
+     0.001,
+     0.001,
+     0.0012,
+     0.0012,
+     0.0004,
+     0.0006,
+     0.0008
+    ],
+    "per_qubit_e1": [
+     0.0022,
+     0.0022,
+     0.0028,
+     0.0028,
+     0.0026,
+     0.0028,
+     0.001,
+     0.0016
+    ],
+    "p_meas_0_sd": 0.00014534000809387056,
+    "p_meas_1_sd": 0.00023154698119874317,
+    "spam_avg_sd": 0.00013713013818390422
+   },
+   "model_terms": {
+    "two_qubit_error": 0.0019317747074876213,
+    "two_qubit_error_sd": 4.843674396586125e-05,
+    "one_qubit_error": 2.6826518099591837e-05,
+    "one_qubit_error_sd": 2.8937980509788512e-06,
+    "one_qubit_error_legacy": 2.4979865133223367e-05,
+    "transport_1q_error": 0.0002160515026998766,
+    "transport_1q_error_sd": 3.071983776008676e-05,
+    "memory_error": 0.00019107163756665324,
+    "memory_error_sd": 3.084125776742562e-05,
+    "p_meas_0": 0.000875,
+    "p_meas_1": 0.0022500000000000003,
+    "readout": 0.0015625
+   }
+  },
+  "H2-1/2024_05_20": {
+   "SQ_RB": {
+    "A": 0.4959090307798741,
+    "r": 0.9999421681392158,
+    "e_clifford_legacy": 2.891593039211493e-05,
+    "e_legacy": 2.891593039211493e-05,
+    "A_leak": 0.9958579456549693,
+    "leak_rate_clifford": 1.041108782067701e-05,
+    "leak_rate": 1.041108782067701e-05,
+    "e_with_leakage": 3.412147430245343e-05,
+    "e_legacy_free_asymptote": 0.00021607440759158214,
+    "free_asymptote_B": 0.9014579571188576,
+    "A_sd": 0.0018919695571282254,
+    "r_sd": 8.019535650812926e-06,
+    "e_clifford_legacy_sd": 4.009767825406463e-06,
+    "e_legacy_sd": 4.009767825406463e-06,
+    "A_leak_sd": 0.001482866290522279,
+    "leak_rate_clifford_sd": 2.0190245807424353e-06,
+    "leak_rate_sd": 2.0190245807424353e-06,
+    "e_with_leakage_sd": 4.276786081593638e-06,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     512,
+     2048
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "512": 32,
+     "2048": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9978125,
+     "512": 0.97875,
+     "2048": 0.94125
+    },
+    "mean_unleaked": {
+     "2": 0.998125,
+     "512": 0.9875,
+     "2048": 0.975625
+    }
+   },
+   "TQ_RB": {
+    "A": 0.7427097326830236,
+    "r": 0.9974401572585033,
+    "e_clifford_legacy": 0.0019198820561225072,
+    "e_legacy": 0.0012799213707483381,
+    "A_leak": 0.9901824906437133,
+    "leak_rate_clifford": 0.0004954782476085754,
+    "leak_rate": 0.00033031883173905026,
+    "e_with_leakage": 0.0013625010786831007,
+    "e_legacy_free_asymptote": 0.0016343335041388296,
+    "free_asymptote_B": 0.3850714253028638,
+    "A_sd": 0.0037673044429930753,
+    "r_sd": 0.00016934522452375544,
+    "e_clifford_legacy_sd": 0.0001270089183928166,
+    "e_legacy_sd": 8.467261226187772e-05,
+    "A_leak_sd": 0.0026555875931982328,
+    "leak_rate_clifford_sd": 5.965726547366529e-05,
+    "leak_rate_sd": 3.977151031577686e-05,
+    "e_with_leakage_sd": 8.608728950388724e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     32,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "32": 32,
+     "128": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9896875,
+     "32": 0.933125,
+     "128": 0.7853125
+    },
+    "mean_unleaked": {
+     "2": 0.9921875,
+     "32": 0.970625,
+     "128": 0.9303125
+    }
+   },
+   "Memory_RB": {
+    "A": 0.4992853324301643,
+    "r": 0.9989927114127884,
+    "e_clifford_legacy": 0.0005036442936057761,
+    "e_legacy": 0.0005036442936057761,
+    "e_legacy_free_asymptote": 0.000610993298405138,
+    "free_asymptote_B": 0.5818827745474083,
+    "A_sd": 0.0007243794164850958,
+    "r_sd": 4.949470475061789e-05,
+    "e_clifford_legacy_sd": 2.4747352375308944e-05,
+    "e_legacy_sd": 2.4747352375308944e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     32,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 224,
+     "32": 224,
+     "128": 224
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9983482142857143,
+     "32": 0.9833482142857143,
+     "128": 0.9388839285714287
+    },
+    "units": 56
+   },
+   "SPAM": {
+    "shots_per_qubit": 10000,
+    "qubits": 8,
+    "p_meas_0": 0.0005,
+    "p_meas_1": 0.0024875,
+    "spam_avg": 0.00149375,
+    "per_qubit_e0": [
+     0.0008,
+     0.0008,
+     0.0003,
+     0.0004,
+     0.001,
+     0.0001,
+     0.0003,
+     0.0003
+    ],
+    "per_qubit_e1": [
+     0.0022,
+     0.0028,
+     0.0023,
+     0.0026,
+     0.0015,
+     0.0035,
+     0.0025,
+     0.0025
+    ],
+    "p_meas_0_sd": 7.557970449666632e-05,
+    "p_meas_1_sd": 0.0001747323937215001,
+    "spam_avg_sd": 9.480798800625872e-05
+   },
+   "model_terms": {
+    "two_qubit_error": 0.0013625010786831007,
+    "two_qubit_error_sd": 8.608728950388724e-05,
+    "one_qubit_error": 3.412147430245343e-05,
+    "one_qubit_error_sd": 4.276786081593638e-06,
+    "one_qubit_error_legacy": 2.891593039211493e-05,
+    "transport_1q_error": 0.0005036442936057761,
+    "transport_1q_error_sd": 2.4747352375308944e-05,
+    "memory_error": 0.0004747283632136612,
+    "memory_error_sd": 2.5070095484488567e-05,
+    "p_meas_0": 0.0005,
+    "p_meas_1": 0.0024875,
+    "readout": 0.00149375
+   }
+  },
+  "H2-1/2025_04_30": {
+   "SQ_RB": {
+    "A": 0.4981518438258061,
+    "r": 0.9999670899927467,
+    "e_clifford_legacy": 1.645500362662533e-05,
+    "e_legacy": 1.645500362662533e-05,
+    "A_leak": 0.9980106654046444,
+    "leak_rate_clifford": 4.85447195591364e-06,
+    "leak_rate": 4.85447195591364e-06,
+    "e_with_leakage": 1.888223960458215e-05,
+    "e_legacy_free_asymptote": 1.115387389016842e-05,
+    "free_asymptote_B": 0.2714246441601452,
+    "A_sd": 0.0012839483533663223,
+    "r_sd": 6.273892637336282e-06,
+    "e_clifford_legacy_sd": 3.136946318668141e-06,
+    "e_legacy_sd": 3.136946318668141e-06,
+    "A_leak_sd": 0.0009486160911467348,
+    "leak_rate_clifford_sd": 1.5642011722469529e-06,
+    "leak_rate_sd": 1.5642011722469529e-06,
+    "e_with_leakage_sd": 3.3897843808610384e-06,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     128,
+     512,
+     2048
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "128": 32,
+     "512": 32,
+     "2048": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.99875,
+     "128": 0.995,
+     "512": 0.9903125,
+     "2048": 0.965625
+    },
+    "mean_unleaked": {
+     "2": 0.998125,
+     "128": 0.9959375,
+     "512": 0.9971875,
+     "2048": 0.9878125
+    }
+   },
+   "TQ_RB": {
+    "A": 0.7436531989852415,
+    "r": 0.9979651880048617,
+    "e_clifford_legacy": 0.0015261089963537477,
+    "e_legacy": 0.0010174059975691652,
+    "A_leak": 0.9953432981553103,
+    "leak_rate_clifford": 0.00022113655593723104,
+    "leak_rate": 0.00014742437062482069,
+    "e_with_leakage": 0.0010542620902253704,
+    "e_legacy_free_asymptote": 0.001519538739085613,
+    "free_asymptote_B": 0.4396999812330484,
+    "A_sd": 0.00732284550730135,
+    "r_sd": 0.00016871386167085231,
+    "e_clifford_legacy_sd": 0.00012653539625313926,
+    "e_legacy_sd": 8.435693083542617e-05,
+    "A_leak_sd": 0.0032699567997622405,
+    "leak_rate_clifford_sd": 4.452674997521409e-05,
+    "leak_rate_sd": 2.968449998347606e-05,
+    "e_with_leakage_sd": 8.603328749076785e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     64,
+     128,
+     256
+    ],
+    "sequences_per_length": {
+     "2": 16,
+     "64": 16,
+     "128": 16,
+     "256": 16
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.991875,
+     "64": 0.908125,
+     "128": 0.810625,
+     "256": 0.6975
+    },
+    "mean_unleaked": {
+     "2": 0.996875,
+     "64": 0.97875,
+     "128": 0.9675,
+     "256": 0.94125
+    }
+   },
+   "Memory_RB": {
+    "A": 0.4993329351896701,
+    "r": 0.9995932139176177,
+    "e_clifford_legacy": 0.00020339304119115775,
+    "e_legacy": 0.00020339304119115775,
+    "e_legacy_free_asymptote": 0.00014606728407168257,
+    "free_asymptote_B": 0.30928241898258585,
+    "A_sd": 0.0002589803367631635,
+    "r_sd": 2.040376548378296e-05,
+    "e_clifford_legacy_sd": 1.0201882741891481e-05,
+    "e_legacy_sd": 1.0201882741891481e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     8,
+     32,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 448,
+     "8": 448,
+     "32": 448,
+     "128": 448
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9986830357142857,
+     "8": 0.9977678571428571,
+     "32": 0.993125,
+     "128": 0.9739285714285714
+    },
+    "units": 56
+   },
+   "SPAM": {
+    "shots_per_qubit": 10000,
+    "qubits": 8,
+    "p_meas_0": 0.0006000000000000001,
+    "p_meas_1": 0.0013874999999999998,
+    "spam_avg": 0.0009937499999999998,
+    "per_qubit_e0": [
+     0.0004,
+     0.0005,
+     0.0006,
+     0.0008,
+     0.0006,
+     0.0004,
+     0.0007,
+     0.0008
+    ],
+    "per_qubit_e1": [
+     0.0016,
+     0.0014,
+     0.0012,
+     0.0014,
+     0.0015,
+     0.0019,
+     0.0009,
+     0.0012
+    ],
+    "p_meas_0_sd": 8.604157773999437e-05,
+    "p_meas_1_sd": 0.00013317427036366088,
+    "spam_avg_sd": 7.89664032146121e-05
+   },
+   "model_terms": {
+    "two_qubit_error": 0.0010542620902253704,
+    "two_qubit_error_sd": 8.603328749076785e-05,
+    "one_qubit_error": 1.888223960458215e-05,
+    "one_qubit_error_sd": 3.3897843808610384e-06,
+    "one_qubit_error_legacy": 1.645500362662533e-05,
+    "transport_1q_error": 0.00020339304119115775,
+    "transport_1q_error_sd": 1.0201882741891481e-05,
+    "memory_error": 0.00018693803756453242,
+    "memory_error_sd": 1.0673277082766514e-05,
+    "p_meas_0": 0.0006000000000000001,
+    "p_meas_1": 0.0013874999999999998,
+    "readout": 0.0009937499999999998
+   }
+  },
+  "H2-2/2024_12_06": {
+   "SQ_RB": {
+    "A": 0.4953699410180427,
+    "r": 0.9998546671122501,
+    "e_clifford_legacy": 7.266644387493582e-05,
+    "e_legacy": 7.266644387493582e-05,
+    "A_leak": 0.9960542408899848,
+    "leak_rate_clifford": 1.1589703364254811e-05,
+    "leak_rate": 1.1589703364254811e-05,
+    "e_with_leakage": 7.846129555706322e-05,
+    "e_legacy_free_asymptote": 0.000333334176767508,
+    "free_asymptote_B": 0.856489186053485,
+    "A_sd": 0.0038516812907826324,
+    "r_sd": 4.424461424325412e-05,
+    "e_clifford_legacy_sd": 2.212230712162706e-05,
+    "e_legacy_sd": 2.212230712162706e-05,
+    "A_leak_sd": 0.0014311414509400005,
+    "leak_rate_clifford_sd": 3.5908890993173394e-06,
+    "leak_rate_sd": 3.5908890993173394e-06,
+    "e_with_leakage_sd": 2.2018871186989646e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     256,
+     1024
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "256": 32,
+     "1024": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.996875,
+     "256": 0.975,
+     "1024": 0.9275
+    },
+    "mean_unleaked": {
+     "2": 0.9953125,
+     "256": 0.9940625,
+     "1024": 0.9840625
+    }
+   },
+   "TQ_RB": {
+    "A": 0.7392337884595095,
+    "r": 0.9974166679476745,
+    "e_clifford_legacy": 0.001937499039244145,
+    "e_legacy": 0.0012916660261627633,
+    "A_leak": 0.9930801678122715,
+    "leak_rate_clifford": 0.0006379975321348649,
+    "leak_rate": 0.0004253316880899099,
+    "e_with_leakage": 0.0013979989481852407,
+    "e_legacy_free_asymptote": 0.0035692938754951498,
+    "free_asymptote_B": 0.6416049253286669,
+    "A_sd": 0.006425111221579622,
+    "r_sd": 0.00021115637893144291,
+    "e_clifford_legacy_sd": 0.00015836728419858217,
+    "e_legacy_sd": 0.00010557818946572146,
+    "A_leak_sd": 0.0035233443909767725,
+    "leak_rate_clifford_sd": 9.397387842589949e-05,
+    "leak_rate_sd": 6.264925228393298e-05,
+    "e_with_leakage_sd": 0.00010759333660403718,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     32,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 16,
+     "32": 16,
+     "128": 16
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.990625,
+     "32": 0.923125,
+     "128": 0.783125
+    },
+    "mean_unleaked": {
+     "2": 0.993125,
+     "32": 0.97125,
+     "128": 0.915625
+    }
+   },
+   "Memory_RB": {
+    "A": 0.49853232338639825,
+    "r": 0.9989405870052115,
+    "e_clifford_legacy": 0.0005297064973942556,
+    "e_legacy": 0.0005297064973942556,
+    "e_legacy_free_asymptote": 0.0029376273022707067,
+    "free_asymptote_B": 0.8935803346718003,
+    "A_sd": 0.0006635177846928981,
+    "r_sd": 7.677882211411759e-05,
+    "e_clifford_legacy_sd": 3.8389411057058794e-05,
+    "e_legacy_sd": 3.8389411057058794e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     16,
+     64
+    ],
+    "sequences_per_length": {
+     "2": 448,
+     "16": 448,
+     "64": 448
+    },
+    "shots": 40,
+    "mean_survival": {
+     "2": 0.9978794642857143,
+     "16": 0.9896205357142858,
+     "64": 0.9659598214285714
+    },
+    "units": 56
+   },
+   "SPAM": {
+    "shots_per_qubit": 10000,
+    "qubits": 8,
+    "p_meas_0": 0.0009,
+    "p_meas_1": 0.0017625,
+    "spam_avg": 0.00133125,
+    "per_qubit_e0": [
+     0.0009,
+     0.0003,
+     0.0004,
+     0.0007,
+     0.0021,
+     0.0018,
+     0.0004,
+     0.0006
+    ],
+    "per_qubit_e1": [
+     0.0022,
+     0.0022,
+     0.002,
+     0.0013,
+     0.0011,
+     0.0024,
+     0.0017,
+     0.0012
+    ],
+    "p_meas_0_sd": 0.00010599999627614509,
+    "p_meas_1_sd": 0.0001475174541991445,
+    "spam_avg_sd": 9.079510754171246e-05
+   },
+   "model_terms": {
+    "two_qubit_error": 0.0013979989481852407,
+    "two_qubit_error_sd": 0.00010759333660403718,
+    "one_qubit_error": 7.846129555706322e-05,
+    "one_qubit_error_sd": 2.2018871186989646e-05,
+    "one_qubit_error_legacy": 7.266644387493582e-05,
+    "transport_1q_error": 0.0005297064973942556,
+    "transport_1q_error_sd": 3.8389411057058794e-05,
+    "memory_error": 0.00045704005351931976,
+    "memory_error_sd": 4.43073735815092e-05,
+    "p_meas_0": 0.0009,
+    "p_meas_1": 0.0017625,
+    "readout": 0.00133125
+   }
+  },
+  "H2-2/2025_05_29": {
+   "SQ_RB": {
+    "A": 0.5001265300673141,
+    "r": 0.9999394548190927,
+    "e_clifford_legacy": 3.027259045362829e-05,
+    "e_legacy": 3.027259045362829e-05,
+    "A_leak": 0.9985176502489944,
+    "leak_rate_clifford": 9.622124564023694e-06,
+    "leak_rate": 9.622124564023694e-06,
+    "e_with_leakage": 3.508365273564014e-05,
+    "e_legacy_free_asymptote": 1.4931572169252227e-05,
+    "free_asymptote_B": 8.974218979047947e-11,
+    "A_sd": 0.001267555403208905,
+    "r_sd": 9.79976402948616e-06,
+    "e_clifford_legacy_sd": 4.89988201474308e-06,
+    "e_legacy_sd": 4.89988201474308e-06,
+    "A_leak_sd": 0.0008922327463551169,
+    "leak_rate_clifford_sd": 2.476486705535678e-06,
+    "leak_rate_sd": 2.476486705535678e-06,
+    "e_with_leakage_sd": 5.245551340524921e-06,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     128,
+     512,
+     1024
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "128": 32,
+     "512": 32,
+     "1024": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9990625,
+     "128": 0.994375,
+     "512": 0.9903125,
+     "1024": 0.9675
+    },
+    "mean_unleaked": {
+     "2": 0.9984375,
+     "128": 0.9978125,
+     "512": 0.9928125,
+     "1024": 0.9890625
+    }
+   },
+   "TQ_RB": {
+    "A": 0.7492947297585406,
+    "r": 0.9978298812925543,
+    "e_clifford_legacy": 0.0016275890305842422,
+    "e_legacy": 0.0010850593537228281,
+    "A_leak": 0.9942155947202842,
+    "leak_rate_clifford": 0.0003649593517747832,
+    "leak_rate": 0.00024330623451652216,
+    "e_with_leakage": 0.0011458859123519587,
+    "e_legacy_free_asymptote": 0.0007849998583880358,
+    "free_asymptote_B": 2.842181532431392e-14,
+    "A_sd": 0.007117106012037241,
+    "r_sd": 0.00033956585055237425,
+    "e_clifford_legacy_sd": 0.0002546743879142807,
+    "e_legacy_sd": 0.00016978292527618713,
+    "A_leak_sd": 0.0033352966102811895,
+    "leak_rate_clifford_sd": 6.184448747252942e-05,
+    "leak_rate_sd": 4.122965831501961e-05,
+    "e_with_leakage_sd": 0.0001691806028719623,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     32,
+     64,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 16,
+     "32": 16,
+     "64": 16,
+     "128": 16
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9925,
+     "32": 0.949375,
+     "64": 0.909375,
+     "128": 0.813125
+    },
+    "mean_unleaked": {
+     "2": 0.99375,
+     "32": 0.985625,
+     "64": 0.96625,
+     "128": 0.950625
+    }
+   },
+   "Memory_RB": {
+    "A": 0.4989414240436125,
+    "r": 0.999548495189562,
+    "e_clifford_legacy": 0.00022575240521899298,
+    "e_legacy": 0.00022575240521899298,
+    "e_legacy_free_asymptote": 0.00014669993568250383,
+    "free_asymptote_B": 0.23491516701647602,
+    "A_sd": 0.000293212790899091,
+    "r_sd": 3.0741524946323934e-05,
+    "e_clifford_legacy_sd": 1.5370762473161967e-05,
+    "e_legacy_sd": 1.5370762473161967e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     8,
+     32,
+     64
+    ],
+    "sequences_per_length": {
+     "2": 448,
+     "8": 448,
+     "32": 448,
+     "64": 448
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9982142857142857,
+     "8": 0.99703125,
+     "32": 0.9925223214285714,
+     "64": 0.984375
+    },
+    "units": 56
+   },
+   "SPAM": {
+    "shots_per_qubit": 10000,
+    "qubits": 8,
+    "p_meas_0": 0.0006000000000000001,
+    "p_meas_1": 0.0017749999999999999,
+    "spam_avg": 0.0011875,
+    "per_qubit_e0": [
+     0.0008,
+     0.0004,
+     0.0005,
+     0.0002,
+     0.0007,
+     0.0009,
+     0.0005,
+     0.0008
+    ],
+    "per_qubit_e1": [
+     0.0015,
+     0.0014,
+     0.0016,
+     0.0018,
+     0.0018,
+     0.0023,
+     0.0017,
+     0.0021
+    ],
+    "p_meas_0_sd": 8.515740522861259e-05,
+    "p_meas_1_sd": 0.00014959716156774018,
+    "spam_avg_sd": 8.555755486268536e-05
+   },
+   "model_terms": {
+    "two_qubit_error": 0.0011458859123519587,
+    "two_qubit_error_sd": 0.0001691806028719623,
+    "one_qubit_error": 3.508365273564014e-05,
+    "one_qubit_error_sd": 5.245551340524921e-06,
+    "one_qubit_error_legacy": 3.027259045362829e-05,
+    "transport_1q_error": 0.00022575240521899298,
+    "transport_1q_error_sd": 1.5370762473161967e-05,
+    "memory_error": 0.0001954798147653647,
+    "memory_error_sd": 1.6132860340459374e-05,
+    "p_meas_0": 0.0006000000000000001,
+    "p_meas_1": 0.0017749999999999999,
+    "readout": 0.0011875
+   }
+  },
+  "H2-2/2025_08_28": {
+   "SQ_RB": {
+    "A": 0.4998382290805364,
+    "r": 0.9999508975859137,
+    "e_clifford_legacy": 2.4551207043144174e-05,
+    "e_legacy": 2.4551207043144174e-05,
+    "A_leak": 0.9987710072069225,
+    "leak_rate_clifford": 6.1105000057809094e-06,
+    "leak_rate": 6.1105000057809094e-06,
+    "e_with_leakage": 2.7606457046034628e-05,
+    "e_legacy_free_asymptote": 1.196707191541968e-05,
+    "free_asymptote_B": 3.753165153619817e-06,
+    "A_sd": 0.001340248208431183,
+    "r_sd": 8.895877659879335e-06,
+    "e_clifford_legacy_sd": 4.447938829939667e-06,
+    "e_legacy_sd": 4.447938829939667e-06,
+    "A_leak_sd": 0.0008222124552498362,
+    "leak_rate_clifford_sd": 1.5553115233099022e-06,
+    "leak_rate_sd": 1.5553115233099022e-06,
+    "e_with_leakage_sd": 4.4249251234626455e-06,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     128,
+     512,
+     2048
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "128": 32,
+     "512": 32,
+     "2048": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.998125,
+     "128": 0.995,
+     "512": 0.991875,
+     "2048": 0.9509375
+    },
+    "mean_unleaked": {
+     "2": 0.998125,
+     "128": 0.9984375,
+     "512": 0.9959375,
+     "2048": 0.98625
+    }
+   },
+   "TQ_RB": {
+    "A": 0.7464752397488805,
+    "r": 0.9984422579325682,
+    "e_clifford_legacy": 0.0011683065505738166,
+    "e_legacy": 0.0007788710337158777,
+    "A_leak": 0.9927154875722964,
+    "leak_rate_clifford": 0.00030475284443829385,
+    "leak_rate": 0.00020316856295886257,
+    "e_with_leakage": 0.0008296631744555934,
+    "e_legacy_free_asymptote": 0.0007320994934258418,
+    "free_asymptote_B": 0.21082761301483796,
+    "A_sd": 0.003045607732963066,
+    "r_sd": 7.421586365162247e-05,
+    "e_clifford_legacy_sd": 5.566189773871685e-05,
+    "e_legacy_sd": 3.710793182581124e-05,
+    "A_leak_sd": 0.002541938052867466,
+    "leak_rate_clifford_sd": 3.10209163959918e-05,
+    "leak_rate_sd": 2.06806109306612e-05,
+    "e_with_leakage_sd": 3.7962740582003105e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     32,
+     128,
+     256
+    ],
+    "sequences_per_length": {
+     "2": 32,
+     "32": 32,
+     "128": 32,
+     "256": 32
+    },
+    "shots": 100,
+    "mean_survival": {
+     "2": 0.9934375,
+     "32": 0.9609375,
+     "128": 0.8615625,
+     "256": 0.750625
+    },
+    "mean_unleaked": {
+     "2": 0.9940625,
+     "32": 0.983125,
+     "128": 0.950625,
+     "256": 0.9203125
+    }
+   },
+   "Memory_RB": {
+    "A": 0.4981319277954835,
+    "r": 0.9997504767790121,
+    "e_clifford_legacy": 0.00012476161049396195,
+    "e_legacy": 0.00012476161049396195,
+    "e_legacy_free_asymptote": 9.514642636737625e-05,
+    "free_asymptote_B": 0.3474391765024086,
+    "A_sd": 0.0004958934374068958,
+    "r_sd": 2.3692183213872692e-05,
+    "e_clifford_legacy_sd": 1.1846091606936346e-05,
+    "e_legacy_sd": 1.1846091606936346e-05,
+    "n_boot_ok": 2000,
+    "lengths": [
+     2,
+     16,
+     64,
+     128
+    ],
+    "sequences_per_length": {
+     "2": 448,
+     "16": 448,
+     "64": 448,
+     "128": 448
+    },
+    "shots": 40,
+    "mean_survival": {
+     "2": 0.998046875,
+     "16": 0.9958705357142857,
+     "64": 0.9904017857142857,
+     "128": 0.982421875
+    },
+    "units": 56
+   },
+   "SPAM": {
+    "shots_per_qubit": 10000,
+    "qubits": 8,
+    "p_meas_0": 0.000675,
+    "p_meas_1": 0.0011625,
+    "spam_avg": 0.00091875,
+    "per_qubit_e0": [
+     0.0005,
+     0.0003,
+     0.0004,
+     0.0005,
+     0.0013,
+     0.0017,
+     0.0003,
+     0.0004
+    ],
+    "per_qubit_e1": [
+     0.0017,
+     0.0011,
+     0.0004,
+     0.0013,
+     0.0006,
+     0.0012,
+     0.0018,
+     0.0012
+    ],
+    "p_meas_0_sd": 9.375255207465157e-05,
+    "p_meas_1_sd": 0.00012283548918656144,
+    "spam_avg_sd": 7.656709788799295e-05
+   },
+   "model_terms": {
+    "two_qubit_error": 0.0008296631744555934,
+    "two_qubit_error_sd": 3.7962740582003105e-05,
+    "one_qubit_error": 2.7606457046034628e-05,
+    "one_qubit_error_sd": 4.4249251234626455e-06,
+    "one_qubit_error_legacy": 2.4551207043144174e-05,
+    "transport_1q_error": 0.00012476161049396195,
+    "transport_1q_error_sd": 1.1846091606936346e-05,
+    "memory_error": 0.00010021040345081778,
+    "memory_error_sd": 1.265361790931008e-05,
+    "p_meas_0": 0.000675,
+    "p_meas_1": 0.0011625,
+    "readout": 0.00091875
+   }
+  }
+ }
+}

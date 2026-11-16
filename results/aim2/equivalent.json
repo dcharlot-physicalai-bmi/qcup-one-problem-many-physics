@@ -1,0 +1,659 @@
+[
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 5,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 17,
+   "two_qubit_depth": 15,
+   "depth": 42,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.957,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 9,
+   "two_qubit_depth": 8,
+   "depth": 25,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9935,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 5,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 17,
+   "two_qubit_depth": 15,
+   "depth": 43,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.957,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 9,
+   "two_qubit_depth": 8,
+   "depth": 25,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9935,
+   "shots": 2000
+  },
+  "guppy_gates": 24
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 37,
+   "two_qubit_depth": 26,
+   "depth": 73,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.89,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 18,
+   "two_qubit_depth": 14,
+   "depth": 42,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9825,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 5,
+  "resets": 2,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 47,
+   "two_qubit_depth": 40,
+   "depth": 110,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8685,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 18,
+   "two_qubit_depth": 16,
+   "depth": 50,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9835,
+   "shots": 2000
+  },
+  "guppy_gates": 48
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 55,
+   "two_qubit_depth": 33,
+   "depth": 106,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.84,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 27,
+   "two_qubit_depth": 20,
+   "depth": 59,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.962,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 5,
+  "resets": 4,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 67,
+   "two_qubit_depth": 51,
+   "depth": 154,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8045,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 27,
+   "two_qubit_depth": 24,
+   "depth": 75,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.974,
+   "shots": 2000
+  },
+  "guppy_gates": 72
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 14,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 80,
+   "two_qubit_depth": 52,
+   "depth": 148,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 36,
+   "two_qubit_depth": 26,
+   "depth": 76,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 5,
+  "resets": 6,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 97,
+   "two_qubit_depth": 76,
+   "depth": 222,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7325,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 36,
+   "two_qubit_depth": 32,
+   "depth": 100,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9525,
+   "shots": 2000
+  },
+  "guppy_gates": 96
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 17,
+  "resets": 0,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 97,
+   "two_qubit_depth": 51,
+   "depth": 163
+  },
+  "ion_like": {
+   "two_qubit_gates": 45,
+   "two_qubit_depth": 32,
+   "depth": 93
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   1,
+   2,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 127,
+   "two_qubit_depth": 103,
+   "depth": 291,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6605,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 45,
+   "two_qubit_depth": 40,
+   "depth": 125,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.949,
+   "shots": 2000
+  },
+  "guppy_gates": 120,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 95,
+   "active_qubits": 5,
+   "depth": 251,
+   "trace_fidelity": 0.6835,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 95,
+   "active_qubits": 5,
+   "depth": 251,
+   "trace_fidelity": 0.7535,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 127,
+   "two_qubit_depth": 103,
+   "depth": 292,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.655,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 45,
+   "two_qubit_depth": 40,
+   "depth": 125,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.945,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 127,
+   "two_qubit_depth": 103,
+   "depth": 291,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6595,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 45,
+   "two_qubit_depth": 40,
+   "depth": 125,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9475,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 127,
+   "two_qubit_depth": 103,
+   "depth": 291,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6595,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 45,
+   "two_qubit_depth": 40,
+   "depth": 125,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9475,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "equivalent",
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 6,
+  "anf_literals": 6,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   0,
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   1,
+   1,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 127,
+   "two_qubit_depth": 103,
+   "depth": 292,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.659,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 45,
+   "two_qubit_depth": 40,
+   "depth": 125,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.95,
+   "shots": 2000
+  }
+ }
+]

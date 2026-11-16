@@ -1,0 +1,598 @@
+{
+ "IBM": [
+  {
+   "lattice": "2x2",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 58,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 58,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 116,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 116,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 3,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 174,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 3,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 174,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 4,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 232,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x2",
+   "p": 4,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 232,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 121,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 121,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 242,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 242,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 3,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 363,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 3,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 363,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 4,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 484,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x3",
+   "p": 4,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 484,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 218,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 218,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x4",
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 436,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x4",
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 436,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x4",
+   "p": 3,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 654,
+   "shots": 4000
+  },
+  {
+   "lattice": "2x4",
+   "p": 3,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 654,
+   "shots": 4000
+  },
+  {
+   "lattice": "3x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 539,
+   "shots": 4000
+  },
+  {
+   "lattice": "3x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 539,
+   "shots": 4000
+  },
+  {
+   "lattice": "4x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 619,
+   "shots": 4000
+  },
+  {
+   "lattice": "4x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 619,
+   "shots": 4000
+  }
+ ],
+ "IQM": [
+  {
+   "lattice": "2x2",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 58,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 58,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 116,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 116,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 3,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 174,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 3,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 174,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 4,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 232,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x2",
+   "p": 4,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 232,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 121,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 121,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 242,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 242,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 3,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 363,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 3,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 363,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 4,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 484,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x3",
+   "p": 4,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 484,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 218,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 218,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x4",
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 436,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x4",
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 436,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x4",
+   "p": 3,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 654,
+   "shots": 2000
+  },
+  {
+   "lattice": "2x4",
+   "p": 3,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 654,
+   "shots": 2000
+  },
+  {
+   "lattice": "3x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 539,
+   "shots": 2000
+  },
+  {
+   "lattice": "3x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 539,
+   "shots": 2000
+  },
+  {
+   "lattice": "4x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "cz": 619,
+   "shots": 2000
+  },
+  {
+   "lattice": "4x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "cz": 619,
+   "shots": 2000
+  }
+ ],
+ "IonQ": [
+  {
+   "lattice": "4x4",
+   "p": 1,
+   "U": 4.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 512,
+   "of_which_state_preparation_estimate": 256,
+   "shots": 500,
+   "two_qubit_gate_shots": 256000
+  },
+  {
+   "lattice": "4x4",
+   "p": 1,
+   "U": 8.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 512,
+   "of_which_state_preparation_estimate": 256,
+   "shots": 500,
+   "two_qubit_gate_shots": 256000
+  },
+  {
+   "lattice": "4x4",
+   "p": 2,
+   "U": 4.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 768,
+   "of_which_state_preparation_estimate": 256,
+   "shots": 500,
+   "two_qubit_gate_shots": 384000
+  },
+  {
+   "lattice": "4x4",
+   "p": 2,
+   "U": 8.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 768,
+   "of_which_state_preparation_estimate": 256,
+   "shots": 500,
+   "two_qubit_gate_shots": 384000
+  },
+  {
+   "lattice": "4x4",
+   "p": 3,
+   "U": 4.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 1024,
+   "of_which_state_preparation_estimate": 256,
+   "shots": 500,
+   "two_qubit_gate_shots": 512000
+  },
+  {
+   "lattice": "4x4",
+   "p": 3,
+   "U": 8.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 1024,
+   "of_which_state_preparation_estimate": 256,
+   "shots": 500,
+   "two_qubit_gate_shots": 512000
+  }
+ ],
+ "Quantinuum": [
+  {
+   "lattice": "4x6",
+   "qubits": 48,
+   "p": 1,
+   "U": 4.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 1112,
+   "of_which_state_preparation_estimate": 576,
+   "n1q": 2626,
+   "shots": 200,
+   "hqc": 564
+  },
+  {
+   "lattice": "4x6",
+   "qubits": 48,
+   "p": 1,
+   "U": 8.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 1112,
+   "of_which_state_preparation_estimate": 576,
+   "n1q": 2626,
+   "shots": 200,
+   "hqc": 564
+  },
+  {
+   "lattice": "4x6",
+   "qubits": 48,
+   "p": 2,
+   "U": 4.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 1648,
+   "of_which_state_preparation_estimate": 576,
+   "n1q": 4076,
+   "shots": 200,
+   "hqc": 837
+  },
+  {
+   "lattice": "4x6",
+   "qubits": 48,
+   "p": 2,
+   "U": 8.0,
+   "start": "free_fermion_ground_state",
+   "rzz": 1648,
+   "of_which_state_preparation_estimate": 576,
+   "n1q": 4076,
+   "shots": 200,
+   "hqc": 837
+  },
+  {
+   "lattice": "6x6",
+   "qubits": 72,
+   "p": 1,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "rzz": 876,
+   "of_which_state_preparation_estimate": 0,
+   "n1q": 2386,
+   "shots": 200,
+   "hqc": 465
+  },
+  {
+   "lattice": "6x6",
+   "qubits": 72,
+   "p": 1,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "rzz": 876,
+   "of_which_state_preparation_estimate": 0,
+   "n1q": 2386,
+   "shots": 200,
+   "hqc": 465
+  },
+  {
+   "lattice": "6x6",
+   "qubits": 72,
+   "p": 2,
+   "U": 4.0,
+   "start": "neel_product_state",
+   "rzz": 1752,
+   "of_which_state_preparation_estimate": 0,
+   "n1q": 4736,
+   "shots": 200,
+   "hqc": 910
+  },
+  {
+   "lattice": "6x6",
+   "qubits": 72,
+   "p": 2,
+   "U": 8.0,
+   "start": "neel_product_state",
+   "rzz": 1752,
+   "of_which_state_preparation_estimate": 0,
+   "n1q": 4736,
+   "shots": 200,
+   "hqc": 910
+  }
+ ],
+ "totals": {
+  "circuits": {
+   "IBM": 26,
+   "IQM": 26,
+   "IonQ": 6,
+   "Quantinuum": 8
+  },
+  "shots": {
+   "IBM": 104000,
+   "IQM": 52000,
+   "IonQ": 3000,
+   "Quantinuum": 1600
+  },
+  "ionq_two_qubit_gate_shots": 2304000,
+  "quantinuum_hqc": 5552
+ }
+}

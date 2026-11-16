@@ -1,0 +1,3472 @@
+[
+ {
+  "source": "book/listings/ch05/door.rce",
+  "sha256": "4a0d172150fa129c5a78f1873a56e0bca18a6d7ef63bd240558d8623faf253a3",
+  "events": [
+   "Open",
+   "Close",
+   "Lock",
+   "Unlock"
+  ],
+  "kind": "exact",
+  "states": 3,
+  "table": [
+   [
+    1,
+    0,
+    2,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    2,
+    2,
+    2,
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Open"
+   ],
+   [
+    "Lock"
+   ]
+  ],
+  "state_text": [
+   "Door { open = false, locked = false }",
+   "Door { open = true, locked = false }",
+   "Door { open = false, locked = true }"
+  ],
+  "name": "door"
+ },
+ {
+  "source": "book/listings/ch18/counter_flag.rce",
+  "sha256": "112dc6a33b67a29681f2e27f8c9aa26dd789395a61779924761af131a515c112",
+  "events": [
+   "DimInc",
+   "DimDec"
+  ],
+  "kind": "exact",
+  "states": 8,
+  "table": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    3,
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "DimInc"
+   ],
+   [
+    "DimDec"
+   ],
+   [
+    "DimInc",
+    "DimInc"
+   ],
+   [
+    "DimDec",
+    "DimInc"
+   ],
+   [
+    "DimDec",
+    "DimDec"
+   ],
+   [
+    "DimInc",
+    "DimInc",
+    "DimInc"
+   ],
+   [
+    "DimInc",
+    "DimInc",
+    "DimDec"
+   ]
+  ],
+  "state_text": [
+   "DimCounter { n = 0, last_inc = false }",
+   "DimCounter { n = 1, last_inc = true }",
+   "DimCounter { n = 3, last_inc = false }",
+   "DimCounter { n = 2, last_inc = true }",
+   "DimCounter { n = 0, last_inc = true }",
+   "DimCounter { n = 2, last_inc = false }",
+   "DimCounter { n = 3, last_inc = true }",
+   "DimCounter { n = 1, last_inc = false }"
+  ],
+  "name": "counter_flag"
+ },
+ {
+  "source": "book/listings/ch18/phase.rce",
+  "sha256": "d6b7d9ce9eab535647ee6f467ea29e118481462aa66bf220374b76ee9800f67d",
+  "events": [
+   "DimStep"
+  ],
+  "kind": "exact",
+  "states": 6,
+  "table": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    3
+   ],
+   [
+    4
+   ],
+   [
+    5
+   ],
+   [
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "DimStep"
+   ],
+   [
+    "DimStep",
+    "DimStep"
+   ],
+   [
+    "DimStep",
+    "DimStep",
+    "DimStep"
+   ],
+   [
+    "DimStep",
+    "DimStep",
+    "DimStep",
+    "DimStep"
+   ],
+   [
+    "DimStep",
+    "DimStep",
+    "DimStep",
+    "DimStep",
+    "DimStep"
+   ]
+  ],
+  "state_text": [
+   "DimPhase { n = 0 }",
+   "DimPhase { n = 1 }",
+   "DimPhase { n = 2 }",
+   "DimPhase { n = 3 }",
+   "DimPhase { n = 4 }",
+   "DimPhase { n = 5 }"
+  ],
+  "name": "phase"
+ },
+ {
+  "source": "conformance/tests/forms-log/harvested/17-traffic-light-accept.rce",
+  "sha256": "07e1429503d1d4cb633c4471d9201795f8643e22b933a0ec9f73b6127f574231",
+  "events": [
+   "Tick"
+  ],
+  "kind": "exact",
+  "states": 3,
+  "table": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Tick"
+   ],
+   [
+    "Tick",
+    "Tick"
+   ]
+  ],
+  "state_text": [
+   "Signal { light = Red }",
+   "Signal { light = Green }",
+   "Signal { light = Yellow }"
+  ],
+  "name": "17_traffic_light_accept"
+ },
+ {
+  "source": "conformance/tests/forms-log/targeted/ch07-form-bytes-not-rfc8785.rce",
+  "sha256": "401c126c9880099cb2296008e276f8aa5d0a1fe1c17af025d22043cdb126a07a",
+  "events": [
+   "Go"
+  ],
+  "kind": "exact",
+  "states": 2,
+  "table": [
+   [
+    1
+   ],
+   [
+    1
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Go"
+   ]
+  ],
+  "state_text": [
+   "S { a = 0, z = 0, s = 0, b = 0, u = 0, t = \"\" }",
+   "S { a = 10, z = -0, s = 1e-6, b = 1e+21, u = 18446744073709551615, t = \"\\u{8}\\u{c}\" }"
+  ],
+  "name": "ch07_form_bytes_not_rfc8785"
+ },
+ {
+  "source": "conformance/tests/host-contract/targeted/ch17-callee-requires-at-run-time.rce",
+  "sha256": "9b13420ea98e7491148d65304aa3b43f83f96d6bc5352a71f33877a26a852879",
+  "events": [
+   "Go(x: 1)",
+   "Go(x: 2)"
+  ],
+  "kind": "exact",
+  "states": 2,
+  "table": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Go(x: 2)"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }"
+  ],
+  "name": "ch17_callee_requires_at_run_time"
+ },
+ {
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "sha256": "38a56df5b4323859245deba61f3b1f62f1981488e6f13e405256a119c71e2859",
+  "events": [
+   "Neg"
+  ],
+  "kind": "exact",
+  "states": 2,
+  "table": [
+   [
+    1
+   ],
+   [
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Neg"
+   ]
+  ],
+  "state_text": [
+   "S { x = 0 }",
+   "S { x = -0 }"
+  ],
+  "name": "f6_signed_zero_state"
+ },
+ {
+  "source": "conformance/tests/properties/ch07-form-injective-f64.rce",
+  "sha256": "80526af992f30a2c994e6d8ba8be0ebdcd88cf70151292e9d04b5227433c08bb",
+  "events": [
+   "Inc",
+   "Dec"
+  ],
+  "kind": "exact",
+  "states": 4,
+  "table": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Dec"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }",
+   "S { n = 3 }",
+   "S { n = 2 }"
+  ],
+  "name": "ch07_form_injective_f64"
+ },
+ {
+  "source": "conformance/tests/properties/t59-distinguish-mod2-mod3.rce",
+  "sha256": "9518641b89145072e5b1c06aac85b06bd5de5b7387021667974d164fc03abd50",
+  "events": [
+   "Inc",
+   "Dec"
+  ],
+  "kind": "exact",
+  "states": 2,
+  "table": [
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }"
+  ],
+  "name": "t59_distinguish_mod2_mod3"
+ },
+ {
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "sha256": "8c97599774128da3cd7d2c07f60bd4c8dcbda4734850a4495e44e62092cf0ea0",
+  "events": [
+   "Inc",
+   "Dec"
+  ],
+  "kind": "exact",
+  "states": 3,
+  "table": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Dec"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }",
+   "S { n = 2 }"
+  ],
+  "name": "t59_distinguish_mod3_mod4"
+ },
+ {
+  "source": "conformance/tests/properties/t59-distinguish-mod5-mod4.rce",
+  "sha256": "545dba23c29564f5acff972bd078d6ce339d919506a7999e2252e429f544b94d",
+  "events": [
+   "Inc",
+   "Dec"
+  ],
+  "kind": "exact",
+  "states": 5,
+  "table": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    2,
+    3
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Dec"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Dec",
+    "Dec"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }",
+   "S { n = 4 }",
+   "S { n = 2 }",
+   "S { n = 3 }"
+  ],
+  "name": "t59_distinguish_mod5_mod4"
+ },
+ {
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "sha256": "ed0dfe88a1170068b179562409df60c1072deb8009d61145b929d51ae32fc8fa",
+  "events": [
+   "Inc"
+  ],
+  "kind": "exact",
+  "states": 4,
+  "table": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    3
+   ],
+   [
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0, m = 0 }",
+   "S { n = 1, m = 1 }",
+   "S { n = 2, m = 2 }",
+   "S { n = 3, m = 3 }"
+  ],
+  "name": "t60_dim_redundant_k4"
+ },
+ {
+  "source": "conformance/tests/properties/t60-dim-redundant-k5.rce",
+  "sha256": "8ce8b2d9e42a4f58e235d26e11a976f4e0d1912c1f4f9daeae5311d3bbf3dcad",
+  "events": [
+   "Inc"
+  ],
+  "kind": "exact",
+  "states": 5,
+  "table": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    3
+   ],
+   [
+    4
+   ],
+   [
+    0
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0, m = 0 }",
+   "S { n = 1, m = 1 }",
+   "S { n = 2, m = 2 }",
+   "S { n = 3, m = 3 }",
+   "S { n = 4, m = 4 }"
+  ],
+  "name": "t60_dim_redundant_k5"
+ },
+ {
+  "source": "programs/body/thermostat.rce",
+  "sha256": "64ff8cfff37ab289b5cbaf1fa39b2b6bfa8b554fd0304168a2377042e4d11e6c",
+  "events": [
+   "Reading(t: 1)",
+   "Reading(t: 2)"
+  ],
+  "kind": "exact",
+  "states": 2,
+  "table": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Reading(t: 1)"
+   ]
+  ],
+  "state_text": [
+   "Heater { heating = false }",
+   "Heater { heating = true }"
+  ],
+  "name": "thermostat"
+ },
+ {
+  "source": "programs/multi/climate.rce",
+  "sha256": "dcf2d84b54c07541375fb729146c993d5b1c7775bde586a7c1624cfed3f4dde3",
+  "events": [
+   "Reading(hot: true)",
+   "Reading(hot: false)",
+   "Warmer",
+   "Cooler"
+  ],
+  "kind": "exact",
+  "states": 12,
+  "table": [
+   [
+    1,
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    2,
+    5,
+    6
+   ],
+   [
+    1,
+    2,
+    7,
+    8
+   ],
+   [
+    5,
+    7,
+    9,
+    0
+   ],
+   [
+    6,
+    8,
+    0,
+    4
+   ],
+   [
+    5,
+    7,
+    10,
+    1
+   ],
+   [
+    6,
+    8,
+    1,
+    6
+   ],
+   [
+    5,
+    7,
+    11,
+    2
+   ],
+   [
+    6,
+    8,
+    2,
+    8
+   ],
+   [
+    10,
+    11,
+    9,
+    3
+   ],
+   [
+    10,
+    11,
+    10,
+    5
+   ],
+   [
+    10,
+    11,
+    11,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Reading(hot: true)"
+   ],
+   [
+    "Reading(hot: false)"
+   ],
+   [
+    "Warmer"
+   ],
+   [
+    "Cooler"
+   ],
+   [
+    "Reading(hot: true)",
+    "Warmer"
+   ],
+   [
+    "Reading(hot: true)",
+    "Cooler"
+   ],
+   [
+    "Reading(hot: false)",
+    "Warmer"
+   ],
+   [
+    "Reading(hot: false)",
+    "Cooler"
+   ],
+   [
+    "Warmer",
+    "Warmer"
+   ],
+   [
+    "Reading(hot: true)",
+    "Warmer",
+    "Warmer"
+   ],
+   [
+    "Reading(hot: false)",
+    "Warmer",
+    "Warmer"
+   ]
+  ],
+  "state_text": [
+   "Mode { heating = false, cooling = false }; Setpoint { target = 1 }",
+   "Mode { heating = false, cooling = true }; Setpoint { target = 1 }",
+   "Mode { heating = true, cooling = false }; Setpoint { target = 1 }",
+   "Mode { heating = false, cooling = false }; Setpoint { target = 2 }",
+   "Mode { heating = false, cooling = false }; Setpoint { target = 0 }",
+   "Mode { heating = false, cooling = true }; Setpoint { target = 2 }",
+   "Mode { heating = false, cooling = true }; Setpoint { target = 0 }",
+   "Mode { heating = true, cooling = false }; Setpoint { target = 2 }",
+   "Mode { heating = true, cooling = false }; Setpoint { target = 0 }",
+   "Mode { heating = false, cooling = false }; Setpoint { target = 3 }",
+   "Mode { heating = false, cooling = true }; Setpoint { target = 3 }",
+   "Mode { heating = true, cooling = false }; Setpoint { target = 3 }"
+  ],
+  "name": "climate"
+ },
+ {
+  "source": "programs/multi/crossing.rce",
+  "sha256": "b53381ef03d55e988391880655eb5929a107e0237b623e30ad88194273a6c573",
+  "events": [
+   "Tick",
+   "Press"
+  ],
+  "kind": "exact",
+  "states": 12,
+  "table": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    9,
+    6
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    4,
+    11
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Tick"
+   ],
+   [
+    "Press"
+   ],
+   [
+    "Tick",
+    "Tick"
+   ],
+   [
+    "Tick",
+    "Press"
+   ],
+   [
+    "Press",
+    "Tick"
+   ],
+   [
+    "Tick",
+    "Tick",
+    "Press"
+   ],
+   [
+    "Tick",
+    "Press",
+    "Tick"
+   ],
+   [
+    "Press",
+    "Tick",
+    "Press"
+   ],
+   [
+    "Tick",
+    "Tick",
+    "Press",
+    "Tick"
+   ],
+   [
+    "Tick",
+    "Press",
+    "Tick",
+    "Press"
+   ],
+   [
+    "Tick",
+    "Tick",
+    "Press",
+    "Tick",
+    "Press"
+   ]
+  ],
+  "state_text": [
+   "Signal { light = Green }; Pedestrian { waiting = false, walking = false }",
+   "Signal { light = Yellow }; Pedestrian { waiting = false, walking = false }",
+   "Signal { light = Green }; Pedestrian { waiting = true, walking = false }",
+   "Signal { light = Red }; Pedestrian { waiting = false, walking = false }",
+   "Signal { light = Yellow }; Pedestrian { waiting = true, walking = false }",
+   "Signal { light = Yellow }; Pedestrian { waiting = false, walking = true }",
+   "Signal { light = Red }; Pedestrian { waiting = true, walking = false }",
+   "Signal { light = Red }; Pedestrian { waiting = false, walking = true }",
+   "Signal { light = Yellow }; Pedestrian { waiting = true, walking = true }",
+   "Signal { light = Green }; Pedestrian { waiting = false, walking = true }",
+   "Signal { light = Red }; Pedestrian { waiting = true, walking = true }",
+   "Signal { light = Green }; Pedestrian { waiting = true, walking = true }"
+  ],
+  "name": "crossing"
+ },
+ {
+  "source": "programs/multi/elevator.rce",
+  "sha256": "92574a142bd5c96365cfccdb58a63d04e1b9a3a921d60e4de7b48ff65e73f77a",
+  "events": [
+   "Up",
+   "Down",
+   "OpenDoor",
+   "CloseDoor",
+   "Arrive"
+  ],
+  "kind": "exact",
+  "states": 12,
+  "table": [
+   [
+    1,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    3,
+    4,
+    1,
+    1,
+    5
+   ],
+   [
+    2,
+    2,
+    2,
+    0,
+    2
+   ],
+   [
+    6,
+    1,
+    3,
+    3,
+    7
+   ],
+   [
+    1,
+    4,
+    4,
+    4,
+    0
+   ],
+   [
+    3,
+    4,
+    8,
+    5,
+    5
+   ],
+   [
+    6,
+    3,
+    6,
+    6,
+    9
+   ],
+   [
+    6,
+    1,
+    10,
+    7,
+    7
+   ],
+   [
+    8,
+    8,
+    8,
+    5,
+    8
+   ],
+   [
+    9,
+    3,
+    11,
+    9,
+    9
+   ],
+   [
+    10,
+    10,
+    10,
+    7,
+    10
+   ],
+   [
+    11,
+    11,
+    11,
+    9,
+    11
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Up"
+   ],
+   [
+    "OpenDoor"
+   ],
+   [
+    "Up",
+    "Up"
+   ],
+   [
+    "Up",
+    "Down"
+   ],
+   [
+    "Up",
+    "Arrive"
+   ],
+   [
+    "Up",
+    "Up",
+    "Up"
+   ],
+   [
+    "Up",
+    "Up",
+    "Arrive"
+   ],
+   [
+    "Up",
+    "Arrive",
+    "OpenDoor"
+   ],
+   [
+    "Up",
+    "Up",
+    "Up",
+    "Arrive"
+   ],
+   [
+    "Up",
+    "Up",
+    "Arrive",
+    "OpenDoor"
+   ],
+   [
+    "Up",
+    "Up",
+    "Up",
+    "Arrive",
+    "OpenDoor"
+   ]
+  ],
+  "state_text": [
+   "Car { floor = 0, moving = false }; Door { open = false }",
+   "Car { floor = 1, moving = true }; Door { open = false }",
+   "Car { floor = 0, moving = false }; Door { open = true }",
+   "Car { floor = 2, moving = true }; Door { open = false }",
+   "Car { floor = 0, moving = true }; Door { open = false }",
+   "Car { floor = 1, moving = false }; Door { open = false }",
+   "Car { floor = 3, moving = true }; Door { open = false }",
+   "Car { floor = 2, moving = false }; Door { open = false }",
+   "Car { floor = 1, moving = false }; Door { open = true }",
+   "Car { floor = 3, moving = false }; Door { open = false }",
+   "Car { floor = 2, moving = false }; Door { open = true }",
+   "Car { floor = 3, moving = false }; Door { open = true }"
+  ],
+  "name": "elevator"
+ },
+ {
+  "source": "programs/multi/lobby.rce",
+  "sha256": "8bd313bd9d989355dee812275febb7194d43dea047957beeec1717eca22dc822",
+  "events": [
+   "Join",
+   "Leave",
+   "Start",
+   "End"
+  ],
+  "kind": "exact",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    1,
+    1
+   ],
+   [
+    3,
+    1,
+    4,
+    2
+   ],
+   [
+    5,
+    2,
+    6,
+    3
+   ],
+   [
+    4,
+    4,
+    4,
+    2
+   ],
+   [
+    5,
+    3,
+    7,
+    5
+   ],
+   [
+    6,
+    6,
+    6,
+    3
+   ],
+   [
+    7,
+    7,
+    7,
+    5
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Join"
+   ],
+   [
+    "Join",
+    "Join"
+   ],
+   [
+    "Join",
+    "Join",
+    "Join"
+   ],
+   [
+    "Join",
+    "Join",
+    "Start"
+   ],
+   [
+    "Join",
+    "Join",
+    "Join",
+    "Join"
+   ],
+   [
+    "Join",
+    "Join",
+    "Join",
+    "Start"
+   ],
+   [
+    "Join",
+    "Join",
+    "Join",
+    "Join",
+    "Start"
+   ]
+  ],
+  "state_text": [
+   "Lobby { players = 0 }; Match { running = false }",
+   "Lobby { players = 1 }; Match { running = false }",
+   "Lobby { players = 2 }; Match { running = false }",
+   "Lobby { players = 3 }; Match { running = false }",
+   "Lobby { players = 2 }; Match { running = true }",
+   "Lobby { players = 4 }; Match { running = false }",
+   "Lobby { players = 3 }; Match { running = true }",
+   "Lobby { players = 4 }; Match { running = true }"
+  ],
+  "name": "lobby"
+ },
+ {
+  "source": "programs/multi/parking.rce",
+  "sha256": "9818f842603cf5cc18c758a7840a1cba1c04aa2ea5594f50464c051e6f595d65",
+  "events": [
+   "Arrive",
+   "Leave",
+   "Tick"
+  ],
+  "kind": "exact",
+  "states": 10,
+  "table": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    5,
+    1,
+    6
+   ],
+   [
+    1,
+    3,
+    0
+   ],
+   [
+    2,
+    0,
+    4
+   ],
+   [
+    7,
+    2,
+    8
+   ],
+   [
+    5,
+    4,
+    6
+   ],
+   [
+    7,
+    5,
+    9
+   ],
+   [
+    7,
+    6,
+    8
+   ],
+   [
+    9,
+    8,
+    9
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Leave"
+   ],
+   [
+    "Arrive",
+    "Tick"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Tick"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Arrive",
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Arrive",
+    "Tick"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Arrive",
+    "Arrive",
+    "Tick"
+   ]
+  ],
+  "state_text": [
+   "Barrier { open = false }; Lot { cars = 0 }",
+   "Barrier { open = true }; Lot { cars = 1 }",
+   "Barrier { open = true }; Lot { cars = 2 }",
+   "Barrier { open = true }; Lot { cars = 0 }",
+   "Barrier { open = false }; Lot { cars = 1 }",
+   "Barrier { open = true }; Lot { cars = 3 }",
+   "Barrier { open = false }; Lot { cars = 2 }",
+   "Barrier { open = true }; Lot { cars = 4 }",
+   "Barrier { open = false }; Lot { cars = 3 }",
+   "Barrier { open = false }; Lot { cars = 4 }"
+  ],
+  "name": "parking"
+ },
+ {
+  "source": "programs/multi/printer.rce",
+  "sha256": "0293d83920797caae990642dfed5db859c57464b507c0a193657e1d9dd67e877",
+  "events": [
+   "Submit",
+   "Print",
+   "Refill"
+  ],
+  "kind": "exact",
+  "states": 12,
+  "table": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    2,
+    3,
+    1
+   ],
+   [
+    4,
+    5,
+    2
+   ],
+   [
+    5,
+    3,
+    0
+   ],
+   [
+    4,
+    6,
+    4
+   ],
+   [
+    6,
+    7,
+    1
+   ],
+   [
+    8,
+    9,
+    2
+   ],
+   [
+    9,
+    7,
+    0
+   ],
+   [
+    8,
+    10,
+    4
+   ],
+   [
+    10,
+    9,
+    1
+   ],
+   [
+    11,
+    10,
+    2
+   ],
+   [
+    11,
+    11,
+    4
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Submit"
+   ],
+   [
+    "Submit",
+    "Submit"
+   ],
+   [
+    "Submit",
+    "Print"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Submit"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Print"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Submit",
+    "Print"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Print",
+    "Print"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Submit",
+    "Print",
+    "Submit"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Submit",
+    "Print",
+    "Print"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Submit",
+    "Print",
+    "Submit",
+    "Print"
+   ],
+   [
+    "Submit",
+    "Submit",
+    "Submit",
+    "Print",
+    "Submit",
+    "Print",
+    "Submit"
+   ]
+  ],
+  "state_text": [
+   "Queue { jobs = 0 }; Toner { toner = 2 }",
+   "Queue { jobs = 1 }; Toner { toner = 2 }",
+   "Queue { jobs = 2 }; Toner { toner = 2 }",
+   "Queue { jobs = 0 }; Toner { toner = 1 }",
+   "Queue { jobs = 3 }; Toner { toner = 2 }",
+   "Queue { jobs = 1 }; Toner { toner = 1 }",
+   "Queue { jobs = 2 }; Toner { toner = 1 }",
+   "Queue { jobs = 0 }; Toner { toner = 0 }",
+   "Queue { jobs = 3 }; Toner { toner = 1 }",
+   "Queue { jobs = 1 }; Toner { toner = 0 }",
+   "Queue { jobs = 2 }; Toner { toner = 0 }",
+   "Queue { jobs = 3 }; Toner { toner = 0 }"
+  ],
+  "name": "printer"
+ },
+ {
+  "source": "programs/multi/reservoir.rce",
+  "sha256": "e40830270eeedca0674caa41330b3cd548b6b8c650cb68cc0747dddf63d21dc7",
+  "events": [
+   "Rain",
+   "Draw",
+   "Toggle",
+   "Tick"
+  ],
+  "kind": "exact",
+  "states": 10,
+  "table": [
+   [
+    1,
+    2,
+    3,
+    2
+   ],
+   [
+    4,
+    0,
+    5,
+    0
+   ],
+   [
+    0,
+    6,
+    7,
+    6
+   ],
+   [
+    5,
+    7,
+    0,
+    7
+   ],
+   [
+    4,
+    1,
+    8,
+    1
+   ],
+   [
+    8,
+    3,
+    1,
+    3
+   ],
+   [
+    2,
+    6,
+    9,
+    6
+   ],
+   [
+    3,
+    9,
+    2,
+    9
+   ],
+   [
+    8,
+    5,
+    4,
+    5
+   ],
+   [
+    7,
+    9,
+    6,
+    9
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Rain"
+   ],
+   [
+    "Draw"
+   ],
+   [
+    "Toggle"
+   ],
+   [
+    "Rain",
+    "Rain"
+   ],
+   [
+    "Rain",
+    "Toggle"
+   ],
+   [
+    "Draw",
+    "Draw"
+   ],
+   [
+    "Draw",
+    "Toggle"
+   ],
+   [
+    "Rain",
+    "Rain",
+    "Toggle"
+   ],
+   [
+    "Draw",
+    "Draw",
+    "Toggle"
+   ]
+  ],
+  "state_text": [
+   "Tank { level = 2 }; Pump { running = false }",
+   "Tank { level = 3 }; Pump { running = false }",
+   "Tank { level = 1 }; Pump { running = false }",
+   "Tank { level = 2 }; Pump { running = true }",
+   "Tank { level = 4 }; Pump { running = false }",
+   "Tank { level = 3 }; Pump { running = true }",
+   "Tank { level = 0 }; Pump { running = false }",
+   "Tank { level = 1 }; Pump { running = true }",
+   "Tank { level = 4 }; Pump { running = true }",
+   "Tank { level = 0 }; Pump { running = true }"
+  ],
+  "name": "reservoir"
+ },
+ {
+  "source": "programs/multi/session.rce",
+  "sha256": "5b170d108954b40d4e0c470a7a394051be2fd0008f81750c8cb7420e18e8dff8",
+  "events": [
+   "Login(ok: true)",
+   "Login(ok: false)",
+   "Logout",
+   "Tick"
+  ],
+  "kind": "exact",
+  "states": 6,
+  "table": [
+   [
+    1,
+    2,
+    0,
+    0
+   ],
+   [
+    1,
+    3,
+    0,
+    1
+   ],
+   [
+    1,
+    4,
+    2,
+    0
+   ],
+   [
+    1,
+    5,
+    2,
+    1
+   ],
+   [
+    4,
+    4,
+    4,
+    2
+   ],
+   [
+    5,
+    5,
+    4,
+    3
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Login(ok: true)"
+   ],
+   [
+    "Login(ok: false)"
+   ],
+   [
+    "Login(ok: true)",
+    "Login(ok: false)"
+   ],
+   [
+    "Login(ok: false)",
+    "Login(ok: false)"
+   ],
+   [
+    "Login(ok: true)",
+    "Login(ok: false)",
+    "Login(ok: false)"
+   ]
+  ],
+  "state_text": [
+   "Auth { logged = false }; Limit { strikes = 0 }",
+   "Auth { logged = true }; Limit { strikes = 0 }",
+   "Auth { logged = false }; Limit { strikes = 1 }",
+   "Auth { logged = true }; Limit { strikes = 1 }",
+   "Auth { logged = false }; Limit { strikes = 2 }",
+   "Auth { logged = true }; Limit { strikes = 2 }"
+  ],
+  "name": "session"
+ },
+ {
+  "source": "programs/multi/vending.rce",
+  "sha256": "e212147e77c518bbb7811cd303b249ad929f0c98847933e9458722f88dd2e798",
+  "events": [
+   "Coin",
+   "Buy",
+   "Restock"
+  ],
+  "kind": "exact",
+  "states": 16,
+  "table": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    2,
+    3,
+    1
+   ],
+   [
+    4,
+    5,
+    2
+   ],
+   [
+    5,
+    3,
+    0
+   ],
+   [
+    4,
+    6,
+    4
+   ],
+   [
+    6,
+    7,
+    1
+   ],
+   [
+    8,
+    9,
+    2
+   ],
+   [
+    9,
+    7,
+    0
+   ],
+   [
+    8,
+    10,
+    4
+   ],
+   [
+    10,
+    11,
+    1
+   ],
+   [
+    12,
+    13,
+    2
+   ],
+   [
+    13,
+    11,
+    0
+   ],
+   [
+    12,
+    14,
+    4
+   ],
+   [
+    14,
+    13,
+    1
+   ],
+   [
+    15,
+    14,
+    2
+   ],
+   [
+    15,
+    15,
+    4
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Coin"
+   ],
+   [
+    "Coin",
+    "Coin"
+   ],
+   [
+    "Coin",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Buy",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Coin"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Buy",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy",
+    "Coin"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy"
+   ],
+   [
+    "Coin",
+    "Coin",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy",
+    "Coin",
+    "Buy",
+    "Coin"
+   ]
+  ],
+  "state_text": [
+   "Credit { credit = 0 }; Stock { cans = 3 }",
+   "Credit { credit = 1 }; Stock { cans = 3 }",
+   "Credit { credit = 2 }; Stock { cans = 3 }",
+   "Credit { credit = 0 }; Stock { cans = 2 }",
+   "Credit { credit = 3 }; Stock { cans = 3 }",
+   "Credit { credit = 1 }; Stock { cans = 2 }",
+   "Credit { credit = 2 }; Stock { cans = 2 }",
+   "Credit { credit = 0 }; Stock { cans = 1 }",
+   "Credit { credit = 3 }; Stock { cans = 2 }",
+   "Credit { credit = 1 }; Stock { cans = 1 }",
+   "Credit { credit = 2 }; Stock { cans = 1 }",
+   "Credit { credit = 0 }; Stock { cans = 0 }",
+   "Credit { credit = 3 }; Stock { cans = 1 }",
+   "Credit { credit = 1 }; Stock { cans = 0 }",
+   "Credit { credit = 2 }; Stock { cans = 0 }",
+   "Credit { credit = 3 }; Stock { cans = 0 }"
+  ],
+  "name": "vending"
+ },
+ {
+  "source": "programs/multi/washer.rce",
+  "sha256": "e2f8c394e61bd9c4b0693f2cfae6dd2edeec1eac7b9219f44ccaa2878acc333c",
+  "events": [
+   "Start",
+   "Tick",
+   "Open"
+  ],
+  "kind": "exact",
+  "states": 4,
+  "table": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    1
+   ],
+   [
+    2,
+    3,
+    2
+   ],
+   [
+    3,
+    0,
+    3
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Start"
+   ],
+   [
+    "Start",
+    "Tick"
+   ],
+   [
+    "Start",
+    "Tick",
+    "Tick"
+   ]
+  ],
+  "state_text": [
+   "Cycle { phase = Idle }; Door { locked = false }",
+   "Cycle { phase = Wash }; Door { locked = true }",
+   "Cycle { phase = Rinse }; Door { locked = false }",
+   "Cycle { phase = Spin }; Door { locked = false }"
+  ],
+  "name": "washer"
+ },
+ {
+  "source": "programs/systems/reconcile.rce",
+  "sha256": "687ffbb836d9b64314fc6897908bb6bf52a1448d5f70e07800fdb13bad5198d9",
+  "events": [
+   "Desire(n: 1)",
+   "Desire(n: 2)",
+   "Reconcile"
+  ],
+  "kind": "exact",
+  "states": 7,
+  "table": [
+   [
+    1,
+    2,
+    0
+   ],
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    3,
+    4,
+    3
+   ],
+   [
+    3,
+    4,
+    5
+   ],
+   [
+    6,
+    5,
+    5
+   ],
+   [
+    6,
+    5,
+    3
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Desire(n: 1)"
+   ],
+   [
+    "Desire(n: 2)"
+   ],
+   [
+    "Desire(n: 1)",
+    "Reconcile"
+   ],
+   [
+    "Desire(n: 2)",
+    "Reconcile"
+   ],
+   [
+    "Desire(n: 2)",
+    "Reconcile",
+    "Reconcile"
+   ],
+   [
+    "Desire(n: 2)",
+    "Reconcile",
+    "Reconcile",
+    "Desire(n: 1)"
+   ]
+  ],
+  "state_text": [
+   "Cluster { desired = 0, actual = 0 }",
+   "Cluster { desired = 1, actual = 0 }",
+   "Cluster { desired = 2, actual = 0 }",
+   "Cluster { desired = 1, actual = 1 }",
+   "Cluster { desired = 2, actual = 1 }",
+   "Cluster { desired = 2, actual = 2 }",
+   "Cluster { desired = 1, actual = 2 }"
+  ],
+  "name": "reconcile"
+ },
+ {
+  "source": "spec/checker/tests/mutants/equivalent.rce",
+  "sha256": "9d435616a55565a3936270ff1398341408cb954dec1a12b121fb0c00eb0c0104",
+  "events": [
+   "Inc",
+   "Show"
+  ],
+  "kind": "exact",
+  "states": 4,
+  "table": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    0,
+    3
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "Counter { n = 0 }",
+   "Counter { n = 1 }",
+   "Counter { n = 2 }",
+   "Counter { n = 3 }"
+  ],
+  "name": "equivalent"
+ },
+ {
+  "source": "book/listings/ch04/counter.rce",
+  "sha256": "a9615c274a615f6b29c285dc5d6ebf3976722fe93c73695d98a194ebfd9a6fa9",
+  "events": [
+   "Inc",
+   "Dec"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    7,
+    5
+   ],
+   [
+    7,
+    6
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "Counter { n = 0 }",
+   "Counter { n = 1 }",
+   "Counter { n = 2 }",
+   "Counter { n = 3 }",
+   "Counter { n = 4 }",
+   "Counter { n = 5 }",
+   "Counter { n = 6 }",
+   "Counter { n = 7 }"
+  ],
+  "name": "counter"
+ },
+ {
+  "source": "book/listings/ch06/account.rce",
+  "sha256": "79c0e0b0cd2129e086aae9d541055b4ac40ba16aa85c96b1ee7f156da8c87521",
+  "events": [
+   "Deposit(amount: 1)",
+   "Deposit(amount: 2)",
+   "Withdraw(amount: 1)",
+   "Withdraw(amount: 2)"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    2,
+    0,
+    0
+   ],
+   [
+    2,
+    3,
+    0,
+    1
+   ],
+   [
+    3,
+    4,
+    1,
+    0
+   ],
+   [
+    4,
+    5,
+    2,
+    1
+   ],
+   [
+    5,
+    6,
+    3,
+    2
+   ],
+   [
+    6,
+    7,
+    4,
+    3
+   ],
+   [
+    7,
+    6,
+    5,
+    4
+   ],
+   [
+    7,
+    7,
+    6,
+    5
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Deposit(amount: 1)"
+   ],
+   [
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 1)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 1)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 1)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ]
+  ],
+  "state_text": [
+   "Account { balance = 0 }",
+   "Account { balance = 1 }",
+   "Account { balance = 2 }",
+   "Account { balance = 3 }",
+   "Account { balance = 4 }",
+   "Account { balance = 5 }",
+   "Account { balance = 6 }",
+   "Account { balance = 7 }"
+  ],
+  "name": "account"
+ },
+ {
+  "source": "conformance/tests/concurrency/harvested/03-distributed-accept.rce",
+  "sha256": "f53b1c2271dfe347acba3c9d16fc745b9e3e3aa947a597fd89c6cc0abb7e7ca3",
+  "events": [
+   "Deposit(amount: 1)",
+   "Deposit(amount: 2)"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Deposit(amount: 1)"
+   ],
+   [
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 1)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 1)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ],
+   [
+    "Deposit(amount: 1)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)",
+    "Deposit(amount: 2)"
+   ]
+  ],
+  "state_text": [
+   "Ledger { total = 0 }",
+   "Ledger { total = 1 }",
+   "Ledger { total = 2 }",
+   "Ledger { total = 3 }",
+   "Ledger { total = 4 }",
+   "Ledger { total = 5 }",
+   "Ledger { total = 6 }",
+   "Ledger { total = 7 }"
+  ],
+  "name": "03_distributed_accept"
+ },
+ {
+  "source": "conformance/tests/forms-log/targeted/s1-guard-trap-keeps.rce",
+  "sha256": "518152e337978b75bf8d466f9a9977a9b1dfff2ea4d487d6ed45333e3069eeee",
+  "events": [
+   "Div(d: 1)",
+   "Div(d: 2)"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Div(d: 1)"
+   ],
+   [
+    "Div(d: 1)",
+    "Div(d: 1)"
+   ],
+   [
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)"
+   ],
+   [
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)"
+   ],
+   [
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)"
+   ],
+   [
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)"
+   ],
+   [
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)",
+    "Div(d: 1)"
+   ]
+  ],
+  "state_text": [
+   "S { n = 1 }",
+   "S { n = 2 }",
+   "S { n = 3 }",
+   "S { n = 4 }",
+   "S { n = 5 }",
+   "S { n = 6 }",
+   "S { n = 7 }",
+   "S { n = 8 }"
+  ],
+  "name": "s1_guard_trap_keeps"
+ },
+ {
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "sha256": "7e13deb59291ac4db37acf92d5c394177befb761366cb7ec9f8594201aa40a4f",
+  "events": [
+   "Inc"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    3
+   ],
+   [
+    4
+   ],
+   [
+    5
+   ],
+   [
+    6
+   ],
+   [
+    7
+   ],
+   [
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }",
+   "S { n = 2 }",
+   "S { n = 3 }",
+   "S { n = 4 }",
+   "S { n = 5 }",
+   "S { n = 6 }",
+   "S { n = 7 }"
+  ],
+  "name": "hc_11_fabric_caps_logged"
+ },
+ {
+  "source": "conformance/tests/host-contract/targeted/hc-21-kept-step-is-input.rce",
+  "sha256": "1f8e9372ec66195bdfa20f61caea35054b70a0ad837dbd040c73c618a340dac8",
+  "events": [
+   "Inc",
+   "Boom"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ],
+   [
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc",
+    "Inc"
+   ]
+  ],
+  "state_text": [
+   "S { n = 0 }",
+   "S { n = 1 }",
+   "S { n = 2 }",
+   "S { n = 3 }",
+   "S { n = 4 }",
+   "S { n = 5 }",
+   "S { n = 6 }",
+   "S { n = 7 }"
+  ],
+  "name": "hc_21_kept_step_is_input"
+ },
+ {
+  "source": "conformance/tests/properties/t62-dependent-differ.rce",
+  "sha256": "54cd4504a197f8453d834d09cf85634b6fcbdc6b9dca4328843bf76d390963d9",
+  "events": [
+   "Add",
+   "Dbl"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Add"
+   ],
+   [
+    "Add",
+    "Add"
+   ],
+   [
+    "Add",
+    "Dbl"
+   ],
+   [
+    "Add",
+    "Add",
+    "Dbl"
+   ],
+   [
+    "Add",
+    "Dbl",
+    "Add"
+   ],
+   [
+    "Add",
+    "Dbl",
+    "Dbl"
+   ],
+   [
+    "Add",
+    "Add",
+    "Dbl",
+    "Add"
+   ]
+  ],
+  "state_text": [
+   "S { a = 1 }",
+   "S { a = 2 }",
+   "S { a = 3 }",
+   "S { a = 4 }",
+   "S { a = 6 }",
+   "S { a = 5 }",
+   "S { a = 8 }",
+   "S { a = 7 }"
+  ],
+  "name": "t62_dependent_differ"
+ },
+ {
+  "source": "conformance/tests/properties/t62-independent-commute.rce",
+  "sha256": "530604e504b94eeef0a48570453c49c27f49af93dd05903bc22641330866a987",
+  "events": [
+   "A",
+   "B",
+   "C"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    4,
+    5,
+    6
+   ],
+   [
+    5,
+    7,
+    2
+   ],
+   [
+    6,
+    3,
+    3
+   ],
+   [
+    4,
+    4,
+    4
+   ],
+   [
+    5,
+    5,
+    5
+   ],
+   [
+    6,
+    6,
+    6
+   ],
+   [
+    7,
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "C"
+   ],
+   [
+    "A",
+    "A"
+   ],
+   [
+    "A",
+    "B"
+   ],
+   [
+    "A",
+    "C"
+   ],
+   [
+    "B",
+    "B"
+   ]
+  ],
+  "state_text": [
+   "S { a = 0, b = 0, c = 0 }",
+   "S { a = 1, b = 0, c = 0 }",
+   "S { a = 0, b = 2, c = 0 }",
+   "S { a = 0, b = 0, c = 3 }",
+   "S { a = 2, b = 0, c = 0 }",
+   "S { a = 1, b = 2, c = 0 }",
+   "S { a = 1, b = 0, c = 3 }",
+   "S { a = 0, b = 4, c = 0 }"
+  ],
+  "name": "t62_independent_commute"
+ },
+ {
+  "source": "programs/multi/card.rce",
+  "sha256": "af06bcae272f6be4448aa825750a4b696781062f62a3438f36c4f6c6febaf5f5",
+  "events": [
+   "Enter(ok: true)",
+   "Enter(ok: false)",
+   "Withdraw",
+   "Deposit"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    0,
+    4,
+    5,
+    6
+   ],
+   [
+    2,
+    5,
+    7,
+    0
+   ],
+   [
+    3,
+    6,
+    0,
+    3
+   ],
+   [
+    0,
+    4,
+    4,
+    4
+   ],
+   [
+    2,
+    5,
+    5,
+    1
+   ],
+   [
+    3,
+    6,
+    1,
+    6
+   ],
+   [
+    7,
+    7,
+    7,
+    2
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Enter(ok: false)"
+   ],
+   [
+    "Withdraw"
+   ],
+   [
+    "Deposit"
+   ],
+   [
+    "Enter(ok: false)",
+    "Enter(ok: false)"
+   ],
+   [
+    "Enter(ok: false)",
+    "Withdraw"
+   ],
+   [
+    "Enter(ok: false)",
+    "Deposit"
+   ],
+   [
+    "Withdraw",
+    "Withdraw"
+   ]
+  ],
+  "state_text": [
+   "Pin { tries = 0, locked = false }; Account { balance = 3 }",
+   "Pin { tries = 1, locked = false }; Account { balance = 3 }",
+   "Pin { tries = 0, locked = false }; Account { balance = 2 }",
+   "Pin { tries = 0, locked = false }; Account { balance = 4 }",
+   "Pin { tries = 2, locked = false }; Account { balance = 3 }",
+   "Pin { tries = 1, locked = false }; Account { balance = 2 }",
+   "Pin { tries = 1, locked = false }; Account { balance = 4 }",
+   "Pin { tries = 0, locked = false }; Account { balance = 1 }"
+  ],
+  "name": "card"
+ },
+ {
+  "source": "programs/multi/player.rce",
+  "sha256": "4210df4ae9fbf3b1b2671cacbb3eb023c7166a8e9d45572c10dd701ce3d3a5ff",
+  "events": [
+   "Play",
+   "Pause",
+   "Next",
+   "VolUp",
+   "VolDown"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0,
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    0,
+    5,
+    6,
+    7
+   ],
+   [
+    5,
+    2,
+    2,
+    2,
+    2
+   ],
+   [
+    6,
+    3,
+    3,
+    3,
+    0
+   ],
+   [
+    7,
+    4,
+    4,
+    0,
+    4
+   ],
+   [
+    5,
+    2,
+    5,
+    5,
+    5
+   ],
+   [
+    6,
+    3,
+    6,
+    6,
+    1
+   ],
+   [
+    7,
+    4,
+    7,
+    1,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Play"
+   ],
+   [
+    "Next"
+   ],
+   [
+    "VolUp"
+   ],
+   [
+    "VolDown"
+   ],
+   [
+    "Play",
+    "Next"
+   ],
+   [
+    "Play",
+    "VolUp"
+   ],
+   [
+    "Play",
+    "VolDown"
+   ]
+  ],
+  "state_text": [
+   "Transport { playing = false, track = 0 }; Volume { level = 1 }",
+   "Transport { playing = true, track = 0 }; Volume { level = 1 }",
+   "Transport { playing = false, track = 1 }; Volume { level = 1 }",
+   "Transport { playing = false, track = 0 }; Volume { level = 2 }",
+   "Transport { playing = false, track = 0 }; Volume { level = 0 }",
+   "Transport { playing = true, track = 1 }; Volume { level = 1 }",
+   "Transport { playing = true, track = 0 }; Volume { level = 2 }",
+   "Transport { playing = true, track = 0 }; Volume { level = 0 }"
+  ],
+  "name": "player"
+ },
+ {
+  "source": "programs/network/handshake.rce",
+  "sha256": "7635295f82e5bd4b74a0ec20f658553eddd9b207852694dd0b3ca01805be451f",
+  "events": [
+   "Syn",
+   "SynAck",
+   "Ack",
+   "Data(n: 1)",
+   "Data(n: 2)",
+   "Fin"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    2,
+    2,
+    3,
+    2,
+    2,
+    0
+   ],
+   [
+    3,
+    3,
+    3,
+    4,
+    5,
+    0
+   ],
+   [
+    4,
+    4,
+    4,
+    5,
+    6,
+    7
+   ],
+   [
+    5,
+    5,
+    5,
+    6,
+    5,
+    5
+   ],
+   [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Syn"
+   ],
+   [
+    "Syn",
+    "SynAck"
+   ],
+   [
+    "Syn",
+    "SynAck",
+    "Ack"
+   ],
+   [
+    "Syn",
+    "SynAck",
+    "Ack",
+    "Data(n: 1)"
+   ],
+   [
+    "Syn",
+    "SynAck",
+    "Ack",
+    "Data(n: 2)"
+   ],
+   [
+    "Syn",
+    "SynAck",
+    "Ack",
+    "Data(n: 1)",
+    "Data(n: 2)"
+   ],
+   [
+    "Syn",
+    "SynAck",
+    "Ack",
+    "Data(n: 1)",
+    "Fin"
+   ]
+  ],
+  "state_text": [
+   "Conn { phase = Closed, bytes = 0 }",
+   "Conn { phase = SynSent, bytes = 0 }",
+   "Conn { phase = SynReceived, bytes = 0 }",
+   "Conn { phase = Established, bytes = 0 }",
+   "Conn { phase = Established, bytes = 1 }",
+   "Conn { phase = Established, bytes = 2 }",
+   "Conn { phase = Established, bytes = 3 }",
+   "Conn { phase = Closed, bytes = 1 }"
+  ],
+  "name": "handshake"
+ },
+ {
+  "source": "programs/systems/ring_buffer.rce",
+  "sha256": "75fbf51f100edcf830d9f9ad4d90e097549d290b40f6c2983371c0198670d4a1",
+  "events": [
+   "Push(v: 1)",
+   "Push(v: 2)",
+   "Pop"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    2,
+    0
+   ],
+   [
+    3,
+    4,
+    5
+   ],
+   [
+    6,
+    7,
+    2
+   ],
+   [
+    3,
+    3,
+    3
+   ],
+   [
+    4,
+    4,
+    4
+   ],
+   [
+    5,
+    5,
+    5
+   ],
+   [
+    6,
+    6,
+    6
+   ],
+   [
+    7,
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Push(v: 1)"
+   ],
+   [
+    "Push(v: 2)"
+   ],
+   [
+    "Push(v: 1)",
+    "Push(v: 1)"
+   ],
+   [
+    "Push(v: 1)",
+    "Push(v: 2)"
+   ],
+   [
+    "Push(v: 1)",
+    "Pop"
+   ],
+   [
+    "Push(v: 2)",
+    "Push(v: 1)"
+   ],
+   [
+    "Push(v: 2)",
+    "Push(v: 2)"
+   ]
+  ],
+  "state_text": [
+   "Ring { slots = [0, 0, 0, 0], head = 0, count = 0 }",
+   "Ring { slots = [1, 0, 0, 0], head = 0, count = 1 }",
+   "Ring { slots = [2, 0, 0, 0], head = 0, count = 1 }",
+   "Ring { slots = [1, 1, 0, 0], head = 0, count = 2 }",
+   "Ring { slots = [1, 2, 0, 0], head = 0, count = 2 }",
+   "Ring { slots = [1, 0, 0, 0], head = 1, count = 0 }",
+   "Ring { slots = [2, 1, 0, 0], head = 0, count = 2 }",
+   "Ring { slots = [2, 2, 0, 0], head = 0, count = 2 }"
+  ],
+  "name": "ring_buffer"
+ },
+ {
+  "source": "programs/world/queue_sim.rce",
+  "sha256": "3f49fa5a77d5170a82daaaeb7e7852dca59d91a57c08b0dd1dc9260c51585774",
+  "events": [
+   "Arrive",
+   "Serve"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Serve"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Arrive"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Serve"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Arrive",
+    "Serve"
+   ],
+   [
+    "Arrive",
+    "Arrive",
+    "Serve",
+    "Serve"
+   ]
+  ],
+  "state_text": [
+   "Till { waiting = 0, served = 0 }",
+   "Till { waiting = 1, served = 0 }",
+   "Till { waiting = 2, served = 0 }",
+   "Till { waiting = 0, served = 1 }",
+   "Till { waiting = 3, served = 0 }",
+   "Till { waiting = 1, served = 1 }",
+   "Till { waiting = 2, served = 1 }",
+   "Till { waiting = 0, served = 2 }"
+  ],
+  "name": "queue_sim"
+ },
+ {
+  "source": "spec/checker/tests/law/flag_walls.rce",
+  "sha256": "64b2df6369b1ca47805e0ddad99c4005f7acf300f619378e016518ce3f8ea312",
+  "events": [
+   "Up",
+   "Down",
+   "Left",
+   "Right"
+  ],
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "table": [
+   [
+    1,
+    2,
+    3,
+    4
+   ],
+   [
+    5,
+    0,
+    6,
+    7
+   ],
+   [
+    0,
+    2,
+    2,
+    2
+   ],
+   [
+    6,
+    3,
+    3,
+    0
+   ],
+   [
+    7,
+    4,
+    0,
+    4
+   ],
+   [
+    5,
+    1,
+    5,
+    5
+   ],
+   [
+    6,
+    3,
+    6,
+    1
+   ],
+   [
+    7,
+    4,
+    1,
+    7
+   ]
+  ],
+  "paths": [
+   [],
+   [
+    "Up"
+   ],
+   [
+    "Down"
+   ],
+   [
+    "Left"
+   ],
+   [
+    "Right"
+   ],
+   [
+    "Up",
+    "Up"
+   ],
+   [
+    "Up",
+    "Left"
+   ],
+   [
+    "Up",
+    "Right"
+   ]
+  ],
+  "state_text": [
+   "Game { x = 8, y = 5, won = false }",
+   "Game { x = 8, y = 4, won = false }",
+   "Game { x = 8, y = 6, won = false }",
+   "Game { x = 7, y = 5, won = false }",
+   "Game { x = 9, y = 5, won = false }",
+   "Game { x = 8, y = 3, won = false }",
+   "Game { x = 7, y = 4, won = false }",
+   "Game { x = 9, y = 4, won = false }"
+  ],
+  "name": "flag_walls"
+ }
+]

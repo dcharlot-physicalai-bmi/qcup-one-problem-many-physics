@@ -1,0 +1,2186 @@
+{
+ "dd_off": [
+  {
+   "id": "a2-17-traffic-light-accept-p5",
+   "kind": "aim2",
+   "cz": 10,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "1001001001",
+   "ref": [
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "1001001001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-ch07-form-injective-f64-r5",
+   "kind": "aim2",
+   "cz": 40,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "1000101101",
+   "ref": [
+    1,
+    3,
+    2,
+    0,
+    2
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "3": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "1000101101",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-counter-flag-r1",
+   "kind": "aim2",
+   "cz": 75,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "010",
+   "ref": [
+    2
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "010",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t59-distinguish-mod3-mod4-r5",
+   "kind": "aim2",
+   "cz": 150,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "0100100010",
+   "ref": [
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "0100100010",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t59-distinguish-mod5-mod4-r1",
+   "kind": "aim2",
+   "cz": 213,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "010",
+   "ref": [
+    2
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "010",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-hc-21-kept-step-is-input-r1",
+   "kind": "aim2",
+   "cz": 271,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "000",
+   "ref": [
+    0
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t60-dim-redundant-k5-r5",
+   "kind": "aim2",
+   "cz": 300,
+   "shots": 1000,
+   "num_bits": 15,
+   "want": "000100011010001",
+   "ref": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "sb": 3,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 3.0517578125e-05,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "3": 1.0
+    },
+    {
+     "4": 1.0
+    },
+    {
+     "0": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "000100011010001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-queue-sim-r1",
+   "kind": "aim2",
+   "cz": 303,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "000",
+   "ref": [
+    0
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-counter-r1",
+   "kind": "aim2",
+   "cz": 422,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "001",
+   "ref": [
+    1
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-hc-11-fabric-caps-logged-r5",
+   "kind": "aim2",
+   "cz": 474,
+   "shots": 1000,
+   "num_bits": 15,
+   "want": "101100011010001",
+   "ref": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "sb": 3,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 3.0517578125e-05,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "3": 1.0
+    },
+    {
+     "4": 1.0
+    },
+    {
+     "5": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "101100011010001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-washer-r5",
+   "kind": "aim2",
+   "cz": 566,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "1010101001",
+   "ref": [
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "1010101001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-door-r3",
+   "kind": "aim2",
+   "cz": 610,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "010000",
+   "ref": [
+    0,
+    0,
+    1
+   ],
+   "sb": 2,
+   "T": 3,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "010000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-03-distributed-accept-g2",
+   "kind": "aim2",
+   "cz": 648,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "011001",
+   "ref": [
+    1,
+    3
+   ],
+   "sb": 3,
+   "T": 2,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "3": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "011001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-s1-guard-trap-keeps-r3",
+   "kind": "aim2",
+   "cz": 764,
+   "shots": 1000,
+   "num_bits": 9,
+   "want": "011010001",
+   "ref": [
+    1,
+    2,
+    3
+   ],
+   "sb": 3,
+   "T": 3,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.001953125,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "3": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "011010001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t62-dependent-differ-r2",
+   "kind": "aim2",
+   "cz": 840,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "011001",
+   "ref": [
+    1,
+    3
+   ],
+   "sb": 3,
+   "T": 2,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "3": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "011001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-session-r2",
+   "kind": "aim2",
+   "cz": 1113,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "001000",
+   "ref": [
+    0,
+    1
+   ],
+   "sb": 3,
+   "T": 2,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "001000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "ctl-zero-cz-thermostat-r5",
+   "kind": "control_zero_cz",
+   "cz": 0,
+   "shots": 1000,
+   "num_bits": 5,
+   "want": "11111",
+   "ref": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sb": 1,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.03125,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "11111",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "ctl-mirror-6q",
+   "kind": "control_mirror",
+   "cz": 18,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "101101",
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "top": [
+    [
+     "101101",
+     1000
+    ]
+   ],
+   "bit_marginals": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "a1-b12-p1-warm",
+   "kind": "aim1",
+   "cz": 130,
+   "shots": 4000,
+   "num_bits": 12,
+   "hits": 1828,
+   "measured": 0.457,
+   "ci95": [
+    0.4416108572049411,
+    0.47247165794750645
+   ],
+   "ideal": 0.4739104860518585,
+   "ground": 1,
+   "floor": 0.000244140625,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-r12-p2-cold",
+   "kind": "aim1",
+   "cz": 200,
+   "shots": 4000,
+   "num_bits": 12,
+   "hits": 2068,
+   "measured": 0.517,
+   "ci95": [
+    0.5015049096507582,
+    0.5324624680796695
+   ],
+   "ideal": 0.5264886848063002,
+   "ground": 1,
+   "floor": 0.000244140625,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-b20-p1-warm",
+   "kind": "aim1",
+   "cz": 351,
+   "shots": 4000,
+   "num_bits": 20,
+   "hits": 2024,
+   "measured": 0.506,
+   "ci95": [
+    0.4905076321012058,
+    0.5214808541565921
+   ],
+   "ideal": 0.514869220296107,
+   "ground": 1,
+   "floor": 9.5367431640625e-07,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-b16-p2-warm",
+   "kind": "aim1",
+   "cz": 449,
+   "shots": 4000,
+   "num_bits": 16,
+   "hits": 3493,
+   "measured": 0.87325,
+   "ci95": [
+    0.862580347419178,
+    0.8832034018680064
+   ],
+   "ideal": 0.8731864929472171,
+   "ground": 1,
+   "floor": 1.52587890625e-05,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-d12-p2-warm",
+   "kind": "aim1",
+   "cz": 523,
+   "shots": 4000,
+   "num_bits": 12,
+   "hits": 752,
+   "measured": 0.188,
+   "ci95": [
+    0.17619317014947516,
+    0.20040554444502823
+   ],
+   "ideal": 0.18152373777886488,
+   "ground": 2,
+   "floor": 0.00048828125,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-b16-p3-warm",
+   "kind": "aim1",
+   "cz": 666,
+   "shots": 4000,
+   "num_bits": 16,
+   "hits": 3788,
+   "measured": 0.947,
+   "ci95": [
+    0.939618334506704,
+    0.9535238916992477
+   ],
+   "ideal": 0.9458786951038568,
+   "ground": 1,
+   "floor": 1.52587890625e-05,
+   "reversed_bits_score": 0.0
+  }
+ ],
+ "dd_on": [
+  {
+   "id": "a2-17-traffic-light-accept-p5",
+   "kind": "aim2",
+   "cz": 10,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "1001001001",
+   "ref": [
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "1001001001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-ch07-form-injective-f64-r5",
+   "kind": "aim2",
+   "cz": 40,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "1000101101",
+   "ref": [
+    1,
+    3,
+    2,
+    0,
+    2
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "3": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "1000101101",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-counter-flag-r1",
+   "kind": "aim2",
+   "cz": 75,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "010",
+   "ref": [
+    2
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "010",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t59-distinguish-mod3-mod4-r5",
+   "kind": "aim2",
+   "cz": 150,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "0100100010",
+   "ref": [
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "0100100010",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t59-distinguish-mod5-mod4-r1",
+   "kind": "aim2",
+   "cz": 213,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "010",
+   "ref": [
+    2
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "010",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-hc-21-kept-step-is-input-r1",
+   "kind": "aim2",
+   "cz": 271,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "000",
+   "ref": [
+    0
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t60-dim-redundant-k5-r5",
+   "kind": "aim2",
+   "cz": 300,
+   "shots": 1000,
+   "num_bits": 15,
+   "want": "000100011010001",
+   "ref": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "sb": 3,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 3.0517578125e-05,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "3": 1.0
+    },
+    {
+     "4": 1.0
+    },
+    {
+     "0": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "000100011010001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-queue-sim-r1",
+   "kind": "aim2",
+   "cz": 303,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "000",
+   "ref": [
+    0
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-counter-r1",
+   "kind": "aim2",
+   "cz": 422,
+   "shots": 1000,
+   "num_bits": 3,
+   "want": "001",
+   "ref": [
+    1
+   ],
+   "sb": 3,
+   "T": 1,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.125,
+   "step_marginal": [
+    1.0
+   ],
+   "prefix": [
+    1.0
+   ],
+   "cond_step": [
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-hc-11-fabric-caps-logged-r5",
+   "kind": "aim2",
+   "cz": 474,
+   "shots": 1000,
+   "num_bits": 15,
+   "want": "101100011010001",
+   "ref": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "sb": 3,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 3.0517578125e-05,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "3": 1.0
+    },
+    {
+     "4": 1.0
+    },
+    {
+     "5": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "101100011010001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-washer-r5",
+   "kind": "aim2",
+   "cz": 566,
+   "shots": 1000,
+   "num_bits": 10,
+   "want": "1010101001",
+   "ref": [
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "sb": 2,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.0009765625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "2": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "1010101001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-door-r3",
+   "kind": "aim2",
+   "cz": 610,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "010000",
+   "ref": [
+    0,
+    0,
+    1
+   ],
+   "sb": 2,
+   "T": 3,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    },
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "010000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-03-distributed-accept-g2",
+   "kind": "aim2",
+   "cz": 648,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "011001",
+   "ref": [
+    1,
+    3
+   ],
+   "sb": 3,
+   "T": 2,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "3": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "011001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-s1-guard-trap-keeps-r3",
+   "kind": "aim2",
+   "cz": 764,
+   "shots": 1000,
+   "num_bits": 9,
+   "want": "011010001",
+   "ref": [
+    1,
+    2,
+    3
+   ],
+   "sb": 3,
+   "T": 3,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.001953125,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "2": 1.0
+    },
+    {
+     "3": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "011010001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-t62-dependent-differ-r2",
+   "kind": "aim2",
+   "cz": 840,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "011001",
+   "ref": [
+    1,
+    3
+   ],
+   "sb": 3,
+   "T": 2,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "3": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "011001",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "a2-session-r2",
+   "kind": "aim2",
+   "cz": 1113,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "001000",
+   "ref": [
+    0,
+    1
+   ],
+   "sb": 3,
+   "T": 2,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "step_marginal": [
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "0": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 0.0,
+   "reversed_steps_score": 0.0,
+   "top": [
+    [
+     "001000",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "ctl-zero-cz-thermostat-r5",
+   "kind": "control_zero_cz",
+   "cz": 0,
+   "shots": 1000,
+   "num_bits": 5,
+   "want": "11111",
+   "ref": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sb": 1,
+   "T": 5,
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.03125,
+   "step_marginal": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "prefix": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "cond_step": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "step_dist": [
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    },
+    {
+     "1": 1.0
+    }
+   ],
+   "reversed_bits_score": 1.0,
+   "reversed_steps_score": 1.0,
+   "top": [
+    [
+     "11111",
+     1000
+    ]
+   ]
+  },
+  {
+   "id": "ctl-mirror-6q",
+   "kind": "control_mirror",
+   "cz": 18,
+   "shots": 1000,
+   "num_bits": 6,
+   "want": "101101",
+   "hits": 1000,
+   "measured": 1.0,
+   "ci95": [
+    0.9961731014136095,
+    1.0
+   ],
+   "floor": 0.015625,
+   "top": [
+    [
+     "101101",
+     1000
+    ]
+   ],
+   "bit_marginals": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "a1-b12-p1-warm",
+   "kind": "aim1",
+   "cz": 130,
+   "shots": 4000,
+   "num_bits": 12,
+   "hits": 1828,
+   "measured": 0.457,
+   "ci95": [
+    0.4416108572049411,
+    0.47247165794750645
+   ],
+   "ideal": 0.4739104860518585,
+   "ground": 1,
+   "floor": 0.000244140625,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-r12-p2-cold",
+   "kind": "aim1",
+   "cz": 200,
+   "shots": 4000,
+   "num_bits": 12,
+   "hits": 2068,
+   "measured": 0.517,
+   "ci95": [
+    0.5015049096507582,
+    0.5324624680796695
+   ],
+   "ideal": 0.5264886848063002,
+   "ground": 1,
+   "floor": 0.000244140625,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-b20-p1-warm",
+   "kind": "aim1",
+   "cz": 351,
+   "shots": 4000,
+   "num_bits": 20,
+   "hits": 2024,
+   "measured": 0.506,
+   "ci95": [
+    0.4905076321012058,
+    0.5214808541565921
+   ],
+   "ideal": 0.514869220296107,
+   "ground": 1,
+   "floor": 9.5367431640625e-07,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-b16-p2-warm",
+   "kind": "aim1",
+   "cz": 449,
+   "shots": 4000,
+   "num_bits": 16,
+   "hits": 3493,
+   "measured": 0.87325,
+   "ci95": [
+    0.862580347419178,
+    0.8832034018680064
+   ],
+   "ideal": 0.8731864929472171,
+   "ground": 1,
+   "floor": 1.52587890625e-05,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-d12-p2-warm",
+   "kind": "aim1",
+   "cz": 523,
+   "shots": 4000,
+   "num_bits": 12,
+   "hits": 752,
+   "measured": 0.188,
+   "ci95": [
+    0.17619317014947516,
+    0.20040554444502823
+   ],
+   "ideal": 0.18152373777886488,
+   "ground": 2,
+   "floor": 0.00048828125,
+   "reversed_bits_score": 0.0
+  },
+  {
+   "id": "a1-b16-p3-warm",
+   "kind": "aim1",
+   "cz": 666,
+   "shots": 4000,
+   "num_bits": 16,
+   "hits": 3788,
+   "measured": 0.947,
+   "ci95": [
+    0.939618334506704,
+    0.9535238916992477
+   ],
+   "ideal": 0.9458786951038568,
+   "ground": 1,
+   "floor": 1.52587890625e-05,
+   "reversed_bits_score": 0.0
+  }
+ ]
+}

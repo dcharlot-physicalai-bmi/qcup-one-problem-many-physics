@@ -1,0 +1,719 @@
+[
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 4,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 9,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9735,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 11,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9925,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 4,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 9,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9735,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 11,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9925,
+   "shots": 2000
+  },
+  "guppy_gates": 6
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "P",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1,
+   "two_qubit_depth": 1,
+   "depth": 7,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.973,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 1,
+   "two_qubit_depth": 1,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9955,
+   "shots": 2000
+  },
+  "guppy_gates": 4
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 6,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 12,
+   "two_qubit_depth": 10,
+   "depth": 29,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9275,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 6,
+   "two_qubit_depth": 4,
+   "depth": 14,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9885,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 4,
+  "resets": 2,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 12,
+   "two_qubit_depth": 9,
+   "depth": 28,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9235,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 6,
+   "two_qubit_depth": 5,
+   "depth": 19,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.984,
+   "shots": 2000
+  },
+  "guppy_gates": 14
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "P",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2,
+   "two_qubit_depth": 2,
+   "depth": 14,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.953,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 2,
+   "two_qubit_depth": 2,
+   "depth": 12,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.991,
+   "shots": 2000
+  },
+  "guppy_gates": 8
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 21,
+   "two_qubit_depth": 11,
+   "depth": 28,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.888,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 9,
+   "two_qubit_depth": 5,
+   "depth": 17,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.979,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 4,
+  "resets": 4,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19,
+   "two_qubit_depth": 13,
+   "depth": 38,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8975,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 9,
+   "two_qubit_depth": 7,
+   "depth": 27,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.975,
+   "shots": 2000
+  },
+  "guppy_gates": 22
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "P",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 21,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9285,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 18,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9845,
+   "shots": 2000
+  },
+  "guppy_gates": 12
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 33,
+   "two_qubit_depth": 16,
+   "depth": 40,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.848,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 12,
+   "two_qubit_depth": 6,
+   "depth": 20,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.969,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 4,
+  "resets": 6,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 30,
+   "two_qubit_depth": 21,
+   "depth": 64,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8235,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 12,
+   "two_qubit_depth": 9,
+   "depth": 35,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9715,
+   "shots": 2000
+  },
+  "guppy_gates": 30
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "P",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4,
+   "two_qubit_depth": 4,
+   "depth": 28,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.916,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 4,
+   "two_qubit_depth": 4,
+   "depth": 24,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9815,
+   "shots": 2000
+  },
+  "guppy_gates": 16
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 12,
+  "resets": 0,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 31,
+   "two_qubit_depth": 16,
+   "depth": 37,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8395,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 15,
+   "two_qubit_depth": 7,
+   "depth": 23,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.965,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 4,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 39,
+   "two_qubit_depth": 29,
+   "depth": 84,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8105,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 15,
+   "two_qubit_depth": 11,
+   "depth": 43,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9535,
+   "shots": 2000
+  },
+  "guppy_gates": 38,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 30,
+   "active_qubits": 4,
+   "depth": 82,
+   "trace_fidelity": 0.812,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 30,
+   "active_qubits": 4,
+   "depth": 87,
+   "trace_fidelity": 0.8795,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t60_dim_redundant_k4",
+  "source": "conformance/tests/properties/t60-dim-redundant-k4.rce",
+  "kind": "exact",
+  "states": 4,
+  "events": 1,
+  "state_bits": 2,
+  "event_bits": 0,
+  "anf_terms": 4,
+  "anf_literals": 3,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "P",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5,
+   "two_qubit_depth": 5,
+   "depth": 35,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.881,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 5,
+   "two_qubit_depth": 5,
+   "depth": 30,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9675,
+   "shots": 2000
+  },
+  "guppy_gates": 20,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 5,
+   "active_qubits": 2,
+   "depth": 35,
+   "trace_fidelity": 0.889,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 5,
+   "active_qubits": 2,
+   "depth": 30,
+   "trace_fidelity": 0.9495,
+   "shots": 2000
+  }
+ }
+]

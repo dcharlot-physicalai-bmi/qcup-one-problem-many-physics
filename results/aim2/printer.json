@@ -1,0 +1,607 @@
+[
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3670,
+   "two_qubit_depth": 2742,
+   "depth": 8426,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1259,
+   "two_qubit_depth": 1145,
+   "depth": 3303,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5105,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 10,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3670,
+   "two_qubit_depth": 2742,
+   "depth": 8426,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 1259,
+   "two_qubit_depth": 1145,
+   "depth": 3303,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.5105,
+   "shots": 2000
+  },
+  "guppy_gates": 3636
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 16,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 6406,
+   "two_qubit_depth": 4829,
+   "depth": 15001
+  },
+  "ion_like": {
+   "two_qubit_gates": 2471,
+   "two_qubit_depth": 2224,
+   "depth": 6412
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 10,
+  "resets": 4,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 7577,
+   "two_qubit_depth": 5569,
+   "depth": 16909,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 2516,
+   "two_qubit_depth": 2286,
+   "depth": 6590,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.2435,
+   "shots": 2000
+  },
+  "guppy_gates": 7274
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 22,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0,
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 9711,
+   "two_qubit_depth": 7334,
+   "depth": 23193
+  },
+  "ion_like": {
+   "two_qubit_gates": 3683,
+   "two_qubit_depth": 3304,
+   "depth": 9524
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 10,
+  "resets": 8,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0,
+   0,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 11451,
+   "two_qubit_depth": 8563,
+   "depth": 25874,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 3773,
+   "two_qubit_depth": 3428,
+   "depth": 9882,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 10910
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 28,
+  "resets": 0,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 13057,
+   "two_qubit_depth": 9791,
+   "depth": 30693
+  },
+  "ion_like": {
+   "two_qubit_gates": 4895,
+   "two_qubit_depth": 4384,
+   "depth": 12636
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 10,
+  "resets": 12,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 1.585,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 15508,
+   "two_qubit_depth": 11563,
+   "depth": 34913,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 5030,
+   "two_qubit_depth": 4569,
+   "depth": 13169,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 14546
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   1,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 34,
+  "resets": 0,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 3.1699,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 16836,
+   "two_qubit_depth": 12608,
+   "depth": 39094
+  },
+  "ion_like": {
+   "two_qubit_gates": 6107,
+   "two_qubit_depth": 5464,
+   "depth": 15748
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   1,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 3.1699,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19438,
+   "two_qubit_depth": 14397,
+   "depth": 43519,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6287,
+   "two_qubit_depth": 5711,
+   "depth": 16461,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 18184,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 16014,
+   "active_qubits": 10,
+   "depth": 38656
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 16116,
+   "active_qubits": 10,
+   "depth": 38904
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   2,
+   2,
+   0,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 4.7549,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19438,
+   "two_qubit_depth": 14397,
+   "depth": 43519,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6287,
+   "two_qubit_depth": 5711,
+   "depth": 16461,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   0,
+   2,
+   0,
+   2,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 3.1699,
+  "reference_trace": [
+   1,
+   1,
+   2,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19438,
+   "two_qubit_depth": 14397,
+   "depth": 43519,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6287,
+   "two_qubit_depth": 5711,
+   "depth": 16461,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19438,
+   "two_qubit_depth": 14397,
+   "depth": 43519,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6287,
+   "two_qubit_depth": 5711,
+   "depth": 16461,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "printer",
+  "source": "programs/multi/printer.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 3,
+  "state_bits": 4,
+  "event_bits": 2,
+  "anf_terms": 106,
+  "anf_literals": 332,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   2,
+   2,
+   0,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 10,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 3.1699,
+  "reference_trace": [
+   0,
+   0,
+   1,
+   2,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 19438,
+   "two_qubit_depth": 14397,
+   "depth": 43519,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 6287,
+   "two_qubit_depth": 5711,
+   "depth": 16461,
+   "noiseless_trace_ok": true
+  }
+ }
+]

@@ -1,0 +1,45 @@
+{
+ "tag": "R_30_2",
+ "source": "programs/multi/session.rce",
+ "source_sha256": "5b170d108954b40d4e0c470a7a394051be2fd0008f81750c8cb7420e18e8dff8",
+ "states": 6,
+ "events": [
+  "Login(ok: true)",
+  "Login(ok: false)",
+  "Logout",
+  "Tick"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   4,
+   3
+  ]
+ ],
+ "faults_injected": 2,
+ "tests": 96,
+ "tests_passed_by_faulty_program": 80,
+ "tests_passed_by_optimum": 96,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 2,
+ "lambda": 12.0,
+ "mu": 0.25,
+ "qubo_optimum": -7.958333333333333,
+ "ising_offset": 20.34375
+}

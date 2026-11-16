@@ -1,0 +1,58 @@
+[
+ {
+  "system": "H2",
+  "qubits": 4,
+  "electrons": 2,
+  "excitations": 3,
+  "all_to_all_rzz": 22,
+  "heavy_hex_cz": 47
+ },
+ {
+  "system": "H4 chain",
+  "qubits": 8,
+  "electrons": 4,
+  "excitations": 26,
+  "all_to_all_rzz": 296,
+  "heavy_hex_cz": 1181
+ },
+ {
+  "system": "H4 square",
+  "qubits": 8,
+  "electrons": 4,
+  "excitations": 26,
+  "all_to_all_rzz": 296,
+  "heavy_hex_cz": 1181
+ },
+ {
+  "system": "H6 chain",
+  "qubits": 12,
+  "electrons": 6,
+  "excitations": 117,
+  "all_to_all_rzz": 1505,
+  "heavy_hex_cz": 8098
+ },
+ {
+  "system": "LiH",
+  "qubits": 10,
+  "electrons": 2,
+  "excitations": 24,
+  "all_to_all_rzz": 269,
+  "heavy_hex_cz": 1008
+ },
+ {
+  "system": "BeH2",
+  "qubits": 12,
+  "electrons": 4,
+  "excitations": 92,
+  "all_to_all_rzz": 1176,
+  "heavy_hex_cz": 5516
+ },
+ {
+  "system": "H2O",
+  "qubits": 12,
+  "electrons": 8,
+  "excitations": 92,
+  "all_to_all_rzz": 1198,
+  "heavy_hex_cz": 6685
+ }
+]

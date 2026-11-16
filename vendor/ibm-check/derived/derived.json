@@ -1,0 +1,352 @@
+{
+ "arm": "dd_off",
+ "excess_over_cal_idle": [
+  {
+   "id": "a2-17-traffic-light-accept-p5",
+   "kind": "aim2",
+   "cz": 10,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.841,
+   "above_twice_floor": true,
+   "ratio": 3.778
+  },
+  {
+   "id": "a2-ch07-form-injective-f64-r5",
+   "kind": "aim2",
+   "cz": 40,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.397,
+   "above_twice_floor": true,
+   "ratio": 3.593
+  },
+  {
+   "id": "a2-counter-flag-r1",
+   "kind": "aim2",
+   "cz": 75,
+   "T": 1,
+   "mid_circuit_measurement": false,
+   "measured": 0.68,
+   "above_twice_floor": true,
+   "ratio": 2.14
+  },
+  {
+   "id": "a2-t59-distinguish-mod3-mod4-r5",
+   "kind": "aim2",
+   "cz": 150,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.02,
+   "above_twice_floor": true,
+   "ratio": 8.683
+  },
+  {
+   "id": "a2-t59-distinguish-mod5-mod4-r1",
+   "kind": "aim2",
+   "cz": 213,
+   "T": 1,
+   "mid_circuit_measurement": false,
+   "measured": 0.217,
+   "above_twice_floor": false,
+   "ratio": 3.709
+  },
+  {
+   "id": "a2-hc-21-kept-step-is-input-r1",
+   "kind": "aim2",
+   "cz": 271,
+   "T": 1,
+   "mid_circuit_measurement": false,
+   "measured": 0.303,
+   "above_twice_floor": true,
+   "ratio": 2.582
+  },
+  {
+   "id": "a2-t60-dim-redundant-k5-r5",
+   "kind": "aim2",
+   "cz": 300,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.003,
+   "above_twice_floor": true,
+   "ratio": 4.456
+  },
+  {
+   "id": "a2-queue-sim-r1",
+   "kind": "aim2",
+   "cz": 303,
+   "T": 1,
+   "mid_circuit_measurement": false,
+   "measured": 0.248,
+   "above_twice_floor": false,
+   "ratio": 2.685
+  },
+  {
+   "id": "a2-counter-r1",
+   "kind": "aim2",
+   "cz": 422,
+   "T": 1,
+   "mid_circuit_measurement": false,
+   "measured": 0.284,
+   "above_twice_floor": true,
+   "ratio": 1.487
+  },
+  {
+   "id": "a2-hc-11-fabric-caps-logged-r5",
+   "kind": "aim2",
+   "cz": 474,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.001,
+   "above_twice_floor": true,
+   "ratio": 4.268
+  },
+  {
+   "id": "a2-washer-r5",
+   "kind": "aim2",
+   "cz": 566,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.005,
+   "above_twice_floor": true,
+   "ratio": 3.403
+  },
+  {
+   "id": "a2-door-r3",
+   "kind": "aim2",
+   "cz": 610,
+   "T": 3,
+   "mid_circuit_measurement": true,
+   "measured": 0.023,
+   "above_twice_floor": false,
+   "ratio": 2.6
+  },
+  {
+   "id": "a2-03-distributed-accept-g2",
+   "kind": "aim2",
+   "cz": 648,
+   "T": 2,
+   "mid_circuit_measurement": false,
+   "measured": 0.012,
+   "above_twice_floor": false,
+   "ratio": 1.985
+  },
+  {
+   "id": "a2-s1-guard-trap-keeps-r3",
+   "kind": "aim2",
+   "cz": 764,
+   "T": 3,
+   "mid_circuit_measurement": true,
+   "measured": 0.003,
+   "above_twice_floor": false,
+   "ratio": 2.891
+  },
+  {
+   "id": "a2-t62-dependent-differ-r2",
+   "kind": "aim2",
+   "cz": 840,
+   "T": 2,
+   "mid_circuit_measurement": true,
+   "measured": 0.016,
+   "above_twice_floor": false,
+   "ratio": 2.025
+  },
+  {
+   "id": "a2-session-r2",
+   "kind": "aim2",
+   "cz": 1113,
+   "T": 2,
+   "mid_circuit_measurement": true,
+   "measured": 0.033,
+   "above_twice_floor": true,
+   "ratio": 1.459
+  },
+  {
+   "id": "ctl-zero-cz-thermostat-r5",
+   "kind": "control_zero_cz",
+   "cz": 0,
+   "T": 5,
+   "mid_circuit_measurement": true,
+   "measured": 0.86,
+   "above_twice_floor": true,
+   "ratio": 15.717
+  },
+  {
+   "id": "ctl-mirror-6q",
+   "kind": "control_mirror",
+   "cz": 18,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.856,
+   "above_twice_floor": true,
+   "ratio": 2.085
+  },
+  {
+   "id": "a1-b12-p1-warm",
+   "kind": "aim1",
+   "cz": 130,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.1225,
+   "above_twice_floor": true,
+   "ratio": 2.169
+  },
+  {
+   "id": "a1-r12-p2-cold",
+   "kind": "aim1",
+   "cz": 193,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.0315,
+   "above_twice_floor": true,
+   "ratio": 2.324
+  },
+  {
+   "id": "a1-b20-p1-warm",
+   "kind": "aim1",
+   "cz": 351,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.015,
+   "above_twice_floor": true,
+   "ratio": 1.653
+  },
+  {
+   "id": "a1-b16-p2-warm",
+   "kind": "aim1",
+   "cz": 449,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.0145,
+   "above_twice_floor": true,
+   "ratio": 2.006
+  },
+  {
+   "id": "a1-d12-p2-warm",
+   "kind": "aim1",
+   "cz": 523,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.00075,
+   "above_twice_floor": false,
+   "ratio": 2.909
+  },
+  {
+   "id": "a1-b16-p3-warm",
+   "kind": "aim1",
+   "cz": 666,
+   "T": null,
+   "mid_circuit_measurement": false,
+   "measured": 0.00275,
+   "above_twice_floor": true,
+   "ratio": 1.914
+  }
+ ],
+ "reset_control": {
+  "cond_step": [
+   0.992,
+   0.9899,
+   0.947,
+   0.9645,
+   0.9588
+  ],
+  "failure_steps_3_to_5": [
+   0.053,
+   0.0355,
+   0.0412
+  ]
+ },
+ "qaoa_kept_share_of_ideal": [
+  {
+   "id": "a1-b12-p1-warm",
+   "cz": 130,
+   "kept": 0.2585
+  },
+  {
+   "id": "a1-r12-p2-cold",
+   "cz": 193,
+   "kept": 0.0598
+  },
+  {
+   "id": "a1-b20-p1-warm",
+   "cz": 351,
+   "kept": 0.0291
+  },
+  {
+   "id": "a1-b16-p2-warm",
+   "cz": 449,
+   "kept": 0.0166
+  },
+  {
+   "id": "a1-d12-p2-warm",
+   "cz": 523,
+   "kept": 0.0041
+  },
+  {
+   "id": "a1-b16-p3-warm",
+   "cz": 666,
+   "kept": 0.0029
+  }
+ ],
+ "summary": {
+  "five_step_programs": [
+   3.403,
+   8.683,
+   6
+  ],
+  "circuits_without_mid_circuit_measurement": [
+   1.653,
+   2.324,
+   7
+  ],
+  "five_step_over_budget_script": [
+   1.354,
+   3.06,
+   6
+  ]
+ },
+ "five_step_over_budget_script": [
+  {
+   "id": "a2-17-traffic-light-accept-p5",
+   "cz": 10,
+   "script_e_minus_b": 0.945,
+   "measured": 0.841,
+   "ratio": 3.06
+  },
+  {
+   "id": "a2-ch07-form-injective-f64-r5",
+   "cz": 40,
+   "script_e_minus_b": 0.6036,
+   "measured": 0.397,
+   "ratio": 1.83
+  },
+  {
+   "id": "a2-t59-distinguish-mod3-mod4-r5",
+   "cz": 150,
+   "script_e_minus_b": 0.2643,
+   "measured": 0.02,
+   "ratio": 2.94
+  },
+  {
+   "id": "a2-t60-dim-redundant-k5-r5",
+   "cz": 300,
+   "script_e_minus_b": 0.0376,
+   "measured": 0.003,
+   "ratio": 1.771
+  },
+  {
+   "id": "a2-hc-11-fabric-caps-logged-r5",
+   "cz": 474,
+   "script_e_minus_b": 0.0195,
+   "measured": 0.001,
+   "ratio": 1.755
+  },
+  {
+   "id": "a2-washer-r5",
+   "cz": 566,
+   "script_e_minus_b": 0.02,
+   "measured": 0.005,
+   "ratio": 1.354
+  }
+ ]
+}

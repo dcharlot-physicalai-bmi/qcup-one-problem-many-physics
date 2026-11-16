@@ -1,0 +1,3420 @@
+{
+ "counts": {
+  "1|IonQ|core": [
+   81,
+   45000
+  ],
+  "1|IonQ|extension": [
+   92,
+   46000
+  ],
+  "1|Quantinuum|extension": [
+   38,
+   7600
+  ],
+  "1|Quantinuum|core": [
+   22,
+   4400
+  ],
+  "2|IonQ|core": [
+   49,
+   24500
+  ],
+  "2|Quantinuum|core": [
+   71,
+   14200
+  ],
+  "2|IonQ|extension": [
+   29,
+   14500
+  ],
+  "2|Quantinuum|extension": [
+   44,
+   8800
+  ]
+ },
+ "aim2_ionq_emulator": {
+  "circuits": 44,
+  "fit": {
+   "loss_per_rzz": 0.008015085792290044,
+   "intercept": 0.980591105091523,
+   "r2": 0.9815798560606522,
+   "points": 21,
+   "n30": 147.17500501264323
+  },
+  "rows": [
+   {
+    "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+    "rzz": 0,
+    "trace_fidelity": 1.0,
+    "floor": 0.5,
+    "generic": 0.9995,
+    "rule_generic": 1.0,
+    "rule_forte": 1.0
+   },
+   {
+    "id": "qcup-a2-f6-signed-zero-state-p-t1",
+    "rzz": 0,
+    "trace_fidelity": 1.0,
+    "floor": 0.5,
+    "generic": 0.9995,
+    "rule_generic": 1.0,
+    "rule_forte": 1.0
+   },
+   {
+    "id": "qcup-a2-thermostat-r-t1",
+    "rzz": 0,
+    "trace_fidelity": 1.0,
+    "floor": 0.5,
+    "generic": 0.9995,
+    "rule_generic": 1.0,
+    "rule_forte": 1.0
+   },
+   {
+    "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t1",
+    "rzz": 1,
+    "trace_fidelity": 0.99,
+    "floor": 0.5,
+    "generic": 0.9955,
+    "rule_generic": 0.999405,
+    "rule_forte": 0.9975736703591606
+   },
+   {
+    "id": "qcup-a2-f6-signed-zero-state-r-t1",
+    "rzz": 1,
+    "trace_fidelity": 0.988,
+    "floor": 0.5,
+    "generic": 0.9975,
+    "rule_generic": 0.999405,
+    "rule_forte": 0.9976061219672068
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t1",
+    "rzz": 1,
+    "trace_fidelity": 0.992,
+    "floor": 0.5,
+    "generic": 0.9975,
+    "rule_generic": 0.999405,
+    "rule_forte": 0.9976061219672068
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+    "rzz": 1,
+    "trace_fidelity": 0.99,
+    "floor": 0.25,
+    "generic": 0.9955,
+    "rule_generic": 0.999405,
+    "rule_forte": 0.9981422373358324,
+    "factor_model_over_emulator_neglog": 0.1850177419475232
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t1",
+    "rzz": 2,
+    "trace_fidelity": 0.966,
+    "floor": 0.25,
+    "generic": 0.9935,
+    "rule_generic": 0.998810354025,
+    "rule_forte": 0.9950594761572258,
+    "factor_model_over_emulator_neglog": 0.14317900309161194
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t1",
+    "rzz": 3,
+    "trace_fidelity": 0.978,
+    "floor": 0.25,
+    "generic": 0.998,
+    "rule_generic": 0.9982160618643551,
+    "rule_forte": 0.9914550533375424,
+    "factor_model_over_emulator_neglog": 0.38576889733424
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+    "rzz": 3,
+    "trace_fidelity": 0.96,
+    "floor": 0.25,
+    "generic": 0.9925,
+    "rule_generic": 0.9982160618643551,
+    "rule_forte": 0.9910781282889032,
+    "factor_model_over_emulator_neglog": 0.21953630721970654
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+    "rzz": 4,
+    "trace_fidelity": 0.938,
+    "floor": 0.25,
+    "generic": 0.998,
+    "rule_generic": 0.9976221233075457,
+    "rule_forte": 0.9874439300369173,
+    "factor_model_over_emulator_neglog": 0.19741423929999075
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t1",
+    "rzz": 9,
+    "trace_fidelity": 0.948,
+    "floor": 0.25,
+    "generic": 0.9935,
+    "rule_generic": 0.994657727221613,
+    "rule_forte": 0.9628420792456137,
+    "factor_model_over_emulator_neglog": 0.7090883555379316
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+    "rzz": 13,
+    "trace_fidelity": 0.894,
+    "floor": 0.25,
+    "generic": 0.985,
+    "rule_generic": 0.9922925537950833,
+    "rule_forte": 0.9406681003471116,
+    "factor_model_over_emulator_neglog": 0.5458740025487648
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+    "rzz": 13,
+    "trace_fidelity": 0.85,
+    "floor": 0.125,
+    "generic": 0.9825,
+    "rule_generic": 0.9922925537950833,
+    "rule_forte": 0.9495303598095651,
+    "factor_model_over_emulator_neglog": 0.31865687817433164
+   },
+   {
+    "id": "qcup-a2-phase-p-t1",
+    "rzz": 16,
+    "trace_fidelity": 0.814,
+    "floor": 0.125,
+    "generic": 0.982,
+    "rule_generic": 0.9905223652666517,
+    "rule_forte": 0.9352207737449433,
+    "factor_model_over_emulator_neglog": 0.3254339718303636
+   },
+   {
+    "id": "qcup-a2-phase-r-t1",
+    "rzz": 23,
+    "trace_fidelity": 0.816,
+    "floor": 0.125,
+    "generic": 0.981,
+    "rule_generic": 0.9864041963802511,
+    "rule_forte": 0.8915955263098758,
+    "factor_model_over_emulator_neglog": 0.5642872709211941
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+    "rzz": 24,
+    "trace_fidelity": 0.822,
+    "floor": 0.125,
+    "generic": 0.983,
+    "rule_generic": 0.9858172858834049,
+    "rule_forte": 0.8862824558630519,
+    "factor_model_over_emulator_neglog": 0.6158694575751994
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t1",
+    "rzz": 30,
+    "trace_fidelity": 0.744,
+    "floor": 0.125,
+    "generic": 0.976,
+    "rule_generic": 0.9823031490809763,
+    "rule_forte": 0.851601613413242,
+    "factor_model_over_emulator_neglog": 0.5432151293891055
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+    "rzz": 43,
+    "trace_fidelity": 0.712,
+    "floor": 0.125,
+    "generic": 0.971,
+    "rule_generic": 0.9747321004025145,
+    "rule_forte": 0.7851274388629563,
+    "factor_model_over_emulator_neglog": 0.7121735357457928
+   },
+   {
+    "id": "qcup-a2-washer-r-t1",
+    "rzz": 50,
+    "trace_fidelity": 0.692,
+    "floor": 0.25,
+    "generic": 0.966,
+    "rule_generic": 0.9706795806924997,
+    "rule_forte": 0.752463254864247,
+    "factor_model_over_emulator_neglog": 0.7724791182969065
+   },
+   {
+    "id": "qcup-a2-door-r-t1",
+    "rzz": 89,
+    "trace_fidelity": 0.528,
+    "floor": 0.25,
+    "generic": 0.951,
+    "rule_generic": 0.9484077431736679,
+    "rule_forte": 0.5883095442784759,
+    "factor_model_over_emulator_neglog": 0.8306499050018779
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+    "rzz": 99,
+    "trace_fidelity": 0.39,
+    "floor": 0.125,
+    "generic": 0.9425,
+    "rule_generic": 0.9427798023557686,
+    "rule_forte": 0.5408810878709888,
+    "factor_model_over_emulator_neglog": 0.6526659422565257
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+    "rzz": 106,
+    "trace_fidelity": 0.378,
+    "floor": 0.125,
+    "generic": 0.9325,
+    "rule_generic": 0.9388601266523904,
+    "rule_forte": 0.5225519588260286,
+    "factor_model_over_emulator_neglog": 0.667136211384622
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+    "rzz": 108,
+    "trace_fidelity": 0.444,
+    "floor": 0.125,
+    "generic": 0.9445,
+    "rule_generic": 0.9377432154816304,
+    "rule_forte": 0.5022257242924589,
+    "factor_model_over_emulator_neglog": 0.8482319936042882
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t1",
+    "rzz": 130,
+    "trace_fidelity": 0.31,
+    "floor": 0.125,
+    "generic": 0.9185,
+    "rule_generic": 0.9255445418806093,
+    "rule_forte": 0.442094492731218,
+    "factor_model_over_emulator_neglog": 0.6969292144647327
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t1",
+    "rzz": 139,
+    "trace_fidelity": 0.332,
+    "floor": 0.125,
+    "generic": 0.9215,
+    "rule_generic": 0.9206000304693359,
+    "rule_forte": 0.4124702501654305,
+    "factor_model_over_emulator_neglog": 0.8031696754856464
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t1",
+    "rzz": 173,
+    "trace_fidelity": 0.262,
+    "floor": 0.125,
+    "generic": 0.9,
+    "rule_generic": 0.9021579753233693,
+    "rule_forte": 0.3301250739679076,
+    "factor_model_over_emulator_neglog": 0.8274412187864212
+   },
+   {
+    "id": "qcup-a2-counter-r-t1",
+    "rzz": 182,
+    "trace_fidelity": 0.244,
+    "floor": 0.125,
+    "generic": 0.9045,
+    "rule_generic": 0.8973384013299945,
+    "rule_forte": 0.31968525318285146
+   },
+   {
+    "id": "qcup-a2-session-r-t1",
+    "rzz": 215,
+    "trace_fidelity": 0.228,
+    "floor": 0.125,
+    "generic": 0.8895,
+    "rule_generic": 0.8798858702746409,
+    "rule_forte": 0.24245911719748753
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t1",
+    "rzz": 333,
+    "trace_fidelity": 0.176,
+    "floor": 0.125,
+    "generic": 0.821,
+    "rule_generic": 0.8202107426149606,
+    "rule_forte": 0.10288475135797888
+   },
+   {
+    "id": "qcup-a2-card-r-t1",
+    "rzz": 375,
+    "trace_fidelity": 0.148,
+    "floor": 0.125,
+    "generic": 0.8055,
+    "rule_generic": 0.7999617171434871,
+    "rule_forte": 0.07894528003515544
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t1",
+    "rzz": 386,
+    "trace_fidelity": 0.158,
+    "floor": 0.125,
+    "generic": 0.7945,
+    "rule_generic": 0.794741516288629,
+    "rule_forte": 0.07121198008413167
+   },
+   {
+    "id": "qcup-a2-lobby-r-t1",
+    "rzz": 396,
+    "trace_fidelity": 0.164,
+    "floor": 0.125,
+    "generic": 0.806,
+    "rule_generic": 0.7900254453250657,
+    "rule_forte": 0.06587189757199757
+   },
+   {
+    "id": "qcup-a2-ring-buffer-r-t1",
+    "rzz": 399,
+    "trace_fidelity": 0.112,
+    "floor": 0.125,
+    "generic": 0.782,
+    "rule_generic": 0.7886160888050204,
+    "rule_forte": 0.06829455113188762
+   },
+   {
+    "id": "qcup-a2-reconcile-r-t1",
+    "rzz": 470,
+    "trace_fidelity": 0.152,
+    "floor": 0.125,
+    "generic": 0.8305,
+    "rule_generic": 0.7559853896185279,
+    "rule_forte": 0.039791595368015076
+   },
+   {
+    "id": "qcup-a2-crossing-r-t1",
+    "rzz": 486,
+    "trace_fidelity": 0.07,
+    "floor": 0.0625,
+    "generic": 0.766,
+    "rule_generic": 0.7488204362319755,
+    "rule_forte": 0.031700152819779025
+   },
+   {
+    "id": "qcup-a2-account-r-t1",
+    "rzz": 501,
+    "trace_fidelity": 0.124,
+    "floor": 0.125,
+    "generic": 0.76,
+    "rule_generic": 0.7421649778183043,
+    "rule_forte": 0.03262897905675845
+   },
+   {
+    "id": "qcup-a2-handshake-r-t1",
+    "rzz": 788,
+    "trace_fidelity": 0.12,
+    "floor": 0.125,
+    "generic": 0.661,
+    "rule_generic": 0.6256278701917471,
+    "rule_forte": 0.0036248900373299585
+   },
+   {
+    "id": "qcup-a2-player-r-t1",
+    "rzz": 973,
+    "trace_fidelity": 0.152,
+    "floor": 0.125,
+    "generic": 0.654,
+    "rule_generic": 0.5603984101514434,
+    "rule_forte": 0.00093530679113012
+   },
+   {
+    "id": "qcup-a2-printer-r-t1",
+    "rzz": 1259,
+    "trace_fidelity": 0.06,
+    "floor": 0.0625,
+    "generic": 0.5105,
+    "rule_generic": 0.47268411471324184,
+    "rule_forte": 8.738523205970333e-05
+   },
+   {
+    "id": "qcup-a2-parking-r-t1",
+    "rzz": 1289,
+    "trace_fidelity": 0.068,
+    "floor": 0.0625,
+    "generic": 0.522,
+    "rule_generic": 0.46431909440337094,
+    "rule_forte": 6.873409353004196e-05
+   },
+   {
+    "id": "qcup-a2-climate-r-t1",
+    "rzz": 1400,
+    "trace_fidelity": 0.05,
+    "floor": 0.0625,
+    "generic": 0.5035,
+    "rule_generic": 0.4346353323800412,
+    "rule_forte": 2.8546453892486815e-05
+   },
+   {
+    "id": "qcup-a2-reservoir-r-t1",
+    "rzz": 1493,
+    "trace_fidelity": 0.062,
+    "floor": 0.0625,
+    "generic": 0.454,
+    "rule_generic": 0.41123132653295863,
+    "rule_forte": 1.470865207886473e-05
+   },
+   {
+    "id": "qcup-a2-vending-r-t1",
+    "rzz": 1529,
+    "trace_fidelity": 0.074,
+    "floor": 0.0625,
+    "generic": 0.4495,
+    "rule_generic": 0.402513855336737,
+    "rule_forte": 1.1003675975453492e-05
+   }
+  ]
+ },
+ "aim2_sim_ionq-forte-1": {
+  "loss_per_rzz": 0.004275490689872874,
+  "intercept": 0.9300403776824012,
+  "r2": 0.9682941154279877,
+  "points": 82,
+  "n30": 264.06911852950674
+ },
+ "aim2_rule_vs_sim_ionq-forte-1": {
+  "circuits": 91,
+  "median_ratio_pred_over_sim_neglog": 1.1102326962308193,
+  "iqr": [
+   0.5482811283512682,
+   1.3916239507885828
+  ],
+  "rows": [
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t1",
+    "rzz": 139,
+    "simulated": 0.561,
+    "rule_carried_over": 0.4124702501654305,
+    "ratio_neglog": 1.5320735881487326
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t1",
+    "rzz": 2,
+    "simulated": 0.9825,
+    "rule_carried_over": 0.9950594761572258,
+    "ratio_neglog": 0.28053167630715686
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t1",
+    "rzz": 3,
+    "simulated": 0.9835,
+    "rule_carried_over": 0.9914550533375424,
+    "ratio_neglog": 0.5157981203709789
+   },
+   {
+    "id": "qcup-a2-card-r-t3",
+    "rzz": 1115,
+    "simulated": 0.0115,
+    "rule_carried_over": 0.0005649705526524811,
+    "ratio_neglog": 1.67481594948735
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t3",
+    "rzz": 12,
+    "simulated": 0.9215,
+    "rule_carried_over": 0.9704835292636123,
+    "ratio_neglog": 0.36648233660626167
+   },
+   {
+    "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t3",
+    "rzz": 3,
+    "simulated": 0.9695,
+    "rule_carried_over": 0.9947942562352189,
+    "ratio_neglog": 0.1685027872196437
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t1",
+    "rzz": 30,
+    "simulated": 0.8555,
+    "rule_carried_over": 0.851601613413242,
+    "ratio_neglog": 1.029264365856192
+   },
+   {
+    "id": "qcup-a2-counter-r-t1",
+    "rzz": 182,
+    "simulated": 0.4885,
+    "rule_carried_over": 0.31968525318285146,
+    "ratio_neglog": 1.591838620938075
+   },
+   {
+    "id": "qcup-a2-crossing-r-t1",
+    "rzz": 486,
+    "simulated": 0.1885,
+    "rule_carried_over": 0.031700152819779025,
+    "ratio_neglog": 2.068389857532546
+   },
+   {
+    "id": "qcup-a2-door-r-t3",
+    "rzz": 263,
+    "simulated": 0.251,
+    "rule_carried_over": 0.21534722343371826,
+    "ratio_neglog": 1.1108304721556759
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t3",
+    "rzz": 27,
+    "simulated": 0.8405,
+    "rule_carried_over": 0.9066665750815464,
+    "ratio_neglog": 0.5638895790118782
+   },
+   {
+    "id": "qcup-a2-f6-signed-zero-state-r-t3",
+    "rzz": 3,
+    "simulated": 0.981,
+    "rule_carried_over": 0.9950135179946079,
+    "ratio_neglog": 0.2605954778071796
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t3",
+    "rzz": 1148,
+    "simulated": 0.007,
+    "rule_carried_over": 0.00042315863844419983,
+    "ratio_neglog": 1.5654989654133797
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+    "rzz": 43,
+    "simulated": 0.8185,
+    "rule_carried_over": 0.7851274388629563,
+    "ratio_neglog": 1.2078438111979957
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+    "rzz": 108,
+    "simulated": 0.629,
+    "rule_carried_over": 0.5022257242924589,
+    "ratio_neglog": 1.4854830148322966
+   },
+   {
+    "id": "qcup-a2-lobby-r-t1",
+    "rzz": 396,
+    "simulated": 0.2645,
+    "rule_carried_over": 0.06587189757199757,
+    "ratio_neglog": 2.0452775986190668
+   },
+   {
+    "id": "qcup-a2-phase-p-t5",
+    "rzz": 80,
+    "simulated": 0.557,
+    "rule_carried_over": 0.7156695477379549,
+    "ratio_neglog": 0.5716719727545806
+   },
+   {
+    "id": "qcup-a2-phase-r-t5",
+    "rzz": 115,
+    "simulated": 0.529,
+    "rule_carried_over": 0.6054268359092639,
+    "ratio_neglog": 0.7880773913972768
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t1",
+    "rzz": 130,
+    "simulated": 0.504,
+    "rule_carried_over": 0.442094492731218,
+    "ratio_neglog": 1.1912677158752163
+   },
+   {
+    "id": "qcup-a2-reconcile-r-t1",
+    "rzz": 470,
+    "simulated": 0.272,
+    "rule_carried_over": 0.039791595368015076,
+    "ratio_neglog": 2.476355931406854
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+    "rzz": 106,
+    "simulated": 0.597,
+    "rule_carried_over": 0.5225519588260286,
+    "ratio_neglog": 1.2582063535688048
+   },
+   {
+    "id": "qcup-a2-session-r-t1",
+    "rzz": 215,
+    "simulated": 0.405,
+    "rule_carried_over": 0.24245911719748753,
+    "ratio_neglog": 1.5676203157464914
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+    "rzz": 13,
+    "simulated": 0.9195,
+    "rule_carried_over": 0.9406681003471116,
+    "ratio_neglog": 0.7288023819412095
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+    "rzz": 99,
+    "simulated": 0.643,
+    "rule_carried_over": 0.5408810878709888,
+    "ratio_neglog": 1.3916239507885828
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+    "rzz": 1,
+    "simulated": 0.9845,
+    "rule_carried_over": 0.9981422373358324,
+    "ratio_neglog": 0.11903495964797271
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+    "rzz": 3,
+    "simulated": 0.9755,
+    "rule_carried_over": 0.9910781282889032,
+    "ratio_neglog": 0.3612927621752214
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+    "rzz": 13,
+    "simulated": 0.9025,
+    "rule_carried_over": 0.9495303598095651,
+    "ratio_neglog": 0.504820126454626
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+    "rzz": 24,
+    "simulated": 0.9035,
+    "rule_carried_over": 0.8862824558630519,
+    "ratio_neglog": 1.189599614279446
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t1",
+    "rzz": 173,
+    "simulated": 0.4835,
+    "rule_carried_over": 0.3301250739679076,
+    "ratio_neglog": 1.5250827559393272
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t1",
+    "rzz": 333,
+    "simulated": 0.2805,
+    "rule_carried_over": 0.10288475135797888,
+    "ratio_neglog": 1.7890016015992645
+   },
+   {
+    "id": "qcup-a2-washer-r-t5",
+    "rzz": 242,
+    "simulated": 0.2715,
+    "rule_carried_over": 0.271232004221575,
+    "ratio_neglog": 1.000757467249801
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t3",
+    "rzz": 417,
+    "simulated": 0.15,
+    "rule_carried_over": 0.07464340452082714,
+    "ratio_neglog": 1.367880329977176
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t3",
+    "rzz": 6,
+    "simulated": 0.952,
+    "rule_carried_over": 0.9853492035133903,
+    "ratio_neglog": 0.3000428143283141
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t3",
+    "rzz": 9,
+    "simulated": 0.9375,
+    "rule_carried_over": 0.981371174789558,
+    "ratio_neglog": 0.29136904513707557
+   },
+   {
+    "id": "qcup-a2-account-r-t3",
+    "rzz": 1503,
+    "simulated": 0.006,
+    "rule_carried_over": 3.6957054026888796e-05,
+    "ratio_neglog": 1.9948714582553262
+   },
+   {
+    "id": "qcup-a2-card-r-t5",
+    "rzz": 1855,
+    "simulated": 0.0005,
+    "rule_carried_over": 4.048406310899027e-06,
+    "ratio_neglog": 1.633646441835597
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t5",
+    "rzz": 20,
+    "simulated": 0.857,
+    "rule_carried_over": 0.9533795545052332,
+    "ratio_neglog": 0.3093766064037651
+   },
+   {
+    "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t5",
+    "rzz": 5,
+    "simulated": 0.952,
+    "rule_carried_over": 0.991830821237885,
+    "ratio_neglog": 0.16675520691769918
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t3",
+    "rzz": 90,
+    "simulated": 0.613,
+    "rule_carried_over": 0.6418227502487999,
+    "ratio_neglog": 0.9061133094846348
+   },
+   {
+    "id": "qcup-a2-counter-r-t3",
+    "rzz": 546,
+    "simulated": 0.084,
+    "rule_carried_over": 0.03451790257792539,
+    "ratio_neglog": 1.3590475505245316
+   },
+   {
+    "id": "qcup-a2-crossing-r-t3",
+    "rzz": 1458,
+    "simulated": 0.004,
+    "rule_carried_over": 3.509597919024747e-05,
+    "ratio_neglog": 1.8577373161974562
+   },
+   {
+    "id": "qcup-a2-door-r-t5",
+    "rzz": 437,
+    "simulated": 0.102,
+    "rule_carried_over": 0.07930772566661906,
+    "ratio_neglog": 1.1102326962308193
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t5",
+    "rzz": 45,
+    "simulated": 0.7495,
+    "rule_carried_over": 0.8537675653699497,
+    "ratio_neglog": 0.5482811283512682
+   },
+   {
+    "id": "qcup-a2-f6-signed-zero-state-r-t5",
+    "rzz": 5,
+    "simulated": 0.9635,
+    "rule_carried_over": 0.9921870315409346,
+    "ratio_neglog": 0.21094838152185424
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t3",
+    "rzz": 129,
+    "simulated": 0.5375,
+    "rule_carried_over": 0.5094179762621835,
+    "ratio_neglog": 1.0864330168720173
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t3",
+    "rzz": 324,
+    "simulated": 0.218,
+    "rule_carried_over": 0.13451709953318394,
+    "ratio_neglog": 1.3169542095433697
+   },
+   {
+    "id": "qcup-a2-lobby-r-t3",
+    "rzz": 1189,
+    "simulated": 0.0095,
+    "rule_carried_over": 0.0003043539592229418,
+    "ratio_neglog": 1.7389418446965408
+   },
+   {
+    "id": "qcup-a2-phase-p-t1",
+    "rzz": 16,
+    "simulated": 0.896,
+    "rule_carried_over": 0.9352207737449433,
+    "ratio_neglog": 0.6098687577421364
+   },
+   {
+    "id": "qcup-a2-phase-r-t1",
+    "rzz": 23,
+    "simulated": 0.883,
+    "rule_carried_over": 0.8915955263098758,
+    "ratio_neglog": 0.9221459680511788
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t3",
+    "rzz": 390,
+    "simulated": 0.1175,
+    "rule_carried_over": 0.09170146452606477,
+    "ratio_neglog": 1.1157698696317273
+   },
+   {
+    "id": "qcup-a2-reconcile-r-t3",
+    "rzz": 1410,
+    "simulated": 0.007,
+    "rule_carried_over": 6.759988344930353e-05,
+    "ratio_neglog": 1.935147923325285
+   },
+   {
+    "id": "qcup-a2-ring-buffer-r-t3",
+    "rzz": 1197,
+    "simulated": 0.0105,
+    "rule_carried_over": 0.00033805858461304896,
+    "ratio_neglog": 1.7540879628062847
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t3",
+    "rzz": 318,
+    "simulated": 0.183,
+    "rule_carried_over": 0.14894981525407266,
+    "ratio_neglog": 1.1212273784147024
+   },
+   {
+    "id": "qcup-a2-session-r-t3",
+    "rzz": 641,
+    "simulated": 0.0415,
+    "rule_carried_over": 0.014469473000191316,
+    "ratio_neglog": 1.3311225100307154
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t3",
+    "rzz": 3,
+    "simulated": 0.981,
+    "rule_carried_over": 0.9950135179946079,
+    "ratio_neglog": 0.2605954778071796
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t3",
+    "rzz": 39,
+    "simulated": 0.76,
+    "rule_carried_over": 0.8507665178554533,
+    "ratio_neglog": 0.5889061643186333
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t3",
+    "rzz": 297,
+    "simulated": 0.2135,
+    "rule_carried_over": 0.16562592810774043,
+    "ratio_neglog": 1.1644336500743893
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t3",
+    "rzz": 3,
+    "simulated": 0.954,
+    "rule_carried_over": 0.9944370594421833,
+    "ratio_neglog": 0.11845998954861027
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t3",
+    "rzz": 9,
+    "simulated": 0.9355,
+    "rule_carried_over": 0.9810318634413677,
+    "ratio_neglog": 0.2872229218944982
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t3",
+    "rzz": 39,
+    "simulated": 0.7365,
+    "rule_carried_over": 0.8561041043350369,
+    "ratio_neglog": 0.5079787577339382
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t3",
+    "rzz": 72,
+    "simulated": 0.718,
+    "rule_carried_over": 0.7245690114269574,
+    "ratio_neglog": 0.972508798989838
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t3",
+    "rzz": 519,
+    "simulated": 0.07,
+    "rule_carried_over": 0.038281428935693924,
+    "ratio_neglog": 1.226954242631633
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t3",
+    "rzz": 999,
+    "simulated": 0.019,
+    "rule_carried_over": 0.0011837394063274355,
+    "ratio_neglog": 1.7003631183979993
+   },
+   {
+    "id": "qcup-a2-washer-r-t1",
+    "rzz": 50,
+    "simulated": 0.8165,
+    "rule_carried_over": 0.752463254864247,
+    "ratio_neglog": 1.40287774772793
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t5",
+    "rzz": 695,
+    "simulated": 0.0385,
+    "rule_carried_over": 0.013512613494394737,
+    "ratio_neglog": 1.3214625315221271
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t5",
+    "rzz": 10,
+    "simulated": 0.912,
+    "rule_carried_over": 0.975733688416291,
+    "ratio_neglog": 0.2666830916197494
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t5",
+    "rzz": 15,
+    "simulated": 0.8885,
+    "rule_carried_over": 0.9707317775006848,
+    "ratio_neglog": 0.2512681734617778
+   },
+   {
+    "id": "qcup-a2-card-r-t1",
+    "rzz": 375,
+    "simulated": 0.271,
+    "rule_carried_over": 0.07894528003515544,
+    "ratio_neglog": 1.9446457002175632
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+    "rzz": 4,
+    "simulated": 0.9775,
+    "rule_carried_over": 0.9874439300369173,
+    "ratio_neglog": 0.5552388574224866
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t5",
+    "rzz": 150,
+    "simulated": 0.4195,
+    "rule_carried_over": 0.4837679426396482,
+    "ratio_neglog": 0.835912096583982
+   },
+   {
+    "id": "qcup-a2-counter-r-t5",
+    "rzz": 910,
+    "simulated": 0.0155,
+    "rule_carried_over": 0.0037416251026627396,
+    "ratio_neglog": 1.3410964467591575
+   },
+   {
+    "id": "qcup-a2-door-r-t1",
+    "rzz": 89,
+    "simulated": 0.6795,
+    "rule_carried_over": 0.5883095442784759,
+    "ratio_neglog": 1.3729418150077979
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t1",
+    "rzz": 9,
+    "simulated": 0.9625,
+    "rule_carried_over": 0.9628420792456137,
+    "ratio_neglog": 0.9907029672765504
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t5",
+    "rzz": 215,
+    "simulated": 0.355,
+    "rule_carried_over": 0.3303520315942485,
+    "ratio_neglog": 1.0694827504062625
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t5",
+    "rzz": 540,
+    "simulated": 0.0705,
+    "rule_carried_over": 0.03604736254390559,
+    "ratio_neglog": 1.2529196648850738
+   },
+   {
+    "id": "qcup-a2-phase-p-t3",
+    "rzz": 48,
+    "simulated": 0.712,
+    "rule_carried_over": 0.8181130900927956,
+    "ratio_neglog": 0.5910158260592981
+   },
+   {
+    "id": "qcup-a2-phase-r-t3",
+    "rzz": 69,
+    "simulated": 0.6845,
+    "rule_carried_over": 0.7347389219921591,
+    "ratio_neglog": 0.8131553220227682
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t5",
+    "rzz": 650,
+    "simulated": 0.0365,
+    "rule_carried_over": 0.019032780542144107,
+    "ratio_neglog": 1.1966955699639967
+   },
+   {
+    "id": "qcup-a2-ring-buffer-r-t5",
+    "rzz": 1995,
+    "simulated": 0.0005,
+    "rule_carried_over": 1.6805166352748975e-06,
+    "ratio_neglog": 1.7493198158509298
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t5",
+    "rzz": 530,
+    "simulated": 0.0685,
+    "rule_carried_over": 0.042486989516162435,
+    "ratio_neglog": 1.178161068584001
+   },
+   {
+    "id": "qcup-a2-session-r-t5",
+    "rzz": 1067,
+    "simulated": 0.0055,
+    "rule_carried_over": 0.0008925861519047981,
+    "ratio_neglog": 1.349486415877608
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t5",
+    "rzz": 5,
+    "simulated": 0.9635,
+    "rule_carried_over": 0.9921870315409346,
+    "ratio_neglog": 0.21094838152185424
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t5",
+    "rzz": 65,
+    "simulated": 0.644,
+    "rule_carried_over": 0.769476085820981,
+    "ratio_neglog": 0.59548119901416
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t5",
+    "rzz": 495,
+    "simulated": 0.069,
+    "rule_carried_over": 0.05106720062130302,
+    "ratio_neglog": 1.1125667974291225
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t5",
+    "rzz": 5,
+    "simulated": 0.9215,
+    "rule_carried_over": 0.9907456354432299,
+    "ratio_neglog": 0.11372682198366003
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t5",
+    "rzz": 15,
+    "simulated": 0.893,
+    "rule_carried_over": 0.9704277327785884,
+    "ratio_neglog": 0.26525305632025253
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t5",
+    "rzz": 65,
+    "simulated": 0.6275,
+    "rule_carried_over": 0.7718702513169634,
+    "ratio_neglog": 0.5556488441333234
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t5",
+    "rzz": 120,
+    "simulated": 0.559,
+    "rule_carried_over": 0.592164404083373,
+    "ratio_neglog": 0.9009039590086808
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t5",
+    "rzz": 865,
+    "simulated": 0.0145,
+    "rule_carried_over": 0.004441211552944495,
+    "ratio_neglog": 1.2794830841533968
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t5",
+    "rzz": 1665,
+    "simulated": 0.0035,
+    "rule_carried_over": 1.362992512562616e-05,
+    "ratio_neglog": 1.981124321751297
+   },
+   {
+    "id": "qcup-a2-washer-r-t3",
+    "rzz": 146,
+    "simulated": 0.461,
+    "rule_carried_over": 0.45069561829160204,
+    "ratio_neglog": 1.0291930317215767
+   }
+  ]
+ },
+ "aim2_sim_quantinuum-h2-1-2023": {
+  "loss_per_rzz": 0.0015686396898397792,
+  "intercept": 0.9826443906317468,
+  "r2": 0.9792478653582856,
+  "points": 103,
+  "n30": 755.7720342410722
+ },
+ "aim2_rule_vs_sim_quantinuum-h2-1-2023": {
+  "circuits": 103,
+  "median_ratio_pred_over_sim_neglog": 1.1677015501576566,
+  "iqr": [
+   0.5140358062204633,
+   1.4274407101071163
+  ],
+  "rows": [
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t3",
+    "rzz": 417,
+    "simulated": 0.4795,
+    "rule_carried_over": 0.3939932651466048,
+    "ratio_neglog": 1.2672204578156412
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t3",
+    "rzz": 6,
+    "simulated": 0.983,
+    "rule_carried_over": 0.9950677849022517,
+    "ratio_neglog": 0.28836887968150743
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t3",
+    "rzz": 9,
+    "simulated": 0.971,
+    "rule_carried_over": 0.9925585449596309,
+    "ratio_neglog": 0.2538084489408977
+   },
+   {
+    "id": "qcup-a2-account-r-t3",
+    "rzz": 1503,
+    "simulated": 0.101,
+    "rule_carried_over": 0.025270986266245916,
+    "ratio_neglog": 1.6043106341865991
+   },
+   {
+    "id": "qcup-a2-card-r-t5",
+    "rzz": 1855,
+    "simulated": 0.0375,
+    "rule_carried_over": 0.013789655318399154,
+    "ratio_neglog": 1.304689609991039
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t5",
+    "rzz": 20,
+    "simulated": 0.9355,
+    "rule_carried_over": 0.9818524371754224,
+    "ratio_neglog": 0.2746829791923578
+   },
+   {
+    "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t5",
+    "rzz": 5,
+    "simulated": 0.976,
+    "rule_carried_over": 0.996366673111555,
+    "ratio_neglog": 0.14983697018599332
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t3",
+    "rzz": 90,
+    "simulated": 0.8295,
+    "rule_carried_over": 0.8709426133154167,
+    "ratio_neglog": 0.7391942796945409
+   },
+   {
+    "id": "qcup-a2-counter-r-t3",
+    "rzz": 546,
+    "simulated": 0.406,
+    "rule_carried_over": 0.31594595224464866,
+    "ratio_neglog": 1.278213232975544
+   },
+   {
+    "id": "qcup-a2-crossing-r-t3",
+    "rzz": 1458,
+    "simulated": 0.083,
+    "rule_carried_over": 0.023975209383520574,
+    "ratio_neglog": 1.4989404691254677
+   },
+   {
+    "id": "qcup-a2-door-r-t5",
+    "rzz": 437,
+    "simulated": 0.4605,
+    "rule_carried_over": 0.4432544241896557,
+    "ratio_neglog": 1.049222132286413
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t5",
+    "rzz": 45,
+    "simulated": 0.903,
+    "rule_carried_over": 0.9489032126541039,
+    "ratio_neglog": 0.5140358062204633
+   },
+   {
+    "id": "qcup-a2-f6-signed-zero-state-r-t5",
+    "rzz": 5,
+    "simulated": 0.977,
+    "rule_carried_over": 0.9965286694507339,
+    "ratio_neglog": 0.14944455493475137
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t5",
+    "rzz": 1910,
+    "simulated": 0.033,
+    "rule_carried_over": 0.009401004524441479,
+    "ratio_neglog": 1.368103145119087
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t3",
+    "rzz": 129,
+    "simulated": 0.823,
+    "rule_carried_over": 0.7973255178596323,
+    "ratio_neglog": 1.1626967468941252
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t3",
+    "rzz": 324,
+    "simulated": 0.586,
+    "rule_carried_over": 0.4853990430747719,
+    "ratio_neglog": 1.3524250754977019
+   },
+   {
+    "id": "qcup-a2-lobby-r-t3",
+    "rzz": 1189,
+    "simulated": 0.1315,
+    "rule_carried_over": 0.056617175863045884,
+    "ratio_neglog": 1.415376515194867
+   },
+   {
+    "id": "qcup-a2-phase-p-t1",
+    "rzz": 16,
+    "simulated": 0.9725,
+    "rule_carried_over": 0.9794031612635146,
+    "ratio_neglog": 0.7463424812971521
+   },
+   {
+    "id": "qcup-a2-phase-r-t1",
+    "rzz": 23,
+    "simulated": 0.961,
+    "rule_carried_over": 0.9655293382083772,
+    "ratio_neglog": 0.8818004991000619
+   },
+   {
+    "id": "qcup-a2-player-r-t1",
+    "rzz": 973,
+    "simulated": 0.2905,
+    "rule_carried_over": 0.07066341696176391,
+    "ratio_neglog": 2.1436101043739986
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t3",
+    "rzz": 390,
+    "simulated": 0.5035,
+    "rule_carried_over": 0.44877052491478464,
+    "ratio_neglog": 1.1677015501576566
+   },
+   {
+    "id": "qcup-a2-reconcile-r-t3",
+    "rzz": 1410,
+    "simulated": 0.087,
+    "rule_carried_over": 0.03179108136896974,
+    "ratio_neglog": 1.412279009372965
+   },
+   {
+    "id": "qcup-a2-ring-buffer-r-t3",
+    "rzz": 1197,
+    "simulated": 0.139,
+    "rule_carried_over": 0.05980044805092035,
+    "ratio_neglog": 1.4274407101071163
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t3",
+    "rzz": 318,
+    "simulated": 0.5845,
+    "rule_carried_over": 0.5160990554144002,
+    "ratio_neglog": 1.2317661342517208
+   },
+   {
+    "id": "qcup-a2-session-r-t3",
+    "rzz": 641,
+    "simulated": 0.338,
+    "rule_carried_over": 0.25001656023494384,
+    "ratio_neglog": 1.2779719097682871
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t3",
+    "rzz": 3,
+    "simulated": 0.985,
+    "rule_carried_over": 0.9978731702353696,
+    "ratio_neglog": 0.1408724164079234
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t3",
+    "rzz": 39,
+    "simulated": 0.9185,
+    "rule_carried_over": 0.9534475722159937,
+    "ratio_neglog": 0.5607451815331043
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t3",
+    "rzz": 297,
+    "simulated": 0.6015,
+    "rule_carried_over": 0.571593501119011,
+    "ratio_neglog": 1.1003257433301827
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t3",
+    "rzz": 3,
+    "simulated": 0.9805,
+    "rule_carried_over": 0.9979642609366595,
+    "ratio_neglog": 0.10348103073996193
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t3",
+    "rzz": 9,
+    "simulated": 0.9685,
+    "rule_carried_over": 0.9927300399186711,
+    "ratio_neglog": 0.22796767882790606
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t3",
+    "rzz": 39,
+    "simulated": 0.9025,
+    "rule_carried_over": 0.952031604294259,
+    "ratio_neglog": 0.47917615295197186
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t3",
+    "rzz": 72,
+    "simulated": 0.871,
+    "rule_carried_over": 0.9033634917068011,
+    "ratio_neglog": 0.7358470698579949
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t3",
+    "rzz": 519,
+    "simulated": 0.3885,
+    "rule_carried_over": 0.3179304887093187,
+    "ratio_neglog": 1.2120237267477816
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t3",
+    "rzz": 999,
+    "simulated": 0.2065,
+    "rule_carried_over": 0.09101896886896939,
+    "ratio_neglog": 1.5193381413648759
+   },
+   {
+    "id": "qcup-a2-washer-r-t1",
+    "rzz": 50,
+    "simulated": 0.9395,
+    "rule_carried_over": 0.9152022572450421,
+    "ratio_neglog": 1.419865377979761
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t1",
+    "rzz": 139,
+    "simulated": 0.8035,
+    "rule_carried_over": 0.7297812953287286,
+    "ratio_neglog": 1.4398625552011173
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t1",
+    "rzz": 2,
+    "simulated": 0.991,
+    "rule_carried_over": 0.9983532178980907,
+    "ratio_neglog": 0.182301303868309
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t1",
+    "rzz": 3,
+    "simulated": 0.9895,
+    "rule_carried_over": 0.9971051738534623,
+    "ratio_neglog": 0.27464548634842406
+   },
+   {
+    "id": "qcup-a2-account-r-t1",
+    "rzz": 501,
+    "simulated": 0.4985,
+    "rule_carried_over": 0.2912851568078331,
+    "ratio_neglog": 1.7718158122420389
+   },
+   {
+    "id": "qcup-a2-card-r-t3",
+    "rzz": 1115,
+    "simulated": 0.155,
+    "rule_carried_over": 0.076177690133533,
+    "ratio_neglog": 1.3810250415672143
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t3",
+    "rzz": 12,
+    "simulated": 0.963,
+    "rule_carried_over": 0.9888976342834639,
+    "ratio_neglog": 0.29612477613653376
+   },
+   {
+    "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t3",
+    "rzz": 3,
+    "simulated": 0.986,
+    "rule_carried_over": 0.9977851015444055,
+    "ratio_neglog": 0.15727121526811258
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t1",
+    "rzz": 30,
+    "simulated": 0.947,
+    "rule_carried_over": 0.9519577236756177,
+    "ratio_neglog": 0.9041149753855521
+   },
+   {
+    "id": "qcup-a2-counter-r-t1",
+    "rzz": 182,
+    "simulated": 0.7945,
+    "rule_carried_over": 0.6780793230135683,
+    "ratio_neglog": 1.6887807768500038
+   },
+   {
+    "id": "qcup-a2-crossing-r-t1",
+    "rzz": 486,
+    "simulated": 0.496,
+    "rule_carried_over": 0.28537726156737525,
+    "ratio_neglog": 1.7883345327130715
+   },
+   {
+    "id": "qcup-a2-door-r-t3",
+    "rzz": 263,
+    "simulated": 0.632,
+    "rule_carried_over": 0.6122164875456148,
+    "ratio_neglog": 1.069308783713106
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t3",
+    "rzz": 27,
+    "simulated": 0.9495,
+    "rule_carried_over": 0.9685641872331724,
+    "ratio_neglog": 0.6163774279462121
+   },
+   {
+    "id": "qcup-a2-f6-signed-zero-state-r-t3",
+    "rzz": 3,
+    "simulated": 0.985,
+    "rule_carried_over": 0.9978731702353696,
+    "ratio_neglog": 0.1408724164079234
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t3",
+    "rzz": 1148,
+    "simulated": 0.128,
+    "rule_carried_over": 0.060801838545470166,
+    "ratio_neglog": 1.3621156675701327
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+    "rzz": 43,
+    "simulated": 0.941,
+    "rule_carried_over": 0.9233127710940948,
+    "ratio_neglog": 1.3120281424315416
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+    "rzz": 108,
+    "simulated": 0.85,
+    "rule_carried_over": 0.7815393543853695,
+    "ratio_neglog": 1.5166834635900273
+   },
+   {
+    "id": "qcup-a2-lobby-r-t1",
+    "rzz": 396,
+    "simulated": 0.5925,
+    "rule_carried_over": 0.3793439637257109,
+    "ratio_neglog": 1.8519368931820255
+   },
+   {
+    "id": "qcup-a2-parking-r-t1",
+    "rzz": 1289,
+    "simulated": 0.1965,
+    "rule_carried_over": 0.028475439200162583,
+    "ratio_neglog": 2.1871605857009673
+   },
+   {
+    "id": "qcup-a2-phase-p-t5",
+    "rzz": 80,
+    "simulated": 0.818,
+    "rule_carried_over": 0.9011716222038186,
+    "ratio_neglog": 0.5179851446586001
+   },
+   {
+    "id": "qcup-a2-phase-r-t5",
+    "rzz": 115,
+    "simulated": 0.7975,
+    "rule_carried_over": 0.8560080036936598,
+    "ratio_neglog": 0.6871135640321061
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t1",
+    "rzz": 130,
+    "simulated": 0.793,
+    "rule_carried_over": 0.7624595224529365,
+    "ratio_neglog": 1.169333210420209
+   },
+   {
+    "id": "qcup-a2-reconcile-r-t1",
+    "rzz": 470,
+    "simulated": 0.548,
+    "rule_carried_over": 0.3168019776487109,
+    "ratio_neglog": 1.9110833140034702
+   },
+   {
+    "id": "qcup-a2-ring-buffer-r-t1",
+    "rzz": 399,
+    "simulated": 0.524,
+    "rule_carried_over": 0.39036493069934675,
+    "ratio_neglog": 1.455556626429868
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+    "rzz": 106,
+    "simulated": 0.8425,
+    "rule_carried_over": 0.7981189328916943,
+    "ratio_neglog": 1.3157633717952562
+   },
+   {
+    "id": "qcup-a2-session-r-t1",
+    "rzz": 215,
+    "simulated": 0.728,
+    "rule_carried_over": 0.6197664529782488,
+    "ratio_neglog": 1.5070284603518735
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+    "rzz": 13,
+    "simulated": 0.977,
+    "rule_carried_over": 0.9828537225007925,
+    "ratio_neglog": 0.7432745032580226
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+    "rzz": 99,
+    "simulated": 0.854,
+    "rule_carried_over": 0.8302578746861603,
+    "ratio_neglog": 1.1786473137181095
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+    "rzz": 1,
+    "simulated": 0.9965,
+    "rule_carried_over": 0.9993209593203429,
+    "ratio_neglog": 0.19373768935140734
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+    "rzz": 3,
+    "simulated": 0.99,
+    "rule_carried_over": 0.9971805977599312,
+    "ratio_neglog": 0.2809243673102422
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+    "rzz": 13,
+    "simulated": 0.966,
+    "rule_carried_over": 0.9837478327348501,
+    "ratio_neglog": 0.4736917589605109
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+    "rzz": 24,
+    "simulated": 0.9655,
+    "rule_carried_over": 0.9640436227234127,
+    "ratio_neglog": 1.0429960659345365
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t1",
+    "rzz": 173,
+    "simulated": 0.747,
+    "rule_carried_over": 0.6788031265526695,
+    "ratio_neglog": 1.3282046521367292
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t1",
+    "rzz": 333,
+    "simulated": 0.5975,
+    "rule_carried_over": 0.44824523261624083,
+    "ratio_neglog": 1.5580839835563542
+   },
+   {
+    "id": "qcup-a2-vending-r-t1",
+    "rzz": 1529,
+    "simulated": 0.137,
+    "rule_carried_over": 0.015057382552941626,
+    "ratio_neglog": 2.1108466694539247
+   },
+   {
+    "id": "qcup-a2-washer-r-t5",
+    "rzz": 242,
+    "simulated": 0.6415,
+    "rule_carried_over": 0.6546440347446786,
+    "ratio_neglog": 0.9543132698333416
+   },
+   {
+    "id": "qcup-a2-03-distributed-accept-r-t5",
+    "rzz": 695,
+    "simulated": 0.2885,
+    "rule_carried_over": 0.2126653654669864,
+    "ratio_neglog": 1.245342270223956
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-p-t5",
+    "rzz": 10,
+    "simulated": 0.969,
+    "rule_carried_over": 0.9917931637811845,
+    "ratio_neglog": 0.26168698383637184
+   },
+   {
+    "id": "qcup-a2-17-traffic-light-accept-r-t5",
+    "rzz": 15,
+    "simulated": 0.954,
+    "rule_carried_over": 0.9879083344880107,
+    "ratio_neglog": 0.25833402242719594
+   },
+   {
+    "id": "qcup-a2-card-r-t1",
+    "rzz": 375,
+    "simulated": 0.5805,
+    "rule_carried_over": 0.4208868538733112,
+    "ratio_neglog": 1.5911861890860612
+   },
+   {
+    "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+    "rzz": 4,
+    "simulated": 0.9905,
+    "rule_carried_over": 0.9956218186179419,
+    "ratio_neglog": 0.4596756323293648
+   },
+   {
+    "id": "qcup-a2-climate-r-t1",
+    "rzz": 1400,
+    "simulated": 0.1565,
+    "rule_carried_over": 0.020864015924416158,
+    "ratio_neglog": 2.08644570829649
+   },
+   {
+    "id": "qcup-a2-counter-flag-r-t5",
+    "rzz": 150,
+    "simulated": 0.7405,
+    "rule_carried_over": 0.7965333724839246,
+    "ratio_neglog": 0.757203076245794
+   },
+   {
+    "id": "qcup-a2-counter-r-t5",
+    "rzz": 910,
+    "simulated": 0.224,
+    "rule_carried_over": 0.14719696497766357,
+    "ratio_neglog": 1.2806442581317092
+   },
+   {
+    "id": "qcup-a2-door-r-t1",
+    "rzz": 89,
+    "simulated": 0.8705,
+    "rule_carried_over": 0.845608796732279,
+    "ratio_neglog": 1.2091819206679437
+   },
+   {
+    "id": "qcup-a2-equivalent-r-t1",
+    "rzz": 9,
+    "simulated": 0.985,
+    "rule_carried_over": 0.9884502692116033,
+    "ratio_neglog": 0.7686400275633093
+   },
+   {
+    "id": "qcup-a2-flag-walls-r-t1",
+    "rzz": 386,
+    "simulated": 0.5685,
+    "rule_carried_over": 0.3932790191366827,
+    "ratio_neglog": 1.6524646185672207
+   },
+   {
+    "id": "qcup-a2-handshake-r-t1",
+    "rzz": 788,
+    "simulated": 0.332,
+    "rule_carried_over": 0.12372838756692418,
+    "ratio_neglog": 1.895182339408515
+   },
+   {
+    "id": "qcup-a2-hc-11-fabric-caps-logged-r-t5",
+    "rzz": 215,
+    "simulated": 0.7025,
+    "rule_carried_over": 0.6882742024948462,
+    "ratio_neglog": 1.05793690243293
+   },
+   {
+    "id": "qcup-a2-hc-21-kept-step-is-input-r-t5",
+    "rzz": 540,
+    "simulated": 0.3785,
+    "rule_carried_over": 0.30142559053260976,
+    "ratio_neglog": 1.2343630430035264
+   },
+   {
+    "id": "qcup-a2-lobby-r-t5",
+    "rzz": 1982,
+    "simulated": 0.041,
+    "rule_carried_over": 0.008448260137140704,
+    "ratio_neglog": 1.4945275341107864
+   },
+   {
+    "id": "qcup-a2-phase-p-t3",
+    "rzz": 48,
+    "simulated": 0.899,
+    "rule_carried_over": 0.9394734352962777,
+    "ratio_neglog": 0.5864038668349969
+   },
+   {
+    "id": "qcup-a2-phase-r-t3",
+    "rzz": 69,
+    "simulated": 0.869,
+    "rule_carried_over": 0.9093320718097732,
+    "ratio_neglog": 0.676899637801721
+   },
+   {
+    "id": "qcup-a2-printer-r-t1",
+    "rzz": 1259,
+    "simulated": 0.182,
+    "rule_carried_over": 0.03246208172577871,
+    "ratio_neglog": 2.0118476418437945
+   },
+   {
+    "id": "qcup-a2-queue-sim-r-t5",
+    "rzz": 650,
+    "simulated": 0.3115,
+    "rule_carried_over": 0.2641169378381996,
+    "ratio_neglog": 1.1414725822799805
+   },
+   {
+    "id": "qcup-a2-reservoir-r-t1",
+    "rzz": 1493,
+    "simulated": 0.143,
+    "rule_carried_over": 0.018287788745810277,
+    "ratio_neglog": 2.057432163346366
+   },
+   {
+    "id": "qcup-a2-ring-buffer-r-t5",
+    "rzz": 1995,
+    "simulated": 0.0465,
+    "rule_carried_over": 0.00916071961485335,
+    "ratio_neglog": 1.5294547488351304
+   },
+   {
+    "id": "qcup-a2-s1-guard-trap-keeps-r-t5",
+    "rzz": 530,
+    "simulated": 0.4045,
+    "rule_carried_over": 0.333684653278809,
+    "ratio_neglog": 1.2126335080356851
+   },
+   {
+    "id": "qcup-a2-session-r-t5",
+    "rzz": 1067,
+    "simulated": 0.144,
+    "rule_carried_over": 0.10083321676793014,
+    "ratio_neglog": 1.1838782949031366
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t5",
+    "rzz": 5,
+    "simulated": 0.977,
+    "rule_carried_over": 0.9965286694507339,
+    "ratio_neglog": 0.14944455493475137
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t5",
+    "rzz": 65,
+    "simulated": 0.851,
+    "rule_carried_over": 0.9247224461813728,
+    "ratio_neglog": 0.4850633229870577
+   },
+   {
+    "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t5",
+    "rzz": 495,
+    "simulated": 0.4145,
+    "rule_carried_over": 0.39352220806692106,
+    "ratio_neglog": 1.0589718571357112
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-p-t5",
+    "rzz": 5,
+    "simulated": 0.9675,
+    "rule_carried_over": 0.9966094044341928,
+    "ratio_neglog": 0.1027957524558886
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k4-r-t5",
+    "rzz": 15,
+    "simulated": 0.9475,
+    "rule_carried_over": 0.9881797943630539,
+    "ratio_neglog": 0.2204892500567411
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-p-t5",
+    "rzz": 65,
+    "simulated": 0.846,
+    "rule_carried_over": 0.9213379134522508,
+    "ratio_neglog": 0.4898972176268688
+   },
+   {
+    "id": "qcup-a2-t60-dim-redundant-k5-r-t5",
+    "rzz": 120,
+    "simulated": 0.7925,
+    "rule_carried_over": 0.8461937500535854,
+    "ratio_neglog": 0.7181154760964971
+   },
+   {
+    "id": "qcup-a2-t62-dependent-differ-r-t5",
+    "rzz": 865,
+    "simulated": 0.218,
+    "rule_carried_over": 0.14887917209126722,
+    "ratio_neglog": 1.2503577572167488
+   },
+   {
+    "id": "qcup-a2-t62-independent-commute-r-t5",
+    "rzz": 1665,
+    "simulated": 0.074,
+    "rule_carried_over": 0.018481097732554342,
+    "ratio_neglog": 1.532827075671462
+   },
+   {
+    "id": "qcup-a2-washer-r-t3",
+    "rzz": 146,
+    "simulated": 0.769,
+    "rule_carried_over": 0.7740635975928748,
+    "ratio_neglog": 0.9750134757392053
+   }
+  ]
+ },
+ "aim2_emulator_vs_model": {
+  "circuits": 21,
+  "median_factor": 0.6158694575751994,
+  "range": [
+   0.14317900309161194,
+   0.8482319936042882
+  ]
+ },
+ "aim1_emulator": {
+  "qis": {
+   "circuits": 102,
+   "optimum_found": 55,
+   "by_depth": {
+    "1": {
+     "circuits_with_ideal_ge_0.05": 11,
+     "median_emu_over_ideal": 0.45925108203860404,
+     "min": 0.07322868985712204,
+     "max": 0.6975770349725401
+    },
+    "2": {
+     "circuits_with_ideal_ge_0.05": 16,
+     "median_emu_over_ideal": 0.2972341883092397,
+     "min": 0.0064152588276654415,
+     "max": 0.9245135531990544
+    },
+    "3": {
+     "circuits_with_ideal_ge_0.05": 15,
+     "median_emu_over_ideal": 0.14657059688199112,
+     "min": 0.0,
+     "max": 0.616
+    }
+   }
+  },
+  "native": {
+   "circuits": 102,
+   "optimum_found": 52,
+   "by_depth": {
+    "1": {
+     "circuits_with_ideal_ge_0.05": 11,
+     "median_emu_over_ideal": 0.41941601146049473,
+     "min": 0.10984303478568305,
+     "max": 0.74556485631324
+    },
+    "2": {
+     "circuits_with_ideal_ge_0.05": 16,
+     "median_emu_over_ideal": 0.1962879641824753,
+     "min": 0.0,
+     "max": 0.5188981224405916
+    },
+    "3": {
+     "circuits_with_ideal_ge_0.05": 15,
+     "median_emu_over_ideal": 0.12824927227174224,
+     "min": 0.0,
+     "max": 0.36047038480795246
+    }
+   }
+  },
+  "optimum_found_by_family_native": {
+   "A": [
+    20,
+    3
+   ],
+   "B": [
+    19,
+    19
+   ],
+   "C": [
+    21,
+    4
+   ],
+   "D": [
+    21,
+    10
+   ],
+   "R": [
+    21,
+    16
+   ]
+  }
+ },
+ "aim1_emulator_vs_model": {
+  "circuits": 40,
+  "median_factor_rule": 0.3238214327409029,
+  "median_factor_eb": 0.7455361324273004,
+  "rows": [
+   {
+    "id": "qcup-a1-B12-p1-cold",
+    "rzz": 39,
+    "effective_fidelity_emulator": 0.5675167307225841,
+    "rule_carried_over_forte": 0.8556229920210479,
+    "e_minus_b_forte": 0.6500223692719153,
+    "generic_rule": 0.9770554177075172,
+    "factor_rule_neglog": 0.27525074160777496,
+    "factor_eb_neglog": 0.76038812229167
+   },
+   {
+    "id": "qcup-a1-B12-p1-warm",
+    "rzz": 39,
+    "effective_fidelity_emulator": 0.5739480513841942,
+    "rule_carried_over_forte": 0.8546548354147834,
+    "e_minus_b_forte": 0.6494410304744547,
+    "generic_rule": 0.9770554177075172,
+    "factor_rule_neglog": 0.28287636275410666,
+    "factor_eb_neglog": 0.7774324520792615
+   },
+   {
+    "id": "qcup-a1-B12-p2-cold",
+    "rzz": 78,
+    "effective_fidelity_emulator": 0.176,
+    "rule_carried_over_forte": 0.705066433298018,
+    "e_minus_b_forte": 0.4588016625515379,
+    "generic_rule": 0.954637289271611,
+    "factor_rule_neglog": 0.2011564067228678,
+    "factor_eb_neglog": 0.4484833642498727
+   },
+   {
+    "id": "qcup-a1-B12-p2-warm",
+    "rzz": 78,
+    "effective_fidelity_emulator": 0.3123107637064188,
+    "rule_carried_over_forte": 0.7033544575313689,
+    "e_minus_b_forte": 0.4573605127577554,
+    "generic_rule": 0.954637289271611,
+    "factor_rule_neglog": 0.30237793928410267,
+    "factor_eb_neglog": 0.6722053090284372
+   },
+   {
+    "id": "qcup-a1-B12-p3-cold",
+    "rzz": 117,
+    "effective_fidelity_emulator": 0.16,
+    "rule_carried_over_forte": 0.5764362965249368,
+    "e_minus_b_forte": 0.32384156248594415,
+    "generic_rule": 0.9327335354284458,
+    "factor_rule_neglog": 0.3006089806464927,
+    "factor_eb_neglog": 0.6152528058198506
+   },
+   {
+    "id": "qcup-a1-B12-p3-warm",
+    "rzz": 107,
+    "effective_fidelity_emulator": 0.24127431362594445,
+    "rule_carried_over_forte": 0.6048762491047689,
+    "e_minus_b_forte": 0.35129979880833434,
+    "generic_rule": 0.9383015048770322,
+    "factor_rule_neglog": 0.3535828159597812,
+    "factor_eb_neglog": 0.7357575022084689
+   },
+   {
+    "id": "qcup-a1-B16-p1-cold",
+    "rzz": 57,
+    "effective_fidelity_emulator": 0.6027670451756678,
+    "rule_carried_over_forte": 0.7949917475118778,
+    "e_minus_b_forte": 0.5422523495979741,
+    "generic_rule": 0.9666439096283778,
+    "factor_rule_neglog": 0.45320515390969934,
+    "factor_eb_neglog": 1.2089968312748072
+   },
+   {
+    "id": "qcup-a1-B16-p1-warm",
+    "rzz": 57,
+    "effective_fidelity_emulator": 0.41941601146049473,
+    "rule_carried_over_forte": 0.7940198041585828,
+    "e_minus_b_forte": 0.5422523495979741,
+    "generic_rule": 0.9666439096283778,
+    "factor_rule_neglog": 0.2654494229206942,
+    "factor_eb_neglog": 0.7043727038287526
+   },
+   {
+    "id": "qcup-a1-B16-p2-cold",
+    "rzz": 114,
+    "effective_fidelity_emulator": 0.15506075668098654,
+    "rule_carried_over_forte": 0.5992340371457138,
+    "e_minus_b_forte": 0.3272251069885507,
+    "generic_rule": 0.9344004480216354,
+    "factor_rule_neglog": 0.27474249281217444,
+    "factor_eb_neglog": 0.5993261515967829
+   },
+   {
+    "id": "qcup-a1-B16-p2-warm",
+    "rzz": 114,
+    "effective_fidelity_emulator": 0.183236915930708,
+    "rule_carried_over_forte": 0.5982364240939395,
+    "e_minus_b_forte": 0.3272251069885507,
+    "generic_rule": 0.9344004480216354,
+    "factor_rule_neglog": 0.30275586967866375,
+    "factor_eb_neglog": 0.658292974236566
+   },
+   {
+    "id": "qcup-a1-B16-p3-cold",
+    "rzz": 171,
+    "effective_fidelity_emulator": 0.06642548837086602,
+    "rule_carried_over_forte": 0.4478358262326751,
+    "e_minus_b_forte": 0.19746704454355363,
+    "generic_rule": 0.9032325022341413,
+    "factor_rule_neglog": 0.2962481640934292,
+    "factor_eb_neglog": 0.5982220987181004
+   },
+   {
+    "id": "qcup-a1-B16-p3-warm",
+    "rzz": 171,
+    "effective_fidelity_emulator": 0.07823413338628586,
+    "rule_carried_over_forte": 0.4469943963798388,
+    "e_minus_b_forte": 0.19746704454355363,
+    "generic_rule": 0.9032325022341413,
+    "factor_rule_neglog": 0.316010070916853,
+    "factor_eb_neglog": 0.6366374508077273
+   },
+   {
+    "id": "qcup-a1-B20-p1-cold",
+    "rzz": 94,
+    "effective_fidelity_emulator": 0.29289883256017196,
+    "rule_carried_over_forte": 0.663957819955103,
+    "e_minus_b_forte": 0.36983024833926426,
+    "generic_rule": 0.945589585741061,
+    "factor_rule_neglog": 0.33351845713626554,
+    "factor_eb_neglog": 0.8100728691087203
+   },
+   {
+    "id": "qcup-a1-B20-p1-warm",
+    "rzz": 94,
+    "effective_fidelity_emulator": 0.2796826734314846,
+    "rule_carried_over_forte": 0.6624257484993198,
+    "e_minus_b_forte": 0.3693073163099089,
+    "generic_rule": 0.945589585741061,
+    "factor_rule_neglog": 0.3232453696686739,
+    "factor_eb_neglog": 0.781827515209921
+   },
+   {
+    "id": "qcup-a1-B20-p2-cold",
+    "rzz": 188,
+    "effective_fidelity_emulator": 0.09155271691270506,
+    "rule_carried_over_forte": 0.4120763484602063,
+    "e_minus_b_forte": 0.16096710858685545,
+    "generic_rule": 0.8941396646619513,
+    "factor_rule_neglog": 0.3708096368166519,
+    "factor_eb_neglog": 0.7639804320293694
+   },
+   {
+    "id": "qcup-a1-B20-p2-warm",
+    "rzz": 188,
+    "effective_fidelity_emulator": 0.0683437731189077,
+    "rule_carried_over_forte": 0.41091412201086297,
+    "e_minus_b_forte": 0.1607215107519647,
+    "generic_rule": 0.8941396646619513,
+    "factor_rule_neglog": 0.33145849606031974,
+    "factor_eb_neglog": 0.6813054833027875
+   },
+   {
+    "id": "qcup-a1-B20-p3-cold",
+    "rzz": 282,
+    "effective_fidelity_emulator": 0.043440801048371336,
+    "rule_carried_over_forte": 0.25357432117187967,
+    "e_minus_b_forte": 0.07006236651625794,
+    "generic_rule": 0.8454891551023457,
+    "factor_rule_neglog": 0.4374816657814116,
+    "factor_eb_neglog": 0.8475980867747734
+   },
+   {
+    "id": "qcup-a1-B20-p3-warm",
+    "rzz": 282,
+    "effective_fidelity_emulator": 0.01557265233951236,
+    "rule_carried_over_forte": 0.25247407743132405,
+    "e_minus_b_forte": 0.06976577640331415,
+    "generic_rule": 0.8454891551023457,
+    "factor_rule_neglog": 0.3306986246994088,
+    "factor_eb_neglog": 0.6397065919443645
+   },
+   {
+    "id": "qcup-a1-D12-p1-warm",
+    "rzz": 66,
+    "effective_fidelity_emulator": 0.4087030122050039,
+    "rule_carried_over_forte": 0.7480690309864783,
+    "e_minus_b_forte": 0.5099566725683834,
+    "generic_rule": 0.9614798341835765,
+    "factor_rule_neglog": 0.3243974958131319,
+    "factor_eb_neglog": 0.7526315512500004
+   },
+   {
+    "id": "qcup-a1-D12-p2-cold",
+    "rzz": 132,
+    "effective_fidelity_emulator": 0.11336179942585083,
+    "rule_carried_over_forte": 0.5386369719066725,
+    "e_minus_b_forte": 0.2892096517737653,
+    "generic_rule": 0.9244434715416778,
+    "factor_rule_neglog": 0.2841823221257646,
+    "factor_eb_neglog": 0.5698236488438873
+   },
+   {
+    "id": "qcup-a1-D12-p2-warm",
+    "rzz": 132,
+    "effective_fidelity_emulator": 0.20933901243424255,
+    "rule_carried_over_forte": 0.5371059420056988,
+    "e_minus_b_forte": 0.28674580192117954,
+    "generic_rule": 0.9244434715416778,
+    "factor_rule_neglog": 0.397467585918127,
+    "factor_eb_neglog": 0.7987971261942434
+   },
+   {
+    "id": "qcup-a1-D12-p3-cold",
+    "rzz": 198,
+    "effective_fidelity_emulator": 0.06566744348516165,
+    "rule_carried_over_forte": 0.38533634740816575,
+    "e_minus_b_forte": 0.1633181415424592,
+    "generic_rule": 0.8888337557299822,
+    "factor_rule_neglog": 0.3501966446281922,
+    "factor_eb_neglog": 0.665425648540644
+   },
+   {
+    "id": "qcup-a1-D16-p1-warm",
+    "rzz": 120,
+    "effective_fidelity_emulator": 0.13210832748831458,
+    "rule_carried_over_forte": 0.5719196742510174,
+    "e_minus_b_forte": 0.3008503047952353,
+    "generic_rule": 0.9310695965042002,
+    "factor_rule_neglog": 0.276047433033104,
+    "factor_eb_neglog": 0.5934108313546439
+   },
+   {
+    "id": "qcup-a1-D16-p2-warm",
+    "rzz": 240,
+    "effective_fidelity_emulator": 0.04429710763243628,
+    "rule_carried_over_forte": 0.31164077303128496,
+    "e_minus_b_forte": 0.10635846381572164,
+    "generic_rule": 0.866890593534494,
+    "factor_rule_neglog": 0.3740665734257596,
+    "factor_eb_neglog": 0.718979192936892
+   },
+   {
+    "id": "qcup-a1-D16-p3-warm",
+    "rzz": 360,
+    "effective_fidelity_emulator": 0.006905950121198392,
+    "rule_carried_over_forte": 0.1691399594680998,
+    "e_minus_b_forte": 0.037600503123769655,
+    "generic_rule": 0.8071354751354479,
+    "factor_rule_neglog": 0.3571650077745451,
+    "factor_eb_neglog": 0.6593955008727426
+   },
+   {
+    "id": "qcup-a1-D20-p1-warm",
+    "rzz": 190,
+    "effective_fidelity_emulator": 0.10984303478568305,
+    "rule_carried_over_forte": 0.3997841655768592,
+    "e_minus_b_forte": 0.15252541589963736,
+    "generic_rule": 0.8930759550087983,
+    "factor_rule_neglog": 0.4150990466977416,
+    "factor_eb_neglog": 0.8513702973620637
+   },
+   {
+    "id": "qcup-a1-R12-p1-warm",
+    "rzz": 24,
+    "effective_fidelity_emulator": 0.74556485631324,
+    "rule_carried_over_forte": 0.9109141764181827,
+    "e_minus_b_forte": 0.7271104514097041,
+    "generic_rule": 0.9858172858834049,
+    "factor_rule_neglog": 0.3177875166287434,
+    "factor_eb_neglog": 1.0853631170981375
+   },
+   {
+    "id": "qcup-a1-R12-p2-cold",
+    "rzz": 48,
+    "effective_fidelity_emulator": 0.5128315389421099,
+    "rule_carried_over_forte": 0.8131577474151472,
+    "e_minus_b_forte": 0.5874061743354527,
+    "generic_rule": 0.9718357211465228,
+    "factor_rule_neglog": 0.3097150628307873,
+    "factor_eb_neglog": 0.7966943358828406
+   },
+   {
+    "id": "qcup-a1-R12-p2-warm",
+    "rzz": 48,
+    "effective_fidelity_emulator": 0.5188981224405916,
+    "rule_carried_over_forte": 0.8123969933095819,
+    "e_minus_b_forte": 0.5872734955921609,
+    "generic_rule": 0.9718357211465228,
+    "factor_rule_neglog": 0.3166936593318485,
+    "factor_eb_neglog": 0.8113200272304862
+   },
+   {
+    "id": "qcup-a1-R12-p3-cold",
+    "rzz": 72,
+    "effective_fidelity_emulator": 0.3103271018028666,
+    "rule_carried_over_forte": 0.7120684293866905,
+    "e_minus_b_forte": 0.4604826949949439,
+    "generic_rule": 0.9580524529452067,
+    "factor_rule_neglog": 0.29020855489351116,
+    "factor_eb_neglog": 0.6627307072833449
+   },
+   {
+    "id": "qcup-a1-R12-p3-warm",
+    "rzz": 72,
+    "effective_fidelity_emulator": 0.36047038480795246,
+    "rule_carried_over_forte": 0.7112938871608141,
+    "e_minus_b_forte": 0.4603266759822664,
+    "generic_rule": 0.9580524529452067,
+    "factor_rule_neglog": 0.3338767105892716,
+    "factor_eb_neglog": 0.7603492098016836
+   },
+   {
+    "id": "qcup-a1-R16-p1-warm",
+    "rzz": 36,
+    "effective_fidelity_emulator": 0.6735226544562456,
+    "rule_carried_over_forte": 0.8561182404822513,
+    "e_minus_b_forte": 0.6061920507901151,
+    "generic_rule": 0.9788015391003463,
+    "factor_rule_neglog": 0.3930504961718799,
+    "factor_eb_neglog": 1.26648738458482
+   },
+   {
+    "id": "qcup-a1-R16-p2-cold",
+    "rzz": 72,
+    "effective_fidelity_emulator": 0.3382844556952868,
+    "rule_carried_over_forte": 0.7166340368337852,
+    "e_minus_b_forte": 0.43863756608043625,
+    "generic_rule": 0.9580524529452067,
+    "factor_rule_neglog": 0.30740821822736986,
+    "factor_eb_neglog": 0.7603155372356646
+   },
+   {
+    "id": "qcup-a1-R16-p2-warm",
+    "rzz": 72,
+    "effective_fidelity_emulator": 0.33042186359346143,
+    "rule_carried_over_forte": 0.7156190421619364,
+    "e_minus_b_forte": 0.43853845264046953,
+    "generic_rule": 0.9580524529452067,
+    "factor_rule_neglog": 0.3021598609044491,
+    "factor_eb_neglog": 0.7443732128033291
+   },
+   {
+    "id": "qcup-a1-R16-p3-cold",
+    "rzz": 108,
+    "effective_fidelity_emulator": 0.17465075307221592,
+    "rule_carried_over_forte": 0.5793732186753477,
+    "e_minus_b_forte": 0.29823263332111877,
+    "generic_rule": 0.9377432154816304,
+    "factor_rule_neglog": 0.31279010922779255,
+    "factor_eb_neglog": 0.6933549179880012
+   },
+   {
+    "id": "qcup-a1-R16-p3-warm",
+    "rzz": 108,
+    "effective_fidelity_emulator": 0.19005533808773103,
+    "rule_carried_over_forte": 0.5781448045875897,
+    "e_minus_b_forte": 0.297821240459095,
+    "generic_rule": 0.9377432154816304,
+    "factor_rule_neglog": 0.32999139745724443,
+    "factor_eb_neglog": 0.72948245014482
+   },
+   {
+    "id": "qcup-a1-R20-p2-cold",
+    "rzz": 84,
+    "effective_fidelity_emulator": 0.3392710286969007,
+    "rule_carried_over_forte": 0.6621171559280633,
+    "e_minus_b_forte": 0.3523568798906067,
+    "generic_rule": 0.9512342996109115,
+    "factor_rule_neglog": 0.38143344169016263,
+    "factor_eb_neglog": 0.9649890996457122
+   },
+   {
+    "id": "qcup-a1-R20-p2-warm",
+    "rzz": 84,
+    "effective_fidelity_emulator": 0.289009533501939,
+    "rule_carried_over_forte": 0.6605471490176805,
+    "e_minus_b_forte": 0.351819289838326,
+    "generic_rule": 0.9512342996109115,
+    "factor_rule_neglog": 0.33407576129757166,
+    "factor_eb_neglog": 0.8415703829046777
+   },
+   {
+    "id": "qcup-a1-R20-p3-cold",
+    "rzz": 126,
+    "effective_fidelity_emulator": 0.294692067158242,
+    "rule_carried_over_forte": 0.5069412546748336,
+    "e_minus_b_forte": 0.21612114852869455,
+    "generic_rule": 0.9277506184526378,
+    "factor_rule_neglog": 0.5560211449119957,
+    "factor_eb_neglog": 1.2537941385881595
+   },
+   {
+    "id": "qcup-a1-R20-p3-warm",
+    "rzz": 126,
+    "effective_fidelity_emulator": 0.12824927227174224,
+    "rule_carried_over_forte": 0.5055318029348462,
+    "e_minus_b_forte": 0.21576721024693227,
+    "generic_rule": 0.9277506184526378,
+    "factor_rule_neglog": 0.3321409814924021,
+    "factor_eb_neglog": 0.7466990520512716
+   }
+  ]
+ },
+ "ionq_compiler": {
+  "a1": {
+   "jobs": 103,
+   "median_compiled_over_sent_2q": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "compiled_to_no_2q_gate": 3
+  },
+  "f-chem": {
+   "jobs": 4,
+   "median_compiled_over_sent_2q": 0.8844381091128304,
+   "min": 0.8636363636363636,
+   "max": 0.8952702702702703,
+   "compiled_to_no_2q_gate": 0
+  },
+  "a2": {
+   "jobs": 41,
+   "median_compiled_over_sent_2q": 0.0,
+   "min": 0.0,
+   "max": 0.037037037037037035,
+   "compiled_to_no_2q_gate": 35
+  },
+  "q7": {
+   "jobs": 4,
+   "median_compiled_over_sent_2q": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "compiled_to_no_2q_gate": 0
+  },
+  "e": {
+   "jobs": 4,
+   "median_compiled_over_sent_2q": 0.9980806864368508,
+   "min": 0.9895833333333334,
+   "max": 0.9994526546250684,
+   "compiled_to_no_2q_gate": 0
+  },
+  "f-tgt": {
+   "jobs": 8,
+   "median_compiled_over_sent_2q": 0.38817718398080897,
+   "min": 0.31805157593123207,
+   "max": 0.4941860465116279,
+   "compiled_to_no_2q_gate": 0
+  }
+ },
+ "ionq_native_as_written": {
+  "jobs": 167,
+  "compiled_equals_sent": 167
+ },
+ "ionq_cost": {
+  "core": {
+   "rows": 130,
+   "two_qubit_gate_shots": 11630500,
+   "list_price_usd": 18281.249999999993,
+   "ionq_credits": 6663.796,
+   "ionq_qpu_seconds": 27894.943
+  },
+  "extension": {
+   "rows": 121,
+   "two_qubit_gate_shots": 28831500,
+   "list_price_usd": 41038.53,
+   "ionq_credits": 14266.531,
+   "ionq_qpu_seconds": 59720.33100000002
+  }
+ },
+ "admission": {
+  "IonQ|core|published": {
+   "requested": 130,
+   "admitted": 104,
+   "admitted_and_runnable": 85,
+   "shots": 44000,
+   "two_qubit_gate_shots": 3637000,
+   "requested_two_qubit_gate_shots": 11630500,
+   "by_group": {
+    "aim1_qaoa": 42,
+    "aim2": 28,
+    "family_E": 1,
+    "sampling_Q7": 4,
+    "family_F_chem": 3,
+    "family_F_targets": 7
+   },
+   "dropped": [
+    "4x4_p1_U4.0",
+    "4x4_p1_U8.0",
+    "4x4_p2_U4.0",
+    "4x4_p2_U8.0",
+    "4x4_p3_U4.0",
+    "4x4_p3_U8.0",
+    "A_24_0_p1_cold",
+    "A_24_0_p1_warm",
+    "A_32_0_p1_cold",
+    "A_32_0_p1_warm",
+    "D_24_0_p1_cold",
+    "D_24_0_p1_warm",
+    "D_32_0_p1_cold",
+    "D_32_0_p1_warm",
+    "FeO_stretched",
+    "H4 chain broken",
+    "H4 chain eq",
+    "H4 chain stretched",
+    "H4 square square",
+    "LABS_12_p1",
+    "LABS_16_p1",
+    "LABS_20_p1",
+    "LiH eq",
+    "LiH stretched",
+    "session_R_T1",
+    "washer_R_T5"
+   ]
+  },
+  "IonQ|core|alternative": {
+   "requested": 130,
+   "admitted": 111,
+   "admitted_and_runnable": 91,
+   "shots": 47000,
+   "two_qubit_gate_shots": 4473000,
+   "requested_two_qubit_gate_shots": 11630500,
+   "by_group": {
+    "aim1_qaoa": 46,
+    "aim2": 29,
+    "family_E": 1,
+    "sampling_Q7": 4,
+    "family_F_chem": 3,
+    "family_F_targets": 8
+   },
+   "dropped": [
+    "4x4_p1_U4.0",
+    "4x4_p1_U8.0",
+    "4x4_p2_U4.0",
+    "4x4_p2_U8.0",
+    "4x4_p3_U4.0",
+    "4x4_p3_U8.0",
+    "A_32_0_p1_cold",
+    "A_32_0_p1_warm",
+    "D_32_0_p1_cold",
+    "D_32_0_p1_warm",
+    "H4 chain broken",
+    "H4 chain eq",
+    "H4 chain stretched",
+    "H4 square square",
+    "LABS_12_p1",
+    "LABS_16_p1",
+    "LABS_20_p1",
+    "LiH eq",
+    "LiH stretched"
+   ]
+  },
+  "IonQ|core|most_favourable": {
+   "requested": 130,
+   "admitted": 118,
+   "admitted_and_runnable": 98,
+   "shots": 53500,
+   "two_qubit_gate_shots": 6377500,
+   "requested_two_qubit_gate_shots": 11630500,
+   "by_group": {
+    "aim1_qaoa": 46,
+    "aim2": 29,
+    "family_E": 2,
+    "sampling_Q7": 4,
+    "family_F_chem": 9,
+    "family_F_targets": 8
+   },
+   "dropped": [
+    "4x4_p1_U4.0",
+    "4x4_p1_U8.0",
+    "4x4_p2_U4.0",
+    "4x4_p2_U8.0",
+    "4x4_p3_U4.0",
+    "4x4_p3_U8.0",
+    "A_32_0_p1_cold",
+    "A_32_0_p1_warm",
+    "D_32_0_p1_cold",
+    "D_32_0_p1_warm",
+    "LABS_16_p1",
+    "LABS_20_p1"
+   ]
+  },
+  "IonQ|core|figure": {
+   "requested": 130,
+   "admitted": 87,
+   "admitted_and_runnable": 68,
+   "shots": 35500,
+   "two_qubit_gate_shots": 1823500,
+   "requested_two_qubit_gate_shots": 11630500,
+   "by_group": {
+    "aim1_qaoa": 32,
+    "aim2": 28,
+    "family_E": 1,
+    "sampling_Q7": 4,
+    "family_F_chem": 3
+   },
+   "dropped": [
+    "4x4_p1_U4.0",
+    "4x4_p1_U8.0",
+    "4x4_p2_U4.0",
+    "4x4_p2_U8.0",
+    "4x4_p3_U4.0",
+    "4x4_p3_U8.0",
+    "A_20_0_p1_cold",
+    "A_20_0_p1_warm",
+    "A_24_0_p1_cold",
+    "A_24_0_p1_warm",
+    "A_32_0_p1_cold",
+    "A_32_0_p1_warm",
+    "B_24_0_p1_cold",
+    "B_24_0_p1_warm",
+    "B_32_0_p1_cold",
+    "B_32_0_p1_warm",
+    "D_20_0_p1_cold",
+    "D_20_0_p1_warm",
+    "D_24_0_p1_cold",
+    "D_24_0_p1_warm",
+    "D_32_0_p1_cold",
+    "D_32_0_p1_warm",
+    "FeO_eq",
+    "FeO_stretched",
+    "FeS_eq",
+    "FeS_stretched",
+    "H4 chain broken",
+    "H4 chain eq",
+    "H4 chain stretched",
+    "H4 square square",
+    "LABS_12_p1",
+    "LABS_16_p1",
+    "LABS_20_p1",
+    "LiH eq",
+    "LiH stretched",
+    "MnO_eq",
+    "MnO_stretched",
+    "NiO_eq",
+    "NiO_stretched",
+    "R_30_0_p1_cold",
+    "R_30_0_p1_warm",
+    "session_R_T1",
+    "washer_R_T5"
+   ]
+  },
+  "IonQ|core|emulator": {
+   "requested": 130,
+   "admitted": 83,
+   "admitted_and_runnable": 66,
+   "shots": 34500,
+   "two_qubit_gate_shots": 1646000,
+   "requested_two_qubit_gate_shots": 11630500,
+   "by_group": {
+    "aim1_qaoa": 32,
+    "aim2": 26,
+    "family_E": 1,
+    "sampling_Q7": 4,
+    "family_F_chem": 3
+   },
+   "dropped": [
+    "4x4_p1_U4.0",
+    "4x4_p1_U8.0",
+    "4x4_p2_U4.0",
+    "4x4_p2_U8.0",
+    "4x4_p3_U4.0",
+    "4x4_p3_U8.0",
+    "A_20_0_p1_cold",
+    "A_20_0_p1_warm",
+    "A_24_0_p1_cold",
+    "A_24_0_p1_warm",
+    "A_32_0_p1_cold",
+    "A_32_0_p1_warm",
+    "B_24_0_p1_cold",
+    "B_24_0_p1_warm",
+    "B_32_0_p1_cold",
+    "B_32_0_p1_warm",
+    "D_20_0_p1_cold",
+    "D_20_0_p1_warm",
+    "D_24_0_p1_cold",
+    "D_24_0_p1_warm",
+    "D_32_0_p1_cold",
+    "D_32_0_p1_warm",
+    "FeO_eq",
+    "FeO_stretched",
+    "FeS_eq",
+    "FeS_stretched",
+    "H4 chain broken",
+    "H4 chain eq",
+    "H4 chain stretched",
+    "H4 square square",
+    "LABS_12_p1",
+    "LABS_16_p1",
+    "LABS_20_p1",
+    "LiH eq",
+    "LiH stretched",
+    "MnO_eq",
+    "MnO_stretched",
+    "NiO_eq",
+    "NiO_stretched",
+    "R_30_0_p1_cold",
+    "R_30_0_p1_warm",
+    "counter_R_T1",
+    "counter_flag_R_T5",
+    "hc_11_fabric_caps_logged_R_T5",
+    "session_R_T1",
+    "t62_dependent_differ_R_T1",
+    "washer_R_T5"
+   ]
+  },
+  "IonQ|core|mid_circuit_unsupported": 20,
+  "IonQ|extension|published": {
+   "requested": 121,
+   "admitted": 56,
+   "admitted_and_runnable": 56,
+   "shots": 28000,
+   "two_qubit_gate_shots": 3452000,
+   "requested_two_qubit_gate_shots": 28831500,
+   "by_group": {
+    "aim1_qaoa": 56
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_16_0_p3_cold",
+    "A_16_0_p3_warm",
+    "A_20_0_p2_cold",
+    "A_20_0_p2_warm",
+    "A_20_0_p3_cold",
+    "A_20_0_p3_warm",
+    "A_24_0_p2_cold",
+    "A_24_0_p2_warm",
+    "A_24_0_p3_cold",
+    "A_24_0_p3_warm",
+    "A_32_0_p2_cold",
+    "A_32_0_p2_warm",
+    "A_32_0_p3_cold",
+    "A_32_0_p3_warm",
+    "B_20_0_p3_cold",
+    "B_20_0_p3_warm",
+    "D_16_0_p3_cold",
+    "D_16_0_p3_warm",
+    "D_20_0_p2_cold",
+    "D_20_0_p2_warm",
+    "D_20_0_p3_cold",
+    "D_20_0_p3_warm",
+    "D_24_0_p2_cold",
+    "D_24_0_p2_warm",
+    "D_24_0_p3_cold",
+    "D_24_0_p3_warm",
+    "D_32_0_p2_cold",
+    "D_32_0_p2_warm",
+    "D_32_0_p3_cold",
+    "D_32_0_p3_warm",
+    "R_24_0_p3_cold",
+    "R_24_0_p3_warm",
+    "R_30_0_p2_cold",
+    "R_30_0_p2_warm",
+    "R_30_0_p3_cold",
+    "R_30_0_p3_warm",
+    "account_R_T1",
+    "card_R_T1",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "door_R_T5",
+    "flag_walls_R_T1",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "hc_21_kept_step_is_input_R_T5",
+    "lobby_R_T1",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T1",
+    "reservoir_R_T1",
+    "ring_buffer_R_T1",
+    "ring_buffer_R_T5",
+    "s1_guard_trap_keeps_R_T5",
+    "session_R_T5",
+    "t59_distinguish_mod5_mod4_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T1",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "IonQ|extension|alternative": {
+   "requested": 121,
+   "admitted": 66,
+   "admitted_and_runnable": 66,
+   "shots": 33000,
+   "two_qubit_gate_shots": 4952000,
+   "requested_two_qubit_gate_shots": 28831500,
+   "by_group": {
+    "aim1_qaoa": 66
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_20_0_p2_cold",
+    "A_20_0_p2_warm",
+    "A_20_0_p3_cold",
+    "A_20_0_p3_warm",
+    "A_24_0_p2_cold",
+    "A_24_0_p2_warm",
+    "A_24_0_p3_cold",
+    "A_24_0_p3_warm",
+    "A_32_0_p2_cold",
+    "A_32_0_p2_warm",
+    "A_32_0_p3_cold",
+    "A_32_0_p3_warm",
+    "D_20_0_p2_cold",
+    "D_20_0_p2_warm",
+    "D_20_0_p3_cold",
+    "D_20_0_p3_warm",
+    "D_24_0_p2_cold",
+    "D_24_0_p2_warm",
+    "D_24_0_p3_cold",
+    "D_24_0_p3_warm",
+    "D_32_0_p2_cold",
+    "D_32_0_p2_warm",
+    "D_32_0_p3_cold",
+    "D_32_0_p3_warm",
+    "R_30_0_p3_cold",
+    "R_30_0_p3_warm",
+    "account_R_T1",
+    "card_R_T1",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "door_R_T5",
+    "flag_walls_R_T1",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "hc_21_kept_step_is_input_R_T5",
+    "lobby_R_T1",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T1",
+    "reservoir_R_T1",
+    "ring_buffer_R_T1",
+    "ring_buffer_R_T5",
+    "s1_guard_trap_keeps_R_T5",
+    "session_R_T5",
+    "t59_distinguish_mod5_mod4_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T1",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "IonQ|extension|most_favourable": {
+   "requested": 121,
+   "admitted": 71,
+   "admitted_and_runnable": 71,
+   "shots": 35500,
+   "two_qubit_gate_shots": 5878500,
+   "requested_two_qubit_gate_shots": 28831500,
+   "by_group": {
+    "aim1_qaoa": 70,
+    "aim2": 1
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_20_0_p3_cold",
+    "A_20_0_p3_warm",
+    "A_24_0_p2_cold",
+    "A_24_0_p2_warm",
+    "A_24_0_p3_cold",
+    "A_24_0_p3_warm",
+    "A_32_0_p2_cold",
+    "A_32_0_p2_warm",
+    "A_32_0_p3_cold",
+    "A_32_0_p3_warm",
+    "D_20_0_p3_cold",
+    "D_20_0_p3_warm",
+    "D_24_0_p2_cold",
+    "D_24_0_p2_warm",
+    "D_24_0_p3_cold",
+    "D_24_0_p3_warm",
+    "D_32_0_p2_cold",
+    "D_32_0_p2_warm",
+    "D_32_0_p3_cold",
+    "D_32_0_p3_warm",
+    "R_30_0_p3_cold",
+    "R_30_0_p3_warm",
+    "account_R_T1",
+    "card_R_T1",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "door_R_T5",
+    "flag_walls_R_T1",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "hc_21_kept_step_is_input_R_T5",
+    "lobby_R_T1",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T1",
+    "reservoir_R_T1",
+    "ring_buffer_R_T1",
+    "ring_buffer_R_T5",
+    "s1_guard_trap_keeps_R_T5",
+    "session_R_T5",
+    "t59_distinguish_mod5_mod4_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "IonQ|extension|figure": {
+   "requested": 121,
+   "admitted": 24,
+   "admitted_and_runnable": 24,
+   "shots": 12000,
+   "two_qubit_gate_shots": 927000,
+   "requested_two_qubit_gate_shots": 28831500,
+   "by_group": {
+    "aim1_qaoa": 24
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_12_0_p2_cold",
+    "A_12_0_p2_warm",
+    "A_12_0_p3_cold",
+    "A_12_0_p3_warm",
+    "A_16_0_p2_cold",
+    "A_16_0_p2_warm",
+    "A_16_0_p3_cold",
+    "A_16_0_p3_warm",
+    "A_20_0_p2_cold",
+    "A_20_0_p2_warm",
+    "A_20_0_p3_cold",
+    "A_20_0_p3_warm",
+    "A_24_0_p2_cold",
+    "A_24_0_p2_warm",
+    "A_24_0_p3_cold",
+    "A_24_0_p3_warm",
+    "A_32_0_p2_cold",
+    "A_32_0_p2_warm",
+    "A_32_0_p3_cold",
+    "A_32_0_p3_warm",
+    "B_16_0_p3_cold",
+    "B_16_0_p3_warm",
+    "B_20_0_p2_cold",
+    "B_20_0_p2_warm",
+    "B_20_0_p3_cold",
+    "B_20_0_p3_warm",
+    "C_18_0_p3_cold",
+    "C_18_0_p3_warm",
+    "C_24_0_p2_cold",
+    "C_24_0_p2_warm",
+    "C_24_0_p3_cold",
+    "C_24_0_p3_warm",
+    "C_30_0_p2_cold",
+    "C_30_0_p2_warm",
+    "C_30_0_p3_cold",
+    "C_30_0_p3_warm",
+    "D_12_0_p2_cold",
+    "D_12_0_p2_warm",
+    "D_12_0_p3_cold",
+    "D_12_0_p3_warm",
+    "D_16_0_p2_cold",
+    "D_16_0_p2_warm",
+    "D_16_0_p3_cold",
+    "D_16_0_p3_warm",
+    "D_20_0_p2_cold",
+    "D_20_0_p2_warm",
+    "D_20_0_p3_cold",
+    "D_20_0_p3_warm",
+    "D_24_0_p2_cold",
+    "D_24_0_p2_warm",
+    "D_24_0_p3_cold",
+    "D_24_0_p3_warm",
+    "D_32_0_p2_cold",
+    "D_32_0_p2_warm",
+    "D_32_0_p3_cold",
+    "D_32_0_p3_warm",
+    "R_16_0_p3_cold",
+    "R_16_0_p3_warm",
+    "R_20_0_p3_cold",
+    "R_20_0_p3_warm",
+    "R_24_0_p2_cold",
+    "R_24_0_p2_warm",
+    "R_24_0_p3_cold",
+    "R_24_0_p3_warm",
+    "R_30_0_p2_cold",
+    "R_30_0_p2_warm",
+    "R_30_0_p3_cold",
+    "R_30_0_p3_warm",
+    "account_R_T1",
+    "card_R_T1",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "door_R_T5",
+    "flag_walls_R_T1",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "hc_21_kept_step_is_input_R_T5",
+    "lobby_R_T1",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T1",
+    "reservoir_R_T1",
+    "ring_buffer_R_T1",
+    "ring_buffer_R_T5",
+    "s1_guard_trap_keeps_R_T5",
+    "session_R_T5",
+    "t59_distinguish_mod5_mod4_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T1",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "IonQ|extension|emulator": {
+   "requested": 121,
+   "admitted": 24,
+   "admitted_and_runnable": 24,
+   "shots": 12000,
+   "two_qubit_gate_shots": 927000,
+   "requested_two_qubit_gate_shots": 28831500,
+   "by_group": {
+    "aim1_qaoa": 24
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_12_0_p2_cold",
+    "A_12_0_p2_warm",
+    "A_12_0_p3_cold",
+    "A_12_0_p3_warm",
+    "A_16_0_p2_cold",
+    "A_16_0_p2_warm",
+    "A_16_0_p3_cold",
+    "A_16_0_p3_warm",
+    "A_20_0_p2_cold",
+    "A_20_0_p2_warm",
+    "A_20_0_p3_cold",
+    "A_20_0_p3_warm",
+    "A_24_0_p2_cold",
+    "A_24_0_p2_warm",
+    "A_24_0_p3_cold",
+    "A_24_0_p3_warm",
+    "A_32_0_p2_cold",
+    "A_32_0_p2_warm",
+    "A_32_0_p3_cold",
+    "A_32_0_p3_warm",
+    "B_16_0_p3_cold",
+    "B_16_0_p3_warm",
+    "B_20_0_p2_cold",
+    "B_20_0_p2_warm",
+    "B_20_0_p3_cold",
+    "B_20_0_p3_warm",
+    "C_18_0_p3_cold",
+    "C_18_0_p3_warm",
+    "C_24_0_p2_cold",
+    "C_24_0_p2_warm",
+    "C_24_0_p3_cold",
+    "C_24_0_p3_warm",
+    "C_30_0_p2_cold",
+    "C_30_0_p2_warm",
+    "C_30_0_p3_cold",
+    "C_30_0_p3_warm",
+    "D_12_0_p2_cold",
+    "D_12_0_p2_warm",
+    "D_12_0_p3_cold",
+    "D_12_0_p3_warm",
+    "D_16_0_p2_cold",
+    "D_16_0_p2_warm",
+    "D_16_0_p3_cold",
+    "D_16_0_p3_warm",
+    "D_20_0_p2_cold",
+    "D_20_0_p2_warm",
+    "D_20_0_p3_cold",
+    "D_20_0_p3_warm",
+    "D_24_0_p2_cold",
+    "D_24_0_p2_warm",
+    "D_24_0_p3_cold",
+    "D_24_0_p3_warm",
+    "D_32_0_p2_cold",
+    "D_32_0_p2_warm",
+    "D_32_0_p3_cold",
+    "D_32_0_p3_warm",
+    "R_16_0_p3_cold",
+    "R_16_0_p3_warm",
+    "R_20_0_p3_cold",
+    "R_20_0_p3_warm",
+    "R_24_0_p2_cold",
+    "R_24_0_p2_warm",
+    "R_24_0_p3_cold",
+    "R_24_0_p3_warm",
+    "R_30_0_p2_cold",
+    "R_30_0_p2_warm",
+    "R_30_0_p3_cold",
+    "R_30_0_p3_warm",
+    "account_R_T1",
+    "card_R_T1",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "door_R_T5",
+    "flag_walls_R_T1",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "hc_21_kept_step_is_input_R_T5",
+    "lobby_R_T1",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T1",
+    "reservoir_R_T1",
+    "ring_buffer_R_T1",
+    "ring_buffer_R_T5",
+    "s1_guard_trap_keeps_R_T5",
+    "session_R_T5",
+    "t59_distinguish_mod5_mod4_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T1",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "IonQ|extension|mid_circuit_unsupported": 14,
+  "Quantinuum|core|published": {
+   "requested": 93,
+   "admitted": 77,
+   "admitted_and_runnable": 77,
+   "shots": 15400,
+   "hqc": 4436,
+   "requested_hqc": 15861,
+   "by_group": {
+    "aim2": 71,
+    "family_E": 2,
+    "family_F_targets": 4
+   },
+   "dropped": [
+    "4x6_p1_U4.0",
+    "4x6_p1_U8.0",
+    "4x6_p2_U4.0",
+    "4x6_p2_U8.0",
+    "6x6_p1_U4.0",
+    "6x6_p1_U8.0",
+    "6x6_p2_U4.0",
+    "6x6_p2_U8.0",
+    "A_60_0_p1_cold",
+    "A_60_0_p1_warm",
+    "BeH2 stretched",
+    "H2O stretched",
+    "H6 chain broken",
+    "H6 chain stretched",
+    "LABS_16_p1",
+    "LABS_20_p1"
+   ]
+  },
+  "Quantinuum|core|alternative": {
+   "requested": 93,
+   "admitted": 76,
+   "admitted_and_runnable": 76,
+   "shots": 15200,
+   "hqc": 4235,
+   "requested_hqc": 15861,
+   "by_group": {
+    "aim2": 71,
+    "family_E": 1,
+    "family_F_targets": 4
+   },
+   "dropped": [
+    "4x6_p1_U4.0",
+    "4x6_p1_U8.0",
+    "4x6_p2_U4.0",
+    "4x6_p2_U8.0",
+    "6x6_p1_U4.0",
+    "6x6_p1_U8.0",
+    "6x6_p2_U4.0",
+    "6x6_p2_U8.0",
+    "A_60_0_p1_cold",
+    "A_60_0_p1_warm",
+    "BeH2 stretched",
+    "H2O stretched",
+    "H6 chain broken",
+    "H6 chain stretched",
+    "LABS_12_p1",
+    "LABS_16_p1",
+    "LABS_20_p1"
+   ]
+  },
+  "Quantinuum|core|most_favourable": {
+   "requested": 93,
+   "admitted": 82,
+   "admitted_and_runnable": 82,
+   "shots": 16400,
+   "hqc": 7351,
+   "requested_hqc": 15861,
+   "by_group": {
+    "aim1_qaoa": 2,
+    "aim2": 71,
+    "family_E": 3,
+    "family_F_hubbard": 2,
+    "family_F_targets": 4
+   },
+   "dropped": [
+    "4x6_p1_U4.0",
+    "4x6_p1_U8.0",
+    "4x6_p2_U4.0",
+    "4x6_p2_U8.0",
+    "6x6_p2_U4.0",
+    "6x6_p2_U8.0",
+    "BeH2 stretched",
+    "H2O stretched",
+    "H6 chain broken",
+    "H6 chain stretched",
+    "LABS_20_p1"
+   ]
+  },
+  "Quantinuum|core|figure": {
+   "requested": 93,
+   "admitted": 72,
+   "admitted_and_runnable": 72,
+   "shots": 14400,
+   "hqc": 2695,
+   "requested_hqc": 15861,
+   "by_group": {
+    "aim2": 71,
+    "family_E": 1
+   },
+   "dropped": [
+    "4x6_p1_U4.0",
+    "4x6_p1_U8.0",
+    "4x6_p2_U4.0",
+    "4x6_p2_U8.0",
+    "6x6_p1_U4.0",
+    "6x6_p1_U8.0",
+    "6x6_p2_U4.0",
+    "6x6_p2_U8.0",
+    "A_60_0_p1_cold",
+    "A_60_0_p1_warm",
+    "BeH2 stretched",
+    "H2O stretched",
+    "H6 chain broken",
+    "H6 chain stretched",
+    "LABS_12_p1",
+    "LABS_16_p1",
+    "LABS_20_p1",
+    "PuO2_eq",
+    "PuO2_stretched",
+    "UO22p_eq",
+    "UO22p_stretched"
+   ]
+  },
+  "Quantinuum|core|mid_circuit_unsupported": 0,
+  "Quantinuum|extension|published": {
+   "requested": 82,
+   "admitted": 47,
+   "admitted_and_runnable": 47,
+   "shots": 9400,
+   "hqc": 10404,
+   "requested_hqc": 33067,
+   "by_group": {
+    "aim1_qaoa": 31,
+    "aim2": 16
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_40_0_p2_cold",
+    "D_40_0_p2_cold",
+    "D_40_0_p2_warm",
+    "D_60_0_p1_cold",
+    "D_60_0_p1_warm",
+    "R_60_0_p3_cold",
+    "R_60_0_p3_warm",
+    "account_R_T1",
+    "account_R_T3",
+    "card_R_T3",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "crossing_R_T3",
+    "flag_walls_R_T3",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "lobby_R_T3",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T3",
+    "reservoir_R_T1",
+    "ring_buffer_R_T3",
+    "ring_buffer_R_T5",
+    "session_R_T3",
+    "session_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T3",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "Quantinuum|extension|alternative": {
+   "requested": 82,
+   "admitted": 32,
+   "admitted_and_runnable": 32,
+   "shots": 6400,
+   "hqc": 6337,
+   "requested_hqc": 33067,
+   "by_group": {
+    "aim1_qaoa": 27,
+    "aim2": 5
+   },
+   "dropped": [
+    "03_distributed_accept_R_T3",
+    "03_distributed_accept_R_T5",
+    "A_40_0_p2_cold",
+    "A_40_0_p2_warm",
+    "C_60_0_p3_cold",
+    "C_60_0_p3_warm",
+    "D_40_0_p2_cold",
+    "D_40_0_p2_warm",
+    "D_60_0_p1_cold",
+    "D_60_0_p1_warm",
+    "R_40_0_p3_cold",
+    "R_60_0_p3_cold",
+    "R_60_0_p3_warm",
+    "account_R_T1",
+    "account_R_T3",
+    "card_R_T1",
+    "card_R_T3",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T3",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "crossing_R_T3",
+    "flag_walls_R_T1",
+    "flag_walls_R_T3",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "hc_21_kept_step_is_input_R_T5",
+    "lobby_R_T1",
+    "lobby_R_T3",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T1",
+    "reconcile_R_T3",
+    "reservoir_R_T1",
+    "ring_buffer_R_T1",
+    "ring_buffer_R_T3",
+    "ring_buffer_R_T5",
+    "s1_guard_trap_keeps_R_T5",
+    "session_R_T3",
+    "session_R_T5",
+    "t59_distinguish_mod5_mod4_R_T5",
+    "t62_dependent_differ_R_T3",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T3",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "Quantinuum|extension|most_favourable": {
+   "requested": 82,
+   "admitted": 61,
+   "admitted_and_runnable": 61,
+   "shots": 12200,
+   "hqc": 17322,
+   "requested_hqc": 33067,
+   "by_group": {
+    "aim1_qaoa": 38,
+    "aim2": 23
+   },
+   "dropped": [
+    "account_R_T3",
+    "card_R_T3",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T3",
+    "flag_walls_R_T3",
+    "flag_walls_R_T5",
+    "lobby_R_T3",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "reconcile_R_T3",
+    "reservoir_R_T1",
+    "ring_buffer_R_T3",
+    "ring_buffer_R_T5",
+    "session_R_T5",
+    "t62_independent_commute_R_T3",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "Quantinuum|extension|figure": {
+   "requested": 82,
+   "admitted": 37,
+   "admitted_and_runnable": 37,
+   "shots": 7400,
+   "hqc": 7317,
+   "requested_hqc": 33067,
+   "by_group": {
+    "aim1_qaoa": 21,
+    "aim2": 16
+   },
+   "dropped": [
+    "03_distributed_accept_R_T5",
+    "A_40_0_p2_cold",
+    "A_40_0_p2_warm",
+    "B_60_0_p1_cold",
+    "B_60_0_p1_warm",
+    "C_42_0_p3_cold",
+    "C_60_0_p3_cold",
+    "C_60_0_p3_warm",
+    "D_40_0_p2_cold",
+    "D_40_0_p2_warm",
+    "D_60_0_p1_cold",
+    "D_60_0_p1_warm",
+    "R_40_0_p3_cold",
+    "R_40_0_p3_warm",
+    "R_60_0_p2_cold",
+    "R_60_0_p2_warm",
+    "R_60_0_p3_cold",
+    "R_60_0_p3_warm",
+    "account_R_T1",
+    "account_R_T3",
+    "card_R_T3",
+    "card_R_T5",
+    "climate_R_T1",
+    "counter_R_T5",
+    "crossing_R_T1",
+    "crossing_R_T3",
+    "flag_walls_R_T3",
+    "flag_walls_R_T5",
+    "handshake_R_T1",
+    "lobby_R_T3",
+    "lobby_R_T5",
+    "parking_R_T1",
+    "player_R_T1",
+    "printer_R_T1",
+    "queue_sim_R_T5",
+    "reconcile_R_T3",
+    "reservoir_R_T1",
+    "ring_buffer_R_T3",
+    "ring_buffer_R_T5",
+    "session_R_T3",
+    "session_R_T5",
+    "t62_dependent_differ_R_T5",
+    "t62_independent_commute_R_T3",
+    "t62_independent_commute_R_T5",
+    "vending_R_T1"
+   ]
+  },
+  "Quantinuum|extension|mid_circuit_unsupported": 0
+ },
+ "rule_crossing_IonQ": {
+  "median_visible_loss_per_rzz": 0.004937545412674269,
+  "n30_at_median": 243.84034968255725
+ },
+ "rule_crossing_Quantinuum": {
+  "median_visible_loss_per_rzz": 0.001588239719541146,
+  "n30_at_median": 758.0548359210136
+ }
+}

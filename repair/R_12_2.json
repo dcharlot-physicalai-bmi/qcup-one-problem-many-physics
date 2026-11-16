@@ -1,0 +1,41 @@
+{
+ "tag": "R_12_2",
+ "source": "book/listings/ch05/door.rce",
+ "source_sha256": "4a0d172150fa129c5a78f1873a56e0bca18a6d7ef63bd240558d8623faf253a3",
+ "states": 3,
+ "events": [
+  "Open",
+  "Close",
+  "Lock",
+  "Unlock"
+ ],
+ "suspect_entries": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   2,
+   0
+  ]
+ ],
+ "faults_injected": 1,
+ "tests": 48,
+ "tests_passed_by_faulty_program": 41,
+ "tests_passed_by_optimum": 48,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 1,
+ "lambda": 11.0,
+ "mu": 0.25,
+ "qubo_optimum": -4.340909090909091,
+ "ising_offset": 0.43181818181818166
+}

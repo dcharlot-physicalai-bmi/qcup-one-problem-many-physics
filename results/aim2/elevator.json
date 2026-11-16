@@ -1,0 +1,601 @@
+[
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 11080,
+   "two_qubit_depth": 8459,
+   "depth": 25452,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 3517,
+   "two_qubit_depth": 3250,
+   "depth": 9465,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 11080,
+   "two_qubit_depth": 8459,
+   "depth": 25452,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 3517,
+   "two_qubit_depth": 3250,
+   "depth": 9465,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 10062
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 18,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 18661,
+   "two_qubit_depth": 14184,
+   "depth": 44398
+  },
+  "ion_like": {
+   "two_qubit_gates": 6846,
+   "two_qubit_depth": 6342,
+   "depth": 18456
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 11,
+  "resets": 4,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 22337,
+   "two_qubit_depth": 17076,
+   "depth": 51179,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 7034,
+   "two_qubit_depth": 6537,
+   "depth": 19043,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 20126
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 25,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 28193,
+   "two_qubit_depth": 21162,
+   "depth": 66175
+  },
+  "ion_like": {
+   "two_qubit_gates": 10175,
+   "two_qubit_depth": 9396,
+   "depth": 27325
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 11,
+  "resets": 8,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 34023,
+   "two_qubit_depth": 26011,
+   "depth": 77560,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 10551,
+   "two_qubit_depth": 9787,
+   "depth": 28506,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 30188
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 32,
+  "resets": 0,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 38029,
+   "two_qubit_depth": 28313,
+   "depth": 88202
+  },
+  "ion_like": {
+   "two_qubit_gates": 13504,
+   "two_qubit_depth": 12450,
+   "depth": 36194
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 11,
+  "resets": 12,
+  "overwritten_bits": 16,
+  "logical_erasure_bits": 1.0,
+  "reference_trace": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 44783,
+   "two_qubit_depth": 34156,
+   "depth": 103021,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 14068,
+   "two_qubit_depth": 13074,
+   "depth": 38084,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 40250
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   0,
+   0,
+   3
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 39,
+  "resets": 0,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 47550,
+   "two_qubit_depth": 35140,
+   "depth": 110115
+  },
+  "ion_like": {
+   "two_qubit_gates": 16833,
+   "two_qubit_depth": 15504,
+   "depth": 45064
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   2,
+   1,
+   0,
+   0,
+   3
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 11,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 56606,
+   "two_qubit_depth": 43054,
+   "depth": 129221,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 17585,
+   "two_qubit_depth": 16324,
+   "depth": 47547,
+   "noiseless_trace_ok": true
+  },
+  "guppy_gates": 50316,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 48083,
+   "active_qubits": 16,
+   "depth": 113535
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 47444,
+   "active_qubits": 11,
+   "depth": 112332
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   1,
+   4,
+   3,
+   2,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 11,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 3.0,
+  "reference_trace": [
+   0,
+   0,
+   0,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 56606,
+   "two_qubit_depth": 43054,
+   "depth": 129224,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 17585,
+   "two_qubit_depth": 16324,
+   "depth": 47548,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   0,
+   2,
+   2,
+   2,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 11,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   1,
+   1,
+   1,
+   1,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 56606,
+   "two_qubit_depth": 43054,
+   "depth": 129217,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 17585,
+   "two_qubit_depth": 16324,
+   "depth": 47547,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   4,
+   1,
+   2,
+   1,
+   4
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 11,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 2.0,
+  "reference_trace": [
+   0,
+   0,
+   2,
+   2,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 56606,
+   "two_qubit_depth": 43054,
+   "depth": 129222,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 17585,
+   "two_qubit_depth": 16324,
+   "depth": 47547,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "elevator",
+  "source": "programs/multi/elevator.rce",
+  "kind": "exact",
+  "states": 12,
+  "events": 5,
+  "state_bits": 4,
+  "event_bits": 3,
+  "anf_terms": 222,
+  "anf_literals": 830,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   0,
+   2,
+   4,
+   4,
+   2
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 11,
+  "resets": 16,
+  "overwritten_bits": 20,
+  "logical_erasure_bits": 4.0,
+  "reference_trace": [
+   1,
+   1,
+   5,
+   5,
+   8
+  ],
+  "sc_like": {
+   "two_qubit_gates": 56606,
+   "two_qubit_depth": 43054,
+   "depth": 129219,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 17585,
+   "two_qubit_depth": 16324,
+   "depth": 47547,
+   "noiseless_trace_ok": true
+  }
+ }
+]

@@ -1,0 +1,290 @@
+[
+ {
+  "case": "FeO_eq",
+  "system": "FeO",
+  "setting": "orbit",
+  "geometry": "eq",
+  "bond_angstrom": 1.62,
+  "charge": 0,
+  "two_S": 4,
+  "avas": [
+   "Fe 3d",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1336.9231337660449,
+  "rohf_lowered_by_stability_mha": 0.0,
+  "orbitals": 8,
+  "electrons": [
+   8,
+   4
+  ],
+  "qubits": 16,
+  "hamiltonian_bytes_compressed": 11006,
+  "seconds": 0.8
+ },
+ {
+  "case": "FeO_stretched",
+  "system": "FeO",
+  "setting": "orbit",
+  "geometry": "stretched",
+  "bond_angstrom": 2.268,
+  "charge": 0,
+  "two_S": 4,
+  "avas": [
+   "Fe 3d",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1336.882739247047,
+  "rohf_lowered_by_stability_mha": 0.0,
+  "orbitals": 9,
+  "electrons": [
+   8,
+   4
+  ],
+  "qubits": 18,
+  "hamiltonian_bytes_compressed": 16681,
+  "seconds": 0.7
+ },
+ {
+  "case": "MnO_eq",
+  "system": "MnO",
+  "setting": "orbit",
+  "geometry": "eq",
+  "bond_angstrom": 1.65,
+  "charge": 0,
+  "two_S": 5,
+  "avas": [
+   "Mn 3d",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1224.3554906863114,
+  "rohf_lowered_by_stability_mha": 161.27902585640186,
+  "orbitals": 9,
+  "electrons": [
+   8,
+   3
+  ],
+  "qubits": 18,
+  "hamiltonian_bytes_compressed": 17188,
+  "seconds": 2.0
+ },
+ {
+  "case": "MnO_stretched",
+  "system": "MnO",
+  "setting": "orbit",
+  "geometry": "stretched",
+  "bond_angstrom": 2.31,
+  "charge": 0,
+  "two_S": 5,
+  "avas": [
+   "Mn 3d",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1224.2861479502271,
+  "rohf_lowered_by_stability_mha": 37.567419402421365,
+  "orbitals": 9,
+  "electrons": [
+   8,
+   3
+  ],
+  "qubits": 18,
+  "hamiltonian_bytes_compressed": 17598,
+  "seconds": 1.4
+ },
+ {
+  "case": "NiO_eq",
+  "system": "NiO",
+  "setting": "orbit",
+  "geometry": "eq",
+  "bond_angstrom": 1.63,
+  "charge": 0,
+  "two_S": 2,
+  "avas": [
+   "Ni 3d",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1581.2926241568698,
+  "rohf_lowered_by_stability_mha": 0.0,
+  "orbitals": 9,
+  "electrons": [
+   8,
+   6
+  ],
+  "qubits": 18,
+  "hamiltonian_bytes_compressed": 17308,
+  "seconds": 3.1
+ },
+ {
+  "case": "NiO_stretched",
+  "system": "NiO",
+  "setting": "orbit",
+  "geometry": "stretched",
+  "bond_angstrom": 2.282,
+  "charge": 0,
+  "two_S": 2,
+  "avas": [
+   "Ni 3d",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1581.283634470718,
+  "rohf_lowered_by_stability_mha": 39.02264427506452,
+  "orbitals": 8,
+  "electrons": [
+   8,
+   6
+  ],
+  "qubits": 16,
+  "hamiltonian_bytes_compressed": 10848,
+  "seconds": 3.5
+ },
+ {
+  "case": "FeS_eq",
+  "system": "FeS",
+  "setting": "undersea",
+  "geometry": "eq",
+  "bond_angstrom": 2.02,
+  "charge": 0,
+  "two_S": 4,
+  "avas": [
+   "Fe 3d",
+   "S 3p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1659.6177005206719,
+  "rohf_lowered_by_stability_mha": 183.8729559131025,
+  "orbitals": 8,
+  "electrons": [
+   8,
+   4
+  ],
+  "qubits": 16,
+  "hamiltonian_bytes_compressed": 10695,
+  "seconds": 5.2
+ },
+ {
+  "case": "FeS_stretched",
+  "system": "FeS",
+  "setting": "undersea",
+  "geometry": "stretched",
+  "bond_angstrom": 2.828,
+  "charge": 0,
+  "two_S": 4,
+  "avas": [
+   "Fe 3d",
+   "S 3p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -1659.4216112151473,
+  "rohf_lowered_by_stability_mha": 2.658560051713721,
+  "orbitals": 8,
+  "electrons": [
+   7,
+   3
+  ],
+  "qubits": 16,
+  "hamiltonian_bytes_compressed": 10789,
+  "seconds": 2.0
+ },
+ {
+  "case": "UO22p_eq",
+  "system": "UO2(2+)",
+  "setting": "hazard",
+  "geometry": "eq",
+  "bond_angstrom": 1.7,
+  "charge": 2,
+  "two_S": 0,
+  "avas": [
+   "U 5f",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -199.6394077798164,
+  "rohf_lowered_by_stability_mha": 321.75572597998325,
+  "orbitals": 13,
+  "electrons": [
+   6,
+   6
+  ],
+  "qubits": 26,
+  "hamiltonian_bytes_compressed": 117209,
+  "seconds": 20.6
+ },
+ {
+  "case": "UO22p_stretched",
+  "system": "UO2(2+)",
+  "setting": "hazard",
+  "geometry": "stretched",
+  "bond_angstrom": 2.38,
+  "charge": 2,
+  "two_S": 0,
+  "avas": [
+   "U 5f",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -199.1629288121881,
+  "rohf_lowered_by_stability_mha": 25.62001020100979,
+  "orbitals": 12,
+  "electrons": [
+   5,
+   5
+  ],
+  "qubits": 24,
+  "hamiltonian_bytes_compressed": 81810,
+  "seconds": 75.5
+ },
+ {
+  "case": "PuO2_eq",
+  "system": "PuO2",
+  "setting": "hazard",
+  "geometry": "eq",
+  "bond_angstrom": 1.81,
+  "charge": 0,
+  "two_S": 4,
+  "avas": [
+   "Pu 5f",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -219.9395649018966,
+  "rohf_lowered_by_stability_mha": 14.59005434134042,
+  "orbitals": 13,
+  "electrons": [
+   10,
+   6
+  ],
+  "qubits": 26,
+  "hamiltonian_bytes_compressed": 117390,
+  "seconds": 46.0
+ },
+ {
+  "case": "PuO2_stretched",
+  "system": "PuO2",
+  "setting": "hazard",
+  "geometry": "stretched",
+  "bond_angstrom": 2.534,
+  "charge": 0,
+  "two_S": 4,
+  "avas": [
+   "Pu 5f",
+   "O 2p"
+  ],
+  "rohf_converged": true,
+  "e_rohf": -219.5636883162208,
+  "rohf_lowered_by_stability_mha": 0.0,
+  "orbitals": 12,
+  "electrons": [
+   9,
+   5
+  ],
+  "qubits": 24,
+  "hamiltonian_bytes_compressed": 82572,
+  "seconds": 17.4
+ }
+]

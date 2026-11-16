@@ -1,0 +1,8 @@
+[package]
+name = "aim1"
+version = "0.1.0"
+edition = "2024"
+[dependencies]
+ferrotherm = { git = "https://github.com/dcharlot-physicalai-bmi/ferrotherm", rev = "3c47471" }
+[profile.release]
+opt-level = 3

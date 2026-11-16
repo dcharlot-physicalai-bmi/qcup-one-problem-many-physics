@@ -1,0 +1,12 @@
+{
+ "backend": "ibm_marrakesh",
+ "model": "cal_noidle",
+ "results": {
+  "a1-b20-p1-warm": {
+   "score": 0.14133333333333334,
+   "shots": 1500,
+   "se": 0.008994747438448813,
+   "seconds": 2195.9
+  }
+ }
+}

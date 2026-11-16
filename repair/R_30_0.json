@@ -1,0 +1,36 @@
+{
+ "tag": "R_30_0",
+ "source": "programs/multi/parking.rce",
+ "source_sha256": "9818f842603cf5cc18c758a7840a1cba1c04aa2ea5594f50464c051e6f595d65",
+ "states": 10,
+ "events": [
+  "Arrive",
+  "Leave",
+  "Tick"
+ ],
+ "suspect_entries": [
+  [
+   6,
+   2
+  ],
+  [
+   8,
+   0
+  ],
+  [
+   9,
+   0
+  ]
+ ],
+ "faults_injected": 1,
+ "tests": 90,
+ "tests_passed_by_faulty_program": 85,
+ "tests_passed_by_optimum": 90,
+ "optimal_repairs": 1,
+ "optimum_restores_original": true,
+ "edits_in_optimum": 1,
+ "lambda": 8.0,
+ "mu": 0.25,
+ "qubo_optimum": -11.21875,
+ "ising_offset": 45.140625
+}

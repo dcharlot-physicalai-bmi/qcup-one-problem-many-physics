@@ -1,0 +1,6 @@
+[package]
+name = "neuro"
+version = "0.1.0"
+edition = "2024"
+[dependencies]
+ferromorphic = { git = "https://github.com/dcharlot-physicalai-bmi/ferromorphic", rev = "8dabe3a" }

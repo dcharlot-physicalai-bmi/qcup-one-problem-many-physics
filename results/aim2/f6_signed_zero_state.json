@@ -1,0 +1,719 @@
+[
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 1,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1,
+   "two_qubit_depth": 1,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9895,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 1,
+   "two_qubit_depth": 1,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9975,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 2,
+  "resets": 0,
+  "overwritten_bits": 1,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 1,
+   "two_qubit_depth": 1,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9895,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 1,
+   "two_qubit_depth": 1,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9975,
+   "shots": 2000
+  },
+  "guppy_gates": 3
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "P",
+  "qubits": 1,
+  "resets": 0,
+  "overwritten_bits": 1,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 2,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.994,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 2,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9995,
+   "shots": 2000
+  },
+  "guppy_gates": 2
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 3,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2,
+   "two_qubit_depth": 2,
+   "depth": 9,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.975,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 2,
+   "two_qubit_depth": 2,
+   "depth": 9,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9905,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 2,
+  "resets": 1,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 2,
+   "two_qubit_depth": 2,
+   "depth": 10,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.969,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 2,
+   "two_qubit_depth": 2,
+   "depth": 11,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.993,
+   "shots": 2000
+  },
+  "guppy_gates": 7
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "P",
+  "qubits": 1,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 4,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.981,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 4,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.994,
+   "shots": 2000
+  },
+  "guppy_gates": 4
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 4,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 12,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9715,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 12,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.993,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 2,
+  "resets": 2,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 14,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.946,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 3,
+   "two_qubit_depth": 3,
+   "depth": 16,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.989,
+   "shots": 2000
+  },
+  "guppy_gates": 11
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "P",
+  "qubits": 1,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9705,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 6,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.993,
+   "shots": 2000
+  },
+  "guppy_gates": 6
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 5,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4,
+   "two_qubit_depth": 4,
+   "depth": 15,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9525,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 4,
+   "two_qubit_depth": 4,
+   "depth": 15,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.99,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 2,
+  "resets": 3,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 4,
+   "two_qubit_depth": 4,
+   "depth": 18,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.938,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 4,
+   "two_qubit_depth": 4,
+   "depth": 21,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9875,
+   "shots": 2000
+  },
+  "guppy_gates": 15
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "P",
+  "qubits": 1,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 8,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.955,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 8,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.992,
+   "shots": 2000
+  },
+  "guppy_gates": 8
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 6,
+  "resets": 0,
+  "overwritten_bits": 5,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5,
+   "two_qubit_depth": 5,
+   "depth": 18,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.945,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 5,
+   "two_qubit_depth": 5,
+   "depth": 18,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.988,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 2,
+  "resets": 4,
+  "overwritten_bits": 5,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 5,
+   "two_qubit_depth": 5,
+   "depth": 22,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9175,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 5,
+   "two_qubit_depth": 5,
+   "depth": 26,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.983,
+   "shots": 2000
+  },
+  "guppy_gates": 19,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 5,
+   "active_qubits": 2,
+   "depth": 22,
+   "trace_fidelity": 0.945,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 5,
+   "active_qubits": 2,
+   "depth": 24,
+   "trace_fidelity": 0.9685,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "f6_signed_zero_state",
+  "source": "conformance/tests/numbers/targeted/f6-signed-zero-state.rce",
+  "kind": "exact",
+  "states": 2,
+  "events": 1,
+  "state_bits": 1,
+  "event_bits": 0,
+  "anf_terms": 2,
+  "anf_literals": 1,
+  "is_permutation": true,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "P",
+  "qubits": 1,
+  "resets": 0,
+  "overwritten_bits": 5,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 10,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9565,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 0,
+   "two_qubit_depth": 0,
+   "depth": 10,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.991,
+   "shots": 2000
+  },
+  "guppy_gates": 10,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 0,
+   "active_qubits": 1,
+   "depth": 10,
+   "trace_fidelity": 0.971,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 0,
+   "active_qubits": 1,
+   "depth": 10,
+   "trace_fidelity": 0.9885,
+   "shots": 2000
+  }
+ }
+]

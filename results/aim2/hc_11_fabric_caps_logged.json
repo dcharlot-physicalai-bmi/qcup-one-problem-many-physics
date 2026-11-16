@@ -1,0 +1,461 @@
+[
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 6,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 80,
+   "two_qubit_depth": 73,
+   "depth": 254,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.839,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 43,
+   "two_qubit_depth": 39,
+   "depth": 115,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.971,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 6,
+  "resets": 0,
+  "overwritten_bits": 3,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 80,
+   "two_qubit_depth": 73,
+   "depth": 254,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.839,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 43,
+   "two_qubit_depth": 39,
+   "depth": 115,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.971,
+   "shots": 2000
+  },
+  "guppy_gates": 118
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 9,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 160,
+   "two_qubit_depth": 147,
+   "depth": 491,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.653,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 83,
+   "two_qubit_depth": 74,
+   "depth": 214,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9325,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 6,
+  "resets": 3,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 179,
+   "two_qubit_depth": 148,
+   "depth": 517,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.652,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 86,
+   "two_qubit_depth": 78,
+   "depth": 229,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9415,
+   "shots": 2000
+  },
+  "guppy_gates": 239
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 12,
+  "resets": 0,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 254,
+   "two_qubit_depth": 215,
+   "depth": 726,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.49,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 123,
+   "two_qubit_depth": 109,
+   "depth": 313,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9015,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 6,
+  "resets": 6,
+  "overwritten_bits": 9,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3
+  ],
+  "sc_like": {
+   "two_qubit_gates": 273,
+   "two_qubit_depth": 229,
+   "depth": 791,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.52,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 129,
+   "two_qubit_depth": 117,
+   "depth": 343,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8995,
+   "shots": 2000
+  },
+  "guppy_gates": 360
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 15,
+  "resets": 0,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 364,
+   "two_qubit_depth": 297,
+   "depth": 966
+  },
+  "ion_like": {
+   "two_qubit_gates": 163,
+   "two_qubit_depth": 144,
+   "depth": 412
+  }
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 6,
+  "resets": 9,
+  "overwritten_bits": 12,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sc_like": {
+   "two_qubit_gates": 374,
+   "two_qubit_depth": 318,
+   "depth": 1089,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.4135,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 172,
+   "two_qubit_depth": 156,
+   "depth": 457,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8775,
+   "shots": 2000
+  },
+  "guppy_gates": 481
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 18,
+  "resets": 0,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 443,
+   "two_qubit_depth": 372,
+   "depth": 1225
+  },
+  "ion_like": {
+   "two_qubit_gates": 203,
+   "two_qubit_depth": 179,
+   "depth": 511
+  }
+ },
+ {
+  "form": "hc_11_fabric_caps_logged",
+  "source": "conformance/tests/host-contract/targeted/hc-11-fabric-caps-logged.rce",
+  "kind": "truncated to the first 8 reachable states, steps leaving them kept",
+  "states": 8,
+  "events": 1,
+  "state_bits": 3,
+  "event_bits": 0,
+  "anf_terms": 9,
+  "anf_literals": 15,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 6,
+  "resets": 12,
+  "overwritten_bits": 15,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "sc_like": {
+   "two_qubit_gates": 474,
+   "two_qubit_depth": 397,
+   "depth": 1359,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.321,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 215,
+   "two_qubit_depth": 195,
+   "depth": 571,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8585,
+   "shots": 2000
+  },
+  "guppy_gates": 602,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 444,
+   "active_qubits": 6,
+   "depth": 1298,
+   "trace_fidelity": 0.2425,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 454,
+   "active_qubits": 6,
+   "depth": 1328,
+   "trace_fidelity": 0.308,
+   "shots": 2000
+  }
+ }
+]

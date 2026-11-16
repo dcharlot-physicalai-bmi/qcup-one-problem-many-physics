@@ -1,0 +1,7792 @@
+[
+ {
+  "id": "qcup-a1-A12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.64,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38981,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.64,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38981,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 49,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.66,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 39048,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 18.156,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 60803,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 21.774,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 72916,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 21.774,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 72916,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 86,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 22.056,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 73861,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 22.741,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 76156,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 31.907,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 106852,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 31.907,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 106852,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 123,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 32.451,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 108674,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 168,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 33.358,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 111712,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 19.858,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 66501,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 64,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 19.858,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 66501,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 65,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 19.878,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 66568,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 20.503,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 68661,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 38.048,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 127416,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 38.048,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 127416,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 114,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 38.411,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 128631,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 39.338,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 131736,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 128,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 56.238,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 188332,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 56.238,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 188332,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 162,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 56.923,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 190627,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 224,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 58.173,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 194812,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 80,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.415,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 101855,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 80,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.415,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 101855,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 81,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.435,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 101922,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 31.221,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 104555,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 120,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 59.001,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 197584,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 59.001,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 197584,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 142,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 59.444,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 199069,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 200,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 60.613,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 202984,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 160,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 87.587,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 293314,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 87.587,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 293314,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 203,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 88.454,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 296217,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 280,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 90.006,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 301414,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 43.311,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 145043,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 43.311,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 145043,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p1-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 44.279,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 148283,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 144,
+  "2q_gates": 552,
+  "status": 200,
+  "estimated_total_cost": 84.633,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 283421,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 552,
+  "status": 200,
+  "estimated_total_cost": 84.633,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 283421,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p2-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 240,
+  "2q_gates": 552,
+  "status": 200,
+  "estimated_total_cost": 86.568,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 289901,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 192,
+  "2q_gates": 828,
+  "status": 200,
+  "estimated_total_cost": 125.954,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 421799,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 828,
+  "status": 200,
+  "estimated_total_cost": 125.954,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 421799,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A24-p3-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 336,
+  "2q_gates": 828,
+  "status": 200,
+  "estimated_total_cost": 128.856,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 431519,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A32-p1-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 496,
+  "status": 200,
+  "estimated_total_cost": 76.122,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 254921,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A32-p1-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 496,
+  "status": 200,
+  "estimated_total_cost": 77.412,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 259241,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A32-p2-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 992,
+  "status": 200,
+  "estimated_total_cost": 149.932,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 502098,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A32-p2-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 320,
+  "2q_gates": 992,
+  "status": 200,
+  "estimated_total_cost": 152.512,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 510738,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A32-p3-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 256,
+  "2q_gates": 1488,
+  "status": 200,
+  "estimated_total_cost": 223.742,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 749274,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-A32-p3-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 448,
+  "2q_gates": 1488,
+  "status": 200,
+  "estimated_total_cost": 227.612,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 762234,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 39,
+  "status": 200,
+  "estimated_total_cost": 11.348,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38003,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 39,
+  "status": 200,
+  "estimated_total_cost": 11.348,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38003,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 49,
+  "2q_gates": 39,
+  "status": 200,
+  "estimated_total_cost": 11.379,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38107,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 39,
+  "status": 200,
+  "estimated_total_cost": 12.091,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 40492,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 78,
+  "status": 200,
+  "estimated_total_cost": 13.878,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 46476,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 78,
+  "status": 200,
+  "estimated_total_cost": 13.878,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 46476,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 86,
+  "2q_gates": 78,
+  "status": 200,
+  "estimated_total_cost": 21.286,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 71282,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 78,
+  "status": 200,
+  "estimated_total_cost": 22.339,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 74808,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 84,
+  "2q_gates": 117,
+  "status": 200,
+  "estimated_total_cost": 19.822,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 66382,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 117,
+  "status": 200,
+  "estimated_total_cost": 20.064,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67192,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 116,
+  "2q_gates": 107,
+  "status": 200,
+  "estimated_total_cost": 28.729,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 96209,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 168,
+  "2q_gates": 117,
+  "status": 200,
+  "estimated_total_cost": 32.586,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 109124,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 57,
+  "status": 200,
+  "estimated_total_cost": 15.887,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 53203,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 64,
+  "2q_gates": 57,
+  "status": 200,
+  "estimated_total_cost": 15.887,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 53203,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 57,
+  "status": 200,
+  "estimated_total_cost": 15.887,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 53203,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 57,
+  "status": 200,
+  "estimated_total_cost": 16.878,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 56522,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 114,
+  "status": 200,
+  "estimated_total_cost": 19.626,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 65723,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 114,
+  "status": 200,
+  "estimated_total_cost": 19.626,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 65723,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 112,
+  "2q_gates": 114,
+  "status": 200,
+  "estimated_total_cost": 19.948,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 66803,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 114,
+  "status": 200,
+  "estimated_total_cost": 31.664,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 106038,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 128,
+  "2q_gates": 171,
+  "status": 200,
+  "estimated_total_cost": 28.605,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 95792,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 171,
+  "status": 200,
+  "estimated_total_cost": 28.605,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 95792,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 160,
+  "2q_gates": 171,
+  "status": 200,
+  "estimated_total_cost": 29.25,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 97952,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 224,
+  "2q_gates": 171,
+  "status": 200,
+  "estimated_total_cost": 46.45,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 155554,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 80,
+  "2q_gates": 94,
+  "status": 200,
+  "estimated_total_cost": 16.379,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 54850,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 80,
+  "2q_gates": 94,
+  "status": 200,
+  "estimated_total_cost": 16.379,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 54850,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 81,
+  "2q_gates": 94,
+  "status": 200,
+  "estimated_total_cost": 16.399,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 54918,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 94,
+  "status": 200,
+  "estimated_total_cost": 25.933,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 86844,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 120,
+  "2q_gates": 188,
+  "status": 200,
+  "estimated_total_cost": 30.929,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 103575,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 188,
+  "status": 200,
+  "estimated_total_cost": 30.929,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 103575,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 142,
+  "2q_gates": 188,
+  "status": 200,
+  "estimated_total_cost": 31.372,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 105060,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 200,
+  "2q_gates": 188,
+  "status": 200,
+  "estimated_total_cost": 49.526,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 165853,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 160,
+  "2q_gates": 282,
+  "status": 200,
+  "estimated_total_cost": 45.479,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 152301,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 282,
+  "status": 200,
+  "estimated_total_cost": 45.479,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 152301,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 203,
+  "2q_gates": 282,
+  "status": 200,
+  "estimated_total_cost": 46.345,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 155203,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 280,
+  "2q_gates": 282,
+  "status": 200,
+  "estimated_total_cost": 47.898,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 160401,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 136,
+  "status": 200,
+  "estimated_total_cost": 22.842,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 76495,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 136,
+  "status": 200,
+  "estimated_total_cost": 22.842,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 76495,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B24-p1-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 136,
+  "status": 200,
+  "estimated_total_cost": 36.11,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 120928,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B32-p1-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 241,
+  "status": 200,
+  "estimated_total_cost": 38.839,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 130066,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-B32-p1-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 241,
+  "status": 200,
+  "estimated_total_cost": 40.129,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 134386,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 7.979,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 26719,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 7.979,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 26719,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 49,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 8.01,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 26823,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 8.722,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 29208,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.113,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 47262,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.113,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 47262,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 86,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.547,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 48714,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 15.599,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 52240,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 122,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 21.053,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 70502,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 168,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 22.477,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 75272,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p1-cold",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "ionq_counts",
+  "1q_gates": 60,
+  "2q_gates": 30,
+  "status": 200,
+  "estimated_total_cost": 9.698,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 32477,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p1-cold",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "package_counts",
+  "1q_gates": 60,
+  "2q_gates": 30,
+  "status": 200,
+  "estimated_total_cost": 9.698,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 32477,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p1-warm",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "ionq_counts",
+  "1q_gates": 61,
+  "2q_gates": 30,
+  "status": 200,
+  "estimated_total_cost": 9.729,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 32581,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p1-warm",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "package_counts",
+  "1q_gates": 90,
+  "2q_gates": 30,
+  "status": 200,
+  "estimated_total_cost": 10.627,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 35588,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p2-cold",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "ionq_counts",
+  "1q_gates": 90,
+  "2q_gates": 60,
+  "status": 200,
+  "estimated_total_cost": 17.366,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 58156,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p2-cold",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "package_counts",
+  "1q_gates": 90,
+  "2q_gates": 60,
+  "status": 200,
+  "estimated_total_cost": 17.366,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 58156,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p2-warm",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "ionq_counts",
+  "1q_gates": 107,
+  "2q_gates": 60,
+  "status": 200,
+  "estimated_total_cost": 17.892,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 59919,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p2-warm",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "package_counts",
+  "1q_gates": 150,
+  "2q_gates": 60,
+  "status": 200,
+  "estimated_total_cost": 19.224,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 64378,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p3-cold",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "ionq_counts",
+  "1q_gates": 120,
+  "2q_gates": 90,
+  "status": 200,
+  "estimated_total_cost": 25.034,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 83835,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p3-cold",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 90,
+  "status": 200,
+  "estimated_total_cost": 25.034,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 83835,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p3-warm",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "ionq_counts",
+  "1q_gates": 153,
+  "2q_gates": 90,
+  "status": 200,
+  "estimated_total_cost": 26.056,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 87257,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C15-p3-warm",
+  "shots": 500,
+  "qubits": 15,
+  "counts": "package_counts",
+  "1q_gates": 210,
+  "2q_gates": 90,
+  "status": 200,
+  "estimated_total_cost": 27.821,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 93169,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p1-cold",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 11.417,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38235,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p1-cold",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 11.417,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38235,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p1-warm",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 73,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 11.448,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38339,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p1-warm",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 108,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 12.532,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 41969,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p2-cold",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 108,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.619,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 69050,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p2-cold",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 108,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.619,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 69050,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p2-warm",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 128,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 21.238,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 71124,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p2-warm",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 180,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 22.849,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 76517,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p3-cold",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 144,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 29.821,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 99865,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p3-cold",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 29.821,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 99865,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p3-warm",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 183,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 31.028,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 103909,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C18-p3-warm",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 252,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 33.165,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 111065,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.856,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 49751,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.856,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 49751,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p1-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 16.343,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 54729,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 144,
+  "2q_gates": 96,
+  "status": 200,
+  "estimated_total_cost": 27.125,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 90838,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 96,
+  "status": 200,
+  "estimated_total_cost": 27.125,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 90838,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p2-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 240,
+  "2q_gates": 96,
+  "status": 200,
+  "estimated_total_cost": 30.098,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 100793,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 192,
+  "2q_gates": 144,
+  "status": 200,
+  "estimated_total_cost": 39.394,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 131924,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 144,
+  "status": 200,
+  "estimated_total_cost": 39.394,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 131924,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C24-p3-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 336,
+  "2q_gates": 144,
+  "status": 200,
+  "estimated_total_cost": 43.853,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 146858,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C30-p1-cold",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 60,
+  "status": 200,
+  "estimated_total_cost": 18.295,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 61267,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C30-p1-warm",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 180,
+  "2q_gates": 60,
+  "status": 200,
+  "estimated_total_cost": 20.153,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67490,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C30-p2-cold",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 180,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 33.631,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 112625,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C30-p2-warm",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 300,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 37.347,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 125070,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C30-p3-cold",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 240,
+  "2q_gates": 180,
+  "status": 200,
+  "estimated_total_cost": 48.967,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 163983,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-C30-p3-warm",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 420,
+  "2q_gates": 180,
+  "status": 200,
+  "estimated_total_cost": 54.542,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 182651,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 36,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.398,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38171,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 36,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.398,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38171,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.64,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38981,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 60,
+  "2q_gates": 66,
+  "status": 200,
+  "estimated_total_cost": 11.882,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 39791,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 21.29,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 71296,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 21.29,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 71296,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 84,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 22.015,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 73726,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 132,
+  "status": 200,
+  "estimated_total_cost": 22.257,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 74536,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 60,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 31.182,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 104422,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 60,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 31.182,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 104422,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 30.94,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 103612,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 132,
+  "2q_gates": 198,
+  "status": 200,
+  "estimated_total_cost": 32.633,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 109282,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 19.535,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 65421,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 19.535,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 65421,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 19.858,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 66501,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 80,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 20.18,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67581,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 37.403,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 125256,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 64,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 37.403,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 125256,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 112,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 38.37,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 128496,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 240,
+  "status": 200,
+  "estimated_total_cost": 38.693,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 129576,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 80,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 55.271,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 185092,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 80,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 55.271,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 185092,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 160,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 56.883,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 190492,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 176,
+  "2q_gates": 360,
+  "status": 200,
+  "estimated_total_cost": 57.206,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 191572,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 60,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.012,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 100505,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 60,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.012,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 100505,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 80,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.415,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 101855,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 100,
+  "2q_gates": 190,
+  "status": 200,
+  "estimated_total_cost": 30.818,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 103205,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 80,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 58.195,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 194884,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 80,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 58.195,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 194884,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 140,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 59.404,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 198934,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 380,
+  "status": 200,
+  "estimated_total_cost": 59.807,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 200284,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 100,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 86.377,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 289264,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 100,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 86.377,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 289264,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 200,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 88.393,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 296014,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 220,
+  "2q_gates": 570,
+  "status": 200,
+  "estimated_total_cost": 88.796,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 297364,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 42.828,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 143423,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 42.828,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 143423,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p1-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 43.795,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 146663,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 552,
+  "status": 200,
+  "estimated_total_cost": 83.665,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 280181,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 552,
+  "status": 200,
+  "estimated_total_cost": 83.665,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 280181,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p2-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 552,
+  "status": 200,
+  "estimated_total_cost": 85.6,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 286661,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 120,
+  "2q_gates": 828,
+  "status": 200,
+  "estimated_total_cost": 124.503,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 416939,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 828,
+  "status": 200,
+  "estimated_total_cost": 124.503,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 416939,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D24-p3-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 264,
+  "2q_gates": 828,
+  "status": 200,
+  "estimated_total_cost": 127.405,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 426659,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D32-p1-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 496,
+  "status": 200,
+  "estimated_total_cost": 75.477,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 252761,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D32-p1-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 496,
+  "status": 200,
+  "estimated_total_cost": 76.767,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 257081,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D32-p2-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 992,
+  "status": 200,
+  "estimated_total_cost": 148.642,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 497778,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D32-p2-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 256,
+  "2q_gates": 992,
+  "status": 200,
+  "estimated_total_cost": 151.222,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 506418,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D32-p3-cold",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 1488,
+  "status": 200,
+  "estimated_total_cost": 221.807,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 742794,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-D32-p3-warm",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 352,
+  "2q_gates": 1488,
+  "status": 200,
+  "estimated_total_cost": 225.677,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 755754,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 7.979,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 26719,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p1-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 7.979,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 26719,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 49,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 8.01,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 26823,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p1-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 8.722,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 29208,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.113,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 47262,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p2-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.113,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 47262,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 86,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 14.547,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 48714,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p2-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 48,
+  "status": 200,
+  "estimated_total_cost": 15.599,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 52240,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p3-cold",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 123,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 21.084,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 70606,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R12-p3-warm",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 168,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 22.477,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 75272,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 11.17,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 37405,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p1-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 64,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 11.17,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 37405,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 65,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 11.201,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 37509,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p1-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 36,
+  "status": 200,
+  "estimated_total_cost": 12.161,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 40724,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p2-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 114,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.805,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 69672,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p2-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 22.23,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 74443,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 128,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 29.325,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 98206,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p3-cold",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 128,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 29.325,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 98206,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 163,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 30.409,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 101835,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R16-p3-warm",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 224,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 32.298,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 108161,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 80,
+  "2q_gates": 42,
+  "status": 200,
+  "estimated_total_cost": 13.013,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 43578,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p1-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 80,
+  "2q_gates": 42,
+  "status": 200,
+  "estimated_total_cost": 13.013,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 43578,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 81,
+  "2q_gates": 42,
+  "status": 200,
+  "estimated_total_cost": 13.044,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 43682,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p1-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 42,
+  "status": 200,
+  "estimated_total_cost": 14.252,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 47727,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 120,
+  "2q_gates": 84,
+  "status": 200,
+  "estimated_total_cost": 23.686,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 79322,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p2-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 84,
+  "status": 200,
+  "estimated_total_cost": 23.686,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 79322,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 142,
+  "2q_gates": 84,
+  "status": 200,
+  "estimated_total_cost": 24.368,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 81603,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p2-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 200,
+  "2q_gates": 84,
+  "status": 200,
+  "estimated_total_cost": 26.164,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 87618,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 160,
+  "2q_gates": 126,
+  "status": 200,
+  "estimated_total_cost": 34.36,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 115065,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p3-cold",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 160,
+  "2q_gates": 126,
+  "status": 200,
+  "estimated_total_cost": 34.36,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 115065,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 203,
+  "2q_gates": 126,
+  "status": 200,
+  "estimated_total_cost": 35.691,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 119524,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R20-p3-warm",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 280,
+  "2q_gates": 126,
+  "status": 200,
+  "estimated_total_cost": 38.076,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 127510,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p1-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 20.247,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 67805,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p1-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 72,
+  "status": 200,
+  "estimated_total_cost": 21.734,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 72783,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 144,
+  "2q_gates": 144,
+  "status": 200,
+  "estimated_total_cost": 37.908,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 126946,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p2-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 144,
+  "2q_gates": 144,
+  "status": 200,
+  "estimated_total_cost": 37.908,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 126946,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p2-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 240,
+  "2q_gates": 144,
+  "status": 200,
+  "estimated_total_cost": 40.88,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 136902,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "ionq_counts",
+  "1q_gates": 192,
+  "2q_gates": 216,
+  "status": 200,
+  "estimated_total_cost": 36.474,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 122145,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p3-cold",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 192,
+  "2q_gates": 216,
+  "status": 200,
+  "estimated_total_cost": 36.474,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 122145,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R24-p3-warm",
+  "shots": 500,
+  "qubits": 24,
+  "counts": "package_counts",
+  "1q_gates": 336,
+  "2q_gates": 216,
+  "status": 200,
+  "estimated_total_cost": 60.027,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 201021,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R30-p1-cold",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 120,
+  "2q_gates": 141,
+  "status": 200,
+  "estimated_total_cost": 24.057,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 80563,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R30-p1-warm",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 180,
+  "2q_gates": 141,
+  "status": 200,
+  "estimated_total_cost": 38.349,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 128423,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R30-p2-cold",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 180,
+  "2q_gates": 282,
+  "status": 200,
+  "estimated_total_cost": 45.882,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 153651,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R30-p2-warm",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 300,
+  "2q_gates": 282,
+  "status": 200,
+  "estimated_total_cost": 73.738,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 246937,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R30-p3-cold",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 240,
+  "2q_gates": 423,
+  "status": 200,
+  "estimated_total_cost": 67.707,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 226738,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a1-R30-p3-warm",
+  "shots": 500,
+  "qubits": 30,
+  "counts": "package_counts",
+  "1q_gates": 420,
+  "2q_gates": 423,
+  "status": 200,
+  "estimated_total_cost": 71.335,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 238888,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-door-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "ionq_counts",
+  "1q_gates": 280,
+  "2q_gates": 89,
+  "status": 200,
+  "estimated_total_cost": 29.764,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 99676,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-door-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 280,
+  "2q_gates": 89,
+  "status": 200,
+  "estimated_total_cost": 29.764,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 99676,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-door-r-t5",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 1382,
+  "2q_gates": 437,
+  "status": 200,
+  "estimated_total_cost": 142.063,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 475747,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-counter-flag-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 104,
+  "2q_gates": 30,
+  "status": 200,
+  "estimated_total_cost": 11.061,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 37040,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-counter-flag-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 104,
+  "2q_gates": 30,
+  "status": 200,
+  "estimated_total_cost": 11.061,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 37040,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-counter-flag-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 524,
+  "2q_gates": 150,
+  "status": 200,
+  "estimated_total_cost": 51.023,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 170868,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-phase-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "ionq_counts",
+  "1q_gates": 84,
+  "2q_gates": 23,
+  "status": 200,
+  "estimated_total_cost": 8.869,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 29700,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-phase-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 84,
+  "2q_gates": 23,
+  "status": 200,
+  "estimated_total_cost": 8.869,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 29700,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-phase-p-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "ionq_counts",
+  "1q_gates": 55,
+  "2q_gates": 16,
+  "status": 200,
+  "estimated_total_cost": 6.398,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 21427,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-phase-p-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 55,
+  "2q_gates": 16,
+  "status": 200,
+  "estimated_total_cost": 6.398,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 21427,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-phase-r-t5",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 420,
+  "2q_gates": 115,
+  "status": 200,
+  "estimated_total_cost": 39.94,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 133754,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-phase-p-t5",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 275,
+  "2q_gates": 80,
+  "status": 200,
+  "estimated_total_cost": 27.588,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 92387,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-r-t1",
+  "shots": 500,
+  "qubits": 4,
+  "counts": "ionq_counts",
+  "1q_gates": 14,
+  "2q_gates": 3,
+  "status": 200,
+  "estimated_total_cost": 2.208,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 7395,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-r-t1",
+  "shots": 500,
+  "qubits": 4,
+  "counts": "package_counts",
+  "1q_gates": 14,
+  "2q_gates": 3,
+  "status": 200,
+  "estimated_total_cost": 2.208,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 7395,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-p-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "ionq_counts",
+  "1q_gates": 9,
+  "2q_gates": 2,
+  "status": 200,
+  "estimated_total_cost": 1.829,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 6125,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-p-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 9,
+  "2q_gates": 2,
+  "status": 200,
+  "estimated_total_cost": 1.829,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 6125,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-r-t5",
+  "shots": 500,
+  "qubits": 4,
+  "counts": "package_counts",
+  "1q_gates": 70,
+  "2q_gates": 15,
+  "status": 200,
+  "estimated_total_cost": 6.638,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 22230,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-17-traffic-light-accept-p-t5",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 45,
+  "2q_gates": 10,
+  "status": 200,
+  "estimated_total_cost": 4.741,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 15876,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "ionq_counts",
+  "1q_gates": 1,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.043,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3493,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 1,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.043,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3493,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch07-form-bytes-not-rfc8785-r-t5",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 5,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.124,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3763,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "ionq_counts",
+  "1q_gates": 7,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.31,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4387,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 7,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.31,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4387,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch17-callee-requires-at-run-time-r-t5",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 29,
+  "2q_gates": 5,
+  "status": 200,
+  "estimated_total_cost": 3.122,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 10456,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-r-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "ionq_counts",
+  "1q_gates": 5,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.27,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4252,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-r-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 5,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.27,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4252,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-p-t1",
+  "shots": 500,
+  "qubits": 1,
+  "counts": "ionq_counts",
+  "1q_gates": 1,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.043,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3493,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-p-t1",
+  "shots": 500,
+  "qubits": 1,
+  "counts": "package_counts",
+  "1q_gates": 1,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.043,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3493,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-r-t5",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 25,
+  "2q_gates": 5,
+  "status": 200,
+  "estimated_total_cost": 2.998,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 10041,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-f6-signed-zero-state-p-t5",
+  "shots": 500,
+  "qubits": 1,
+  "counts": "package_counts",
+  "1q_gates": 5,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.124,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3763,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "ionq_counts",
+  "1q_gates": 17,
+  "2q_gates": 4,
+  "status": 200,
+  "estimated_total_cost": 2.526,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 8459,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch07-form-injective-f64-r-t1",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "package_counts",
+  "1q_gates": 17,
+  "2q_gates": 4,
+  "status": 200,
+  "estimated_total_cost": 2.526,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 8459,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ch07-form-injective-f64-r-t5",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "package_counts",
+  "1q_gates": 87,
+  "2q_gates": 20,
+  "status": 200,
+  "estimated_total_cost": 8.288,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 27754,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "ionq_counts",
+  "1q_gates": 5,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.27,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4252,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 5,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.27,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4252,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod2-mod3-r-t5",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 25,
+  "2q_gates": 5,
+  "status": 200,
+  "estimated_total_cost": 2.998,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 10041,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "ionq_counts",
+  "1q_gates": 47,
+  "2q_gates": 13,
+  "status": 200,
+  "estimated_total_cost": 5.477,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 18340,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t1",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "package_counts",
+  "1q_gates": 47,
+  "2q_gates": 13,
+  "status": 200,
+  "estimated_total_cost": 5.477,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 18340,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod3-mod4-r-t5",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "package_counts",
+  "1q_gates": 239,
+  "2q_gates": 65,
+  "status": 200,
+  "estimated_total_cost": 23.104,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 77370,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 317,
+  "2q_gates": 99,
+  "status": 200,
+  "estimated_total_cost": 33.157,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 111036,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 317,
+  "2q_gates": 99,
+  "status": 200,
+  "estimated_total_cost": 33.157,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 111036,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t59-distinguish-mod5-mod4-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 1577,
+  "2q_gates": 495,
+  "status": 200,
+  "estimated_total_cost": 161.131,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 539601,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+  "shots": 500,
+  "qubits": 4,
+  "counts": "ionq_counts",
+  "1q_gates": 13,
+  "2q_gates": 3,
+  "status": 200,
+  "estimated_total_cost": 2.177,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 7292,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-r-t1",
+  "shots": 500,
+  "qubits": 4,
+  "counts": "package_counts",
+  "1q_gates": 13,
+  "2q_gates": 3,
+  "status": 200,
+  "estimated_total_cost": 2.177,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 7292,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "ionq_counts",
+  "1q_gates": 6,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.29,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4320,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-p-t1",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 6,
+  "2q_gates": 1,
+  "status": 200,
+  "estimated_total_cost": 1.29,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 4320,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-r-t5",
+  "shots": 500,
+  "qubits": 4,
+  "counts": "package_counts",
+  "1q_gates": 65,
+  "2q_gates": 15,
+  "status": 200,
+  "estimated_total_cost": 6.483,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 21712,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k4-p-t5",
+  "shots": 500,
+  "qubits": 2,
+  "counts": "package_counts",
+  "1q_gates": 30,
+  "2q_gates": 5,
+  "status": 200,
+  "estimated_total_cost": 3.153,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 10559,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "ionq_counts",
+  "1q_gates": 84,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 9.093,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 30452,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 84,
+  "2q_gates": 24,
+  "status": 200,
+  "estimated_total_cost": 9.093,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 30452,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "ionq_counts",
+  "1q_gates": 45,
+  "2q_gates": 13,
+  "status": 200,
+  "estimated_total_cost": 5.415,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 18133,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-p-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 45,
+  "2q_gates": 13,
+  "status": 200,
+  "estimated_total_cost": 5.415,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 18133,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-r-t5",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 420,
+  "2q_gates": 120,
+  "status": 200,
+  "estimated_total_cost": 41.064,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 137515,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t60-dim-redundant-k5-p-t5",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 225,
+  "2q_gates": 65,
+  "status": 200,
+  "estimated_total_cost": 22.67,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 75918,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-thermostat-r-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "ionq_counts",
+  "1q_gates": 1,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.043,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3493,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-thermostat-r-t1",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 1,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.043,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3493,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-thermostat-r-t5",
+  "shots": 500,
+  "qubits": 3,
+  "counts": "package_counts",
+  "1q_gates": 5,
+  "2q_gates": 0,
+  "status": 200,
+  "estimated_total_cost": 1.124,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 3763,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-climate-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "ionq_counts",
+  "1q_gates": 4581,
+  "2q_gates": 1400,
+  "status": 200,
+  "estimated_total_cost": 457.452,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1531932,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-climate-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "package_counts",
+  "1q_gates": 4581,
+  "2q_gates": 1400,
+  "status": 200,
+  "estimated_total_cost": 457.452,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1531932,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-crossing-r-t1",
+  "shots": 500,
+  "qubits": 9,
+  "counts": "ionq_counts",
+  "1q_gates": 1582,
+  "2q_gates": 486,
+  "status": 200,
+  "estimated_total_cost": 159.264,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 533349,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-crossing-r-t1",
+  "shots": 500,
+  "qubits": 9,
+  "counts": "package_counts",
+  "1q_gates": 1582,
+  "2q_gates": 486,
+  "status": 200,
+  "estimated_total_cost": 159.264,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 533349,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-lobby-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1264,
+  "2q_gates": 396,
+  "status": 200,
+  "estimated_total_cost": 129.199,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 432667,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-lobby-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1264,
+  "2q_gates": 396,
+  "status": 200,
+  "estimated_total_cost": 129.199,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 432667,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-lobby-r-t5",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 6314,
+  "2q_gates": 1982,
+  "status": 200,
+  "estimated_total_cost": 641.857,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 2149472,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-parking-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "ionq_counts",
+  "1q_gates": 4232,
+  "2q_gates": 1289,
+  "status": 200,
+  "estimated_total_cost": 421.71,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1412238,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-parking-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "package_counts",
+  "1q_gates": 4232,
+  "2q_gates": 1289,
+  "status": 200,
+  "estimated_total_cost": 421.71,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1412238,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-printer-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "ionq_counts",
+  "1q_gates": 4128,
+  "2q_gates": 1259,
+  "status": 200,
+  "estimated_total_cost": 411.75,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1378884,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-printer-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "package_counts",
+  "1q_gates": 4128,
+  "2q_gates": 1259,
+  "status": 200,
+  "estimated_total_cost": 411.75,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1378884,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-reservoir-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "ionq_counts",
+  "1q_gates": 4877,
+  "2q_gates": 1493,
+  "status": 200,
+  "estimated_total_cost": 487.51,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1632590,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-reservoir-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "package_counts",
+  "1q_gates": 4877,
+  "2q_gates": 1493,
+  "status": 200,
+  "estimated_total_cost": 487.51,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1632590,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-session-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 704,
+  "2q_gates": 215,
+  "status": 200,
+  "estimated_total_cost": 71.198,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 238432,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-session-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 704,
+  "2q_gates": 215,
+  "status": 200,
+  "estimated_total_cost": 71.198,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 238432,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-session-r-t5",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 3481,
+  "2q_gates": 1067,
+  "status": 200,
+  "estimated_total_cost": 348.584,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1167352,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-vending-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "ionq_counts",
+  "1q_gates": 5041,
+  "2q_gates": 1529,
+  "status": 200,
+  "estimated_total_cost": 500.675,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1676679,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-vending-r-t1",
+  "shots": 500,
+  "qubits": 10,
+  "counts": "package_counts",
+  "1q_gates": 5041,
+  "2q_gates": 1529,
+  "status": 200,
+  "estimated_total_cost": 500.675,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1676679,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-washer-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "ionq_counts",
+  "1q_gates": 161,
+  "2q_gates": 50,
+  "status": 200,
+  "estimated_total_cost": 17.319,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 57997,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-washer-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 161,
+  "2q_gates": 50,
+  "status": 200,
+  "estimated_total_cost": 17.319,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 57997,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-washer-r-t5",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 800,
+  "2q_gates": 242,
+  "status": 200,
+  "estimated_total_cost": 80.237,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 268699,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-reconcile-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1522,
+  "2q_gates": 470,
+  "status": 200,
+  "estimated_total_cost": 153.812,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 515091,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-reconcile-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1522,
+  "2q_gates": 470,
+  "status": 200,
+  "estimated_total_cost": 153.812,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 515091,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-equivalent-r-t1",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "ionq_counts",
+  "1q_gates": 35,
+  "2q_gates": 9,
+  "status": 200,
+  "estimated_total_cost": 4.207,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 14087,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-equivalent-r-t1",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "package_counts",
+  "1q_gates": 35,
+  "2q_gates": 9,
+  "status": 200,
+  "estimated_total_cost": 4.207,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 14087,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-equivalent-r-t5",
+  "shots": 500,
+  "qubits": 5,
+  "counts": "package_counts",
+  "1q_gates": 175,
+  "2q_gates": 45,
+  "status": 200,
+  "estimated_total_cost": 16.629,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 55687,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-counter-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 583,
+  "2q_gates": 182,
+  "status": 200,
+  "estimated_total_cost": 60.038,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 201059,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-counter-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 583,
+  "2q_gates": 182,
+  "status": 200,
+  "estimated_total_cost": 60.038,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 201059,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-counter-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 2915,
+  "2q_gates": 910,
+  "status": 200,
+  "estimated_total_cost": 295.789,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 990549,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-account-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1628,
+  "2q_gates": 501,
+  "status": 200,
+  "estimated_total_cost": 164.058,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 549404,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-account-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1628,
+  "2q_gates": 501,
+  "status": 200,
+  "estimated_total_cost": 164.058,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 549404,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-03-distributed-accept-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 453,
+  "2q_gates": 139,
+  "status": 200,
+  "estimated_total_cost": 46.353,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 155230,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-03-distributed-accept-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 453,
+  "2q_gates": 139,
+  "status": 200,
+  "estimated_total_cost": 46.353,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 155230,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-03-distributed-accept-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 2267,
+  "2q_gates": 695,
+  "status": 200,
+  "estimated_total_cost": 227.426,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 761611,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 348,
+  "2q_gates": 106,
+  "status": 200,
+  "estimated_total_cost": 35.689,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 119516,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-s1-guard-trap-keeps-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 348,
+  "2q_gates": 106,
+  "status": 200,
+  "estimated_total_cost": 35.689,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 119516,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-s1-guard-trap-keeps-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 1730,
+  "2q_gates": 530,
+  "status": 200,
+  "estimated_total_cost": 173.731,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 581798,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "ionq_counts",
+  "1q_gates": 143,
+  "2q_gates": 43,
+  "status": 200,
+  "estimated_total_cost": 15.189,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 50864,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-hc-11-fabric-caps-logged-r-t1",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 143,
+  "2q_gates": 43,
+  "status": 200,
+  "estimated_total_cost": 15.189,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 50864,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-hc-11-fabric-caps-logged-r-t5",
+  "shots": 500,
+  "qubits": 6,
+  "counts": "package_counts",
+  "1q_gates": 715,
+  "2q_gates": 215,
+  "status": 200,
+  "estimated_total_cost": 71.539,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 239573,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 361,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 36.541,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 122369,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-hc-21-kept-step-is-input-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 361,
+  "2q_gates": 108,
+  "status": 200,
+  "estimated_total_cost": 36.541,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 122369,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-hc-21-kept-step-is-input-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 1799,
+  "2q_gates": 540,
+  "status": 200,
+  "estimated_total_cost": 178.114,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 596476,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t62-dependent-differ-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 554,
+  "2q_gates": 173,
+  "status": 200,
+  "estimated_total_cost": 57.119,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 191281,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t62-dependent-differ-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 554,
+  "2q_gates": 173,
+  "status": 200,
+  "estimated_total_cost": 57.119,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 191281,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t62-dependent-differ-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 2772,
+  "2q_gates": 865,
+  "status": 200,
+  "estimated_total_cost": 281.252,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 941867,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t62-independent-commute-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1083,
+  "2q_gates": 333,
+  "status": 200,
+  "estimated_total_cost": 109.442,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 366504,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t62-independent-commute-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1083,
+  "2q_gates": 333,
+  "status": 200,
+  "estimated_total_cost": 109.442,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 366504,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-t62-independent-commute-r-t5",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 5409,
+  "2q_gates": 1665,
+  "status": 200,
+  "estimated_total_cost": 542.621,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1817150,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-card-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1195,
+  "2q_gates": 375,
+  "status": 200,
+  "estimated_total_cost": 122.345,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 409714,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-card-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1195,
+  "2q_gates": 375,
+  "status": 200,
+  "estimated_total_cost": 122.345,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 409714,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-card-r-t5",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 5903,
+  "2q_gates": 1855,
+  "status": 200,
+  "estimated_total_cost": 600.6,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 2011311,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-player-r-t1",
+  "shots": 500,
+  "qubits": 9,
+  "counts": "ionq_counts",
+  "1q_gates": 3171,
+  "2q_gates": 973,
+  "status": 200,
+  "estimated_total_cost": 317.869,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1064490,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-player-r-t1",
+  "shots": 500,
+  "qubits": 9,
+  "counts": "package_counts",
+  "1q_gates": 3171,
+  "2q_gates": 973,
+  "status": 200,
+  "estimated_total_cost": 317.869,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1064490,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-handshake-r-t1",
+  "shots": 500,
+  "qubits": 9,
+  "counts": "ionq_counts",
+  "1q_gates": 2584,
+  "2q_gates": 788,
+  "status": 200,
+  "estimated_total_cost": 258.133,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 864446,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-handshake-r-t1",
+  "shots": 500,
+  "qubits": 9,
+  "counts": "package_counts",
+  "1q_gates": 2584,
+  "2q_gates": 788,
+  "status": 200,
+  "estimated_total_cost": 258.133,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 864446,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ring-buffer-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1291,
+  "2q_gates": 399,
+  "status": 200,
+  "estimated_total_cost": 130.709,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 437724,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ring-buffer-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1291,
+  "2q_gates": 399,
+  "status": 200,
+  "estimated_total_cost": 130.709,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 437724,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-ring-buffer-r-t5",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 6443,
+  "2q_gates": 1995,
+  "status": 200,
+  "estimated_total_cost": 648.771,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 2172629,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-queue-sim-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "ionq_counts",
+  "1q_gates": 426,
+  "2q_gates": 130,
+  "status": 200,
+  "estimated_total_cost": 43.496,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 145660,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-queue-sim-r-t1",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 426,
+  "2q_gates": 130,
+  "status": 200,
+  "estimated_total_cost": 43.496,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 145660,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-queue-sim-r-t5",
+  "shots": 500,
+  "qubits": 7,
+  "counts": "package_counts",
+  "1q_gates": 2124,
+  "2q_gates": 650,
+  "status": 200,
+  "estimated_total_cost": 212.889,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 712929,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-flag-walls-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1242,
+  "2q_gates": 386,
+  "status": 200,
+  "estimated_total_cost": 126.272,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 422863,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-flag-walls-r-t1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1242,
+  "2q_gates": 386,
+  "status": 200,
+  "estimated_total_cost": 126.272,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 422863,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-a2-flag-walls-r-t5",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 6136,
+  "2q_gates": 1910,
+  "status": 200,
+  "estimated_total_cost": 620.17,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 2076849,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs8-p1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 316,
+  "2q_gates": 96,
+  "status": 200,
+  "estimated_total_cost": 32.452,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 108675,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs8-p1",
+  "shots": 500,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 318,
+  "2q_gates": 96,
+  "status": 200,
+  "estimated_total_cost": 32.514,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 108883,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs12-p1",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 1143,
+  "2q_gates": 365,
+  "status": 200,
+  "estimated_total_cost": 118.489,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 396799,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs12-p1",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 1137,
+  "2q_gates": 365,
+  "status": 200,
+  "estimated_total_cost": 118.303,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 396176,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs16-p1",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 2756,
+  "2q_gates": 910,
+  "status": 200,
+  "estimated_total_cost": 290.865,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 974060,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs16-p1",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 2756,
+  "2q_gates": 910,
+  "status": 200,
+  "estimated_total_cost": 290.865,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 974060,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs20-p1",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "ionq_counts",
+  "1q_gates": 5681,
+  "2q_gates": 1827,
+  "status": 200,
+  "estimated_total_cost": 587.436,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1967225,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-e-labs20-p1",
+  "shots": 500,
+  "qubits": 20,
+  "counts": "package_counts",
+  "1q_gates": 5442,
+  "2q_gates": 1827,
+  "status": 200,
+  "estimated_total_cost": 580.034,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1942439,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B12-warmT-p1",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 48,
+  "2q_gates": 39,
+  "status": 200,
+  "estimated_total_cost": 11.348,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38003,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B12-warmT-p1",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 48,
+  "2q_gates": 39,
+  "status": 200,
+  "estimated_total_cost": 11.348,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 38003,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B12-warmT-p2",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "ionq_counts",
+  "1q_gates": 72,
+  "2q_gates": 78,
+  "status": 200,
+  "estimated_total_cost": 13.878,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 46476,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B12-warmT-p2",
+  "shots": 500,
+  "qubits": 12,
+  "counts": "package_counts",
+  "1q_gates": 72,
+  "2q_gates": 78,
+  "status": 200,
+  "estimated_total_cost": 13.878,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 46476,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B16-warmT-p1",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 64,
+  "2q_gates": 57,
+  "status": 200,
+  "estimated_total_cost": 15.887,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 53203,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B16-warmT-p1",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 64,
+  "2q_gates": 57,
+  "status": 200,
+  "estimated_total_cost": 15.887,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 53203,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B16-warmT-p2",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 96,
+  "2q_gates": 114,
+  "status": 200,
+  "estimated_total_cost": 19.626,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 65723,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-q7-B16-warmT-p2",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 96,
+  "2q_gates": 114,
+  "status": 200,
+  "estimated_total_cost": 19.626,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 65723,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-h2-n4",
+  "shots": 1000,
+  "qubits": 4,
+  "counts": "ionq_counts",
+  "1q_gates": 79,
+  "2q_gates": 22,
+  "status": 200,
+  "estimated_total_cost": 16.853,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 56437,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-h2-n4",
+  "shots": 1000,
+  "qubits": 4,
+  "counts": "package_counts",
+  "1q_gates": 79,
+  "2q_gates": 22,
+  "status": 200,
+  "estimated_total_cost": 16.853,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 56437,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-h4chain-n8",
+  "shots": 1000,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1018,
+  "2q_gates": 296,
+  "status": 200,
+  "estimated_total_cost": 198.11,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 663437,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-h4chain-n8",
+  "shots": 1000,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1018,
+  "2q_gates": 296,
+  "status": 200,
+  "estimated_total_cost": 198.11,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 663437,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-h4square-n8",
+  "shots": 1000,
+  "qubits": 8,
+  "counts": "ionq_counts",
+  "1q_gates": 1018,
+  "2q_gates": 296,
+  "status": 200,
+  "estimated_total_cost": 198.11,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 663437,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-h4square-n8",
+  "shots": 1000,
+  "qubits": 8,
+  "counts": "package_counts",
+  "1q_gates": 1018,
+  "2q_gates": 296,
+  "status": 200,
+  "estimated_total_cost": 198.11,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 663437,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-lih-n10",
+  "shots": 1000,
+  "qubits": 10,
+  "counts": "ionq_counts",
+  "1q_gates": 918,
+  "2q_gates": 269,
+  "status": 200,
+  "estimated_total_cost": 179.786,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 602073,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-chem-lih-n10",
+  "shots": 1000,
+  "qubits": 10,
+  "counts": "package_counts",
+  "1q_gates": 918,
+  "2q_gates": 269,
+  "status": 200,
+  "estimated_total_cost": 179.786,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 602073,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-hub-4x4-p1-free",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 1668,
+  "2q_gates": 512,
+  "status": 200,
+  "estimated_total_cost": 167.768,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 561827,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-hub-4x4-p2-free",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 2410,
+  "2q_gates": 768,
+  "status": 200,
+  "estimated_total_cost": 248.252,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 831356,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-hub-4x4-p3-free",
+  "shots": 500,
+  "qubits": 32,
+  "counts": "package_counts",
+  "1q_gates": 3152,
+  "2q_gates": 1024,
+  "status": 200,
+  "estimated_total_cost": 328.737,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 1100885,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-feo-eq",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 605,
+  "2q_gates": 172,
+  "status": 200,
+  "estimated_total_cost": 58.473,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 195818,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-feo-eq",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 605,
+  "2q_gates": 172,
+  "status": 200,
+  "estimated_total_cost": 58.473,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 195818,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-feo-stretched",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 917,
+  "2q_gates": 353,
+  "status": 200,
+  "estimated_total_cost": 108.794,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 364334,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-feo-stretched",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 917,
+  "2q_gates": 353,
+  "status": 200,
+  "estimated_total_cost": 108.794,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 364334,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-mno-eq",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 874,
+  "2q_gates": 349,
+  "status": 200,
+  "estimated_total_cost": 106.564,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 356866,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-mno-eq",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 874,
+  "2q_gates": 349,
+  "status": 200,
+  "estimated_total_cost": 106.564,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 356866,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-mno-stretched",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 870,
+  "2q_gates": 349,
+  "status": 200,
+  "estimated_total_cost": 106.44,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 356451,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-mno-stretched",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 870,
+  "2q_gates": 349,
+  "status": 200,
+  "estimated_total_cost": 106.44,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 356451,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-nio-eq",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "ionq_counts",
+  "1q_gates": 868,
+  "2q_gates": 349,
+  "status": 200,
+  "estimated_total_cost": 106.378,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 356243,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-nio-eq",
+  "shots": 500,
+  "qubits": 18,
+  "counts": "package_counts",
+  "1q_gates": 868,
+  "2q_gates": 349,
+  "status": 200,
+  "estimated_total_cost": 106.378,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 356243,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-nio-stretched",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 556,
+  "2q_gates": 164,
+  "status": 200,
+  "estimated_total_cost": 55.159,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 184718,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-nio-stretched",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 556,
+  "2q_gates": 164,
+  "status": 200,
+  "estimated_total_cost": 55.159,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 184718,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-fes-eq",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 626,
+  "2q_gates": 172,
+  "status": 200,
+  "estimated_total_cost": 59.124,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 197996,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-fes-eq",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 626,
+  "2q_gates": 172,
+  "status": 200,
+  "estimated_total_cost": 59.124,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 197996,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-fes-stretched",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "ionq_counts",
+  "1q_gates": 707,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 84.994,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 284631,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ },
+ {
+  "id": "qcup-f-tgt-fes-stretched",
+  "shots": 500,
+  "qubits": 16,
+  "counts": "package_counts",
+  "1q_gates": 707,
+  "2q_gates": 276,
+  "status": 200,
+  "estimated_total_cost": 84.994,
+  "estimated_unit": "credits",
+  "estimated_execution_time_ms": 284631,
+  "rates": [
+   {
+    "sku": "forte_on_demand",
+    "unit": "compute_second",
+    "unit_cost": 0.238889
+   }
+  ]
+ }
+]

@@ -1,0 +1,2354 @@
+[
+ {
+  "circuit": "A_12_0_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_0_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_1_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_1_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_10_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 10,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_10_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 10,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_11_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 11,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_11_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 11,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_12_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 12,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_12_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 12,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_13_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 13,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_13_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 13,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_14_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 14,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_14_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 14,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_15_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 15,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_15_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 15,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_16_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 16,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_16_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 16,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_17_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 17,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_17_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 17,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_18_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 18,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_18_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 18,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_19_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 19,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_19_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 19,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_2_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_2_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_20_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 20,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_20_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 20,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_21_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 21,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_21_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 21,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_3_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_3_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 3,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_4_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_4_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 4,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_5_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 5,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_5_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 5,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_6_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 6,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_6_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 6,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_7_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 7,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_7_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 7,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_8_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 8,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_8_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 8,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_12_9_p1",
+  "family": "A",
+  "n": 12,
+  "seed": 9,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "A_12_9_p2",
+  "family": "A",
+  "n": 12,
+  "seed": 9,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "A_16_0_p1",
+  "family": "A",
+  "n": 16,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "A_16_1_p1",
+  "family": "A",
+  "n": 16,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "A_16_2_p1",
+  "family": "A",
+  "n": 16,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "A_16_3_p1",
+  "family": "A",
+  "n": 16,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "A_16_4_p1",
+  "family": "A",
+  "n": 16,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "B_12_0_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 130
+ },
+ {
+  "circuit": "B_12_0_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 288
+ },
+ {
+  "circuit": "B_12_0_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 444
+ },
+ {
+  "circuit": "B_12_1_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 100
+ },
+ {
+  "circuit": "B_12_1_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 217
+ },
+ {
+  "circuit": "B_12_1_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 1,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "B_12_10_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 10,
+  "p": 1,
+  "heavy_hex_cz": 96
+ },
+ {
+  "circuit": "B_12_10_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 10,
+  "p": 2,
+  "heavy_hex_cz": 220
+ },
+ {
+  "circuit": "B_12_10_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 10,
+  "p": 3,
+  "heavy_hex_cz": 342
+ },
+ {
+  "circuit": "B_12_11_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 11,
+  "p": 1,
+  "heavy_hex_cz": 94
+ },
+ {
+  "circuit": "B_12_11_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 11,
+  "p": 2,
+  "heavy_hex_cz": 227
+ },
+ {
+  "circuit": "B_12_11_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 11,
+  "p": 3,
+  "heavy_hex_cz": 334
+ },
+ {
+  "circuit": "B_12_12_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 12,
+  "p": 1,
+  "heavy_hex_cz": 96
+ },
+ {
+  "circuit": "B_12_12_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 12,
+  "p": 2,
+  "heavy_hex_cz": 213
+ },
+ {
+  "circuit": "B_12_12_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 12,
+  "p": 3,
+  "heavy_hex_cz": 336
+ },
+ {
+  "circuit": "B_12_13_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 13,
+  "p": 1,
+  "heavy_hex_cz": 94
+ },
+ {
+  "circuit": "B_12_13_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 13,
+  "p": 2,
+  "heavy_hex_cz": 213
+ },
+ {
+  "circuit": "B_12_13_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 13,
+  "p": 3,
+  "heavy_hex_cz": 343
+ },
+ {
+  "circuit": "B_12_14_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 14,
+  "p": 1,
+  "heavy_hex_cz": 112
+ },
+ {
+  "circuit": "B_12_14_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 14,
+  "p": 2,
+  "heavy_hex_cz": 238
+ },
+ {
+  "circuit": "B_12_14_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 14,
+  "p": 3,
+  "heavy_hex_cz": 379
+ },
+ {
+  "circuit": "B_12_15_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 15,
+  "p": 1,
+  "heavy_hex_cz": 99
+ },
+ {
+  "circuit": "B_12_15_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 15,
+  "p": 2,
+  "heavy_hex_cz": 209
+ },
+ {
+  "circuit": "B_12_15_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 15,
+  "p": 3,
+  "heavy_hex_cz": 325
+ },
+ {
+  "circuit": "B_12_16_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 16,
+  "p": 1,
+  "heavy_hex_cz": 146
+ },
+ {
+  "circuit": "B_12_16_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 16,
+  "p": 2,
+  "heavy_hex_cz": 347
+ },
+ {
+  "circuit": "B_12_16_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 16,
+  "p": 3,
+  "heavy_hex_cz": 513
+ },
+ {
+  "circuit": "B_12_17_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 17,
+  "p": 1,
+  "heavy_hex_cz": 124
+ },
+ {
+  "circuit": "B_12_17_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 17,
+  "p": 2,
+  "heavy_hex_cz": 298
+ },
+ {
+  "circuit": "B_12_17_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 17,
+  "p": 3,
+  "heavy_hex_cz": 427
+ },
+ {
+  "circuit": "B_12_18_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 18,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "B_12_18_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 18,
+  "p": 2,
+  "heavy_hex_cz": 250
+ },
+ {
+  "circuit": "B_12_18_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 18,
+  "p": 3,
+  "heavy_hex_cz": 382
+ },
+ {
+  "circuit": "B_12_19_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 19,
+  "p": 1,
+  "heavy_hex_cz": 118
+ },
+ {
+  "circuit": "B_12_19_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 19,
+  "p": 2,
+  "heavy_hex_cz": 237
+ },
+ {
+  "circuit": "B_12_19_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 19,
+  "p": 3,
+  "heavy_hex_cz": 365
+ },
+ {
+  "circuit": "B_12_2_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 175
+ },
+ {
+  "circuit": "B_12_2_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 426
+ },
+ {
+  "circuit": "B_12_2_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 2,
+  "p": 3,
+  "heavy_hex_cz": 650
+ },
+ {
+  "circuit": "B_12_20_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 20,
+  "p": 1,
+  "heavy_hex_cz": 96
+ },
+ {
+  "circuit": "B_12_20_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 20,
+  "p": 2,
+  "heavy_hex_cz": 220
+ },
+ {
+  "circuit": "B_12_20_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 20,
+  "p": 3,
+  "heavy_hex_cz": 328
+ },
+ {
+  "circuit": "B_12_21_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 21,
+  "p": 1,
+  "heavy_hex_cz": 97
+ },
+ {
+  "circuit": "B_12_21_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 21,
+  "p": 2,
+  "heavy_hex_cz": 216
+ },
+ {
+  "circuit": "B_12_21_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 21,
+  "p": 3,
+  "heavy_hex_cz": 331
+ },
+ {
+  "circuit": "B_12_3_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 99
+ },
+ {
+  "circuit": "B_12_3_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 3,
+  "p": 2,
+  "heavy_hex_cz": 203
+ },
+ {
+  "circuit": "B_12_3_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 3,
+  "p": 3,
+  "heavy_hex_cz": 320
+ },
+ {
+  "circuit": "B_12_4_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 99
+ },
+ {
+  "circuit": "B_12_4_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 4,
+  "p": 2,
+  "heavy_hex_cz": 210
+ },
+ {
+  "circuit": "B_12_4_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 4,
+  "p": 3,
+  "heavy_hex_cz": 328
+ },
+ {
+  "circuit": "B_12_5_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 5,
+  "p": 1,
+  "heavy_hex_cz": 108
+ },
+ {
+  "circuit": "B_12_5_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 5,
+  "p": 2,
+  "heavy_hex_cz": 262
+ },
+ {
+  "circuit": "B_12_5_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 5,
+  "p": 3,
+  "heavy_hex_cz": 367
+ },
+ {
+  "circuit": "B_12_6_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 6,
+  "p": 1,
+  "heavy_hex_cz": 108
+ },
+ {
+  "circuit": "B_12_6_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 6,
+  "p": 2,
+  "heavy_hex_cz": 247
+ },
+ {
+  "circuit": "B_12_6_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 6,
+  "p": 3,
+  "heavy_hex_cz": 367
+ },
+ {
+  "circuit": "B_12_7_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 7,
+  "p": 1,
+  "heavy_hex_cz": 108
+ },
+ {
+  "circuit": "B_12_7_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 7,
+  "p": 2,
+  "heavy_hex_cz": 222
+ },
+ {
+  "circuit": "B_12_7_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 7,
+  "p": 3,
+  "heavy_hex_cz": 342
+ },
+ {
+  "circuit": "B_12_8_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 8,
+  "p": 1,
+  "heavy_hex_cz": 133
+ },
+ {
+  "circuit": "B_12_8_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 8,
+  "p": 2,
+  "heavy_hex_cz": 310
+ },
+ {
+  "circuit": "B_12_8_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 8,
+  "p": 3,
+  "heavy_hex_cz": 425
+ },
+ {
+  "circuit": "B_12_9_p1",
+  "family": "B",
+  "n": 12,
+  "seed": 9,
+  "p": 1,
+  "heavy_hex_cz": 110
+ },
+ {
+  "circuit": "B_12_9_p2",
+  "family": "B",
+  "n": 12,
+  "seed": 9,
+  "p": 2,
+  "heavy_hex_cz": 250
+ },
+ {
+  "circuit": "B_12_9_p3",
+  "family": "B",
+  "n": 12,
+  "seed": 9,
+  "p": 3,
+  "heavy_hex_cz": 382
+ },
+ {
+  "circuit": "B_16_0_p1",
+  "family": "B",
+  "n": 16,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 205
+ },
+ {
+  "circuit": "B_16_0_p2",
+  "family": "B",
+  "n": 16,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 449
+ },
+ {
+  "circuit": "B_16_1_p1",
+  "family": "B",
+  "n": 16,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 193
+ },
+ {
+  "circuit": "B_16_1_p2",
+  "family": "B",
+  "n": 16,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 429
+ },
+ {
+  "circuit": "B_16_2_p1",
+  "family": "B",
+  "n": 16,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 202
+ },
+ {
+  "circuit": "B_16_2_p2",
+  "family": "B",
+  "n": 16,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 440
+ },
+ {
+  "circuit": "B_16_2_p3",
+  "family": "B",
+  "n": 16,
+  "seed": 2,
+  "p": 3,
+  "heavy_hex_cz": 649
+ },
+ {
+  "circuit": "B_16_3_p1",
+  "family": "B",
+  "n": 16,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 274
+ },
+ {
+  "circuit": "B_16_3_p2",
+  "family": "B",
+  "n": 16,
+  "seed": 3,
+  "p": 2,
+  "heavy_hex_cz": 525
+ },
+ {
+  "circuit": "B_16_4_p1",
+  "family": "B",
+  "n": 16,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 259
+ },
+ {
+  "circuit": "B_16_4_p2",
+  "family": "B",
+  "n": 16,
+  "seed": 4,
+  "p": 2,
+  "heavy_hex_cz": 549
+ },
+ {
+  "circuit": "B_20_0_p1",
+  "family": "B",
+  "n": 20,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 351
+ },
+ {
+  "circuit": "B_20_1_p1",
+  "family": "B",
+  "n": 20,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 422
+ },
+ {
+  "circuit": "B_20_2_p1",
+  "family": "B",
+  "n": 20,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 350
+ },
+ {
+  "circuit": "C_12_0_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_0_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_0_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_1_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_1_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_1_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 1,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_10_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 10,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_10_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 10,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_10_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 10,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_11_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 11,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_11_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 11,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_11_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 11,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_12_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 12,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_12_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 12,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_12_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 12,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_13_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 13,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_13_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 13,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_13_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 13,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_14_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 14,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_14_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 14,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_14_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 14,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_15_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 15,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_15_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 15,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_15_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 15,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_16_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 16,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_16_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 16,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_16_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 16,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_17_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 17,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_17_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 17,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_17_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 17,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_18_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 18,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_18_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 18,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_18_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 18,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_19_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 19,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_19_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 19,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_19_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 19,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_2_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_2_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_2_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 2,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_20_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 20,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_20_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 20,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_20_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 20,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_21_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 21,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_21_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 21,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_21_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 21,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_22_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 22,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_22_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 22,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_22_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 22,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_3_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_3_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 3,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_3_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 3,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_4_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_4_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 4,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_4_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 4,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_5_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 5,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_5_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 5,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_5_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 5,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_6_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 6,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_6_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 6,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_6_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 6,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_7_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 7,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_7_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 7,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_7_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 7,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_8_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 8,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_8_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 8,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_8_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 8,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_12_9_p1",
+  "family": "C",
+  "n": 12,
+  "seed": 9,
+  "p": 1,
+  "heavy_hex_cz": 111
+ },
+ {
+  "circuit": "C_12_9_p2",
+  "family": "C",
+  "n": 12,
+  "seed": 9,
+  "p": 2,
+  "heavy_hex_cz": 229
+ },
+ {
+  "circuit": "C_12_9_p3",
+  "family": "C",
+  "n": 12,
+  "seed": 9,
+  "p": 3,
+  "heavy_hex_cz": 357
+ },
+ {
+  "circuit": "C_15_0_p1",
+  "family": "C",
+  "n": 15,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 139
+ },
+ {
+  "circuit": "C_15_0_p2",
+  "family": "C",
+  "n": 15,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 303
+ },
+ {
+  "circuit": "C_15_0_p3",
+  "family": "C",
+  "n": 15,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 482
+ },
+ {
+  "circuit": "C_15_1_p1",
+  "family": "C",
+  "n": 15,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 139
+ },
+ {
+  "circuit": "C_15_1_p2",
+  "family": "C",
+  "n": 15,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 303
+ },
+ {
+  "circuit": "C_15_1_p3",
+  "family": "C",
+  "n": 15,
+  "seed": 1,
+  "p": 3,
+  "heavy_hex_cz": 482
+ },
+ {
+  "circuit": "C_15_2_p1",
+  "family": "C",
+  "n": 15,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 139
+ },
+ {
+  "circuit": "C_15_2_p2",
+  "family": "C",
+  "n": 15,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 303
+ },
+ {
+  "circuit": "C_15_2_p3",
+  "family": "C",
+  "n": 15,
+  "seed": 2,
+  "p": 3,
+  "heavy_hex_cz": 482
+ },
+ {
+  "circuit": "C_15_3_p1",
+  "family": "C",
+  "n": 15,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 139
+ },
+ {
+  "circuit": "C_15_3_p2",
+  "family": "C",
+  "n": 15,
+  "seed": 3,
+  "p": 2,
+  "heavy_hex_cz": 303
+ },
+ {
+  "circuit": "C_15_3_p3",
+  "family": "C",
+  "n": 15,
+  "seed": 3,
+  "p": 3,
+  "heavy_hex_cz": 482
+ },
+ {
+  "circuit": "C_15_4_p1",
+  "family": "C",
+  "n": 15,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 139
+ },
+ {
+  "circuit": "C_15_4_p2",
+  "family": "C",
+  "n": 15,
+  "seed": 4,
+  "p": 2,
+  "heavy_hex_cz": 303
+ },
+ {
+  "circuit": "C_15_4_p3",
+  "family": "C",
+  "n": 15,
+  "seed": 4,
+  "p": 3,
+  "heavy_hex_cz": 482
+ },
+ {
+  "circuit": "C_18_0_p1",
+  "family": "C",
+  "n": 18,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 173
+ },
+ {
+  "circuit": "C_18_0_p2",
+  "family": "C",
+  "n": 18,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 374
+ },
+ {
+  "circuit": "C_18_0_p3",
+  "family": "C",
+  "n": 18,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 618
+ },
+ {
+  "circuit": "C_18_1_p1",
+  "family": "C",
+  "n": 18,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 173
+ },
+ {
+  "circuit": "C_18_1_p2",
+  "family": "C",
+  "n": 18,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 374
+ },
+ {
+  "circuit": "C_18_1_p3",
+  "family": "C",
+  "n": 18,
+  "seed": 1,
+  "p": 3,
+  "heavy_hex_cz": 618
+ },
+ {
+  "circuit": "D_12_0_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_0_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_1_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_1_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_10_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 10,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_10_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 10,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_11_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 11,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_11_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 11,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_12_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 12,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_12_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 12,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_13_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 13,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_13_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 13,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_14_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 14,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_14_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 14,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_2_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_2_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_3_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_3_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 3,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_4_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_4_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 4,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_5_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 5,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_5_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 5,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_6_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 6,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_6_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 6,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_7_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 7,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_7_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 7,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_8_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 8,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_8_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 8,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_12_9_p1",
+  "family": "D",
+  "n": 12,
+  "seed": 9,
+  "p": 1,
+  "heavy_hex_cz": 228
+ },
+ {
+  "circuit": "D_12_9_p2",
+  "family": "D",
+  "n": 12,
+  "seed": 9,
+  "p": 2,
+  "heavy_hex_cz": 523
+ },
+ {
+  "circuit": "D_16_0_p1",
+  "family": "D",
+  "n": 16,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "D_16_1_p1",
+  "family": "D",
+  "n": 16,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "D_16_2_p1",
+  "family": "D",
+  "n": 16,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "D_16_3_p1",
+  "family": "D",
+  "n": 16,
+  "seed": 3,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "D_16_4_p1",
+  "family": "D",
+  "n": 16,
+  "seed": 4,
+  "p": 1,
+  "heavy_hex_cz": 507
+ },
+ {
+  "circuit": "R_12_0_p1",
+  "family": "R",
+  "n": 12,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 92
+ },
+ {
+  "circuit": "R_12_0_p2",
+  "family": "R",
+  "n": 12,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 193
+ },
+ {
+  "circuit": "R_12_0_p3",
+  "family": "R",
+  "n": 12,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 314
+ },
+ {
+  "circuit": "R_12_1_p1",
+  "family": "R",
+  "n": 12,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 92
+ },
+ {
+  "circuit": "R_12_1_p2",
+  "family": "R",
+  "n": 12,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 180
+ },
+ {
+  "circuit": "R_12_1_p3",
+  "family": "R",
+  "n": 12,
+  "seed": 1,
+  "p": 3,
+  "heavy_hex_cz": 280
+ },
+ {
+  "circuit": "R_12_2_p1",
+  "family": "R",
+  "n": 12,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 83
+ },
+ {
+  "circuit": "R_12_2_p2",
+  "family": "R",
+  "n": 12,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 178
+ },
+ {
+  "circuit": "R_12_2_p3",
+  "family": "R",
+  "n": 12,
+  "seed": 2,
+  "p": 3,
+  "heavy_hex_cz": 287
+ },
+ {
+  "circuit": "R_16_0_p1",
+  "family": "R",
+  "n": 16,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 167
+ },
+ {
+  "circuit": "R_16_0_p2",
+  "family": "R",
+  "n": 16,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 362
+ },
+ {
+  "circuit": "R_16_0_p3",
+  "family": "R",
+  "n": 16,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 543
+ },
+ {
+  "circuit": "R_16_1_p1",
+  "family": "R",
+  "n": 16,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 143
+ },
+ {
+  "circuit": "R_16_1_p2",
+  "family": "R",
+  "n": 16,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 316
+ },
+ {
+  "circuit": "R_16_1_p3",
+  "family": "R",
+  "n": 16,
+  "seed": 1,
+  "p": 3,
+  "heavy_hex_cz": 474
+ },
+ {
+  "circuit": "R_20_0_p1",
+  "family": "R",
+  "n": 20,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 189
+ },
+ {
+  "circuit": "R_20_0_p2",
+  "family": "R",
+  "n": 20,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 399
+ },
+ {
+  "circuit": "R_20_0_p3",
+  "family": "R",
+  "n": 20,
+  "seed": 0,
+  "p": 3,
+  "heavy_hex_cz": 652
+ },
+ {
+  "circuit": "R_20_1_p1",
+  "family": "R",
+  "n": 20,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 213
+ },
+ {
+  "circuit": "R_20_1_p2",
+  "family": "R",
+  "n": 20,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 477
+ },
+ {
+  "circuit": "B_24_0_p1",
+  "family": "B",
+  "n": 24,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 537
+ },
+ {
+  "circuit": "B_24_2_p1",
+  "family": "B",
+  "n": 24,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 545
+ },
+ {
+  "circuit": "C_24_0_p1",
+  "family": "C",
+  "n": 24,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 268
+ },
+ {
+  "circuit": "C_24_0_p2",
+  "family": "C",
+  "n": 24,
+  "seed": 0,
+  "p": 2,
+  "heavy_hex_cz": 562
+ },
+ {
+  "circuit": "C_24_1_p1",
+  "family": "C",
+  "n": 24,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 268
+ },
+ {
+  "circuit": "C_24_1_p2",
+  "family": "C",
+  "n": 24,
+  "seed": 1,
+  "p": 2,
+  "heavy_hex_cz": 562
+ },
+ {
+  "circuit": "C_24_2_p1",
+  "family": "C",
+  "n": 24,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 268
+ },
+ {
+  "circuit": "C_24_2_p2",
+  "family": "C",
+  "n": 24,
+  "seed": 2,
+  "p": 2,
+  "heavy_hex_cz": 562
+ },
+ {
+  "circuit": "C_30_0_p1",
+  "family": "C",
+  "n": 30,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 350
+ },
+ {
+  "circuit": "C_30_1_p1",
+  "family": "C",
+  "n": 30,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 350
+ },
+ {
+  "circuit": "C_30_2_p1",
+  "family": "C",
+  "n": 30,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 350
+ },
+ {
+  "circuit": "C_42_0_p1",
+  "family": "C",
+  "n": 42,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 451
+ },
+ {
+  "circuit": "C_42_1_p1",
+  "family": "C",
+  "n": 42,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 451
+ },
+ {
+  "circuit": "C_42_2_p1",
+  "family": "C",
+  "n": 42,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 451
+ },
+ {
+  "circuit": "R_24_0_p1",
+  "family": "R",
+  "n": 24,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 314
+ },
+ {
+  "circuit": "R_24_1_p1",
+  "family": "R",
+  "n": 24,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 391
+ },
+ {
+  "circuit": "R_24_2_p1",
+  "family": "R",
+  "n": 24,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 326
+ },
+ {
+  "circuit": "R_30_0_p1",
+  "family": "R",
+  "n": 30,
+  "seed": 0,
+  "p": 1,
+  "heavy_hex_cz": 624
+ },
+ {
+  "circuit": "R_30_1_p1",
+  "family": "R",
+  "n": 30,
+  "seed": 1,
+  "p": 1,
+  "heavy_hex_cz": 577
+ },
+ {
+  "circuit": "R_30_2_p1",
+  "family": "R",
+  "n": 30,
+  "seed": 2,
+  "p": 1,
+  "heavy_hex_cz": 517
+ }
+]

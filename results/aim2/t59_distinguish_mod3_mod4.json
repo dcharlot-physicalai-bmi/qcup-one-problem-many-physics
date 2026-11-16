@@ -1,0 +1,659 @@
+[
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "G",
+  "qubits": 5,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 28,
+   "two_qubit_depth": 25,
+   "depth": 78,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9235,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 13,
+   "two_qubit_depth": 13,
+   "depth": 38,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.985,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1
+  ],
+  "T": 1,
+  "style": "R",
+  "qubits": 5,
+  "resets": 0,
+  "overwritten_bits": 2,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 28,
+   "two_qubit_depth": 25,
+   "depth": 79,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9235,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 13,
+   "two_qubit_depth": 13,
+   "depth": 38,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.985,
+   "shots": 2000
+  },
+  "guppy_gates": 40
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0
+  ],
+  "T": 2,
+  "style": "G",
+  "qubits": 8,
+  "resets": 0,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 54,
+   "depth": 161,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8365,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 26,
+   "two_qubit_depth": 25,
+   "depth": 72,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.973,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0
+  ],
+  "T": 2,
+  "style": "R",
+  "qubits": 5,
+  "resets": 2,
+  "overwritten_bits": 4,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 63,
+   "two_qubit_depth": 58,
+   "depth": 189,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.8255,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 26,
+   "two_qubit_depth": 25,
+   "depth": 73,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.967,
+   "shots": 2000
+  },
+  "guppy_gates": 80
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1
+  ],
+  "T": 3,
+  "style": "G",
+  "qubits": 11,
+  "resets": 0,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 94,
+   "two_qubit_depth": 77,
+   "depth": 228,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7645,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 39,
+   "two_qubit_depth": 37,
+   "depth": 105,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9535,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1
+  ],
+  "T": 3,
+  "style": "R",
+  "qubits": 5,
+  "resets": 4,
+  "overwritten_bits": 6,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 88,
+   "two_qubit_depth": 75,
+   "depth": 256,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.7665,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 39,
+   "two_qubit_depth": 37,
+   "depth": 108,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.955,
+   "shots": 2000
+  },
+  "guppy_gates": 122
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "G",
+  "qubits": 14,
+  "resets": 0,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 129,
+   "two_qubit_depth": 100,
+   "depth": 311,
+   "noiseless_trace_ok": true
+  },
+  "ion_like": {
+   "two_qubit_gates": 52,
+   "two_qubit_depth": 49,
+   "depth": 139,
+   "noiseless_trace_ok": true
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "T": 4,
+  "style": "R",
+  "qubits": 5,
+  "resets": 6,
+  "overwritten_bits": 8,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 125,
+   "two_qubit_depth": 110,
+   "depth": 363,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6545,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 52,
+   "two_qubit_depth": 49,
+   "depth": 143,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.933,
+   "shots": 2000
+  },
+  "guppy_gates": 162
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "G",
+  "qubits": 17,
+  "resets": 0,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 147,
+   "two_qubit_depth": 114,
+   "depth": 349
+  },
+  "ion_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 61,
+   "depth": 173
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 0,
+  "event_stream": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   0,
+   2,
+   0,
+   1
+  ],
+  "sc_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 127,
+   "depth": 430,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.608,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 61,
+   "depth": 178,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9205,
+   "shots": 2000
+  },
+  "guppy_gates": 202,
+  "selene_replays_reference": true,
+  "selene_shots": 20,
+  "ibm_torino_snapshot": {
+   "two_qubit_gates": 146,
+   "active_qubits": 5,
+   "depth": 424,
+   "trace_fidelity": 0.562,
+   "shots": 2000
+  },
+  "ibm_fez_snapshot": {
+   "two_qubit_gates": 146,
+   "active_qubits": 5,
+   "depth": 435,
+   "trace_fidelity": 0.6495,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 1,
+  "event_stream": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   2,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 127,
+   "depth": 433,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.603,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 61,
+   "depth": 179,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9195,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 2,
+  "event_stream": [
+   1,
+   1,
+   0,
+   1,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   1,
+   2,
+   1,
+   2
+  ],
+  "sc_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 127,
+   "depth": 430,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.619,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 61,
+   "depth": 178,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.918,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 3,
+  "event_stream": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   1,
+   0,
+   1,
+   2,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 127,
+   "depth": 431,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6135,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 61,
+   "depth": 179,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9245,
+   "shots": 2000
+  }
+ },
+ {
+  "form": "t59_distinguish_mod3_mod4",
+  "source": "conformance/tests/properties/t59-distinguish-mod3-mod4.rce",
+  "kind": "exact",
+  "states": 3,
+  "events": 2,
+  "state_bits": 2,
+  "event_bits": 1,
+  "anf_terms": 8,
+  "anf_literals": 9,
+  "is_permutation": false,
+  "stream": 4,
+  "event_stream": [
+   1,
+   1,
+   1,
+   0,
+   1
+  ],
+  "T": 5,
+  "style": "R",
+  "qubits": 5,
+  "resets": 8,
+  "overwritten_bits": 10,
+  "logical_erasure_bits": 0.0,
+  "reference_trace": [
+   2,
+   1,
+   0,
+   1,
+   0
+  ],
+  "sc_like": {
+   "two_qubit_gates": 150,
+   "two_qubit_depth": 127,
+   "depth": 432,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.6175,
+   "shots": 2000
+  },
+  "ion_like": {
+   "two_qubit_gates": 65,
+   "two_qubit_depth": 61,
+   "depth": 178,
+   "noiseless_trace_ok": true,
+   "trace_fidelity": 0.9205,
+   "shots": 2000
+  }
+ }
+]
