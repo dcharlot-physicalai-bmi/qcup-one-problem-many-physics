@@ -8,9 +8,7 @@ authors:
     given-names: David Jean
     orcid: "https://orcid.org/0009-0001-9007-2301"
     affiliation: "Institute for Physical AI, John Bailey Institute"
-license:
-  - Apache-2.0
-  - CC0-1.0
+license: Apache-2.0
 repository-code: "https://github.com/dcharlot-physicalai-bmi/qcup-one-problem-many-physics"
 keywords:
   - quantum computing
