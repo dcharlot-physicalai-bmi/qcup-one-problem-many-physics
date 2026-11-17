@@ -1,0 +1,130 @@
+{
+ "note": "Every row of Quantinuum's three default emulator noise tables (H2-1E and H2-2E of 2025-07-16 on the System Model H2 Emulators page, Helios-1E of 2025-11-18 on the Quantinuum Helios emulators page; docs-quantinuum/fetched-2026-11-17/, byte-identical to the fact-check's saved copies) mapped to selene-sim 0.3.8 and to our docs-noise plugin (plugin/rust/lib.rs, loaded through Selene's documented error-model plugin interface). Meanings are from the Emulator Noise Model page. 'docs' is the run variant with every documented term the plugin can hold; 'docs_dephasing' adds the dephasing term at an assumed duration. The values themselves are in params/<set>.json, read from the HTML by make_params_2025.py.",
+ "which_table_is_H2-2E": "Both H2 tables carry the caption 'H2-1E emulators from 2025-07-16'. The second sits in the tab labelled 'H2-2E' (<label class=\"sd-tab-label\" for=\"sd-tab-item-1\">H2-2E</label>) and its first row reads 'Default Settings | H2-2E'; its p2 is 0.00129, as the fact-check reported. make_params_2025.py keys each table by its tab label and asserts the first row names the same emulator.",
+ "general_rows": {
+  "Qubits (Statevector)": {
+   "values": "32 on all three",
+   "use": "every circuit fits: the largest has 26 qubits (UO22+ at both bond lengths); Selene's state vector runs them as they are"
+  },
+  "Qubits (Stabilizer)": {
+   "values": "56",
+   "use": "not used: the circuits are not Clifford, so every run is a state vector run"
+  },
+  "Connectivity": {
+   "values": "all-to-all",
+   "use": "as in Selene: no routing"
+  },
+  "Parallel 2-qubit operations": {
+   "values": "4 on all three (the Helios hardware page says 8 operation zones run up to 8 two-qubit gates at once)",
+   "use": "not representable as documented: it sets the emulator's transport schedule and so its durations, which are not published; it would matter only to the dephasing term, which docs_dephasing charges per layer of Selene's runtime instead"
+  },
+  "Wasm Enabled": {
+   "values": "True",
+   "use": "not used: the programs have no Wasm calls"
+  }
+ },
+ "physical_noise": {
+  "p1": {
+   "meaning": "1-qubit fault probability",
+   "plugin": "a fault after every rxy native operation with probability p1; rz is a frame change and carries none, as on the device",
+   "match": "probability exact; channel approximate: the documentation calls the non-emission part 'asymmetric depolarizing' and does not publish the weights, so the plugin uses X, Y, Z evenly"
+  },
+  "p1_emission_ratio": {
+   "meaning": "fraction of p1 that is spontaneous emission; an emission is X a quarter of the time, Y a quarter, leakage half",
+   "plugin": "as documented; for the leakage half see leakage_branch below",
+   "match": "as documented"
+  },
+  "p2": {
+   "meaning": "2-qubit fault probability of the fully entangling ZZ() gate",
+   "plugin": "p2 at theta = pi/2, scaled by angle as below",
+   "match": "exact at the fully entangling angle"
+  },
+  "p2_emission_ratio": {
+   "meaning": "fraction of p2 that is spontaneous emission on one qubit of the pair",
+   "plugin": "emission with probability p2 x p2_emission_ratio at every angle, on one qubit of the pair chosen evenly",
+   "match": "as documented ('The spontaneous emission error channel is the same for both ZZ() and RZZ(theta)'); whether the emulator draws once per gate or per qubit is not published (our choice: once per gate)"
+  },
+  "przz_a, przz_b, przz_c, przz_d, przz_power": {
+   "meaning": "fit of the 2-qubit asymmetric depolarizing fault against angle (Parameterized Angle Scaling): (przz_a |theta/pi|^przz_power + przz_b) p2 for theta < 0, (przz_c |theta/pi|^przz_power + przz_d) p2 for theta > 0, (przz_b + przz_d) / 2 at theta = 0 (the page prints 'theta < 0' on both lines; the second is read as theta > 0)",
+   "values": "1.518, 0.241, 1.518, 0.241, 1.0 on all three sets: s(theta) = 1.518 |theta|/pi + 0.241, 1 at pi/2, 0.6205 at pi/4, 0.241 at 0",
+   "plugin": "depolarizing fault with probability p2 (1 - p2_emission_ratio) s(theta), theta the angle Selene passes for each rzz, taken modulo 2 pi into [-pi, pi]; every native rzz in these circuits has |theta| <= pi/2",
+   "match": "as documented; the scaling is applied to the depolarizing part only, since the page says the depolarizing probability depends on the angle and the emission channel does not. Checked against the closed form (controls C7, C7c) and on every run (results/selene_results.json angle_scaling_check)"
+  },
+  "p_meas (0 outcome), p_meas (1 outcome)": {
+   "meaning": "readout flip probability of a 0 and of a 1",
+   "plugin": "exact",
+   "match": "exact"
+  },
+  "p_crosstalk_meas": {
+   "meaning": "crosstalk fault probability per measurement, which 'effectively measures other qubits in the trap or cause them to leak'",
+   "plugin": "each measurement measures every other qubit in use with this probability and discards the result (a Z with probability 1/2)",
+   "match": "the measuring branch only: the split between measuring and leaking is not published"
+  },
+  "p_init": {
+   "meaning": "initialization fault probability",
+   "plugin": "at every reset, including each qubit's allocation and the re-initialisation after a mid-circuit measurement: a fault with probability p_init, an X without the leakage model; with it, a fraction p_prep_leak_ratio leaks and the rest is an X",
+   "match": "probability exact; 'fault' read as a bit flip (and, on Helios, leakage), which the page does not spell out. The 2024 table had no p_init, so the 2024 run used 0"
+  },
+  "p_crosstalk_init": {
+   "meaning": "crosstalk fault probability per initialization",
+   "plugin": "the same channel as the measurement crosstalk, on every other qubit in use",
+   "match": "the measuring branch only, as for p_crosstalk_meas"
+  }
+ },
+ "leakage_noise": {
+  "leakage_branch": {
+   "meaning": "half of every spontaneous emission is leakage (Physical Noise section); 'The Helios emulators incorporate leakage noise ... This is not included in H2 emulators' (Leakage Noise section)",
+   "plugin": "Helios-1E: the qubit leaks (takes no gates, reads as 1, is traced out, returns on reset or by seepage). H2-1E and H2-2E: no qubit leaks; the leakage half of an emission is a depolarizing error, X, Y or Z evenly (counted as leak_as_depolar)",
+   "match": "our reading. The 2024 run let H2 qubits leak; this run follows the statement that H2 emulators have no leakage. The page does not say what replaces the leakage branch on H2; a depolarizing error keeps the total fault probability at p1 and p2, which the tables give as the fault probabilities"
+  },
+  "p_prep_leak_ratio": {
+   "meaning": "'Probability of a leakage error occurring during qubit initialization'; its row is named 'Leakage Probability per Initialization (p_prep_leak_ratio)' and its value is 0.75",
+   "plugin": "the fraction of initialisation faults (p_init) that leak: 0.75 x 0.0005 = 3.75e-4 per initialisation on Helios-1E",
+   "match": "our reading of a 'ratio' of 0.75: read as a probability per initialisation it would leak three qubits in four, which no device does"
+  },
+  "p1_seepage_prob, p2_seepage_prob": {
+   "meaning": "probability of a seepage error (a leaked ion returning to the computational space) during a 1-qubit and a 2-qubit gate",
+   "values": "1/3 and 1/3 on Helios-1E",
+   "plugin": "a leaked qubit given a 1-qubit (2-qubit) gate returns with this probability; the gate is not applied to it, and it returns to |0> or |1> evenly",
+   "match": "probabilities as documented; the state it returns to is not published (our choice: a computational basis state, evenly). Controls C8b and C8c"
+  },
+  "leak2depolar": {
+   "meaning": "convert leakage errors to depolarizing errors",
+   "values": "False on Helios-1E (not listed for H2)",
+   "plugin": "supported; False, so Helios-1E qubits leak",
+   "match": "as documented"
+  },
+  "leaked qubit rules": {
+   "plugin": "a leaked qubit reads as 1; a two-qubit gate with one leaked qubit is not applied and the other qubit gets I, X, Y or Z evenly",
+   "match": "our assumptions, as in the 2024 run; not published"
+  }
+ },
+ "dephasing_noise": {
+  "quadratic_dephasing_rate, linear_dephasing_rate, coherent_to_incoherent_factor": {
+   "values": "H2-1E and H2-2E 0.043, 0.0028, 2.0; Helios-1E 0.058, 0.0079, 1.5",
+   "meaning": "memory error applied 'during transport and qubit idling': linear Z with p = r d (r per second, d in seconds); quadratic as RZ(f d) in state vector runs (coherent, the default) or as Z with p = sin(f d / 2)^2 with f multiplied by coherent_to_incoherent_factor (incoherent), f 'in units of 2 pi radians per second'",
+   "plugin": "variant docs: not applied. Variant docs_dephasing: Z with probability memory_pz per qubit per layer of two-qubit gates of Selene's runtime, while the qubit holds a state a Z can change, with memory_pz = p_lin + p_quad - 2 p_lin p_quad, p_lin = r d, p_quad = sin(pi f c d)^2 (the incoherent form) and d = 0.071 s per layer",
+   "match": "not representable as documented: the emulator applies these rates over the durations of its own transport and idling schedule, which Quantinuum does not publish for H2 at all. The only documented duration is Helios's time budget for a depth-1 program on all 98 qubits (Helios Performance Maximization page, figure circuit_time_ms.png, total about 71 ms; the Helios page says such a layer takes 7 gating rounds). docs_dephasing assumes each layer of Selene's runtime lasts that long on every set; one gating round (about 10 ms) would make the term about 16 times smaller on H2 and so bring docs_dephasing close to docs. The incoherent form is used so that every error is a counted event, as the error-free fraction needs; the state-vector default is coherent. Both variants were run on every circuit, so the two bracket the term"
+  },
+  "transport_dephasing, idle_dephasing, coherent_dephasing": {
+   "meaning": "switches, on by default (coherent_dephasing True for state vector runs)",
+   "plugin": "see above",
+   "match": "see above"
+  }
+ },
+ "not_in_the_tables": {
+  "asymmetric depolarizing weights": "not published; X, Y, Z (and the 15 two-qubit Paulis) evenly",
+  "scale, p1_scale, p2_scale, meas_scale, init_scale, memory_scale, emission_scale, crosstalk_scale, leakage_scale": "documented options whose default is no scaling; all 1",
+  "minimum gate angles": "documented device rule on the H2 and Helios hardware pages ('The minimum gate angles for the Rzz gate angle is 1e-4 and the minimum Rxy gate angle is 3e-4. Gates angles smaller are automatically rounded to zero'): applied when the program is written (gen_guppy.py, min_angles), which drops 522 rzz and 23 rx or ry gates, in 11 of the 12 chemistry circuits, in every 2025 run including the ideal controls"
+ },
+ "selene_structure": {
+  "runtime": "Selene's soft-RZ runtime: rz is a frame change, as on the device; only the rzz duration is set (one clock unit), so the clock counts layers of two-qubit gates; operations of a type are batched as soon as their qubits are free, so rzz on separate pairs share a layer and each gate of a run on one pair takes its own",
+  "mid-circuit measurement": "Guppy's project_z is a measurement, a fresh qubit (a reset, so p_init and p_crosstalk_init apply) and an X if the bit read was 1, which is the procedure Quantinuum's H2 page describes ('a measurement followed by initialization and a measurement dependent spin-flip')",
+  "zero-angle and pi-angle rzz": "dropped and made a frame change (rz(pi) on each qubit), as in the 2024 run",
+  "compilation": "Guppy's Classical level: every gate as written; the circuits are the package builder's gate lists, SHA-256 equal to the 2024 run's builder/ and to vendor/results/circuits/manifest_sha256.json"
+ },
+ "helios_1e_fit": {
+  "native gates": "Helios's native set is Rxy, Rz, ZZ(), RZZ(theta), measure and reset (Helios hardware page, Native Gate Set); the programs use rx, ry (each one Rxy), rz, rzz, measure and reset, so they run on Helios-1E's gate set as they are",
+  "qubits": "26 at most, against 32 for Helios-1E's state vector emulator and 98 on the device"
+ }
+}

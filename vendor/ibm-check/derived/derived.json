@@ -303,7 +303,20 @@
    1.354,
    3.06,
    6
-  ]
+  ],
+  "q5_gate_count_with_second_form_exclusions": {
+   "median_error_factor": 2.2628,
+   "predictions": 8
+  },
+  "q5_gate_count_with_second_form_exclusions_floor_corrected": {
+   "median_error_factor": 3.0262,
+   "predictions": 8
+  },
+  "calibration_age_days_at_run": {
+   "calibration": "2026-11-13T17:22:56Z",
+   "run_started": "2026-11-16T08:17:31.234624Z",
+   "days": 2.621
+  }
  },
  "five_step_over_budget_script": [
   {
@@ -348,5 +361,23 @@
    "measured": 0.005,
    "ratio": 1.354
   }
- ]
+ ],
+ "q5_gate_count": {
+  "preregistered_F_ge_0.01": {
+   "median_error_factor": 2.1877,
+   "predictions": 13
+  },
+  "twice_floor_alone": {
+   "median_error_factor": 156.7354,
+   "predictions": 11
+  },
+  "F_ge_0.01_and_twice_floor": {
+   "median_error_factor": 2.2628,
+   "predictions": 8
+  },
+  "floor_corrected_Fc_ge_0.01_and_twice_floor": {
+   "median_error_factor": 3.0262,
+   "predictions": 8
+  }
+ }
 }

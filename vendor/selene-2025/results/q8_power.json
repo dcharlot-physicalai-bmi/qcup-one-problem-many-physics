@@ -1,0 +1,805 @@
+{
+ "note": "Q8's chance of each verdict from shot noise, with the Selene shares of this rerun as the true shares, the way\nfinal_request.py's q8_power() does it (vendor/scripts/final_request.py: Bernoulli shots, seed 20261115 reset per case,\nN = 2,000 draws), with the band added and the transition-metal and actinide groups scored separately.\n\n    python3 -I q8_power.py BASE PKG          (writes BASE/results/q8_power.json)\n\nQ8 as the application states it: \"Decided by which prediction the measured share lies nearer on a log scale, as a median\nover circuits; the nearer prediction must lie within a factor of 1.5 of the measured share, or both are rejected.\"\nHere, per group (the 8 transition-metal circuits at 200 shots; the 4 actinide circuits at 100 shots), per draw:\n  verdict   generic if median_i(observed_i / sqrt(published_i x generic_i)) > 1, else published (final_request.py's rule);\n  band      the nearer prediction is within a factor b if the median over circuits of observed_i / nearer_i lies in\n            [1/b, b] (our reading of \"within a factor of b ... as a median over circuits\"); b = 1.5 (the application's) and 1.25.\nPredictions:\n  published  the model's share F + (1 - F) pN, F = e^-b under a figure set: the one the application admits on\n             (\"docs 2026-10-20 H2-1\", the shares it quotes, 0.56 to 0.73 and 0.27 to 0.34), and, as a second reading,\n             the model's closest 2025 set to each emulator (analyze.py's SETMAP), since the preregistered predictions are\n             recomputed under the figures current at the first run;\n  generic    final_request.py's generic_share, g + (1 - g) pN with g the circuit's modelled_fidelity under our generic law.\nTrue shares: each circuit's Selene share (right electron numbers) on each set and variant, as measured (itself a sample of\n200 or 100 shots). Positive control: with the published and generic shares as truth, the false-alarm and power figures\nmust equal final_request.json's for the admission set.",
+ "controls": {
+  "actinide": {
+   "false_alarm_if_published_true": 0.0,
+   "power_if_generic_true": 1.0,
+   "final_request_json": {
+    "false_alarm_if_published_true": 0.0,
+    "power_if_generic_true": 1.0
+   },
+   "equal": true
+  },
+  "transition_metal": {
+   "false_alarm_if_published_true": 0.0,
+   "power_if_generic_true": 1.0,
+   "final_request_json": {
+    "false_alarm_if_published_true": 0.0,
+    "power_if_generic_true": 1.0
+   },
+   "equal": true
+  }
+ },
+ "groups": {
+  "transition_metal": {
+   "shots": 200,
+   "circuits": 8,
+   "cases": {
+    "H2-1E_2025-07-16|docs|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.815,
+      0.905
+     ],
+     "published_share": [
+      0.5632910185722038,
+      0.7270271735475191
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.1738645074612832,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.0147976684228577,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-1E_2025-07-16|docs|closest_2025_set": {
+     "published_set": "docs 2025-04-30 H2-1",
+     "true_share": [
+      0.815,
+      0.905
+     ],
+     "published_share": [
+      0.6435301742777291,
+      0.7783275609543564
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.1109784653160037,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.0147976684228577,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-1E_2025-07-16|docs_dephasing|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.575,
+      0.76
+     ],
+     "published_share": [
+      0.5632910185722038,
+      0.7270271735475191
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.8948696819282431,
+      "nearer": "published",
+      "median_ratio_to_nearer": 1.0235745821580338,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 1.0,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-1E_2025-07-16|docs_dephasing|closest_2025_set": {
+     "published_set": "docs 2025-04-30 H2-1",
+     "true_share": [
+      0.575,
+      0.76
+     ],
+     "published_share": [
+      0.6435301742777291,
+      0.7783275609543564
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.842344740441203,
+      "nearer": "published",
+      "median_ratio_to_nearer": 0.9354738704295247,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 1.0,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-2E_2025-07-16|docs|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.775,
+      0.885
+     ],
+     "published_share": [
+      0.5632910185722038,
+      0.7270271735475191
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.12982948833782,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 0.9789035674210071,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-2E_2025-07-16|docs|closest_2025_set": {
+     "published_set": "docs 2025-05-29 H2-2",
+     "true_share": [
+      0.775,
+      0.885
+     ],
+     "published_share": [
+      0.6241711506912834,
+      0.7659190588986945
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.0811216822513665,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 0.9789035674210071,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-2E_2025-07-16|docs_dephasing|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.545,
+      0.75
+     ],
+     "published_share": [
+      0.5632910185722038,
+      0.7270271735475191
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.8780919643931387,
+      "nearer": "published",
+      "median_ratio_to_nearer": 1.021420985577432,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 1.0,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-2E_2025-07-16|docs_dephasing|closest_2025_set": {
+     "published_set": "docs 2025-05-29 H2-2",
+     "true_share": [
+      0.545,
+      0.75
+     ],
+     "published_share": [
+      0.6241711506912834,
+      0.7659190588986945
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.8417354566807741,
+      "nearer": "published",
+      "median_ratio_to_nearer": 0.9436245692744025,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 1.0,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "Helios-1E_2025-11-18|docs|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.865,
+      0.925
+     ],
+     "published_share": [
+      0.5632910185722038,
+      0.7270271735475191
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.240269577898382,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.0721200497338783,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "Helios-1E_2025-11-18|docs|closest_2025_set": {
+     "published_set": "docs 2025-08-28 H2-2",
+     "true_share": [
+      0.865,
+      0.925
+     ],
+     "published_share": [
+      0.7329855530449167,
+      0.8290456810968917
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.1136177648020462,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.0721200497338783,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "Helios-1E_2025-11-18|docs_dephasing|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.425,
+      0.675
+     ],
+     "published_share": [
+      0.5632910185722038,
+      0.7270271735475191
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.7813085231057095,
+      "nearer": "published",
+      "median_ratio_to_nearer": 0.9060928057200701,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 1.0,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "Helios-1E_2025-11-18|docs_dephasing|closest_2025_set": {
+     "published_set": "docs 2025-08-28 H2-2",
+     "true_share": [
+      0.425,
+      0.675
+     ],
+     "published_share": [
+      0.7329855530449167,
+      0.8290456810968917
+     ],
+     "generic_share": [
+      0.8099521999748747,
+      0.9063263555197764
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.697269991607931,
+      "nearer": "published",
+      "median_ratio_to_nearer": 0.7266497273137329,
+      "within_1.5": true,
+      "within_1.25": false
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 0.999,
+      "published_within_1.25": 0.0045,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.001,
+      "rejected_both_at_1.25": 0.9955
+     }
+    }
+   }
+  },
+  "actinide": {
+   "shots": 100,
+   "circuits": 4,
+   "cases": {
+    "H2-1E_2025-07-16|docs|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.61,
+      0.76
+     ],
+     "published_share": [
+      0.2712745670686352,
+      0.3392779050635634
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.5358769569060962,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.0630560542075498,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-1E_2025-07-16|docs|closest_2025_set": {
+     "published_set": "docs 2025-04-30 H2-1",
+     "true_share": [
+      0.61,
+      0.76
+     ],
+     "published_share": [
+      0.35920482016472655,
+      0.4297810964047462
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.360720948441902,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.0630560542075498,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 1.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0
+     }
+    },
+    "H2-1E_2025-07-16|docs_dephasing|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.3,
+      0.39
+     ],
+     "published_share": [
+      0.2712745670686352,
+      0.3392779050635634
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.7603284608050058,
+      "nearer": "published",
+      "median_ratio_to_nearer": 1.1129582011609638,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 0.9435,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0565
+     }
+    },
+    "H2-1E_2025-07-16|docs_dephasing|closest_2025_set": {
+     "published_set": "docs 2025-04-30 H2-1",
+     "true_share": [
+      0.3,
+      0.39
+     ],
+     "published_share": [
+      0.35920482016472655,
+      0.4297810964047462
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.668074547525405,
+      "nearer": "published",
+      "median_ratio_to_nearer": 0.8596745722773145,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 0.9995,
+      "published_within_1.25": 0.8515,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0005,
+      "rejected_both_at_1.25": 0.1485
+     }
+    },
+    "H2-2E_2025-07-16|docs|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.48,
+      0.7
+     ],
+     "published_share": [
+      0.2712745670686352,
+      0.3392779050635634
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.355620044304994,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 0.9264997690048138,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 0.9935,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0065
+     }
+    },
+    "H2-2E_2025-07-16|docs|closest_2025_set": {
+     "published_set": "docs 2025-05-29 H2-2",
+     "true_share": [
+      0.48,
+      0.7
+     ],
+     "published_share": [
+      0.3378401401641892,
+      0.40728161069944907
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.2262127806935421,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 0.9264997690048138,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 0.9935,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0065
+     }
+    },
+    "H2-2E_2025-07-16|docs_dephasing|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.21,
+      0.47
+     ],
+     "published_share": [
+      0.2712745670686352,
+      0.3392779050635634
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.858756757227177,
+      "nearer": "published",
+      "median_ratio_to_nearer": 1.21650424411194,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0195,
+      "published_within_1.5": 0.9805,
+      "published_within_1.25": 0.654,
+      "generic_within_1.5": 0.0195,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.346
+     }
+    },
+    "H2-2E_2025-07-16|docs_dephasing|closest_2025_set": {
+     "published_set": "docs 2025-05-29 H2-2",
+     "true_share": [
+      0.21,
+      0.47
+     ],
+     "published_share": [
+      0.3378401401641892,
+      0.40728161069944907
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.7848752354500759,
+      "nearer": "published",
+      "median_ratio_to_nearer": 1.0162003507347328,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0005,
+      "published_within_1.5": 0.9995,
+      "published_within_1.25": 0.9935,
+      "generic_within_1.5": 0.0005,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.0065
+     }
+    },
+    "Helios-1E_2025-11-18|docs|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.73,
+      0.88
+     ],
+     "published_share": [
+      0.2712745670686352,
+      0.3392779050635634
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.7910148518779225,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.2047783666255278,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 0.8155,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.1845
+     }
+    },
+    "Helios-1E_2025-11-18|docs|closest_2025_set": {
+     "published_set": "docs 2025-08-28 H2-2",
+     "true_share": [
+      0.73,
+      0.88
+     ],
+     "published_share": [
+      0.479975379696538,
+      0.5499554792122835
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 1.3662890161897128,
+      "nearer": "generic",
+      "median_ratio_to_nearer": 1.2047783666255278,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 1.0,
+      "published_within_1.5": 0.0,
+      "published_within_1.25": 0.0,
+      "generic_within_1.5": 1.0,
+      "generic_within_1.25": 0.8155,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.1845
+     }
+    },
+    "Helios-1E_2025-11-18|docs_dephasing|admission_set": {
+     "published_set": "docs 2026-10-20 H2-1",
+     "true_share": [
+      0.24,
+      0.38
+     ],
+     "published_share": [
+      0.2712745670686352,
+      0.3392779050635634
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.7342653342433584,
+      "nearer": "published",
+      "median_ratio_to_nearer": 1.072254874261867,
+      "within_1.5": true,
+      "within_1.25": true
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 1.0,
+      "published_within_1.25": 0.987,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.0,
+      "rejected_both_at_1.25": 0.013
+     }
+    },
+    "Helios-1E_2025-11-18|docs_dephasing|closest_2025_set": {
+     "published_set": "docs 2025-08-28 H2-2",
+     "true_share": [
+      0.24,
+      0.38
+     ],
+     "published_share": [
+      0.479975379696538,
+      0.5499554792122835
+     ],
+     "generic_share": [
+      0.6286138887701047,
+      0.6775045975444083
+     ],
+     "noise_free": {
+      "median_ratio_to_geometric_midpoint": 0.5674475569315458,
+      "nearer": "published",
+      "median_ratio_to_nearer": 0.6398152507913136,
+      "within_1.5": false,
+      "within_1.25": false
+     },
+     "shot_noise": {
+      "draws": 2000,
+      "verdict_generic": 0.0,
+      "published_within_1.5": 0.218,
+      "published_within_1.25": 0.0005,
+      "generic_within_1.5": 0.0,
+      "generic_within_1.25": 0.0,
+      "rejected_both_at_1.5": 0.782,
+      "rejected_both_at_1.25": 0.9995
+     }
+    }
+   }
+  }
+ }
+}

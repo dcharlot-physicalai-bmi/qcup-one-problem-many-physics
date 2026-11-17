@@ -1,0 +1,36 @@
+{
+ "pages": {
+  "qe_h2_emulators.html": "5172975988d92446d4ce8890dc12e0ce136edbf6215cee5b9732d97e153ffd4a",
+  "qe_helios_emulators.html": "8763eccf379a19da1312c7e060f6c7103ec8b044276c18d51c6dc06dbbdafaaa",
+  "qe_noise_model.html": "8688e17aa44f6ad61d28c89fa1df258bef1871171536f93689f0c203279d6b76"
+ },
+ "defaults": [
+  {
+   "page": "qe_h2_emulators.html",
+   "tab": "H2-1E",
+   "caption": "H2-1E emulators from 2025-07-16",
+   "date": "2025-07-16",
+   "rzz_angle_fit": true
+  },
+  {
+   "page": "qe_h2_emulators.html",
+   "tab": "H2-2E",
+   "caption": "H2-1E emulators from 2025-07-16",
+   "date": "2025-07-16",
+   "rzz_angle_fit": true
+  },
+  {
+   "page": "qe_helios_emulators.html",
+   "tab": "Helios-1E",
+   "caption": "Helios-1E emulators from 2025-11-18",
+   "date": "2025-11-18",
+   "rzz_angle_fit": true
+  }
+ ],
+ "noise_model_page_gives_rzz_angle_formula": true,
+ "by_emulator": {
+  "H2-1E": "2025-07-16",
+  "H2-2E": "2025-07-16",
+  "Helios-1E": "2025-11-18"
+ }
+}

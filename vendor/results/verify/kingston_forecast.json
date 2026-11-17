@@ -1,0 +1,216 @@
+{
+ "source": "open-standards 2356016cc:wai/wai-quantum/tests/data/forecasts/2026-11-15/README.md",
+ "commit": "2356016cc2c6c4e1a21c0e2ff8eada34e5dae98d",
+ "files": {
+  "README.md": "9b5dc0ecb3aeac3ce225196bc30e5eb42c2e3266",
+  "forecast.json": "2c6142670c9a5926c2ec845d7d605096afcb2e2b",
+  "run.json": "c2c6b7970c8f6ab11bb039825617604793057ec7",
+  "ae2f87f056a52b9a80a53cdb615ec62a699ff72701febd86a1571599be4bde99.json": "7f60ea62dfb3f7e52c6c6108d20fa65e9b1c20d7"
+ },
+ "circuits": 22,
+ "with_signal": 22,
+ "median_ratio_predicted_over_measured_error": 0.638,
+ "median_ratio_from_recomputed": 0.636,
+ "inverse_median": 1.567,
+ "abs_z_over_3": 20,
+ "rows": [
+  {
+   "circuit": "bell-149-148",
+   "predicted": 0.9928,
+   "measured": 0.9885,
+   "sd": 0.0012,
+   "z": 3.57,
+   "ratio_table": 0.629,
+   "ratio_recomputed": 0.6247
+  },
+  {
+   "circuit": "bell-55-59",
+   "predicted": 0.9924,
+   "measured": 0.9798,
+   "sd": 0.0016,
+   "z": 8.02,
+   "ratio_table": 0.374,
+   "ratio_recomputed": 0.3738
+  },
+  {
+   "circuit": "bell-117-105",
+   "predicted": 0.9913,
+   "measured": 0.979,
+   "sd": 0.0016,
+   "z": 7.65,
+   "ratio_table": 0.414,
+   "ratio_recomputed": 0.4117
+  },
+  {
+   "circuit": "bell-0-1",
+   "predicted": 0.9648,
+   "measured": 0.9719,
+   "sd": 0.0018,
+   "z": -3.85,
+   "ratio_table": 1.257,
+   "ratio_recomputed": 1.2572
+  },
+  {
+   "circuit": "bell-83-84",
+   "predicted": 0.9015,
+   "measured": 0.9474,
+   "sd": 0.0025,
+   "z": -18.36,
+   "ratio_table": 1.917,
+   "ratio_recomputed": 1.9191
+  },
+  {
+   "circuit": "bell-92-93",
+   "predicted": 0.9226,
+   "measured": 0.9429,
+   "sd": 0.0026,
+   "z": -7.82,
+   "ratio_table": 1.37,
+   "ratio_recomputed": 1.3702
+  },
+  {
+   "circuit": "ghz-3",
+   "predicted": 0.9764,
+   "measured": 0.946,
+   "sd": 0.0025,
+   "z": 12.02,
+   "ratio_table": 0.431,
+   "ratio_recomputed": 0.4302
+  },
+  {
+   "circuit": "ghz-5",
+   "predicted": 0.9551,
+   "measured": 0.915,
+   "sd": 0.0031,
+   "z": 12.85,
+   "ratio_table": 0.518,
+   "ratio_recomputed": 0.5172
+  },
+  {
+   "circuit": "ghz-7",
+   "predicted": 0.932,
+   "measured": 0.8676,
+   "sd": 0.0038,
+   "z": 16.98,
+   "ratio_table": 0.496,
+   "ratio_recomputed": 0.4958
+  },
+  {
+   "circuit": "ghz-10",
+   "predicted": 0.9068,
+   "measured": 0.8425,
+   "sd": 0.0041,
+   "z": 15.8,
+   "ratio_table": 0.571,
+   "ratio_recomputed": 0.5709
+  },
+  {
+   "circuit": "ghz-5-x",
+   "predicted": 0.914,
+   "measured": 0.8828,
+   "sd": 0.0053,
+   "z": 5.94,
+   "ratio_table": 0.721,
+   "ratio_recomputed": 0.7214
+  },
+  {
+   "circuit": "ghz-10-x",
+   "predicted": 0.8353,
+   "measured": 0.7228,
+   "sd": 0.0077,
+   "z": 14.57,
+   "ratio_table": 0.554,
+   "ratio_recomputed": 0.5544
+  },
+  {
+   "circuit": "ghz-20",
+   "predicted": 0.724,
+   "measured": 0.6819,
+   "sd": 0.0052,
+   "z": 8.08,
+   "ratio_table": 0.844,
+   "ratio_recomputed": 0.8435
+  },
+  {
+   "circuit": "mirror-4-d4",
+   "predicted": 0.9164,
+   "measured": 0.8815,
+   "sd": 0.0036,
+   "z": 9.65,
+   "ratio_table": 0.692,
+   "ratio_recomputed": 0.6922
+  },
+  {
+   "circuit": "mirror-8-d4",
+   "predicted": 0.8344,
+   "measured": 0.756,
+   "sd": 0.0048,
+   "z": 16.33,
+   "ratio_table": 0.647,
+   "ratio_recomputed": 0.6472
+  },
+  {
+   "circuit": "mirror-10-d6",
+   "predicted": 0.7681,
+   "measured": 0.6983,
+   "sd": 0.0051,
+   "z": 13.61,
+   "ratio_table": 0.735,
+   "ratio_recomputed": 0.7347
+  },
+  {
+   "circuit": "xeb-4-c8-1",
+   "predicted": 0.9126,
+   "measured": 0.9152,
+   "sd": 0.0147,
+   "z": -0.17,
+   "ratio_table": 1.032,
+   "ratio_recomputed": 1.0321
+  },
+  {
+   "circuit": "xeb-4-c8-2",
+   "predicted": 0.9076,
+   "measured": 0.8838,
+   "sd": 0.0184,
+   "z": 1.29,
+   "ratio_table": 0.785,
+   "ratio_recomputed": 0.7849
+  },
+  {
+   "circuit": "xeb-6-c8-1",
+   "predicted": 0.8596,
+   "measured": 0.7822,
+   "sd": 0.0155,
+   "z": 5.01,
+   "ratio_table": 0.616,
+   "ratio_recomputed": 0.6159
+  },
+  {
+   "circuit": "xeb-6-c8-2",
+   "predicted": 0.8619,
+   "measured": 0.8099,
+   "sd": 0.0153,
+   "z": 3.39,
+   "ratio_table": 0.705,
+   "ratio_recomputed": 0.7049
+  },
+  {
+   "circuit": "xeb-8-c6-1",
+   "predicted": 0.8563,
+   "measured": 0.7435,
+   "sd": 0.0151,
+   "z": 7.48,
+   "ratio_table": 0.523,
+   "ratio_recomputed": 0.5234
+  },
+  {
+   "circuit": "xeb-8-c6-2",
+   "predicted": 0.8575,
+   "measured": 0.7623,
+   "sd": 0.0149,
+   "z": 6.39,
+   "ratio_table": 0.566,
+   "ratio_recomputed": 0.5664
+  }
+ ]
+}

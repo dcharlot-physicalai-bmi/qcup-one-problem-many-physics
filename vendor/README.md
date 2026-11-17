@@ -9,8 +9,9 @@ where it is used:
   IonQ's Forte characterization of 2026-11-14) and from IBM's calibrations of 2026-11-13 (ibm_kingston, ibm_fez,
   ibm_marrakesh). A model is not a device.
 - **Selene**: Quantinuum's open-source emulator, with its depolarizing model set to the H2 figures (results/models/selene/),
-  and with Quantinuum's published emulator parameters for H2-1 and H2-2 plus our plugin for the terms it lacks
-  (selene-params/, finding 28).
+  with Quantinuum's published emulator parameters for H2-1 and H2-2 plus our plugin for the terms it lacks
+  (selene-params/), and with the default noise parameters of Quantinuum's H2-1E, H2-2E and Helios-1E emulators plus our
+  plugin (selene-2025/, finding 28). Emulator simulations, not device runs.
 - **IQM mock**: IQM Resonance's mock of Emerald, priced at 0; it returns random bits, so it checks compilation and time.
 - **Fits of published raw data**: our own fits of Quantinuum's 2023 to 2025 benchmark data (quantinuum-2025/).
 
@@ -25,8 +26,11 @@ where it is used:
 | scripts/selene_noisy.py, selene_fit.py | Selene runs with H2-matched noise, and the trace-fidelity fit (selene_fit.py added in this revision; the fit was not stored before) |
 | scripts/iqm_reads.py | IQM price and backend reads (nothing submitted) |
 | scripts/verify_*.py | The independent checker's scripts: re-admission, refit of the IonQ emulator law, IBM rerun, simulation of the sent circuits, IonQ probes |
-| scripts/final_request.py | The request as the final application states it (finding 26); `--qset` picks the Quantinuum figure set (default H2-1, 20 October 2026) |
-| results/final_request.json | Output of final_request.py: IBM and IQM admission at the device check's cap and the Aim 2 ladder, trapped-ion re-admission on every published Quantinuum set, the actinide and transition-metal circuits, the merged H2 rows, the table, costs per vendor and per period, IQM credits by the Resource Calculator |
+| scripts/final_request.py | The request as the final application states it (finding 26); `--qset` picks the Quantinuum figure set (default H2-1, 20 October 2026); it computes Q8's range predictions from selene-2025/'s results (k per circuit, the no-verdict gap G, the bands 1.25 and 1.5) and sets the actinide shots from them (150; `--act-shots` overrides); G is frozen at 1.065 and 1.193 (`--q8-g-tm`, `--q8-g-act`), derived along a fixed path from H2-1's figures of 20 October 2026, so a new `--qset` recomputes the ranges and moves neither G nor the shots; it also records the residual sensitivity (k above Selene's highest), the rejection reach and 40,000-draw precision estimates (`--q8-precise-draws`), and `--out` writes elsewhere; `--q8-band-tm` and `--q8-band-act` set the bands of the earlier point-prediction rule, kept in its output |
+| results/final_request.json | Output of final_request.py: IBM and IQM admission at the device check's cap and the Aim 2 ladder, trapped-ion re-admission on every published Quantinuum set, the actinide and transition-metal circuits, the merged H2 rows, the table, costs per vendor and per period, IQM credits by the Resource Calculator; from 17 November 2026 (v1.0.2) also the IBM QAOA shots raised for Q1 and Q2, the figures of README finding 29, Q8's shot-noise rates under the earlier point predictions (`q8_rule` entries, `steps.q8_bands`), and Q8's range design (`steps.q8_ranges`: k, ranges, G by shot count, bands, the outcome on every published set, the sensitivity and the Selene scenarios; README finding 28) |
+| scripts/review_figures.py, results/review_figures.json | Figures the application quotes after the review round of 17 November 2026 that no earlier script stored, recomputed from the package's result files (README finding 29) |
+| scripts/kingston_forecast.py, results/verify/kingston_forecast.json | The second sealed IBM forecast (22 circuits on ibm_kingston), recomputed from its public record in the open-standards repository at 2356016cc |
+| scripts/quantinuum-2025/emulator_defaults.py, results/quantinuum-2025/emulator_defaults.json | The dates of the default noise parameters on Quantinuum's emulator pages (H2-1E and H2-2E 2025-07-16, Helios-1E 2025-11-18), read from saved copies named by SHA-256 and not copied |
 | scripts/ladder_budget.py, results/ibm/ladder_budget.json, results/ibm/ladder_design.json | The IBM Aim 2 ladder: every program to 234 CZ placed on ibm_marrakesh as the device check placed its circuits and costed by the check's sealed budget.py (finding 24) |
 | scripts/quantinuum_sets.py, results/models/quantinuum_sets.json | Per-circuit budgets under all eight published Quantinuum H2 figure sets, by models.py's own rules (finding 25) |
 | scripts/quantinuum-2025/, results/quantinuum-2025/ | The 2025 figure check: randomized-benchmarking fits of Quantinuum's raw data, validation against the 51 published values, the model drive and its summaries |
@@ -39,6 +43,7 @@ where it is used:
 | results/circuits/ | Index of the 331 circuits, their OpenQASM 3 files and a SHA-256 manifest of the full circuit set (the IonQ JSON forms and score files listed in it are not copied; build_circuits.py and to_native.py regenerate them; for the 84 Quantinuum core circuits compared in selene-params/rebuild/, the gate pairs and their order rebuild exactly in the pinned environment, but not every one-qubit gate, nor the chemistry circuits' RZZ angles) |
 | ibm-check/ | The first IBM device check: the sealed preregistration and design, the sealed scripts, the device results, the independent re-score and the derived figures (README there). Replaces ibm-prereg/, which held only the two sealed files |
 | selene-params/ | Selene 0.3.8 runs of all 84 Quantinuum core circuits and the 44 extension programs under Quantinuum's published emulator parameters (H2-1 2024-05-20, H2-2 2024-12-06): parameters and their mapping, the error-model plugin, scripts, positive controls, results, and every shot (runs.tar.xz) (finding 28; README there) |
+| selene-2025/ | Selene 0.3.8 runs of all 84 Quantinuum core circuits and the 44 extension programs under the default noise parameters of Quantinuum's H2-1E and H2-2E (2025-07-16) and Helios-1E (2025-11-18) emulators, with dephasing left out and at an assumed 71 ms per two-qubit layer: parameters made from the saved documentation pages (listed by SHA-256, not copied), the error-model plugin, scripts, positive controls, results with Q8's shot-noise rates, every shot (runs.tar.xz), and the run's full SHA-256 manifest; the circuits are selene-params/builder.tar.xz (finding 28; README there) |
 | manifest_sha256.json | SHA-256 of every file in this folder except itself |
 
 ## Corrections that apply to files kept as run
@@ -67,6 +72,9 @@ except for key handling: after the run, ibm_reads.py, iqm_reads.py, ionq.sh and 
 from environment variables (IBM_API_KEY and IBM_INSTANCE_CRN, IQM_TOKEN, IONQ_API_KEY) in place of a local keychain and
 config file; scripts/iqm/_tok.py likewise reads IQM_TOKEN. The IBM check's sealed scripts are unmodified (their hashes are
 in its prereg.txt), so they still name the local keychain item and registry they read from. Nothing here holds a key.
-final_request.py, selene_fit.py, scripts/iqm/estimate.py and ibm-check/derived/derived.py run from the package with no
-account: `python3 vendor/scripts/final_request.py .`. ladder_budget.py and quantinuum_sets.py need Qiskit and the gate
-lists respectively (their docstrings say how); both ran on a build host.
+final_request.py, selene_fit.py, review_figures.py, scripts/iqm/estimate.py and ibm-check/derived/derived.py run from the
+package with no account: `python3 vendor/scripts/final_request.py .`. kingston_forecast.py needs a clone of the
+open-standards repository (it reads commit 2356016cc with git); emulator_defaults.py needs the saved Quantinuum pages. ladder_budget.py and quantinuum_sets.py need Qiskit and the gate
+lists respectively (their docstrings say how); both ran on a build host. selene-2025/'s analysis scripts (analyze.py,
+q8_power.py, summarize.py) run from that folder once its runs.tar.xz and selene-params/builder.tar.xz are unpacked there
+(README there); its Selene runs need the corpus environment and ran on a build host.

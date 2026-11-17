@@ -1,0 +1,362 @@
+{
+ "all_sets|docs": {
+  "sets": [
+   "H2-1E_2025-07-16",
+   "H2-2E_2025-07-16",
+   "Helios-1E_2025-11-18"
+  ],
+  "program_trace_min": 0.785,
+  "program_trace_max": 1.0,
+  "labs_no_fault_min": 0.865,
+  "labs_no_fault_max": 0.955,
+  "tm_no_fault_min": 0.68,
+  "tm_no_fault_max": 0.9,
+  "tm_share_min": 0.775,
+  "tm_share_max": 0.925,
+  "tm_model_share_min": 0.6241711506912834,
+  "tm_model_share_max": 0.8290456810968917,
+  "tm_ratio_min": 1.0500420326671198,
+  "tm_ratio_max": 1.4063054634784353,
+  "act_share_min": 0.48,
+  "act_share_max": 0.88,
+  "act_model_share_min": 0.3378401401641892,
+  "act_model_share_max": 0.5499554792122835,
+  "act_no_fault_min": 0.38,
+  "act_no_fault_max": 0.78,
+  "act_shots": [
+   100
+  ],
+  "admitted_80_passing": [
+   80,
+   80,
+   80
+  ],
+  "admitted_80_present": [
+   80,
+   80,
+   80
+  ],
+  "straddles_admitted": {
+   "H2-1E_2025-07-16": [],
+   "H2-2E_2025-07-16": [],
+   "Helios-1E_2025-11-18": []
+  },
+  "loss_pct_115": [
+   0.0612,
+   0.0755,
+   0.0497
+  ],
+  "point_115": [
+   1960,
+   1582,
+   2423
+  ],
+  "r2_115": [
+   0.972,
+   0.975,
+   0.973
+  ],
+  "fitted_115": [
+   115,
+   115,
+   115
+  ],
+  "median_point_115": [
+   1824.5,
+   1472.8,
+   2332.6
+  ],
+  "point_core_71": [
+   1939,
+   1564,
+   3028
+  ],
+  "model_median_point_115": [
+   927.1,
+   875.6,
+   1387.0
+  ],
+  "model_lsq_point_115": [
+   684,
+   644,
+   1061
+  ],
+  "model_defaults_median_point_115": [
+   1734.8,
+   1302.6,
+   2285.6
+  ],
+  "programs_in_fit": 115,
+  "programs_max_two_qubit_gates": 1995,
+  "core_programs": 71,
+  "extension_programs": 44,
+  "act_pairs": 12,
+  "act_pairs_at_or_above_30": 12,
+  "act_pairs_below_30": 0,
+  "tm_ratio_max_distance_from_1_pct": 40.630546347843534
+ },
+ "h2_sets|docs": {
+  "sets": [
+   "H2-1E_2025-07-16",
+   "H2-2E_2025-07-16"
+  ],
+  "program_trace_min": 0.785,
+  "program_trace_max": 1.0,
+  "labs_no_fault_min": 0.865,
+  "labs_no_fault_max": 0.955,
+  "tm_no_fault_min": 0.68,
+  "tm_no_fault_max": 0.86,
+  "tm_share_min": 0.775,
+  "tm_share_max": 0.905,
+  "tm_model_share_min": 0.6241711506912834,
+  "tm_model_share_max": 0.7783275609543564,
+  "tm_ratio_min": 1.1160469532909278,
+  "tm_ratio_max": 1.4063054634784353,
+  "act_share_min": 0.48,
+  "act_share_max": 0.76,
+  "act_model_share_min": 0.3378401401641892,
+  "act_model_share_max": 0.4297810964047462,
+  "act_no_fault_min": 0.38,
+  "act_no_fault_max": 0.66,
+  "act_shots": [
+   100
+  ],
+  "admitted_80_passing": [
+   80,
+   80
+  ],
+  "admitted_80_present": [
+   80,
+   80
+  ],
+  "straddles_admitted": {
+   "H2-1E_2025-07-16": [],
+   "H2-2E_2025-07-16": []
+  },
+  "loss_pct_115": [
+   0.0612,
+   0.0755
+  ],
+  "point_115": [
+   1960,
+   1582
+  ],
+  "r2_115": [
+   0.972,
+   0.975
+  ],
+  "fitted_115": [
+   115,
+   115
+  ],
+  "median_point_115": [
+   1824.5,
+   1472.8
+  ],
+  "point_core_71": [
+   1939,
+   1564
+  ],
+  "model_median_point_115": [
+   927.1,
+   875.6
+  ],
+  "model_lsq_point_115": [
+   684,
+   644
+  ],
+  "model_defaults_median_point_115": [
+   1734.8,
+   1302.6
+  ],
+  "programs_in_fit": 115,
+  "programs_max_two_qubit_gates": 1995,
+  "core_programs": 71,
+  "extension_programs": 44,
+  "act_pairs": 8,
+  "act_pairs_at_or_above_30": 8,
+  "act_pairs_below_30": 0,
+  "tm_ratio_max_distance_from_1_pct": 40.630546347843534
+ },
+ "all_sets|docs_dephasing": {
+  "sets": [
+   "H2-1E_2025-07-16",
+   "H2-2E_2025-07-16",
+   "Helios-1E_2025-11-18"
+  ],
+  "program_trace_min": 0.575,
+  "program_trace_max": 1.0,
+  "labs_no_fault_min": 0.46,
+  "labs_no_fault_max": 0.64,
+  "tm_no_fault_min": 0.305,
+  "tm_no_fault_max": 0.715,
+  "tm_share_min": 0.425,
+  "tm_share_max": 0.76,
+  "tm_model_share_min": 0.6241711506912834,
+  "tm_model_share_max": 0.8290456810968917,
+  "tm_ratio_min": 0.5766751020238551,
+  "tm_ratio_max": 0.9970789150611934,
+  "act_share_min": 0.21,
+  "act_share_max": 0.47,
+  "act_model_share_min": 0.3378401401641892,
+  "act_model_share_max": 0.5499554792122835,
+  "act_no_fault_min": 0.09,
+  "act_no_fault_max": 0.33,
+  "act_shots": [
+   100
+  ],
+  "admitted_80_passing": [
+   80,
+   80,
+   80
+  ],
+  "admitted_80_present": [
+   80,
+   80,
+   80
+  ],
+  "straddles_admitted": {
+   "H2-1E_2025-07-16": [],
+   "H2-2E_2025-07-16": [],
+   "Helios-1E_2025-11-18": [
+    "qcup-f-tgt-mno-eq"
+   ]
+  },
+  "loss_pct_115": [
+   0.13,
+   0.144,
+   0.1507
+  ],
+  "point_115": [
+   918,
+   830,
+   784
+  ],
+  "r2_115": [
+   0.978,
+   0.973,
+   0.954
+  ],
+  "fitted_115": [
+   110,
+   108,
+   108
+  ],
+  "median_point_115": [
+   879.4,
+   774.5,
+   741.3
+  ],
+  "point_core_71": [
+   959,
+   948,
+   831
+  ],
+  "model_median_point_115": [
+   927.1,
+   875.6,
+   1387.0
+  ],
+  "model_lsq_point_115": [
+   684,
+   644,
+   1061
+  ],
+  "model_defaults_median_point_115": [
+   644.8,
+   573.5,
+   488.6
+  ],
+  "programs_in_fit": 115,
+  "programs_max_two_qubit_gates": 1995,
+  "core_programs": 71,
+  "extension_programs": 44,
+  "act_pairs": 12,
+  "act_pairs_at_or_above_30": 2,
+  "act_pairs_below_30": 10,
+  "tm_ratio_max_distance_from_1_pct": 42.33248979761449
+ },
+ "h2_sets|docs_dephasing": {
+  "sets": [
+   "H2-1E_2025-07-16",
+   "H2-2E_2025-07-16"
+  ],
+  "program_trace_min": 0.665,
+  "program_trace_max": 1.0,
+  "labs_no_fault_min": 0.57,
+  "labs_no_fault_max": 0.64,
+  "tm_no_fault_min": 0.45,
+  "tm_no_fault_max": 0.715,
+  "tm_share_min": 0.545,
+  "tm_share_max": 0.76,
+  "tm_model_share_min": 0.6241711506912834,
+  "tm_model_share_max": 0.7783275609543564,
+  "tm_ratio_min": 0.8731579461761417,
+  "tm_ratio_max": 0.9970789150611934,
+  "act_share_min": 0.21,
+  "act_share_max": 0.47,
+  "act_model_share_min": 0.3378401401641892,
+  "act_model_share_max": 0.4297810964047462,
+  "act_no_fault_min": 0.13,
+  "act_no_fault_max": 0.33,
+  "act_shots": [
+   100
+  ],
+  "admitted_80_passing": [
+   80,
+   80
+  ],
+  "admitted_80_present": [
+   80,
+   80
+  ],
+  "straddles_admitted": {
+   "H2-1E_2025-07-16": [],
+   "H2-2E_2025-07-16": []
+  },
+  "loss_pct_115": [
+   0.13,
+   0.144
+  ],
+  "point_115": [
+   918,
+   830
+  ],
+  "r2_115": [
+   0.978,
+   0.973
+  ],
+  "fitted_115": [
+   110,
+   108
+  ],
+  "median_point_115": [
+   879.4,
+   774.5
+  ],
+  "point_core_71": [
+   959,
+   948
+  ],
+  "model_median_point_115": [
+   927.1,
+   875.6
+  ],
+  "model_lsq_point_115": [
+   684,
+   644
+  ],
+  "model_defaults_median_point_115": [
+   644.8,
+   573.5
+  ],
+  "programs_in_fit": 115,
+  "programs_max_two_qubit_gates": 1995,
+  "core_programs": 71,
+  "extension_programs": 44,
+  "act_pairs": 8,
+  "act_pairs_at_or_above_30": 1,
+  "act_pairs_below_30": 7,
+  "tm_ratio_max_distance_from_1_pct": 12.684205382385827
+ }
+}

@@ -1,0 +1,253 @@
+{
+ "note": "Every figure below is computed by vendor/scripts/review_figures.py from the files named in its docstring.",
+ "worked_example_wrong_acceptances": {
+  "accepted": 10,
+  "right": 8,
+  "wrong": 2,
+  "cases": 12,
+  "escalated": 2,
+  "clopper_pearson_95": [
+   0.0252,
+   0.5561
+  ]
+ },
+ "trust_check_finding_14": {
+  "cases": 18,
+  "ccsd_wrong": 8,
+  "wrong_routed": 8,
+  "ccsd_right": 10,
+  "right_routed": 8
+ },
+ "check_1_finding_16": {
+  "cases": 12,
+  "cheap_wrong": 7,
+  "wrong_flagged": 6,
+  "cheap_right": 5,
+  "right_flagged": 3
+ },
+ "q9_product_state_error_per_site": {
+  "circuits": [
+   {
+    "vendor": "IBM",
+    "lattice": "2x2",
+    "p": 1,
+    "U": 4.0,
+    "start": "neel_product_state",
+    "cz": 58,
+    "error_per_site": 0.1756871208655192
+   },
+   {
+    "vendor": "IBM",
+    "lattice": "2x2",
+    "p": 1,
+    "U": 8.0,
+    "start": "neel_product_state",
+    "cz": 58,
+    "error_per_site": 0.11004254097722502
+   },
+   {
+    "vendor": "IBM",
+    "lattice": "2x2",
+    "p": 2,
+    "U": 4.0,
+    "start": "neel_product_state",
+    "cz": 116,
+    "error_per_site": 0.1348021214197992
+   },
+   {
+    "vendor": "IBM",
+    "lattice": "2x2",
+    "p": 2,
+    "U": 8.0,
+    "start": "neel_product_state",
+    "cz": 116,
+    "error_per_site": 0.09783949806597919
+   },
+   {
+    "vendor": "IQM",
+    "lattice": "2x2",
+    "p": 1,
+    "U": 4.0,
+    "start": "neel_product_state",
+    "cz": 58,
+    "error_per_site": 0.1756871208655192
+   },
+   {
+    "vendor": "IQM",
+    "lattice": "2x2",
+    "p": 1,
+    "U": 8.0,
+    "start": "neel_product_state",
+    "cz": 58,
+    "error_per_site": 0.11004254097722502
+   },
+   {
+    "vendor": "IQM",
+    "lattice": "2x2",
+    "p": 2,
+    "U": 4.0,
+    "start": "neel_product_state",
+    "cz": 116,
+    "error_per_site": 0.1348021214197992
+   },
+   {
+    "vendor": "IQM",
+    "lattice": "2x2",
+    "p": 2,
+    "U": 8.0,
+    "start": "neel_product_state",
+    "cz": 116,
+    "error_per_site": 0.09783949806597919
+   }
+  ],
+  "starts": [
+   "neel_product_state"
+  ],
+  "range": [
+   0.09783949806597919,
+   0.1756871208655192
+  ]
+ },
+ "q7_ideal_exact_tvd": {
+  "circuits": 4,
+  "ids": [
+   "qcup-q7-B12-warmT-p1",
+   "qcup-q7-B12-warmT-p2",
+   "qcup-q7-B16-warmT-p1",
+   "qcup-q7-B16-warmT-p2"
+  ],
+  "range": [
+   0.124690625664466,
+   0.33670487113553643
+  ]
+ },
+ "family_C_scale_gap_pct_of_feasible_spread": {
+  "instances": 12,
+  "range": [
+   56.1793,
+   72.6477
+  ],
+  "within_1pct": 0,
+  "proved_optimal_by_size": {
+   "24": 3,
+   "30": 3,
+   "42": 3,
+   "60": 0
+  }
+ },
+ "router_sends_out_scale_up": {
+  "sent": [
+   [
+    "A",
+    60,
+    0
+   ],
+   [
+    "A",
+    60,
+    1
+   ],
+   [
+    "A",
+    60,
+    2
+   ],
+   [
+    "C",
+    60,
+    0
+   ],
+   [
+    "C",
+    60,
+    1
+   ],
+   [
+    "C",
+    60,
+    2
+   ]
+  ],
+  "smallest_size_sent": 60,
+  "families_sent": [
+   "A",
+   "C"
+  ],
+  "unproved": [
+   [
+    "A",
+    40,
+    0,
+    0.1106
+   ],
+   [
+    "A",
+    40,
+    1,
+    0.0111
+   ],
+   [
+    "A",
+    40,
+    2,
+    0.0183
+   ],
+   [
+    "A",
+    60,
+    0,
+    4.1835
+   ],
+   [
+    "A",
+    60,
+    1,
+    29.6795
+   ],
+   [
+    "A",
+    60,
+    2,
+    1.9734
+   ],
+   [
+    "C",
+    60,
+    0,
+    59.7769
+   ],
+   [
+    "C",
+    60,
+    1,
+    67.1755
+   ],
+   [
+    "C",
+    60,
+    2,
+    66.6857
+   ]
+  ]
+ },
+ "ionq_emulator_30pct_point_by_fit": {
+  "fits_handling_the_floor": {
+   "builder (>=20 correct, >=2x floor, rzz>0)": 147.2,
+   ">=2x floor incl rzz 0": 147.0,
+   "rzz<=147 only": 143.9,
+   "rzz<=300 (IonQ core cap) all": 154.5,
+   "floor-corrected y'=(y-floor)/(1-floor), y'>0.04, rzz>0": 126.5
+  },
+  "range_handling_the_floor": [
+   126.5,
+   154.5
+  ],
+  "plain_rule": 389.8,
+  "builder": 147.2
+ },
+ "pulse_code_growth": {
+  "qaoa_depth3_inverse_success_base": 1.7711,
+  "native_annealer_tts_base": 1.5737,
+  "qaoa_grows_faster": true
+ }
+}

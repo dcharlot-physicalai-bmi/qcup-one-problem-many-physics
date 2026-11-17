@@ -1,0 +1,44 @@
+{
+ "actinide": {
+  "false_alarm_if_published_true": 0.0,
+  "power_if_generic_true": 1.0,
+  "final_request_json": {
+   "false_alarm_if_published_true": 0.0,
+   "power_if_generic_true": 1.0
+  },
+  "equal": true
+ },
+ "transition_metal": {
+  "false_alarm_if_published_true": 0.0,
+  "power_if_generic_true": 1.0,
+  "final_request_json": {
+   "false_alarm_if_published_true": 0.0,
+   "power_if_generic_true": 1.0
+  },
+  "equal": true
+ }
+}
+transition_metal H2-1E_2025-07-16|docs|admission_set true 0.81-0.91 pub 0.56-0.73 gen 0.81-0.91 | nearer generic ratio 1.01 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-1E_2025-07-16|docs|closest_2025_set true 0.81-0.91 pub 0.64-0.78 gen 0.81-0.91 | nearer generic ratio 1.01 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-1E_2025-07-16|docs_dephasing|admission_set true 0.57-0.76 pub 0.56-0.73 gen 0.81-0.91 | nearer published ratio 1.02 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 1.000 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-1E_2025-07-16|docs_dephasing|closest_2025_set true 0.57-0.76 pub 0.64-0.78 gen 0.81-0.91 | nearer published ratio 0.94 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 1.000 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-2E_2025-07-16|docs|admission_set true 0.78-0.89 pub 0.56-0.73 gen 0.81-0.91 | nearer generic ratio 0.98 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-2E_2025-07-16|docs|closest_2025_set true 0.78-0.89 pub 0.62-0.77 gen 0.81-0.91 | nearer generic ratio 0.98 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-2E_2025-07-16|docs_dephasing|admission_set true 0.55-0.75 pub 0.56-0.73 gen 0.81-0.91 | nearer published ratio 1.02 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 1.000 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal H2-2E_2025-07-16|docs_dephasing|closest_2025_set true 0.55-0.75 pub 0.62-0.77 gen 0.81-0.91 | nearer published ratio 0.94 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 1.000 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal Helios-1E_2025-11-18|docs|admission_set true 0.86-0.93 pub 0.56-0.73 gen 0.81-0.91 | nearer generic ratio 1.07 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal Helios-1E_2025-11-18|docs|closest_2025_set true 0.86-0.93 pub 0.73-0.83 gen 0.81-0.91 | nearer generic ratio 1.07 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal Helios-1E_2025-11-18|docs_dephasing|admission_set true 0.42-0.68 pub 0.56-0.73 gen 0.81-0.91 | nearer published ratio 0.91 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 1.000 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+transition_metal Helios-1E_2025-11-18|docs_dephasing|closest_2025_set true 0.42-0.68 pub 0.73-0.83 gen 0.81-0.91 | nearer published ratio 0.73 | P(generic) 0.000 P(pub,1.5) 0.999 P(pub,1.25) 0.004 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.001 P(rej,1.25) 0.996
+actinide H2-1E_2025-07-16|docs|admission_set true 0.61-0.76 pub 0.27-0.34 gen 0.63-0.68 | nearer generic ratio 1.06 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+actinide H2-1E_2025-07-16|docs|closest_2025_set true 0.61-0.76 pub 0.36-0.43 gen 0.63-0.68 | nearer generic ratio 1.06 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 1.000 P(rej,1.5) 0.000 P(rej,1.25) 0.000
+actinide H2-1E_2025-07-16|docs_dephasing|admission_set true 0.30-0.39 pub 0.27-0.34 gen 0.63-0.68 | nearer published ratio 1.11 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 0.944 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.057
+actinide H2-1E_2025-07-16|docs_dephasing|closest_2025_set true 0.30-0.39 pub 0.36-0.43 gen 0.63-0.68 | nearer published ratio 0.86 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 0.852 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.001 P(rej,1.25) 0.148
+actinide H2-2E_2025-07-16|docs|admission_set true 0.48-0.70 pub 0.27-0.34 gen 0.63-0.68 | nearer generic ratio 0.93 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 0.994 P(rej,1.5) 0.000 P(rej,1.25) 0.006
+actinide H2-2E_2025-07-16|docs|closest_2025_set true 0.48-0.70 pub 0.34-0.41 gen 0.63-0.68 | nearer generic ratio 0.93 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 0.994 P(rej,1.5) 0.000 P(rej,1.25) 0.006
+actinide H2-2E_2025-07-16|docs_dephasing|admission_set true 0.21-0.47 pub 0.27-0.34 gen 0.63-0.68 | nearer published ratio 1.22 | P(generic) 0.019 P(pub,1.5) 0.981 P(pub,1.25) 0.654 P(gen,1.5) 0.019 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.346
+actinide H2-2E_2025-07-16|docs_dephasing|closest_2025_set true 0.21-0.47 pub 0.34-0.41 gen 0.63-0.68 | nearer published ratio 1.02 | P(generic) 0.001 P(pub,1.5) 1.000 P(pub,1.25) 0.994 P(gen,1.5) 0.001 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.006
+actinide Helios-1E_2025-11-18|docs|admission_set true 0.73-0.88 pub 0.27-0.34 gen 0.63-0.68 | nearer generic ratio 1.20 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 0.816 P(rej,1.5) 0.000 P(rej,1.25) 0.184
+actinide Helios-1E_2025-11-18|docs|closest_2025_set true 0.73-0.88 pub 0.48-0.55 gen 0.63-0.68 | nearer generic ratio 1.20 | P(generic) 1.000 P(pub,1.5) 0.000 P(pub,1.25) 0.000 P(gen,1.5) 1.000 P(gen,1.25) 0.816 P(rej,1.5) 0.000 P(rej,1.25) 0.184
+actinide Helios-1E_2025-11-18|docs_dephasing|admission_set true 0.24-0.38 pub 0.27-0.34 gen 0.63-0.68 | nearer published ratio 1.07 | P(generic) 0.000 P(pub,1.5) 1.000 P(pub,1.25) 0.987 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.000 P(rej,1.25) 0.013
+actinide Helios-1E_2025-11-18|docs_dephasing|closest_2025_set true 0.24-0.38 pub 0.48-0.55 gen 0.63-0.68 | nearer published ratio 0.64 | P(generic) 0.000 P(pub,1.5) 0.218 P(pub,1.25) 0.001 P(gen,1.5) 0.000 P(gen,1.25) 0.000 P(rej,1.5) 0.782 P(rej,1.25) 1.000

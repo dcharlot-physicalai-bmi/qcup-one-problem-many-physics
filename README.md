@@ -16,7 +16,7 @@ stored calibration of a device at one past date. None of these is a live QCUP de
 - ferrotherm 0.44.0, commit 3c47471 (QAOA state vector, certified SDP bound, Goemans-Williamson rounding, parallel tempering, TTS, KV260 metered prices)
 - ferromorphic 0.23.2, commit 8dabe3a (annealed stochastic-spiking QUBO sampler); built with --ignore-rust-version on rustc 1.97.0
 - openIE-dev/rce, commit 9ef5c38 (source of the Aim 2 Forms and of the reference implementation that harvest.py runs; built from spec/checker)
-- Qiskit 2.6.2, Qiskit Aer 0.18.2, qiskit-ibm-runtime 0.52.0, guppylang 1.2.1, selene-sim 0.3.7 (0.3.8 in vendor/selene-params/), PySCF 2.15.0, NumPy 2.5.3, SciPy 1.18.1
+- Qiskit 2.6.2, Qiskit Aer 0.18.2, qiskit-ibm-runtime 0.52.0, guppylang 1.2.1, selene-sim 0.3.7 (0.3.8 in vendor/selene-params/ and vendor/selene-2025/), PySCF 2.15.0, NumPy 2.5.3, SciPy 1.18.1
 
 ## What was run
 Aim 1 (aim1/src/main.rs, aim1_post.py, neuro/src/main.rs, aim1_ibm.py, repair.py): 180 instances. 120 at 12 to 20 variables,
@@ -103,9 +103,11 @@ public formulas. The IonQ request is backed by IonQ's emulator and cost estimate
 against device models from the makers' figures, and the request the application states is the one in
 vendor/results/final_request.json (findings 19 to 21 and 23 to 28; finding 22 is superseded by 26). The Quantinuum
 request rests on models of Quantinuum's eight published figure sets, admitting on H2-1's newest (findings 25 and 26),
-checked on a local copy of Selene, Quantinuum's open-source emulator, run on all 84 core circuits with Quantinuum's
-published emulator parameters for H2-1 (May 2024) and H2-2 (December 2024) and our plugin for the terms Selene's own
-models lack (finding 28); Quantinuum's hosted emulators were not run (no account), and each HQC request will also be
+checked on a local copy of Selene, Quantinuum's open-source emulator, run on all 84 core circuits under the default
+noise parameters Quantinuum documents for its H2-1E and H2-2E (2025-07-16) and Helios-1E (2025-11-18) emulators, with
+dephasing left out and at an assumed duration, and before that under its published emulator parameters for H2-1 (May
+2024) and H2-2 (December 2024), each time with our plugin for the terms Selene's own models lack (finding 28). These are
+emulator simulations. Quantinuum's hosted emulators were not run (no account), and each HQC request will also be
 justified on them after project approval.
 
 Program repair at 24 variables (qaoa24.py, results/qaoa24.json): ideal cold QAOA on the three 24-variable repair instances
@@ -267,8 +269,8 @@ value (quantum_gate) and reports no joules.
 11. Request size, all families. The core request is 2,459 circuits and about 4.8 million shots. Estimated cost: about 26
    QPU minutes on IBM, 11.7 million two-qubit gate-shots on IonQ and about 15,800 HQC on Quantinuum. The Quantinuum core
    no longer includes program repair at 40 and 60 qubits (12 circuits, about 2,900 HQC), which moves to the extension tier.
-   Superseded by finding 26: after the vendor checks and the IBM device check the request is 961 circuits and 1,231,900
-   shots.
+   Superseded by finding 26: after the vendor checks and the IBM device check the request is 961 circuits and 2,421,100
+   shots (1,231,900 before the IBM QAOA shots were raised for Q1 and Q2 on 17 November 2026; finding 29).
 
 12. Pulse-code design. A plain annealer on the native form solves every size from 8 to 26 bits in under 500,000 flips.
    No other substrate matches it. On the pairwise form, tempering needs 2,600 proposals at 8 bits, 312,000 at 10, 20 million
@@ -448,12 +450,16 @@ value (quantum_gate) and reports no joules.
    all; no pulse-code or sampling circuit fits. Aim 2 on IBM is the ladder of finding 24: 425 circuits (56 of them above
    117 CZ); on IQM its R and P styles, 210. IQM takes IBM's cap and ladder until its own device check. IonQ is unchanged.
    Quantinuum's core keeps 84 circuits: the 72 re-admitted rows (2,695 HQC), the 8 transition-metal circuits (1,209) and
-   the 4 actinide circuits at 100 shots (790), each counted once (the earlier script would have counted the actinides
-   twice on any figure set that admits them). At 100 shots shot noise alone gives Q8's nearest-model rule a wrong verdict
-   in at most 0.75% of 2,000 runs over the eight published sets (3.9% at 50 shots). Totals: 961 circuits and 1,231,900
-   shots in period 1; IBM about 5 minutes by cost.py's formula (4.7 at the device check's charged rate of 15 s per 42,000
-   shots), against 26.0; IonQ 940 credits; Quantinuum 4,694 HQC. Period 2, if the mid-term exam passes: 61 circuits
-   (24 IonQ, 37 Quantinuum), 19,400 shots, 510 IonQ credits and 7,444 HQC.
+   the 4 actinide circuits at 150 shots (1,175), each counted once (the earlier script would have counted the actinides
+   twice on any figure set that admits them). The actinides were at 100 shots (790) until the check-3 round of 17
+   November 2026, when Q8's range rule (finding 28) set 150 as the smallest count at which the admitted figures get a
+   verdict; at 100 shots the point-prediction rule of that time gave a wrong verdict in at most 0.75% of 2,000 runs over
+   the eight published sets (3.9% at 50 shots). Totals: 961 circuits and 2,421,100
+   shots in period 1; IBM about 16 minutes by cost.py's formula (12 at the device check's charged rate of 15 s per
+   42,000 shots), of which the QAOA shots raised for Q1 and Q2 on 17 November 2026 take 11 and 7.1 (finding 29; before
+   the raise 1,231,900 shots and 5.2 and 4.7 minutes, against 26.0 before the device check); IonQ 940 credits; Quantinuum
+   5,079 HQC (4,694 with the actinides at 100 shots). Period 2, for the devices that pass the mid-term exam: 61 circuits (24 IonQ, 37 Quantinuum), 19,400 shots, 510 IonQ credits
+   and 7,444 HQC.
 27. IQM cost (vendor/results/iqm/, vendor/scripts/iqm/). IQM's Resource Calculator formula, transcribed from its public
    page, at Emerald's price read from IQM Resonance (0.75 credits per second), without its discount for multiple jobs: 57
    credits for an IQM device check of the IBM design (both arms) and 225 for the provisional IQM set of 299 circuits and
@@ -462,30 +468,113 @@ value (quantum_gate) and reports no joules.
    compiled, 31 Aim 2 programs with mid-circuit resets among them; IQM's runtime estimate is 0.41 to 0.44 ms per shot. The
    mock returns random bits, so it checks compilation and time only. On IQM's 54-qubit device model the 42 distinct Aim 1
    circuits need at most 103 CZ.
-28. Selene with Quantinuum's published emulator parameters (vendor/selene-params/; README there). All 84 Quantinuum core
-   circuits and the 44 extension programs ran on Selene 0.3.8 (state vector, soft-RZ runtime) under Quantinuum's
-   published emulator parameters for H2-1 (2024-05-20) and H2-2 (2024-12-06), the newest in its emulator parameter table, at 200 shots
-   (the 4 actinide circuits at 100 to 200). Selene runs one error model at a time: its depolarizing model holds the gate terms and
-   the mean readout figure, and our error-model plugin (vendor/selene-params/plugin/, loaded through Selene's documented
-   plugin interface) replaces it and holds every term, adding emission and leakage, asymmetric readout, measurement
-   crosstalk and memory error, one step per qubit per layer of Selene's runtime. Not representable
-   from the table: the angle dependence of two-qubit error (every RZZ carries the full figure), transport timing and the
-   weights of the asymmetric channel. With every term the 115 programs, to 1,995 two-qubit gates, lose 0.165% and 0.162%
-   per two-qubit gate (R² 0.97 and 0.95; 104 and 103 programs with at least 20 correct traces fitted), 30% near 715 and
-   720 by least squares (near 630 and 590 by final_request.py's median rule; 739 and 707 by least squares on the 71
-   core programs alone), against 506 and 495 for our model of the same figures by final_request.py's rule (360 and 357
-   by least squares), so at the 30% point the model is the more cautious. Circuit by circuit it is not uniformly so: on
-   the 35 core programs with at least 20 two-qubit gates Selene falls below the model on 15 and 16 (8 and 7 beyond its
-   95% interval, by at most 9% and 11%), and every one stays above 0.58. All 80 admitted circuits clear 30% on both sets
-   (the chemistry and pulse-code circuits on error-free shots; under H2-1's set the 95% intervals of three
-   transition-metal circuits straddle 0.30): programs 0.585 to 1.00; the transition-metal circuits keep 0.43 to 0.70 of shots with the right electron numbers against 0.45
-   to 0.68 modelled, each within 13% of the model; the 4 actinide circuits keep 0.25 to 0.32 against 0.16 to 0.24 and
-   run free of any error in 0.07 to 0.15 of shots, below the line as Q8 intends. Selene's depolarizing model alone gives
-   0.083% and 0.089% per gate, 30% near 1,440 and 1,350. The plugin's positive controls (readout, memory, emission,
-   crosstalk) fall within 2σ of closed form, and with no noise every program gives its reference trace and every
-   transition-metal shot the right electron numbers (124 ideal runs; the 4 actinide circuits had none). The package's HQC formula reproduces final_request.json's
-   4,694.2. Our assumptions: the plugin's rule for a leaked qubit's partner, the memory placement, and applying the emission
-   leakage branch to H2's sets (Quantinuum's documentation places its leakage model in the Helios emulators).
+28. Selene with Quantinuum's 2025 default emulator parameters (vendor/selene-2025/; README there). Emulator simulations,
+   not device runs. All 84 Quantinuum core circuits and the 44 extension programs ran on Selene 0.3.8 (state vector,
+   soft-RZ runtime) under the default noise parameters on Quantinuum's emulator pages, H2-1E and H2-2E of 2025-07-16 and
+   Helios-1E of 2025-11-18, at 200 shots (the 4 actinide circuits at 100), on 17 November 2026. Our error-model plugin
+   (vendor/selene-2025/plugin/, loaded through Selene's documented plugin interface) holds p1 and p2, each RZZ's
+   depolarizing fault scaled by the documented angle formula (1.518 |θ|/π + 0.241 on all three sets), emission,
+   initialisation faults, measurement and initialisation crosstalk and asymmetric readout, and on Helios-1E leakage and
+   seepage; on H2-1E and H2-2E, whose emulators have no leakage, the leakage half of an emission is a depolarizing error.
+   Quantinuum publishes the dephasing rates and not the durations of the emulator's transport schedule, so each set ran
+   twice: with dephasing left out, and at an assumed 71 ms per two-qubit layer of Selene's runtime (Helios's documented
+   time for a depth-1 program on all 98 qubits). Not represented: the asymmetric channel's weights and the leaking branch
+   of crosstalk. Positive controls: 29 against closed forms, all within 3σ; with no noise every program gives its
+   reference trace and every chemistry shot the right electron numbers (128 ideal runs). Without dephasing the 115
+   programs, to 1,995 two-qubit gates, lose 0.061%, 0.076% and 0.050% per two-qubit gate on H2-1E, H2-2E and Helios-1E
+   (R² 0.97, 0.98 and 0.97), 30% near 1,960, 1,580 and 2,420 by least squares; with dephasing 0.130%, 0.144% and 0.151%
+   (R² 0.98, 0.97 and 0.95), 30% near 920, 830 and 780. All 80 admitted circuits clear 30% on all three sets both ways
+   (the chemistry and pulse-code circuits on error-free shots): programs 0.785 to 1.00 without dephasing and 0.575 to
+   1.00 with it; the lowest is MnO_eq on Helios-1E with dephasing, at 0.305, its 95% interval reaching below 0.30. The
+   transition-metal circuits keep 0.775 to 0.925 of shots with the right electron numbers without dephasing and 0.425 to
+   0.76 with it, against Q8's ranges of 0.61 to 0.82 under the figures we admit on and 0.83 to 0.94 under the generic
+   law. The 4 actinide circuits run error-free in 0.38 to 0.78 of shots without dephasing, at or above the line in all
+   12 circuit and set pairs, and in 0.09 to 0.33 with it, below the line in 10 of the 12 (6 of them with the whole 95%
+   interval below 0.30, at 100 shots each); they keep 0.48 to 0.88 of shots with the right electron numbers without
+   dephasing and 0.21 to 0.47 with it, against Q8's ranges of 0.33 to 0.64 under the figures we admit on and 0.66 to
+   0.82 under the generic law. The emulator's own settings put them on either side of the line.
+   Q8's ranges come from these runs (vendor/scripts/final_request.py, final_request.json `steps.q8_ranges`; check-3
+   and check-4 rounds). A shot with an error kept the right electron numbers in a fraction k = (share − error-free) /
+   (1 − error-free) of cases, 0.09 to 0.45 by circuit and setting against at most 0.044 by chance, so each prediction is
+   the range F + (1 − F)k over the circuit's lowest to highest k on the six settings, the same k for the published
+   figures and the generic law. F is recomputed from the figures current at the first run; k and G are fixed now
+   (final_request.py's `--q8-g-tm` and `--q8-g-act`, 1.065 and 1.193, which a new `--qset` does not move). Per group:
+   (1) the published figures win if the median over its circuits of (log distance to the generic range − log distance
+   to the published range) is positive, the generic law otherwise; (2) the verdict stands only if the median gap between
+   the ranges (the generic range's lower end over the published range's upper end) is at least G, 1.065 for the
+   transition-metal circuits at 200 shots and 1.193 for the actinides at 150, and otherwise the two are reported as
+   indistinguishable; (3) both are rejected if the median log distance to the range chosen in (1), with or without a
+   verdict, exceeds log 1.25 or log 1.5, the smallest listed bands with rejection at most 1%. G was derived where, moving
+   the published figures from H2-1's of 20 October 2026 toward the generic law, shot noise alone first gives a wrong
+   verdict in more than 1% of 2,000 draws (k at its lowest, median and highest, either law as the truth); with 40,000
+   draws the same derivation gives 1.065 and 1.193 (1.0650 and 1.1927). The admitted figures' gaps are 1.125 and 1.245;
+   the actinides would need about 1.25 at 100 shots (1.266 in the 2,000 draws used), where shot noise alone gives a wrong
+   verdict in about 1.2% of draws, so they run at 150. The band can reject only shares below the published range: on the
+   admitted figures, a device below about 0.75 (transition-metal) or 0.5 (actinides) of the published fidelity at
+   Selene's lowest k, and lower at higher k (0.66 and 0.52, and 0.22 for the actinides at the median k); for the
+   actinides at Selene's highest k it cannot reject at all. On the eight published sets the transition-metal circuits get
+   a verdict on six and the actinides on four; both are indistinguishable on H2-2's sets of August 2025 and October 2026,
+   and the actinides also on H2-1's of April 2025 and H2-2's of May 2025. The ranges contain every Selene setting's k, so a
+   device matching the published figures with any of them loses its verdict only to shot noise (at most 0.1% of draws);
+   if its k exceeds Selene's highest by 0.05, the published figures still win in 88% of draws for the actinides and over
+   99% for the transition-metal circuits, and by 0.10 in 34% and 87%. Taken as the truth, Selene's shares favour the
+   generic law without dephasing (except the actinides on H2-2E) and the published figures with it; the transition-metal
+   circuits on Helios-1E with dephasing, 1.17 below the published range, are rejected in 3.75% of draws. The earlier
+   point predictions and their power under these shares stay in vendor/selene-2025/results/q8_power.json. The
+   package's HQC formula reproduces the request's HQC at the actinides' former 100 shots (4,694.2; 5,079.2 at 150). Our assumptions: the duration per layer, the H2
+   reading of the leakage branch, the state a seeping qubit returns to, the rule for a leaked qubit's partner, and the
+   memory placement.
+   History: the first run (vendor/selene-params/; README there), on 16 November 2026, used Quantinuum's published
+   emulator parameters for H2-1 (2024-05-20) and H2-2 (2024-12-06), the newest in the hardware-specifications
+   repository's table, which gives no angle dependence of two-qubit error, so every RZZ carried the full figure. With
+   every term the 115 programs lost 0.165% and 0.162% per two-qubit gate (R² 0.97 and 0.95), 30% near 715 and 720 by
+   least squares (near 630 and 590 by final_request.py's median rule), against 506 and 495 for our model of the same
+   figures by that rule. All 80 admitted circuits cleared 30% on both sets; the transition-metal circuits kept 0.43 to
+   0.70 of shots with the right electron numbers against 0.45 to 0.68 modelled, and the 4 actinide circuits 0.25 to 0.32
+   against 0.16 to 0.24, error-free in 0.07 to 0.15 of shots. Selene's depolarizing model alone gave 0.083% and 0.089%
+   per gate, 30% near 1,440 and 1,350.
+29. Review round of 17 November 2026 (package v1.0.2): figures the revised application quotes, each recomputed by a
+   script. IBM QAOA shots for Q1 and Q2 (vendor/scripts/final_request.py, final_request.json `steps.ibm_qaoa_shots_q1_q2`):
+   Q1 and Q2 count only circuits with at least 20 expected successes; 41 of the 84 IBM QAOA circuits (family C cold 23,
+   C warm 15, repair cold 3) expect fewer than 20 optima in 4,000 shots even error-free. Every one is a
+   12-qubit problem with one optimum, so a uniformly random guess finds it with probability 1/4096; of the 41, 7 have ideal
+   success below that and 26 below twice it. Only the 15 at or above twice a random guess's success (C cold 11, C warm 2,
+   repair cold 2) are raised to reach 20 at the device check's measured retention (0.258 of the ideal optimum probability
+   at 130 CZ, a1-b12-p1-warm), rounded up to 1,000 shots: 17,000 to 143,000 shots each, 1,249,000 in all; the other 26
+   keep 4,000 shots and serve Q3 alone (without that rule they would have taken 9,886,000 of 11,075,000 added shots; the
+   rule followed an independent check of the application; final_request.json steps.ibm_qaoa_shots_q1_q2,
+   `without_floor_rule`). Q1 scores no circuit below twice a random
+   guess's success (58 of the 84 IBM circuits are scored), and Q2 admits an instance only if both circuits clear it: on IBM
+   18 of the 19 seed-optimal and 6 of the 23 seed-not-optimal instances, none of the seed-not-optimal ones elsewhere.
+   Only the seed-optimal arm carries Q2's verdict: with Poisson counts at each circuit's requested shots and the law exact
+   (the check's retention for every circuit), shot noise alone puts the seed-not-optimal arm's median miss above 1.25 in
+   84% of 2,000 runs (seed 20261115) and the seed-optimal arm's in 0% (final_request.json `steps.q2_shot_noise_power`; its
+   circuits expect 11 to 25 successes above the guessing floor). IBM
+   period 1: 1,978,000 shots, 16.1 minutes by cost.py's formula and 11.8 at the check's rate (10.9 and 7.1 for the raise).
+   IBM's documented limits (read 17 November 2026): 10 million executions per Sampler job, per job and not per PUB, and 3
+   hours of QPU time per job; the request fits one job. On IBM the request's 50 multi-step garbage-retaining
+   programs (44 placed on the patch and checked on their placed circuits, 6 not placed and checked as garbage-retaining with no reset) measure nothing mid-circuit (steps and CZ
+   count correlate at -0.03 over the 149 requested programs), so step count, gate count and mid-circuit measurement vary
+   separately there (final_request.json `steps.q5_step_gate_mcm_separation`); on IQM all 60 requested multi-step programs
+   measure
+   mid-circuit. IQM keeps 2,000 shots; 48 of its 84 QAOA circuits expect fewer than 20 at the same retention and serve Q3
+   alone. IonQ: 60 of the 64 requested circuits ran on the emulator (2 at 30 qubits, 2 warm starts
+   at 24 variables did not); 11 of its 32 kept QAOA rows reach 20 expected successes error-free, 8 under the device
+   model, all at 12 to 20 variables; 3 of the 10 kept QAOA rows with an emulator figure fall below 0.30 on it. Period 2:
+   on Quantinuum 20 QAOA circuits at 40 to 60 variables (family C at 60 at depths 1 and 2 among them) and 17 Aim 2
+   programs of 318 to 546 two-qubit gates, 2,869 to 19,066 HQC over the eight published sets; on IonQ 24 QAOA circuits at
+   depths 2 and 3. The ladder's 60 mid-circuit programs (e^-b 0.31 to 1.00) at the check's 1.35 to 3.06 excess over the
+   budget script: 4 to 15 below 0.30. IBM device check (vendor/ibm-check/derived/derived.py): Q5's gate-count form with
+   the second form's exclusions (F >= 0.01 and F >= twice the guessing floor) gives 2.26 on 8 predictions, and 3.03 on
+   floor-corrected fidelity (not preregistered); the calibration was 2.62 days old at the run. ibm_kingston
+   (vendor/scripts/kingston_forecast.py from the open-standards forecast record at 2356016cc): a median 0.638 of the
+   measured error over 22 circuits. vendor/scripts/review_figures.py: wrong acceptances in the worked example 2 of 10
+   (Clopper-Pearson 95% interval 0.025 to 0.556); the trust check routes 8 of the 10 cases CCSD gets right (finding 14)
+   and check 1 flags 3 of the 5 (finding 16); the Q9 circuits start from the product state, 0.10 to 0.18 per site above
+   the ground state; the Q7 circuits' exact distance 0.12 to 0.34; family C's bound 56% to 73% of the feasible spread at
+   24 to 60 variables; the router's first send-outs are A and C at 60 (finding 8); the IonQ emulator's 30% point 127 to 155 by fits that handle the floor, 390 by the plain rule.
+   vendor/scripts/quantinuum-2025/emulator_defaults.py: the dates of Quantinuum's emulator default parameters, read from
+   its documentation pages (named by SHA-256, not copied).
 
 ## Detail moved from the application (16 November 2026)
 The application was shortened for reading on 16 November 2026. What it no longer carries is kept here word for word: its
@@ -519,7 +608,8 @@ Completed before submission, 11 to 16 November 2026, with ferrotherm 0.44.0, fer
 | IQM mock | 147 circuits of the earlier IQM request in 16 jobs on IQM's mock of Emerald, priced at 0 credits | All compiled, mid-circuit resets included; the mock returns random bits, so it checks compilation and time only. Runtime estimate 0.41 to 0.44 ms per shot |
 | Device models from the makers' figures | Every trapped-ion request circuit costed under Quantinuum's eight published H2 figure sets, 2023 to 20 October 2026 (those of 2023 to 2025 refitted by us from Quantinuum's raw data, all 51 published values reproduced), and IonQ's characterization of 14 November 2026; 115 Aim 2 programs simulated under the 2023 Quantinuum and the IonQ figures | Aim 2 traces fall 0.157% (Quantinuum 2023) and 0.43% (IonQ) per two-qubit gate, 30% near 760 and 264; carried over to the later figures, 500 to 1,400 (720 on H2-1's newest). Kept: 66 of 130 IonQ core rows; on Quantinuum every set admits the same 72 of 93 core rows (H2-2's sets of August 2025 and October 2026 admit 3 and 1 more), and 37 of 82 extension rows on H2-1's newest. Family A at 60 qubits: 0.03 to 0.35 |
 | Selene, H2's 2023 figures | The 25 Quantinuum Aim 2 programs at 5 steps on Selene, its depolarizing model set to H2's 2023 published figures, 200 shots | 0.145% loss per two-qubit gate (R² 0.99, 21 programs with at least 20 correct traces), 30% near 820 |
-| Selene, Quantinuum's published emulator parameters | All 84 Quantinuum core circuits and the 44 extension programs on Selene 0.3.8 (state vector, soft-RZ runtime), with Quantinuum's emulator parameters for H2-1 (May 2024) and H2-2 (December 2024): Selene's depolarizing model (all but the 4 actinide circuits), and Selene with our plugin adding emission and leakage, asymmetric readout, measurement crosstalk and memory error (one step per qubit per layer of Selene's runtime); 200 shots (actinides 100 to 200). Not in Quantinuum's table, so not represented: angle-dependent two-qubit error, transport timing, the asymmetric channel's weights. With no noise every program gives its reference trace and every transition-metal shot the right electron numbers | With every term, 0.165% and 0.162% loss per two-qubit gate (R² 0.97 and 0.95), 30% near 715 and 720 (630 and 590 by our admission rule), against about 500 for our model by that rule. All 80 circuits we admit clear 30% (programs 0.585 to 1.00; chemistry and pulse-code circuits on error-free shots); transition-metal shares 0.43 to 0.70 against 0.45 to 0.68 modelled; actinides 0.25 to 0.32 against 0.16 to 0.24, below the line on error-free shots (0.07 to 0.15). Depolarizing model alone: 0.083% and 0.089%, 30% near 1,440 and 1,350 |
+| Selene, Quantinuum's 2025 emulator defaults | All 84 Quantinuum core circuits and the 44 extension programs on Selene 0.3.8 (state vector, soft-RZ runtime), as emulator simulations under the default noise parameters for H2-1E and H2-2E (16 July 2025) and Helios-1E (18 November 2025), with our plugin for the documented terms Selene lacks, the angle dependence of RZZ error and Helios-1E's leakage among them; dephasing left out, and at an assumed 71 ms per two-qubit layer, since Quantinuum publishes the rates without the durations; 200 shots (actinides 100). Not represented: the asymmetric channel's weights, the leaking branch of crosstalk and the transport schedule | Without dephasing, 0.061%, 0.076% and 0.050% loss per two-qubit gate on H2-1E, H2-2E and Helios-1E, 30% near 1,960, 1,580 and 2,420 (the last beyond the largest program, 1,995); with it, 0.130%, 0.144% and 0.151%, 30% near 920, 830 and 780. All 80 circuits we admit clear 30% on all three sets with and without dephasing: programs 0.785 to 1.00 without dephasing and 0.575 to 1.00 with it; the chemistry and pulse-code circuits on error-free shots, lowest 0.305. Transition-metal shares 0.78 to 0.93 without dephasing and 0.43 to 0.76 with it, against Q8's ranges of 0.61 to 0.82 under the figures we admit on and 0.83 to 0.94 under the generic law. Actinides error-free in 0.38 to 0.78 of shots without dephasing and 0.09 to 0.33 with it |
+| Selene, Quantinuum's 2024 emulator parameters | The same circuits on 16 November 2026, under the repository table's H2-1 (May 2024) and H2-2 (December 2024) parameters, with no angle dependence | 0.165% and 0.162% loss per two-qubit gate, 30% near 715 and 720; all 80 admitted circuits clear 30% |
 | IBM calibrations, 13 November 2026 | The largest IBM-requested circuit per family and size (29) on the ibm_kingston, ibm_fez and ibm_marrakesh calibrations, by a device model and a budget script | Budget a median 2.7 to 3.4 times the generic model's; 30% point 224 to 415 CZ, against about 750 for the generic model counted the same way |
 | IBM device check (hardware) | 24 circuits from this request on ibm_marrakesh, 16 November 2026, IBM open plan: 16 Aim 2 programs (10 to 1,113 CZ) and two controls (a zero-CZ program, a 6-qubit mirror circuit) at 1,000 shots; 6 QAOA circuits (12 to 20 qubits, 130 to 666 CZ) at 4,000 shots; each at its admission CZ count (one needed 200 against 193); no twirling or mitigation; predictions and analysis sealed by hash first; run as compiled and with dynamical decoupling | As compiled: controls 0.86 and 0.86 (pass marks 0.85 and 0.80). Measured over predicted error, median over programs: 0.91 for the budget script, the only sealed model whose implied 30% point lies inside the device's interval; 2.3 to 3.9 for every other model. 30% point 117 CZ by the preregistered rule (95% interval up to 261), 85 to 258 over three preregistered fits; above 200 CZ no program kept more than 0.31. Q5 held-out factor 2.19 (limit 1.25; 1.31 to 1.45 implied by the sealed calibration models with idle error). Not preregistered: five-step programs lost 3.4 to 8.7 times the calibration simulation's error, circuits without mid-circuit measurement that score well above a scrambled output 1.7 to 2.3, and five-step programs 1.4 to 3.1 times the budget script's; reset failure 3.5% to 5.3% per step. QAOA kept 26% of its ideal optimum probability at 130 CZ, 6% at 200, at most 3% from 351. The decoupled arm is not interpreted: its zero-CZ control scored 0.828 against 0.85 |
 | IBM ladder budgets | Every IBM Aim 2 program to 234 CZ placed on ibm_marrakesh as the device check placed its circuits, costed by the check's sealed budget script | 151 of 157 placed (6 use the patch's 10-qubit cycle); the check's own 5 circuits in range reproduce their sealed values exactly. Of 68 programs that measure or reset mid-circuit, 60 keep at least 0.30; the 8 below (24 circuits) are not requested |
@@ -582,7 +672,7 @@ Sampling: QAOA was emulated to 16 qubits and depth 3 only, and tempering to 16 v
 Chemistry: minimal basis and small molecules only; stronger classical methods (DMRG, selected CI) were not run; the trust-check thresholds were not tuned and over-route; UCCSD at 10 and 12 qubits was capped at 80 iterations; N2 has no UCCSD result.
 14 of the 40 Aim 2 Forms are truncated to 8 states. No fidelity was sampled above 3,000 two-qubit gates.
 The program-repair instances are small (3 to 6 suspect entries, 19 instances from 11 Forms) and use two-step tests only.
-IonQ's cloud emulator was run (finding 19). Quantinuum's hosted emulators (H2-1E, H2-2E, Helios-1E) and its Nexus-hosted devices were not run before submission; Selene ran locally (finding 28), and each monthly HQC request is to be emulated first. Quantinuum's table gives no angle dependence of two-qubit error, transport timing or weights for the asymmetric channel, so the Selene check leaves them out. IQM's mock of Emerald was used for compilation and timing only (finding 27). The IQM device-model check covers Aim 1 circuits only. Device models are models: findings 19 to 22, 24, 25 and 28 are not device results. Finding 23 is one device on one day.
+IonQ's cloud emulator was run (finding 19). Quantinuum's hosted emulators (H2-1E, H2-2E, Helios-1E) and its Nexus-hosted devices were not run before submission; Selene ran locally under Quantinuum's documented 2025 emulator defaults (finding 28), and each monthly HQC request is to be emulated first. Those defaults give dephasing rates without the durations they apply to, so the Selene runs take two settings of dephasing (left out, and at an assumed 71 ms per two-qubit layer in the incoherent form), and they give no weights for the asymmetric channel, which the plugin takes as even; the first Selene run, under the repository's 2024 table, had no angle dependence of two-qubit error. IQM's mock of Emerald was used for compilation and timing only (finding 27). The IQM device-model check covers Aim 1 circuits only. Device models are models: findings 19 to 22, 24, 25 and 28 are not device results. Finding 23 is one device on one day.
 
 ## Reproduce
 pip install -r requirements.txt, then ./run_all.sh (about a day on 2 cores). The harvest needs a clone of openIE-dev/rce and its checker binary (cargo build --release in spec/checker); forms/ and repair/ hold the harvested tables and repair instances used here, so the later steps run without it. The Cargo files fetch ferrotherm and

@@ -1,0 +1,19 @@
+# The pinned engines the corpus compares against, and what they need. Every one publishes
+# wheels for macOS on arm64 and Linux on x86_64; not all do for other platforms (stim for
+# Linux on arm64, llvmlite, which quimb needs, for macOS on x86_64).
+stim==1.16.0
+qiskit==2.6.2
+qiskit-aer==0.18.2
+quimb==1.15.0
+mqt.ddsim==2.7.0
+qsimcirq==0.22.1
+cirq-core==1.7.0
+opt-einsum==3.4.0
+# Selene, an open-source emulator, and Guppy, the language its programs are written in: the
+# adapter writes each circuit as a Guppy program, which Selene builds and runs. Their closure is
+# under permissive licences, with one difference: ziglang (MIT), the toolchain Selene links each
+# program with, bundles the sources of C libraries under their own licences (glibc's LGPL among
+# them, its lib/libc/glibc/LICENSES). The corpus links with them on the machine that runs it and
+# redistributes none of them.
+selene-sim==0.3.8
+guppylang==1.2.1

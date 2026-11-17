@@ -42,9 +42,11 @@ Run 16 November 2026 on an M3 Ultra (finding 28 of the package README). Emulator
 - p_crosstalk_meas: plugin only; the other qubits are measured and the result discarded. The leakage branch is not
   represented. p_crosstalk_init is blank for H2.
 - p_meas_0, p_meas_1: exact in the plugin; Selene's depolarizing model can use only their mean.
-- Not in the table, so not represented: the angle dependence of two-qubit error (its parameters are unpublished, so
-  every RZZ carries the full p2), transport timing, coherent quadratic dephasing. The plugin sees each RZZ's angle and
-  Selene's runtime takes durations, so these could be added if the parameters were published.
+- Not in the repository's table, so not represented: the angle dependence of two-qubit error (Quantinuum's emulator
+  documentation publishes it for its defaults of 2025-07-16 and 2025-11-18, which these runs did not use, so every RZZ
+  here carries the full p2), transport timing, and coherent quadratic dephasing (the 2025 defaults give a quadratic
+  dephasing rate, but no published durations to apply it to). The plugin sees each RZZ's angle, so the documented angle
+  dependence can be added.
 
 Two Selene details: Guppy's project_z is a measurement, a fresh qubit and an X, so a readout error also flips the qubit
 afterwards (it does not change a trace that is already wrong); RZZ gates at angle 0 are dropped (1,198 across the 12

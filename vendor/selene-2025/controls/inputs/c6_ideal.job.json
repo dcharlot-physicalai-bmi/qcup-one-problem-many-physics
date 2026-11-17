@@ -1,0 +1,1 @@
+{"id": "c6_ideal", "gates": "controls/work/c6_ideal.gates.json", "set": "control", "variant": "ideal", "shots": 500, "seed": 11, "out": "controls/work/c6_ideal.out.json", "params": {}, "plugin_lib": "plugin-target/release/libqcup_docs_noise_plugin.dylib", "work_dir": "controls/work", "min_angles": true}
