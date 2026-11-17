@@ -4201,6 +4201,502 @@
     "qcup-a1-B20-p1-warm",
     "qcup-a1-D16-p1-warm"
    ]
+  },
+  "q5_neglog_criterion": {
+   "draws": 2000,
+   "seed": 20261115,
+   "devices": {
+    "IonQ": {
+     "programs": 26,
+     "shots": 500,
+     "F_true_range": [
+      0.4205,
+      1.0
+     ],
+     "fprime_criterion_false_rate_at_1_25": 0.0,
+     "fprime_median_of_medians": 1.0075,
+     "neglog_scored_programs_median": 15.0,
+     "neglog_scored_programs_range": [
+      14,
+      15
+     ],
+     "neglog_limit_99th_percentile": 1.1741416905087558,
+     "neglog_limit_stated": 1.18,
+     "neglog_false_rate_at_stated_limit": 0.006,
+     "neglog_median_of_medians": 1.0837,
+     "neglog_miss_allowed_by_fprime_1_25_at": {
+      "0.6": 1.437,
+      "0.9": 3.118
+     },
+     "by_error_scale": {
+      "1.0": {
+       "limit_99th_percentile": 1.1741416905087558,
+       "limit_stated": 1.18,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 15.0,
+       "false_rate_at_own_limit": 0.006,
+       "false_rate_at_model_error_limit": 0.006,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.7": {
+       "limit_99th_percentile": 1.1919667089068287,
+       "limit_stated": 1.2,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 14.0,
+       "false_rate_at_own_limit": 0.0085,
+       "false_rate_at_model_error_limit": 0.019,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.5": {
+       "limit_99th_percentile": 1.220883592123222,
+       "limit_stated": 1.23,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 12.0,
+       "false_rate_at_own_limit": 0.007,
+       "false_rate_at_model_error_limit": 0.036,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.4": {
+       "limit_99th_percentile": 1.2364809518979678,
+       "limit_stated": 1.24,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 11.0,
+       "false_rate_at_own_limit": 0.0085,
+       "false_rate_at_model_error_limit": 0.0565,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.3": {
+       "limit_99th_percentile": 1.2666456143650417,
+       "limit_stated": 1.27,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 10.0,
+       "false_rate_at_own_limit": 0.0095,
+       "false_rate_at_model_error_limit": 0.1025,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      }
+     }
+    },
+    "Quantinuum": {
+     "programs": 71,
+     "shots": 200,
+     "F_true_range": [
+      0.5968,
+      1.0
+     ],
+     "fprime_criterion_false_rate_at_1_25": 0.0,
+     "fprime_median_of_medians": 1.0065,
+     "neglog_scored_programs_median": 20.0,
+     "neglog_scored_programs_range": [
+      19,
+      23
+     ],
+     "neglog_limit_99th_percentile": 1.2450619177368574,
+     "neglog_limit_stated": 1.25,
+     "neglog_false_rate_at_stated_limit": 0.01,
+     "neglog_median_of_medians": 1.1256,
+     "neglog_miss_allowed_by_fprime_1_25_at": {
+      "0.6": 1.437,
+      "0.9": 3.118
+     },
+     "by_error_scale": {
+      "1.0": {
+       "limit_99th_percentile": 1.2450619177368574,
+       "limit_stated": 1.25,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 20.0,
+       "false_rate_at_own_limit": 0.01,
+       "false_rate_at_model_error_limit": 0.01,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.7": {
+       "limit_99th_percentile": 1.2940671165298192,
+       "limit_stated": 1.3,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 17.0,
+       "false_rate_at_own_limit": 0.008,
+       "false_rate_at_model_error_limit": 0.037,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.5": {
+       "limit_99th_percentile": 1.3705548587611114,
+       "limit_stated": 1.38,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 12.0,
+       "false_rate_at_own_limit": 0.0085,
+       "false_rate_at_model_error_limit": 0.1095,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.4": {
+       "limit_99th_percentile": 1.4303723504037256,
+       "limit_stated": 1.44,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 8.0,
+       "false_rate_at_own_limit": 0.0075,
+       "false_rate_at_model_error_limit": 0.1685,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      },
+      "0.3": {
+       "limit_99th_percentile": 1.559279630765614,
+       "limit_stated": 1.56,
+       "draws_with_a_qualifying_program": 1.0,
+       "programs_scored_median": 5.0,
+       "false_rate_at_own_limit": 0.01,
+       "false_rate_at_model_error_limit": 0.2655,
+       "fprime_criterion_false_rate_at_1_25": 0.0
+      }
+     }
+    }
+   },
+   "alternation": "by position in the package's name order, fixed before any exclusion (as fitlib.held_out), for the device-level keys and by_error_scale alike",
+   "procedure": "limit = the 99th percentile, over draws with at least one qualifying program, of the median miss factor on -ln F' under shot noise alone with the device's own fitted law taken as exact; by_error_scale shows it for every program's -ln F' scaled by 1.0, 0.7, 0.5, 0.4 and 0.3"
+  },
+  "q3_signal_floor": {
+   "floor_used": 2,
+   "floor_rule": "a circuit is scored only if its predicted excess, F' (random mean - ideal mean), is at least a floor of standard errors of its sample mean, bounded by (e_max - e_min) / (2 sqrt(shots)) (Popoviciu); the floor is q3_floor: the smallest of 2, 3, 4, 6, 8 and 12 at which, with the device's fitted F', the median-based test (median miss factor over 1.25) falsifies a true law in at most 1% of 20,000 draws, and None (no Q3 verdict on that device) if no circuit is scored or no candidate qualifies; floor_used is its value at the device check's retention on IBM and on IQM, and by_fprime_scale records it at that retention scaled by 1.0, 0.5, 0.3 and 0.2",
+   "retention_as_F": 0.25848763343589576,
+   "by_fprime_scale": {
+    "1.0": {
+     "F_prime": 0.25848763343589576,
+     "IBM": {
+      "floor": 2,
+      "verdict": true,
+      "scored": 84,
+      "false_falsification_rate": 0.0,
+      "tried": {
+       "2": {
+        "scored": 84,
+        "false_falsification_rate": 0.0
+       }
+      }
+     },
+     "IQM": {
+      "floor": 2,
+      "verdict": true,
+      "scored": 84,
+      "false_falsification_rate": 0.0,
+      "tried": {
+       "2": {
+        "scored": 84,
+        "false_falsification_rate": 0.0
+       }
+      }
+     }
+    },
+    "0.5": {
+     "F_prime": 0.12924381671794788,
+     "IBM": {
+      "floor": 2,
+      "verdict": true,
+      "scored": 71,
+      "false_falsification_rate": 0.0,
+      "tried": {
+       "2": {
+        "scored": 71,
+        "false_falsification_rate": 0.0
+       }
+      }
+     },
+     "IQM": {
+      "floor": 2,
+      "verdict": true,
+      "scored": 58,
+      "false_falsification_rate": 0.00145,
+      "tried": {
+       "2": {
+        "scored": 58,
+        "false_falsification_rate": 0.00145
+       }
+      }
+     }
+    },
+    "0.3": {
+     "F_prime": 0.07754629003076872,
+     "IBM": {
+      "floor": 2,
+      "verdict": true,
+      "scored": 48,
+      "false_falsification_rate": 0.0,
+      "tried": {
+       "2": {
+        "scored": 48,
+        "false_falsification_rate": 0.0
+       }
+      }
+     },
+     "IQM": {
+      "floor": null,
+      "verdict": false,
+      "scored": 0,
+      "false_falsification_rate": null,
+      "tried": {
+       "2": {
+        "scored": 32,
+        "false_falsification_rate": 0.02695
+       },
+       "3": {
+        "scored": 32,
+        "false_falsification_rate": 0.02695
+       },
+       "4": {
+        "scored": 24,
+        "false_falsification_rate": 0.01575
+       },
+       "6": {
+        "scored": 0,
+        "false_falsification_rate": null
+       }
+      }
+     }
+    },
+    "0.2": {
+     "F_prime": 0.051697526687179154,
+     "IBM": {
+      "floor": null,
+      "verdict": false,
+      "scored": 0,
+      "false_falsification_rate": null,
+      "tried": {
+       "2": {
+        "scored": 47,
+        "false_falsification_rate": 0.05525
+       },
+       "3": {
+        "scored": 42,
+        "false_falsification_rate": 0.0349
+       },
+       "4": {
+        "scored": 30,
+        "false_falsification_rate": 0.0202
+       },
+       "6": {
+        "scored": 0,
+        "false_falsification_rate": null
+       }
+      }
+     },
+     "IQM": {
+      "floor": null,
+      "verdict": false,
+      "scored": 0,
+      "false_falsification_rate": null,
+      "tried": {
+       "2": {
+        "scored": 32,
+        "false_falsification_rate": 0.5894
+       },
+       "3": {
+        "scored": 12,
+        "false_falsification_rate": 0.39295
+       },
+       "4": {
+        "scored": 0,
+        "false_falsification_rate": null
+       }
+      }
+     }
+    }
+   },
+   "falsifier_floor": {
+    "candidates": {
+     "2": {
+      "IBM": {
+       "scored": 84,
+       "false_falsification_rate": 0.0
+      },
+      "IQM": {
+       "scored": 84,
+       "false_falsification_rate": 0.0
+      }
+     },
+     "3": {
+      "IBM": {
+       "scored": 84,
+       "false_falsification_rate": 0.0
+      },
+      "IQM": {
+       "scored": 60,
+       "false_falsification_rate": 0.0
+      }
+     },
+     "4": {
+      "IBM": {
+       "scored": 71,
+       "false_falsification_rate": 0.0
+      },
+      "IQM": {
+       "scored": 58,
+       "false_falsification_rate": 0.0
+      }
+     },
+     "6": {
+      "IBM": {
+       "scored": 71,
+       "false_falsification_rate": 0.0
+      },
+      "IQM": {
+       "scored": 32,
+       "false_falsification_rate": 0.0
+      }
+     },
+     "8": {
+      "IBM": {
+       "scored": 47,
+       "false_falsification_rate": 0.0
+      },
+      "IQM": {
+       "scored": 32,
+       "false_falsification_rate": 0.0
+      }
+     },
+     "12": {
+      "IBM": {
+       "scored": 45,
+       "false_falsification_rate": 0.0
+      },
+      "IQM": {
+       "scored": 24,
+       "false_falsification_rate": 0.0
+      }
+     }
+    },
+    "draws": 20000,
+    "seed": 20261115,
+    "chosen": 2,
+    "scored": {
+     "IBM": 84,
+     "IQM": 84
+    },
+    "false_falsification_rate": {
+     "IBM": 0.0,
+     "IQM": 0.0
+    },
+    "ibm_guessing_floor_circuits": 26,
+    "ibm_guessing_floor_circuits_scored": 26,
+    "iqm_short_of_20": 48,
+    "iqm_short_of_20_scored": 48,
+    "z_range": {
+     "IBM": [
+      3.7,
+      25.08
+     ],
+     "IQM": [
+      2.59,
+      17.73
+     ]
+    },
+    "ibm_guessing_floor_z_range": [
+     3.7,
+     6.44
+    ],
+    "iqm_short_of_20_z_range": [
+     2.59,
+     4.62
+    ]
+   },
+   "superseded_single_circuit_floor": {
+    "note": "the first draft's single-circuit floor, replaced in check 5 by the falsifier-based floor (floor_used, falsifier_floor); kept as a record, it scores nothing",
+    "floor_standard_errors": 11.93,
+    "single_circuit_miss_rate_at_floor": 0.00994589877267287,
+    "floor_stated": 12,
+    "single_circuit_miss_rate_at_stated_floor": 0.00954743395622622,
+    "devices": {
+     "IBM": {
+      "circuits": 84,
+      "scored_at_retention": 45,
+      "z_range": [
+       3.7,
+       25.08
+      ],
+      "false_falsification_rate_scored_set": 0.0,
+      "scored_ids": [
+       "B12-s1-p1-cold",
+       "B12-s1-p1-warm",
+       "B12-s10-p1-cold",
+       "B12-s10-p1-warm",
+       "B12-s11-p1-cold",
+       "B12-s11-p1-warm",
+       "B12-s12-p1-cold",
+       "B12-s12-p1-warm",
+       "B12-s13-p1-cold",
+       "B12-s13-p1-warm",
+       "B12-s14-p1-cold",
+       "B12-s14-p1-warm",
+       "B12-s15-p1-cold",
+       "B12-s15-p1-warm",
+       "B12-s18-p1-cold",
+       "B12-s18-p1-warm",
+       "B12-s20-p1-cold",
+       "B12-s20-p1-warm",
+       "B12-s21-p1-cold",
+       "B12-s21-p1-warm",
+       "B12-s3-p1-cold",
+       "B12-s3-p1-warm",
+       "B12-s4-p1-cold",
+       "B12-s4-p1-warm",
+       "B12-s5-p1-cold",
+       "B12-s5-p1-warm",
+       "B12-s6-p1-cold",
+       "B12-s6-p1-warm",
+       "B12-s7-p1-cold",
+       "B12-s7-p1-warm",
+       "B12-s9-p1-cold",
+       "B12-s9-p1-warm",
+       "C12-s10-p1-cold",
+       "C12-s12-p1-cold",
+       "C12-s12-p1-warm",
+       "C12-s14-p1-cold",
+       "C12-s16-p1-cold",
+       "C12-s17-p1-cold",
+       "C12-s18-p1-cold",
+       "C12-s19-p1-cold",
+       "C12-s20-p1-cold",
+       "C12-s21-p1-cold",
+       "C12-s21-p1-warm",
+       "C12-s5-p1-cold",
+       "C12-s7-p1-cold"
+      ],
+      "scored_at_stated_floor": 45,
+      "false_falsification_rate_at_stated_floor": 0.0
+     },
+     "IQM": {
+      "circuits": 84,
+      "scored_at_retention": 24,
+      "z_range": [
+       2.59,
+       17.73
+      ],
+      "false_falsification_rate_scored_set": 0.0,
+      "scored_ids": [
+       "B12-s1-p1-cold",
+       "B12-s1-p1-warm",
+       "B12-s10-p1-cold",
+       "B12-s10-p1-warm",
+       "B12-s11-p1-cold",
+       "B12-s11-p1-warm",
+       "B12-s12-p1-cold",
+       "B12-s12-p1-warm",
+       "B12-s13-p1-cold",
+       "B12-s13-p1-warm",
+       "B12-s14-p1-warm",
+       "B12-s15-p1-warm",
+       "B12-s18-p1-warm",
+       "B12-s20-p1-cold",
+       "B12-s20-p1-warm",
+       "B12-s21-p1-cold",
+       "B12-s21-p1-warm",
+       "B12-s3-p1-warm",
+       "B12-s4-p1-warm",
+       "B12-s5-p1-warm",
+       "B12-s6-p1-warm",
+       "B12-s7-p1-cold",
+       "B12-s7-p1-warm",
+       "B12-s9-p1-warm"
+      ],
+      "scored_at_stated_floor": 24,
+      "false_falsification_rate_at_stated_floor": 0.0
+     }
+    }
+   }
   }
  },
  "table": [

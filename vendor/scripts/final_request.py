@@ -55,6 +55,17 @@ Changes of 17 November 2026 (review round; package v1.0.2):
     costs and totals); the point-prediction summary `steps.q8_bands` stays at its recorded 100 shots, and
     `hqc_by_shots` gains 150.
 
+  - Q5's second criterion and Q3's signal floor (fresh-read round, DECISIONS item 52; package v1.0.3): the limit on
+    -ln F' at which shot noise alone falsifies a true law in at most 1% of draws, for the IonQ and Quantinuum core
+    programs (`steps.q5_neglog_criterion`), and Q3's minimum predicted excess in standard errors with the IBM and IQM
+    circuits that clear it at the device check's retention (`steps.q3_signal_floor`). The block before the output says how.
+    After an independent check (check 5): the -ln F' limit is a procedure, recorded by error scale (`by_error_scale`),
+    with the case of no qualifying program left to the F' criterion; programs alternate by position in the name order;
+    and Q3's floor is set by its median-based test (`floor_used`, `falsifier_floor`), the first draft's single-circuit floor
+    kept under `superseded_single_circuit_floor`. After check 6 (decision 55): Q3's floor is a procedure at the device's
+    fitted F' (q3_floor), recorded at the check's retention scaled by 1.0, 0.5, 0.3 and 0.2 (`by_fprime_scale`), with
+    no Q3 verdict where no floor qualifies.
+
 Steps:
 1. Re-admission of the trapped-ion rows of models/admission.json: kept if the figure clears 30% under the device model.
    Quantinuum: Aim 2 rows by the application's rule carried over, F_rule ** (b_device / b_generic); Aim 1 rows by
@@ -862,5 +873,207 @@ em1 = {r["id"]: r for r in AN["aim1_emulator_vs_model"]["rows"]}
 kq = [x for x in ion_core if x["group"] == "aim1_qaoa" and x["id"] in em1]
 out["steps"]["ionq_kept_qaoa_below_030_on_emulator"] = {"kept_with_emulator_figure": len(kq),
     "below_030": sorted(x["id"] for x in kq if em1[x["id"]]["effective_fidelity_emulator"] < 0.30)}
+# ---- Q5's second criterion and Q3's signal floor (fresh-read round, DECISIONS item 52, F3 and F13; package v1.0.3) ----
+# Q5 on -ln F'. A miss factor of 1.25 on F' allows a large miss on the error -ln F' when F' is high, so on IonQ and
+# Quantinuum, where the core programs keep high fidelity and the fit gates the extension, the law is also scored on
+# -ln F'. The limit is set here, before any run, as the 99th percentile of that statistic when the law is exactly true:
+#   programs   each device's requested core Aim 2 programs (IonQ 26 at 500 shots, Quantinuum 71 at 200);
+#   the law    ln F' = c + a n2q + b resets + d idle-qubit-layers, fitted to the device model's per-program fidelity
+#              (Quantinuum: the admission rule on QSET's figures; IonQ: its device model), then taken as exact;
+#   a draw     counts ~ Binomial(shots, f + (1 - f) F'), f = 2^-(trace bits) the guessing floor (inverse CDF,
+#              random.Random(20261115), Q5_DRAWS draws); F' = (F - f) / (1 - f); programs with F < 2f or F' < 0.01 left out;
+#   the fit    least squares of ln F' on the terms that vary, with an intercept, fitted to alternate programs in the
+#              package's name order and predicting the other half, both ways (Q5 as written);
+#   statistics F' criterion: median over predicted programs of max(pred/meas, meas/pred) on F'; -ln F' criterion: the same
+#              on -ln F', over predicted programs whose prediction loses at least 20 traces (shots x (1 - F'_pred) >= 20),
+#              a measured -ln F' of 0 or below counting as an infinite miss.
+# Q3's signal floor. Per circuit, predicted excess = F' (random mean - ideal mean), measured excess = random mean - sample
+# mean; the sample mean's standard error is at most (e_max - e_min) / (2 sqrt(shots)) (Popoviciu's bound). A circuit is
+# scored only if its predicted excess is at least floor_used standard errors, the floor set by the falsifier it serves
+# (falsifier_floor, below). The first draft's floor, Q3_FLOOR, the smallest value (to 0.01) at which a single circuit at
+# the floor misses by more than 1.25 in at most 1% of draws (normal sample mean, the law exact), counted at the device
+# check's retention as F' (IBM at its requested shots, IQM at 2,000) with the false-falsification rate of its scored set
+# (2,000 draws, seed 20261115), is kept under superseded_single_circuit_floor and scores nothing.
+Q5_DRAWS = 2000
+Q5_CDF = {}
+def q5_binom(rng, n, p):          # inverse-CDF binomial draw; the CDF is built once per (n, p)
+    if (n, p) not in Q5_CDF:
+        cdf, c = [], 0.0
+        for x in range(n + 1):
+            c += math.comb(n, x) * p ** x * (1 - p) ** (n - x); cdf.append(c)
+        cdf[-1] = 1.0; Q5_CDF[(n, p)] = cdf
+    return bisect.bisect_left(Q5_CDF[(n, p)], rng.random())
+def q5_ols(X, y):                 # least squares with an intercept; columns of X that do not vary are dropped
+    cols = [j for j in range(len(X[0])) if len({row[j] for row in X}) > 1]
+    A = [[1.0] + [row[j] for j in cols] for row in X]; k = len(A[0])
+    M = [[sum(a[i] * a[j] for a in A) for j in range(k)] + [sum(a[i] * v for a, v in zip(A, y))] for i in range(k)]
+    for i in range(k):
+        piv = max(range(i, k), key=lambda r: abs(M[r][i])); M[i], M[piv] = M[piv], M[i]
+        for r in range(k):
+            if r != i and M[i][i] != 0:
+                fct = M[r][i] / M[i][i]; M[r] = [x - fct * z for x, z in zip(M[r], M[i])]
+    beta = [M[i][k] / M[i][i] for i in range(k)]
+    return lambda row: beta[0] + sum(b * row[j] for b, j in zip(beta[1:], cols))
+def q5_programs(vendor):
+    rows = sorted((x for x in kept[(vendor, "core")] if x["aim"] == 2), key=lambda x: x["id"])
+    model = "quantinuum-h2-1-2023" if vendor == "Quantinuum" else "ionq-forte-1"
+    out_ = []
+    for x in rows:
+        c = C[x["id"]]
+        Fm = rule_fid(x, QSET) if vendor == "Quantinuum" else x["rule_fidelity_device"]
+        out_.append({"id": x["id"], "shots": x["shots"], "floor": 2.0 ** -len(c["reference_bits_qiskit_order"]), "F_model": Fm,
+                     "terms": [x["count_n2q"], c["resets"], PRED[x["id"]][model]["memory_qubit_layers"]]})
+    return out_
+def q5_stats(progs, Ftrue, rng):
+    # alternation by position in the package's name order (progs is sorted by id), fixed before any exclusion, as the
+    # package's fitlib.held_out does; excluded programs drop out of their half (check 5, F5)
+    meas = []
+    for i, (p_, Fp) in enumerate(zip(progs, Ftrue)):
+        F = q5_binom(rng, p_["shots"], p_["floor"] + (1 - p_["floor"]) * Fp) / p_["shots"]; Fq = (F - p_["floor"]) / (1 - p_["floor"])
+        if F >= 2 * p_["floor"] and Fq >= 0.01: meas.append((i, p_, Fq))
+    mf, ml = [], []
+    for fold in (0, 1):
+        tr = [m for m in meas if m[0] % 2 == fold]; te = [m for m in meas if m[0] % 2 != fold]
+        f_ = q5_ols([m[1]["terms"] for m in tr], [math.log(m[2]) for m in tr])
+        for _i, p_, Fq in te:
+            pr = min(1.0, math.exp(f_(p_["terms"]))); mf.append(max(pr / Fq, Fq / pr))
+            if p_["shots"] * (1 - pr) >= 20:
+                lp, lm = -math.log(pr), -math.log(Fq)
+                ml.append(max(lp / lm, lm / lp) if lm > 0 and lp > 0 else math.inf)
+    return st.median(mf), (st.median(ml) if ml else None), len(ml)
+def q5_limit(progs, Ftrue):
+    """The -ln F' limit as a procedure (check 5, F1): the 99th percentile of the median miss factor on -ln F' under shot
+    noise alone, with the given law taken as exact, over the draws in which at least one held-out program is predicted to
+    lose 20 traces; in a draw with none, only the F' criterion applies (never scored as a pass of the -ln F' criterion)."""
+    rng = random.Random(20261115); fs, ls, ns = [], [], []
+    for _ in range(Q5_DRAWS):
+        a_, b_, n_ = q5_stats(progs, Ftrue, rng); fs.append(a_); ls.append(b_); ns.append(n_)
+    app = sorted(v for v in ls if v is not None)
+    lim = app[math.ceil(0.99 * len(app)) - 1] if app else None
+    return fs, ls, ns, lim
+Q5_SCALES = (1.0, 0.7, 0.5, 0.4, 0.3)
+Q5N = {"draws": Q5_DRAWS, "seed": 20261115, "devices": {}}
+for vendor in ("IonQ", "Quantinuum"):
+    progs = q5_programs(vendor)
+    law = q5_ols([p_["terms"] for p_ in progs], [math.log(p_["F_model"]) for p_ in progs])
+    Ftrue = [min(1.0, math.exp(law(p_["terms"]))) for p_ in progs]
+    fs, ls, ns, lim = q5_limit(progs, Ftrue)
+    stated = math.ceil(lim * 100) / 100
+    Q5N["devices"][vendor] = {"programs": len(progs), "shots": progs[0]["shots"], "F_true_range": [round(min(Ftrue), 4), round(max(Ftrue), 4)],
+        "fprime_criterion_false_rate_at_1_25": sum(1 for v in fs if v > 1.25) / Q5_DRAWS, "fprime_median_of_medians": round(st.median(fs), 4),
+        "neglog_scored_programs_median": st.median(ns), "neglog_scored_programs_range": [min(ns), max(ns)],
+        "neglog_limit_99th_percentile": lim, "neglog_limit_stated": stated,
+        "neglog_false_rate_at_stated_limit": sum(1 for v in ls if v is not None and v > stated) / Q5_DRAWS,
+        "neglog_median_of_medians": round(st.median(v if v is not None else 0.0 for v in ls), 4),
+        "neglog_miss_allowed_by_fprime_1_25_at": {str(F): round(math.log(F / 1.25) / math.log(F) if F / 1.25 < 1 else math.inf, 3) for F in (0.6, 0.9)}}
+    # the procedure at other device error, every program's -ln F' scaled by s (the same law, uniformly less or more error)
+    by = {}
+    for s in Q5_SCALES:
+        Fs = [F ** s for F in Ftrue]
+        fs_, ls_, ns_, lim_ = q5_limit(progs, Fs)
+        st_ = math.ceil(lim_ * 100) / 100 if lim_ is not None else None
+        by[str(s)] = {"limit_99th_percentile": lim_, "limit_stated": st_, "draws_with_a_qualifying_program": sum(1 for v in ls_ if v is not None) / Q5_DRAWS,
+                      "programs_scored_median": st.median(ns_), "false_rate_at_own_limit": (sum(1 for v in ls_ if v is not None and v > st_) / Q5_DRAWS) if st_ else 0.0,
+                      "false_rate_at_model_error_limit": sum(1 for v in ls_ if v is not None and v > stated) / Q5_DRAWS,
+                      "fprime_criterion_false_rate_at_1_25": sum(1 for v in fs_ if v > 1.25) / Q5_DRAWS}
+    Q5N["devices"][vendor]["by_error_scale"] = by
+Q5N["alternation"] = "by position in the package's name order, fixed before any exclusion (as fitlib.held_out), for the device-level keys and by_error_scale alike"
+Q5N["procedure"] = "limit = the 99th percentile, over draws with at least one qualifying program, of the median miss factor on -ln F' under shot noise alone with the device's own fitted law taken as exact; by_error_scale shows it for every program's -ln F' scaled by 1.0, 0.7, 0.5, 0.4 and 0.3"
+out["steps"]["q5_neglog_criterion"] = Q5N
+# Q3
+def q3_tail(m): return 0.5 * math.erfc(0.25 * m / math.sqrt(2)) + 0.5 * math.erfc(0.2 * m / math.sqrt(2))
+Q3_FLOOR = next(m / 100 for m in range(100, 5000) if q3_tail(m / 100) <= 0.01)
+def q3_circuit(r, shots, Fp=None):    # Fp: the circuit's F' (default the device check's retention)
+    a_ = load(B, "results", f"aim1_{r['family']}_{r['n']}_{r['seed']}.json"); po = load(B, "results", f"post_{r['family']}_{r['n']}_{r['seed']}.json")
+    mu = next(z["expectation"] for z in (a_["qaoa"] if r["kind"] == "cold" else po["ws"]) if z["p"] == r["p"])
+    se = (a_["e_max"] - a_["e_min"]) / (2 * math.sqrt(shots)); ex = (RETENTION if Fp is None else Fp) * (a_["e_mean"] - mu)
+    return {"id": r["id"], "shots": shots, "predicted_excess": ex, "se_bound": se, "z": ex / se}
+def q3_false_rate(cs):
+    if not cs: return None
+    rng = random.Random(20261115); fals = 0
+    for _ in range(2000):
+        miss = []
+        for c_ in cs:
+            mm = c_["predicted_excess"] + rng.gauss(0.0, c_["se_bound"])
+            miss.append(max(c_["predicted_excess"] / mm, mm / c_["predicted_excess"]) if mm > 0 else math.inf)
+        fals += st.median(miss) > 1.25
+    return fals / 2000
+Q3_STATED = math.ceil(Q3_FLOOR)           # the first draft's stated floor, a whole number of standard errors at or above Q3_FLOOR (superseded)
+Q3SC = {"note": "the first draft's single-circuit floor, replaced in check 5 by the falsifier-based floor (floor_used, falsifier_floor); kept as a record, it scores nothing",
+        "floor_standard_errors": Q3_FLOOR, "single_circuit_miss_rate_at_floor": q3_tail(Q3_FLOOR), "floor_stated": Q3_STATED,
+        "single_circuit_miss_rate_at_stated_floor": q3_tail(Q3_STATED), "devices": {}}
+for dev, shots_of in (("IBM", lambda r: r["shots"]), ("IQM", lambda r: 2000)):
+    cs = [q3_circuit(r, shots_of(r)) for r in q12]; sc = [c_ for c_ in cs if c_["z"] >= Q3_FLOOR]; ss = [c_ for c_ in cs if c_["z"] >= Q3_STATED]
+    Q3SC["devices"][dev] = {"circuits": len(cs), "scored_at_retention": len(sc), "z_range": [round(min(c_["z"] for c_ in cs), 2), round(max(c_["z"] for c_ in cs), 2)],
+                           "false_falsification_rate_scored_set": q3_false_rate(sc), "scored_ids": [c_["id"] for c_ in sc],
+                           "scored_at_stated_floor": len(ss), "false_falsification_rate_at_stated_floor": q3_false_rate(ss)}
+# Check 5 (F2, F3): the floor set by the falsifier it serves. For each candidate floor (2, 3, 4, 6, 8, 12 standard errors)
+# the scored set on each device (IBM at its requested shots, IQM at 2,000; F' = the check's retention) is drawn 20,000
+# times with the law exact (normal sample means, Popoviciu's standard error); the floor is the smallest candidate at which
+# the median-based test falsifies the true law in at most 1% of draws on both devices.
+def q3_false_rate_n(cs, draws):
+    if not cs: return None
+    rng = random.Random(20261115); fals = 0
+    for _ in range(draws):
+        miss = []
+        for c_ in cs:
+            mm = c_["predicted_excess"] + rng.gauss(0.0, c_["se_bound"])
+            miss.append(max(c_["predicted_excess"] / mm, mm / c_["predicted_excess"]) if mm > 0 else math.inf)
+        fals += st.median(miss) > 1.25
+    return fals / draws
+Q3_CANDIDATES, Q3_DRAWS_FLOOR = (2, 3, 4, 6, 8, 12), 20000
+_q3cs = {dev: [q3_circuit(r, shots_of(r)) for r in q12] for dev, shots_of in (("IBM", lambda r: r["shots"]), ("IQM", lambda r: 2000))}
+_cand = {}
+for m in Q3_CANDIDATES:
+    rec_ = {}
+    for dev, cs in _q3cs.items():
+        sc = [c_ for c_ in cs if c_["z"] >= m]
+        rec_[dev] = {"scored": len(sc), "false_falsification_rate": q3_false_rate_n(sc, Q3_DRAWS_FLOOR)}
+    _cand[str(m)] = rec_
+_chosen = next(m for m in Q3_CANDIDATES if all((_cand[str(m)][d]["false_falsification_rate"] or 0) <= 0.01 for d in _q3cs))
+_ibm_floor_ids = {r["id"] for r in q12 if r["at_guessing_floor"]}
+_iqm_short_ids = {r["id"] for r in q12 if r["expected_at_2000_check_retention"] < Q12_TARGET}
+Q3FF = {"candidates": _cand, "draws": Q3_DRAWS_FLOOR, "seed": 20261115, "chosen": _chosen,
+    "scored": {d: _cand[str(_chosen)][d]["scored"] for d in _q3cs},
+    "false_falsification_rate": {d: _cand[str(_chosen)][d]["false_falsification_rate"] for d in _q3cs},
+    "ibm_guessing_floor_circuits": len(_ibm_floor_ids), "ibm_guessing_floor_circuits_scored": sum(1 for c_ in _q3cs["IBM"] if c_["id"] in _ibm_floor_ids and c_["z"] >= _chosen),
+    "iqm_short_of_20": len(_iqm_short_ids), "iqm_short_of_20_scored": sum(1 for c_ in _q3cs["IQM"] if c_["id"] in _iqm_short_ids and c_["z"] >= _chosen),
+    "z_range": {d: [round(min(c_["z"] for c_ in cs), 2), round(max(c_["z"] for c_ in cs), 2)] for d, cs in _q3cs.items()},
+    "ibm_guessing_floor_z_range": [round(min(c_["z"] for c_ in _q3cs["IBM"] if c_["id"] in _ibm_floor_ids), 2), round(max(c_["z"] for c_ in _q3cs["IBM"] if c_["id"] in _ibm_floor_ids), 2)],
+    "iqm_short_of_20_z_range": [round(min(c_["z"] for c_ in _q3cs["IQM"] if c_["id"] in _iqm_short_ids), 2), round(max(c_["z"] for c_ in _q3cs["IQM"] if c_["id"] in _iqm_short_ids), 2)]}
+# Check 6 (decision 55): the floor as a procedure at the device's fitted F', as Q5's limit is. q3_floor takes a device's
+# circuits (rows of q12 with their shots) and its fitted F' (one value, or one per circuit in the rows' order) and returns
+# the smallest of Q3_CANDIDATES standard errors at which the median-based test falsifies a true law in at most 1% of
+# Q3_DRAWS_FLOOR draws (the law exact, normal sample means with Popoviciu's standard error, seed 20261115 reset per
+# candidate), with the circuits it scores and the candidates tried; None when no circuit is scored at a candidate or no
+# candidate qualifies, which means no Q3 verdict on that device.
+def q3_floor(rows, shots_of, Fp, draws=Q3_DRAWS_FLOOR, candidates=Q3_CANDIDATES):
+    Fps = list(Fp) if isinstance(Fp, (list, tuple)) else [Fp] * len(rows)
+    cs = [q3_circuit(r, shots_of(r), f) for r, f in zip(rows, Fps)]
+    tried = {}
+    for m in candidates:
+        sc = [c_ for c_ in cs if c_["z"] >= m]
+        if not sc:
+            tried[str(m)] = {"scored": 0, "false_falsification_rate": None}
+            return None, [], tried
+        fr = q3_false_rate_n(sc, draws); tried[str(m)] = {"scored": len(sc), "false_falsification_rate": fr}
+        if fr <= 0.01: return m, sc, tried
+    return None, [], tried
+Q3_FP_SCALES = (1.0, 0.5, 0.3, 0.2)
+Q3_SHOTS_OF = {"IBM": lambda r: r["shots"], "IQM": lambda r: 2000}
+_byf = {}
+for s_ in Q3_FP_SCALES:
+    rec_ = {"F_prime": RETENTION * s_}
+    for dev, shots_of in Q3_SHOTS_OF.items():
+        m_, sc_, tried_ = q3_floor(q12, shots_of, RETENTION * s_)
+        rec_[dev] = {"floor": m_, "verdict": m_ is not None, "scored": len(sc_),
+                     "false_falsification_rate": tried_[str(m_)]["false_falsification_rate"] if m_ is not None else None, "tried": tried_}
+    _byf[str(s_)] = rec_
+_f_used = {dev: _byf["1.0"][dev]["floor"] for dev in Q3_SHOTS_OF}
+assert _f_used["IBM"] == _f_used["IQM"] == _chosen, (_f_used, _chosen)
+Q3N = {"floor_used": _f_used["IBM"],
+       "floor_rule": "a circuit is scored only if its predicted excess, F' (random mean - ideal mean), is at least a floor of standard errors of its sample mean, bounded by (e_max - e_min) / (2 sqrt(shots)) (Popoviciu); the floor is q3_floor: the smallest of 2, 3, 4, 6, 8 and 12 at which, with the device's fitted F', the median-based test (median miss factor over 1.25) falsifies a true law in at most 1% of 20,000 draws, and None (no Q3 verdict on that device) if no circuit is scored or no candidate qualifies; floor_used is its value at the device check's retention on IBM and on IQM, and by_fprime_scale records it at that retention scaled by 1.0, 0.5, 0.3 and 0.2",
+       "retention_as_F": RETENTION, "by_fprime_scale": _byf, "falsifier_floor": Q3FF, "superseded_single_circuit_floor": Q3SC}
+out["steps"]["q3_signal_floor"] = Q3N
 json.dump(out, open(args.out or os.path.join(V, "final_request.json"), "w"), indent=1)
 print(json.dumps({"table": table, "totals": out["totals"], "costs": out["costs"], "controls": CTRL}, indent=1))

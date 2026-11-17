@@ -575,6 +575,27 @@ value (quantum_gate) and reports no joules.
    24 to 60 variables; the router's first send-outs are A and C at 60 (finding 8); the IonQ emulator's 30% point 127 to 155 by fits that handle the floor, 390 by the plain rule.
    vendor/scripts/quantinuum-2025/emulator_defaults.py: the dates of Quantinuum's emulator default parameters, read from
    its documentation pages (named by SHA-256, not copied).
+   Fresh-read round (package v1.0.3; vendor/scripts/final_request.py, final_request.json `steps.q5_neglog_criterion` and
+   `steps.q3_signal_floor`), revised after an independent check. Q5: a miss factor of 1.25 on F′ allows a miss of 1.4
+   times on −ln F′ at F′ = 0.6 and 3.1 at 0.9, so on IonQ and Quantinuum, where the core programs keep high fidelity, the
+   law is also scored on −ln F′ over held-out programs whose prediction loses at least 20 traces. Its limit is a procedure
+   fixed now: the 99th percentile of the median miss on −ln F′ under shot noise alone, simulated with the device's own
+   fitted law taken as exact (binomial trace counts at the requested shots, the guessing floor and Q5's exclusions,
+   programs split alternately by position in the name order, 2,000 draws). With our device models' law (IonQ 26
+   programs at 500 shots, Quantinuum 71 at 200) it is 1.174 and 1.245, stated as 1.18 and 1.25. On a device with less
+   error it is higher: with every program's −ln F′ scaled by 0.7, 0.5, 0.4 and 0.3 it is 1.20, 1.23, 1.24 and 1.27 on
+   IonQ and 1.30, 1.38, 1.44 and 1.56 on Quantinuum, while the limits at the models' error would be exceeded by shot
+   noise alone in up to 10% (IonQ) and 27% (Quantinuum) of draws. If no program qualifies, only the F′ criterion applies.
+   Q3: the sample mean energy's standard error is at most half the instance's energy range over the square root of the
+   shots (Popoviciu's bound). The scoring floor is a procedure fixed now, set by the median-based test it serves at the
+   device's fitted F′: of 2, 3, 4, 6, 8 and 12 standard errors, the smallest at which shot noise alone falsifies a true
+   law in at most 1% of 20,000 draws, with no Q3 verdict on a device where none qualifies. At the device check's
+   retention (0.258), with IBM's requested shots and 2,000 on IQM, it is 2 on both (no false falsification in 20,000
+   draws), and all 84 IBM and all 84 IQM QAOA circuits clear it, including the 26 IBM circuits at the guessing floor and
+   the 48 IQM circuits short of 20 expected successes. At half that retention it is still 2 (71 IBM and 58 IQM circuits
+   scored); at 0.3 of it, 2 on IBM (48 scored) and none on IQM; at 0.2 of it, none on either, where a fixed floor of 2
+   would falsify a true law in 5.5% (IBM) and 59% (IQM) of draws. (A single-circuit floor of 12 standard errors, the first
+   draft of this round, would have scored 45 and 24.)
 
 ## Detail moved from the application (16 November 2026)
 The application was shortened for reading on 16 November 2026. What it no longer carries is kept here word for word: its
